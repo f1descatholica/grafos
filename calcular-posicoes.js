@@ -1,18 +1,20 @@
 // ============================================================
 // CALCULADOR DE POSIÇÕES — VERSÃO GENÉRICA (N GRAFOS)
 // ============================================================
-// COMO ORGANIZAR OS ARQUIVOS:
+// COMO ORGANIZAR OS ARQUIVOS (pastas de grafo na RAIZ do repositório):
 //
-//   grafos/
+//   (raiz do repositório)
 //     nome-do-grafo-1/
 //       dados-grafo.js
 //     nome-do-grafo-2/
 //       dados-grafo.js
+//     calcular-posicoes.js   (este arquivo, também na raiz)
 //     ...
 //
 // O QUE FAZ:
-// - Varre a pasta "grafos/" sozinho, sem precisar editar este arquivo
-//   quando você criar um grafo novo (basta criar a pasta).
+// - Varre a raiz do repositório sozinho, sem precisar editar este
+//   arquivo quando você criar um grafo novo (basta criar a pasta).
+// - Ignora pastas que não são de grafo (.github, .git, node_modules).
 // - Para cada "dados-grafo.js" encontrado, calcula x/y (respeitando o
 //   "level" que você já definiu à mão em cada nó) e salva um
 //   "dados-com-posicoes.json" na MESMA pasta do grafo.
@@ -25,7 +27,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const PASTA_GRAFOS = path.join(__dirname, 'grafos');
+const PASTA_GRAFOS = __dirname;
+const PASTAS_IGNORADAS = ['.github', '.git', 'node_modules'];
 const ESPACAMENTO_NIVEL = 200;
 const ESPACAMENTO_NO = 250;
 const NUM_PASSADAS = 6;
@@ -88,14 +91,10 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
 }
 
 function encontrarPastasDeGrafo() {
-  if (!fs.existsSync(PASTA_GRAFOS)) {
-    console.error('ERRO: não encontrei a pasta "grafos/" na raiz do repositório.');
-    console.error('Crie "grafos/nome-do-seu-grafo/dados-grafo.js" e rode de novo.');
-    process.exit(1);
-  }
   return fs.readdirSync(PASTA_GRAFOS, { withFileTypes: true })
     .filter(function(item) { return item.isDirectory(); })
-    .map(function(item) { return item.name; });
+    .map(function(item) { return item.name; })
+    .filter(function(nome) { return PASTAS_IGNORADAS.indexOf(nome) === -1; });
 }
 
 function main() {
