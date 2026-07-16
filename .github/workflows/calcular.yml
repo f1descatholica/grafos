@@ -1,0 +1,34 @@
+name: Calcular posições dos grafos
+
+# Roda sozinho toda vez que QUALQUER grafo (em qualquer pasta) for atualizado
+on:
+  push:
+    paths:
+      - 'grafos/**/dados-grafo.js'
+
+# Permissão para o robô conseguir salvar os resultados de volta no repositório
+permissions:
+  contents: write
+
+jobs:
+  calcular:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar o Node.js (sem precisar instalar nada)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rodar o cálculo de posições (todos os grafos de uma vez)
+        run: node calcular-posicoes.js
+
+      - name: Salvar os resultados de volta no repositório
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add grafos/**/dados-com-posicoes.json
+          git commit -m "Atualiza posições dos grafos" || echo "Nada novo para salvar"
+          git push
