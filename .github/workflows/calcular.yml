@@ -1,10 +1,12 @@
 name: Calcular posições dos grafos
 
-# Roda sozinho toda vez que QUALQUER grafo (em qualquer pasta da raiz) for atualizado
+# Roda sozinho toda vez que QUALQUER grafo (em qualquer pasta da raiz) for atualizado,
+# ou manualmente quando você clicar em "Run workflow" na aba Actions.
 on:
   push:
     paths:
       - '*/dados-grafo.js'
+  workflow_dispatch: {}
 
 # Permissão para o robô conseguir salvar os resultados de volta no repositório
 permissions:
