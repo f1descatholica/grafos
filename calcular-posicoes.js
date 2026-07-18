@@ -48,14 +48,47 @@ function hashEstavel(texto) {
   return h;
 }
 
+
+
+
+
+
+
 function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
   var niveis = {};
   var nivelDoNo = {};
+  
+  // 1. MAPEAMENTO ESTRUTURAL: Descobrir e ordenar as "Linhas Visuais" (level + fileira)
+  var combinacoes = [];
   todosNos.forEach(function(n) {
-    var lvl = n.level;
-    if (!niveis[lvl]) niveis[lvl] = [];
-    niveis[lvl].push(n.id);
-    nivelDoNo[n.id] = lvl;
+    var f = n.fileira || 0; // Se não tiver fileira, assume 0
+    var chave = n.level + '-' + f;
+    if (!combinacoes.find(function(c) { return c.chave === chave; })) {
+      combinacoes.push({ level: n.level, fileira: f, chave: chave });
+    }
+  });
+  
+  // Ordena de cima para baixo: primeiro por nível, depois por fileira dentro do nível
+  combinacoes.sort(function(a, b) {
+    if (a.level !== b.level) return a.level - b.level;
+    return a.fileira - b.fileira;
+  });
+  
+  // Cria um índice numérico sequencial (0, 1, 2...) para calcular o Eixo Y
+  var mapaLinhaVisual = {};
+  combinacoes.forEach(function(c, idx) {
+    mapaLinhaVisual[c.chave] = idx;
+  });
+
+  // 2. AGRUPAMENTO: Agrupa os nós baseando-se nessa Linha Visual, não apenas no level
+  todosNos.forEach(function(n) {
+    var f = n.fileira || 0;
+    var chave = n.level + '-' + f;
+    var linhaVisual = mapaLinhaVisual[chave];
+    
+    if (!niveis[linhaVisual]) niveis[linhaVisual] = [];
+    niveis[linhaVisual].push(n.id);
+    nivelDoNo[n.id] = linhaVisual; 
   });
 
   var listaNiveis = Object.keys(niveis).map(Number).sort(function(a, b) { return a - b; });
@@ -95,23 +128,16 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
     for (var j = listaNiveis.length - 1; j >= 0; j--) ordenarNivelPorBaricentro(listaNiveis[j]);
   }
 
-  
-  
-  
-  
-  
-  
-  
   var mapaNoPorId = {};
   todosNos.forEach(function(n) { mapaNoPorId[n.id] = n; });
 
-  // Validação forte: nunca confia cegamente no label recebido.
+  // Validação forte de largura para o Eixo X
   function calcularLarguraNo(id) {
     var no = mapaNoPorId[id];
     var textoBase = (no && no.label !== undefined && no.label !== null)
       ? String(no.label).trim()
       : '';
-    if (textoBase.length === 0) textoBase = String(id).trim(); // fallback: sem label, usa o id
+    if (textoBase.length === 0) textoBase = String(id).trim(); 
     var comprimento = textoBase.length;
     if (comprimento < TAMANHO_MINIMO_LABEL) comprimento = TAMANHO_MINIMO_LABEL;
     if (comprimento > TAMANHO_MAXIMO_LABEL) comprimento = TAMANHO_MAXIMO_LABEL;
@@ -127,27 +153,48 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
     idsOrdenados.forEach(function(id, idx) {
       var w = larguras[idx];
       var centro = acumulado + w / 2;
-      xPorNo[id] = centro - larguraTotal / 2;
+      xPorNo[id] = centro - larguraTotal / 2; // Centraliza cada fileira perfeitamente
       acumulado += w;
     });
   });
 
+  // Quantas fileiras cada nível tem — usado para dividir o espaço
+  // interno do nível sem nunca invadir o nível vizinho.
+  var maxFileiraPorNivel = {};
+  todosNos.forEach(function(n) {
+    var f = n.fileira || 0;
+    if (maxFileiraPorNivel[n.level] === undefined || f > maxFileiraPorNivel[n.level]) {
+      maxFileiraPorNivel[n.level] = f;
+    }
+  });
+
+  // 3. FINALIZAÇÃO: Aplica as posições finais
   return todosNos.map(function(n) {
-    var fatorHash = hashEstavel(String(n.id)) / 1000; // 0 a 1, estável por id
-    var desnivel = (fatorHash - 0.5) * 2 * DESNIVEL_MAXIMO; // entre -15 e +15
-    var y = n.level * ESPACAMENTO_NIVEL + desnivel;
+    var fatorHash = hashEstavel(String(n.id)) / 1000;
+    var desnivel = (fatorHash - 0.5) * 2 * DESNIVEL_MAXIMO;
+
+    var f = n.fileira || 0;
+    var totalFileirasDoNivel = (maxFileiraPorNivel[n.level] || 0) + 1;
+    // Fileira NUNCA ocupa um andar inteiro — só uma fatia pequena
+    // (no máximo metade do espaçamento entre níveis, dividida entre
+    // as fileiras existentes). Nível continua sendo nível.
+    var espacamentoFileira = Math.min(30, (ESPACAMENTO_NIVEL * 0.4) / totalFileirasDoNivel);
+    var offsetFileira = f * espacamentoFileira;
+
+    var y = n.level * ESPACAMENTO_NIVEL + offsetFileira + desnivel;
+
     return Object.assign({}, n, { x: xPorNo[n.id], y: y });
   });
-  
-  
-  
-  
-  
-  
-  
-  
-  
 }
+
+
+
+
+
+
+
+
+
 
 function encontrarPastasDeGrafo() {
   return fs.readdirSync(PASTA_GRAFOS, { withFileTypes: true })
