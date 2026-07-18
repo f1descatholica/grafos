@@ -35,6 +35,18 @@ const ESPACAMENTO_POR_CARACTERE = 14;  // espaço extra por letra do nome
 const TAMANHO_MINIMO_LABEL = 3;        // piso: nome curto não gera espaço ínfimo
 const TAMANHO_MAXIMO_LABEL = 40;       // teto: nome gigante não infla o nível todo
 const NUM_PASSADAS = 6;
+const DESNIVEL_MAXIMO = 15;            // variação vertical dentro do nível (bem menor que ESPACAMENTO_NIVEL)
+
+// Gera um número estável (0 a 999) a partir do texto do id — mesmo id
+// sempre produz o mesmo resultado, então o desnível não "pula" entre
+// execuções do robô, só muda se o id do nó mudar.
+function hashEstavel(texto) {
+  var h = 0;
+  for (var i = 0; i < texto.length; i++) {
+    h = (h * 31 + texto.charCodeAt(i)) % 1000;
+  }
+  return h;
+}
 
 function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
   var niveis = {};
@@ -121,7 +133,9 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
   });
 
   return todosNos.map(function(n) {
-    var y = n.level * ESPACAMENTO_NIVEL;
+    var fatorHash = hashEstavel(String(n.id)) / 1000; // 0 a 1, estável por id
+    var desnivel = (fatorHash - 0.5) * 2 * DESNIVEL_MAXIMO; // entre -15 e +15
+    var y = n.level * ESPACAMENTO_NIVEL + desnivel;
     return Object.assign({}, n, { x: xPorNo[n.id], y: y });
   });
   
