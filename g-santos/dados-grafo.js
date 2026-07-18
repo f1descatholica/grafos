@@ -1,4 +1,3 @@
-
 var todosNos = [
     // ========== NÍVEL 1: SISTEMAS DE CLASSIFICAÇÃO E TEMPO ==========
     // Categoria: Ideia (Títulos) -> Fileira 1
@@ -11,6 +10,7 @@ var todosNos = [
     { id: '57', level: 1, fileira: 1, categoria: 'ideia', label: 'BISPO', grupo: 'ideia', font: { color: '#dca3ff', size: 13, bold: true } },
     { id: '59', level: 1, fileira: 1, categoria: 'ideia', label: 'ABADE', grupo: 'ideia', font: { color: '#ffb366', size: 13, bold: true } },
     { id: '60', level: 1, fileira: 1, categoria: 'ideia', label: 'VIÚVA', grupo: 'ideia', font: { color: '#ff99cc', size: 13, bold: true } },
+    { id: '58', level: 1, fileira: 1, categoria: 'ideia', label: 'ARCANJO', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
     
     // Categoria: Documento (Meses) -> Fileira 0
     { id: '70', level: 1, fileira: 0, categoria: 'documento', label: 'JANEIRO', grupo: 'documento', font: { color: '#ffffff', size: 14, bold: true } },
@@ -323,7 +323,7 @@ var todosNos = [
     { id: '63', level: 7, fileira: 1, categoria: 'reformada', label: 'Ordem Cisterciense', grupo: 'instituicao', font: { bold: true } },
     { id: '41', level: 7, fileira: 1, categoria: 'reformada', label: 'Carmelo Descalço', grupo: 'instituicao', font: { bold: true } },
 
-    // ========== NÍVEL 8: GEOGRAFIA (Atuação/Nascimento) ==========
+// ========== NÍVEL 8: GEOGRAFIA (Atuação/Nascimento) — 63 nós, 3 fileiras ==========
     { id: '130', level: 8, fileira: 0, categoria: 'atuacao', label: 'Nazaré', grupo: 'localizacao' },
     { id: '131', level: 8, fileira: 0, categoria: 'atuacao', label: 'Rio Jordão', grupo: 'localizacao' },
     { id: '132', level: 8, fileira: 0, categoria: 'atuacao', label: 'Éfeso', grupo: 'localizacao' },
@@ -344,7 +344,6 @@ var todosNos = [
     { id: '159', level: 8, fileira: 0, categoria: 'atuacao', label: 'Querala', grupo: 'localizacao' },
     { id: '160', level: 8, fileira: 0, categoria: 'atuacao', label: 'Etiópia', grupo: 'localizacao' },
     { id: '300', level: 8, fileira: 0, categoria: 'atuacao', label: 'Milão', grupo: 'localizacao' },
-    // Corte atuacao f1
     { id: '301', level: 8, fileira: 1, categoria: 'atuacao', label: 'Morávia', grupo: 'localizacao' },
     { id: '302', level: 8, fileira: 1, categoria: 'atuacao', label: 'Coimbra', grupo: 'localizacao' },
     { id: '303', level: 8, fileira: 1, categoria: 'atuacao', label: 'Vallombrosa', grupo: 'localizacao' },
@@ -362,10 +361,10 @@ var todosNos = [
     { id: '319', level: 8, fileira: 1, categoria: 'atuacao', label: 'Monte Vergine', grupo: 'localizacao' },
     { id: '500', level: 8, fileira: 1, categoria: 'atuacao', label: 'Poitiers', grupo: 'localizacao' },
     { id: '501', level: 8, fileira: 1, categoria: 'atuacao', label: 'Glanfeuil', grupo: 'localizacao' },
+    { id: '502', level: 8, fileira: 1, categoria: 'atuacao', label: 'Odense', grupo: 'localizacao' },
     { id: '503', level: 8, fileira: 1, categoria: 'atuacao', label: 'Saragoça', grupo: 'localizacao' },
     { id: '504', level: 8, fileira: 1, categoria: 'atuacao', label: 'Barcelona', grupo: 'localizacao' },
-    { id: '505', level: 8, fileira: 1, categoria: 'atuacao', label: 'Esmirna', grupo: 'localizacao' },
-    // Corte atuacao f2
+    { id: '505', level: 8, fileira: 2, categoria: 'atuacao', label: 'Esmirna', grupo: 'localizacao' },
     { id: '506', level: 8, fileira: 2, categoria: 'atuacao', label: 'Constantinopla', grupo: 'localizacao' },
     { id: '507', level: 8, fileira: 2, categoria: 'atuacao', label: 'Fiesole', grupo: 'localizacao' },
     { id: '508', level: 8, fileira: 2, categoria: 'atuacao', label: 'Creta', grupo: 'localizacao' },
@@ -375,14 +374,21 @@ var todosNos = [
     { id: '512', level: 8, fileira: 2, categoria: 'atuacao', label: 'Bréscia', grupo: 'localizacao' },
     { id: '513', level: 8, fileira: 2, categoria: 'atuacao', label: 'Fonte Avellana', grupo: 'localizacao' },
     { id: '514', level: 8, fileira: 2, categoria: 'atuacao', label: 'Isola Gran Sasso', grupo: 'localizacao' },
+    { id: '515', level: 8, fileira: 2, categoria: 'atuacao', label: 'Cracóvia', grupo: 'localizacao' },
     { id: '517', level: 8, fileira: 2, categoria: 'atuacao', label: 'Granada', grupo: 'localizacao' },
     { id: '518', level: 8, fileira: 2, categoria: 'atuacao', label: 'Irlanda', grupo: 'localizacao' },
     { id: '519', level: 8, fileira: 2, categoria: 'atuacao', label: 'Damasco', grupo: 'localizacao' },
     { id: '520', level: 8, fileira: 2, categoria: 'atuacao', label: 'Sevilha', grupo: 'localizacao' },
     { id: '521', level: 8, fileira: 2, categoria: 'atuacao', label: 'Valência', grupo: 'localizacao' },
+    { id: '522', level: 8, fileira: 2, categoria: 'atuacao', label: 'Tarragona', grupo: 'localizacao' },
+    { id: '523', level: 8, fileira: 2, categoria: 'atuacao', label: 'Cantuária', grupo: 'localizacao' },
+    { id: '524', level: 8, fileira: 2, categoria: 'atuacao', label: 'Seewis', grupo: 'localizacao' },
+    { id: '525', level: 8, fileira: 2, categoria: 'atuacao', label: 'Veneza', grupo: 'localizacao' },
+    { id: '526', level: 8, fileira: 2, categoria: 'atuacao', label: 'Friburgo', grupo: 'localizacao' },
     { id: '527', level: 8, fileira: 2, categoria: 'atuacao', label: 'Siena', grupo: 'localizacao' },
+    { id: '801', level: 8, fileira: 2, categoria: 'atuacao', label: 'Fátima', grupo: 'localizacao' },
 
-    // ========== NÍVEL 8: GEOGRAFIA (Martírio/Morte) ==========
+    // ========== NÍVEL 8: GEOGRAFIA (Martírio/Morte) — 21 nós, 1 fileira ==========
     { id: '26',  level: 8, fileira: 3, categoria: 'morte', label: 'Roma', grupo: 'localizacao', font: { bold: true } },
     { id: '133', level: 8, fileira: 3, categoria: 'morte', label: 'Jerusalém', grupo: 'localizacao', font: { bold: true } },
     { id: '136', level: 8, fileira: 3, categoria: 'morte', label: 'Óstia', grupo: 'localizacao' },
@@ -403,17 +409,7 @@ var todosNos = [
     { id: '314', level: 8, fileira: 3, categoria: 'morte', label: 'Chipre', grupo: 'localizacao' },
     { id: '320', level: 8, fileira: 3, categoria: 'morte', label: 'Paris', grupo: 'localizacao' },
     { id: '516', level: 8, fileira: 3, categoria: 'morte', label: 'Cartago', grupo: 'localizacao' },
-    // Corte morte f4
-    { id: '502', level: 8, fileira: 4, categoria: 'morte', label: 'Odense', grupo: 'localizacao' },
-    { id: '515', level: 8, fileira: 4, categoria: 'morte', label: 'Cracóvia', grupo: 'localizacao' },
-    { id: '522', level: 8, fileira: 4, categoria: 'morte', label: 'Tarragona', grupo: 'localizacao' },
-    { id: '523', level: 8, fileira: 4, categoria: 'morte', label: 'Cantuária', grupo: 'localizacao' },
-    { id: '524', level: 8, fileira: 4, categoria: 'morte', label: 'Seewis', grupo: 'localizacao' },
-    { id: '525', level: 8, fileira: 4, categoria: 'morte', label: 'Veneza', grupo: 'localizacao' },
-    { id: '526', level: 8, fileira: 4, categoria: 'morte', label: 'Friburgo', grupo: 'localizacao' },
-    // NOVOS LOCAIS CHAVE ADICIONADOS PARA NÃO QUEBRAR A REGRA E DEIXAR SANTOS SEM SETAS
-    { id: '800', level: 8, fileira: 4, categoria: 'morte', label: 'Tours', grupo: 'localizacao' },
-    { id: '801', level: 8, fileira: 4, categoria: 'atuacao', label: 'Fátima', grupo: 'localizacao' }
+    { id: '800', level: 8, fileira: 3, categoria: 'morte', label: 'Tours', grupo: 'localizacao' }
 ];
 
 var todosSetas = [
@@ -792,6 +788,20 @@ var todosSetas = [
     { from: '53', to: '713', title: 'título de', texto: 'título de' },
     { from: '53', to: '715', title: 'título de', texto: 'título de' },
     { from: '53', to: '720', title: 'título de', texto: 'título de' },
+
+    // Festa/Arcanjo (58) — título novo, para nós que não se encaixam
+    // nas categorias tradicionais (arcanjos, festas e mistérios marianos/
+    // cristológicos). Exceção: 680 (S. Lucas Evangelista) é evangelista,
+    // não arcanjo/festa — incluído aqui por decisão explícita, mas
+    // conceitualmente destoa do grupo; revisar se fizer sentido depois.
+    { from: '58', to: '603', title: 'título de', texto: 'título de' },
+    { from: '58', to: '609', title: 'título de', texto: 'título de' },
+    { from: '58', to: '631', title: 'título de', texto: 'título de' },
+    { from: '58', to: '632', title: 'título de', texto: 'título de' },
+    { from: '58', to: '638', title: 'título de', texto: 'título de' },
+    { from: '58', to: '644', title: 'título de', texto: 'título de' },
+    { from: '58', to: '680', title: 'título de', texto: 'título de' },
+    { from: '58', to: '685', title: 'título de', texto: 'título de' },
 
     // ========== CALENDÁRIO -> SANTOS ==========
     // Janeiro (70)
