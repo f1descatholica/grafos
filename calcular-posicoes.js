@@ -35,7 +35,7 @@ const ESPACAMENTO_POR_CARACTERE = 14;  // espaço extra por letra do nome
 const TAMANHO_MINIMO_LABEL = 3;        // piso: nome curto não gera espaço ínfimo
 const TAMANHO_MAXIMO_LABEL = 40;       // teto: nome gigante não infla o nível todo
 const NUM_PASSADAS = 6;
-const DESNIVEL_MAXIMO = 15;            // variação vertical dentro do nível (bem menor que ESPACAMENTO_NIVEL)
+const DESNIVEL_MAXIMO = 70;            // variação vertical dentro do nível (ainda bem menor que ESPACAMENTO_NIVEL de 200, mas visível mesmo com o grafo muito mais largo que alto)
 
 // Gera um número estável (0 a 999) a partir do texto do id — mesmo id
 // sempre produz o mesmo resultado, então o desnível não "pula" entre
