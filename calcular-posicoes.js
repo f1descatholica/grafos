@@ -30,7 +30,10 @@ const path = require('path');
 const PASTA_GRAFOS = __dirname;
 const PASTAS_IGNORADAS = ['.github', '.git', 'node_modules'];
 const ESPACAMENTO_NIVEL = 200;
-const ESPACAMENTO_NO = 250;
+const ESPACAMENTO_NO_BASE = 150;       // espaço mínimo garantido entre nós
+const ESPACAMENTO_POR_CARACTERE = 14;  // espaço extra por letra do nome
+const TAMANHO_MINIMO_LABEL = 3;        // piso: nome curto não gera espaço ínfimo
+const TAMANHO_MAXIMO_LABEL = 40;       // teto: nome gigante não infla o nível todo
 const NUM_PASSADAS = 6;
 
 function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
@@ -80,14 +83,56 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
     for (var j = listaNiveis.length - 1; j >= 0; j--) ordenarNivelPorBaricentro(listaNiveis[j]);
   }
 
-  return todosNos.map(function(n) {
-    var idsDoNivel = niveis[n.level];
-    var totalNivel = idsDoNivel.length;
-    var indice = posX[n.id];
-    var xCentralizado = (indice - (totalNivel - 1) / 2) * ESPACAMENTO_NO;
-    var y = n.level * ESPACAMENTO_NIVEL;
-    return Object.assign({}, n, { x: xCentralizado, y: y });
+  
+  
+  
+  
+  
+  
+  
+  var mapaNoPorId = {};
+  todosNos.forEach(function(n) { mapaNoPorId[n.id] = n; });
+
+  // Validação forte: nunca confia cegamente no label recebido.
+  function calcularLarguraNo(id) {
+    var no = mapaNoPorId[id];
+    var textoBase = (no && no.label !== undefined && no.label !== null)
+      ? String(no.label).trim()
+      : '';
+    if (textoBase.length === 0) textoBase = String(id).trim(); // fallback: sem label, usa o id
+    var comprimento = textoBase.length;
+    if (comprimento < TAMANHO_MINIMO_LABEL) comprimento = TAMANHO_MINIMO_LABEL;
+    if (comprimento > TAMANHO_MAXIMO_LABEL) comprimento = TAMANHO_MAXIMO_LABEL;
+    return ESPACAMENTO_NO_BASE + comprimento * ESPACAMENTO_POR_CARACTERE;
+  }
+
+  var xPorNo = {};
+  listaNiveis.forEach(function(lvl) {
+    var idsOrdenados = niveis[lvl];
+    var larguras = idsOrdenados.map(calcularLarguraNo);
+    var larguraTotal = larguras.reduce(function(a, b) { return a + b; }, 0);
+    var acumulado = 0;
+    idsOrdenados.forEach(function(id, idx) {
+      var w = larguras[idx];
+      var centro = acumulado + w / 2;
+      xPorNo[id] = centro - larguraTotal / 2;
+      acumulado += w;
+    });
   });
+
+  return todosNos.map(function(n) {
+    var y = n.level * ESPACAMENTO_NIVEL;
+    return Object.assign({}, n, { x: xPorNo[n.id], y: y });
+  });
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
 
 function encontrarPastasDeGrafo() {
