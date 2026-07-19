@@ -1421,3 +1421,4 @@ var todosSetas = [
     { from: '75', to: '61', title: 'inspirou patronato', texto: 'inspirou patronato', dashes: true },
     { from: '85', to: '6', title: 'irmã de', texto: 'irmã de', dashes: true }
 ];
+module.exports = { todosNos, todosSetas };
