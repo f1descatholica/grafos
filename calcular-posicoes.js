@@ -1,27 +1,17 @@
 // ============================================================
 // CALCULADOR DE POSIÇÕES — VERSÃO GENÉRICA (N GRAFOS)
 // ============================================================
-// COMO ORGANIZAR OS ARQUIVOS (pastas de grafo na RAIZ do repositório):
-//
-//   (raiz do repositório)
-//     nome-do-grafo-1/
-//       dados-grafo.js
-//     nome-do-grafo-2/
-//       dados-grafo.js
-//     calcular-posicoes.js   (este arquivo, também na raiz)
-//     ...
-//
-// O QUE FAZ:
-// - Varre a raiz do repositório sozinho, sem precisar editar este
-//   arquivo quando você criar um grafo novo (basta criar a pasta).
-// - Ignora pastas que não são de grafo (.github, .git, node_modules).
-// - Para cada "dados-grafo.js" encontrado, calcula x/y (respeitando o
-//   "level" que você já definiu à mão em cada nó) e salva um
-//   "dados-com-posicoes.json" na MESMA pasta do grafo.
-// - Um grafo com erro não impede os outros de serem calculados.
-//
-// COMO RODAR (GitHub Actions já faz isso sozinho):
-//   node calcular-posicoes.js
+// MUDANÇA IMPORTANTE NESTA VERSÃO:
+// - O campo "fileira" SAIU dos dados brutos. Agora o próprio
+//   calculador decide quantas linhas (fileiras) cada nível precisa,
+//   olhando só pra "categoria" (se existir) e pra contagem de nós.
+// - Regra: nós da MESMA categoria ficam sempre juntos, nunca dividem
+//   linha com outra categoria. Só quando uma categoria sozinha passa
+//   de NOS_POR_FILEIRA, ela quebra em mais de uma linha.
+// - Nós sem "categoria" continuam se comportando como uma linha só
+//   (ou várias, se passarem do limite).
+// - A altura de cada nível não é mais fixa: ela cresce de acordo com
+//   quantas linhas (fileiras) aquele nível realmente tem.
 // ============================================================
 
 const fs = require('fs');
@@ -29,70 +19,111 @@ const path = require('path');
 
 const PASTA_GRAFOS = __dirname;
 const PASTAS_IGNORADAS = ['.github', '.git', 'node_modules'];
-const ESPACAMENTO_NIVEL = 200;
-const ESPACAMENTO_NO_BASE = 150;       // espaço mínimo garantido entre nós
-const ESPACAMENTO_POR_CARACTERE = 14;  // espaço extra por letra do nome
-const TAMANHO_MINIMO_LABEL = 3;        // piso: nome curto não gera espaço ínfimo
-const TAMANHO_MAXIMO_LABEL = 40;       // teto: nome gigante não infla o nível todo
-const NUM_PASSADAS = 6;
-const DESNIVEL_MAXIMO = 130;            // variação vertical dentro do nível (ainda bem menor que ESPACAMENTO_NIVEL de 200, mas visível mesmo com o grafo muito mais largo que alto)
 
-// Gera um número estável (0 a 999) a partir do texto do id — mesmo id
-// sempre produz o mesmo resultado, então o desnível não "pula" entre
-// execuções do robô, só muda se o id do nó mudar.
-function hashEstavel(texto) {
-  var h = 0;
-  for (var i = 0; i < texto.length; i++) {
-    h = (h * 31 + texto.charCodeAt(i)) % 1000;
-  }
-  return h;
+// -------- PAINEL DE AJUSTE FINO (mexa só aqui) --------
+const NOS_POR_FILEIRA = 20;        // quantos nós cabem numa linha antes de quebrar pra próxima
+const ALTURA_POR_FILEIRA = 150;    // altura reservada pra CADA linha (fileira) dentro do nível
+const NUM_LINHAS_INTERNAS = 3;     // quantas "prateleiras" de altura dentro de uma fileira (zig-zag)
+const ESPACAMENTO_NO_BASE = 150;   // espaço mínimo garantido entre nós, no eixo X
+const ESPACAMENTO_POR_CARACTERE = 14;
+const TAMANHO_MINIMO_LABEL = 3;
+const TAMANHO_MAXIMO_LABEL = 40;
+const NUM_PASSADAS = 6;            // passadas de refinamento do baricentro (eixo X)
+// -------------------------------------------------------
+
+
+// Agrupa os nós de UM nível em "fileiras" (linhas horizontais):
+// primeiro separa por categoria (mantendo a ordem em que cada
+// categoria aparece nos dados), depois quebra cada categoria em
+// pedaços de no máximo NOS_POR_FILEIRA nós, na ordem original.
+function construirFileirasDoNivel(nosDoNivel) {
+  var ordemCategorias = [];
+  var gruposPorCategoria = {};
+
+  nosDoNivel.forEach(function(n) {
+    var chave = (n.categoria !== undefined && n.categoria !== null)
+      ? String(n.categoria)
+      : '__sem_categoria__';
+    if (!gruposPorCategoria[chave]) {
+      gruposPorCategoria[chave] = [];
+      ordemCategorias.push(chave);
+    }
+    gruposPorCategoria[chave].push(n);
+  });
+
+  var fileiras = [];
+  ordemCategorias.forEach(function(chave) {
+    var nosDaCategoria = gruposPorCategoria[chave];
+    for (var i = 0; i < nosDaCategoria.length; i += NOS_POR_FILEIRA) {
+      fileiras.push(nosDaCategoria.slice(i, i + NOS_POR_FILEIRA));
+    }
+  });
+  return fileiras; // array de arrays de nós, já na ordem final de empilhamento
 }
 
 
-
-
-
-
-
 function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
-  var niveis = {};
-  var nivelDoNo = {};
-  
-  // 1. MAPEAMENTO ESTRUTURAL: Descobrir e ordenar as "Linhas Visuais" (level + fileira)
-  var combinacoes = [];
+  // 1. Agrupa nós por nível
+  var nosPorNivel = {};
   todosNos.forEach(function(n) {
-    var f = n.fileira || 0; // Se não tiver fileira, assume 0
-    var chave = n.level + '-' + f;
-    if (!combinacoes.find(function(c) { return c.chave === chave; })) {
-      combinacoes.push({ level: n.level, fileira: f, chave: chave });
-    }
+    if (!nosPorNivel[n.level]) nosPorNivel[n.level] = [];
+    nosPorNivel[n.level].push(n);
   });
-  
-  // Ordena de cima para baixo: primeiro por nível, depois por fileira dentro do nível
-  combinacoes.sort(function(a, b) {
-    if (a.level !== b.level) return a.level - b.level;
-    return a.fileira - b.fileira;
-  });
-  
-  // Cria um índice numérico sequencial (0, 1, 2...) para calcular o Eixo Y
-  var mapaLinhaVisual = {};
-  combinacoes.forEach(function(c, idx) {
-    mapaLinhaVisual[c.chave] = idx;
+  var listaNiveis = Object.keys(nosPorNivel).map(Number).sort(function(a, b) { return a - b; });
+
+  // 2. Constrói as fileiras de cada nível e calcula a altura total que
+  //    cada nível vai ocupar (número de fileiras × altura por fileira)
+  var fileirasPorNivel = {};
+  var alturaTotalPorNivel = {};
+  listaNiveis.forEach(function(lvl) {
+    var fileiras = construirFileirasDoNivel(nosPorNivel[lvl]);
+    fileirasPorNivel[lvl] = fileiras;
+    alturaTotalPorNivel[lvl] = fileiras.length * ALTURA_POR_FILEIRA;
   });
 
-  // 2. AGRUPAMENTO: Agrupa os nós baseando-se nessa Linha Visual, não apenas no level
-  todosNos.forEach(function(n) {
-    var f = n.fileira || 0;
-    var chave = n.level + '-' + f;
-    var linhaVisual = mapaLinhaVisual[chave];
-    
-    if (!niveis[linhaVisual]) niveis[linhaVisual] = [];
-    niveis[linhaVisual].push(n.id);
-    nivelDoNo[n.id] = linhaVisual; 
+  // 3. Altura acumulada: onde cada nível começa no eixo Y (soma das
+  //    alturas de todos os níveis anteriores — nunca mais nível × valor fixo)
+  var yBasePorNivel = {};
+  var acumulado = 0;
+  listaNiveis.forEach(function(lvl) {
+    yBasePorNivel[lvl] = acumulado;
+    acumulado += alturaTotalPorNivel[lvl];
   });
 
-  var listaNiveis = Object.keys(niveis).map(Number).sort(function(a, b) { return a - b; });
+  // 4. Para cada nó: define sua "linha visual" (nível+fileira computados,
+  //    usada só pro agrupamento do eixo X) e seu Y final (nível acumulado
+  //    + posição da fileira + sublinha em zig-zag dentro da fileira)
+  var niveis = {};           // linhaVisualIndex -> array de ids (equivalente ao "niveis" da versão antiga)
+  var yFinalPorNo = {};
+  var linhaVisualIndex = 0;
 
+  listaNiveis.forEach(function(lvl) {
+    fileirasPorNivel[lvl].forEach(function(nosDaFileira) {
+      var idsDaFileira = [];
+      nosDaFileira.forEach(function(n, indiceNoNaFileira) {
+        idsDaFileira.push(n.id);
+
+        // Sublinha em zig-zag: 1º nó -> linha 0, 2º -> linha 1, 3º -> linha 2,
+        // 4º -> linha 0 de novo, e assim por diante (ordem original dos dados).
+        var subLinha = indiceNoNaFileira % NUM_LINHAS_INTERNAS;
+        var alturaFatia = ALTURA_POR_FILEIRA / NUM_LINHAS_INTERNAS;
+        var yDentroDaFileira = (subLinha + 0.5) * alturaFatia; // centro da fatia
+
+        var indiceFileiraDentroDoNivel = fileirasPorNivel[lvl].indexOf(nosDaFileira);
+        yFinalPorNo[n.id] = yBasePorNivel[lvl]
+          + indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA
+          + yDentroDaFileira;
+      });
+      niveis[linhaVisualIndex] = idsDaFileira;
+      linhaVisualIndex++;
+    });
+  });
+
+  var listaLinhasVisuais = Object.keys(niveis).map(Number).sort(function(a, b) { return a - b; });
+
+  // 5. Baricentro pro eixo X — mesma lógica já validada antes, só que
+  //    agora aplicada sobre as fileiras computadas, não sobre um campo
+  //    "fileira" vindo pronto dos dados.
   var vizinhos = {};
   todosNos.forEach(function(n) { vizinhos[n.id] = []; });
   todosSetas.forEach(function(e) {
@@ -101,7 +132,7 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
   });
 
   var posX = {};
-  listaNiveis.forEach(function(lvl) {
+  listaLinhasVisuais.forEach(function(lvl) {
     niveis[lvl].forEach(function(id, idx) { posX[id] = idx; });
   });
 
@@ -124,20 +155,19 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
   }
 
   for (var passada = 0; passada < NUM_PASSADAS; passada++) {
-    for (var i = 0; i < listaNiveis.length; i++) ordenarNivelPorBaricentro(listaNiveis[i]);
-    for (var j = listaNiveis.length - 1; j >= 0; j--) ordenarNivelPorBaricentro(listaNiveis[j]);
+    for (var i = 0; i < listaLinhasVisuais.length; i++) ordenarNivelPorBaricentro(listaLinhasVisuais[i]);
+    for (var j = listaLinhasVisuais.length - 1; j >= 0; j--) ordenarNivelPorBaricentro(listaLinhasVisuais[j]);
   }
 
   var mapaNoPorId = {};
   todosNos.forEach(function(n) { mapaNoPorId[n.id] = n; });
 
-  // Validação forte de largura para o Eixo X
   function calcularLarguraNo(id) {
     var no = mapaNoPorId[id];
     var textoBase = (no && no.label !== undefined && no.label !== null)
       ? String(no.label).trim()
       : '';
-    if (textoBase.length === 0) textoBase = String(id).trim(); 
+    if (textoBase.length === 0) textoBase = String(id).trim();
     var comprimento = textoBase.length;
     if (comprimento < TAMANHO_MINIMO_LABEL) comprimento = TAMANHO_MINIMO_LABEL;
     if (comprimento > TAMANHO_MAXIMO_LABEL) comprimento = TAMANHO_MAXIMO_LABEL;
@@ -145,55 +175,24 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
   }
 
   var xPorNo = {};
-  listaNiveis.forEach(function(lvl) {
+  listaLinhasVisuais.forEach(function(lvl) {
     var idsOrdenados = niveis[lvl];
     var larguras = idsOrdenados.map(calcularLarguraNo);
     var larguraTotal = larguras.reduce(function(a, b) { return a + b; }, 0);
-    var acumulado = 0;
+    var acumuladoX = 0;
     idsOrdenados.forEach(function(id, idx) {
       var w = larguras[idx];
-      var centro = acumulado + w / 2;
-      xPorNo[id] = centro - larguraTotal / 2; // Centraliza cada fileira perfeitamente
-      acumulado += w;
+      var centro = acumuladoX + w / 2;
+      xPorNo[id] = centro - larguraTotal / 2;
+      acumuladoX += w;
     });
   });
 
-  // Quantas fileiras cada nível tem — usado para dividir o espaço
-  // interno do nível sem nunca invadir o nível vizinho.
-  var maxFileiraPorNivel = {};
-  todosNos.forEach(function(n) {
-    var f = n.fileira || 0;
-    if (maxFileiraPorNivel[n.level] === undefined || f > maxFileiraPorNivel[n.level]) {
-      maxFileiraPorNivel[n.level] = f;
-    }
-  });
-
-  // 3. FINALIZAÇÃO: Aplica as posições finais
+  // 6. Finalização: aplica x e y definitivos
   return todosNos.map(function(n) {
-    var fatorHash = hashEstavel(String(n.id)) / 1000;
-    var desnivel = (fatorHash - 0.5) * 2 * DESNIVEL_MAXIMO;
-
-    var f = n.fileira || 0;
-    var totalFileirasDoNivel = (maxFileiraPorNivel[n.level] || 0) + 1;
-    // Fileira NUNCA ocupa um andar inteiro — só uma fatia pequena
-    // (no máximo metade do espaçamento entre níveis, dividida entre
-    // as fileiras existentes). Nível continua sendo nível.
-    var espacamentoFileira = Math.min(30, (ESPACAMENTO_NIVEL * 0.4) / totalFileirasDoNivel);
-    var offsetFileira = f * espacamentoFileira;
-
-    var y = n.level * ESPACAMENTO_NIVEL + offsetFileira + desnivel;
-
-    return Object.assign({}, n, { x: xPorNo[n.id], y: y });
+    return Object.assign({}, n, { x: xPorNo[n.id], y: yFinalPorNo[n.id] });
   });
 }
-
-
-
-
-
-
-
-
 
 
 function encontrarPastasDeGrafo() {
@@ -207,7 +206,7 @@ function main() {
   var nomesDosGrafos = encontrarPastasDeGrafo();
 
   if (nomesDosGrafos.length === 0) {
-    console.log('Nenhuma pasta de grafo encontrada dentro de "grafos/". Nada a fazer.');
+    console.log('Nenhuma pasta de grafo encontrada. Nada a fazer.');
     return;
   }
 
@@ -242,4 +241,8 @@ function main() {
   console.log('Grafos com erro: ' + falhas);
 }
 
-main();
+module.exports = { calcularPosicoesDeUmGrafo: calcularPosicoesDeUmGrafo };
+
+if (require.main === module) {
+  main();
+}
