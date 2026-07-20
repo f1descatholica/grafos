@@ -7,6 +7,7 @@
 //   olhando só pra "categoria" (se existir) e pra contagem de nós.
 // - Regra: nós da MESMA categoria ficam sempre juntos, nunca dividem
 //   linha com outra categoria. Só quando uma categoria sozinha passa
+//   linha com outra categoria. Só quando uma categoria sozinha passa
 //   de NOS_POR_FILEIRA, ela quebra em mais de uma linha.
 // - Nós sem "categoria" continuam se comportando como uma linha só
 //   (ou várias, se passarem do limite).
@@ -166,21 +167,7 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
 
   listaNiveis.forEach(function(lvl) {
     fileirasPorNivel[lvl].forEach(function(nosDaFileira) {
-      var idsDaFileira = [];
-      nosDaFileira.forEach(function(n, indiceNoNaFileira) {
-        idsDaFileira.push(n.id);
-
-        // Sublinha em zig-zag: 1º nó -> linha 0, 2º -> linha 1, 3º -> linha 2,
-        // 4º -> linha 0 de novo, e assim por diante (ordem original dos dados).
-        var subLinha = indiceNoNaFileira % NUM_LINHAS_INTERNAS;
-        var alturaFatia = ALTURA_POR_FILEIRA / NUM_LINHAS_INTERNAS;
-        var yDentroDaFileira = (subLinha + 0.5) * alturaFatia; // centro da fatia
-
-        var indiceFileiraDentroDoNivel = fileirasPorNivel[lvl].indexOf(nosDaFileira);
-        yFinalPorNo[n.id] = yBasePorNivel[lvl]
-          + indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA
-          + yDentroDaFileira;
-      });
+      var idsDaFileira = nosDaFileira.map(function(n) { return n.id; });
       niveis[linhaVisualIndex] = idsDaFileira;
       linhaVisualIndex++;
     });
@@ -233,6 +220,25 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
     for (var i = 0; i < listaLinhasVisuais.length; i++) ordenarNivelPorBaricentro(listaLinhasVisuais[i]);
     for (var j = listaLinhasVisuais.length - 1; j >= 0; j--) ordenarNivelPorBaricentro(listaLinhasVisuais[j]);
   }
+
+  // Zig-zag calculado AGORA, com a posição horizontal já definitiva —
+  // garante que vizinho na tela nunca cai no mesmo andar.
+  listaNiveis.forEach(function(lvl) {
+    fileirasPorNivel[lvl].forEach(function(nosDaFileira, indiceFileiraDentroDoNivel) {
+      var idsOrdenados = niveis[listaLinhasVisuais.find(function(idx) {
+        return niveis[idx].length === nosDaFileira.length &&
+          niveis[idx].every(function(id) { return nosDaFileira.some(function(n) { return n.id === id; }); });
+      })];
+      idsOrdenados.forEach(function(id, posicaoFinalNaTela) {
+        var subLinha = posicaoFinalNaTela % NUM_LINHAS_INTERNAS;
+        var alturaFatia = ALTURA_POR_FILEIRA / NUM_LINHAS_INTERNAS;
+        var yDentroDaFileira = (subLinha + 0.5) * alturaFatia;
+        yFinalPorNo[id] = yBasePorNivel[lvl]
+          + indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA
+          + yDentroDaFileira;
+      });
+    });
+  });
 
   var mapaNoPorId = {};
   todosNos.forEach(function(n) { mapaNoPorId[n.id] = n; });
