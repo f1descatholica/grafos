@@ -23,7 +23,7 @@ const PASTAS_IGNORADAS = ['.github', '.git', 'node_modules'];
 // -------- PAINEL DE AJUSTE FINO (mexa só aqui) --------
 const NOS_POR_FILEIRA = 20;        // quantos nós cabem numa linha antes de quebrar pra próxima
 const ALTURA_POR_FILEIRA = 150;    // altura reservada pra CADA linha (fileira) dentro do nível
-const NUM_LINHAS_INTERNAS = 3;     // quantas "prateleiras" de altura dentro de uma fileira (zig-zag)
+const NUM_LINHAS_INTERNAS = 2;     // quantas "prateleiras" de altura dentro de uma fileira (zig-zag)
 const ESPACAMENTO_NO_BASE = 150;   // espaço mínimo garantido entre nós, no eixo X
 const ESPACAMENTO_POR_CARACTERE = 14;
 const TAMANHO_MINIMO_LABEL = 3;
@@ -43,21 +43,34 @@ function extrairDiaDoTexto(texto) {
 // em 3 meses), fica com a MENOR (a mais cedo no calendário).
 // Nó sem nenhuma aresta de calendário -> fica de fora do mapa (undefined),
 // e cai só no baricentro, como combinado.
+function calcularSeculo(ano) {
+  if (ano === undefined || ano === null) return null;
+  return Math.floor((ano - 1) / 100) + 1;
+}
+
 function calcularDataChavePorNo(todosNos, todosSetas) {
   var mapaNo = {};
   todosNos.forEach(function(n) { mapaNo[n.id] = n; });
 
-  var dataChavePorNo = {};
+  // mês+dia mais cedo por santo (igual antes, só como refinamento)
+  var mesDiaPorNo = {};
   todosSetas.forEach(function(s) {
     var noOrigem = mapaNo[s.from];
     if (!noOrigem || noOrigem.mesNumero === undefined || noOrigem.mesNumero === null) return;
     var dia = extrairDiaDoTexto(s.texto);
     if (dia === null) return;
-    var chave = noOrigem.mesNumero * 100 + dia;
-    var atual = dataChavePorNo[s.to];
-    if (atual === undefined || chave < atual) {
-      dataChavePorNo[s.to] = chave;
-    }
+    var chaveMD = noOrigem.mesNumero * 100 + dia;
+    var atual = mesDiaPorNo[s.to];
+    if (atual === undefined || chaveMD < atual) mesDiaPorNo[s.to] = chaveMD;
+  });
+
+  // Chave final: SEM ano, não entra aqui (baricentro cuida, sem mudar de nível).
+  // COM ano: ano é a base; se tiver mês+dia do calendário, refina dentro do ano.
+  var dataChavePorNo = {};
+  todosNos.forEach(function(n) {
+    if (n.ano === undefined || n.ano === null) return;
+    var md = mesDiaPorNo[n.id];
+    dataChavePorNo[n.id] = (md !== undefined) ? (n.ano * 10000 + md) : (n.ano * 10000);
   });
   return dataChavePorNo;
 }
@@ -87,18 +100,26 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo) {
   var fileiras = [];
   ordemCategorias.forEach(function(chave) {
     var nosDaCategoria = gruposPorCategoria[chave];
-    // Pré-ordena por data. Nó sem data (undefined) não é forçado a mudar
-    // de posição (retorna 0), preservando ordem original — baricentro
-    // decide o resto dele depois.
     nosDaCategoria.sort(function(a, b) {
       var da = dataChavePorNo[a.id];
       var db = dataChavePorNo[b.id];
       if (da === undefined || db === undefined) return 0;
       return da - db;
     });
-    for (var i = 0; i < nosDaCategoria.length; i += NOS_POR_FILEIRA) {
-      fileiras.push(nosDaCategoria.slice(i, i + NOS_POR_FILEIRA));
-    }
+
+    var fileiraAtual = [];
+    var seculoAtual = null;
+    nosDaCategoria.forEach(function(n) {
+      var seculo = calcularSeculo(n.ano);
+      var mudouSeculo = (seculoAtual !== null && seculo !== null && seculo !== seculoAtual);
+      if (fileiraAtual.length > 0 && (fileiraAtual.length >= NOS_POR_FILEIRA || mudouSeculo)) {
+        fileiras.push(fileiraAtual);
+        fileiraAtual = [];
+      }
+      fileiraAtual.push(n);
+      if (seculo !== null) seculoAtual = seculo;
+    });
+    if (fileiraAtual.length > 0) fileiras.push(fileiraAtual);
   });
   return fileiras; // array de arrays de nós, já na ordem final de empilhamento
 }
