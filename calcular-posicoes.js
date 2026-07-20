@@ -31,12 +31,45 @@ const TAMANHO_MAXIMO_LABEL = 40;
 const NUM_PASSADAS = 6;            // passadas de refinamento do baricentro (eixo X)
 // -------------------------------------------------------
 
+// Extrai o número do dia de dentro do texto da aresta (ex: "Dia 15" -> 15)
+function extrairDiaDoTexto(texto) {
+  if (!texto) return null;
+  var m = String(texto).match(/\d+/);
+  return m ? parseInt(m[0], 10) : null;
+}
+
+// Pra cada nó, calcula sua "data-chave" (mes*100+dia) olhando todas as
+// arestas que chegam nele. Se o nó tiver mais de uma data (ex: S. Paulo
+// em 3 meses), fica com a MENOR (a mais cedo no calendário).
+// Nó sem nenhuma aresta de calendário -> fica de fora do mapa (undefined),
+// e cai só no baricentro, como combinado.
+function calcularDataChavePorNo(todosNos, todosSetas) {
+  var mapaNo = {};
+  todosNos.forEach(function(n) { mapaNo[n.id] = n; });
+
+  var dataChavePorNo = {};
+  todosSetas.forEach(function(s) {
+    var noOrigem = mapaNo[s.from];
+    if (!noOrigem || noOrigem.mesNumero === undefined || noOrigem.mesNumero === null) return;
+    var dia = extrairDiaDoTexto(s.texto);
+    if (dia === null) return;
+    var chave = noOrigem.mesNumero * 100 + dia;
+    var atual = dataChavePorNo[s.to];
+    if (atual === undefined || chave < atual) {
+      dataChavePorNo[s.to] = chave;
+    }
+  });
+  return dataChavePorNo;
+}
+
+
+
 
 // Agrupa os nós de UM nível em "fileiras" (linhas horizontais):
 // primeiro separa por categoria (mantendo a ordem em que cada
 // categoria aparece nos dados), depois quebra cada categoria em
 // pedaços de no máximo NOS_POR_FILEIRA nós, na ordem original.
-function construirFileirasDoNivel(nosDoNivel) {
+function construirFileirasDoNivel(nosDoNivel, dataChavePorNo) {
   var ordemCategorias = [];
   var gruposPorCategoria = {};
 
@@ -54,6 +87,15 @@ function construirFileirasDoNivel(nosDoNivel) {
   var fileiras = [];
   ordemCategorias.forEach(function(chave) {
     var nosDaCategoria = gruposPorCategoria[chave];
+    // Pré-ordena por data. Nó sem data (undefined) não é forçado a mudar
+    // de posição (retorna 0), preservando ordem original — baricentro
+    // decide o resto dele depois.
+    nosDaCategoria.sort(function(a, b) {
+      var da = dataChavePorNo[a.id];
+      var db = dataChavePorNo[b.id];
+      if (da === undefined || db === undefined) return 0;
+      return da - db;
+    });
     for (var i = 0; i < nosDaCategoria.length; i += NOS_POR_FILEIRA) {
       fileiras.push(nosDaCategoria.slice(i, i + NOS_POR_FILEIRA));
     }
@@ -73,10 +115,12 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
 
   // 2. Constrói as fileiras de cada nível e calcula a altura total que
   //    cada nível vai ocupar (número de fileiras × altura por fileira)
+  var dataChavePorNo = calcularDataChavePorNo(todosNos, todosSetas);
+
   var fileirasPorNivel = {};
   var alturaTotalPorNivel = {};
   listaNiveis.forEach(function(lvl) {
-    var fileiras = construirFileirasDoNivel(nosPorNivel[lvl]);
+    var fileiras = construirFileirasDoNivel(nosPorNivel[lvl], dataChavePorNo);
     fileirasPorNivel[lvl] = fileiras;
     alturaTotalPorNivel[lvl] = fileiras.length * ALTURA_POR_FILEIRA;
   });
@@ -149,7 +193,15 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
       });
       return { id: id, media: qtd > 0 ? (soma / qtd) : posX[id] };
     });
-    comMedia.sort(function(a, b) { return a.media - b.media; });
+    comMedia.sort(function(a, b) {
+      var da = dataChavePorNo[a.id];
+      var db = dataChavePorNo[b.id];
+      if (da !== undefined && db !== undefined) {
+        if (da !== db) return da - db;
+        return a.media - b.media;
+      }
+      return a.media - b.media;
+    });
     niveis[lvl] = comMedia.map(function(o) { return o.id; });
     niveis[lvl].forEach(function(id, idx) { posX[id] = idx; });
   }
