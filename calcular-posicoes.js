@@ -29,6 +29,7 @@ const ESPACAMENTO_POR_CARACTERE = 14;
 const TAMANHO_MINIMO_LABEL = 3;
 const TAMANHO_MAXIMO_LABEL = 40;
 const NUM_PASSADAS = 6;            // passadas de refinamento do baricentro (eixo X)
+const MINIMO_NOS_ANTES_QUEBRA_SECULO = 10; // fileira só quebra por troca de século se já tiver esse tanto de nós
 // -------------------------------------------------------
 
 // Extrai o número do dia de dentro do texto da aresta (ex: "Dia 15" -> 15)
@@ -112,7 +113,8 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo) {
     nosDaCategoria.forEach(function(n) {
       var seculo = calcularSeculo(n.ano);
       var mudouSeculo = (seculoAtual !== null && seculo !== null && seculo !== seculoAtual);
-      if (fileiraAtual.length > 0 && (fileiraAtual.length >= NOS_POR_FILEIRA || mudouSeculo)) {
+      var podeQuebrarPorSeculo = mudouSeculo && fileiraAtual.length >= MINIMO_NOS_ANTES_QUEBRA_SECULO;
+      if (fileiraAtual.length > 0 && (fileiraAtual.length >= NOS_POR_FILEIRA || podeQuebrarPorSeculo)) {
         fileiras.push(fileiraAtual);
         fileiraAtual = [];
       }
