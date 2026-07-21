@@ -79,6 +79,9 @@ function calcularDataChavePorNo(todosNos, todosSetas, regras) {
 // Agrupa os nós de UM nível em fileiras: separa pelo campo de agrupamento
 // do dicionário, ordena por data-chave, e quebra por (nosPorFileira) OU
 // (troca de época, só depois de já ter o mínimo definido em layout).
+// a variável minimoEpoca é a mesma variável já existente — não criei campo novo. Ela 
+// agora serve dois papéis: quebra por época E limiar de fechamento entre grupos
+
 function construirFileirasDoNivel(nosDoNivel, dataChavePorNo, regras) {
   var campoAgrupamento = regras.dicionario.agrupamento;
   var nosPorFileira = regras.layout.nosPorFileira;
@@ -100,6 +103,9 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo, regras) {
   });
 
   var fileiras = [];
+  var fileiraAtual = [];
+  var epocaAtual = null;
+
   ordemCategorias.forEach(function(chave) {
     var nosDaCategoria = gruposPorCategoria[chave];
 
@@ -110,8 +116,15 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo, regras) {
       return da - db;
     });
 
-    var fileiraAtual = [];
-    var epocaAtual = null;
+    // Grupo novo: só fecha cedo se a fileira atual já tiver o mínimo.
+    // Caso contrário deixa entrar e o estouro por nó (abaixo) corta o grupo.
+    var espacoLivre = nosPorFileira - fileiraAtual.length;
+    if (fileiraAtual.length > 0 && nosDaCategoria.length > espacoLivre && fileiraAtual.length >= minimoEpoca) {
+      fileiras.push(fileiraAtual);
+      fileiraAtual = [];
+      epocaAtual = null;
+    }
+
     nosDaCategoria.forEach(function(n) {
       var epoca = usaEpoca ? calcularSeculo(n[campoChave]) : null;
       var mudouEpoca = (epocaAtual !== null && epoca !== null && epoca !== epocaAtual);
@@ -119,12 +132,13 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo, regras) {
       if (fileiraAtual.length > 0 && (fileiraAtual.length >= nosPorFileira || podeQuebrarPorEpoca)) {
         fileiras.push(fileiraAtual);
         fileiraAtual = [];
+        epocaAtual = null;
       }
       fileiraAtual.push(n);
       if (epoca !== null) epocaAtual = epoca;
     });
-    if (fileiraAtual.length > 0) fileiras.push(fileiraAtual);
   });
+  if (fileiraAtual.length > 0) fileiras.push(fileiraAtual);
   return fileiras;
 }
 
