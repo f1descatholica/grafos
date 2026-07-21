@@ -1,18 +1,6 @@
 // ============================================================
 // CALCULADOR DE POSIÇÕES — VERSÃO GENÉRICA (N GRAFOS)
-// ============================================================
-// MUDANÇA IMPORTANTE NESTA VERSÃO:
-// - O campo "fileira" SAIU dos dados brutos. Agora o próprio
-//   calculador decide quantas linhas (fileiras) cada nível precisa,
-//   olhando só pra "categoria" (se existir) e pra contagem de nós.
-// - Regra: nós da MESMA categoria ficam sempre juntos, nunca dividem
-//   linha com outra categoria. Só quando uma categoria sozinha passa
-//   linha com outra categoria. Só quando uma categoria sozinha passa
-//   de NOS_POR_FILEIRA, ela quebra em mais de uma linha.
-// - Nós sem "categoria" continuam se comportando como uma linha só
-//   (ou várias, se passarem do limite).
-// - A altura de cada nível não é mais fixa: ela cresce de acordo com
-//   quantas linhas (fileiras) aquele nível realmente tem.
+// Agora lê as regras de cada grafo do "regras-grafo.js" da pasta.
 // ============================================================
 
 const fs = require('fs');
@@ -21,77 +9,89 @@ const path = require('path');
 const PASTA_GRAFOS = __dirname;
 const PASTAS_IGNORADAS = ['.github', '.git', 'node_modules'];
 
-// -------- PAINEL DE AJUSTE FINO (mexa só aqui) --------
-const NOS_POR_FILEIRA = 20;        // quantos nós cabem numa linha antes de quebrar pra próxima
-const ALTURA_POR_FILEIRA = 150;    // altura reservada pra CADA linha (fileira) dentro do nível
-const NUM_LINHAS_INTERNAS = 2;     // quantas "prateleiras" de altura dentro de uma fileira (zig-zag)
-const ESPACAMENTO_NO_BASE = 150;   // espaço mínimo garantido entre nós, no eixo X
+// -------- Números que ficam FIXOS pra todo grafo (não fazem parte do dicionário) --------
+const ESPACAMENTO_NO_BASE = 150;
 const ESPACAMENTO_POR_CARACTERE = 14;
 const TAMANHO_MINIMO_LABEL = 3;
 const TAMANHO_MAXIMO_LABEL = 40;
-const NUM_PASSADAS = 6;            // passadas de refinamento do baricentro (eixo X)
-const MINIMO_NOS_ANTES_QUEBRA_SECULO = 10; // fileira só quebra por troca de século se já tiver esse tanto de nós
-// -------------------------------------------------------
+const NUM_PASSADAS = 6;
+// -------------------------------------------------------------------------
 
-// Extrai o número do dia de dentro do texto da aresta (ex: "Dia 15" -> 15)
+// Usado se a pasta do grafo não tiver regras-grafo.js — mantém o
+// comportamento de antes, sem quebrar grafos ainda não migrados.
+const REGRAS_PADRAO = {
+  dicionario: { chaveOrdenacao: 'ano', agrupamento: 'categoria', mesReferencia: 'mesNumero' },
+  layout: { nosPorFileira: 20, minimoAntesQuebraSeculo: 10, alturaPorFileira: 150, numLinhasInternas: 2, usaQuebraPorEpoca: true },
+  cores: {}
+};
+
+function mesclarComPadrao(regrasCarregadas) {
+  regrasCarregadas = regrasCarregadas || {};
+  return {
+    dicionario: Object.assign({}, REGRAS_PADRAO.dicionario, regrasCarregadas.dicionario),
+    layout: Object.assign({}, REGRAS_PADRAO.layout, regrasCarregadas.layout),
+    cores: Object.assign({}, REGRAS_PADRAO.cores, regrasCarregadas.cores)
+  };
+}
+
 function extrairDiaDoTexto(texto) {
   if (!texto) return null;
   var m = String(texto).match(/\d+/);
   return m ? parseInt(m[0], 10) : null;
 }
 
-// Pra cada nó, calcula sua "data-chave" (mes*100+dia) olhando todas as
-// arestas que chegam nele. Se o nó tiver mais de uma data (ex: S. Paulo
-// em 3 meses), fica com a MENOR (a mais cedo no calendário).
-// Nó sem nenhuma aresta de calendário -> fica de fora do mapa (undefined),
-// e cai só no baricentro, como combinado.
-function calcularSeculo(ano) {
-  if (ano === undefined || ano === null) return null;
-  return Math.floor((ano - 1) / 100) + 1;
+function calcularSeculo(valor) {
+  if (valor === undefined || valor === null) return null;
+  return Math.floor((valor - 1) / 100) + 1;
 }
 
-function calcularDataChavePorNo(todosNos, todosSetas) {
+// Pra cada nó, calcula a "chave de ordenação" (o campo do dicionário,
+// refinado por mês+dia quando existir). Nó sem esse campo fica de fora
+// do mapa -> cai só no baricentro, sem mudar de nível.
+function calcularDataChavePorNo(todosNos, todosSetas, regras) {
   var mapaNo = {};
   todosNos.forEach(function(n) { mapaNo[n.id] = n; });
 
-  // mês+dia mais cedo por santo (igual antes, só como refinamento)
+  var campoChave = regras.dicionario.chaveOrdenacao;
+  var campoMes = regras.dicionario.mesReferencia;
+
   var mesDiaPorNo = {};
   todosSetas.forEach(function(s) {
     var noOrigem = mapaNo[s.from];
-    if (!noOrigem || noOrigem.mesNumero === undefined || noOrigem.mesNumero === null) return;
+    if (!noOrigem || noOrigem[campoMes] === undefined || noOrigem[campoMes] === null) return;
     var dia = extrairDiaDoTexto(s.texto);
     if (dia === null) return;
-    var chaveMD = noOrigem.mesNumero * 100 + dia;
+    var chaveMD = noOrigem[campoMes] * 100 + dia;
     var atual = mesDiaPorNo[s.to];
     if (atual === undefined || chaveMD < atual) mesDiaPorNo[s.to] = chaveMD;
   });
 
-  // Chave final: SEM ano, não entra aqui (baricentro cuida, sem mudar de nível).
-  // COM ano: ano é a base; se tiver mês+dia do calendário, refina dentro do ano.
   var dataChavePorNo = {};
   todosNos.forEach(function(n) {
-    if (n.ano === undefined || n.ano === null) return;
+    var valorChave = n[campoChave];
+    if (valorChave === undefined || valorChave === null) return;
     var md = mesDiaPorNo[n.id];
-    dataChavePorNo[n.id] = (md !== undefined) ? (n.ano * 10000 + md) : (n.ano * 10000);
+    dataChavePorNo[n.id] = (md !== undefined) ? (valorChave * 10000 + md) : (valorChave * 10000);
   });
   return dataChavePorNo;
 }
 
+// Agrupa os nós de UM nível em fileiras: separa pelo campo de agrupamento
+// do dicionário, ordena por data-chave, e quebra por (nosPorFileira) OU
+// (troca de época, só depois de já ter o mínimo definido em layout).
+function construirFileirasDoNivel(nosDoNivel, dataChavePorNo, regras) {
+  var campoAgrupamento = regras.dicionario.agrupamento;
+  var nosPorFileira = regras.layout.nosPorFileira;
+  var usaEpoca = regras.layout.usaQuebraPorEpoca;
+  var minimoEpoca = regras.layout.minimoAntesQuebraSeculo;
+  var campoChave = regras.dicionario.chaveOrdenacao;
 
-
-
-// Agrupa os nós de UM nível em "fileiras" (linhas horizontais):
-// primeiro separa por categoria (mantendo a ordem em que cada
-// categoria aparece nos dados), depois quebra cada categoria em
-// pedaços de no máximo NOS_POR_FILEIRA nós, na ordem original.
-function construirFileirasDoNivel(nosDoNivel, dataChavePorNo) {
   var ordemCategorias = [];
   var gruposPorCategoria = {};
 
   nosDoNivel.forEach(function(n) {
-    var chave = (n.categoria !== undefined && n.categoria !== null)
-      ? String(n.categoria)
-      : '__sem_categoria__';
+    var valorCat = campoAgrupamento ? n[campoAgrupamento] : undefined;
+    var chave = (valorCat !== undefined && valorCat !== null) ? String(valorCat) : '__sem_categoria__';
     if (!gruposPorCategoria[chave]) {
       gruposPorCategoria[chave] = [];
       ordemCategorias.push(chave);
@@ -102,6 +102,7 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo) {
   var fileiras = [];
   ordemCategorias.forEach(function(chave) {
     var nosDaCategoria = gruposPorCategoria[chave];
+
     nosDaCategoria.sort(function(a, b) {
       var da = dataChavePorNo[a.id];
       var db = dataChavePorNo[b.id];
@@ -110,26 +111,28 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo) {
     });
 
     var fileiraAtual = [];
-    var seculoAtual = null;
+    var epocaAtual = null;
     nosDaCategoria.forEach(function(n) {
-      var seculo = calcularSeculo(n.ano);
-      var mudouSeculo = (seculoAtual !== null && seculo !== null && seculo !== seculoAtual);
-      var podeQuebrarPorSeculo = mudouSeculo && fileiraAtual.length >= MINIMO_NOS_ANTES_QUEBRA_SECULO;
-      if (fileiraAtual.length > 0 && (fileiraAtual.length >= NOS_POR_FILEIRA || podeQuebrarPorSeculo)) {
+      var epoca = usaEpoca ? calcularSeculo(n[campoChave]) : null;
+      var mudouEpoca = (epocaAtual !== null && epoca !== null && epoca !== epocaAtual);
+      var podeQuebrarPorEpoca = usaEpoca && mudouEpoca && fileiraAtual.length >= minimoEpoca;
+      if (fileiraAtual.length > 0 && (fileiraAtual.length >= nosPorFileira || podeQuebrarPorEpoca)) {
         fileiras.push(fileiraAtual);
         fileiraAtual = [];
       }
       fileiraAtual.push(n);
-      if (seculo !== null) seculoAtual = seculo;
+      if (epoca !== null) epocaAtual = epoca;
     });
     if (fileiraAtual.length > 0) fileiras.push(fileiraAtual);
   });
-  return fileiras; // array de arrays de nós, já na ordem final de empilhamento
+  return fileiras;
 }
 
+function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
+  var regras = mesclarComPadrao(regrasCarregadas);
+  var ALTURA_POR_FILEIRA = regras.layout.alturaPorFileira;
+  var NUM_LINHAS_INTERNAS = regras.layout.numLinhasInternas;
 
-function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
-  // 1. Agrupa nós por nível
   var nosPorNivel = {};
   todosNos.forEach(function(n) {
     if (!nosPorNivel[n.level]) nosPorNivel[n.level] = [];
@@ -137,20 +140,16 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
   });
   var listaNiveis = Object.keys(nosPorNivel).map(Number).sort(function(a, b) { return a - b; });
 
-  // 2. Constrói as fileiras de cada nível e calcula a altura total que
-  //    cada nível vai ocupar (número de fileiras × altura por fileira)
-  var dataChavePorNo = calcularDataChavePorNo(todosNos, todosSetas);
+  var dataChavePorNo = calcularDataChavePorNo(todosNos, todosSetas, regras);
 
   var fileirasPorNivel = {};
   var alturaTotalPorNivel = {};
   listaNiveis.forEach(function(lvl) {
-    var fileiras = construirFileirasDoNivel(nosPorNivel[lvl], dataChavePorNo);
+    var fileiras = construirFileirasDoNivel(nosPorNivel[lvl], dataChavePorNo, regras);
     fileirasPorNivel[lvl] = fileiras;
     alturaTotalPorNivel[lvl] = fileiras.length * ALTURA_POR_FILEIRA;
   });
 
-  // 3. Altura acumulada: onde cada nível começa no eixo Y (soma das
-  //    alturas de todos os níveis anteriores — nunca mais nível × valor fixo)
   var yBasePorNivel = {};
   var acumulado = 0;
   listaNiveis.forEach(function(lvl) {
@@ -158,10 +157,7 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
     acumulado += alturaTotalPorNivel[lvl];
   });
 
-  // 4. Para cada nó: define sua "linha visual" (nível+fileira computados,
-  //    usada só pro agrupamento do eixo X) e seu Y final (nível acumulado
-  //    + posição da fileira + sublinha em zig-zag dentro da fileira)
-  var niveis = {};           // linhaVisualIndex -> array de ids (equivalente ao "niveis" da versão antiga)
+  var niveis = {};
   var yFinalPorNo = {};
   var linhaVisualIndex = 0;
 
@@ -175,9 +171,6 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
 
   var listaLinhasVisuais = Object.keys(niveis).map(Number).sort(function(a, b) { return a - b; });
 
-  // 5. Baricentro pro eixo X — mesma lógica já validada antes, só que
-  //    agora aplicada sobre as fileiras computadas, não sobre um campo
-  //    "fileira" vindo pronto dos dados.
   var vizinhos = {};
   todosNos.forEach(function(n) { vizinhos[n.id] = []; });
   todosSetas.forEach(function(e) {
@@ -216,27 +209,44 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
     niveis[lvl].forEach(function(id, idx) { posX[id] = idx; });
   }
 
-  for (var passada = 0; passada < NUM_PASSADAS; passada++) {
+  var NUM_PASSADAS_LOCAL = NUM_PASSADAS;
+  for (var passada = 0; passada < NUM_PASSADAS_LOCAL; passada++) {
     for (var i = 0; i < listaLinhasVisuais.length; i++) ordenarNivelPorBaricentro(listaLinhasVisuais[i]);
     for (var j = listaLinhasVisuais.length - 1; j >= 0; j--) ordenarNivelPorBaricentro(listaLinhasVisuais[j]);
   }
 
-  // Zig-zag calculado AGORA, com a posição horizontal já definitiva —
-  // garante que vizinho na tela nunca cai no mesmo andar.
+  // Zig-zag calculado AGORA, com a posição final (pós-baricentro) —
+  // vizinho na tela nunca cai no mesmo andar.
+  listaLinhasVisuais.forEach(function(idxLinha) {
+    var idsOrdenados = niveis[idxLinha];
+    idsOrdenados.forEach(function(id, posicaoFinalNaTela) {
+      var subLinha = posicaoFinalNaTela % NUM_LINHAS_INTERNAS;
+      var alturaFatia = ALTURA_POR_FILEIRA / NUM_LINHAS_INTERNAS;
+      // descobre em que nível/fileira essa linha visual está, pra achar o Y base
+    });
+  });
+
+  // Mapeia cada linha visual -> nível + índice de fileira dentro do nível,
+  // pra poder somar o Y base certo no passo do zig-zag.
+  var infoLinhaVisual = {}; // idxLinha -> { lvl, indiceFileiraDentroDoNivel }
+  var contador = 0;
   listaNiveis.forEach(function(lvl) {
-    fileirasPorNivel[lvl].forEach(function(nosDaFileira, indiceFileiraDentroDoNivel) {
-      var idsOrdenados = niveis[listaLinhasVisuais.find(function(idx) {
-        return niveis[idx].length === nosDaFileira.length &&
-          niveis[idx].every(function(id) { return nosDaFileira.some(function(n) { return n.id === id; }); });
-      })];
-      idsOrdenados.forEach(function(id, posicaoFinalNaTela) {
-        var subLinha = posicaoFinalNaTela % NUM_LINHAS_INTERNAS;
-        var alturaFatia = ALTURA_POR_FILEIRA / NUM_LINHAS_INTERNAS;
-        var yDentroDaFileira = (subLinha + 0.5) * alturaFatia;
-        yFinalPorNo[id] = yBasePorNivel[lvl]
-          + indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA
-          + yDentroDaFileira;
-      });
+    fileirasPorNivel[lvl].forEach(function(fileira, indiceFileiraDentroDoNivel) {
+      infoLinhaVisual[contador] = { lvl: lvl, indiceFileiraDentroDoNivel: indiceFileiraDentroDoNivel };
+      contador++;
+    });
+  });
+
+  listaLinhasVisuais.forEach(function(idxLinha) {
+    var idsOrdenados = niveis[idxLinha];
+    var info = infoLinhaVisual[idxLinha];
+    idsOrdenados.forEach(function(id, posicaoFinalNaTela) {
+      var subLinha = posicaoFinalNaTela % NUM_LINHAS_INTERNAS;
+      var alturaFatia = ALTURA_POR_FILEIRA / NUM_LINHAS_INTERNAS;
+      var yDentroDaFileira = (subLinha + 0.5) * alturaFatia;
+      yFinalPorNo[id] = yBasePorNivel[info.lvl]
+        + info.indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA
+        + yDentroDaFileira;
     });
   });
 
@@ -269,12 +279,10 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas) {
     });
   });
 
-  // 6. Finalização: aplica x e y definitivos
   return todosNos.map(function(n) {
     return Object.assign({}, n, { x: xPorNo[n.id], y: yFinalPorNo[n.id] });
   });
 }
-
 
 function encontrarPastasDeGrafo() {
   return fs.readdirSync(PASTA_GRAFOS, { withFileTypes: true })
@@ -297,6 +305,7 @@ function main() {
     var pastaAtual = path.join(PASTA_GRAFOS, nomeGrafo);
     var arquivoEntrada = path.join(pastaAtual, 'dados-grafo.js');
     var arquivoSaida = path.join(pastaAtual, 'dados-com-posicoes.json');
+    var arquivoRegras = path.join(pastaAtual, 'regras-grafo.js');
 
     if (!fs.existsSync(arquivoEntrada)) {
       console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "dados-grafo.js". Pulando.');
@@ -306,7 +315,16 @@ function main() {
     try {
       delete require.cache[require.resolve(arquivoEntrada)];
       var dados = require(arquivoEntrada);
-      var nosComPosicao = calcularPosicoesDeUmGrafo(dados.todosNos, dados.todosSetas);
+
+      var regrasCarregadas = null;
+      if (fs.existsSync(arquivoRegras)) {
+        delete require.cache[require.resolve(arquivoRegras)];
+        regrasCarregadas = require(arquivoRegras);
+      } else {
+        console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "regras-grafo.js". Usando padrão.');
+      }
+
+      var nosComPosicao = calcularPosicoesDeUmGrafo(dados.todosNos, dados.todosSetas, regrasCarregadas);
       var resultado = { nodes: nosComPosicao, edges: dados.todosSetas };
       fs.writeFileSync(arquivoSaida, JSON.stringify(resultado, null, 2), 'utf8');
       console.log('OK: "' + nomeGrafo + '" -> ' + nosComPosicao.length + ' nós, ' + dados.todosSetas.length + ' arestas.');
