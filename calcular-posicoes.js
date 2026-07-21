@@ -21,7 +21,7 @@ const NUM_PASSADAS = 6;
 // comportamento de antes, sem quebrar grafos ainda não migrados.
 const REGRAS_PADRAO = {
   dicionario: { chaveOrdenacao: 'ano', agrupamento: 'categoria', mesReferencia: 'mesNumero' },
-  layout: { nosPorFileira: 20, minimoAntesQuebraSeculo: 10, alturaPorFileira: 150, numLinhasInternas: 2, usaQuebraPorEpoca: true },
+  layout: { nosPorFileira: 16, minimoAntesQuebraSeculo: 16, alturaPorFileira: 150, numLinhasInternas: 2, usaQuebraPorEpoca: true },
   cores: {}
 };
 
