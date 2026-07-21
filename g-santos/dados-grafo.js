@@ -458,7 +458,7 @@ var todosNos = [
     { id: '314', level: 8, categoria: 'morte', label: 'Chipre', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '320', level: 8, categoria: 'morte', label: 'Paris', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '516', level: 8, categoria: 'morte', label: 'Cartago', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '800', level: 8, categoria: 'morte', label: 'Tours', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true }, }
+    { id: '800', level: 8, categoria: 'morte', label: 'Tours', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true }, },
 	
 	
 	
