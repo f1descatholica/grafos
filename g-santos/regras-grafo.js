@@ -28,8 +28,10 @@
 
     // Cores fixas por grupo — só entra aqui quem PRECISA ser garantido.
     // Grupo que não está na lista usa o sistema automático de sempre.
-    cores: {
-      'ideia': { background: '#059669', border: '#047857' }
-    }
+cores: {
+  'ideia': { background: '#dc2626', border: '#b91c1c' },
+  'documento': { background: '#fbbf24', border: '#d97706' },
+  'pessoa': { background: '#10b981', border: '#047857' }
+}
   };
 }));
