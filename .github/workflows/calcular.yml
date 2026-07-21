@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - '*/dados-grafo.js'
+      - '*/regras-grafo.js'
   workflow_dispatch: {}
 
 # Permissão para o robô conseguir salvar os resultados de volta no repositório
