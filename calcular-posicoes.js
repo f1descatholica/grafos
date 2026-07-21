@@ -102,29 +102,26 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo, regras) {
     gruposPorCategoria[chave].push(n);
   });
 
-  var fileiras = [];
+
+var fileiras = [];
   var fileiraAtual = [];
   var epocaAtual = null;
-
   ordemCategorias.forEach(function(chave) {
     var nosDaCategoria = gruposPorCategoria[chave];
-
     nosDaCategoria.sort(function(a, b) {
       var da = dataChavePorNo[a.id];
       var db = dataChavePorNo[b.id];
       if (da === undefined || db === undefined) return 0;
       return da - db;
     });
-
-    // Grupo novo: só fecha cedo se a fileira atual já tiver o mínimo.
-    // Caso contrário deixa entrar e o estouro por nó (abaixo) corta o grupo.
-    var espacoLivre = nosPorFileira - fileiraAtual.length;
-    if (fileiraAtual.length > 0 && nosDaCategoria.length > espacoLivre && fileiraAtual.length >= minimoEpoca) {
+    // Regra B: só força fileira nova pro grupo seguinte se a fileira
+    // atual já tiver alcançado o limiar (minimoEpoca). Abaixo disso,
+    // o grupo entra e pode ficar dividido entre esta fileira e a próxima.
+    if (fileiraAtual.length >= minimoEpoca) {
       fileiras.push(fileiraAtual);
       fileiraAtual = [];
       epocaAtual = null;
     }
-
     nosDaCategoria.forEach(function(n) {
       var epoca = usaEpoca ? calcularSeculo(n[campoChave]) : null;
       var mudouEpoca = (epocaAtual !== null && epoca !== null && epoca !== epocaAtual);
