@@ -1,13 +1,14 @@
 // ============================================================
 // CALCULADOR DE POSIÇÕES — VERSÃO GENÉRICA (N GRAFOS)
-// Agora lê as regras de cada grafo do "regras-grafo.js" da pasta.
+// Lê os dados E as regras de cada grafo de "dados-grafo.js" (arquivo
+// único por pasta — regras-grafo.js foi consolidado aqui dentro).
 // ============================================================
 //
 // ÁRVORE DE DECISÃO — CAMADAS DE GENERALIDADE (não remover nem mover):
 //
-// GITHUB (este arquivo + regras-grafo.js de cada pasta + workflow)
+// GITHUB (este arquivo + dados-grafo.js de cada pasta + workflow)
 //   = GERAL. Gerencia N grafos ao mesmo tempo. Só pode usar o que
-//     está exposto no dicionário/layout de cada regras-grafo.js —
+//     está exposto no dicionário/layout de cada dados-grafo.js —
 //     nunca suposição fixa de 1 grafo específico.
 //
 // MOTOR (MOTOR_grafo_v10, 1 instância só, compartilhada por todos
@@ -21,9 +22,9 @@
 //
 // PÁGINA (1 bloco de post por grafo, ex: grafo_santos_v10.txt)
 //   = O ÚNICO lugar que pode ser particular de fato: id do
-//     container, botões de filtro, qual regras-grafo.js e qual
-//     JSON carregar. Tudo específico de 1 grafo mora aqui — nunca
-//     no motor, nunca aqui neste arquivo.
+//     container, botões de filtro, qual JSON carregar. Tudo
+//     específico de 1 grafo mora aqui — nunca no motor, nunca
+//     aqui neste arquivo.
 // ============================================================
 
 const fs = require('fs');
@@ -40,7 +41,7 @@ const TAMANHO_MAXIMO_LABEL = 40;
 const NUM_PASSADAS = 6;
 // -------------------------------------------------------------------------
 
-// Usado se a pasta do grafo não tiver regras-grafo.js — mantém o
+// Usado se dados-grafo.js não tiver a chave "regras" — mantém o
 // comportamento de antes, sem quebrar grafos ainda não migrados.
 const REGRAS_PADRAO = {
   dicionario: { chaveOrdenacao: 'ano', agrupamento: 'categoria', mesReferencia: 'mesNumero' },
@@ -134,7 +135,11 @@ var fileiras = [];
     nosDaCategoria.sort(function(a, b) {
       var da = dataChavePorNo[a.id];
       var db = dataChavePorNo[b.id];
-      if (da === undefined || db === undefined) return 0;
+      // Nó sem data-chave vai sempre pro fim do grupo (ordem estável,
+      // não mais "empate" indevido entre indefinidos e valores reais).
+      if (da === undefined && db === undefined) return 0;
+      if (da === undefined) return 1;
+      if (db === undefined) return -1;
       return da - db;
     });
     // Regra B: só força fileira nova pro grupo seguinte se a fileira
@@ -237,7 +242,11 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
         if (da !== db) return da - db;
         return a.media - b.media;
       }
-      return a.media - b.media;
+      // Nó sem data-chave vai sempre pro fim (desempate estável por
+      // baricentro só entre os que também não têm data).
+      if (da === undefined && db === undefined) return a.media - b.media;
+      if (da === undefined) return 1;
+      return -1;
     });
     niveis[lvl] = comMedia.map(function(o) { return o.id; });
     niveis[lvl].forEach(function(id, idx) { posX[id] = idx; });
@@ -332,7 +341,6 @@ function main() {
     var pastaAtual = path.join(PASTA_GRAFOS, nomeGrafo);
     var arquivoEntrada = path.join(pastaAtual, 'dados-grafo.js');
     var arquivoSaida = path.join(pastaAtual, 'dados-com-posicoes.json');
-    var arquivoRegras = path.join(pastaAtual, 'regras-grafo.js');
 
     if (!fs.existsSync(arquivoEntrada)) {
       console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "dados-grafo.js". Pulando.');
@@ -343,16 +351,20 @@ function main() {
       delete require.cache[require.resolve(arquivoEntrada)];
       var dados = require(arquivoEntrada);
 
-      var regrasCarregadas = null;
-      if (fs.existsSync(arquivoRegras)) {
-        delete require.cache[require.resolve(arquivoRegras)];
-        regrasCarregadas = require(arquivoRegras);
-      } else {
-        console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "regras-grafo.js". Usando padrão.');
+      var regrasCarregadas = dados.regras || null;
+      if (!regrasCarregadas) {
+        console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "regras" em dados-grafo.js. Usando padrão.');
       }
 
       var nosComPosicao = calcularPosicoesDeUmGrafo(dados.todosNos, dados.todosSetas, regrasCarregadas);
-      var resultado = { nodes: nosComPosicao, edges: dados.todosSetas };
+      // "regras" vai junto no JSON de saída — a página passa a buscar
+      // só esse arquivo, sem precisar de uma 2ª requisição separada
+      // pro conteúdo de regras (evita fonte extra de cache/defasagem).
+      var resultado = {
+        nodes: nosComPosicao,
+        edges: dados.todosSetas,
+        regras: mesclarComPadrao(regrasCarregadas)
+      };
       fs.writeFileSync(arquivoSaida, JSON.stringify(resultado, null, 2), 'utf8');
       console.log('OK: "' + nomeGrafo + '" -> ' + nosComPosicao.length + ' nós, ' + dados.todosSetas.length + ' arestas.');
       sucesso++;
