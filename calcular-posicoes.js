@@ -2,6 +2,29 @@
 // CALCULADOR DE POSIÇÕES — VERSÃO GENÉRICA (N GRAFOS)
 // Agora lê as regras de cada grafo do "regras-grafo.js" da pasta.
 // ============================================================
+//
+// ÁRVORE DE DECISÃO — CAMADAS DE GENERALIDADE (não remover nem mover):
+//
+// GITHUB (este arquivo + regras-grafo.js de cada pasta + workflow)
+//   = GERAL. Gerencia N grafos ao mesmo tempo. Só pode usar o que
+//     está exposto no dicionário/layout de cada regras-grafo.js —
+//     nunca suposição fixa de 1 grafo específico.
+//
+// MOTOR (MOTOR_grafo_v10, 1 instância só, compartilhada por todos
+//   os posts do blog)
+//   = TAMBÉM GERAL, mas roda em runtime, sob restrição de
+//     performance do navegador, e recalcula só SUBCONJUNTOS
+//     filtrados. Pode ter comportamento simplificado/aproximado em
+//     relação a este arquivo, SEM que isso seja inconsistência —
+//     desde que a diferença não venha de codar algo fixo de 1
+//     grafo específico (isso sim seria violação).
+//
+// PÁGINA (1 bloco de post por grafo, ex: grafo_santos_v10.txt)
+//   = O ÚNICO lugar que pode ser particular de fato: id do
+//     container, botões de filtro, qual regras-grafo.js e qual
+//     JSON carregar. Tudo específico de 1 grafo mora aqui — nunca
+//     no motor, nunca aqui neste arquivo.
+// ============================================================
 
 const fs = require('fs');
 const path = require('path');
@@ -226,16 +249,9 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     for (var j = listaLinhasVisuais.length - 1; j >= 0; j--) ordenarNivelPorBaricentro(listaLinhasVisuais[j]);
   }
 
-  // Zig-zag calculado AGORA, com a posição final (pós-baricentro) —
-  // vizinho na tela nunca cai no mesmo andar.
-  listaLinhasVisuais.forEach(function(idxLinha) {
-    var idsOrdenados = niveis[idxLinha];
-    idsOrdenados.forEach(function(id, posicaoFinalNaTela) {
-      var subLinha = posicaoFinalNaTela % NUM_LINHAS_INTERNAS;
-      var alturaFatia = ALTURA_POR_FILEIRA / NUM_LINHAS_INTERNAS;
-      // descobre em que nível/fileira essa linha visual está, pra achar o Y base
-    });
-  });
+  // (bloco de código morto removido — cálculo duplicado sem uso.
+  // O cálculo real de zig-zag acontece logo abaixo, usando
+  // "infoLinhaVisual" pra achar o Y base corretamente.)
 
   // Mapeia cada linha visual -> nível + índice de fileira dentro do nível,
   // pra poder somar o Y base certo no passo do zig-zag.
