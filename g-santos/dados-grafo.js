@@ -1,3 +1,5 @@
+
+
 var todosNos = [
     // ========== NÍVEL 1: SISTEMAS DE CLASSIFICAÇÃO E TEMPO ==========
     // Categoria: Ideia (Títulos) — linhas calculadas automaticamente
