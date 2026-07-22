@@ -11,17 +11,20 @@ var regrasDoGrafo = {
     agrupamento: 'categoria',     // campo que separa em fileiras diferentes
     mesReferencia: 'mesNumero'    // campo do nó de mês que dá o número do mês
   },
-  // Números de layout
+// Números de layout
   layout: {
-    nosPorFileira: 20,
-    minimoAntesQuebraSeculo: 10,
+// nosPorFileira: 20,           // [DESATIVADO pois nao tem sentido mexer aqui, mas usar o default que esta no calcular grafo] valor antigo — comente/descomente pra voltar a 20. Sem essa chave, o sistema usa o padrão genérico (16).
+// minimoAntesQuebraSeculo: 10, // [DESATIVADO] valor antigo — junto com a linha acima, controlava o limiar de quebra entre grupos/século.
     alturaPorFileira: 150,
     numLinhasInternas: 2,
-    usaQuebraPorEpoca: true       // se false, ignora século e só quebra por 20
+    usaQuebraPorEpoca: true       // se false, ignora século e só quebra por 20/16
   },
   // Cores fixas tudo na paleta automatica, nenhuma regra especifica
   cores: {}
 };
+
+
+
 
 
 
