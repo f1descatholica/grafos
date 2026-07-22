@@ -45,7 +45,7 @@ const NUM_PASSADAS = 6;
 // comportamento de antes, sem quebrar grafos ainda não migrados.
 const REGRAS_PADRAO = {
   dicionario: { chaveOrdenacao: 'ano', agrupamento: 'categoria', mesReferencia: 'mesNumero' },
-  layout: { nosPorFileira: 16, minimoAntesQuebraSeculo: 16, alturaPorFileira: 150, numLinhasInternas: 2, usaQuebraPorEpoca: true },
+  layout: { nosPorFileira: 16, minimoAntesQuebraSeculo: 16, alturaPorFileira: 150, numLinhasInternas: 2, usaQuebraPorEpoca: true, quebrarSempreEntreCategorias: true },
   cores: {}
 };
 
@@ -111,6 +111,7 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo, regras) {
   var nosPorFileira = regras.layout.nosPorFileira;
   var usaEpoca = regras.layout.usaQuebraPorEpoca;
   var minimoEpoca = regras.layout.minimoAntesQuebraSeculo;
+  var quebrarSempreEntreCategorias = regras.layout.quebrarSempreEntreCategorias;
   var campoChave = regras.dicionario.chaveOrdenacao;
 
   var ordemCategorias = [];
@@ -142,10 +143,12 @@ var fileiras = [];
       if (db === undefined) return -1;
       return da - db;
     });
-    // Regra B: só força fileira nova pro grupo seguinte se a fileira
-    // atual já tiver alcançado o limiar (minimoEpoca). Abaixo disso,
-    // o grupo entra e pode ficar dividido entre esta fileira e a próxima.
-    if (fileiraAtual.length >= minimoEpoca) {
+    // Regra B (revisada): por padrão, SEMPRE quebra fileira ao trocar de
+    // categoria (quebrarSempreEntreCategorias: true) — evita categorias
+    // pequenas (ex: 1 nó filtrado) ficarem misturadas com a próxima.
+    // Se quebrarSempreEntreCategorias for false, volta ao comportamento
+    // antigo: só quebra se a fileira já tiver alcançado o limiar (minimoEpoca).
+    if (fileiraAtual.length > 0 && (quebrarSempreEntreCategorias || fileiraAtual.length >= minimoEpoca)) {
       fileiras.push(fileiraAtual);
       fileiraAtual = [];
       epocaAtual = null;
