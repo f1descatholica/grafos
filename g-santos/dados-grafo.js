@@ -1,3 +1,38 @@
+// ============================================================
+// REGRAS GRAFO "g-santos"
+// Muda um número aqui, o build e o motor obedecem sozinhos.
+// (antes vivia em regras-grafo.js — agora mora aqui, no mesmo
+// arquivo dos dados, pra motor/página buscarem tudo numa fetch só)
+// ============================================================
+var regrasDoGrafo = {
+  // Traduz "papel" -> nome real do campo na base deste grafo
+  dicionario: {
+    chaveOrdenacao: 'ano',        // campo usado pra ordenar dentro do nível
+    agrupamento: 'categoria',     // campo que separa em fileiras diferentes
+    mesReferencia: 'mesNumero'    // campo do nó de mês que dá o número do mês
+  },
+  // Números de layout
+  layout: {
+    nosPorFileira: 20,
+    minimoAntesQuebraSeculo: 10,
+    alturaPorFileira: 150,
+    numLinhasInternas: 2,
+    usaQuebraPorEpoca: true       // se false, ignora século e só quebra por 20
+  },
+  // Cores fixas tudo na paleta automatica, nenhuma regra especifica
+  cores: {}
+};
+
+
+
+
+
+
+
+
+
+
+
 
 
 var todosNos = [
@@ -1764,4 +1799,5 @@ var todosSetas = [
 	
 	
 ];
-module.exports = { todosNos, todosSetas };
+
+module.exports = { todosNos, todosSetas, regras: regrasDoGrafo };
