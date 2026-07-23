@@ -569,7 +569,31 @@ var todosNos = [
 
     // ========== NÍVEL 9: ICONOGRAFIA DE S. LIBÓRIO ==========
     { id: '1047', level: 9, categoria: 'simbolo', label: 'O Pavão', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '1048', level: 9, categoria: 'simbolo', label: 'Pedras sobre um livro', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } }
+    { id: '1048', level: 9, categoria: 'simbolo', label: 'Pedras sobre um livro', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
+	
+	
+	// =========================================================================
+    // PACOTE DOMINICANO: NOVOS SANTOS, GEOGRAFIA E ICONOGRAFIA
+    // =========================================================================
+
+    // --- Novos Santos Dominicanos (Níveis 4 e 5) ---
+    { id: '722', level: 5, label: 'S. Martinho de Porres', grupo: 'pessoa', ano: 1639, font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '723', level: 5, label: 'S. João Macias', grupo: 'pessoa', ano: 1645, font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '724', level: 4, label: 'Sta. Inês de Montepulciano', grupo: 'pessoa', ano: 1317, font: { color: '#ffffff', size: 14, bold: true } },
+
+    // --- Nova Geografia (O Grande Polo Dominicano nas Américas) ---
+    { id: '804', level: 8, categoria: 'atuacao', label: 'Lima (Peru)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
+
+    // --- Nova Iconografia / Devoção (Nível 9) ---
+    { id: '1049', level: 9, categoria: 'simbolo', label: 'Cão com Tocha na boca', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '1050', level: 9, categoria: 'simbolo', label: 'O Santo Rosário', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '1051', level: 9, categoria: 'simbolo', label: 'Faca cravada na cabeça', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '1052', level: 9, categoria: 'simbolo', label: 'Sol no peito', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } }
+	
+	
+	
+	
+	
 	
 	
 	
@@ -582,6 +606,10 @@ var todosNos = [
 	
 	
 ];
+
+
+
+
 
 
 
@@ -2009,7 +2037,81 @@ var todosSetas = [
 
     // --- 5. ERA CONTEMPORÂNEA ---
     { from: '61', to: '16', title: 'admirava e correspondia-se com', texto: 'amigo de' }, // S. João Bosco -> S. João M. Vianney
-    { from: '75', to: '61', title: 'inspirou o método pastoral de', texto: 'patrono de' } // S. Francisco de Sales -> S. João Bosco (origem do nome "Salesianos")
+    { from: '75', to: '61', title: 'inspirou o método pastoral de', texto: 'patrono de' } // S. Francisco de Sales -> S. João Bosco (origem do nome "Salesianos"),
+	
+	
+	// =========================================================================
+    // RELAÇÕES DOMINICANAS: O CLUSTER COMPLETO
+    // =========================================================================
+
+    // --- 1. PERTENCIMENTO À ORDEM DOMINICANA (Nó 24) ---
+    // (Incluindo os da base antiga que haviam ficado de fora)
+    { from: '9', to: '24', title: 'fundou', texto: 'fundou' }, // S. Domingos
+    { from: '10', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Tomás de Aquino
+    { from: '458', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pedro de Verona
+    { from: '444', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Vicente Férrer
+    { from: '459', to: '24', title: 'pertenceu a (Terceira)', texto: 'pertenceu a' }, // Sta. Catarina de Sena
+    { from: '601', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pio V
+    { from: '640', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Jacinto
+    { from: '649', to: '24', title: 'pertenceu a (Terceira)', texto: 'pertenceu a' }, // Sta. Rosa de Lima
+    { from: '697', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. Alberto Magno
+    { from: '605', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. Antonino
+    { from: '410', to: '24', title: 'mestre geral da', texto: 'liderou a' }, // S. Raimundo de Penaforte
+    { from: '722', to: '24', title: 'pertenceu a (Irmão Leigo)', texto: 'pertenceu a' }, // S. Martinho de Porres
+    { from: '723', to: '24', title: 'pertenceu a (Irmão Leigo)', texto: 'pertenceu a' }, // S. João Macias
+    { from: '724', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Inês de Montepulciano
+
+    // --- 2. HIERARQUIA (Nível 1) ---
+    { from: 'ID_FUNDADOR', to: '9', title: 'é', texto: 'é' }, // S. Domingos
+    { from: 'ID_DOUTOR', to: '10', title: 'é', texto: 'é' }, // S. Tomás
+    { from: 'ID_DOUTOR', to: '697', title: 'é', texto: 'é' }, // Sto. Alberto
+    { from: 'ID_DOUTOR', to: '459', title: 'é', texto: 'é' }, // Sta. Catarina
+    { from: 'ID_PAPA', to: '601', title: 'é', texto: 'é' }, // S. Pio V
+    { from: 'ID_MARTIR', to: '458', title: 'é', texto: 'é' }, // S. Pedro de Verona
+
+    // --- 3. A "REDE SOCIAL" DOMINICANA (Interpessoal) ---
+    // O Eixo Fundador e Europeu
+    { from: '697', to: '10', title: 'mestre de', texto: 'mestre de' }, // Sto. Alberto -> S. Tomás
+    { from: '9', to: '640', title: 'enviou em missão para a Polônia', texto: 'enviou' }, // S. Domingos -> S. Jacinto
+    { from: '10', to: '605', title: 'sua teologia inspirou', texto: 'inspirou' }, // S. Tomás -> Sto. Antonino
+    { from: '459', to: '724', title: 'venerava o túmulo de', texto: 'venerava' }, // Sta. Catarina de Sena -> Sta. Inês
+    { from: '410', to: '10', title: 'encomendou a Suma Contra os Gentios a', texto: 'amigo de' }, // S. Raimundo de Penaforte -> S. Tomás
+    
+    // O Eixo Sul-Americano (O Milagre de Lima)
+    // Curiosidade histórica: Rosa, Martinho e João Macias viveram na mesma cidade, na mesma época e eram amigos!
+    { from: '649', to: '722', title: 'amigos e contemporâneos em Lima', texto: 'amigo de' }, // Sta. Rosa <-> S. Martinho de Porres
+    { from: '722', to: '723', title: 'grandes amigos e confidentes', texto: 'amigo de' }, // S. Martinho de Porres <-> S. João Macias
+
+    // --- 4. GEOGRAFIA DE ATUAÇÃO E MORTE ---
+    { from: '649', to: '804', title: 'nasceu/faleceu em', texto: 'atuou em' }, // Sta. Rosa -> Lima
+    { from: '722', to: '804', title: 'nasceu/faleceu em', texto: 'atuou em' }, // S. Martinho -> Lima
+    { from: '723', to: '804', title: 'atuou/faleceu em', texto: 'atuou em' }, // S. João Macias -> Lima
+    { from: '459', to: '26', title: 'faleceu em', texto: 'faleceu em' }, // Sta. Catarina -> Roma (Já na base)
+    { from: '10', to: '145', title: 'faleceu perto de', texto: 'faleceu em' }, // S. Tomás -> Nápoles (Já na base)
+    { from: '9', to: '144', title: 'faleceu em', texto: 'faleceu em' }, // S. Domingos -> Bolonha (Já na base)
+
+    // --- 5. ICONOGRAFIA E SÍMBOLOS DOMINICANOS ---
+    { from: '9', to: '1049', title: 'representado por (Domini Canes = Cães do Senhor)', texto: 'representado por' }, // S. Domingos -> Cão com tocha
+    { from: '10', to: '1052', title: 'representado por', texto: 'representado por' }, // S. Tomás -> Sol no peito
+    { from: '458', to: '1051', title: 'representado por (arma do seu martírio)', texto: 'representado por' }, // S. Pedro de Verona -> Faca na cabeça
+    { from: '649', to: '1033', title: 'representada por (coroa de rosas)', texto: 'representada por' }, // Sta. Rosa -> Rosas (ID 1033 já criamos antes)
+    { from: '10', to: '1035', title: 'representado por', texto: 'representado por' }, // S. Tomás -> Livro (Suma) (ID 1035 já criado)
+    { from: '9', to: '1032', title: 'representado por', texto: 'representado por' }, // S. Domingos -> O Lírio (ID 1032 já criado)
+    
+    // A forte ligação dos Dominicanos com a Devoção do Rosário
+    { from: '9', to: '1050', title: 'recebeu de N. Senhora', texto: 'recebeu' }, // S. Domingos -> Rosário
+    { from: '601', to: '1050', title: 'instituiu a festa de', texto: 'instituiu' }, // S. Pio V -> Rosário (N.S. da Vitória/Lepanto)
+    { from: '722', to: '1050', title: 'sempre carregava', texto: 'carregava' } // S. Martinho -> Rosário
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 ];
 
