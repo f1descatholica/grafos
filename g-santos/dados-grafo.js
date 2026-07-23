@@ -562,7 +562,14 @@ var todosNos = [
 	
 	// ========== ADIÇÃO: S. LIBÓRIO E SUA CIDADE ==========
     { id: '721', level: 3, label: 'S. Libório', grupo: 'pessoa', ano: 397, font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '802', level: 8, categoria: 'atuacao', label: 'Le Mans', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } }
+    { id: '802', level: 8, categoria: 'atuacao', label: 'Le Mans', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
+	
+	// ========== NÍVEL 8: GEOGRAFIA (Relíquias de S. Libório) ==========
+    { id: '803', level: 8, categoria: 'santuario', label: 'Paderborn (Alemanha)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
+
+    // ========== NÍVEL 9: ICONOGRAFIA DE S. LIBÓRIO ==========
+    { id: '1047', level: 9, categoria: 'simbolo', label: 'O Pavão', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '1048', level: 9, categoria: 'simbolo', label: 'Pedras sobre um livro', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } }
 	
 	
 	
@@ -1919,8 +1926,30 @@ var todosSetas = [
     { from: '75', to: '151', title: 'bispo de', texto: 'bispo de' }, // S. Francisco de Sales -> Genebra
     { from: '66', to: '142', title: 'abade de', texto: 'abade de' }, // S. Bernardo -> Claraval
     
+	
+	
+	
     // Inserção Específica para S. Libório
     { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
+	// --- ATRIBUTOS DE HIERARQUIA (Nível 1 -> Santo) ---
+    // ATENÇÃO: Substitua 'ID_BISPO' e 'ID_CONFESSOR' pelos IDs numéricos que você usa no seu Nível 1
+    { from: 'ID_BISPO', to: '721', title: 'é', texto: 'é' },
+    { from: 'ID_CONFESSOR', to: '721', title: 'é', texto: 'é' },
+
+    // --- GEOGRAFIA E RELÍQUIAS (Nível 8) ---
+    { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
+    { from: '721', to: '803', title: 'relíquias veneradas em', texto: 'relíquias transladadas para' }, // S. Libório -> Paderborn
+
+    // --- "REDE SOCIAL" DOS SANTOS (Conexões Interpessoais) ---
+    // Ele era grande amigo de S. Martinho de Tours (que já está na sua base com o ID 693)
+    { from: '721', to: '693', title: 'amigo de (assistido no leito de morte por)', texto: 'amigo de' }, // S. Libório <-> S. Martinho de Tours
+
+    // --- ICONOGRAFIA / SÍMBOLOS NA ARTE (Nível 9) ---
+    { from: '721', to: '1047', title: 'representado por (guiou suas relíquias)', texto: 'representado por' }, // S. Libório -> Pavão
+    { from: '721', to: '1048', title: 'padroeiro dos doentes dos rins', texto: 'representado por' }, // S. Libório -> Pedras
+	
+	
+	
 
     // Ibéria (Espanha / Portugal)
     { from: '12', to: '149', title: 'nasceu/atuou em', texto: 'atuou em' }, // Sta. Teresa -> Ávila
