@@ -13919,5 +13919,72 @@
       "quebrarSempreEntreCategorias": true
     },
     "cores": {}
-  }
+  },
+  "bandasEpoca": [
+    {
+      "seculo": 1,
+      "yInicio": 300,
+      "yFim": 600
+    },
+    {
+      "seculo": 1,
+      "yInicio": 750,
+      "yFim": 900
+    },
+    {
+      "seculo": 2,
+      "yInicio": 900,
+      "yFim": 1050
+    },
+    {
+      "seculo": 3,
+      "yInicio": 1050,
+      "yFim": 1350
+    },
+    {
+      "seculo": 4,
+      "yInicio": 1350,
+      "yFim": 1800
+    },
+    {
+      "seculo": 5,
+      "yInicio": 1800,
+      "yFim": 1950
+    },
+    {
+      "seculo": 8,
+      "yInicio": 1950,
+      "yFim": 2100
+    },
+    {
+      "seculo": 12,
+      "yInicio": 2100,
+      "yFim": 2250
+    },
+    {
+      "seculo": 13,
+      "yInicio": 2250,
+      "yFim": 2400
+    },
+    {
+      "seculo": 14,
+      "yInicio": 2400,
+      "yFim": 2550
+    },
+    {
+      "seculo": 16,
+      "yInicio": 2550,
+      "yFim": 2850
+    },
+    {
+      "seculo": 17,
+      "yInicio": 2850,
+      "yFim": 3000
+    },
+    {
+      "seculo": 19,
+      "yInicio": 3000,
+      "yFim": 3150
+    }
+  ]
 }
