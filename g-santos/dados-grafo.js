@@ -565,7 +565,7 @@ var todosNos = [
     { id: '802', level: 8, categoria: 'atuacao', label: 'Le Mans', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 	
 	// ========== NÍVEL 8: GEOGRAFIA (Relíquias de S. Libório) ==========
-    { id: '803', level: 8, categoria: 'santuario', label: 'Paderborn (Alemanha)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '805', level: 8, categoria: 'santuario', label: 'Paderborn (Alemanha)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 
     // ========== NÍVEL 9: ICONOGRAFIA DE S. LIBÓRIO ==========
     { id: '1047', level: 9, categoria: 'simbolo', label: 'O Pavão', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
@@ -1171,7 +1171,6 @@ var todosSetas = [
     { from: '94', to: '200', texto: 'Dia 3' },
     { from: '94', to: '201', texto: 'Dia 5' },
     { from: '94', to: '202', texto: 'Dia 7' },
-    { from: '94', to: '900', texto: 'Dia 8' },
     { from: '94', to: '204', texto: 'Dia 10' },
     { from: '94', to: '205', texto: 'Dia 11' },
     { from: '94', to: '206', texto: 'Dia 12' },
@@ -1293,7 +1292,6 @@ var todosSetas = [
     { from: '98', to: '699', texto: 'Dia 17' },
     { from: '98', to: '2', texto: 'Dia 18' },
     { from: '98', to: '3', texto: 'Dia 18' },
-    { from: '98', to: '900', texto: 'Dia 19' },
     { from: '98', to: '700', texto: 'Dia 20' },
     { from: '98', to: '701', texto: 'Dia 22' },
     { from: '98', to: '702', texto: 'Dia 23' },
@@ -1966,7 +1964,7 @@ var todosSetas = [
 
     // --- GEOGRAFIA E RELÍQUIAS (Nível 8) ---
     { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
-    { from: '721', to: '803', title: 'relíquias veneradas em', texto: 'relíquias transladadas para' }, // S. Libório -> Paderborn
+    { from: '721', to: '805', title: 'relíquias veneradas em', texto: 'relíquias transladadas para' }, // S. Libório -> Paderborn
 
     // --- "REDE SOCIAL" DOS SANTOS (Conexões Interpessoais) ---
     // Ele era grande amigo de S. Martinho de Tours (que já está na sua base com o ID 693)
