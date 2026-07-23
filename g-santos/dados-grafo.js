@@ -47,8 +47,9 @@ var todosNos = [
     { id: '57', level: 1, categoria: 'ideia', label: 'BISPO', grupo: 'ideia', font: { color: '#dca3ff', size: 13, bold: true } },
     { id: '59', level: 1, categoria: 'ideia', label: 'ABADE', grupo: 'ideia', font: { color: '#ffb366', size: 13, bold: true } },
     { id: '60', level: 1, categoria: 'ideia', label: 'VIÚVA', grupo: 'ideia', font: { color: '#ff99cc', size: 13, bold: true } },
-    { id: '58', level: 1, categoria: 'ideia', label: 'ARCANJO', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
-    { id: '849', level: 1, categoria: 'ideia', label: 'APÓSTOLOS', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
+    { id: '58', level: 1, categoria: 'ideia', label: 'FESTA-ARCANJO-EVANGELISTA', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
+    { id: '849', level: 1, categoria: 'ideia', label: 'APÓSTOLO', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
+	{ id: '848', level: 1, categoria: 'ideia', label: 'PROFETA', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
     
     // Categoria: Documento (Meses) — linhas calculadas automaticamente
 { id: '70', level: 1, categoria: 'documento', label: 'JANEIRO', grupo: 'documento', mesNumero: 1, font: { color: '#ffffff', size: 14, bold: true } },
@@ -582,7 +583,7 @@ var todosNos = [
     { id: '724', level: 4, label: 'Sta. Inês de Montepulciano', grupo: 'pessoa', ano: 1317, font: { color: '#ffffff', size: 14, bold: true } },
 
     // --- Nova Geografia (O Grande Polo Dominicano nas Américas) ---
-    { id: '804', level: 8, categoria: 'atuacao', label: 'Lima (Peru)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '806', level: 8, categoria: 'atuacao', label: 'Lima (Peru)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 
     // --- Nova Iconografia / Devoção (Nível 9) ---
     { id: '1049', level: 9, categoria: 'simbolo', label: 'Cão com Tocha na boca', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
@@ -1000,11 +1001,7 @@ var todosSetas = [
     { from: '53', to: '715', title: 'é', texto: 'é' },
     { from: '53', to: '720', title: 'é', texto: 'é' },
 
-    // Festa/Arcanjo (58) — título novo, para nós que não se encaixam
-    // nas categorias tradicionais (arcanjos, festas e mistérios marianos/
-    // cristológicos). Exceção: 680 (S. Lucas Evangelista) é evangelista,
-    // não arcanjo/festa — incluído aqui por decisão explícita, mas
-    // conceitualmente destoa do grupo; revisar se fizer sentido depois.
+    // Festa/Arcanjo/Evangelista (58) — título a ser revisto com inclusao de festas de nossa senhora...
     { from: '58', to: '603', title: 'é', texto: 'é' },
     { from: '58', to: '609', title: 'é', texto: 'é' },
     { from: '58', to: '631', title: 'é', texto: 'é' },
@@ -1013,7 +1010,28 @@ var todosSetas = [
     { from: '58', to: '644', title: 'é', texto: 'é' },
     { from: '58', to: '680', title: 'é', texto: 'é' },
     { from: '58', to: '685', title: 'é', texto: 'é' },
+	{ from: '58', to: '55',  title: 'é', texto: 'é' }, // S. João Evangelista
+    { from: '58', to: '115', title: 'é', texto: 'é' }, // S. Mateus Evangelista
+    { from: '58', to: '453', title: 'é', texto: 'é' }, // S. Marcos Evangelista
+	
+	// Profeta (848)
+    { from: '848', to: '71', title: 'é', texto: 'é' }, // S. João Batista
 
+	// Apóstolos (849)
+    { from: '849', to: '2',   title: 'é', texto: 'é' }, // S. Pedro
+    { from: '849', to: '3',   title: 'é', texto: 'é' }, // S. Paulo
+    { from: '849', to: '110', title: 'é', texto: 'é' }, // S. André
+    { from: '849', to: '111', title: 'é', texto: 'é' }, // S. Tiago Maior
+    { from: '849', to: '55',  title: 'é', texto: 'é' }, // S. João
+    { from: '849', to: '112', title: 'é', texto: 'é' }, // S. Filipe
+    { from: '849', to: '113', title: 'é', texto: 'é' }, // S. Bartolomeu
+    { from: '849', to: '114', title: 'é', texto: 'é' }, // S. Tomé
+    { from: '849', to: '115', title: 'é', texto: 'é' }, // S. Mateus
+    { from: '849', to: '116', title: 'é', texto: 'é' }, // S. Tiago Menor
+    { from: '849', to: '117', title: 'é', texto: 'é' }, // S. Tadeu
+    { from: '849', to: '118', title: 'é', texto: 'é' }, // S. Simão
+    { from: '849', to: '86',  title: 'é', texto: 'é' }, // S. Matias
+	
     // ========== CALENDÁRIO -> SANTOS ==========
     // Janeiro (70)
     { from: '70', to: '400', texto: 'Dia 11' },
@@ -1959,8 +1977,8 @@ var todosSetas = [
     { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
 	// --- ATRIBUTOS DE HIERARQUIA (Nível 1 -> Santo) ---
     // ATENÇÃO: Substitua 'ID_BISPO' e 'ID_CONFESSOR' pelos IDs numéricos que você usa no seu Nível 1
-    { from: 'ID_BISPO', to: '721', title: 'é', texto: 'é' },
-    { from: 'ID_CONFESSOR', to: '721', title: 'é', texto: 'é' },
+    { from: '57', to: '721', title: 'é', texto: 'é' },
+    { from: '53', to: '721', title: 'é', texto: 'é' },
 
     // --- GEOGRAFIA E RELÍQUIAS (Nível 8) ---
     { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
@@ -2060,12 +2078,11 @@ var todosSetas = [
     { from: '724', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Inês de Montepulciano
 
     // --- 2. HIERARQUIA (Nível 1) ---
-    { from: 'ID_FUNDADOR', to: '9', title: 'é', texto: 'é' }, // S. Domingos
-    { from: 'ID_DOUTOR', to: '10', title: 'é', texto: 'é' }, // S. Tomás
-    { from: 'ID_DOUTOR', to: '697', title: 'é', texto: 'é' }, // Sto. Alberto
-    { from: 'ID_DOUTOR', to: '459', title: 'é', texto: 'é' }, // Sta. Catarina
-    { from: 'ID_PAPA', to: '601', title: 'é', texto: 'é' }, // S. Pio V
-    { from: 'ID_MARTIR', to: '458', title: 'é', texto: 'é' }, // S. Pedro de Verona
+    { from: '51', to: '10', title: 'é', texto: 'é' }, // S. Tomás
+    { from: '51', to: '697', title: 'é', texto: 'é' }, // Sto. Alberto
+    { from: '51', to: '459', title: 'é', texto: 'é' }, // Sta. Catarina
+    { from: '56', to: '601', title: 'é', texto: 'é' }, // S. Pio V
+    { from: '50', to: '458', title: 'é', texto: 'é' }, // S. Pedro de Verona
 
     // --- 3. A "REDE SOCIAL" DOMINICANA (Interpessoal) ---
     // O Eixo Fundador e Europeu
@@ -2081,9 +2098,9 @@ var todosSetas = [
     { from: '722', to: '723', title: 'grandes amigos e confidentes', texto: 'amigo de' }, // S. Martinho de Porres <-> S. João Macias
 
     // --- 4. GEOGRAFIA DE ATUAÇÃO E MORTE ---
-    { from: '649', to: '804', title: 'nasceu/faleceu em', texto: 'atuou em' }, // Sta. Rosa -> Lima
-    { from: '722', to: '804', title: 'nasceu/faleceu em', texto: 'atuou em' }, // S. Martinho -> Lima
-    { from: '723', to: '804', title: 'atuou/faleceu em', texto: 'atuou em' }, // S. João Macias -> Lima
+    { from: '649', to: '806', title: 'nasceu/faleceu em', texto: 'atuou em' }, // Sta. Rosa -> Lima
+    { from: '722', to: '806', title: 'nasceu/faleceu em', texto: 'atuou em' }, // S. Martinho -> Lima
+    { from: '723', to: '806', title: 'atuou/faleceu em', texto: 'atuou em' }, // S. João Macias -> Lima
     { from: '459', to: '26', title: 'faleceu em', texto: 'faleceu em' }, // Sta. Catarina -> Roma (Já na base)
     { from: '10', to: '145', title: 'faleceu perto de', texto: 'faleceu em' }, // S. Tomás -> Nápoles (Já na base)
     { from: '9', to: '144', title: 'faleceu em', texto: 'faleceu em' }, // S. Domingos -> Bolonha (Já na base)
