@@ -81,8 +81,8 @@
         "size": 13,
         "bold": true
       },
-      "x": 433,
-      "y": 112.5
+      "x": 213,
+      "y": 37.5
     },
     {
       "id": "57",
@@ -95,8 +95,8 @@
         "size": 13,
         "bold": true
       },
-      "x": 220,
-      "y": 37.5
+      "x": 426,
+      "y": 112.5
     },
     {
       "id": "59",
@@ -638,8 +638,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2109,
-      "y": 487.5
+      "x": 2497,
+      "y": 562.5
     },
     {
       "id": "439",
@@ -704,8 +704,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2504,
-      "y": 562.5
+      "x": 2102,
+      "y": 487.5
     },
     {
       "id": "630",
@@ -909,7 +909,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -1489,
+      "x": -1634,
       "y": 1762.5
     },
     {
@@ -923,8 +923,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1052,
-      "y": 1687.5
+      "x": 1197,
+      "y": 1762.5
     },
     {
       "id": "81",
@@ -1035,8 +1035,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 437,
-      "y": 1687.5
+      "x": 582,
+      "y": 1762.5
     },
     {
       "id": "214",
@@ -1217,8 +1217,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1412,
-      "y": 1762.5
+      "x": 1557,
+      "y": 1687.5
     },
     {
       "id": "237",
@@ -1399,8 +1399,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 84,
-      "y": 1762.5
+      "x": 229,
+      "y": 1687.5
     },
     {
       "id": "416",
@@ -1441,8 +1441,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1849,
-      "y": 1687.5
+      "x": 1994,
+      "y": 1762.5
     },
     {
       "id": "423",
@@ -1539,7 +1539,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -1870,
+      "x": -2015,
       "y": 1687.5
     },
     {
@@ -1553,8 +1553,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2653,
-      "y": 1687.5
+      "x": 2798,
+      "y": 1762.5
     },
     {
       "id": "447",
@@ -1665,7 +1665,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -1108,
+      "x": -1253,
       "y": 1687.5
     },
     {
@@ -2015,8 +2015,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 741,
-      "y": 1762.5
+      "x": 886,
+      "y": 1687.5
     },
     {
       "id": "674",
@@ -2071,7 +2071,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -2611,
+      "x": -2756,
       "y": 1687.5
     },
     {
@@ -2141,8 +2141,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -664,
-      "y": 1762.5
+      "x": -519,
+      "y": 1687.5
     },
     {
       "id": "699",
@@ -2281,8 +2281,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2286,
-      "y": 1762.5
+      "x": 2431,
+      "y": 1687.5
     },
     {
       "id": "712",
@@ -2309,8 +2309,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -283,
-      "y": 1687.5
+      "x": -138,
+      "y": 1762.5
     },
     {
       "id": "714",
@@ -2337,7 +2337,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -2251,
+      "x": -2396,
       "y": 1762.5
     },
     {
@@ -4058,8 +4058,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -1914,
-      "y": 3262.5
+      "x": -652,
+      "y": 3187.5
     },
     {
       "id": "23",
@@ -4072,8 +4072,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 561,
-      "y": 3262.5
+      "x": 935,
+      "y": 3187.5
     },
     {
       "id": "24",
@@ -4086,8 +4086,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 942,
-      "y": 3187.5
+      "x": 554,
+      "y": 3262.5
     },
     {
       "id": "25",
@@ -4100,8 +4100,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -666,
-      "y": 3187.5
+      "x": -1040,
+      "y": 3262.5
     },
     {
       "id": "62",
@@ -4170,8 +4170,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -1498,
-      "y": 3187.5
+      "x": -1872,
+      "y": 3262.5
     },
     {
       "id": "38",
@@ -4198,8 +4198,8 @@
         "size": 13,
         "italic": true
       },
-      "x": -1068,
-      "y": 3262.5
+      "x": -1442,
+      "y": 3187.5
     },
     {
       "id": "901",
@@ -4212,8 +4212,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 1372,
-      "y": 3262.5
+      "x": 1746,
+      "y": 3187.5
     },
     {
       "id": "902",
@@ -4240,8 +4240,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 1802,
-      "y": 3187.5
+      "x": 1316,
+      "y": 3262.5
     },
     {
       "id": "904",
@@ -4324,8 +4324,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 1068,
-      "y": 3337.5
+      "x": 792,
+      "y": 3412.5
     },
     {
       "id": "910",
@@ -4366,7 +4366,7 @@
         "size": 13,
         "italic": true
       },
-      "x": 320,
+      "x": 1152,
       "y": 3337.5
     },
     {
@@ -4450,8 +4450,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 652,
-      "y": 3412.5
+      "x": 376,
+      "y": 3337.5
     },
     {
       "id": "851",
@@ -4702,7 +4702,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -641,
+      "x": -61,
       "y": 3862.5
     },
     {
@@ -4758,7 +4758,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -68,
+      "x": -634,
       "y": 3862.5
     },
     {
@@ -4800,7 +4800,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -358,
+      "x": -344,
       "y": 3787.5
     },
     {
@@ -4842,8 +4842,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1357,
-      "y": 3862.5
+      "x": 1137,
+      "y": 3787.5
     },
     {
       "id": "148",
@@ -4870,8 +4870,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1130,
-      "y": 3787.5
+      "x": 1364,
+      "y": 3862.5
     },
     {
       "id": "151",
@@ -4968,8 +4968,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -159,
-      "y": 4012.5
+      "x": 89,
+      "y": 3937.5
     },
     {
       "id": "301",
@@ -4982,8 +4982,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 529,
-      "y": 3937.5
+      "x": 323,
+      "y": 4012.5
     },
     {
       "id": "302",
@@ -4996,8 +4996,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1329,
-      "y": 4012.5
+      "x": 1633,
+      "y": 3937.5
     },
     {
       "id": "804",
@@ -5024,8 +5024,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1605,
-      "y": 3937.5
+      "x": 1357,
+      "y": 4012.5
     },
     {
       "id": "304",
@@ -5038,8 +5038,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 302,
-      "y": 4012.5
+      "x": 550,
+      "y": 3937.5
     },
     {
       "id": "305",
@@ -5052,8 +5052,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 75,
-      "y": 3937.5
+      "x": -145,
+      "y": 4012.5
     },
     {
       "id": "306",
@@ -5178,7 +5178,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -47,
+      "x": 491,
       "y": 4162.5
     },
     {
@@ -5206,8 +5206,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 463,
-      "y": 4162.5
+      "x": 257,
+      "y": 4087.5
     },
     {
       "id": "501",
@@ -5220,8 +5220,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 194,
-      "y": 4087.5
+      "x": -12,
+      "y": 4162.5
     },
     {
       "id": "502",
@@ -5276,8 +5276,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1986,
-      "y": 4162.5
+      "x": 1738,
+      "y": 4087.5
     },
     {
       "id": "506",
@@ -5360,8 +5360,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1738,
-      "y": 4087.5
+      "x": 1986,
+      "y": 4162.5
     },
     {
       "id": "512",
@@ -5598,8 +5598,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 491,
-      "y": 4462.5
+      "x": 1029,
+      "y": 4612.5
     },
     {
       "id": "133",
@@ -5613,7 +5613,7 @@
         "bold": true
       },
       "x": -952,
-      "y": 4387.5
+      "y": 4537.5
     },
     {
       "id": "136",
@@ -5627,7 +5627,7 @@
         "bold": true
       },
       "x": -1448,
-      "y": 4387.5
+      "y": 4537.5
     },
     {
       "id": "139",
@@ -5641,7 +5641,7 @@
         "bold": true
       },
       "x": -1682,
-      "y": 4462.5
+      "y": 4612.5
     },
     {
       "id": "140",
@@ -5654,8 +5654,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 718,
-      "y": 4387.5
+      "x": 512,
+      "y": 4612.5
     },
     {
       "id": "144",
@@ -5669,7 +5669,7 @@
         "bold": true
       },
       "x": 1256,
-      "y": 4387.5
+      "y": 4537.5
     },
     {
       "id": "145",
@@ -5683,7 +5683,7 @@
         "bold": true
       },
       "x": -690,
-      "y": 4462.5
+      "y": 4612.5
     },
     {
       "id": "146",
@@ -5697,7 +5697,7 @@
         "bold": true
       },
       "x": 1490,
-      "y": 4462.5
+      "y": 4612.5
     },
     {
       "id": "150",
@@ -5711,7 +5711,7 @@
         "bold": true
       },
       "x": 1710,
-      "y": 4387.5
+      "y": 4537.5
     },
     {
       "id": "155",
@@ -5725,7 +5725,7 @@
         "bold": true
       },
       "x": 271,
-      "y": 4387.5
+      "y": 4537.5
     },
     {
       "id": "156",
@@ -5739,7 +5739,7 @@
         "bold": true
       },
       "x": -344,
-      "y": 4387.5
+      "y": 4537.5
     },
     {
       "id": "157",
@@ -5752,8 +5752,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 987,
-      "y": 4462.5
+      "x": 781,
+      "y": 4537.5
     },
     {
       "id": "158",
@@ -5767,7 +5767,7 @@
         "bold": true
       },
       "x": -1930,
-      "y": 4387.5
+      "y": 4537.5
     },
     {
       "id": "161",
@@ -5781,7 +5781,7 @@
         "bold": true
       },
       "x": 1937,
-      "y": 4462.5
+      "y": 4612.5
     },
     {
       "id": "307",
@@ -5795,7 +5795,7 @@
         "bold": true
       },
       "x": -1214,
-      "y": 4462.5
+      "y": 4612.5
     },
     {
       "id": "308",
@@ -5809,7 +5809,7 @@
         "bold": true
       },
       "x": 16,
-      "y": 4462.5
+      "y": 4612.5
     },
     {
       "id": "310",
@@ -5822,8 +5822,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -241,
-      "y": 4612.5
+      "x": -461,
+      "y": 4687.5
     },
     {
       "id": "314",
@@ -5837,7 +5837,7 @@
         "bold": true
       },
       "x": 213,
-      "y": 4612.5
+      "y": 4762.5
     },
     {
       "id": "320",
@@ -5851,7 +5851,7 @@
         "bold": true
       },
       "x": -14,
-      "y": 4537.5
+      "y": 4687.5
     },
     {
       "id": "516",
@@ -5865,7 +5865,7 @@
         "bold": true
       },
       "x": 454,
-      "y": 4537.5
+      "y": 4687.5
     },
     {
       "id": "800",
@@ -5878,8 +5878,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -468,
-      "y": 4537.5
+      "x": -234,
+      "y": 4762.5
     },
     {
       "id": "1004",
@@ -5893,7 +5893,7 @@
         "bold": true
       },
       "x": 2021,
-      "y": 4762.5
+      "y": 4912.5
     },
     {
       "id": "1005",
@@ -5907,7 +5907,7 @@
         "bold": true
       },
       "x": -993,
-      "y": 4762.5
+      "y": 4912.5
     },
     {
       "id": "1006",
@@ -5921,7 +5921,7 @@
         "bold": true
       },
       "x": 35,
-      "y": 4762.5
+      "y": 4912.5
     },
     {
       "id": "1007",
@@ -5935,7 +5935,7 @@
         "bold": true
       },
       "x": 1049,
-      "y": 4762.5
+      "y": 4912.5
     },
     {
       "id": "1008",
@@ -5949,7 +5949,7 @@
         "bold": true
       },
       "x": -2630,
-      "y": 4837.5
+      "y": 4987.5
     },
     {
       "id": "1009",
@@ -5963,7 +5963,7 @@
         "bold": true
       },
       "x": -1882,
-      "y": 4837.5
+      "y": 4987.5
     },
     {
       "id": "1000",
@@ -5977,7 +5977,7 @@
         "bold": true
       },
       "x": -470,
-      "y": 5137.5
+      "y": 5287.5
     },
     {
       "id": "1001",
@@ -5991,7 +5991,7 @@
         "bold": true
       },
       "x": -89,
-      "y": 5212.5
+      "y": 5362.5
     },
     {
       "id": "1002",
@@ -6005,7 +6005,7 @@
         "bold": true
       },
       "x": 243,
-      "y": 5137.5
+      "y": 5287.5
     },
     {
       "id": "1003",
@@ -6019,7 +6019,7 @@
         "bold": true
       },
       "x": 519,
-      "y": 5212.5
+      "y": 5362.5
     },
     {
       "id": "1010",
@@ -6033,7 +6033,7 @@
         "bold": true
       },
       "x": 187,
-      "y": 5362.5
+      "y": 5512.5
     },
     {
       "id": "1011",
@@ -6047,7 +6047,7 @@
         "bold": true
       },
       "x": -208,
-      "y": 5287.5
+      "y": 5437.5
     },
     {
       "id": "1012",
@@ -6061,7 +6061,7 @@
         "bold": true
       },
       "x": 554,
-      "y": 5287.5
+      "y": 5437.5
     },
     {
       "id": "1013",
@@ -6075,7 +6075,7 @@
         "bold": true
       },
       "x": -963,
-      "y": 5287.5
+      "y": 5437.5
     },
     {
       "id": "1014",
@@ -6089,7 +6089,7 @@
         "bold": true
       },
       "x": -596,
-      "y": 5362.5
+      "y": 5512.5
     },
     {
       "id": "1015",
@@ -6103,7 +6103,7 @@
         "bold": true
       },
       "x": 935,
-      "y": 5362.5
+      "y": 5512.5
     },
     {
       "id": "1020",
@@ -6117,7 +6117,7 @@
         "bold": true
       },
       "x": 542,
-      "y": 4687.5
+      "y": 4837.5
     },
     {
       "id": "1021",
@@ -6131,7 +6131,7 @@
         "bold": true
       },
       "x": -493,
-      "y": 4687.5
+      "y": 4837.5
     },
     {
       "id": "1022",
@@ -6145,7 +6145,7 @@
         "bold": true
       },
       "x": -1465,
-      "y": 4687.5
+      "y": 4837.5
     },
     {
       "id": "1023",
@@ -6159,7 +6159,7 @@
         "bold": true
       },
       "x": 1549,
-      "y": 4687.5
+      "y": 4837.5
     },
     {
       "id": "1024",
@@ -6173,7 +6173,7 @@
         "bold": true
       },
       "x": 2500,
-      "y": 4687.5
+      "y": 4837.5
     },
     {
       "id": "1025",
@@ -6187,7 +6187,7 @@
         "bold": true
       },
       "x": -2514,
-      "y": 4687.5
+      "y": 4837.5
     },
     {
       "id": "1026",
@@ -6201,7 +6201,7 @@
         "bold": true
       },
       "x": -1993,
-      "y": 4762.5
+      "y": 4912.5
     },
     {
       "id": "1030",
@@ -6215,7 +6215,7 @@
         "bold": true
       },
       "x": 2431,
-      "y": 4837.5
+      "y": 4987.5
     },
     {
       "id": "1031",
@@ -6229,7 +6229,7 @@
         "bold": true
       },
       "x": 680,
-      "y": 4912.5
+      "y": 5062.5
     },
     {
       "id": "1032",
@@ -6243,7 +6243,7 @@
         "bold": true
       },
       "x": 998,
-      "y": 4837.5
+      "y": 4987.5
     },
     {
       "id": "1033",
@@ -6257,7 +6257,7 @@
         "bold": true
       },
       "x": -274,
-      "y": 4837.5
+      "y": 4987.5
     },
     {
       "id": "1034",
@@ -6271,7 +6271,7 @@
         "bold": true
       },
       "x": 1428,
-      "y": 4912.5
+      "y": 5062.5
     },
     {
       "id": "1035",
@@ -6285,7 +6285,7 @@
         "bold": true
       },
       "x": -648,
-      "y": 4912.5
+      "y": 5062.5
     },
     {
       "id": "1036",
@@ -6299,7 +6299,7 @@
         "bold": true
       },
       "x": 2700,
-      "y": 4912.5
+      "y": 5062.5
     },
     {
       "id": "1037",
@@ -6313,7 +6313,7 @@
         "bold": true
       },
       "x": -1501,
-      "y": 4912.5
+      "y": 5062.5
     },
     {
       "id": "1038",
@@ -6327,7 +6327,7 @@
         "bold": true
       },
       "x": 1802,
-      "y": 4837.5
+      "y": 4987.5
     },
     {
       "id": "1039",
@@ -6341,7 +6341,7 @@
         "bold": true
       },
       "x": 404,
-      "y": 4837.5
+      "y": 4987.5
     },
     {
       "id": "1040",
@@ -6355,7 +6355,7 @@
         "bold": true
       },
       "x": 58,
-      "y": 4912.5
+      "y": 5062.5
     },
     {
       "id": "1041",
@@ -6369,7 +6369,7 @@
         "bold": true
       },
       "x": -1092,
-      "y": 4837.5
+      "y": 4987.5
     },
     {
       "id": "1042",
@@ -6383,7 +6383,7 @@
         "bold": true
       },
       "x": -2242,
-      "y": 4912.5
+      "y": 5062.5
     },
     {
       "id": "1043",
@@ -6397,7 +6397,7 @@
         "bold": true
       },
       "x": 2113,
-      "y": 4912.5
+      "y": 5062.5
     },
     {
       "id": "1044",
@@ -6411,7 +6411,7 @@
         "bold": true
       },
       "x": 248,
-      "y": 4987.5
+      "y": 5137.5
     },
     {
       "id": "1045",
@@ -6425,7 +6425,7 @@
         "bold": true
       },
       "x": 7,
-      "y": 5062.5
+      "y": 5212.5
     },
     {
       "id": "1046",
@@ -6439,7 +6439,35 @@
         "bold": true
       },
       "x": -241,
-      "y": 4987.5
+      "y": 5137.5
+    },
+    {
+      "id": "721",
+      "level": 3,
+      "label": "S. Libório",
+      "grupo": "pessoa",
+      "ano": 397,
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -879,
+      "y": 1762.5
+    },
+    {
+      "id": "802",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Le Mans",
+      "grupo": "localizacao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 0,
+      "y": 4387.5
     }
   ],
   "edges": [
@@ -12630,6 +12658,702 @@
       "to": "1046",
       "title": "representado por",
       "texto": "representado por"
+    },
+    {
+      "from": "6",
+      "to": "22",
+      "title": "fundou",
+      "texto": "fundou"
+    },
+    {
+      "from": "85",
+      "to": "22",
+      "title": "co-fundou (Ramo feminino)",
+      "texto": "co-fundou"
+    },
+    {
+      "from": "436",
+      "to": "22",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "403",
+      "to": "22",
+      "title": "propagou a",
+      "texto": "propagou a"
+    },
+    {
+      "from": "428",
+      "to": "22",
+      "title": "reformou a",
+      "texto": "reformador"
+    },
+    {
+      "from": "706",
+      "to": "22",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "8",
+      "to": "23",
+      "title": "fundou",
+      "texto": "fundou"
+    },
+    {
+      "from": "11",
+      "to": "23",
+      "title": "fundou (Clarissas)",
+      "texto": "fundou"
+    },
+    {
+      "from": "65",
+      "to": "23",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "208",
+      "to": "23",
+      "title": "ministro geral da",
+      "texto": "liderou a"
+    },
+    {
+      "from": "616",
+      "to": "23",
+      "title": "reformou a",
+      "texto": "reformador"
+    },
+    {
+      "from": "612",
+      "to": "23",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "681",
+      "to": "23",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "452",
+      "to": "23",
+      "title": "pertenceu a (Capuchinho)",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "695",
+      "to": "23",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "9",
+      "to": "24",
+      "title": "fundou",
+      "texto": "fundou"
+    },
+    {
+      "from": "10",
+      "to": "24",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "458",
+      "to": "24",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "444",
+      "to": "24",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "459",
+      "to": "24",
+      "title": "pertenceu a (Terceira)",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "601",
+      "to": "24",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "640",
+      "to": "24",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "649",
+      "to": "24",
+      "title": "pertenceu a (Terceira)",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "697",
+      "to": "24",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "14",
+      "to": "25",
+      "title": "fundou",
+      "texto": "fundou"
+    },
+    {
+      "from": "15",
+      "to": "25",
+      "title": "co-fundou",
+      "texto": "co-fundou"
+    },
+    {
+      "from": "235",
+      "to": "25",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "455",
+      "to": "25",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "608",
+      "to": "25",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "675",
+      "to": "25",
+      "title": "superior geral da",
+      "texto": "liderou a"
+    },
+    {
+      "from": "61",
+      "to": "62",
+      "title": "fundou",
+      "texto": "fundou"
+    },
+    {
+      "from": "66",
+      "to": "63",
+      "title": "reformou e expandiu",
+      "texto": "expandiu"
+    },
+    {
+      "from": "12",
+      "to": "41",
+      "title": "fundou",
+      "texto": "fundou"
+    },
+    {
+      "from": "13",
+      "to": "41",
+      "title": "co-fundou",
+      "texto": "co-fundou"
+    },
+    {
+      "from": "17",
+      "to": "41",
+      "title": "pertenceu a",
+      "texto": "pertenceu a"
+    },
+    {
+      "from": "10",
+      "to": "32",
+      "title": "escreveu",
+      "texto": "escreveu"
+    },
+    {
+      "from": "14",
+      "to": "34",
+      "title": "escreveu",
+      "texto": "escreveu"
+    },
+    {
+      "from": "12",
+      "to": "38",
+      "title": "mestra da",
+      "texto": "mestra da"
+    },
+    {
+      "from": "13",
+      "to": "38",
+      "title": "doutor da",
+      "texto": "doutor da"
+    },
+    {
+      "from": "4",
+      "to": "130",
+      "title": "viveu em",
+      "texto": "viveu em"
+    },
+    {
+      "from": "440",
+      "to": "130",
+      "title": "ocorreu em",
+      "texto": "ocorreu em"
+    },
+    {
+      "from": "71",
+      "to": "131",
+      "title": "batizou no",
+      "texto": "batizou no"
+    },
+    {
+      "from": "116",
+      "to": "133",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "630",
+      "to": "133",
+      "title": "martirizado em",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "55",
+      "to": "132",
+      "title": "viveu em",
+      "texto": "viveu em"
+    },
+    {
+      "from": "13",
+      "to": "132",
+      "title": "bispo de (segundo a tradição)",
+      "texto": "bispo de"
+    },
+    {
+      "from": "412",
+      "to": "132",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "600",
+      "to": "510",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "422",
+      "to": "510",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "81",
+      "to": "138",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "414",
+      "to": "506",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "604",
+      "to": "506",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "2",
+      "to": "26",
+      "title": "bispo e mártir em",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "3",
+      "to": "26",
+      "title": "martirizado em",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "635",
+      "to": "26",
+      "title": "martirizado em",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "73",
+      "to": "26",
+      "title": "martirizada em",
+      "texto": "martirizada em"
+    },
+    {
+      "from": "72",
+      "to": "26",
+      "title": "martirizado em",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "6",
+      "to": "141",
+      "title": "fundou abadia em",
+      "texto": "fundou abadia"
+    },
+    {
+      "from": "8",
+      "to": "143",
+      "title": "nasceu/atuou em",
+      "texto": "atuou em"
+    },
+    {
+      "from": "11",
+      "to": "143",
+      "title": "nasceu/atuou em",
+      "texto": "atuou em"
+    },
+    {
+      "from": "65",
+      "to": "146",
+      "title": "faleceu em",
+      "texto": "faleceu em"
+    },
+    {
+      "from": "67",
+      "to": "147",
+      "title": "viveu em",
+      "texto": "viveu em"
+    },
+    {
+      "from": "713",
+      "to": "300",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "688",
+      "to": "300",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "236",
+      "to": "318",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "459",
+      "to": "527",
+      "title": "nasceu/atuou em",
+      "texto": "atuou em"
+    },
+    {
+      "from": "61",
+      "to": "153",
+      "title": "atuou em",
+      "texto": "atuou em"
+    },
+    {
+      "from": "16",
+      "to": "152",
+      "title": "pároco em",
+      "texto": "pároco em"
+    },
+    {
+      "from": "17",
+      "to": "154",
+      "title": "viveu no carmelo de",
+      "texto": "carmelita em"
+    },
+    {
+      "from": "5",
+      "to": "137",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "424",
+      "to": "511",
+      "title": "aparição em",
+      "texto": "apareceu em"
+    },
+    {
+      "from": "609",
+      "to": "801",
+      "title": "aparição em",
+      "texto": "apareceu em"
+    },
+    {
+      "from": "626",
+      "to": "320",
+      "title": "padroeira de",
+      "texto": "padroeira"
+    },
+    {
+      "from": "212",
+      "to": "320",
+      "title": "atuou e faleceu em",
+      "texto": "faleceu em"
+    },
+    {
+      "from": "693",
+      "to": "800",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "75",
+      "to": "151",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "66",
+      "to": "142",
+      "title": "abade de",
+      "texto": "abade de"
+    },
+    {
+      "from": "721",
+      "to": "802",
+      "title": "bispo de",
+      "texto": "bispo de"
+    },
+    {
+      "from": "12",
+      "to": "149",
+      "title": "nasceu/atuou em",
+      "texto": "atuou em"
+    },
+    {
+      "from": "13",
+      "to": "150",
+      "title": "faleceu em",
+      "texto": "faleceu em"
+    },
+    {
+      "from": "111",
+      "to": "156",
+      "title": "jaz em",
+      "texto": "jaz em"
+    },
+    {
+      "from": "65",
+      "to": "302",
+      "title": "atuou em",
+      "texto": "atuou em"
+    },
+    {
+      "from": "15",
+      "to": "148",
+      "title": "missionário em",
+      "texto": "atuou em"
+    },
+    {
+      "from": "437",
+      "to": "518",
+      "title": "evangelizou a",
+      "texto": "evangelizou"
+    },
+    {
+      "from": "719",
+      "to": "523",
+      "title": "arcebispo e mártir em",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "202",
+      "to": "301",
+      "title": "evangelizaram a",
+      "texto": "evangelizaram"
+    },
+    {
+      "from": "218",
+      "to": "639",
+      "title": "esposos",
+      "texto": "casados"
+    },
+    {
+      "from": "2",
+      "to": "110",
+      "title": "irmãos de sangue",
+      "texto": "irmão de"
+    },
+    {
+      "from": "55",
+      "to": "111",
+      "title": "irmãos de sangue",
+      "texto": "irmão de"
+    },
+    {
+      "from": "3",
+      "to": "412",
+      "title": "mestre e pai espiritual de",
+      "texto": "discipulou"
+    },
+    {
+      "from": "3",
+      "to": "418",
+      "title": "mestre de",
+      "texto": "discipulou"
+    },
+    {
+      "from": "3",
+      "to": "228",
+      "title": "companheiros de missão",
+      "texto": "missionário com"
+    },
+    {
+      "from": "2",
+      "to": "453",
+      "title": "ditou seu Evangelho para",
+      "texto": "mestre de"
+    },
+    {
+      "from": "3",
+      "to": "680",
+      "title": "companheiros de missão",
+      "texto": "missionário com"
+    },
+    {
+      "from": "55",
+      "to": "413",
+      "title": "mestre de",
+      "texto": "discipulou"
+    },
+    {
+      "from": "413",
+      "to": "239",
+      "title": "mestre de",
+      "texto": "discipulou"
+    },
+    {
+      "from": "64",
+      "to": "5",
+      "title": "mãe de",
+      "texto": "mãe de"
+    },
+    {
+      "from": "713",
+      "to": "5",
+      "title": "converteu e batizou",
+      "texto": "batizou"
+    },
+    {
+      "from": "76",
+      "to": "74",
+      "title": "amigos no deserto",
+      "texto": "amigo de"
+    },
+    {
+      "from": "229",
+      "to": "604",
+      "title": "grandes amigos (Padres Capadócios)",
+      "texto": "amigo de"
+    },
+    {
+      "from": "715",
+      "to": "668",
+      "title": "encomendou a Vulgata a",
+      "texto": "patrono de"
+    },
+    {
+      "from": "6",
+      "to": "85",
+      "title": "irmãos gêmeos",
+      "texto": "irmão de"
+    },
+    {
+      "from": "8",
+      "to": "9",
+      "title": "contemporâneos (encontro em Roma)",
+      "texto": "amigo de"
+    },
+    {
+      "from": "8",
+      "to": "11",
+      "title": "orientador espiritual de",
+      "texto": "inspirou"
+    },
+    {
+      "from": "697",
+      "to": "10",
+      "title": "mestre de",
+      "texto": "mestre de"
+    },
+    {
+      "from": "208",
+      "to": "10",
+      "title": "amigos e professores em Paris",
+      "texto": "amigo de"
+    },
+    {
+      "from": "646",
+      "to": "10",
+      "title": "buscava conselhos com",
+      "texto": "aconselhado por"
+    },
+    {
+      "from": "14",
+      "to": "15",
+      "title": "colegas de quarto e co-fundadores",
+      "texto": "amigo de"
+    },
+    {
+      "from": "12",
+      "to": "13",
+      "title": "amigos e co-reformadores",
+      "texto": "amiga de"
+    },
+    {
+      "from": "619",
+      "to": "14",
+      "title": "amigos em Roma",
+      "texto": "amigo de"
+    },
+    {
+      "from": "619",
+      "to": "688",
+      "title": "grandes amigos e colaboradores",
+      "texto": "amigo de"
+    },
+    {
+      "from": "608",
+      "to": "235",
+      "title": "diretor espiritual de",
+      "texto": "diretor espiritual"
+    },
+    {
+      "from": "75",
+      "to": "643",
+      "title": "amigos e co-fundadores",
+      "texto": "amigo de"
+    },
+    {
+      "from": "212",
+      "to": "75",
+      "title": "admirava profundamente",
+      "texto": "discípulo de"
+    },
+    {
+      "from": "61",
+      "to": "16",
+      "title": "admirava e correspondia-se com",
+      "texto": "amigo de"
+    },
+    {
+      "from": "75",
+      "to": "61",
+      "title": "inspirou o método pastoral de",
+      "texto": "patrono de"
     }
   ],
   "regras": {
