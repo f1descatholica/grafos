@@ -1,31 +1,5 @@
-// ============================================================
-// CALCULADOR DE POSIÇÕES — VERSÃO GENÉRICA (N GRAFOS)
-// Lê os dados E as regras de cada grafo de "dados-grafo.js" (arquivo
-// único por pasta — regras-grafo.js foi consolidado aqui dentro).
-// ============================================================
-//
-// ÁRVORE DE DECISÃO — CAMADAS DE GENERALIDADE (não remover nem mover):
-//
-// GITHUB (este arquivo + dados-grafo.js de cada pasta + workflow)
-//   = GERAL. Gerencia N grafos ao mesmo tempo. Só pode usar o que
-//     está exposto no dicionário/layout de cada dados-grafo.js —
-//     nunca suposição fixa de 1 grafo específico.
-//
-// MOTOR (MOTOR_grafo_v10, 1 instância só, compartilhada por todos
-//   os posts do blog)
-//   = TAMBÉM GERAL, mas roda em runtime, sob restrição de
-//     performance do navegador, e recalcula só SUBCONJUNTOS
-//     filtrados. Pode ter comportamento simplificado/aproximado em
-//     relação a este arquivo, SEM que isso seja inconsistência —
-//     desde que a diferença não venha de codar algo fixo de 1
-//     grafo específico (isso sim seria violação).
-//
-// PÁGINA (1 bloco de post por grafo, ex: grafo_santos_v10.txt)
-//   = O ÚNICO lugar que pode ser particular de fato: id do
-//     container, botões de filtro, qual JSON carregar. Tudo
-//     específico de 1 grafo mora aqui — nunca no motor, nunca
-//     aqui neste arquivo.
-// ============================================================
+
+
 
 const fs = require('fs');
 const path = require('path');
@@ -292,6 +266,42 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
   var mapaNoPorId = {};
   todosNos.forEach(function(n) { mapaNoPorId[n.id] = n; });
 
+  // Faixas de século — mesma lógica do motor (runtime), calculada aqui
+  // pra grafos abertos sem filtro ('TODOS'), que não passam pelo
+  // recálculo de posições em tempo real.
+  var bandasEpoca = [];
+  if (regras.layout.usaQuebraPorEpoca) {
+    var seculoAtualBandaBuild = null;
+    var yInicioBandaBuild = null;
+    listaLinhasVisuais.forEach(function(idxLinha) {
+      var idsDaLinha = niveis[idxLinha];
+      var info = infoLinhaVisual[idxLinha];
+      var yTopoLinha = yBasePorNivel[info.lvl] + info.indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA;
+      var seculoDaLinha = null;
+      for (var k = 0; k < idsDaLinha.length; k++) {
+        var noRef = mapaNoPorId[idsDaLinha[k]];
+        var valorChaveRef = noRef ? noRef[regras.dicionario.chaveOrdenacao] : undefined;
+        if (valorChaveRef !== undefined && valorChaveRef !== null) {
+          seculoDaLinha = calcularSeculo(valorChaveRef);
+          break;
+        }
+      }
+      if (seculoDaLinha !== seculoAtualBandaBuild) {
+        if (seculoAtualBandaBuild !== null) {
+          bandasEpoca.push({ seculo: seculoAtualBandaBuild, yInicio: yInicioBandaBuild, yFim: yTopoLinha });
+        }
+        seculoAtualBandaBuild = seculoDaLinha;
+        yInicioBandaBuild = yTopoLinha;
+      }
+    });
+    if (seculoAtualBandaBuild !== null) {
+      var ultimoIdx = listaLinhasVisuais[listaLinhasVisuais.length - 1];
+      var infoUltimo = infoLinhaVisual[ultimoIdx];
+      var yFimFinal = yBasePorNivel[infoUltimo.lvl] + infoUltimo.indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA + ALTURA_POR_FILEIRA;
+      bandasEpoca.push({ seculo: seculoAtualBandaBuild, yInicio: yInicioBandaBuild, yFim: yFimFinal });
+    }
+  }
+
   function calcularLarguraNo(id) {
     var no = mapaNoPorId[id];
     var textoBase = (no && no.label !== undefined && no.label !== null)
@@ -318,9 +328,12 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     });
   });
 
-  return todosNos.map(function(n) {
-    return Object.assign({}, n, { x: xPorNo[n.id], y: yFinalPorNo[n.id] });
-  });
+  return {
+    nodes: todosNos.map(function(n) {
+      return Object.assign({}, n, { x: xPorNo[n.id], y: yFinalPorNo[n.id] });
+    }),
+    bandasEpoca: bandasEpoca
+  };
 }
 
 function encontrarPastasDeGrafo() {
@@ -359,17 +372,18 @@ function main() {
         console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "regras" em dados-grafo.js. Usando padrão.');
       }
 
-      var nosComPosicao = calcularPosicoesDeUmGrafo(dados.todosNos, dados.todosSetas, regrasCarregadas);
+      var resultadoCalculo = calcularPosicoesDeUmGrafo(dados.todosNos, dados.todosSetas, regrasCarregadas);
       // "regras" vai junto no JSON de saída — a página passa a buscar
       // só esse arquivo, sem precisar de uma 2ª requisição separada
       // pro conteúdo de regras (evita fonte extra de cache/defasagem).
       var resultado = {
-        nodes: nosComPosicao,
+        nodes: resultadoCalculo.nodes,
         edges: dados.todosSetas,
-        regras: mesclarComPadrao(regrasCarregadas)
+        regras: mesclarComPadrao(regrasCarregadas),
+        bandasEpoca: resultadoCalculo.bandasEpoca
       };
       fs.writeFileSync(arquivoSaida, JSON.stringify(resultado, null, 2), 'utf8');
-      console.log('OK: "' + nomeGrafo + '" -> ' + nosComPosicao.length + ' nós, ' + dados.todosSetas.length + ' arestas.');
+      console.log('OK: "' + nomeGrafo + '" -> ' + resultadoCalculo.nodes.length + ' nós, ' + dados.todosSetas.length + ' arestas.');
       sucesso++;
     } catch (erro) {
       console.error('ERRO ao processar "' + nomeGrafo + '": ' + erro.message);
