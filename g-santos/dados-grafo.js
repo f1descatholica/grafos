@@ -2035,7 +2035,7 @@ var todosSetas = [
 
     // --- 5. ERA CONTEMPORÂNEA ---
     { from: '61', to: '16', title: 'admirava e correspondia-se com', texto: 'amigo de' }, // S. João Bosco -> S. João M. Vianney
-    { from: '75', to: '61', title: 'inspirou o método pastoral de', texto: 'patrono de' } // S. Francisco de Sales -> S. João Bosco (origem do nome "Salesianos"),
+    { from: '75', to: '61', title: 'inspirou o método pastoral de', texto: 'patrono de' }, // S. Francisco de Sales -> S. João Bosco (origem do nome "Salesianos")
 	
 	
 	// =========================================================================
