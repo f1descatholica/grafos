@@ -35,9 +35,6 @@ var regrasDoGrafo = {
 
 
 
-
-
-
 var todosNos = [
     // ========== NÍVEL 1: SISTEMAS DE CLASSIFICAÇÃO E TEMPO ==========
     // Categoria: Ideia (Títulos) — linhas calculadas automaticamente
@@ -561,7 +558,15 @@ var todosNos = [
     { id: '1043', level: 9, categoria: 'simbolo', label: 'A Roda Quebrada', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1044', level: 9, categoria: 'simbolo', label: 'O Leão', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1045', level: 9, categoria: 'simbolo', label: 'A Águia', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '1046', level: 9, categoria: 'simbolo', label: 'O Touro', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } }
+    { id: '1046', level: 9, categoria: 'simbolo', label: 'O Touro', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
+	
+	// ========== ADIÇÃO: S. LIBÓRIO E SUA CIDADE ==========
+    { id: '721', level: 3, label: 'S. Libório', grupo: 'pessoa', ano: 397, font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '802', level: 8, categoria: 'atuacao', label: 'Le Mans', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } }
+	
+	
+	
+	
 	
 	
 	
@@ -570,6 +575,10 @@ var todosNos = [
 	
 	
 ];
+
+
+
+
 
 
 
@@ -1798,8 +1807,180 @@ var todosSetas = [
     { from: '453', to: '1044', title: 'representado por', texto: 'representado por' }, // S. Marcos -> Leão
     { from: '668', to: '1044', title: 'representado por', texto: 'representado por' }, // S. Jerônimo -> Leão
     { from: '55', to: '1045', title: 'representado por', texto: 'representado por' }, // S. João (Evangelista) -> Águia
-    { from: '680', to: '1046', title: 'representado por', texto: 'representado por' } // S. Lucas -> Touro
+    { from: '680', to: '1046', title: 'representado por', texto: 'representado por' }, // S. Lucas -> Touro
 	
+	
+	
+	// =========================================================================
+    // RELAÇÕES 1: SANTOS -> ORDENS E OBRAS ORIGINAIS (Nível 7)
+    // =========================================================================
+    
+    // Ordem Beneditina (22)
+    { from: '6', to: '22', title: 'fundou', texto: 'fundou' }, // S. Bento
+    { from: '85', to: '22', title: 'co-fundou (Ramo feminino)', texto: 'co-fundou' }, // Sta. Escolástica
+    { from: '436', to: '22', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Gregório Magno
+    { from: '403', to: '22', title: 'propagou a', texto: 'propagou a' }, // S. Mauro
+    { from: '428', to: '22', title: 'reformou a', texto: 'reformador' }, // S. Pedro Damião
+    { from: '706', to: '22', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Silvestre (Abade)
+
+    // Ordem Franciscana (23)
+    { from: '8', to: '23', title: 'fundou', texto: 'fundou' }, // S. Francisco
+    { from: '11', to: '23', title: 'fundou (Clarissas)', texto: 'fundou' }, // Sta. Clara
+    { from: '65', to: '23', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. Antônio
+    { from: '208', to: '23', title: 'ministro geral da', texto: 'liderou a' }, // S. Boaventura
+    { from: '616', to: '23', title: 'reformou a', texto: 'reformador' }, // S. Bernardino de Sena
+    { from: '612', to: '23', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pascoal Bailão
+    { from: '681', to: '23', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pedro de Alcântara
+    { from: '452', to: '23', title: 'pertenceu a (Capuchinho)', texto: 'pertenceu a' }, // S. Fidélis
+    { from: '695', to: '23', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Diogo
+
+    // Ordem Dominicana (24)
+    { from: '9', to: '24', title: 'fundou', texto: 'fundou' }, // S. Domingos
+    { from: '10', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Tomás de Aquino
+    { from: '458', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pedro de Verona
+    { from: '444', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Vicente Férrer
+    { from: '459', to: '24', title: 'pertenceu a (Terceira)', texto: 'pertenceu a' }, // Sta. Catarina de Sena
+    { from: '601', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pio V
+    { from: '640', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Jacinto
+    { from: '649', to: '24', title: 'pertenceu a (Terceira)', texto: 'pertenceu a' }, // Sta. Rosa de Lima
+    { from: '697', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. Alberto Magno
+
+    // Companhia de Jesus / Jesuítas (25)
+    { from: '14', to: '25', title: 'fundou', texto: 'fundou' }, // Sto. Inácio de Loyola
+    { from: '15', to: '25', title: 'co-fundou', texto: 'co-fundou' }, // S. Francisco Xavier
+    { from: '235', to: '25', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Luís Gonzaga
+    { from: '455', to: '25', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pedro Canísio
+    { from: '608', to: '25', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Roberto Belarmino
+    { from: '675', to: '25', title: 'superior geral da', texto: 'liderou a' }, // S. Francisco de Borja
+
+    // Família Salesiana (62)
+    { from: '61', to: '62', title: 'fundou', texto: 'fundou' }, // S. João Bosco
+
+    // Ordem Cisterciense (63)
+    { from: '66', to: '63', title: 'reformou e expandiu', texto: 'expandiu' }, // S. Bernardo
+
+    // Carmelo Descalço (41)
+    { from: '12', to: '41', title: 'fundou', texto: 'fundou' }, // Sta. Teresa d'Ávila
+    { from: '13', to: '41', title: 'co-fundou', texto: 'co-fundou' }, // S. João da Cruz
+    { from: '17', to: '41', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Teresinha
+
+    // Obras / Documentos Originais (32, 34, 38)
+    { from: '10', to: '32', title: 'escreveu', texto: 'escreveu' }, // S. Tomás -> Suma Teológica
+    { from: '14', to: '34', title: 'escreveu', texto: 'escreveu' }, // Sto. Inácio -> Exercícios Espirituais
+    { from: '12', to: '38', title: 'mestra da', texto: 'mestra da' }, // Sta. Teresa -> Mística Cristã
+    { from: '13', to: '38', title: 'doutor da', texto: 'doutor da' }, // S. João da Cruz -> Mística Cristã
+
+
+    // =========================================================================
+    // RELAÇÕES 2: SANTOS -> GEOGRAFIA DE ATUAÇÃO E MORTE (Nível 8)
+    // =========================================================================
+    
+    // Terra Santa e Oriente
+    { from: '4', to: '130', title: 'viveu em', texto: 'viveu em' }, // S. José -> Nazaré
+    { from: '440', to: '130', title: 'ocorreu em', texto: 'ocorreu em' }, // Anunciação -> Nazaré
+    { from: '71', to: '131', title: 'batizou no', texto: 'batizou no' }, // S. João Batista -> Rio Jordão
+    { from: '116', to: '133', title: 'bispo de', texto: 'bispo de' }, // S. Tiago Menor -> Jerusalém
+    { from: '630', to: '133', title: 'martirizado em', texto: 'martirizado em' }, // Sto. Estêvão -> Jerusalém
+    { from: '55', to: '132', title: 'viveu em', texto: 'viveu em' }, // S. João -> Éfeso
+    { from: '13', to: '132', title: 'bispo de (segundo a tradição)', texto: 'bispo de' }, // S. Timóteo -> Éfeso (Correção: O ID 412 é Timóteo. Usarei 412)
+    { from: '412', to: '132', title: 'bispo de', texto: 'bispo de' }, // S. Timóteo -> Éfeso
+    { from: '600', to: '510', title: 'bispo de', texto: 'bispo de' }, // Sto. Atanásio -> Alexandria
+    { from: '422', to: '510', title: 'bispo de', texto: 'bispo de' }, // S. Cirilo -> Alexandria
+    { from: '81', to: '138', title: 'bispo de', texto: 'bispo de' }, // S. Inácio -> Antioquia
+    { from: '414', to: '506', title: 'bispo de', texto: 'bispo de' }, // S. João Crisóstomo -> Constantinopla
+    { from: '604', to: '506', title: 'bispo de', texto: 'bispo de' }, // S. Greg. Nazianzeno -> Constantinopla
+
+    // Roma e Itália
+    { from: '2', to: '26', title: 'bispo e mártir em', texto: 'martirizado em' }, // S. Pedro -> Roma
+    { from: '3', to: '26', title: 'martirizado em', texto: 'martirizado em' }, // S. Paulo -> Roma
+    { from: '635', to: '26', title: 'martirizado em', texto: 'martirizado em' }, // S. Lourenço -> Roma
+    { from: '73', to: '26', title: 'martirizada em', texto: 'martirizada em' }, // Sta. Inês -> Roma
+    { from: '72', to: '26', title: 'martirizado em', texto: 'martirizado em' }, // S. Sebastião -> Roma
+    { from: '6', to: '141', title: 'fundou abadia em', texto: 'fundou abadia' }, // S. Bento -> Monte Cassino
+    { from: '8', to: '143', title: 'nasceu/atuou em', texto: 'atuou em' }, // S. Francisco -> Assis
+    { from: '11', to: '143', title: 'nasceu/atuou em', texto: 'atuou em' }, // Sta. Clara -> Assis
+    { from: '65', to: '146', title: 'faleceu em', texto: 'faleceu em' }, // Sto. Antônio -> Pádua
+    { from: '67', to: '147', title: 'viveu em', texto: 'viveu em' }, // Sta. Rita -> Cássia
+    { from: '713', to: '300', title: 'bispo de', texto: 'bispo de' }, // Sto. Ambrósio -> Milão
+    { from: '688', to: '300', title: 'bispo de', texto: 'bispo de' }, // S. Carlos Borromeu -> Milão
+    { from: '236', to: '318', title: 'bispo de', texto: 'bispo de' }, // S. Paulino -> Nola
+    { from: '459', to: '527', title: 'nasceu/atuou em', texto: 'atuou em' }, // Sta. Catarina -> Siena
+    { from: '61', to: '153', title: 'atuou em', texto: 'atuou em' }, // S. João Bosco -> Turim
+
+    // França (Gália) e Europa
+    { from: '16', to: '152', title: 'pároco em', texto: 'pároco em' }, // S. João Vianney -> Ars
+    { from: '17', to: '154', title: 'viveu no carmelo de', texto: 'carmelita em' }, // Sta. Teresinha -> Lisieux
+    { from: '5', to: '137', title: 'bispo de', texto: 'bispo de' }, // S. Agostinho -> Hipona (África do Norte)
+    { from: '424', to: '511', title: 'aparição em', texto: 'apareceu em' }, // N.S. Lourdes -> Lourdes
+    { from: '609', to: '801', title: 'aparição em', texto: 'apareceu em' }, // N.S. Fátima -> Fátima
+    { from: '626', to: '320', title: 'padroeira de', texto: 'padroeira' }, // Sta. Joana d'Arc -> Paris (padroeira da França)
+    { from: '212', to: '320', title: 'atuou e faleceu em', texto: 'faleceu em' }, // S. Vicente de Paulo -> Paris
+    { from: '693', to: '800', title: 'bispo de', texto: 'bispo de' }, // S. Martinho -> Tours
+    { from: '75', to: '151', title: 'bispo de', texto: 'bispo de' }, // S. Francisco de Sales -> Genebra
+    { from: '66', to: '142', title: 'abade de', texto: 'abade de' }, // S. Bernardo -> Claraval
+    
+    // Inserção Específica para S. Libório
+    { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
+
+    // Ibéria (Espanha / Portugal)
+    { from: '12', to: '149', title: 'nasceu/atuou em', texto: 'atuou em' }, // Sta. Teresa -> Ávila
+    { from: '13', to: '150', title: 'faleceu em', texto: 'faleceu em' }, // S. João da Cruz -> Úbeda
+    { from: '111', to: '156', title: 'jaz em', texto: 'jaz em' }, // S. Tiago Maior -> Santiago de Compostela
+    { from: '65', to: '302', title: 'atuou em', texto: 'atuou em' }, // Sto. Antônio (de Lisboa) -> Coimbra
+
+    // Missões e Resto do Mundo
+    { from: '15', to: '148', title: 'missionário em', texto: 'atuou em' }, // S. Francisco Xavier -> Goa
+    { from: '437', to: '518', title: 'evangelizou a', texto: 'evangelizou' }, // S. Patrício -> Irlanda
+    { from: '719', to: '523', title: 'arcebispo e mártir em', texto: 'martirizado em' }, // S. Tomás Becket -> Cantuária
+    { from: '202', to: '301', title: 'evangelizaram a', texto: 'evangelizaram' }, // Cirilo e Metódio -> Morávia
+	
+	
+	
+	
+	
+	// =========================================================================
+    // RELAÇÕES 3: A "REDE SOCIAL" DOS SANTOS (Conexões Interpessoais)
+    // =========================================================================
+
+    // --- 1. A FAMÍLIA E OS DISCÍPULOS BÍBLICOS ---
+    { from: '218', to: '639', title: 'esposos', texto: 'casados' }, // Sta. Ana <-> S. Joaquim
+    { from: '2', to: '110', title: 'irmãos de sangue', texto: 'irmão de' }, // S. Pedro <-> S. André
+    { from: '55', to: '111', title: 'irmãos de sangue', texto: 'irmão de' }, // S. João <-> S. Tiago Maior
+    { from: '3', to: '412', title: 'mestre e pai espiritual de', texto: 'discipulou' }, // S. Paulo -> S. Timóteo
+    { from: '3', to: '418', title: 'mestre de', texto: 'discipulou' }, // S. Paulo -> S. Tito
+    { from: '3', to: '228', title: 'companheiros de missão', texto: 'missionário com' }, // S. Paulo <-> S. Barnabé
+    { from: '2', to: '453', title: 'ditou seu Evangelho para', texto: 'mestre de' }, // S. Pedro -> S. Marcos Evangelista
+    { from: '3', to: '680', title: 'companheiros de missão', texto: 'missionário com' }, // S. Paulo <-> S. Lucas Evangelista
+    { from: '55', to: '413', title: 'mestre de', texto: 'discipulou' }, // S. João -> S. Policarpo
+
+    // --- 2. ANTIGUIDADE E PADRES DA IGREJA ---
+    { from: '413', to: '239', title: 'mestre de', texto: 'discipulou' }, // S. Policarpo -> Sto. Irineu
+    { from: '64', to: '5', title: 'mãe de', texto: 'mãe de' }, // Sta. Mônica -> S. Agostinho
+    { from: '713', to: '5', title: 'converteu e batizou', texto: 'batizou' }, // Sto. Ambrósio -> S. Agostinho
+    { from: '76', to: '74', title: 'amigos no deserto', texto: 'amigo de' }, // S. Paulo Eremita <-> S. Antão
+    { from: '229', to: '604', title: 'grandes amigos (Padres Capadócios)', texto: 'amigo de' }, // S. Basílio Magno <-> S. Gregório Nazianzeno
+    { from: '715', to: '668', title: 'encomendou a Vulgata a', texto: 'patrono de' }, // S. Dâmaso I -> S. Jerônimo
+
+    // --- 3. IDADE MÉDIA E ESCOLÁSTICA ---
+    { from: '6', to: '85', title: 'irmãos gêmeos', texto: 'irmão de' }, // S. Bento <-> Sta. Escolástica
+    { from: '8', to: '9', title: 'contemporâneos (encontro em Roma)', texto: 'amigo de' }, // S. Francisco <-> S. Domingos
+    { from: '8', to: '11', title: 'orientador espiritual de', texto: 'inspirou' }, // S. Francisco -> Sta. Clara
+    { from: '697', to: '10', title: 'mestre de', texto: 'mestre de' }, // Sto. Alberto Magno -> S. Tomás de Aquino
+    { from: '208', to: '10', title: 'amigos e professores em Paris', texto: 'amigo de' }, // S. Boaventura <-> S. Tomás de Aquino
+    { from: '646', to: '10', title: 'buscava conselhos com', texto: 'aconselhado por' }, // S. Luís IX -> S. Tomás de Aquino
+
+    // --- 4. ERA MODERNA (A Grande "Rede" de Roma e Espanha) ---
+    { from: '14', to: '15', title: 'colegas de quarto e co-fundadores', texto: 'amigo de' }, // Sto. Inácio <-> S. Francisco Xavier
+    { from: '12', to: '13', title: 'amigos e co-reformadores', texto: 'amiga de' }, // Sta. Teresa d'Ávila <-> S. João da Cruz
+    { from: '619', to: '14', title: 'amigos em Roma', texto: 'amigo de' }, // S. Felipe Néri <-> Sto. Inácio de Loyola
+    { from: '619', to: '688', title: 'grandes amigos e colaboradores', texto: 'amigo de' }, // S. Felipe Néri <-> S. Carlos Borromeu
+    { from: '608', to: '235', title: 'diretor espiritual de', texto: 'diretor espiritual' }, // S. Roberto Belarmino -> S. Luís Gonzaga
+    { from: '75', to: '643', title: 'amigos e co-fundadores', texto: 'amigo de' }, // S. Francisco de Sales <-> Sta. Joana de Chantal
+    { from: '212', to: '75', title: 'admirava profundamente', texto: 'discípulo de' }, // S. Vicente de Paulo -> S. Francisco de Sales
+
+    // --- 5. ERA CONTEMPORÂNEA ---
+    { from: '61', to: '16', title: 'admirava e correspondia-se com', texto: 'amigo de' }, // S. João Bosco -> S. João M. Vianney
+    { from: '75', to: '61', title: 'inspirou o método pastoral de', texto: 'patrono de' } // S. Francisco de Sales -> S. João Bosco (origem do nome "Salesianos")
 	
 ];
 
