@@ -1,3 +1,37 @@
+// ============================================================
+// CALCULADOR DE POSIÇÕES — VERSÃO GENÉRICA (N GRAFOS)
+// Lê os dados E as regras de cada grafo de "dados-grafo.js" (arquivo
+// único por pasta — regras-grafo.js foi consolidado aqui dentro).
+// ============================================================
+//
+// ÁRVORE DE DECISÃO — CAMADAS DE GENERALIDADE (não remover nem mover):
+//
+// GITHUB (este arquivo + dados-grafo.js de cada pasta + workflow)
+//   = GERAL. Gerencia N grafos ao mesmo tempo. Só pode usar o que
+//     está exposto no dicionário/layout de cada dados-grafo.js —
+//     nunca suposição fixa de 1 grafo específico.
+//
+// MOTOR (MOTOR_grafo_v10, 1 instância só, compartilhada por todos
+//   os posts do blog)
+//   = TAMBÉM GERAL, mas roda em runtime, sob restrição de
+//     performance do navegador, e recalcula só SUBCONJUNTOS
+//     filtrados. Pode ter comportamento simplificado/aproximado em
+//     relação a este arquivo, SEM que isso seja inconsistência —
+//     desde que a diferença não venha de codar algo fixo de 1
+//     grafo específico (isso sim seria violação).
+//
+// PÁGINA (1 bloco de post por grafo, ex: grafo_santos_v10.txt)
+//   = O ÚNICO lugar que pode ser particular de fato: id do
+//     container, botões de filtro, qual JSON carregar. Tudo
+//     específico de 1 grafo mora aqui — nunca no motor, nunca
+//     aqui neste arquivo.
+//
+//Nova regra genérica de layout: quebrarSempreEntreCategorias (default true). //Presente em REGRAS_PADRAO (build) e no fallback do motor. Pode ser desativada por //grafo, em regrasDoGrafo.layout, se algum grafo específico preferir o //comportamento antigo (categorias pequenas podem ficar juntas na mesma fileira).
+//Resolve a centrifugação: categoria "ideia" com 1 nó (ex: filtro mártir) agora //sempre quebra fileira antes de "documento" entrar, independente do tamanho.
+// ============================================================
+
+
+
 
 
 
@@ -302,6 +336,57 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     }
   }
 
+  // Bandas de nível: linha divisória + nome (níveis nomeados em
+  // regras.layout.rotulosNiveis) e, no nível 1, subgrupos coloridos
+  // por categoria (regras.layout.rotulosSubgruposNivel1/coresSubgruposNivel1).
+  var bandasNiveis = [];
+  var rotulosNiveisCfg = regras.layout.rotulosNiveis || {};
+  var rotulosSubNivel1Cfg = regras.layout.rotulosSubgruposNivel1 || {};
+  var coresSubNivel1Cfg = regras.layout.coresSubgruposNivel1 || {};
+
+  listaNiveis.forEach(function(lvl) {
+    var fileirasDoNivel = fileirasPorNivel[lvl];
+    if (!fileirasDoNivel || fileirasDoNivel.length === 0) return;
+    var yTopoNivel = yBasePorNivel[lvl];
+    var yFimNivel = yBasePorNivel[lvl] + alturaTotalPorNivel[lvl];
+
+    if (lvl === 1 && Object.keys(rotulosSubNivel1Cfg).length > 0) {
+      var categoriaAtualSub = null;
+      var yInicioSub = null;
+      fileirasDoNivel.forEach(function(fileira, idxFileira) {
+        var yTopoFileira = yBasePorNivel[lvl] + idxFileira * ALTURA_POR_FILEIRA;
+        var categoriaDaFileira = fileira.length > 0 ? fileira[0].categoria : null;
+        if (categoriaDaFileira !== categoriaAtualSub) {
+          if (categoriaAtualSub !== null) {
+            bandasNiveis.push({
+              yInicio: yInicioSub,
+              yFim: yTopoFileira,
+              label: rotulosSubNivel1Cfg[categoriaAtualSub] || null,
+              cor: coresSubNivel1Cfg[categoriaAtualSub] || null
+            });
+          }
+          categoriaAtualSub = categoriaDaFileira;
+          yInicioSub = yTopoFileira;
+        }
+      });
+      if (categoriaAtualSub !== null) {
+        bandasNiveis.push({
+          yInicio: yInicioSub,
+          yFim: yFimNivel,
+          label: rotulosSubNivel1Cfg[categoriaAtualSub] || null,
+          cor: coresSubNivel1Cfg[categoriaAtualSub] || null
+        });
+      }
+    } else {
+      bandasNiveis.push({
+        yInicio: yTopoNivel,
+        yFim: yFimNivel,
+        label: rotulosNiveisCfg[lvl] || null,
+        cor: null
+      });
+    }
+  });
+
   function calcularLarguraNo(id) {
     var no = mapaNoPorId[id];
     var textoBase = (no && no.label !== undefined && no.label !== null)
@@ -332,7 +417,8 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     nodes: todosNos.map(function(n) {
       return Object.assign({}, n, { x: xPorNo[n.id], y: yFinalPorNo[n.id] });
     }),
-    bandasEpoca: bandasEpoca
+    bandasEpoca: bandasEpoca,
+    bandasNiveis: bandasNiveis
   };
 }
 
@@ -380,7 +466,8 @@ function main() {
         nodes: resultadoCalculo.nodes,
         edges: dados.todosSetas,
         regras: mesclarComPadrao(regrasCarregadas),
-        bandasEpoca: resultadoCalculo.bandasEpoca
+        bandasEpoca: resultadoCalculo.bandasEpoca,
+        bandasNiveis: resultadoCalculo.bandasNiveis
       };
       fs.writeFileSync(arquivoSaida, JSON.stringify(resultado, null, 2), 'utf8');
       console.log('OK: "' + nomeGrafo + '" -> ' + resultadoCalculo.nodes.length + ' nós, ' + dados.todosSetas.length + ' arestas.');
