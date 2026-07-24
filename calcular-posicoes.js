@@ -305,11 +305,20 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
   // recálculo de posições em tempo real.
   var bandasEpoca = [];
   if (regras.layout.usaQuebraPorEpoca) {
+    var niveisComSeculoCfg = regras.layout.niveisComSeculo || null;
+    var niveisComSeculoSet = null;
+    if (niveisComSeculoCfg) {
+      niveisComSeculoSet = {};
+      niveisComSeculoCfg.forEach(function(lvl) { niveisComSeculoSet[lvl] = true; });
+    }
     var seculoAtualBandaBuild = null;
     var yInicioBandaBuild = null;
     listaLinhasVisuais.forEach(function(idxLinha) {
       var idsDaLinha = niveis[idxLinha];
       var info = infoLinhaVisual[idxLinha];
+      // Pula níveis fora do conjunto configurado (ex: nível 2 tem 'ano'
+      // mas não deve gerar faixa de século — só serve pra ordenação).
+      if (niveisComSeculoSet && !niveisComSeculoSet[info.lvl]) return;
       var yTopoLinha = yBasePorNivel[info.lvl] + info.indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA;
       var seculoDaLinha = null;
       for (var k = 0; k < idsDaLinha.length; k++) {
