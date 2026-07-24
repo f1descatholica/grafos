@@ -18,19 +18,26 @@ var regrasDoGrafo = {
     alturaPorFileira: 150,
     numLinhasInternas: 2,
     usaQuebraPorEpoca: true,       // se false, ignora século e só quebra por 20/16
+    niveisComSeculo: [3, 4, 5, 6], // só estes níveis geram faixa/rótulo de século
     rotulosNiveis: {
       2: 'Santos Bíblicos',
       7: 'Congregações e Obras',
       8: 'Locais',
       9: 'Fenômenos, Relíquias e Iconografia'
     },
+    // NOTA (observado após implementação): apesar de 'ideia' (títulos)
+    // vir processado ANTES de 'documento' (meses) na ordem dos dados,
+    // a inversão do eixo Y no motor (y: -(n.y||0)) fez 'documento'
+    // renderizar ACIMA de 'ideia' na tela — o oposto do que a ordem
+    // lógica sugeriria. Não corrigido pois não trouxe problema visual;
+    // ideia=vermelho ficou embaixo, documento=roxo ficou em cima.
     rotulosSubgruposNivel1: {
       ideia: 'Títulos dos Santos',
       documento: 'Meses'
     },
     coresSubgruposNivel1: {
-      ideia: 'rgba(202, 138, 4, 0.08)',
-      documento: 'rgba(124, 58, 237, 0.08)'
+      ideia: 'rgba(220, 38, 38, 0.096)',      // era âmbar 0.08 -> agora vermelho, opacidade +20%
+      documento: 'rgba(124, 58, 237, 0.096)'  // mesma cor, opacidade +20% (0.08 -> 0.096)
     }
   },
   // Cores fixas tudo na paleta automatica, nenhuma regra especifica
