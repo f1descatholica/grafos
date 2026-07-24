@@ -11,7 +11,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 512,
+      "x": 650,
       "y": 112.5
     },
     {
@@ -25,7 +25,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 1172,
+      "x": 1310,
       "y": 37.5
     },
     {
@@ -39,8 +39,8 @@
         "size": 13,
         "bold": true
       },
-      "x": -480,
-      "y": 112.5
+      "x": -842,
+      "y": 37.5
     },
     {
       "id": "53",
@@ -53,22 +53,8 @@
         "size": 13,
         "bold": true
       },
-      "x": -225,
+      "x": -87,
       "y": 37.5
-    },
-    {
-      "id": "54",
-      "level": 1,
-      "categoria": "ideia",
-      "label": "PENITENTE",
-      "grupo": "ideia",
-      "font": {
-        "color": "#e6b3ff",
-        "size": 13,
-        "bold": true
-      },
-      "x": 1427,
-      "y": 112.5
     },
     {
       "id": "56",
@@ -81,7 +67,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 732,
+      "x": 870,
       "y": 37.5
     },
     {
@@ -95,7 +81,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 945,
+      "x": 1083,
       "y": 112.5
     },
     {
@@ -109,7 +95,7 @@
         "size": 13,
         "bold": true
       },
-      "x": -1207,
+      "x": -1069,
       "y": 112.5
     },
     {
@@ -123,7 +109,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 285,
+      "x": 423,
       "y": 37.5
     },
     {
@@ -137,8 +123,8 @@
         "size": 13,
         "bold": true
       },
-      "x": -847,
-      "y": 37.5
+      "x": -475,
+      "y": 112.5
     },
     {
       "id": "849",
@@ -151,7 +137,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 44,
+      "x": 182,
       "y": 112.5
     },
     {
@@ -165,7 +151,7 @@
         "size": 13,
         "bold": true
       },
-      "x": -1441,
+      "x": -1303,
       "y": 37.5
     },
     {
@@ -652,8 +638,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2497,
-      "y": 562.5
+      "x": 2109,
+      "y": 487.5
     },
     {
       "id": "439",
@@ -678,8 +664,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1284,
-      "y": 487.5
+      "x": 896,
+      "y": 562.5
     },
     {
       "id": "441",
@@ -718,8 +704,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2102,
-      "y": 487.5
+      "x": 2504,
+      "y": 562.5
     },
     {
       "id": "630",
@@ -745,8 +731,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 868,
-      "y": 562.5
+      "x": 1312,
+      "y": 487.5
     },
     {
       "id": "632",
@@ -5290,8 +5276,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1738,
-      "y": 4087.5
+      "x": 1986,
+      "y": 4162.5
     },
     {
       "id": "506",
@@ -5374,8 +5360,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1986,
-      "y": 4162.5
+      "x": 1738,
+      "y": 4087.5
     },
     {
       "id": "512",
@@ -5906,22 +5892,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2021,
-      "y": 5062.5
-    },
-    {
-      "id": "1005",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Catedral de Santiago",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -993,
-      "y": 5062.5
+      "x": 1806,
+      "y": 4987.5
     },
     {
       "id": "1006",
@@ -5934,8 +5906,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 35,
-      "y": 5062.5
+      "x": -180,
+      "y": 4987.5
     },
     {
       "id": "1007",
@@ -5948,8 +5920,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1049,
-      "y": 5062.5
+      "x": 834,
+      "y": 4987.5
     },
     {
       "id": "1008",
@@ -6130,8 +6102,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 542,
-      "y": 4987.5
+      "x": 327,
+      "y": 5062.5
     },
     {
       "id": "1021",
@@ -6144,8 +6116,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -493,
-      "y": 4987.5
+      "x": -708,
+      "y": 5062.5
     },
     {
       "id": "1022",
@@ -6158,7 +6130,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -1465,
+      "x": -1250,
       "y": 4987.5
     },
     {
@@ -6172,8 +6144,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1549,
-      "y": 4987.5
+      "x": 1334,
+      "y": 5062.5
     },
     {
       "id": "1024",
@@ -6186,8 +6158,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2500,
-      "y": 4987.5
+      "x": 2285,
+      "y": 5062.5
     },
     {
       "id": "1025",
@@ -6200,7 +6172,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -2514,
+      "x": -2299,
       "y": 4987.5
     },
     {
@@ -6214,7 +6186,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -1993,
+      "x": -1778,
       "y": 5062.5
     },
     {
@@ -7432,7 +7404,7 @@
       "texto": "é"
     },
     {
-      "from": "54",
+      "from": "58",
       "to": "215",
       "title": "é",
       "texto": "é"
@@ -12711,7 +12683,7 @@
     },
     {
       "from": "111",
-      "to": "1005",
+      "to": "1021",
       "title": "sepultado na",
       "texto": "sepultado na"
     },
@@ -13916,7 +13888,21 @@
       "alturaPorFileira": 150,
       "numLinhasInternas": 2,
       "usaQuebraPorEpoca": true,
-      "quebrarSempreEntreCategorias": true
+      "quebrarSempreEntreCategorias": true,
+      "rotulosNiveis": {
+        "2": "Santos Bíblicos",
+        "7": "Congregações e Obras",
+        "8": "Locais",
+        "9": "Fenômenos, Relíquias e Iconografia"
+      },
+      "rotulosSubgruposNivel1": {
+        "ideia": "Títulos dos Santos",
+        "documento": "Meses"
+      },
+      "coresSubgruposNivel1": {
+        "ideia": "rgba(202, 138, 4, 0.08)",
+        "documento": "rgba(124, 58, 237, 0.08)"
+      }
     },
     "cores": {}
   },
@@ -13985,6 +13971,68 @@
       "seculo": 19,
       "yInicio": 3000,
       "yFim": 3150
+    }
+  ],
+  "bandasNiveis": [
+    {
+      "yInicio": 0,
+      "yFim": 150,
+      "label": "Títulos dos Santos",
+      "cor": "rgba(202, 138, 4, 0.08)"
+    },
+    {
+      "yInicio": 150,
+      "yFim": 300,
+      "label": "Meses",
+      "cor": "rgba(124, 58, 237, 0.08)"
+    },
+    {
+      "yInicio": 300,
+      "yFim": 750,
+      "label": "Santos Bíblicos",
+      "cor": null
+    },
+    {
+      "yInicio": 750,
+      "yFim": 1800,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 1800,
+      "yFim": 2550,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 2550,
+      "yFim": 3000,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 3000,
+      "yFim": 3150,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 3150,
+      "yFim": 3750,
+      "label": "Congregações e Obras",
+      "cor": null
+    },
+    {
+      "yInicio": 3750,
+      "yFim": 4950,
+      "label": "Locais",
+      "cor": null
+    },
+    {
+      "yInicio": 4950,
+      "yFim": 5700,
+      "label": "Fenômenos, Relíquias e Iconografia",
+      "cor": null
     }
   ]
 }
