@@ -13889,6 +13889,12 @@
       "numLinhasInternas": 2,
       "usaQuebraPorEpoca": true,
       "quebrarSempreEntreCategorias": true,
+      "niveisComSeculo": [
+        3,
+        4,
+        5,
+        6
+      ],
       "rotulosNiveis": {
         "2": "Santos Bíblicos",
         "7": "Congregações e Obras",
@@ -13900,18 +13906,13 @@
         "documento": "Meses"
       },
       "coresSubgruposNivel1": {
-        "ideia": "rgba(202, 138, 4, 0.08)",
-        "documento": "rgba(124, 58, 237, 0.08)"
+        "ideia": "rgba(220, 38, 38, 0.096)",
+        "documento": "rgba(124, 58, 237, 0.096)"
       }
     },
     "cores": {}
   },
   "bandasEpoca": [
-    {
-      "seculo": 1,
-      "yInicio": 300,
-      "yFim": 600
-    },
     {
       "seculo": 1,
       "yInicio": 750,
@@ -13970,7 +13971,7 @@
     {
       "seculo": 19,
       "yInicio": 3000,
-      "yFim": 3150
+      "yFim": 5700
     }
   ],
   "bandasNiveis": [
@@ -13978,13 +13979,13 @@
       "yInicio": 0,
       "yFim": 150,
       "label": "Títulos dos Santos",
-      "cor": "rgba(202, 138, 4, 0.08)"
+      "cor": "rgba(220, 38, 38, 0.096)"
     },
     {
       "yInicio": 150,
       "yFim": 300,
       "label": "Meses",
-      "cor": "rgba(124, 58, 237, 0.08)"
+      "cor": "rgba(124, 58, 237, 0.096)"
     },
     {
       "yInicio": 300,
