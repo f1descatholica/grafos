@@ -17,7 +17,21 @@ var regrasDoGrafo = {
 // minimoAntesQuebraSeculo: 10, // [DESATIVADO] valor antigo — junto com a linha acima, controlava o limiar de quebra entre grupos/século.
     alturaPorFileira: 150,
     numLinhasInternas: 2,
-    usaQuebraPorEpoca: true       // se false, ignora século e só quebra por 20/16
+    usaQuebraPorEpoca: true,       // se false, ignora século e só quebra por 20/16
+    rotulosNiveis: {
+      2: 'Santos Bíblicos',
+      7: 'Congregações e Obras',
+      8: 'Locais',
+      9: 'Fenômenos, Relíquias e Iconografia'
+    },
+    rotulosSubgruposNivel1: {
+      ideia: 'Títulos dos Santos',
+      documento: 'Meses'
+    },
+    coresSubgruposNivel1: {
+      ideia: 'rgba(202, 138, 4, 0.08)',
+      documento: 'rgba(124, 58, 237, 0.08)'
+    }
   },
   // Cores fixas tudo na paleta automatica, nenhuma regra especifica
   cores: {}
@@ -42,7 +56,6 @@ var todosNos = [
     { id: '51', level: 1, categoria: 'ideia', label: 'DOUTOR', grupo: 'ideia', font: { color: '#ffffaa', size: 13, bold: true } },
     { id: '52', level: 1, categoria: 'ideia', label: 'VIRGEM', grupo: 'ideia', font: { color: '#ffffff', size: 13, bold: true } },
     { id: '53', level: 1, categoria: 'ideia', label: 'CONFESSOR', grupo: 'ideia', font: { color: '#aaffaa', size: 13, bold: true } },
-    { id: '54', level: 1, categoria: 'ideia', label: 'PENITENTE', grupo: 'ideia', font: { color: '#e6b3ff', size: 13, bold: true } },
     { id: '56', level: 1, categoria: 'ideia', label: 'PAPA', grupo: 'ideia', font: { color: '#ffd700', size: 13, bold: true } },
     { id: '57', level: 1, categoria: 'ideia', label: 'BISPO', grupo: 'ideia', font: { color: '#dca3ff', size: 13, bold: true } },
     { id: '59', level: 1, categoria: 'ideia', label: 'ABADE', grupo: 'ideia', font: { color: '#ffb366', size: 13, bold: true } },
@@ -508,9 +521,8 @@ var todosNos = [
     
 	
 
-    // Santuários / Túmulos de Grande Peregrinação
+    // Santuários / Túmulos de Grande Peregrinação, em outro id: Catedral de Santiago
     { id: '1004', level: 9, categoria: 'santuario', label: 'Basílica de S. Pedro', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '1005', level: 9, categoria: 'santuario', label: 'Catedral de Santiago', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1006', level: 9, categoria: 'santuario', label: 'Basílica de S. Francisco', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1007', level: 9, categoria: 'santuario', label: 'Basílica de Sto. Antônio', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     
@@ -767,8 +779,8 @@ var todosSetas = [
     { from: '52', to: '709', title: 'é', texto: 'é' },
     { from: '52', to: '716', title: 'é', texto: 'é' },
 
-    // Penitentes (54)
-    { from: '54', to: '215', title: 'é', texto: 'é' },
+    // Penitentes virou outros
+    { from: '58', to: '215', title: 'é', texto: 'é' },
 
     // Doutores (51)
     { from: '51', to: '5', title: 'é', texto: 'é' },
@@ -1821,7 +1833,7 @@ var todosSetas = [
     { from: '2', to: '1004', title: 'sepultado na', texto: 'sepultado na' }, // S. Pedro -> Basílica de S. Pedro
     { from: '200', to: '1004', title: 'sepultado na', texto: 'sepultado na' }, // S. Leão II (e vários papas)
     { from: '436', to: '1004', title: 'sepultado na', texto: 'sepultado na' }, // S. Gregório Magno
-    { from: '111', to: '1005', title: 'sepultado na', texto: 'sepultado na' }, // S. Tiago Maior -> Santiago de Compostela
+    { from: '111', to: '1021', title: 'sepultado na', texto: 'sepultado na' }, // S. Tiago Maior -> Santiago de Compostela
     { from: '8', to: '1006', title: 'sepultado na', texto: 'sepultado na' },   // S. Francisco -> Basílica de Assis
     { from: '65', to: '1007', title: 'sepultado na', texto: 'sepultado na' },  // Sto. Antônio -> Basílica de Pádua
 
