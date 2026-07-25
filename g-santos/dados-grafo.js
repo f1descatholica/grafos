@@ -36,8 +36,8 @@ var regrasDoGrafo = {
       documento: 'Meses'
     },
     coresSubgruposNivel1: {
-      ideia: 'rgba(220, 38, 38, 0.096)',      // era âmbar 0.08 -> agora vermelho, opacidade +20%
-      documento: 'rgba(124, 58, 237, 0.096)'  // mesma cor, opacidade +20% (0.08 -> 0.096)
+      ideia: 'rgba(220, 38, 38, 0.1)',      // era âmbar 0.08 -> agora vermelho, opacidade +20%
+      documento: 'rgba(124, 58, 237, 0.1)'  // mesma cor, opacidade +20% (0.08 -> 0.096)
     }
   },
   // Cores fixas tudo na paleta automatica, nenhuma regra especifica
