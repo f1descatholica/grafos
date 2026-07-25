@@ -11,8 +11,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -444,
-      "y": 37.5
+      "x": -84,
+      "y": 112.5
     },
     {
       "id": "N07",
@@ -25,8 +25,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -84,
-      "y": 112.5
+      "x": -444,
+      "y": 37.5
     },
     {
       "id": "N14",
@@ -52,8 +52,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -201,
-      "y": 187.5
+      "x": -547,
+      "y": 262.5
     },
     {
       "id": "N57",
@@ -65,8 +65,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 215,
-      "y": 262.5
+      "x": -131,
+      "y": 187.5
     },
     {
       "id": "N15",
@@ -117,7 +117,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -554,
+      "x": 278,
       "y": 262.5
     },
     {
@@ -130,8 +130,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 687,
-      "y": 337.5
+      "x": -491,
+      "y": 412.5
     },
     {
       "id": "N10",
@@ -143,8 +143,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -47,
-      "y": 337.5
+      "x": 299,
+      "y": 412.5
     },
     {
       "id": "N11",
@@ -156,8 +156,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -463,
-      "y": 412.5
+      "x": -117,
+      "y": 337.5
     },
     {
       "id": "N_Tissier",
@@ -182,8 +182,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 341,
-      "y": 412.5
+      "x": 687,
+      "y": 337.5
     },
     {
       "id": "N_Sanborn",
@@ -222,7 +222,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 40,
+      "x": 1110,
       "y": 562.5
     },
     {
@@ -235,7 +235,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 568,
+      "x": 582,
       "y": 487.5
     },
     {
@@ -274,7 +274,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 1103,
+      "x": 47,
       "y": 562.5
     },
     {
@@ -289,12 +289,87 @@
         "size": 14,
         "bold": true
       },
-      "x": 0,
+      "x": -1082,
       "y": 637.5
     },
     {
-      "id": "N23",
+      "id": "N101",
       "level": 5,
+      "categoria": "bispo",
+      "label": "Charles McGuire (2022)",
+      "grupo": "bispo",
+      "ano": 2022,
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -666,
+      "y": 712.5
+    },
+    {
+      "id": "N102",
+      "level": 5,
+      "categoria": "bispo",
+      "label": "Fernando Altamira (2024)",
+      "grupo": "bispo",
+      "ano": 2024,
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 222,
+      "y": 712.5
+    },
+    {
+      "id": "N103",
+      "level": 5,
+      "categoria": "bispo",
+      "label": "Pierre Roy (2024)",
+      "grupo": "bispo",
+      "ano": 2024,
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 659,
+      "y": 637.5
+    },
+    {
+      "id": "N104",
+      "level": 5,
+      "categoria": "bispo",
+      "label": "Bede Nkamuke (2023)",
+      "grupo": "bispo",
+      "ano": 2023,
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -229,
+      "y": 637.5
+    },
+    {
+      "id": "N109",
+      "level": 5,
+      "categoria": "bispo",
+      "label": "Merardo Loya (2025)",
+      "grupo": "bispo",
+      "ano": 2025,
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 1061,
+      "y": 712.5
+    },
+    {
+      "id": "N23",
+      "level": 6,
       "categoria": "padre",
       "label": "Elmo (Francisco\nde Paula)",
       "grupo": "padre",
@@ -303,12 +378,12 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1482,
+      "x": -3239,
       "y": 787.5
     },
     {
       "id": "N24",
-      "level": 5,
+      "level": 6,
       "categoria": "padre",
       "label": "Frei Tiago de\nSão José",
       "grupo": "padre",
@@ -317,12 +392,12 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1003,
+      "x": -2760,
       "y": 862.5
     },
     {
       "id": "N25",
-      "level": 5,
+      "level": 6,
       "categoria": "padre",
       "label": "João Dorival",
       "grupo": "padre",
@@ -331,12 +406,12 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -615,
+      "x": -2372,
       "y": 787.5
     },
     {
       "id": "N26",
-      "level": 5,
+      "level": 6,
       "categoria": "padre",
       "label": "Gilberto Ferreira",
       "grupo": "padre",
@@ -345,12 +420,12 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -262,
+      "x": -2019,
       "y": 862.5
     },
     {
       "id": "N55",
-      "level": 5,
+      "level": 6,
       "categoria": "padre",
       "label": "Gabriel Spínola",
       "grupo": "padre",
@@ -358,12 +433,12 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 486,
+      "x": 3309,
       "y": 862.5
     },
     {
       "id": "N56",
-      "level": 5,
+      "level": 6,
       "categoria": "padre",
       "label": "Frei Pedro Maria",
       "grupo": "padre",
@@ -371,12 +446,12 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 119,
-      "y": 787.5
+      "x": 208,
+      "y": 937.5
     },
     {
       "id": "N_Marcelo",
-      "level": 5,
+      "level": 6,
       "categoria": "padre",
       "label": "Marcelo Tenório",
       "grupo": "padre",
@@ -385,12 +460,12 @@
         "size": 14,
         "bold": true
       },
-      "x": 846,
-      "y": 787.5
+      "x": -505,
+      "y": 937.5
     },
     {
       "id": "N_Joaquim",
-      "level": 5,
+      "level": 6,
       "categoria": "padre",
       "label": "Dom Joaquim\n(Prior)",
       "grupo": "padre",
@@ -398,12 +473,12 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 1234,
-      "y": 862.5
+      "x": 603,
+      "y": 1012.5
     },
     {
       "id": "N_Inacio",
-      "level": 5,
+      "level": 6,
       "categoria": "padre",
       "label": "Dom Inácio",
       "grupo": "padre",
@@ -411,8 +486,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 1587,
-      "y": 787.5
+      "x": 956,
+      "y": 937.5
     },
     {
       "id": "N27",
@@ -425,8 +500,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -2891,
-      "y": 937.5
+      "x": -1582,
+      "y": 787.5
     },
     {
       "id": "N28",
@@ -439,8 +514,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -2370,
-      "y": 1012.5
+      "x": -1061,
+      "y": 862.5
     },
     {
       "id": "N29",
@@ -453,8 +528,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1884,
-      "y": 937.5
+      "x": -575,
+      "y": 787.5
     },
     {
       "id": "N30",
@@ -467,8 +542,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1433,
-      "y": 1012.5
+      "x": -124,
+      "y": 862.5
     },
     {
       "id": "N31",
@@ -480,7 +555,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 2685,
+      "x": -152,
       "y": 1012.5
     },
     {
@@ -494,8 +569,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1024,
-      "y": 937.5
+      "x": 285,
+      "y": 787.5
     },
     {
       "id": "N33",
@@ -508,8 +583,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -671,
-      "y": 1012.5
+      "x": 638,
+      "y": 862.5
     },
     {
       "id": "N34",
@@ -522,8 +597,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -318,
-      "y": 937.5
+      "x": 991,
+      "y": 787.5
     },
     {
       "id": "N35",
@@ -536,8 +611,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 21,
-      "y": 1012.5
+      "x": 1330,
+      "y": 862.5
     },
     {
       "id": "N_Jahir",
@@ -549,8 +624,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 2996,
-      "y": 937.5
+      "x": 1239,
+      "y": 1012.5
     },
     {
       "id": "N_Thiago",
@@ -562,8 +637,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 2007,
-      "y": 1012.5
+      "x": -1190,
+      "y": 937.5
     },
     {
       "id": "N_Lucas",
@@ -575,8 +650,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 2353,
-      "y": 937.5
+      "x": -844,
+      "y": 1012.5
     },
     {
       "id": "N106",
@@ -590,8 +665,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 444,
-      "y": 937.5
+      "x": 1753,
+      "y": 787.5
     },
     {
       "id": "N107",
@@ -605,8 +680,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 986,
-      "y": 1012.5
+      "x": 2295,
+      "y": 862.5
     },
     {
       "id": "N108",
@@ -620,8 +695,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1549,
-      "y": 937.5
+      "x": 2858,
+      "y": 787.5
     },
     {
       "id": "N04",
@@ -634,8 +709,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -626,
-      "y": 1162.5
+      "x": -1070,
+      "y": 1087.5
     },
     {
       "id": "N06",
@@ -648,7 +723,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -1084,
+      "x": 14,
       "y": 1087.5
     },
     {
@@ -662,7 +737,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -147,
+      "x": 1063,
       "y": 1087.5
     },
     {
@@ -676,8 +751,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1014,
-      "y": 1087.5
+      "x": 528,
+      "y": 1162.5
     },
     {
       "id": "N03",
@@ -690,7 +765,7 @@
         "size": 14,
         "bold": true
       },
-      "x": 409,
+      "x": -521,
       "y": 1162.5
     },
     {
@@ -707,81 +782,6 @@
       "y": 1237.5
     },
     {
-      "id": "N101",
-      "level": 7,
-      "categoria": "bispo",
-      "label": "Charles McGuire (2022)",
-      "grupo": "bispo",
-      "ano": 2022,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -853,
-      "y": 1387.5
-    },
-    {
-      "id": "N102",
-      "level": 7,
-      "categoria": "bispo",
-      "label": "Fernando Altamira (2024)",
-      "grupo": "bispo",
-      "ano": 2024,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 35,
-      "y": 1387.5
-    },
-    {
-      "id": "N103",
-      "level": 7,
-      "categoria": "bispo",
-      "label": "Pierre Roy (2024)",
-      "grupo": "bispo",
-      "ano": 2024,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 472,
-      "y": 1462.5
-    },
-    {
-      "id": "N104",
-      "level": 7,
-      "categoria": "bispo",
-      "label": "Bede Nkamuke (2023)",
-      "grupo": "bispo",
-      "ano": 2023,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -416,
-      "y": 1462.5
-    },
-    {
-      "id": "N109",
-      "level": 7,
-      "categoria": "bispo",
-      "label": "Merardo Loya (2025)",
-      "grupo": "bispo",
-      "ano": 2025,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 874,
-      "y": 1387.5
-    },
-    {
       "id": "SAJM",
       "level": 8,
       "categoria": "instituicao",
@@ -792,7 +792,7 @@
         "size": 14
       },
       "x": -1348,
-      "y": 1612.5
+      "y": 1462.5
     },
     {
       "id": "IMBC",
@@ -804,8 +804,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 2047,
-      "y": 1537.5
+      "x": -995,
+      "y": 1387.5
     },
     {
       "id": "MHTS",
@@ -818,7 +818,7 @@
         "size": 14
       },
       "x": -1708,
-      "y": 1537.5
+      "y": 1387.5
     },
     {
       "id": "SGG",
@@ -831,7 +831,7 @@
         "size": 14
       },
       "x": -2624,
-      "y": 1537.5
+      "y": 1387.5
     },
     {
       "id": "N64",
@@ -843,8 +843,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 2575,
-      "y": 1612.5
+      "x": 1075,
+      "y": 1387.5
     },
     {
       "id": "N50",
@@ -857,8 +857,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 498,
-      "y": 1612.5
+      "x": 2082,
+      "y": 1387.5
     },
     {
       "id": "N36",
@@ -870,8 +870,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 96,
-      "y": 1537.5
+      "x": 596,
+      "y": 1462.5
     },
     {
       "id": "N37",
@@ -884,7 +884,7 @@
         "size": 14
       },
       "x": -2180,
-      "y": 1612.5
+      "y": 1462.5
     },
     {
       "id": "N38",
@@ -896,8 +896,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 1533,
-      "y": 1612.5
+      "x": 1617,
+      "y": 1462.5
     },
     {
       "id": "N39",
@@ -909,8 +909,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 984,
-      "y": 1537.5
+      "x": 2568,
+      "y": 1462.5
     },
     {
       "id": "N40",
@@ -922,8 +922,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1002,
-      "y": 1537.5
+      "x": -502,
+      "y": 1462.5
     },
     {
       "id": "N41",
@@ -935,8 +935,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -432,
-      "y": 1612.5
+      "x": 68,
+      "y": 1387.5
     },
     {
       "id": "N60",
@@ -949,8 +949,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -2172,
-      "y": 1762.5
+      "x": -2420,
+      "y": 1537.5
     },
     {
       "id": "N48",
@@ -963,8 +963,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -1882,
-      "y": 1687.5
+      "x": -2130,
+      "y": 1612.5
     },
     {
       "id": "N_ITA",
@@ -977,8 +977,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2074,
-      "y": 1687.5
+      "x": -984,
+      "y": 1612.5
     },
     {
       "id": "N63",
@@ -991,8 +991,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -1627,
-      "y": 1762.5
+      "x": -1239,
+      "y": 1537.5
     },
     {
       "id": "N61",
@@ -1006,7 +1006,7 @@
         "bold": true
       },
       "x": -750,
-      "y": 1687.5
+      "y": 1537.5
     },
     {
       "id": "N62",
@@ -1019,8 +1019,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -2469,
-      "y": 1687.5
+      "x": -1889,
+      "y": 1537.5
     },
     {
       "id": "N_MEX",
@@ -1033,8 +1033,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -170,
-      "y": 1687.5
+      "x": -226,
+      "y": 1537.5
     },
     {
       "id": "N42",
@@ -1047,8 +1047,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1022,
-      "y": 1762.5
+      "x": 1588,
+      "y": 1612.5
     },
     {
       "id": "N43",
@@ -1061,8 +1061,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -460,
-      "y": 1762.5
+      "x": 64,
+      "y": 1612.5
     },
     {
       "id": "N44",
@@ -1075,8 +1075,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 155,
-      "y": 1762.5
+      "x": 445,
+      "y": 1537.5
     },
     {
       "id": "N_NF",
@@ -1089,8 +1089,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2392,
-      "y": 1762.5
+      "x": 2060,
+      "y": 1537.5
     },
     {
       "id": "N45",
@@ -1103,8 +1103,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1791,
-      "y": 1762.5
+      "x": 2427,
+      "y": 1612.5
     },
     {
       "id": "N46",
@@ -1117,8 +1117,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -1323,
-      "y": 1687.5
+      "x": 819,
+      "y": 1612.5
     },
     {
       "id": "N47",
@@ -1131,8 +1131,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -1012,
-      "y": 1762.5
+      "x": -488,
+      "y": 1612.5
     },
     {
       "id": "N_CG",
@@ -1145,8 +1145,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 557,
-      "y": 1687.5
+      "x": -1571,
+      "y": 1612.5
     },
     {
       "id": "N51",
@@ -1159,8 +1159,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1459,
-      "y": 1687.5
+      "x": 1151,
+      "y": 1537.5
     }
   ],
   "edges": [
@@ -2293,18 +2293,24 @@
     },
     {
       "yInicio": 600,
-      "yFim": 900,
+      "yFim": 750,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 900,
+      "yInicio": 750,
       "yFim": 1050,
       "label": null,
       "cor": null
     },
     {
       "yInicio": 1050,
+      "yFim": 1350,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 1350,
       "yFim": 1500,
       "label": null,
       "cor": null
@@ -2312,12 +2318,6 @@
     {
       "yInicio": 1500,
       "yFim": 1650,
-      "label": null,
-      "cor": null
-    },
-    {
-      "yInicio": 1650,
-      "yFim": 1800,
       "label": null,
       "cor": null
     }
