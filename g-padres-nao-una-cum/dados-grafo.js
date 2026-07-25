@@ -11,6 +11,7 @@ var regrasDoGrafo = {
     mesReferencia: 'mesNumero'   // não usado neste grafo (sem categoria "documento"/mês) — mantido só por compatibilidade com o padrão genérico
   },
   layout: {
+    nosPorFileira: 8,             // grafo menor que "g-santos" — fileiras mais curtas evitam 1 fila única muito esticada
     alturaPorFileira: 150,
     numLinhasInternas: 2,
     usaQuebraPorEpoca: false      // desativado por enquanto — datas concentradas no séc. XX/XXI, pouco valor visual
