@@ -31,12 +31,15 @@ var regrasDoGrafo = {
 
 
 var todosNos = [
+
 // NÍVEL 1: Raízes da Sucessão Apostólica
+
 { id: 'N19', level: 1, categoria: 'bispo', label: 'Scipione Rebiba', grupo: 'bispo', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N07', level: 1, categoria: 'bispo', label: 'Achille Liénart', grupo: 'bispo', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N14', level: 1, categoria: 'bispo', label: 'Pierre Martin Ngô\nĐình Thục', grupo: 'bispo', font: { color: '#ffffff', size: 14, bold: true } },
 
 // NÍVEL 2: Bispos Fundacionais
+
 { id: 'N08', level: 2, categoria: 'bispo', label: 'Marcel Lefebvre', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 { id: 'N57', level: 2, categoria: 'bispo', label: 'Antônio de\nCastro Mayer', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 { id: 'N15', level: 2, categoria: 'bispo', label: 'Moisés Carmona', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
@@ -45,6 +48,7 @@ var todosNos = [
 { id: 'N21', level: 2, categoria: 'bispo', label: 'Orani Tempesta', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 
 // NÍVEL 3: 2ª Geração de Bispos
+
 { id: 'N09', level: 3, categoria: 'bispo', label: 'Bernard Fellay', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 { id: 'N10', level: 3, categoria: 'bispo', label: 'Alfonso de Galarreta', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 { id: 'N11', level: 3, categoria: 'bispo', label: 'Richard Williamson', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
@@ -53,6 +57,7 @@ var todosNos = [
 { id: 'N_Sanborn', level: 3, categoria: 'bispo', label: 'Donald Sanborn', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 
 // NÍVEL 4: 3ª Geração / Bispos Recentes
+
 { id: 'N22', level: 4, categoria: 'bispo', label: 'Ernesto Javier Cardozo', grupo: 'bispo', ano: 1980, font: { color: '#ffffff', size: 14 } },
 { id: 'N12', level: 4, categoria: 'bispo', label: 'Jean-Michel Faure', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 { id: 'N13', level: 4, categoria: 'bispo', label: 'Dom Tomás de Aquino\nFerreira da Costa', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
@@ -60,19 +65,28 @@ var todosNos = [
 { id: 'N17', level: 4, categoria: 'bispo', label: 'Daniel Dolan', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 { id: 'N_Squetino', level: 4, categoria: 'bispo', label: 'Juan José Squetino', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
 
-// NÍVEL 5: Bispos e Padres (Líderes de Movimentos e Polos)
+// NÍVEL 5: Bispos SUPER recentes
+
 { id: 'N18', level: 5, categoria: 'bispo', label: 'Rodrigo da Silva', grupo: 'bispo', ano: 2021, font: { color: '#ffffff', size: 14, bold: true } }, // sagração episcopal 2021 (ordenação sacerdotal 2017)
-{ id: 'N23', level: 5, categoria: 'padre', label: 'Elmo (Francisco\nde Paula)', grupo: 'padre', ano: 1985, font: { color: '#ffffff', size: 14 } },
-{ id: 'N24', level: 5, categoria: 'padre', label: 'Frei Tiago de\nSão José', grupo: 'padre', ano: 1995, font: { color: '#ffffff', size: 14 } },
-{ id: 'N25', level: 5, categoria: 'padre', label: 'João Dorival', grupo: 'padre', ano: 1998, font: { color: '#ffffff', size: 14 } },
-{ id: 'N26', level: 5, categoria: 'padre', label: 'Gilberto Ferreira', grupo: 'padre', ano: 2001, font: { color: '#ffffff', size: 14 } },
-{ id: 'N55', level: 5, categoria: 'padre', label: 'Gabriel Spínola', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 'N56', level: 5, categoria: 'padre', label: 'Frei Pedro Maria', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 'N_Marcelo', level: 5, categoria: 'padre', label: 'Marcelo Tenório', grupo: 'padre', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 'N_Joaquim', level: 5, categoria: 'padre', label: 'Dom Joaquim\n(Prior)', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 'N_Inacio', level: 5, categoria: 'padre', label: 'Dom Inácio', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
+
+{ id: 'N101', level: 5, categoria: 'bispo', label: 'Charles McGuire (2022)', grupo: 'bispo', ano: 2022, font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 'N102', level: 5, categoria: 'bispo', label: 'Fernando Altamira (2024)', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 'N103', level: 5, categoria: 'bispo', label: 'Pierre Roy (2024)', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 'N104', level: 5, categoria: 'bispo', label: 'Bede Nkamuke (2023)', grupo: 'bispo', ano: 2023, font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 'N109', level: 5, categoria: 'bispo', label: 'Merardo Loya (2025)', grupo: 'bispo', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
+
 
 // NÍVEL 6: Padres
+
+{ id: 'N23', level: 6, categoria: 'padre', label: 'Elmo (Francisco\nde Paula)', grupo: 'padre', ano: 1985, font: { color: '#ffffff', size: 14 } },
+{ id: 'N24', level: 6, categoria: 'padre', label: 'Frei Tiago de\nSão José', grupo: 'padre', ano: 1995, font: { color: '#ffffff', size: 14 } },
+{ id: 'N25', level: 6, categoria: 'padre', label: 'João Dorival', grupo: 'padre', ano: 1998, font: { color: '#ffffff', size: 14 } },
+{ id: 'N26', level: 6, categoria: 'padre', label: 'Gilberto Ferreira', grupo: 'padre', ano: 2001, font: { color: '#ffffff', size: 14 } },
+{ id: 'N55', level: 6, categoria: 'padre', label: 'Gabriel Spínola', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
+{ id: 'N56', level: 6, categoria: 'padre', label: 'Frei Pedro Maria', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
+{ id: 'N_Marcelo', level: 6, categoria: 'padre', label: 'Marcelo Tenório', grupo: 'padre', font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 'N_Joaquim', level: 6, categoria: 'padre', label: 'Dom Joaquim\n(Prior)', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
+{ id: 'N_Inacio', level: 6, categoria: 'padre', label: 'Dom Inácio', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
 { id: 'N27', level: 6, categoria: 'padre', label: 'José Eduardo de\nOliveira', grupo: 'padre', ano: 2002, font: { color: '#ffffff', size: 14 } },
 { id: 'N28', level: 6, categoria: 'padre', label: 'Leonardo Holtz\nPeixoto (2022)', grupo: 'padre', ano: 2004, font: { color: '#ffffff', size: 14 } },
 { id: 'N29', level: 6, categoria: 'padre', label: 'Anselmo de Oliveira', grupo: 'padre', ano: 2008, font: { color: '#ffffff', size: 14 } },
@@ -90,6 +104,7 @@ var todosNos = [
 { id: 'N108', level: 6, categoria: 'padre', label: 'Dimas Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026, font: { color: '#ffffff', size: 14, bold: true } },
 
 // NÍVEL 7: Classificações Teológicas (Os 5 Polos), FSSPX e Bispos Recentes
+
 { id: 'N04', level: 7, categoria: 'classificacao', label: 'Tradicionalismo\nUna Cum', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N06', level: 7, categoria: 'classificacao', label: 'Resistência\n(Una Cum)', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N01', level: 7, categoria: 'classificacao', label: 'Sedevacantismo\nTotalista', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
@@ -97,13 +112,9 @@ var todosNos = [
 { id: 'N03', level: 7, categoria: 'classificacao', label: 'Independente /\nNão Una Cum Parcial', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N05', level: 7, categoria: 'instituicao', label: 'FSSPX', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 
-{ id: 'N101', level: 7, categoria: 'bispo', label: 'Charles McGuire (2022)', grupo: 'bispo', ano: 2022, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 'N102', level: 7, categoria: 'bispo', label: 'Fernando Altamira (2024)', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 'N103', level: 7, categoria: 'bispo', label: 'Pierre Roy (2024)', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 'N104', level: 7, categoria: 'bispo', label: 'Bede Nkamuke (2023)', grupo: 'bispo', ano: 2023, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 'N109', level: 7, categoria: 'bispo', label: 'Merardo Loya (2025)', grupo: 'bispo', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
 
 // NÍVEL 8: Instituições e Seminários Independentes
+
 { id: 'SAJM', level: 8, categoria: 'instituicao', label: 'SAJM', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 'IMBC', level: 8, categoria: 'instituicao', label: 'Inst. Mater Boni\nConsilii', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 'MHTS', level: 8, categoria: 'instituicao', label: 'Most Holy Trinity\nSeminary', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
@@ -118,6 +129,7 @@ var todosNos = [
 { id: 'N41', level: 8, categoria: 'instituicao', label: 'Capelania N. Sra do\nPerpétuo Socorro', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 
 // NÍVEL 9: Localizações
+
 { id: 'N60', level: 9, categoria: 'localizacao', label: 'Estados Unidos', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N48', level: 9, categoria: 'localizacao', label: 'França', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N_ITA', level: 9, categoria: 'localizacao', label: 'Itália', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
