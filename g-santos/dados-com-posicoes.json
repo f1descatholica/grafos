@@ -13906,8 +13906,8 @@
         "documento": "Meses"
       },
       "coresSubgruposNivel1": {
-        "ideia": "rgba(220, 38, 38, 0.1)",
-        "documento": "rgba(124, 58, 237, 0.1)"
+        "ideia": "rgba(220, 38, 38, 0.2)",
+        "documento": "rgba(124, 58, 237, 0.2)"
       }
     },
     "cores": {}
@@ -13979,13 +13979,13 @@
       "yInicio": 0,
       "yFim": 150,
       "label": "Títulos dos Santos",
-      "cor": "rgba(220, 38, 38, 0.1)"
+      "cor": "rgba(220, 38, 38, 0.2)"
     },
     {
       "yInicio": 150,
       "yFim": 300,
       "label": "Meses",
-      "cor": "rgba(124, 58, 237, 0.1)"
+      "cor": "rgba(124, 58, 237, 0.2)"
     },
     {
       "yInicio": 300,
