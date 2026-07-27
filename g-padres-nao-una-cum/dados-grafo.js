@@ -72,9 +72,11 @@ var todosNos = [
 
 { id: 'N101', level: 5, categoria: 'bispo', label: 'Charles McGuire (2022)', grupo: 'bispo', ano: 2022, font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N102', level: 5, categoria: 'bispo', label: 'Fernando Altamira (2024)', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 'N103', level: 5, categoria: 'bispo', label: 'Pierre Roy (2024)', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 'N104', level: 5, categoria: 'bispo', label: 'Bede Nkamuke (2023)', grupo: 'bispo', ano: 2023, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 'N109', level: 5, categoria: 'bispo', label: 'Merardo Loya (2025)', grupo: 'bispo', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
+{ id: 'N103', level: 5, categoria: 'bispo', label: 'Pierre Roy', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 'N104', level: 5, categoria: 'bispo', label: 'Bede Nkamuke', grupo: 'bispo', ano: 2023, font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 'N109', level: 5, categoria: 'bispo', label: 'Merardo Loya', grupo: 'bispo', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
+
+{ id: 'N52', level: 5, categoria: 'bispo', label: 'Michael Mary, F.S.R.', grupo: 'bispo', ano: 2026, font: { color: '#ffffff', size: 14, bold: true } }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
 
 
 // NÍVEL 6: Padres
@@ -128,9 +130,11 @@ var todosNos = [
 { id: 'N39', level: 8, categoria: 'instituicao', label: 'Capelania Santa\nMaria Madalena', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 'N40', level: 8, categoria: 'instituicao', label: 'Priorado\nSanta Teresinha', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 'N41', level: 8, categoria: 'instituicao', label: 'Capelania N. Sra do\nPerpétuo Socorro', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
+{ id: 'N53', level: 8, categoria: 'instituicao', label: 'Redentoristas Transalpinos (Escócia)', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 
 // NÍVEL 9: Localizações
 
+// Escócia
 { id: 'N60', level: 9, categoria: 'localizacao', label: 'Estados Unidos', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N48', level: 9, categoria: 'localizacao', label: 'França', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N_ITA', level: 9, categoria: 'localizacao', label: 'Itália', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
@@ -148,6 +152,8 @@ var todosNos = [
 { id: 'N_CG', level: 9, categoria: 'localizacao', label: 'Campo Grande (MS)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 'N51', level: 9, categoria: 'localizacao', label: 'Sul do Brasil', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } }
 ];
+
+
 
 
 
@@ -216,9 +222,18 @@ var todosSetas = [
     { from: 'N18', to: 'N103', title: 'consagrou bispo', texto: 'consagrou bispo' },
     { from: 'N18', to: 'N104', title: 'consagrou bispo', texto: 'consagrou bispo' },
 
-    // -- Lógica de Sagração Dom Merardo Loya --
+    // Dom Merardo Loya --
+	
     { from: 'N_Squetino', to: 'N109', title: 'consagrou bispo 2019', texto: 'consagrou bispo 2019' },
     { from: 'N18', to: 'N109', title: 're-consagrou sub cond. 2025', texto: 're-consagrou sub cond. 2025' },
+
+// Pierre Roy, Rodrigo Da Silva e Fernando Altamira,
+
+    { from: 'N18', to: 'N52', title: 'co-consagrou', texto: 'co-consagrou' },    
+	{ from: 'N102', to: 'N52', title: 'co-consagrou', texto: 'co-consagrou' },     
+	{ from: 'N103', to: 'N52', title: 'consagrou', texto: 'consagrou' },  
+	{ from: 'N52', to: 'N53', title: 'pertence a', texto: 'pertence a' },
+
 
     { from: 'N18', to: 'N106', title: 'ordenou padre', texto: 'ordenou padre' },
     { from: 'N18', to: 'N107', title: 'ordenou padre', texto: 'ordenou padre' },
