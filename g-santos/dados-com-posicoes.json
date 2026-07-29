@@ -11,7 +11,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 650,
+      "x": 96,
       "y": 112.5
     },
     {
@@ -25,7 +25,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 1310,
+      "x": 756,
       "y": 37.5
     },
     {
@@ -39,8 +39,8 @@
         "size": 13,
         "bold": true
       },
-      "x": -842,
-      "y": 37.5
+      "x": -896,
+      "y": 112.5
     },
     {
       "id": "53",
@@ -53,7 +53,7 @@
         "size": 13,
         "bold": true
       },
-      "x": -87,
+      "x": -641,
       "y": 37.5
     },
     {
@@ -67,7 +67,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 870,
+      "x": 316,
       "y": 37.5
     },
     {
@@ -81,7 +81,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 1083,
+      "x": 529,
       "y": 112.5
     },
     {
@@ -95,8 +95,8 @@
         "size": 13,
         "bold": true
       },
-      "x": -1069,
-      "y": 112.5
+      "x": -1123,
+      "y": 37.5
     },
     {
       "id": "60",
@@ -109,21 +109,21 @@
         "size": 13,
         "bold": true
       },
-      "x": 423,
+      "x": -131,
       "y": 37.5
     },
     {
       "id": "58",
       "level": 1,
       "categoria": "ideia",
-      "label": "FESTA-ARCANJO-EVANGELISTA",
+      "label": "FESTA",
       "grupo": "ideia",
       "font": {
         "color": "#a3e4ff",
         "size": 13,
         "bold": true
       },
-      "x": -475,
+      "x": -1343,
       "y": 112.5
     },
     {
@@ -137,7 +137,7 @@
         "size": 13,
         "bold": true
       },
-      "x": 182,
+      "x": -372,
       "y": 112.5
     },
     {
@@ -151,8 +151,50 @@
         "size": 13,
         "bold": true
       },
-      "x": -1303,
+      "x": -1577,
       "y": 37.5
+    },
+    {
+      "id": "1005",
+      "level": 1,
+      "categoria": "ideia",
+      "label": "ARCANJO",
+      "grupo": "ideia",
+      "font": {
+        "color": "#a3e4ff",
+        "size": 13,
+        "bold": true
+      },
+      "x": 1301,
+      "y": 37.5
+    },
+    {
+      "id": "54",
+      "level": 1,
+      "categoria": "ideia",
+      "label": "EVANGELISTA",
+      "grupo": "ideia",
+      "font": {
+        "color": "#a3e4ff",
+        "size": 13,
+        "bold": true
+      },
+      "x": 1025,
+      "y": 112.5
+    },
+    {
+      "id": "1053",
+      "level": 1,
+      "categoria": "ideia",
+      "label": "PENITENTE",
+      "grupo": "ideia",
+      "font": {
+        "color": "#a3e4ff",
+        "size": 13,
+        "bold": true
+      },
+      "x": 1563,
+      "y": 112.5
     },
     {
       "id": "70",
@@ -196,8 +238,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -613,
-      "y": 262.5
+      "x": -393,
+      "y": 187.5
     },
     {
       "id": "91",
@@ -211,8 +253,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -393,
-      "y": 187.5
+      "x": -613,
+      "y": 262.5
     },
     {
       "id": "92",
@@ -638,8 +680,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2109,
-      "y": 487.5
+      "x": 1707,
+      "y": 562.5
     },
     {
       "id": "439",
@@ -651,8 +693,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1707,
-      "y": 562.5
+      "x": 2109,
+      "y": 487.5
     },
     {
       "id": "440",
@@ -664,8 +706,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 896,
-      "y": 562.5
+      "x": 1284,
+      "y": 487.5
     },
     {
       "id": "441",
@@ -731,8 +773,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1312,
-      "y": 487.5
+      "x": 868,
+      "y": 562.5
     },
     {
       "id": "632",
@@ -4058,7 +4100,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -1054,
+      "x": -285,
       "y": 3262.5
     },
     {
@@ -4072,8 +4114,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 935,
-      "y": 3187.5
+      "x": 1218,
+      "y": 3262.5
     },
     {
       "id": "24",
@@ -4086,8 +4128,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 554,
-      "y": 3262.5
+      "x": 837,
+      "y": 3187.5
     },
     {
       "id": "25",
@@ -4100,7 +4142,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -1442,
+      "x": -673,
       "y": 3187.5
     },
     {
@@ -4114,7 +4156,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -3001,
+      "x": -2630,
       "y": 3187.5
     },
     {
@@ -4146,6 +4188,258 @@
       "y": 3712.5
     },
     {
+      "id": "850",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Agostiniana",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 1606,
+      "y": 3187.5
+    },
+    {
+      "id": "851",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem do Carmo",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -2263,
+      "y": 3262.5
+    },
+    {
+      "id": "852",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Servita",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 1966,
+      "y": 3262.5
+    },
+    {
+      "id": "853",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Trinitária",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 89,
+      "y": 3187.5
+    },
+    {
+      "id": "854",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Mercedária",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 463,
+      "y": 3262.5
+    },
+    {
+      "id": "855",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Família Vicentina",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 2326,
+      "y": 3187.5
+    },
+    {
+      "id": "856",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Redentoristas",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -1040,
+      "y": 3262.5
+    },
+    {
+      "id": "857",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Passionistas",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -1931,
+      "y": 3187.5
+    },
+    {
+      "id": "858",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Oratorianos",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 2672,
+      "y": 3262.5
+    },
+    {
+      "id": "859",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Lassalistas",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -1620,
+      "y": 3262.5
+    },
+    {
+      "id": "860",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Teatinos",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -1337,
+      "y": 3187.5
+    },
+    {
+      "id": "861",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Camilianos",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -1061,
+      "y": 3412.5
+    },
+    {
+      "id": "862",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Hospitaleiros",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -1802,
+      "y": 3412.5
+    },
+    {
+      "id": "863",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Barnabitas",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -2487,
+      "y": 3412.5
+    },
+    {
+      "id": "864",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Escolápios",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 1959,
+      "y": 3412.5
+    },
+    {
+      "id": "865",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Visitandinas",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -299,
+      "y": 3412.5
+    },
+    {
+      "id": "866",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Cartuxa",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -2798,
+      "y": 3337.5
+    },
+    {
+      "id": "867",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Premonstratenses",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -2155,
+      "y": 3337.5
+    },
+    {
       "id": "32",
       "level": 7,
       "categoria": "fundadora",
@@ -4156,8 +4450,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -694,
-      "y": 3187.5
+      "x": 33,
+      "y": 3337.5
     },
     {
       "id": "34",
@@ -4170,8 +4464,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -1872,
-      "y": 3262.5
+      "x": -687,
+      "y": 3337.5
     },
     {
       "id": "38",
@@ -4184,8 +4478,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 2162,
-      "y": 3262.5
+      "x": 1641,
+      "y": 3337.5
     },
     {
       "id": "900",
@@ -4198,8 +4492,8 @@
         "size": 13,
         "italic": true
       },
-      "x": -320,
-      "y": 3262.5
+      "x": 407,
+      "y": 3412.5
     },
     {
       "id": "901",
@@ -4212,8 +4506,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 1746,
-      "y": 3187.5
+      "x": 1225,
+      "y": 3412.5
     },
     {
       "id": "902",
@@ -4226,8 +4520,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 2980,
-      "y": 3262.5
+      "x": 2749,
+      "y": 3412.5
     },
     {
       "id": "903",
@@ -4240,8 +4534,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 1316,
-      "y": 3262.5
+      "x": 795,
+      "y": 3337.5
     },
     {
       "id": "904",
@@ -4254,8 +4548,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 2550,
-      "y": 3187.5
+      "x": 2319,
+      "y": 3337.5
     },
     {
       "id": "905",
@@ -4268,8 +4562,8 @@
         "size": 13,
         "italic": true
       },
-      "x": -2592,
-      "y": 3262.5
+      "x": -1421,
+      "y": 3337.5
     },
     {
       "id": "906",
@@ -4282,8 +4576,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 124,
-      "y": 3187.5
+      "x": -631,
+      "y": 3487.5
     },
     {
       "id": "907",
@@ -4296,8 +4590,8 @@
         "size": 13,
         "italic": true
       },
-      "x": -2239,
-      "y": 3187.5
+      "x": -1428,
+      "y": 3487.5
     },
     {
       "id": "908",
@@ -4310,8 +4604,8 @@
         "size": 13,
         "italic": true
       },
-      "x": -1732,
-      "y": 3412.5
+      "x": -1082,
+      "y": 3562.5
     },
     {
       "id": "909",
@@ -4324,8 +4618,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 404,
-      "y": 3337.5
+      "x": 792,
+      "y": 3562.5
     },
     {
       "id": "910",
@@ -4339,7 +4633,7 @@
         "italic": true
       },
       "x": 1435,
-      "y": 3412.5
+      "y": 3562.5
     },
     {
       "id": "911",
@@ -4353,7 +4647,7 @@
         "italic": true
       },
       "x": 1767,
-      "y": 3337.5
+      "y": 3487.5
     },
     {
       "id": "912",
@@ -4366,8 +4660,8 @@
         "size": 13,
         "italic": true
       },
-      "x": 764,
-      "y": 3412.5
+      "x": 1152,
+      "y": 3487.5
     },
     {
       "id": "913",
@@ -4380,8 +4674,8 @@
         "size": 13,
         "italic": true
       },
-      "x": -1323,
-      "y": 3337.5
+      "x": -187,
+      "y": 3562.5
     },
     {
       "id": "914",
@@ -4394,8 +4688,8 @@
         "size": 13,
         "italic": true
       },
-      "x": -96,
-      "y": 3412.5
+      "x": 292,
+      "y": 3487.5
     },
     {
       "id": "915",
@@ -4408,8 +4702,8 @@
         "size": 13,
         "italic": true
       },
-      "x": -2875,
-      "y": 3337.5
+      "x": -2155,
+      "y": 3487.5
     },
     {
       "id": "916",
@@ -4423,7 +4717,7 @@
         "italic": true
       },
       "x": 2127,
-      "y": 3412.5
+      "y": 3562.5
     },
     {
       "id": "917",
@@ -4436,259 +4730,7 @@
         "size": 13,
         "italic": true
       },
-      "x": -2508,
-      "y": 3412.5
-    },
-    {
-      "id": "850",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Agostiniana",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1096,
-      "y": 3337.5
-    },
-    {
-      "id": "851",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem do Carmo",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2113,
-      "y": 3337.5
-    },
-    {
-      "id": "852",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Servita",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2466,
-      "y": 3337.5
-    },
-    {
-      "id": "853",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Trinitária",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -935,
-      "y": 3412.5
-    },
-    {
-      "id": "854",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Mercedária",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -561,
-      "y": 3337.5
-    },
-    {
-      "id": "855",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Família Vicentina",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2826,
-      "y": 3412.5
-    },
-    {
-      "id": "856",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Redentoristas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 505,
-      "y": 3562.5
-    },
-    {
-      "id": "857",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Passionistas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1092,
-      "y": 3487.5
-    },
-    {
-      "id": "858",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Oratorianos",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1721,
-      "y": 3562.5
-    },
-    {
-      "id": "859",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Lassalistas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -781,
-      "y": 3562.5
-    },
-    {
-      "id": "860",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Teatinos",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -498,
-      "y": 3487.5
-    },
-    {
-      "id": "861",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Camilianos",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 816,
-      "y": 3487.5
-    },
-    {
-      "id": "862",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Hospitaleiros",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 173,
-      "y": 3487.5
-    },
-    {
-      "id": "863",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Barnabitas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1396,
-      "y": 3562.5
-    },
-    {
-      "id": "864",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Escolápios",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1424,
-      "y": 3487.5
-    },
-    {
-      "id": "865",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Visitandinas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1120,
-      "y": 3562.5
-    },
-    {
-      "id": "866",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Cartuxa",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1707,
-      "y": 3487.5
-    },
-    {
-      "id": "867",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Premonstratenses",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -180,
+      "x": -1788,
       "y": 3562.5
     },
     {
@@ -5150,8 +5192,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1263,
-      "y": 4087.5
+      "x": 1511,
+      "y": 4162.5
     },
     {
       "id": "317",
@@ -5234,8 +5276,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1497,
-      "y": 4162.5
+      "x": 1745,
+      "y": 4087.5
     },
     {
       "id": "503",
@@ -5248,8 +5290,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1015,
-      "y": 4162.5
+      "x": 1263,
+      "y": 4087.5
     },
     {
       "id": "504",
@@ -5360,8 +5402,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 1738,
-      "y": 4087.5
+      "x": 1008,
+      "y": 4162.5
     },
     {
       "id": "512",
@@ -5882,20 +5924,6 @@
       "y": 4687.5
     },
     {
-      "id": "1004",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de S. Pedro",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1806,
-      "y": 4987.5
-    },
-    {
       "id": "1006",
       "level": 9,
       "categoria": "santuario",
@@ -5906,8 +5934,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -180,
-      "y": 4987.5
+      "x": 390,
+      "y": 5062.5
     },
     {
       "id": "1007",
@@ -5920,7 +5948,273 @@
         "size": 14,
         "bold": true
       },
-      "x": 834,
+      "x": 1404,
+      "y": 5062.5
+    },
+    {
+      "id": "1000",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "Corpo Incorrupto",
+      "grupo": "fenomeno",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -297,
+      "y": 5212.5
+    },
+    {
+      "id": "1001",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "Estigmas (Chagas)",
+      "grupo": "fenomeno",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 84,
+      "y": 5137.5
+    },
+    {
+      "id": "1002",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "Bilocação",
+      "grupo": "fenomeno",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 416,
+      "y": 5212.5
+    },
+    {
+      "id": "1003",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "Levitação",
+      "grupo": "fenomeno",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 692,
+      "y": 5137.5
+    },
+    {
+      "id": "1",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "dragão Tarasca",
+      "grupo": "fenomeno",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -657,
+      "y": 5137.5
+    },
+    {
+      "id": "1010",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Sangue Liquefeito",
+      "grupo": "reliquia",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 187,
+      "y": 5362.5
+    },
+    {
+      "id": "1011",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Coração Incorrupto",
+      "grupo": "reliquia",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -208,
+      "y": 5287.5
+    },
+    {
+      "id": "1012",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Língua Intacta",
+      "grupo": "reliquia",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 554,
+      "y": 5287.5
+    },
+    {
+      "id": "1013",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Cabeça / Crânio",
+      "grupo": "reliquia",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -963,
+      "y": 5287.5
+    },
+    {
+      "id": "1014",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Manto Partilhado",
+      "grupo": "reliquia",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -596,
+      "y": 5362.5
+    },
+    {
+      "id": "1015",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Correntes da Prisão",
+      "grupo": "reliquia",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 935,
+      "y": 5362.5
+    },
+    {
+      "id": "1020",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de S. Pedro (Roma)",
+      "grupo": "santuario",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 897,
+      "y": 4987.5
+    },
+    {
+      "id": "1021",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Catedral de Santiago (Espanha)",
+      "grupo": "santuario",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -138,
+      "y": 4987.5
+    },
+    {
+      "id": "1022",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de Assis (Itália)",
+      "grupo": "santuario",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -680,
+      "y": 5062.5
+    },
+    {
+      "id": "1023",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de Pádua (Itália)",
+      "grupo": "santuario",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 1904,
+      "y": 4987.5
+    },
+    {
+      "id": "1024",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de S. Paulo (Roma)",
+      "grupo": "santuario",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 2425,
+      "y": 5062.5
+    },
+    {
+      "id": "1025",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Santuário de Ars (França)",
+      "grupo": "santuario",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -2439,
+      "y": 4987.5
+    },
+    {
+      "id": "1026",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de Lisieux (França)",
+      "grupo": "santuario",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -1918,
+      "y": 5062.5
+    },
+    {
+      "id": "1004",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Collégiale Sainte-Marthe - Tarascon (França)",
+      "grupo": "santuario",
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": -1292,
       "y": 4987.5
     },
     {
@@ -5935,7 +6229,7 @@
         "bold": true
       },
       "x": -2630,
-      "y": 5137.5
+      "y": 5437.5
     },
     {
       "id": "1009",
@@ -5949,245 +6243,7 @@
         "bold": true
       },
       "x": -1882,
-      "y": 5137.5
-    },
-    {
-      "id": "1000",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "Corpo Incorrupto",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -470,
       "y": 5437.5
-    },
-    {
-      "id": "1001",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "Estigmas (Chagas)",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -89,
-      "y": 5512.5
-    },
-    {
-      "id": "1002",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "Bilocação",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 243,
-      "y": 5437.5
-    },
-    {
-      "id": "1003",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "Levitação",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 519,
-      "y": 5512.5
-    },
-    {
-      "id": "1010",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Sangue Liquefeito",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 187,
-      "y": 5662.5
-    },
-    {
-      "id": "1011",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Coração Incorrupto",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -208,
-      "y": 5587.5
-    },
-    {
-      "id": "1012",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Língua Intacta",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 554,
-      "y": 5587.5
-    },
-    {
-      "id": "1013",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Cabeça / Crânio",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -963,
-      "y": 5587.5
-    },
-    {
-      "id": "1014",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Manto Partilhado",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -596,
-      "y": 5662.5
-    },
-    {
-      "id": "1015",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Correntes da Prisão",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 935,
-      "y": 5662.5
-    },
-    {
-      "id": "1020",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de S. Pedro (Roma)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 327,
-      "y": 5062.5
-    },
-    {
-      "id": "1021",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Catedral de Santiago (Espanha)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -708,
-      "y": 5062.5
-    },
-    {
-      "id": "1022",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de Assis (Itália)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1250,
-      "y": 4987.5
-    },
-    {
-      "id": "1023",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de Pádua (Itália)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1334,
-      "y": 5062.5
-    },
-    {
-      "id": "1024",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de S. Paulo (Roma)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2285,
-      "y": 5062.5
-    },
-    {
-      "id": "1025",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Santuário de Ars (França)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2299,
-      "y": 4987.5
-    },
-    {
-      "id": "1026",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de Lisieux (França)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1778,
-      "y": 5062.5
     },
     {
       "id": "1030",
@@ -6201,7 +6257,7 @@
         "bold": true
       },
       "x": 2431,
-      "y": 5137.5
+      "y": 5437.5
     },
     {
       "id": "1031",
@@ -6215,7 +6271,7 @@
         "bold": true
       },
       "x": 1054,
-      "y": 5137.5
+      "y": 5437.5
     },
     {
       "id": "1032",
@@ -6229,7 +6285,7 @@
         "bold": true
       },
       "x": 736,
-      "y": 5212.5
+      "y": 5512.5
     },
     {
       "id": "1033",
@@ -6243,7 +6299,7 @@
         "bold": true
       },
       "x": -760,
-      "y": 5212.5
+      "y": 5512.5
     },
     {
       "id": "1034",
@@ -6257,7 +6313,7 @@
         "bold": true
       },
       "x": 1428,
-      "y": 5212.5
+      "y": 5512.5
     },
     {
       "id": "1035",
@@ -6271,7 +6327,7 @@
         "bold": true
       },
       "x": -386,
-      "y": 5137.5
+      "y": 5437.5
     },
     {
       "id": "1036",
@@ -6285,7 +6341,7 @@
         "bold": true
       },
       "x": 2700,
-      "y": 5212.5
+      "y": 5512.5
     },
     {
       "id": "1037",
@@ -6299,7 +6355,7 @@
         "bold": true
       },
       "x": -1501,
-      "y": 5212.5
+      "y": 5512.5
     },
     {
       "id": "1038",
@@ -6313,7 +6369,7 @@
         "bold": true
       },
       "x": 1802,
-      "y": 5137.5
+      "y": 5437.5
     },
     {
       "id": "1039",
@@ -6327,7 +6383,7 @@
         "bold": true
       },
       "x": 404,
-      "y": 5137.5
+      "y": 5437.5
     },
     {
       "id": "1040",
@@ -6341,7 +6397,7 @@
         "bold": true
       },
       "x": 58,
-      "y": 5212.5
+      "y": 5512.5
     },
     {
       "id": "1041",
@@ -6355,7 +6411,7 @@
         "bold": true
       },
       "x": -1092,
-      "y": 5137.5
+      "y": 5437.5
     },
     {
       "id": "1042",
@@ -6369,7 +6425,7 @@
         "bold": true
       },
       "x": -2242,
-      "y": 5212.5
+      "y": 5512.5
     },
     {
       "id": "1043",
@@ -6383,7 +6439,7 @@
         "bold": true
       },
       "x": 2113,
-      "y": 5212.5
+      "y": 5512.5
     },
     {
       "id": "1044",
@@ -6397,7 +6453,7 @@
         "bold": true
       },
       "x": 926,
-      "y": 5362.5
+      "y": 5662.5
     },
     {
       "id": "1045",
@@ -6411,7 +6467,7 @@
         "bold": true
       },
       "x": -119,
-      "y": 5287.5
+      "y": 5587.5
     },
     {
       "id": "1046",
@@ -6425,7 +6481,7 @@
         "bold": true
       },
       "x": -685,
-      "y": 5287.5
+      "y": 5587.5
     },
     {
       "id": "721",
@@ -6481,7 +6537,7 @@
         "bold": true
       },
       "x": -1377,
-      "y": 5287.5
+      "y": 5587.5
     },
     {
       "id": "1048",
@@ -6495,7 +6551,7 @@
         "bold": true
       },
       "x": -1031,
-      "y": 5362.5
+      "y": 5662.5
     },
     {
       "id": "722",
@@ -6565,7 +6621,7 @@
         "bold": true
       },
       "x": 227,
-      "y": 5362.5
+      "y": 5662.5
     },
     {
       "id": "1050",
@@ -6579,7 +6635,7 @@
         "bold": true
       },
       "x": 629,
-      "y": 5287.5
+      "y": 5587.5
     },
     {
       "id": "1051",
@@ -6593,7 +6649,7 @@
         "bold": true
       },
       "x": 1272,
-      "y": 5287.5
+      "y": 5587.5
     },
     {
       "id": "1052",
@@ -6607,7 +6663,7 @@
         "bold": true
       },
       "x": -402,
-      "y": 5362.5
+      "y": 5662.5
     }
   ],
   "edges": [
@@ -8419,12 +8475,6 @@
     },
     {
       "from": "53",
-      "to": "439",
-      "title": "é",
-      "texto": "é"
-    },
-    {
-      "from": "53",
       "to": "444",
       "title": "é",
       "texto": "é"
@@ -8761,12 +8811,6 @@
     },
     {
       "from": "58",
-      "to": "603",
-      "title": "é",
-      "texto": "é"
-    },
-    {
-      "from": "58",
       "to": "609",
       "title": "é",
       "texto": "é"
@@ -8802,25 +8846,37 @@
       "texto": "é"
     },
     {
-      "from": "58",
+      "from": "1005",
+      "to": "439",
+      "title": "é",
+      "texto": "é"
+    },
+    {
+      "from": "1005",
+      "to": "603",
+      "title": "é",
+      "texto": "é"
+    },
+    {
+      "from": "1005",
       "to": "685",
       "title": "é",
       "texto": "é"
     },
     {
-      "from": "58",
+      "from": "54",
       "to": "55",
       "title": "é",
       "texto": "é"
     },
     {
-      "from": "58",
+      "from": "54",
       "to": "115",
       "title": "é",
       "texto": "é"
     },
     {
-      "from": "58",
+      "from": "54",
       "to": "453",
       "title": "é",
       "texto": "é"
@@ -10432,6 +10488,12 @@
       "to": "309",
       "title": "viveu em",
       "texto": "viveu em"
+    },
+    {
+      "from": "221",
+      "to": "1004",
+      "title": "sepultada na",
+      "texto": "sepultada na"
     },
     {
       "from": "73",
@@ -12460,10 +12522,10 @@
       "texto": "possui"
     },
     {
-      "from": "212",
-      "to": "1000",
-      "title": "coração incorrupto",
-      "texto": "coração incorrupto"
+      "from": "221",
+      "to": "1",
+      "title": "subjugou",
+      "texto": "subjugou"
     },
     {
       "from": "8",
@@ -12665,19 +12727,19 @@
     },
     {
       "from": "2",
-      "to": "1004",
+      "to": "1020",
       "title": "sepultado na",
       "texto": "sepultado na"
     },
     {
       "from": "200",
-      "to": "1004",
+      "to": "1020",
       "title": "sepultado na",
       "texto": "sepultado na"
     },
     {
       "from": "436",
-      "to": "1004",
+      "to": "1020",
       "title": "sepultado na",
       "texto": "sepultado na"
     },
