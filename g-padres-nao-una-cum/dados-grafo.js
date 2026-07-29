@@ -110,22 +110,24 @@ var todosNos = [
 { id: 50, level: 6, categoria: 'padre', label: 'João Maria Vianney (2025)', grupo: 'padre', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } },
 { id: 51, level: 6, categoria: 'padre', label: 'Pacífico Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026, font: { color: '#ffffff', size: 14, bold: true } },
 { id: 52, level: 6, categoria: 'padre', label: 'Dimas Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026, font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 88, level: 6, categoria: 'padre', label: 'Wagner Joseph', grupo: 'padre', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } },
 
 
 
 
-// NÍVEL 7: Classificações Teológicas (Os 5 Polos), FSSPX e Bispos Recentes
+
+// NÍVEL 7: Classificações Teológicas
 
 { id: 53, level: 7, categoria: 'classificacao', label: 'Tradicionalismo\nUna Cum', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 54, level: 7, categoria: 'classificacao', label: 'Resistência\n(Una Cum)', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 55, level: 7, categoria: 'classificacao', label: 'Sedevacantismo\nTotalista', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 56, level: 7, categoria: 'classificacao', label: 'Sedeprivacionismo\n(Cassiciacum)', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
 { id: 57, level: 7, categoria: 'classificacao', label: 'Independente /\nNão Una Cum Parcial', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 58, level: 7, categoria: 'instituicao', label: 'FSSPX', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 
 
 // NÍVEL 8: Instituições e Seminários Independentes
 
+{ id: 58, level: 8, categoria: 'instituicao', label: 'FSSPX', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 59, level: 8, categoria: 'instituicao', label: 'SAJM', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 60, level: 8, categoria: 'instituicao', label: 'Inst. Mater Boni\nConsilii', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 61, level: 8, categoria: 'instituicao', label: 'Most Holy Trinity\nSeminary', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
@@ -139,6 +141,8 @@ var todosNos = [
 { id: 69, level: 8, categoria: 'instituicao', label: 'Priorado\nSanta Teresinha', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 70, level: 8, categoria: 'instituicao', label: 'Capelania N. Sra do\nPerpétuo Socorro', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
 { id: 71, level: 8, categoria: 'instituicao', label: 'Redentoristas Transalpinos (Escócia)', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
+{ id: 89, level: 8, categoria: 'instituicao', label: 'Missão Pindamonhangaba (SP)', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
+
 
 // NÍVEL 9: Localizações
 
@@ -161,6 +165,10 @@ var todosNos = [
 { id: 87, level: 9, categoria: 'localizacao', label: 'Sul do Brasil', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } }
 ];
 
+// ultimo numero utilizado 89
+
+
+
 
 
 
@@ -175,7 +183,10 @@ var todosNos = [
 
 
 var todosSetas = [
-    // -- SUCESSÃO APOSTÓLICA (Linha Contínua + Verbo no Passado) --
+
+
+    // -- SUCESSÃO APOSTÓLICA 
+	
     { from: 1, to: 8, title: 'originou', texto: 'originou' },
     { from: 1, to: 9, title: 'originou', texto: 'originou' },
     { from: 1, to: 5, title: 'originou', texto: 'originou' },
@@ -230,7 +241,7 @@ var todosSetas = [
     { from: 22, to: 25, title: 'consagrou bispo', texto: 'consagrou bispo' },
     { from: 22, to: 26, title: 'consagrou bispo', texto: 'consagrou bispo' },
 
-    // Dom Merardo Loya --
+// Dom Merardo Loya --
 	
     { from: 21, to: 27, title: 'consagrou bispo 2019', texto: 'consagrou bispo 2019' },
     { from: 22, to: 27, title: 're-consagrou sub cond. 2025', texto: 're-consagrou sub cond. 2025' },
@@ -242,173 +253,179 @@ var todosSetas = [
 	{ from: 25, to: 28, title: 'consagrou', texto: 'consagrou' },  
 	{ from: 28, to: 71, title: 'pertence a', texto: 'pertence a' },
 
-
     { from: 22, to: 50, title: 'ordenou padre', texto: 'ordenou padre' },
     { from: 22, to: 51, title: 'ordenou padre', texto: 'ordenou padre' },
     { from: 22, to: 52, title: 'ordenou padre', texto: 'ordenou padre' },
 
-    // -- SITUAÇÃO ATUAL: TEOLOGIA, CARGO E LOCAL --
-    { from: 58, to: 53, title: 'adota', texto: 'adota' },
-    { from: 12, to: 54, title: 'fundamenta', texto: 'fundamenta' },
-    { from: 17, to: 59, title: 'lidera', texto: 'lidera' },
 
-    { from: 10, to: 58, title: 'pertence a', texto: 'pertence a' },
+
+
+
+
+
+// adota
     { from: 10, to: 53, title: 'adota', texto: 'adota' },
-    { from: 11, to: 58, title: 'pertence a', texto: 'pertence a' },
     { from: 11, to: 53, title: 'adota', texto: 'adota' },
-    { from: 13, to: 58, title: 'pertence a', texto: 'pertence a' },
     { from: 13, to: 53, title: 'adota', texto: 'adota' },
-
-    { from: 18, to: 63, title: 'lidera', texto: 'lidera' },
-    { from: 18, to: 54, title: 'adota', texto: 'adota' },
-    { from: 36, to: 63, title: 'pertence a', texto: 'pertence a' },
-    { from: 37, to: 63, title: 'pertence a', texto: 'pertence a' },
-    { from: 17, to: 54, title: 'adota', texto: 'adota' },
-    { from: 19, to: 54, title: 'adota', texto: 'adota' },
-
-    { from: 15, to: 61, title: 'lidera', texto: 'lidera' },
-    { from: 15, to: 56, title: 'adota', texto: 'adota' },
-
-    { from: 23, to: 62, title: 'lidera', texto: 'lidera' },
-    { from: 23, to: 55, title: 'adota', texto: 'adota' },
     { from: 14, to: 55, title: 'adota', texto: 'adota' },
-    { from: 14, to: 72, title: 'atua em', texto: 'atua em' },
-
-    { from: 22, to: 64, title: 'lidera', texto: 'lidera' },
-    { from: 22, to: 55, title: 'adota', texto: 'adota' },
-
-    { from: 16, to: 65, title: 'lidera', texto: 'lidera' },
+    { from: 15, to: 56, title: 'adota', texto: 'adota' },
     { from: 16, to: 55, title: 'adota', texto: 'adota' },
-    { from: 47, to: 55, title: 'adota', texto: 'adota' },
-    { from: 47, to: 87, title: 'atua em', texto: 'atua em' },
-
-    { from: 35, to: 56, title: 'adota', texto: 'adota' },
-    { from: 35, to: 86, title: 'atua em', texto: 'atua em' },
-    { from: 35, to: 60, title: 'dialoga com', texto: 'dialoga com' },
-    { from: 60, to: 56, title: 'adota', texto: 'adota' },
-
-    { from: 48, to: 57, title: 'adota', texto: 'adota' },
-    { from: 49, to: 57, title: 'adota', texto: 'adota' },
-    { from: 29, to: 57, title: 'adota', texto: 'adota' },
-    { from: 31, to: 57, title: 'adota', texto: 'adota' },
-    { from: 31, to: 65, title: 'auxilia', texto: 'auxilia' },
-    { from: 38, to: 57, title: 'adota', texto: 'adota' },
-    { from: 38, to: 68, title: 'pertence a', texto: 'pertence a' },
-    { from: 43, to: 55, title: 'adota', texto: 'adota' },
-
-    { from: 30, to: 66, title: 'pertence a', texto: 'pertence a' },
-    { from: 30, to: 55, title: 'adota', texto: 'adota' },
-
-    { from: 32, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 32, to: 67, title: 'pertence a', texto: 'pertence a' },
-    { from: 32, to: 55, title: 'adota', texto: 'adota' },
-    { from: 32, to: 80, title: 'atua em', texto: 'atua em' },
-
-    { from: 39, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 39, to: 55, title: 'adota', texto: 'adota' },
-    { from: 39, to: 87, title: 'atua em', texto: 'atua em' },
-
-    { from: 40, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 40, to: 55, title: 'adota', texto: 'adota' },
-    { from: 40, to: 84, title: 'atua em', texto: 'atua em' },
-    { from: 40, to: 85, title: 'atua em', texto: 'atua em' },
-
-    { from: 41, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 41, to: 55, title: 'adota', texto: 'adota' },
-
-    { from: 42, to: 58, title: 'pertence a', texto: 'pertence a' },
-    { from: 42, to: 53, title: 'adota', texto: 'adota' },
-
-    { from: 44, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 44, to: 55, title: 'adota', texto: 'adota' },
-    { from: 44, to: 81, title: 'atua em', texto: 'atua em' },
-
-    { from: 45, to: 65, title: 'auxilia', texto: 'auxilia' },
-    { from: 45, to: 55, title: 'adota', texto: 'adota' },
-
-    { from: 46, to: 65, title: 'pertence a', texto: 'pertence a' },
-    { from: 46, to: 55, title: 'adota', texto: 'adota' },
-    { from: 46, to: 79, title: 'atua em', texto: 'atua em' },
-
-    { from: 33, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 33, to: 55, title: 'adota', texto: 'adota' },
-    { from: 33, to: 79, title: 'atua em', texto: 'atua em' },
-
-    { from: 34, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 34, to: 55, title: 'adota', texto: 'adota' },
-    { from: 34, to: 80, title: 'atua em', texto: 'atua em' },
-
-    { from: 50, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 50, to: 55, title: 'adota', texto: 'adota' },
-    { from: 51, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 51, to: 55, title: 'adota', texto: 'adota' },
-    { from: 52, to: 64, title: 'pertence a', texto: 'pertence a' },
-    { from: 52, to: 55, title: 'adota', texto: 'adota' },
-
+    { from: 17, to: 54, title: 'adota', texto: 'adota' },
+    { from: 18, to: 54, title: 'adota', texto: 'adota' },
+    { from: 19, to: 54, title: 'adota', texto: 'adota' },
+    { from: 22, to: 55, title: 'adota', texto: 'adota' },
+    { from: 23, to: 55, title: 'adota', texto: 'adota' },
     { from: 24, to: 55, title: 'adota', texto: 'adota' },
     { from: 25, to: 55, title: 'adota', texto: 'adota' },
     { from: 26, to: 55, title: 'adota', texto: 'adota' },
     { from: 27, to: 55, title: 'adota', texto: 'adota' },
+    { from: 29, to: 57, title: 'adota', texto: 'adota' },
+    { from: 30, to: 55, title: 'adota', texto: 'adota' },
+    { from: 31, to: 57, title: 'adota', texto: 'adota' },
+    { from: 32, to: 55, title: 'adota', texto: 'adota' },
+    { from: 33, to: 55, title: 'adota', texto: 'adota' },
+    { from: 34, to: 55, title: 'adota', texto: 'adota' },
+    { from: 35, to: 56, title: 'adota', texto: 'adota' },
+    { from: 38, to: 57, title: 'adota', texto: 'adota' },
+    { from: 39, to: 55, title: 'adota', texto: 'adota' },
+    { from: 40, to: 55, title: 'adota', texto: 'adota' },
+    { from: 41, to: 55, title: 'adota', texto: 'adota' },
+    { from: 42, to: 53, title: 'adota', texto: 'adota' },
+    { from: 43, to: 55, title: 'adota', texto: 'adota' },
+    { from: 44, to: 55, title: 'adota', texto: 'adota' },
+    { from: 45, to: 55, title: 'adota', texto: 'adota' },
+    { from: 46, to: 55, title: 'adota', texto: 'adota' },
+    { from: 47, to: 55, title: 'adota', texto: 'adota' },
+    { from: 48, to: 57, title: 'adota', texto: 'adota' },
+    { from: 49, to: 57, title: 'adota', texto: 'adota' },
+    { from: 50, to: 55, title: 'adota', texto: 'adota' },
+    { from: 51, to: 55, title: 'adota', texto: 'adota' },
+    { from: 52, to: 55, title: 'adota', texto: 'adota' },
+    { from: 58, to: 53, title: 'adota', texto: 'adota' },
+    { from: 60, to: 56, title: 'adota', texto: 'adota' },
+    { from: 88, to: 55, title: 'adota', texto: 'adota' },
 
-    // -- HISTÓRICO E ROMPIMENTOS (Linha Tracejada + Verbo no Passado) --
-    { from: 4, to: 58, title: 'fundamentou', texto: 'fundamentou', dashes: true },
-    { from: 20, to: 62, title: 'liderou', texto: 'liderou', dashes: true },
-    { from: 20, to: 55, title: 'adotou', texto: 'adotou', dashes: true },
-    { from: 7, to: 56, title: 'adotou', texto: 'adotou', dashes: true },
+    // adotou
     { from: 6, to: 55, title: 'adotou', texto: 'adotou', dashes: true },
+    { from: 7, to: 56, title: 'adotou', texto: 'adotou', dashes: true },
+    { from: 20, to: 55, title: 'adotou', texto: 'adotou', dashes: true },
 
+    // adotou (2019-2025)
     { from: 27, to: 57, title: 'adotou (2019-2025)', texto: 'adotou (2019-2025)', dashes: true },
 
-    { from: 54, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 22, to: 54, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 22, to: 61, title: 'foi membro de', texto: 'foi membro de', dashes: true },
+    // atua em
+    { from: 14, to: 72, title: 'atua em', texto: 'atua em' },
+    { from: 23, to: 72, title: 'atua em', texto: 'atua em' },
+    { from: 24, to: 75, title: 'atua em', texto: 'atua em' },
+    { from: 25, to: 76, title: 'atua em', texto: 'atua em' },
+    { from: 26, to: 77, title: 'atua em', texto: 'atua em' },
+    { from: 27, to: 78, title: 'atua em', texto: 'atua em' },
+    { from: 32, to: 80, title: 'atua em', texto: 'atua em' },
+    { from: 33, to: 79, title: 'atua em', texto: 'atua em' },
+    { from: 34, to: 80, title: 'atua em', texto: 'atua em' },
+    { from: 35, to: 86, title: 'atua em', texto: 'atua em' },
+    { from: 39, to: 87, title: 'atua em', texto: 'atua em' },
+    { from: 40, to: 84, title: 'atua em', texto: 'atua em' },
+    { from: 40, to: 85, title: 'atua em', texto: 'atua em' },
+    { from: 44, to: 81, title: 'atua em', texto: 'atua em' },
+    { from: 46, to: 79, title: 'atua em', texto: 'atua em' },
+    { from: 47, to: 87, title: 'atua em', texto: 'atua em' },
 
-    { from: 16, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 16, to: 54, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 29, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 31, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 32, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 38, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 43, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-
-    { from: 48, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-    { from: 49, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-
-    { from: 44, to: 54, title: 'rompeu com', texto: 'rompeu com', dashes: true },
-
-    { from: 29, to: 80, title: 'visitou', texto: 'visitou', dashes: true },
-    { from: 29, to: 79, title: 'visitou', texto: 'visitou', dashes: true },
-    { from: 32, to: 85, title: 'visitou', texto: 'visitou', dashes: true },
+    // atuou em
     { from: 39, to: 65, title: 'atuou em', texto: 'atuou em', dashes: true },
     { from: 39, to: 81, title: 'atuou em', texto: 'atuou em', dashes: true },
-    { from: 41, to: 80, title: 'visitou', texto: 'visitou', dashes: true },
-    { from: 41, to: 81, title: 'visitou', texto: 'visitou', dashes: true },
-    { from: 42, to: 79, title: 'visitou', texto: 'visitou', dashes: true },
-    { from: 42, to: 81, title: 'visitou', texto: 'visitou', dashes: true },
 
-    // -- LOCALIZAÇÕES DAS INSTITUIÇÕES --
-    { from: 58, to: 69, title: 'mantém', texto: 'mantém' },
-    { from: 58, to: 70, title: 'mantém', texto: 'mantém' },
+    // auxilia
+    { from: 31, to: 65, title: 'auxilia', texto: 'auxilia' },
+    { from: 45, to: 65, title: 'auxilia', texto: 'auxilia' },
 
-    { from: 61, to: 72, title: 'localizado em', texto: 'localizado em' },
-    { from: 62, to: 72, title: 'localizado em', texto: 'localizado em' },
+    // dialoga com
+    { from: 35, to: 60, title: 'dialoga com', texto: 'dialoga com' },
+
+    // foi membro de
+    { from: 22, to: 61, title: 'foi membro de', texto: 'foi membro de', dashes: true },
+
+    // fundamenta
+    { from: 12, to: 54, title: 'fundamenta', texto: 'fundamenta' },
+
+    // fundamentou
+    { from: 4, to: 58, title: 'fundamentou', texto: 'fundamentou', dashes: true },
+
+    // lidera
+    { from: 15, to: 61, title: 'lidera', texto: 'lidera' },
+    { from: 16, to: 65, title: 'lidera', texto: 'lidera' },
+    { from: 17, to: 59, title: 'lidera', texto: 'lidera' },
+    { from: 18, to: 63, title: 'lidera', texto: 'lidera' },
+    { from: 22, to: 64, title: 'lidera', texto: 'lidera' },
+    { from: 23, to: 62, title: 'lidera', texto: 'lidera' },
+    { from: 88, to: 89, title: 'lidera', texto: 'lidera' },
+
+    // liderou
+    { from: 20, to: 62, title: 'liderou', texto: 'liderou', dashes: true },
+
+    // localizado em
     { from: 59, to: 73, title: 'localizado em', texto: 'localizado em' },
     { from: 60, to: 74, title: 'localizado em', texto: 'localizado em' },
-
-    { from: 64, to: 80, title: 'localizado em', texto: 'localizado em' },
+    { from: 61, to: 72, title: 'localizado em', texto: 'localizado em' },
+    { from: 62, to: 72, title: 'localizado em', texto: 'localizado em' },
     { from: 63, to: 82, title: 'localizado em', texto: 'localizado em' },
     { from: 65, to: 79, title: 'localizado em', texto: 'localizado em' },
     { from: 66, to: 73, title: 'localizado em', texto: 'localizado em' },
     { from: 67, to: 79, title: 'localizado em', texto: 'localizado em' },
     { from: 68, to: 83, title: 'localizado em', texto: 'localizado em' },
+    { from: 64, to: 80, title: 'localizado em', texto: 'localizado em' },
     { from: 69, to: 80, title: 'localizado em', texto: 'localizado em' },
     { from: 70, to: 80, title: 'localizado em', texto: 'localizado em' },
+    { from: 89, to: 80, title: 'localizado em', texto: 'localizado em' },
 
-    // -- ATUAÇÃO INTERNACIONAL DAS BISPOS RECENTES --
-    { from: 23, to: 72, title: 'atua em', texto: 'atua em' },
-    { from: 24, to: 75, title: 'atua em', texto: 'atua em' },
-    { from: 25, to: 76, title: 'atua em', texto: 'atua em' },
-    { from: 26, to: 77, title: 'atua em', texto: 'atua em' },
-    { from: 27, to: 78, title: 'atua em', texto: 'atua em' }
+    // mantém
+    { from: 58, to: 69, title: 'mantém', texto: 'mantém' },
+    { from: 58, to: 70, title: 'mantém', texto: 'mantém' },
+
+    // pertence a
+    { from: 10, to: 58, title: 'pertence a', texto: 'pertence a' },
+    { from: 11, to: 58, title: 'pertence a', texto: 'pertence a' },
+    { from: 13, to: 58, title: 'pertence a', texto: 'pertence a' },
+    { from: 30, to: 66, title: 'pertence a', texto: 'pertence a' },
+    { from: 32, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 32, to: 67, title: 'pertence a', texto: 'pertence a' },
+    { from: 33, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 34, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 36, to: 63, title: 'pertence a', texto: 'pertence a' },
+    { from: 37, to: 63, title: 'pertence a', texto: 'pertence a' },
+    { from: 38, to: 68, title: 'pertence a', texto: 'pertence a' },
+    { from: 39, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 40, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 41, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 42, to: 58, title: 'pertence a', texto: 'pertence a' },
+    { from: 44, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 46, to: 65, title: 'pertence a', texto: 'pertence a' },
+    { from: 50, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 51, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 52, to: 64, title: 'pertence a', texto: 'pertence a' },
+
+    // rompeu com
+    { from: 16, to: 54, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 16, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 22, to: 54, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 29, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 31, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 32, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 38, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 43, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 44, to: 54, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 48, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 49, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+    { from: 54, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
+
+    // visitou
+    { from: 29, to: 79, title: 'visitou', texto: 'visitou', dashes: true },
+    { from: 29, to: 80, title: 'visitou', texto: 'visitou', dashes: true },
+    { from: 32, to: 85, title: 'visitou', texto: 'visitou', dashes: true },
+    { from: 41, to: 80, title: 'visitou', texto: 'visitou', dashes: true },
+    { from: 41, to: 81, title: 'visitou', texto: 'visitou', dashes: true },
+    { from: 42, to: 79, title: 'visitou', texto: 'visitou', dashes: true },
+    { from: 42, to: 81, title: 'visitou', texto: 'visitou', dashes: true }	
+	
 ];
 module.exports = { todosNos, todosSetas, regras: regrasDoGrafo };
