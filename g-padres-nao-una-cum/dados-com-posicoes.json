@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "id": "N19",
+      "id": 1,
       "level": 1,
       "categoria": "bispo",
       "label": "Scipione Rebiba",
@@ -15,7 +15,7 @@
       "y": 112.5
     },
     {
-      "id": "N07",
+      "id": 2,
       "level": 1,
       "categoria": "bispo",
       "label": "Achille Liénart",
@@ -29,7 +29,7 @@
       "y": 37.5
     },
     {
-      "id": "N14",
+      "id": 3,
       "level": 1,
       "categoria": "bispo",
       "label": "Pierre Martin Ngô\nĐình Thục",
@@ -43,7 +43,7 @@
       "y": 37.5
     },
     {
-      "id": "N08",
+      "id": 4,
       "level": 2,
       "categoria": "bispo",
       "label": "Marcel Lefebvre",
@@ -56,7 +56,7 @@
       "y": 262.5
     },
     {
-      "id": "N57",
+      "id": 5,
       "level": 2,
       "categoria": "bispo",
       "label": "Antônio de\nCastro Mayer",
@@ -69,7 +69,7 @@
       "y": 187.5
     },
     {
-      "id": "N15",
+      "id": 6,
       "level": 2,
       "categoria": "bispo",
       "label": "Moisés Carmona",
@@ -82,7 +82,7 @@
       "y": 187.5
     },
     {
-      "id": "N_McKenna",
+      "id": 7,
       "level": 2,
       "categoria": "bispo",
       "label": "Robert McKenna",
@@ -95,7 +95,7 @@
       "y": 262.5
     },
     {
-      "id": "N20",
+      "id": 8,
       "level": 2,
       "categoria": "bispo",
       "label": "Aloísio Lorscheider",
@@ -108,7 +108,7 @@
       "y": 187.5
     },
     {
-      "id": "N21",
+      "id": 9,
       "level": 2,
       "categoria": "bispo",
       "label": "Orani Tempesta",
@@ -121,7 +121,7 @@
       "y": 262.5
     },
     {
-      "id": "N09",
+      "id": 10,
       "level": 3,
       "categoria": "bispo",
       "label": "Bernard Fellay",
@@ -134,7 +134,7 @@
       "y": 412.5
     },
     {
-      "id": "N10",
+      "id": 11,
       "level": 3,
       "categoria": "bispo",
       "label": "Alfonso de Galarreta",
@@ -147,7 +147,7 @@
       "y": 337.5
     },
     {
-      "id": "N11",
+      "id": 12,
       "level": 3,
       "categoria": "bispo",
       "label": "Richard Williamson",
@@ -160,7 +160,7 @@
       "y": 337.5
     },
     {
-      "id": "N_Tissier",
+      "id": 13,
       "level": 3,
       "categoria": "bispo",
       "label": "Bernard Tissier\nde Mallerais",
@@ -173,7 +173,7 @@
       "y": 412.5
     },
     {
-      "id": "N16",
+      "id": 14,
       "level": 3,
       "categoria": "bispo",
       "label": "Mark Pivarunas",
@@ -186,7 +186,7 @@
       "y": 337.5
     },
     {
-      "id": "N_Sanborn",
+      "id": 15,
       "level": 3,
       "categoria": "bispo",
       "label": "Donald Sanborn",
@@ -199,7 +199,7 @@
       "y": 412.5
     },
     {
-      "id": "N22",
+      "id": 16,
       "level": 4,
       "categoria": "bispo",
       "label": "Ernesto Javier Cardozo",
@@ -213,7 +213,7 @@
       "y": 487.5
     },
     {
-      "id": "N12",
+      "id": 17,
       "level": 4,
       "categoria": "bispo",
       "label": "Jean-Michel Faure",
@@ -226,7 +226,7 @@
       "y": 487.5
     },
     {
-      "id": "N13",
+      "id": 18,
       "level": 4,
       "categoria": "bispo",
       "label": "Dom Tomás de Aquino\nFerreira da Costa",
@@ -239,7 +239,7 @@
       "y": 487.5
     },
     {
-      "id": "N_Zendejas",
+      "id": 19,
       "level": 4,
       "categoria": "bispo",
       "label": "Gerardo Zendejas",
@@ -252,7 +252,7 @@
       "y": 562.5
     },
     {
-      "id": "N17",
+      "id": 20,
       "level": 4,
       "categoria": "bispo",
       "label": "Daniel Dolan",
@@ -265,7 +265,7 @@
       "y": 562.5
     },
     {
-      "id": "N_Squetino",
+      "id": 21,
       "level": 4,
       "categoria": "bispo",
       "label": "Juan José Squetino",
@@ -278,7 +278,7 @@
       "y": 562.5
     },
     {
-      "id": "N18",
+      "id": 22,
       "level": 5,
       "categoria": "bispo",
       "label": "Rodrigo da Silva",
@@ -293,7 +293,7 @@
       "y": 637.5
     },
     {
-      "id": "N101",
+      "id": 23,
       "level": 5,
       "categoria": "bispo",
       "label": "Charles McGuire (2022)",
@@ -308,7 +308,7 @@
       "y": 712.5
     },
     {
-      "id": "N102",
+      "id": 24,
       "level": 5,
       "categoria": "bispo",
       "label": "Fernando Altamira (2024)",
@@ -323,7 +323,7 @@
       "y": 712.5
     },
     {
-      "id": "N103",
+      "id": 25,
       "level": 5,
       "categoria": "bispo",
       "label": "Pierre Roy",
@@ -338,7 +338,7 @@
       "y": 637.5
     },
     {
-      "id": "N104",
+      "id": 26,
       "level": 5,
       "categoria": "bispo",
       "label": "Bede Nkamuke",
@@ -353,7 +353,7 @@
       "y": 637.5
     },
     {
-      "id": "N109",
+      "id": 27,
       "level": 5,
       "categoria": "bispo",
       "label": "Merardo Loya",
@@ -368,7 +368,7 @@
       "y": 712.5
     },
     {
-      "id": "N52",
+      "id": 28,
       "level": 5,
       "categoria": "bispo",
       "label": "Michael Mary, F.S.R.",
@@ -383,7 +383,7 @@
       "y": 637.5
     },
     {
-      "id": "N23",
+      "id": 29,
       "level": 6,
       "categoria": "padre",
       "label": "Elmo (Francisco\nde Paula)",
@@ -397,7 +397,7 @@
       "y": 787.5
     },
     {
-      "id": "N24",
+      "id": 30,
       "level": 6,
       "categoria": "padre",
       "label": "Frei Tiago de\nSão José",
@@ -411,7 +411,7 @@
       "y": 862.5
     },
     {
-      "id": "N25",
+      "id": 31,
       "level": 6,
       "categoria": "padre",
       "label": "João Dorival",
@@ -425,7 +425,7 @@
       "y": 787.5
     },
     {
-      "id": "N26",
+      "id": 32,
       "level": 6,
       "categoria": "padre",
       "label": "Gilberto Ferreira",
@@ -439,7 +439,7 @@
       "y": 862.5
     },
     {
-      "id": "N55",
+      "id": 33,
       "level": 6,
       "categoria": "padre",
       "label": "Gabriel Spínola",
@@ -452,7 +452,7 @@
       "y": 1012.5
     },
     {
-      "id": "N56",
+      "id": 34,
       "level": 6,
       "categoria": "padre",
       "label": "Frei Pedro Maria",
@@ -465,7 +465,7 @@
       "y": 1162.5
     },
     {
-      "id": "N_Marcelo",
+      "id": 35,
       "level": 6,
       "categoria": "padre",
       "label": "Marcelo Tenório",
@@ -479,7 +479,7 @@
       "y": 1162.5
     },
     {
-      "id": "N_Joaquim",
+      "id": 36,
       "level": 6,
       "categoria": "padre",
       "label": "Dom Joaquim\n(Prior)",
@@ -492,7 +492,7 @@
       "y": 1087.5
     },
     {
-      "id": "N_Inacio",
+      "id": 37,
       "level": 6,
       "categoria": "padre",
       "label": "Dom Inácio",
@@ -505,7 +505,7 @@
       "y": 1162.5
     },
     {
-      "id": "N27",
+      "id": 38,
       "level": 6,
       "categoria": "padre",
       "label": "José Eduardo de\nOliveira",
@@ -519,7 +519,7 @@
       "y": 787.5
     },
     {
-      "id": "N28",
+      "id": 39,
       "level": 6,
       "categoria": "padre",
       "label": "Leonardo Holtz\nPeixoto (2022)",
@@ -533,7 +533,7 @@
       "y": 862.5
     },
     {
-      "id": "N29",
+      "id": 40,
       "level": 6,
       "categoria": "padre",
       "label": "Anselmo de Oliveira",
@@ -547,7 +547,7 @@
       "y": 787.5
     },
     {
-      "id": "N30",
+      "id": 41,
       "level": 6,
       "categoria": "padre",
       "label": "Angelo Mello de\nCarvalho",
@@ -561,7 +561,7 @@
       "y": 862.5
     },
     {
-      "id": "N31",
+      "id": 42,
       "level": 6,
       "categoria": "padre",
       "label": "Pedro Patrício",
@@ -574,7 +574,7 @@
       "y": 1087.5
     },
     {
-      "id": "N32",
+      "id": 43,
       "level": 6,
       "categoria": "padre",
       "label": "Leandro Neves",
@@ -588,7 +588,7 @@
       "y": 937.5
     },
     {
-      "id": "N33",
+      "id": 44,
       "level": 6,
       "categoria": "padre",
       "label": "Victor Rodrigues",
@@ -602,7 +602,7 @@
       "y": 1012.5
     },
     {
-      "id": "N34",
+      "id": 45,
       "level": 6,
       "categoria": "padre",
       "label": "Carlos Zúñiga",
@@ -616,7 +616,7 @@
       "y": 937.5
     },
     {
-      "id": "N35",
+      "id": 46,
       "level": 6,
       "categoria": "padre",
       "label": "Mateus Pereira",
@@ -630,7 +630,7 @@
       "y": 1012.5
     },
     {
-      "id": "N_Jahir",
+      "id": 47,
       "level": 6,
       "categoria": "padre",
       "label": "Pe. Jahir",
@@ -643,7 +643,7 @@
       "y": 1087.5
     },
     {
-      "id": "N_Thiago",
+      "id": 48,
       "level": 6,
       "categoria": "padre",
       "label": "Thiago Bonifácio",
@@ -656,7 +656,7 @@
       "y": 1087.5
     },
     {
-      "id": "N_Lucas",
+      "id": 49,
       "level": 6,
       "categoria": "padre",
       "label": "Lucas Prados",
@@ -669,7 +669,7 @@
       "y": 1162.5
     },
     {
-      "id": "N106",
+      "id": 50,
       "level": 6,
       "categoria": "padre",
       "label": "João Maria Vianney (2025)",
@@ -684,7 +684,7 @@
       "y": 937.5
     },
     {
-      "id": "N107",
+      "id": 51,
       "level": 6,
       "categoria": "padre",
       "label": "Pacífico Maria\n(anunciada 2026)",
@@ -699,7 +699,7 @@
       "y": 1012.5
     },
     {
-      "id": "N108",
+      "id": 52,
       "level": 6,
       "categoria": "padre",
       "label": "Dimas Maria\n(anunciada 2026)",
@@ -714,7 +714,7 @@
       "y": 937.5
     },
     {
-      "id": "N04",
+      "id": 53,
       "level": 7,
       "categoria": "classificacao",
       "label": "Tradicionalismo\nUna Cum",
@@ -728,7 +728,7 @@
       "y": 1237.5
     },
     {
-      "id": "N06",
+      "id": 54,
       "level": 7,
       "categoria": "classificacao",
       "label": "Resistência\n(Una Cum)",
@@ -742,7 +742,7 @@
       "y": 1312.5
     },
     {
-      "id": "N01",
+      "id": 55,
       "level": 7,
       "categoria": "classificacao",
       "label": "Sedevacantismo\nTotalista",
@@ -756,7 +756,7 @@
       "y": 1312.5
     },
     {
-      "id": "N02",
+      "id": 56,
       "level": 7,
       "categoria": "classificacao",
       "label": "Sedeprivacionismo\n(Cassiciacum)",
@@ -770,7 +770,7 @@
       "y": 1237.5
     },
     {
-      "id": "N03",
+      "id": 57,
       "level": 7,
       "categoria": "classificacao",
       "label": "Independente /\nNão Una Cum Parcial",
@@ -784,7 +784,7 @@
       "y": 1237.5
     },
     {
-      "id": "N05",
+      "id": 58,
       "level": 7,
       "categoria": "instituicao",
       "label": "FSSPX",
@@ -797,7 +797,7 @@
       "y": 1387.5
     },
     {
-      "id": "SAJM",
+      "id": 59,
       "level": 8,
       "categoria": "instituicao",
       "label": "SAJM",
@@ -810,7 +810,7 @@
       "y": 1612.5
     },
     {
-      "id": "IMBC",
+      "id": 60,
       "level": 8,
       "categoria": "instituicao",
       "label": "Inst. Mater Boni\nConsilii",
@@ -823,7 +823,7 @@
       "y": 1537.5
     },
     {
-      "id": "MHTS",
+      "id": 61,
       "level": 8,
       "categoria": "instituicao",
       "label": "Most Holy Trinity\nSeminary",
@@ -836,7 +836,7 @@
       "y": 1612.5
     },
     {
-      "id": "SGG",
+      "id": 62,
       "level": 8,
       "categoria": "instituicao",
       "label": "St. Gertrude\nthe Great",
@@ -849,7 +849,7 @@
       "y": 1537.5
     },
     {
-      "id": "N64",
+      "id": 63,
       "level": 8,
       "categoria": "instituicao",
       "label": "Mosteiro\nda Santa Cruz (1987)",
@@ -862,7 +862,7 @@
       "y": 1612.5
     },
     {
-      "id": "N50",
+      "id": 64,
       "level": 8,
       "categoria": "instituicao",
       "label": "Seminário São José",
@@ -876,7 +876,7 @@
       "y": 1612.5
     },
     {
-      "id": "N36",
+      "id": 65,
       "level": 8,
       "categoria": "instituicao",
       "label": "Missões Cristo Rei",
@@ -889,7 +889,7 @@
       "y": 1537.5
     },
     {
-      "id": "N37",
+      "id": 66,
       "level": 8,
       "categoria": "instituicao",
       "label": "Mosteiro Santo Elias",
@@ -902,7 +902,7 @@
       "y": 1537.5
     },
     {
-      "id": "N38",
+      "id": 67,
       "level": 8,
       "categoria": "instituicao",
       "label": "Capela São Vicente\nde Paulo",
@@ -915,7 +915,7 @@
       "y": 1762.5
     },
     {
-      "id": "N39",
+      "id": 68,
       "level": 8,
       "categoria": "instituicao",
       "label": "Capelania Santa\nMaria Madalena",
@@ -928,7 +928,7 @@
       "y": 1687.5
     },
     {
-      "id": "N40",
+      "id": 69,
       "level": 8,
       "categoria": "instituicao",
       "label": "Priorado\nSanta Teresinha",
@@ -941,7 +941,7 @@
       "y": 1687.5
     },
     {
-      "id": "N41",
+      "id": 70,
       "level": 8,
       "categoria": "instituicao",
       "label": "Capelania N. Sra do\nPerpétuo Socorro",
@@ -954,7 +954,7 @@
       "y": 1762.5
     },
     {
-      "id": "N53",
+      "id": 71,
       "level": 8,
       "categoria": "instituicao",
       "label": "Redentoristas Transalpinos (Escócia)",
@@ -967,7 +967,7 @@
       "y": 1687.5
     },
     {
-      "id": "N60",
+      "id": 72,
       "level": 9,
       "categoria": "localizacao",
       "label": "Estados Unidos",
@@ -981,7 +981,7 @@
       "y": 1837.5
     },
     {
-      "id": "N48",
+      "id": 73,
       "level": 9,
       "categoria": "localizacao",
       "label": "França",
@@ -995,7 +995,7 @@
       "y": 1837.5
     },
     {
-      "id": "N_ITA",
+      "id": 74,
       "level": 9,
       "categoria": "localizacao",
       "label": "Itália",
@@ -1009,7 +1009,7 @@
       "y": 1912.5
     },
     {
-      "id": "N63",
+      "id": 75,
       "level": 9,
       "categoria": "localizacao",
       "label": "Argentina",
@@ -1023,7 +1023,7 @@
       "y": 1912.5
     },
     {
-      "id": "N61",
+      "id": 76,
       "level": 9,
       "categoria": "localizacao",
       "label": "Canadá",
@@ -1037,7 +1037,7 @@
       "y": 1912.5
     },
     {
-      "id": "N62",
+      "id": 77,
       "level": 9,
       "categoria": "localizacao",
       "label": "Nigéria",
@@ -1051,7 +1051,7 @@
       "y": 1912.5
     },
     {
-      "id": "N_MEX",
+      "id": 78,
       "level": 9,
       "categoria": "localizacao",
       "label": "México",
@@ -1065,7 +1065,7 @@
       "y": 1837.5
     },
     {
-      "id": "N42",
+      "id": 79,
       "level": 9,
       "categoria": "localizacao",
       "label": "B. Horizonte /\nContagem (MG)",
@@ -1079,7 +1079,7 @@
       "y": 1837.5
     },
     {
-      "id": "N43",
+      "id": 80,
       "level": 9,
       "categoria": "localizacao",
       "label": "São Paulo (SP)",
@@ -1093,7 +1093,7 @@
       "y": 2062.5
     },
     {
-      "id": "N44",
+      "id": 81,
       "level": 9,
       "categoria": "localizacao",
       "label": "Rio de Janeiro (RJ)",
@@ -1107,7 +1107,7 @@
       "y": 1987.5
     },
     {
-      "id": "N_NF",
+      "id": 82,
       "level": 9,
       "categoria": "localizacao",
       "label": "Nova Friburgo (RJ)",
@@ -1121,7 +1121,7 @@
       "y": 2062.5
     },
     {
-      "id": "N45",
+      "id": 83,
       "level": 9,
       "categoria": "localizacao",
       "label": "Curitiba (PR)",
@@ -1135,7 +1135,7 @@
       "y": 1987.5
     },
     {
-      "id": "N46",
+      "id": 84,
       "level": 9,
       "categoria": "localizacao",
       "label": "Brasília (DF)",
@@ -1149,7 +1149,7 @@
       "y": 1987.5
     },
     {
-      "id": "N47",
+      "id": 85,
       "level": 9,
       "categoria": "localizacao",
       "label": "Goiás (GO)",
@@ -1163,7 +1163,7 @@
       "y": 2062.5
     },
     {
-      "id": "N_CG",
+      "id": 86,
       "level": 9,
       "categoria": "localizacao",
       "label": "Campo Grande (MS)",
@@ -1177,7 +1177,7 @@
       "y": 2062.5
     },
     {
-      "id": "N51",
+      "id": 87,
       "level": 9,
       "categoria": "localizacao",
       "label": "Sul do Brasil",
@@ -1193,1110 +1193,1110 @@
   ],
   "edges": [
     {
-      "from": "N19",
-      "to": "N20",
+      "from": 1,
+      "to": 8,
       "title": "originou",
       "texto": "originou"
     },
     {
-      "from": "N19",
-      "to": "N21",
+      "from": 1,
+      "to": 9,
       "title": "originou",
       "texto": "originou"
     },
     {
-      "from": "N19",
-      "to": "N57",
+      "from": 1,
+      "to": 5,
       "title": "originou",
       "texto": "originou"
     },
     {
-      "from": "N07",
-      "to": "N08",
+      "from": 2,
+      "to": 4,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N14",
-      "to": "N15",
+      "from": 3,
+      "to": 6,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N14",
-      "to": "N_McKenna",
+      "from": 3,
+      "to": 7,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N_McKenna",
-      "to": "N_Sanborn",
+      "from": 7,
+      "to": 15,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N15",
-      "to": "N16",
+      "from": 6,
+      "to": 14,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N15",
-      "to": "N_Squetino",
+      "from": 6,
+      "to": 21,
       "title": "originou (linha Thuc)",
       "texto": "originou (linha Thuc)"
     },
     {
-      "from": "N16",
-      "to": "N17",
+      "from": 14,
+      "to": 20,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N08",
-      "to": "N09",
+      "from": 4,
+      "to": 10,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N08",
-      "to": "N10",
+      "from": 4,
+      "to": 11,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N08",
-      "to": "N11",
+      "from": 4,
+      "to": 12,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N08",
-      "to": "N_Tissier",
+      "from": 4,
+      "to": 13,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N57",
-      "to": "N09",
+      "from": 5,
+      "to": 10,
       "title": "co-consagrou",
       "texto": "co-consagrou"
     },
     {
-      "from": "N57",
-      "to": "N10",
+      "from": 5,
+      "to": 11,
       "title": "co-consagrou",
       "texto": "co-consagrou"
     },
     {
-      "from": "N57",
-      "to": "N11",
+      "from": 5,
+      "to": 12,
       "title": "co-consagrou",
       "texto": "co-consagrou"
     },
     {
-      "from": "N57",
-      "to": "N_Tissier",
+      "from": 5,
+      "to": 13,
       "title": "co-consagrou",
       "texto": "co-consagrou"
     },
     {
-      "from": "N11",
-      "to": "N12",
+      "from": 12,
+      "to": 17,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N11",
-      "to": "N13",
+      "from": 12,
+      "to": 18,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N11",
-      "to": "N_Zendejas",
+      "from": 12,
+      "to": 19,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N12",
-      "to": "N13",
+      "from": 17,
+      "to": 18,
       "title": "co-consagrou",
       "texto": "co-consagrou"
     },
     {
-      "from": "N08",
-      "to": "N13",
+      "from": 4,
+      "to": 18,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N08",
-      "to": "N22",
+      "from": 4,
+      "to": 16,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N08",
-      "to": "N23",
+      "from": 4,
+      "to": 29,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N17",
-      "to": "N18",
+      "from": 20,
+      "to": 22,
       "title": "consagrou bispo 2021",
       "texto": "consagrou bispo 2021"
     },
     {
-      "from": "N11",
-      "to": "N18",
+      "from": 12,
+      "to": 22,
       "title": "ordenou padre 2017",
       "texto": "ordenou padre 2017"
     },
     {
-      "from": "N20",
-      "to": "N24",
+      "from": 8,
+      "to": 30,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N09",
-      "to": "N25",
+      "from": 10,
+      "to": 31,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N09",
-      "to": "N26",
+      "from": 10,
+      "to": 32,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N09",
-      "to": "N27",
+      "from": 10,
+      "to": 38,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N09",
-      "to": "N31",
+      "from": 10,
+      "to": 42,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N10",
-      "to": "N32",
+      "from": 11,
+      "to": 43,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N12",
-      "to": "N33",
+      "from": 17,
+      "to": 44,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N12",
-      "to": "N34",
+      "from": 17,
+      "to": 45,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N13",
-      "to": "N29",
+      "from": 18,
+      "to": 40,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N13",
-      "to": "N30",
+      "from": 18,
+      "to": 41,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N13",
-      "to": "N35",
+      "from": 18,
+      "to": 46,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N21",
-      "to": "N28",
+      "from": 9,
+      "to": 39,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N18",
-      "to": "N28",
+      "from": 22,
+      "to": 39,
       "title": "re-ordenou sub conditione",
       "texto": "re-ordenou sub conditione"
     },
     {
-      "from": "N18",
-      "to": "N101",
+      "from": 22,
+      "to": 23,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N18",
-      "to": "N102",
+      "from": 22,
+      "to": 24,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N18",
-      "to": "N103",
+      "from": 22,
+      "to": 25,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N18",
-      "to": "N104",
+      "from": 22,
+      "to": 26,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
     },
     {
-      "from": "N_Squetino",
-      "to": "N109",
+      "from": 21,
+      "to": 27,
       "title": "consagrou bispo 2019",
       "texto": "consagrou bispo 2019"
     },
     {
-      "from": "N18",
-      "to": "N109",
+      "from": 22,
+      "to": 27,
       "title": "re-consagrou sub cond. 2025",
       "texto": "re-consagrou sub cond. 2025"
     },
     {
-      "from": "N18",
-      "to": "N52",
+      "from": 22,
+      "to": 28,
       "title": "co-consagrou",
       "texto": "co-consagrou"
     },
     {
-      "from": "N102",
-      "to": "N52",
+      "from": 24,
+      "to": 28,
       "title": "co-consagrou",
       "texto": "co-consagrou"
     },
     {
-      "from": "N103",
-      "to": "N52",
+      "from": 25,
+      "to": 28,
       "title": "consagrou",
       "texto": "consagrou"
     },
     {
-      "from": "N52",
-      "to": "N53",
+      "from": 28,
+      "to": 71,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N18",
-      "to": "N106",
+      "from": 22,
+      "to": 50,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N18",
-      "to": "N107",
+      "from": 22,
+      "to": 51,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N18",
-      "to": "N108",
+      "from": 22,
+      "to": 52,
       "title": "ordenou padre",
       "texto": "ordenou padre"
     },
     {
-      "from": "N05",
-      "to": "N04",
+      "from": 58,
+      "to": 53,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N11",
-      "to": "N06",
+      "from": 12,
+      "to": 54,
       "title": "fundamenta",
       "texto": "fundamenta"
     },
     {
-      "from": "N12",
-      "to": "SAJM",
+      "from": 17,
+      "to": 59,
       "title": "lidera",
       "texto": "lidera"
     },
     {
-      "from": "N09",
-      "to": "N05",
+      "from": 10,
+      "to": 58,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N09",
-      "to": "N04",
+      "from": 10,
+      "to": 53,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N10",
-      "to": "N05",
+      "from": 11,
+      "to": 58,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N10",
-      "to": "N04",
+      "from": 11,
+      "to": 53,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Tissier",
-      "to": "N05",
+      "from": 13,
+      "to": 58,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N_Tissier",
-      "to": "N04",
+      "from": 13,
+      "to": 53,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N13",
-      "to": "N64",
+      "from": 18,
+      "to": 63,
       "title": "lidera",
       "texto": "lidera"
     },
     {
-      "from": "N13",
-      "to": "N06",
+      "from": 18,
+      "to": 54,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Joaquim",
-      "to": "N64",
+      "from": 36,
+      "to": 63,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N_Inacio",
-      "to": "N64",
+      "from": 37,
+      "to": 63,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N12",
-      "to": "N06",
+      "from": 17,
+      "to": 54,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Zendejas",
-      "to": "N06",
+      "from": 19,
+      "to": 54,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Sanborn",
-      "to": "MHTS",
+      "from": 15,
+      "to": 61,
       "title": "lidera",
       "texto": "lidera"
     },
     {
-      "from": "N_Sanborn",
-      "to": "N02",
+      "from": 15,
+      "to": 56,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N101",
-      "to": "SGG",
+      "from": 23,
+      "to": 62,
       "title": "lidera",
       "texto": "lidera"
     },
     {
-      "from": "N101",
-      "to": "N01",
+      "from": 23,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N16",
-      "to": "N01",
+      "from": 14,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N16",
-      "to": "N60",
+      "from": 14,
+      "to": 72,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N18",
-      "to": "N50",
+      "from": 22,
+      "to": 64,
       "title": "lidera",
       "texto": "lidera"
     },
     {
-      "from": "N18",
-      "to": "N01",
+      "from": 22,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N22",
-      "to": "N36",
+      "from": 16,
+      "to": 65,
       "title": "lidera",
       "texto": "lidera"
     },
     {
-      "from": "N22",
-      "to": "N01",
+      "from": 16,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Jahir",
-      "to": "N01",
+      "from": 47,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Jahir",
-      "to": "N51",
+      "from": 47,
+      "to": 87,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N_Marcelo",
-      "to": "N02",
+      "from": 35,
+      "to": 56,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Marcelo",
-      "to": "N_CG",
+      "from": 35,
+      "to": 86,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N_Marcelo",
-      "to": "IMBC",
+      "from": 35,
+      "to": 60,
       "title": "dialoga com",
       "texto": "dialoga com"
     },
     {
-      "from": "IMBC",
-      "to": "N02",
+      "from": 60,
+      "to": 56,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Thiago",
-      "to": "N03",
+      "from": 48,
+      "to": 57,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N_Lucas",
-      "to": "N03",
+      "from": 49,
+      "to": 57,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N23",
-      "to": "N03",
+      "from": 29,
+      "to": 57,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N25",
-      "to": "N03",
+      "from": 31,
+      "to": 57,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N25",
-      "to": "N36",
+      "from": 31,
+      "to": 65,
       "title": "auxilia",
       "texto": "auxilia"
     },
     {
-      "from": "N27",
-      "to": "N03",
+      "from": 38,
+      "to": 57,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N27",
-      "to": "N39",
+      "from": 38,
+      "to": 68,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N32",
-      "to": "N01",
+      "from": 43,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N24",
-      "to": "N37",
+      "from": 30,
+      "to": 66,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N24",
-      "to": "N01",
+      "from": 30,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N26",
-      "to": "N50",
+      "from": 32,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N26",
-      "to": "N38",
+      "from": 32,
+      "to": 67,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N26",
-      "to": "N01",
+      "from": 32,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N26",
-      "to": "N43",
+      "from": 32,
+      "to": 80,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N28",
-      "to": "N50",
+      "from": 39,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N28",
-      "to": "N01",
+      "from": 39,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N28",
-      "to": "N51",
+      "from": 39,
+      "to": 87,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N29",
-      "to": "N50",
+      "from": 40,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N29",
-      "to": "N01",
+      "from": 40,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N29",
-      "to": "N46",
+      "from": 40,
+      "to": 84,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N29",
-      "to": "N47",
+      "from": 40,
+      "to": 85,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N30",
-      "to": "N50",
+      "from": 41,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N30",
-      "to": "N01",
+      "from": 41,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N31",
-      "to": "N05",
+      "from": 42,
+      "to": 58,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N31",
-      "to": "N04",
+      "from": 42,
+      "to": 53,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N33",
-      "to": "N50",
+      "from": 44,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N33",
-      "to": "N01",
+      "from": 44,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N33",
-      "to": "N44",
+      "from": 44,
+      "to": 81,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N34",
-      "to": "N36",
+      "from": 45,
+      "to": 65,
       "title": "auxilia",
       "texto": "auxilia"
     },
     {
-      "from": "N34",
-      "to": "N01",
+      "from": 45,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N35",
-      "to": "N36",
+      "from": 46,
+      "to": 65,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N35",
-      "to": "N01",
+      "from": 46,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N35",
-      "to": "N42",
+      "from": 46,
+      "to": 79,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N55",
-      "to": "N50",
+      "from": 33,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N55",
-      "to": "N01",
+      "from": 33,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N55",
-      "to": "N42",
+      "from": 33,
+      "to": 79,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N56",
-      "to": "N50",
+      "from": 34,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N56",
-      "to": "N01",
+      "from": 34,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N56",
-      "to": "N43",
+      "from": 34,
+      "to": 80,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N106",
-      "to": "N50",
+      "from": 50,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N106",
-      "to": "N01",
+      "from": 50,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N107",
-      "to": "N50",
+      "from": 51,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N107",
-      "to": "N01",
+      "from": 51,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N108",
-      "to": "N50",
+      "from": 52,
+      "to": 64,
       "title": "pertence a",
       "texto": "pertence a"
     },
     {
-      "from": "N108",
-      "to": "N01",
+      "from": 52,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N102",
-      "to": "N01",
+      "from": 24,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N103",
-      "to": "N01",
+      "from": 25,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N104",
-      "to": "N01",
+      "from": 26,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N109",
-      "to": "N01",
+      "from": 27,
+      "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": "N08",
-      "to": "N05",
+      "from": 4,
+      "to": 58,
       "title": "fundamentou",
       "texto": "fundamentou",
       "dashes": true
     },
     {
-      "from": "N17",
-      "to": "SGG",
+      "from": 20,
+      "to": 62,
       "title": "liderou",
       "texto": "liderou",
       "dashes": true
     },
     {
-      "from": "N17",
-      "to": "N01",
+      "from": 20,
+      "to": 55,
       "title": "adotou",
       "texto": "adotou",
       "dashes": true
     },
     {
-      "from": "N_McKenna",
-      "to": "N02",
+      "from": 7,
+      "to": 56,
       "title": "adotou",
       "texto": "adotou",
       "dashes": true
     },
     {
-      "from": "N15",
-      "to": "N01",
+      "from": 6,
+      "to": 55,
       "title": "adotou",
       "texto": "adotou",
       "dashes": true
     },
     {
-      "from": "N109",
-      "to": "N03",
+      "from": 27,
+      "to": 57,
       "title": "adotou (2019-2025)",
       "texto": "adotou (2019-2025)",
       "dashes": true
     },
     {
-      "from": "N06",
-      "to": "N05",
+      "from": 54,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N18",
-      "to": "N06",
+      "from": 22,
+      "to": 54,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N18",
-      "to": "MHTS",
+      "from": 22,
+      "to": 61,
       "title": "foi membro de",
       "texto": "foi membro de",
       "dashes": true
     },
     {
-      "from": "N22",
-      "to": "N05",
+      "from": 16,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N22",
-      "to": "N06",
+      "from": 16,
+      "to": 54,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N23",
-      "to": "N05",
+      "from": 29,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N25",
-      "to": "N05",
+      "from": 31,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N26",
-      "to": "N05",
+      "from": 32,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N27",
-      "to": "N05",
+      "from": 38,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N32",
-      "to": "N05",
+      "from": 43,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N_Thiago",
-      "to": "N05",
+      "from": 48,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N_Lucas",
-      "to": "N05",
+      "from": 49,
+      "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N33",
-      "to": "N06",
+      "from": 44,
+      "to": 54,
       "title": "rompeu com",
       "texto": "rompeu com",
       "dashes": true
     },
     {
-      "from": "N23",
-      "to": "N43",
+      "from": 29,
+      "to": 80,
       "title": "visitou",
       "texto": "visitou",
       "dashes": true
     },
     {
-      "from": "N23",
-      "to": "N42",
+      "from": 29,
+      "to": 79,
       "title": "visitou",
       "texto": "visitou",
       "dashes": true
     },
     {
-      "from": "N26",
-      "to": "N47",
+      "from": 32,
+      "to": 85,
       "title": "visitou",
       "texto": "visitou",
       "dashes": true
     },
     {
-      "from": "N28",
-      "to": "N36",
+      "from": 39,
+      "to": 65,
       "title": "atuou em",
       "texto": "atuou em",
       "dashes": true
     },
     {
-      "from": "N28",
-      "to": "N44",
+      "from": 39,
+      "to": 81,
       "title": "atuou em",
       "texto": "atuou em",
       "dashes": true
     },
     {
-      "from": "N30",
-      "to": "N43",
+      "from": 41,
+      "to": 80,
       "title": "visitou",
       "texto": "visitou",
       "dashes": true
     },
     {
-      "from": "N30",
-      "to": "N44",
+      "from": 41,
+      "to": 81,
       "title": "visitou",
       "texto": "visitou",
       "dashes": true
     },
     {
-      "from": "N31",
-      "to": "N42",
+      "from": 42,
+      "to": 79,
       "title": "visitou",
       "texto": "visitou",
       "dashes": true
     },
     {
-      "from": "N31",
-      "to": "N44",
+      "from": 42,
+      "to": 81,
       "title": "visitou",
       "texto": "visitou",
       "dashes": true
     },
     {
-      "from": "N05",
-      "to": "N40",
+      "from": 58,
+      "to": 69,
       "title": "mantém",
       "texto": "mantém"
     },
     {
-      "from": "N05",
-      "to": "N41",
+      "from": 58,
+      "to": 70,
       "title": "mantém",
       "texto": "mantém"
     },
     {
-      "from": "MHTS",
-      "to": "N60",
+      "from": 61,
+      "to": 72,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "SGG",
-      "to": "N60",
+      "from": 62,
+      "to": 72,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "SAJM",
-      "to": "N48",
+      "from": 59,
+      "to": 73,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "IMBC",
-      "to": "N_ITA",
+      "from": 60,
+      "to": 74,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N50",
-      "to": "N43",
+      "from": 64,
+      "to": 80,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N64",
-      "to": "N_NF",
+      "from": 63,
+      "to": 82,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N36",
-      "to": "N42",
+      "from": 65,
+      "to": 79,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N37",
-      "to": "N48",
+      "from": 66,
+      "to": 73,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N38",
-      "to": "N42",
+      "from": 67,
+      "to": 79,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N39",
-      "to": "N45",
+      "from": 68,
+      "to": 83,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N40",
-      "to": "N43",
+      "from": 69,
+      "to": 80,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N41",
-      "to": "N43",
+      "from": 70,
+      "to": 80,
       "title": "localizado em",
       "texto": "localizado em"
     },
     {
-      "from": "N101",
-      "to": "N60",
+      "from": 23,
+      "to": 72,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N102",
-      "to": "N63",
+      "from": 24,
+      "to": 75,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N103",
-      "to": "N61",
+      "from": 25,
+      "to": 76,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N104",
-      "to": "N62",
+      "from": 26,
+      "to": 77,
       "title": "atua em",
       "texto": "atua em"
     },
     {
-      "from": "N109",
-      "to": "N_MEX",
+      "from": 27,
+      "to": 78,
       "title": "atua em",
       "texto": "atua em"
     }
