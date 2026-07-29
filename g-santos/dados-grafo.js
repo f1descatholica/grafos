@@ -1,9 +1,9 @@
-// ============================================================
-// REGRAS GRAFO "g-santos"
+// 
+// REGRAS GRAFO "g-santos" parte inicial do arquivo no github dados-grafo.js
 // Muda um número aqui, o build e o motor obedecem sozinhos.
 // (antes vivia em regras-grafo.js — agora mora aqui, no mesmo
 // arquivo dos dados, pra motor/página buscarem tudo numa fetch só)
-// ============================================================
+// 
 var regrasDoGrafo = {
   // Traduz "papel" -> nome real do campo na base deste grafo
   dicionario: {
@@ -57,8 +57,12 @@ var regrasDoGrafo = {
 
 
 var todosNos = [
-    // ========== NÍVEL 1: SISTEMAS DE CLASSIFICAÇÃO E TEMPO ==========
-    // Categoria: Ideia (Títulos) — linhas calculadas automaticamente
+
+
+    //  NÍVEL 1
+	
+	//titulos
+	
     { id: '50', level: 1, categoria: 'ideia', label: 'MÁRTIR', grupo: 'ideia', font: { color: '#ffaaaa', size: 13, bold: true } },
     { id: '51', level: 1, categoria: 'ideia', label: 'DOUTOR', grupo: 'ideia', font: { color: '#ffffaa', size: 13, bold: true } },
     { id: '52', level: 1, categoria: 'ideia', label: 'VIRGEM', grupo: 'ideia', font: { color: '#ffffff', size: 13, bold: true } },
@@ -67,11 +71,15 @@ var todosNos = [
     { id: '57', level: 1, categoria: 'ideia', label: 'BISPO', grupo: 'ideia', font: { color: '#dca3ff', size: 13, bold: true } },
     { id: '59', level: 1, categoria: 'ideia', label: 'ABADE', grupo: 'ideia', font: { color: '#ffb366', size: 13, bold: true } },
     { id: '60', level: 1, categoria: 'ideia', label: 'VIÚVA', grupo: 'ideia', font: { color: '#ff99cc', size: 13, bold: true } },
-    { id: '58', level: 1, categoria: 'ideia', label: 'FESTA-ARCANJO-EVANGELISTA', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
+    { id: '58', level: 1, categoria: 'ideia', label: 'FESTA', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
     { id: '849', level: 1, categoria: 'ideia', label: 'APÓSTOLO', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
 	{ id: '848', level: 1, categoria: 'ideia', label: 'PROFETA', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
-    
-    // Categoria: Documento (Meses) — linhas calculadas automaticamente
+	{ id: '1005', level: 1, categoria: 'ideia', label: 'ARCANJO', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
+	{ id: '54', level: 1, categoria: 'ideia', label: 'EVANGELISTA', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
+	{ id: '1053', level: 1, categoria: 'ideia', label: 'PENITENTE', grupo: 'ideia', font: { color: '#a3e4ff', size: 13, bold: true } },
+
+// meses
+
 { id: '70', level: 1, categoria: 'documento', label: 'JANEIRO', grupo: 'documento', mesNumero: 1, font: { color: '#ffffff', size: 14, bold: true } },
 { id: '80', level: 1, categoria: 'documento', label: 'FEVEREIRO', grupo: 'documento', mesNumero: 2, font: { color: '#ffffff', size: 14, bold: true } },
 { id: '90', level: 1, categoria: 'documento', label: 'MARÇO', grupo: 'documento', mesNumero: 3, font: { color: '#ffffff', size: 14, bold: true } },
@@ -86,7 +94,9 @@ var todosNos = [
 { id: '99', level: 1, categoria: 'documento', label: 'DEZEMBRO', grupo: 'documento', mesNumero: 12, font: { color: '#ffffff', size: 14, bold: true } },
 
 
-    // ========== NÍVEL 2: SANTOS BÍBLICOS / FUNDADORES (26 nós -> corta em f0 e f1) ==========
+    //  NÍVEL 2: 
+	// SANTOS BÍBLICOS / FUNDADORES 
+
     { id: '4',   level: 2, label: 'S. José', grupo: 'pessoa', ano: 30, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '71',  level: 2, label: 'S. João Batista', grupo: 'pessoa', ano: 29, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '2',   level: 2, label: 'S. Pedro', grupo: 'pessoa', ano: 67, font: { color: '#ffffff', size: 14, bold: true } },
@@ -107,7 +117,7 @@ var todosNos = [
     { id: '218', level: 2, label: 'Sta. Ana', grupo: 'pessoa', ano: 10, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '221', level: 2, label: 'Sta. Marta', grupo: 'pessoa', ano: 80, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '412', level: 2, label: 'S. Timóteo', grupo: 'pessoa', ano: 97, font: { color: '#ffffff', size: 14, bold: true } },
-    // Quebra para > 20
+
     { id: '418', level: 2, label: 'S. Tito', grupo: 'pessoa', ano: 96, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '424', level: 2, label: 'N. Sra. de Lourdes', grupo: 'pessoa', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '439', level: 2, label: 'S. Gabriel Arcanjo', grupo: 'pessoa', font: { color: '#ffffff', size: 14, bold: true } },
@@ -125,7 +135,9 @@ var todosNos = [
     { id: '685', level: 2, label: 'S. Rafael Arcanjo', grupo: 'pessoa', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '718', level: 2, label: 'Santos Inocentes', grupo: 'pessoa', ano: 4, font: { color: '#ffffff', size: 14, bold: true } },
 
-    // ========== NÍVEL 3: ANTIGUIDADE (Séc I ao V) (nós — linhas calculadas automaticamente) ==========
+    //  NÍVEL 3: 
+	// ANTIGUIDADE (Séc I ao V)
+
     { id: '73', level: 3, label: 'Sta. Inês', grupo: 'pessoa', ano: 304, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '72', level: 3, label: 'S. Sebastião', grupo: 'pessoa', ano: 288, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '7',  level: 3, label: 'S. Jorge', grupo: 'pessoa', ano: 303, font: { color: '#ffffff', size: 14, bold: true } },
@@ -238,7 +250,9 @@ var todosNos = [
     { id: '720', level: 3, label: 'S. Silvestre I', grupo: 'pessoa', ano: 335, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '717', level: 3, label: 'S. Eusébio de Vercelli', grupo: 'pessoa', ano: 371, font: { color: '#ffffff', size: 14, bold: true } },
 
-    // ========== NÍVEL 4: IDADE MÉDIA (Séc VI ao XV) (nós — linhas calculadas automaticamente) ==========
+    //  NÍVEL 4: 
+	// IDADE MÉDIA (Séc VI ao XV) 
+
     { id: '6',  level: 4, label: 'S. Bento', grupo: 'pessoa', ano: 547, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '85', level: 4, label: 'Sta. Escolástica', grupo: 'pessoa', ano: 543, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '66', level: 4, label: 'S. Bernardo', grupo: 'pessoa', ano: 1153, font: { color: '#ffffff', size: 14, bold: true } },
@@ -318,7 +332,9 @@ var todosNos = [
     { id: '711', level: 4, label: 'S. Sabas', grupo: 'pessoa', ano: 532, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '719', level: 4, label: 'S. Tomás Becket', grupo: 'pessoa', ano: 1170, font: { color: '#ffffff', size: 14, bold: true } },
 
-    // ========== NÍVEL 5: ERA MODERNA (Séc XVI a XVIII) (nós — linhas calculadas automaticamente) ==========
+    //  NÍVEL 5: 
+	// ERA MODERNA (Séc XVI a XVIII) 
+
     { id: '14', level: 5, label: 'Sto. Inácio de Loyola', grupo: 'pessoa', ano: 1556, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '15', level: 5, label: 'S. Francisco Xavier', grupo: 'pessoa', ano: 1552, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '12', level: 5, label: 'Sta. Teresa d\'Ávila', grupo: 'pessoa', ano: 1582, font: { color: '#ffffff', size: 14, bold: true } },
@@ -355,7 +371,9 @@ var todosNos = [
     { id: '692', level: 5, label: 'Sto. André Avelino', grupo: 'pessoa', ano: 1608, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '696', level: 5, label: 'S. Josafá', grupo: 'pessoa', ano: 1623, font: { color: '#ffffff', size: 14, bold: true } },
 
-    // ========== NÍVEL 6: CONTEMPORÂNEA (Fátima inclusa, 5 nós) ==========
+    //  NÍVEL 6: 
+	// CONTEMPORÂNEA 
+	
     { id: '16', level: 6, label: 'S. João M. Vianney', grupo: 'pessoa', ano: 1859, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '61', level: 6, label: 'S. João Bosco', grupo: 'pessoa', ano: 1888, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '17', level: 6, label: 'Sta. Teresinha', grupo: 'pessoa', ano: 1897, font: { color: '#ffffff', size: 14, bold: true } },
@@ -363,7 +381,9 @@ var todosNos = [
     { id: '429', level: 6, label: 'S. Gabriel da V. Dolorosa', grupo: 'pessoa', ano: 1862, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '609', level: 6, label: 'N. Sra. do Rosário de Fátima', grupo: 'pessoa', font: { color: '#ffffff', size: 14, bold: true } },
 
-    // ========== NÍVEL 7: CONGREGAÇÕES ==========
+    //  NÍVEL 7: 
+	
+	// CONGREGAÇÕES 
     { id: '22', level: 7, categoria: 'fundadora', label: 'Ordem Beneditina', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '23', level: 7, categoria: 'fundadora', label: 'Ordem Franciscana', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '24', level: 7, categoria: 'fundadora', label: 'Ordem Dominicana', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
@@ -372,14 +392,30 @@ var todosNos = [
     { id: '63', level: 7, categoria: 'reformada', label: 'Ordem Cisterciense', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '41', level: 7, categoria: 'reformada', label: 'Carmelo Descalço', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
 
-    // ========== NÍVEL 7: OBRAS ==========
+    { id: '850', level: 7, categoria: 'fundadora', label: 'Ordem Agostiniana', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '851', level: 7, categoria: 'fundadora', label: 'Ordem do Carmo', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '852', level: 7, categoria: 'fundadora', label: 'Ordem Servita', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '853', level: 7, categoria: 'fundadora', label: 'Ordem Trinitária', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '854', level: 7, categoria: 'fundadora', label: 'Ordem Mercedária', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '855', level: 7, categoria: 'fundadora', label: 'Família Vicentina', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '856', level: 7, categoria: 'fundadora', label: 'Redentoristas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '857', level: 7, categoria: 'fundadora', label: 'Passionistas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '858', level: 7, categoria: 'fundadora', label: 'Oratorianos', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '859', level: 7, categoria: 'fundadora', label: 'Lassalistas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '860', level: 7, categoria: 'fundadora', label: 'Teatinos', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '861', level: 7, categoria: 'fundadora', label: 'Camilianos', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '862', level: 7, categoria: 'fundadora', label: 'Hospitaleiros', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '863', level: 7, categoria: 'fundadora', label: 'Barnabitas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '864', level: 7, categoria: 'fundadora', label: 'Escolápios', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '865', level: 7, categoria: 'fundadora', label: 'Visitandinas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '866', level: 7, categoria: 'fundadora', label: 'Ordem Cartuxa', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '867', level: 7, categoria: 'fundadora', label: 'Premonstratenses', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
 
-    { id: '32', level: 7, categoria: 'fundadora', label: 'Suma Teológica', grupo: 'documento', font: { color: '#ffffff', size: 14, bold: true } },
+    // OBRAS 
+	{ id: '32', level: 7, categoria: 'fundadora', label: 'Suma Teológica', grupo: 'documento', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '34', level: 7, categoria: 'fundadora', label: 'Exercícios Espirituais', grupo: 'documento', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '38', level: 7, categoria: 'fundadora', label: 'Mística Cristã', grupo: 'ideia', font: { color: '#ffffff', size: 14, bold: true } },
 
-// ========== NÍVEL 7: OBRAS ainda nao relacionadas ==========
-    
     // Regras Monásticas
     { id: '900', level: 7, categoria: 'fundadora', label: 'Regra de São Bento', grupo: 'documento', font: { color: '#ffffff', size: 13, italic: true } },
     { id: '901', level: 7, categoria: 'fundadora', label: 'Regra de Santo Agostinho', grupo: 'documento', font: { color: '#ffffff', size: 13, italic: true } },
@@ -405,31 +441,11 @@ var todosNos = [
     // História e Pastoral
     { id: '916', level: 7, categoria: 'fundadora', label: 'Regra Pastoral', grupo: 'documento', font: { color: '#ffffff', size: 13, italic: true } },
     { id: '917', level: 7, categoria: 'fundadora', label: 'História Eclesiástica', grupo: 'documento', font: { color: '#ffffff', size: 13, italic: true } },
+		
 	
-	
-// ==========  CONGREGAÇÕES ainda nao relacionados ==========
-    { id: '850', level: 7, categoria: 'fundadora', label: 'Ordem Agostiniana', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '851', level: 7, categoria: 'fundadora', label: 'Ordem do Carmo', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '852', level: 7, categoria: 'fundadora', label: 'Ordem Servita', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '853', level: 7, categoria: 'fundadora', label: 'Ordem Trinitária', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '854', level: 7, categoria: 'fundadora', label: 'Ordem Mercedária', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '855', level: 7, categoria: 'fundadora', label: 'Família Vicentina', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '856', level: 7, categoria: 'fundadora', label: 'Redentoristas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '857', level: 7, categoria: 'fundadora', label: 'Passionistas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '858', level: 7, categoria: 'fundadora', label: 'Oratorianos', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '859', level: 7, categoria: 'fundadora', label: 'Lassalistas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '860', level: 7, categoria: 'fundadora', label: 'Teatinos', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '861', level: 7, categoria: 'fundadora', label: 'Camilianos', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '862', level: 7, categoria: 'fundadora', label: 'Hospitaleiros', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '863', level: 7, categoria: 'fundadora', label: 'Barnabitas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '864', level: 7, categoria: 'fundadora', label: 'Escolápios', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '865', level: 7, categoria: 'fundadora', label: 'Visitandinas', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '866', level: 7, categoria: 'fundadora', label: 'Ordem Cartuxa', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '867', level: 7, categoria: 'fundadora', label: 'Premonstratenses', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-	
-	
-	
-// ========== NÍVEL 8: GEOGRAFIA (Atuação/Nascimento) — linhas calculadas automaticamente ==========
+//  NÍVEL 8: 
+
+	//GEOGRAFIA (Atuação/Nascimento)
     { id: '130', level: 8, categoria: 'atuacao', label: 'Nazaré', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '131', level: 8, categoria: 'atuacao', label: 'Rio Jordão', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '132', level: 8, categoria: 'atuacao', label: 'Éfeso', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
@@ -495,7 +511,7 @@ var todosNos = [
     { id: '527', level: 8, categoria: 'atuacao', label: 'Siena', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '801', level: 8, categoria: 'atuacao', label: 'Fátima', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 
-    // ========== NÍVEL 8: GEOGRAFIA (Martírio/Morte) — linhas calculadas automaticamente ==========
+    // GEOGRAFIA (Martírio/Morte) 
     { id: '26',  level: 8, categoria: 'morte', label: 'Roma', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '133', level: 8, categoria: 'morte', label: 'Jerusalém', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '136', level: 8, categoria: 'morte', label: 'Óstia', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
@@ -519,32 +535,20 @@ var todosNos = [
     { id: '800', level: 8, categoria: 'morte', label: 'Tours', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true }, },
 	
 	
+    // NÍVEL 9: 
 	
-	
-	
-	// =========================================================================
-    // NÍVEL 9: FENÔMENOS, RELÍQUIAS, SANTUÁRIOS E ICONOGRAFIA
-    // =========================================================================
-    
-	
-
-    // Santuários / Túmulos de Grande Peregrinação, em outro id: Catedral de Santiago
-    { id: '1004', level: 9, categoria: 'santuario', label: 'Basílica de S. Pedro', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
+    // Santuários 
     { id: '1006', level: 9, categoria: 'santuario', label: 'Basílica de S. Francisco', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1007', level: 9, categoria: 'santuario', label: 'Basílica de Sto. Antônio', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     
-    // Iconografia / Símbolos Identificadores
-    { id: '1008', level: 9, categoria: 'simbolo', label: 'As Chaves do Reino', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
-    { id: '1009', level: 9, categoria: 'simbolo', label: 'Chuva de Rosas', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
-	
-	
-    // --- FENÔMENOS MÍSTICOS ---
+    //  FENÔMENOS 
     { id: '1000', level: 9, categoria: 'mistica', label: 'Corpo Incorrupto', grupo: 'fenomeno', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1001', level: 9, categoria: 'mistica', label: 'Estigmas (Chagas)', grupo: 'fenomeno', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1002', level: 9, categoria: 'mistica', label: 'Bilocação', grupo: 'fenomeno', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1003', level: 9, categoria: 'mistica', label: 'Levitação', grupo: 'fenomeno', font: { color: '#ffffff', size: 14, bold: true } },
+	{ id: '1', level: 9, categoria: 'mistica', label: 'dragão Tarasca', grupo: 'fenomeno', font: { color: '#ffffff', size: 14, bold: true } },
 
-    // --- RELÍQUIAS FAMOSAS ---
+    //  RELÍQUIAS 
     { id: '1010', level: 9, categoria: 'reliquia', label: 'Sangue Liquefeito', grupo: 'reliquia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1011', level: 9, categoria: 'reliquia', label: 'Coração Incorrupto', grupo: 'reliquia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1012', level: 9, categoria: 'reliquia', label: 'Língua Intacta', grupo: 'reliquia', font: { color: '#ffffff', size: 14, bold: true } },
@@ -552,7 +556,7 @@ var todosNos = [
     { id: '1014', level: 9, categoria: 'reliquia', label: 'Manto Partilhado', grupo: 'reliquia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1015', level: 9, categoria: 'reliquia', label: 'Correntes da Prisão', grupo: 'reliquia', font: { color: '#ffffff', size: 14, bold: true } },
 
-    // --- GRANDES SANTUÁRIOS / TÚMULOS ---
+    //  TÚMULOS 
     { id: '1020', level: 9, categoria: 'santuario', label: 'Basílica de S. Pedro (Roma)', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1021', level: 9, categoria: 'santuario', label: 'Catedral de Santiago (Espanha)', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1022', level: 9, categoria: 'santuario', label: 'Basílica de Assis (Itália)', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
@@ -560,8 +564,11 @@ var todosNos = [
     { id: '1024', level: 9, categoria: 'santuario', label: 'Basílica de S. Paulo (Roma)', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1025', level: 9, categoria: 'santuario', label: 'Santuário de Ars (França)', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1026', level: 9, categoria: 'santuario', label: 'Basílica de Lisieux (França)', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '1004', level: 9, categoria: 'santuario', label: 'Collégiale Sainte-Marthe - Tarascon (França)', grupo: 'santuario', font: { color: '#ffffff', size: 14, bold: true } },
 
-    // --- ICONOGRAFIA (Símbolos na Arte) ---
+    // Iconografia
+    { id: '1008', level: 9, categoria: 'simbolo', label: 'As Chaves do Reino', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
+    { id: '1009', level: 9, categoria: 'simbolo', label: 'Chuva de Rosas', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1030', level: 9, categoria: 'simbolo', label: 'As Chaves', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1031', level: 9, categoria: 'simbolo', label: 'A Espada', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1032', level: 9, categoria: 'simbolo', label: 'O Lírio (Pureza)', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
@@ -580,31 +587,32 @@ var todosNos = [
     { id: '1045', level: 9, categoria: 'simbolo', label: 'A Águia', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1046', level: 9, categoria: 'simbolo', label: 'O Touro', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
 	
-	// ========== ADIÇÃO: S. LIBÓRIO E SUA CIDADE ==========
+
+	
+	
+	
+	// niveis desorganizados:
+	
+	//  S. LIBÓRIO E SUA CIDADE 
     { id: '721', level: 3, label: 'S. Libório', grupo: 'pessoa', ano: 397, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '802', level: 8, categoria: 'atuacao', label: 'Le Mans', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 	
-	// ========== NÍVEL 8: GEOGRAFIA (Relíquias de S. Libório) ==========
+	//  NÍVEL 8: GEOGRAFIA (Relíquias de S. Libório) 
     { id: '805', level: 8, categoria: 'santuario', label: 'Paderborn (Alemanha)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 
-    // ========== NÍVEL 9: ICONOGRAFIA DE S. LIBÓRIO ==========
+    //  NÍVEL 9: ICONOGRAFIA DE S. LIBÓRIO 
     { id: '1047', level: 9, categoria: 'simbolo', label: 'O Pavão', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1048', level: 9, categoria: 'simbolo', label: 'Pedras sobre um livro', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
-	
-	
-	// =========================================================================
-    // PACOTE DOMINICANO: NOVOS SANTOS, GEOGRAFIA E ICONOGRAFIA
-    // =========================================================================
 
-    // --- Novos Santos Dominicanos (Níveis 4 e 5) ---
+    //  Novos Santos Dominicanos (Níveis 4 e 5) 
     { id: '722', level: 5, label: 'S. Martinho de Porres', grupo: 'pessoa', ano: 1639, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '723', level: 5, label: 'S. João Macias', grupo: 'pessoa', ano: 1645, font: { color: '#ffffff', size: 14, bold: true } },
     { id: '724', level: 4, label: 'Sta. Inês de Montepulciano', grupo: 'pessoa', ano: 1317, font: { color: '#ffffff', size: 14, bold: true } },
 
-    // --- Nova Geografia (O Grande Polo Dominicano nas Américas) ---
+    //  Nova Geografia (O Grande Polo Dominicano nas Américas) 
     { id: '806', level: 8, categoria: 'atuacao', label: 'Lima (Peru)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
 
-    // --- Nova Iconografia / Devoção (Nível 9) ---
+    //  Nova Iconografia / Devoção (Nível 9) 
     { id: '1049', level: 9, categoria: 'simbolo', label: 'Cão com Tocha na boca', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1050', level: 9, categoria: 'simbolo', label: 'O Santo Rosário', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
     { id: '1051', level: 9, categoria: 'simbolo', label: 'Faca cravada na cabeça', grupo: 'iconografia', font: { color: '#ffffff', size: 14, bold: true } },
@@ -643,7 +651,10 @@ var todosNos = [
 
 
 var todosSetas = [
+
+
     // ATRIBUTOS -> SANTOS (Nível 1 descendo)
+	
     // Papas (56)
     { from: '56', to: '2', title: 'é', texto: 'é' },
     { from: '56', to: '19', title: 'é', texto: 'é' },
@@ -962,7 +973,6 @@ var todosSetas = [
     { from: '53', to: '429', title: 'é', texto: 'é' },
     { from: '53', to: '430', title: 'é', texto: 'é' },
     { from: '53', to: '433', title: 'é', texto: 'é' },
-    { from: '53', to: '439', title: 'é', texto: 'é' },
     { from: '53', to: '444', title: 'é', texto: 'é' },
     { from: '53', to: '456', title: 'é', texto: 'é' },
     { from: '53', to: '600', title: 'é', texto: 'é' },
@@ -1020,18 +1030,24 @@ var todosSetas = [
     { from: '53', to: '715', title: 'é', texto: 'é' },
     { from: '53', to: '720', title: 'é', texto: 'é' },
 
-    // Festa/Arcanjo/Evangelista (58) — título a ser revisto com inclusao de festas de nossa senhora...
-    { from: '58', to: '603', title: 'é', texto: 'é' },
+    // Festas
+	
     { from: '58', to: '609', title: 'é', texto: 'é' },
     { from: '58', to: '631', title: 'é', texto: 'é' },
     { from: '58', to: '632', title: 'é', texto: 'é' },
     { from: '58', to: '638', title: 'é', texto: 'é' },
     { from: '58', to: '644', title: 'é', texto: 'é' },
     { from: '58', to: '680', title: 'é', texto: 'é' },
-    { from: '58', to: '685', title: 'é', texto: 'é' },
-	{ from: '58', to: '55',  title: 'é', texto: 'é' }, // S. João Evangelista
-    { from: '58', to: '115', title: 'é', texto: 'é' }, // S. Mateus Evangelista
-    { from: '58', to: '453', title: 'é', texto: 'é' }, // S. Marcos Evangelista
+	
+	 // arcanjo
+	 
+    { from: '1005', to: '439', title: 'é', texto: 'é' },
+    { from: '1005', to: '603', title: 'é', texto: 'é' },
+    { from: '1005', to: '685', title: 'é', texto: 'é' },
+	
+	{ from: '54', to: '55',  title: 'é', texto: 'é' }, // S. João Evangelista
+    { from: '54', to: '115', title: 'é', texto: 'é' }, // S. Mateus Evangelista
+    { from: '54', to: '453', title: 'é', texto: 'é' }, // S. Marcos Evangelista
 	
 	// Profeta (848)
     { from: '848', to: '71', title: 'é', texto: 'é' }, // S. João Batista
@@ -1051,7 +1067,7 @@ var todosSetas = [
     { from: '849', to: '118', title: 'é', texto: 'é' }, // S. Simão
     { from: '849', to: '86',  title: 'é', texto: 'é' }, // S. Matias
 	
-    // ========== CALENDÁRIO -> SANTOS ==========
+    //  CALENDÁRIO -> SANTOS 
     // Janeiro (70)
     { from: '70', to: '400', texto: 'Dia 11' },
     { from: '70', to: '401', texto: 'Dia 14' },
@@ -1358,7 +1374,7 @@ var todosSetas = [
     { from: '99', to: '719', texto: 'Dia 29' },
     { from: '99', to: '720', texto: 'Dia 31' },
 
-    // ========== SANTOS -> LOCAIS (REGRAS DE LIGAÇÃO CUMPRIDAS) ==========
+    //  SANTOS -> LOCAIS (REGRAS DE LIGAÇÃO CUMPRIDAS) 
     { from: '4',   to: '130', title: 'nasceu em', texto: 'nasceu em' },
     { from: '71',  to: '131', title: 'pregou em', texto: 'pregou em' },
     { from: '2',   to: '26',  title: 'sede / martírio em', texto: 'sede / martírio em' },
@@ -1377,7 +1393,10 @@ var todosSetas = [
     { from: '228', to: '314', title: 'martirizado em', texto: 'martirizado em' },
     { from: '215', to: '133', title: 'testemunhou em', texto: 'testemunhou em' },
     { from: '218', to: '130', title: 'venerada em', texto: 'venerada em' },
+// sta marta
     { from: '221', to: '309', title: 'viveu em', texto: 'viveu em' },
+	{ from: '221', to: '1004', title: 'sepultada na', texto: 'sepultada na' },
+
     { from: '73',  to: '26',  title: 'martirizada em', texto: 'martirizada em' },
     { from: '72',  to: '26',  title: 'martirizado em', texto: 'martirizado em' },
     { from: '7',   to: '134', title: 'martirizado em', texto: 'martirizado em' },
@@ -1675,9 +1694,9 @@ var todosSetas = [
 	
 	
 	
-	// =========================================================================
+	// ===
     // SANTOS -> ORDENS RELIGIOSAS (Nível 7)
-    // =========================================================================
+    // ===
     
     // Ordem Agostiniana (850)
     { from: '5', to: '850', title: 'inspirou / deu regra', texto: 'inspirou' }, // S. Agostinho
@@ -1745,9 +1764,9 @@ var todosSetas = [
     { from: '225', to: '867', title: 'fundou', texto: 'fundou' }, // S. Norberto
 
 
-    // =========================================================================
+    // ===
     // SANTOS -> OBRAS ESCRITAS / DOCUMENTOS (Nível 7)
-    // =========================================================================
+    // ===
     
     // Regras Monásticas
     { from: '6', to: '900', title: 'escreveu', texto: 'escreveu' }, // S. Bento -> Regra de S. Bento
@@ -1779,12 +1798,10 @@ var todosSetas = [
 	
 	
 
-// =========================================================================
-    // RELAÇÕES: SANTOS -> FENÔMENOS, RELÍQUIAS E SANTUÁRIOS (Nível 9)
-    // =========================================================================
- 
 
-    // --- FENÔMENOS MÍSTICOS ---
+    // Nível 9
+ 
+    //  FENÔMENOS MÍSTICOS 
     // Corpos Incorruptos
     { from: '16', to: '1000', title: 'possui', texto: 'possui' },   // S. João M. Vianney
     { from: '688', to: '1000', title: 'possui', texto: 'possui' },  // S. Carlos Borromeu
@@ -1792,7 +1809,7 @@ var todosSetas = [
     { from: '67', to: '1000', title: 'possui', texto: 'possui' },  // Sta. Rita
     { from: '16', to: '1000', title: 'possui', texto: 'possui' },  // S. João M. Vianney (Cura d'Ars)
     { from: '624', to: '1000', title: 'possui', texto: 'possui' }, // Sta. Maria Madalena de Pazzi
-    { from: '212', to: '1000', title: 'coração incorrupto', texto: 'coração incorrupto' }, // S. Vicente de Paulo
+    { from: '221', to: '1', title: 'subjugou', texto: 'subjugou' }, // S. marta
 
     // Estigmas
     { from: '8', to: '1001', title: 'recebeu', texto: 'recebeu' }, // S. Francisco
@@ -1810,7 +1827,7 @@ var todosSetas = [
     { from: '12', to: '1003', title: 'experimentou', texto: 'experimentou' }, // Sta. Teresa d'Ávila
 
 
-    // --- RELÍQUIAS FAMOSAS ---
+    //  RELÍQUIAS  
     { from: '660', to: '1010', title: 'milagre do', texto: 'milagre do' }, // S. Januário -> Sangue
     { from: '219', to: '1010', title: 'milagre do', texto: 'milagre do' }, // S. Pantaleão -> Sangue
     { from: '212', to: '1011', title: 'possui', texto: 'possui' }, // S. Vicente de Paulo -> Coração Incorrupto
@@ -1825,7 +1842,7 @@ var todosSetas = [
     { from: '219', to: '1002', title: 'milagre do', texto: 'milagre do' }, // S. Pantaleão -> Sangue Liquefeito
     { from: '65', to: '1003', title: 'possui', texto: 'possui' }, // Sto. Antônio -> Língua Intacta
 	
-    // --- GRANDES SANTUÁRIOS E TÚMULOS ---
+    //  SANTUÁRIOS E TÚMULOS 
     { from: '2', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Pedro
     { from: '445', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Leão Magno
     { from: '436', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Gregório Magno
@@ -1837,15 +1854,15 @@ var todosSetas = [
     { from: '3', to: '1024', title: 'sepultado na', texto: 'sepultado na' }, // S. Paulo
     { from: '16', to: '1025', title: 'sepultado no', texto: 'sepultado no' }, // S. João Vianney -> Ars
     { from: '17', to: '1026', title: 'sepultada na', texto: 'sepultada na' }, // Sta. Teresinha -> Lisieux
-    { from: '2', to: '1004', title: 'sepultado na', texto: 'sepultado na' }, // S. Pedro -> Basílica de S. Pedro
-    { from: '200', to: '1004', title: 'sepultado na', texto: 'sepultado na' }, // S. Leão II (e vários papas)
-    { from: '436', to: '1004', title: 'sepultado na', texto: 'sepultado na' }, // S. Gregório Magno
+    { from: '2', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Pedro -> Basílica de S. Pedro
+    { from: '200', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Leão II (e vários papas)
+    { from: '436', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Gregório Magno
     { from: '111', to: '1021', title: 'sepultado na', texto: 'sepultado na' }, // S. Tiago Maior -> Santiago de Compostela
     { from: '8', to: '1006', title: 'sepultado na', texto: 'sepultado na' },   // S. Francisco -> Basílica de Assis
     { from: '65', to: '1007', title: 'sepultado na', texto: 'sepultado na' },  // Sto. Antônio -> Basílica de Pádua
 
 
-    // --- ICONOGRAFIA (Símbolos na Arte) ---
+    //  ICONOGRAFIA
     { from: '2', to: '1030', title: 'representado por', texto: 'representado por' }, // S. Pedro -> Chaves
     { from: '3', to: '1031', title: 'representado por', texto: 'representado por' }, // S. Paulo -> Espada
     { from: '626', to: '1031', title: 'representada por', texto: 'representada por' }, // Sta. Joana d'Arc -> Espada
@@ -1881,9 +1898,8 @@ var todosSetas = [
 	
 	
 	
-	// =========================================================================
-    // RELAÇÕES 1: SANTOS -> ORDENS E OBRAS ORIGINAIS (Nível 7)
-    // =========================================================================
+	
+    // Nível 7
     
     // Ordem Beneditina (22)
     { from: '6', to: '22', title: 'fundou', texto: 'fundou' }, // S. Bento
@@ -1941,9 +1957,7 @@ var todosSetas = [
     { from: '13', to: '38', title: 'doutor da', texto: 'doutor da' }, // S. João da Cruz -> Mística Cristã
 
 
-    // =========================================================================
-    // RELAÇÕES 2: SANTOS -> GEOGRAFIA DE ATUAÇÃO E MORTE (Nível 8)
-    // =========================================================================
+    // Nível 8
     
     // Terra Santa e Oriente
     { from: '4', to: '130', title: 'viveu em', texto: 'viveu em' }, // S. José -> Nazaré
@@ -1990,29 +2004,26 @@ var todosSetas = [
     { from: '66', to: '142', title: 'abade de', texto: 'abade de' }, // S. Bernardo -> Claraval
     
 	
-	
+	//bagunça:
 	
     // Inserção Específica para S. Libório
     { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
-	// --- ATRIBUTOS DE HIERARQUIA (Nível 1 -> Santo) ---
+	//  ATRIBUTOS DE HIERARQUIA (Nível 1 -> Santo) 
     // ATENÇÃO: Substitua 'ID_BISPO' e 'ID_CONFESSOR' pelos IDs numéricos que você usa no seu Nível 1
     { from: '57', to: '721', title: 'é', texto: 'é' },
     { from: '53', to: '721', title: 'é', texto: 'é' },
 
-    // --- GEOGRAFIA E RELÍQUIAS (Nível 8) ---
+    //  GEOGRAFIA E RELÍQUIAS (Nível 8) 
     { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
     { from: '721', to: '805', title: 'relíquias veneradas em', texto: 'relíquias transladadas para' }, // S. Libório -> Paderborn
 
-    // --- "REDE SOCIAL" DOS SANTOS (Conexões Interpessoais) ---
+    //  "REDE SOCIAL" DOS SANTOS (Conexões Interpessoais) 
     // Ele era grande amigo de S. Martinho de Tours (que já está na sua base com o ID 693)
     { from: '721', to: '693', title: 'amigo de (assistido no leito de morte por)', texto: 'amigo de' }, // S. Libório <-> S. Martinho de Tours
 
-    // --- ICONOGRAFIA / SÍMBOLOS NA ARTE (Nível 9) ---
+    //  ICONOGRAFIA / SÍMBOLOS NA ARTE (Nível 9) 
     { from: '721', to: '1047', title: 'representado por (guiou suas relíquias)', texto: 'representado por' }, // S. Libório -> Pavão
     { from: '721', to: '1048', title: 'padroeiro dos doentes dos rins', texto: 'representado por' }, // S. Libório -> Pedras
-	
-	
-	
 
     // Ibéria (Espanha / Portugal)
     { from: '12', to: '149', title: 'nasceu/atuou em', texto: 'atuou em' }, // Sta. Teresa -> Ávila
@@ -2030,11 +2041,9 @@ var todosSetas = [
 	
 	
 	
-	// =========================================================================
-    // RELAÇÕES 3: A "REDE SOCIAL" DOS SANTOS (Conexões Interpessoais)
-    // =========================================================================
+	// nivel 1 "REDE SOCIAL" DOS SANTOS
 
-    // --- 1. A FAMÍLIA E OS DISCÍPULOS BÍBLICOS ---
+    //  1. A FAMÍLIA E OS DISCÍPULOS BÍBLICOS 
     { from: '218', to: '639', title: 'esposos', texto: 'casados' }, // Sta. Ana <-> S. Joaquim
     { from: '2', to: '110', title: 'irmãos de sangue', texto: 'irmão de' }, // S. Pedro <-> S. André
     { from: '55', to: '111', title: 'irmãos de sangue', texto: 'irmão de' }, // S. João <-> S. Tiago Maior
@@ -2045,7 +2054,7 @@ var todosSetas = [
     { from: '3', to: '680', title: 'companheiros de missão', texto: 'missionário com' }, // S. Paulo <-> S. Lucas Evangelista
     { from: '55', to: '413', title: 'mestre de', texto: 'discipulou' }, // S. João -> S. Policarpo
 
-    // --- 2. ANTIGUIDADE E PADRES DA IGREJA ---
+    //  2. ANTIGUIDADE E PADRES DA IGREJA 
     { from: '413', to: '239', title: 'mestre de', texto: 'discipulou' }, // S. Policarpo -> Sto. Irineu
     { from: '64', to: '5', title: 'mãe de', texto: 'mãe de' }, // Sta. Mônica -> S. Agostinho
     { from: '713', to: '5', title: 'converteu e batizou', texto: 'batizou' }, // Sto. Ambrósio -> S. Agostinho
@@ -2053,7 +2062,7 @@ var todosSetas = [
     { from: '229', to: '604', title: 'grandes amigos (Padres Capadócios)', texto: 'amigo de' }, // S. Basílio Magno <-> S. Gregório Nazianzeno
     { from: '715', to: '668', title: 'encomendou a Vulgata a', texto: 'patrono de' }, // S. Dâmaso I -> S. Jerônimo
 
-    // --- 3. IDADE MÉDIA E ESCOLÁSTICA ---
+    //  3. IDADE MÉDIA E ESCOLÁSTICA 
     { from: '6', to: '85', title: 'irmãos gêmeos', texto: 'irmão de' }, // S. Bento <-> Sta. Escolástica
     { from: '8', to: '9', title: 'contemporâneos (encontro em Roma)', texto: 'amigo de' }, // S. Francisco <-> S. Domingos
     { from: '8', to: '11', title: 'orientador espiritual de', texto: 'inspirou' }, // S. Francisco -> Sta. Clara
@@ -2061,7 +2070,7 @@ var todosSetas = [
     { from: '208', to: '10', title: 'amigos e professores em Paris', texto: 'amigo de' }, // S. Boaventura <-> S. Tomás de Aquino
     { from: '646', to: '10', title: 'buscava conselhos com', texto: 'aconselhado por' }, // S. Luís IX -> S. Tomás de Aquino
 
-    // --- 4. ERA MODERNA (A Grande "Rede" de Roma e Espanha) ---
+    //  4. ERA MODERNA (A Grande "Rede" de Roma e Espanha) 
     { from: '14', to: '15', title: 'colegas de quarto e co-fundadores', texto: 'amigo de' }, // Sto. Inácio <-> S. Francisco Xavier
     { from: '12', to: '13', title: 'amigos e co-reformadores', texto: 'amiga de' }, // Sta. Teresa d'Ávila <-> S. João da Cruz
     { from: '619', to: '14', title: 'amigos em Roma', texto: 'amigo de' }, // S. Felipe Néri <-> Sto. Inácio de Loyola
@@ -2070,16 +2079,14 @@ var todosSetas = [
     { from: '75', to: '643', title: 'amigos e co-fundadores', texto: 'amigo de' }, // S. Francisco de Sales <-> Sta. Joana de Chantal
     { from: '212', to: '75', title: 'admirava profundamente', texto: 'discípulo de' }, // S. Vicente de Paulo -> S. Francisco de Sales
 
-    // --- 5. ERA CONTEMPORÂNEA ---
+    //  5. ERA CONTEMPORÂNEA 
     { from: '61', to: '16', title: 'admirava e correspondia-se com', texto: 'amigo de' }, // S. João Bosco -> S. João M. Vianney
     { from: '75', to: '61', title: 'inspirou o método pastoral de', texto: 'patrono de' }, // S. Francisco de Sales -> S. João Bosco (origem do nome "Salesianos")
 	
 	
-	// =========================================================================
-    // RELAÇÕES DOMINICANAS: O CLUSTER COMPLETO
-    // =========================================================================
+	// RELAÇÕES DOMINICANAS
 
-    // --- 1. PERTENCIMENTO À ORDEM DOMINICANA (Nó 24) ---
+    //  1. PERTENCIMENTO À ORDEM DOMINICANA (Nó 24) 
     // (Incluindo os da base antiga que haviam ficado de fora)
     { from: '9', to: '24', title: 'fundou', texto: 'fundou' }, // S. Domingos
     { from: '10', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Tomás de Aquino
@@ -2096,14 +2103,14 @@ var todosSetas = [
     { from: '723', to: '24', title: 'pertenceu a (Irmão Leigo)', texto: 'pertenceu a' }, // S. João Macias
     { from: '724', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Inês de Montepulciano
 
-    // --- 2. HIERARQUIA (Nível 1) ---
+    //  2. HIERARQUIA (Nível 1) 
     { from: '51', to: '10', title: 'é', texto: 'é' }, // S. Tomás
     { from: '51', to: '697', title: 'é', texto: 'é' }, // Sto. Alberto
     { from: '51', to: '459', title: 'é', texto: 'é' }, // Sta. Catarina
     { from: '56', to: '601', title: 'é', texto: 'é' }, // S. Pio V
     { from: '50', to: '458', title: 'é', texto: 'é' }, // S. Pedro de Verona
 
-    // --- 3. A "REDE SOCIAL" DOMINICANA (Interpessoal) ---
+    //  3. A "REDE SOCIAL" DOMINICANA (Interpessoal) 
     // O Eixo Fundador e Europeu
     { from: '697', to: '10', title: 'mestre de', texto: 'mestre de' }, // Sto. Alberto -> S. Tomás
     { from: '9', to: '640', title: 'enviou em missão para a Polônia', texto: 'enviou' }, // S. Domingos -> S. Jacinto
@@ -2116,7 +2123,7 @@ var todosSetas = [
     { from: '649', to: '722', title: 'amigos e contemporâneos em Lima', texto: 'amigo de' }, // Sta. Rosa <-> S. Martinho de Porres
     { from: '722', to: '723', title: 'grandes amigos e confidentes', texto: 'amigo de' }, // S. Martinho de Porres <-> S. João Macias
 
-    // --- 4. GEOGRAFIA DE ATUAÇÃO E MORTE ---
+    //  4. GEOGRAFIA DE ATUAÇÃO E MORTE 
     { from: '649', to: '806', title: 'nasceu/faleceu em', texto: 'atuou em' }, // Sta. Rosa -> Lima
     { from: '722', to: '806', title: 'nasceu/faleceu em', texto: 'atuou em' }, // S. Martinho -> Lima
     { from: '723', to: '806', title: 'atuou/faleceu em', texto: 'atuou em' }, // S. João Macias -> Lima
@@ -2124,7 +2131,7 @@ var todosSetas = [
     { from: '10', to: '145', title: 'faleceu perto de', texto: 'faleceu em' }, // S. Tomás -> Nápoles (Já na base)
     { from: '9', to: '144', title: 'faleceu em', texto: 'faleceu em' }, // S. Domingos -> Bolonha (Já na base)
 
-    // --- 5. ICONOGRAFIA E SÍMBOLOS DOMINICANOS ---
+    //  5. ICONOGRAFIA E SÍMBOLOS DOMINICANOS 
     { from: '9', to: '1049', title: 'representado por (Domini Canes = Cães do Senhor)', texto: 'representado por' }, // S. Domingos -> Cão com tocha
     { from: '10', to: '1052', title: 'representado por', texto: 'representado por' }, // S. Tomás -> Sol no peito
     { from: '458', to: '1051', title: 'representado por (arma do seu martírio)', texto: 'representado por' }, // S. Pedro de Verona -> Faca na cabeça
