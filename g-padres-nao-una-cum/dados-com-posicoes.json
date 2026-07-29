@@ -448,8 +448,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 1505,
-      "y": 1012.5
+      "x": 512,
+      "y": 1162.5
     },
     {
       "id": 34,
@@ -461,8 +461,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -152,
-      "y": 1162.5
+      "x": -491,
+      "y": 1087.5
     },
     {
       "id": 35,
@@ -475,7 +475,7 @@
         "size": 14,
         "bold": true
       },
-      "x": 491,
+      "x": -124,
       "y": 1162.5
     },
     {
@@ -488,7 +488,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 879,
+      "x": 900,
       "y": 1087.5
     },
     {
@@ -501,7 +501,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 1232,
+      "x": 1253,
       "y": 1162.5
     },
     {
@@ -570,8 +570,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -512,
-      "y": 1087.5
+      "x": -851,
+      "y": 1162.5
     },
     {
       "id": 43,
@@ -584,7 +584,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1519,
+      "x": -1505,
       "y": 937.5
     },
     {
@@ -598,7 +598,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1166,
+      "x": -1152,
       "y": 1012.5
     },
     {
@@ -612,7 +612,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -813,
+      "x": -799,
       "y": 937.5
     },
     {
@@ -626,7 +626,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -474,
+      "x": -460,
       "y": 1012.5
     },
     {
@@ -639,7 +639,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 173,
+      "x": 194,
       "y": 1087.5
     },
     {
@@ -652,7 +652,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1190,
+      "x": -1211,
       "y": 1087.5
     },
     {
@@ -665,8 +665,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -844,
-      "y": 1162.5
+      "x": 0,
+      "y": 1237.5
     },
     {
       "id": 50,
@@ -680,7 +680,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -51,
+      "x": -37,
       "y": 937.5
     },
     {
@@ -695,8 +695,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 491,
-      "y": 1012.5
+      "x": 837,
+      "y": 937.5
     },
     {
       "id": 52,
@@ -710,8 +710,23 @@
         "size": 14,
         "bold": true
       },
-      "x": 1054,
-      "y": 937.5
+      "x": 1400,
+      "y": 1012.5
+    },
+    {
+      "id": 88,
+      "level": 6,
+      "categoria": "padre",
+      "label": "Wagner Joseph",
+      "grupo": "padre",
+      "ano": 2025,
+      "font": {
+        "color": "#ffffff",
+        "size": 14,
+        "bold": true
+      },
+      "x": 379,
+      "y": 1012.5
     },
     {
       "id": 53,
@@ -725,7 +740,7 @@
         "bold": true
       },
       "x": -1070,
-      "y": 1237.5
+      "y": 1387.5
     },
     {
       "id": 54,
@@ -739,7 +754,7 @@
         "bold": true
       },
       "x": -612,
-      "y": 1312.5
+      "y": 1462.5
     },
     {
       "id": 55,
@@ -753,7 +768,7 @@
         "bold": true
       },
       "x": 479,
-      "y": 1312.5
+      "y": 1462.5
     },
     {
       "id": 56,
@@ -767,7 +782,7 @@
         "bold": true
       },
       "x": 1014,
-      "y": 1237.5
+      "y": 1387.5
     },
     {
       "id": 57,
@@ -781,11 +796,11 @@
         "bold": true
       },
       "x": -77,
-      "y": 1237.5
+      "y": 1387.5
     },
     {
       "id": 58,
-      "level": 7,
+      "level": 8,
       "categoria": "instituicao",
       "label": "FSSPX",
       "grupo": "instituicao",
@@ -793,8 +808,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 0,
-      "y": 1387.5
+      "x": -1313,
+      "y": 1612.5
     },
     {
       "id": 59,
@@ -806,8 +821,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1201,
-      "y": 1612.5
+      "x": -1526,
+      "y": 1537.5
     },
     {
       "id": 60,
@@ -819,7 +834,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 928,
+      "x": 823,
       "y": 1537.5
     },
     {
@@ -832,7 +847,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -383,
+      "x": -488,
       "y": 1612.5
     },
     {
@@ -845,7 +860,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -869,
+      "x": -974,
       "y": 1537.5
     },
     {
@@ -858,7 +873,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 1456,
+      "x": 1351,
       "y": 1612.5
     },
     {
@@ -872,7 +887,7 @@
         "size": 14,
         "bold": true
       },
-      "x": 477,
+      "x": 372,
       "y": 1612.5
     },
     {
@@ -885,7 +900,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 75,
+      "x": -30,
       "y": 1537.5
     },
     {
@@ -898,8 +913,8 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1519,
-      "y": 1537.5
+      "x": -570,
+      "y": 1687.5
     },
     {
       "id": 67,
@@ -911,7 +926,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 528,
+      "x": 1007,
       "y": 1762.5
     },
     {
@@ -924,7 +939,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -21,
+      "x": 458,
       "y": 1687.5
     },
     {
@@ -937,7 +952,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -1203,
+      "x": -1682,
       "y": 1687.5
     },
     {
@@ -950,7 +965,7 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": -633,
+      "x": -1112,
       "y": 1762.5
     },
     {
@@ -963,8 +978,21 @@
         "color": "#ffffff",
         "size": 14
       },
-      "x": 1119,
+      "x": 1598,
       "y": 1687.5
+    },
+    {
+      "id": 89,
+      "level": 8,
+      "categoria": "instituicao",
+      "label": "Missão Pindamonhangaba (SP)",
+      "grupo": "instituicao",
+      "font": {
+        "color": "#ffffff",
+        "size": 14
+      },
+      "x": -91,
+      "y": 1762.5
     },
     {
       "id": 72,
@@ -1089,8 +1117,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -914,
-      "y": 2062.5
+      "x": -1246,
+      "y": 1987.5
     },
     {
       "id": 81,
@@ -1103,7 +1131,7 @@
         "size": 14,
         "bold": true
       },
-      "x": -533,
+      "x": -477,
       "y": 1987.5
     },
     {
@@ -1131,8 +1159,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -1253,
-      "y": 1987.5
+      "x": -103,
+      "y": 2062.5
     },
     {
       "id": 84,
@@ -1159,8 +1187,8 @@
         "size": 14,
         "bold": true
       },
-      "x": -180,
-      "y": 2062.5
+      "x": 208,
+      "y": 1987.5
     },
     {
       "id": 86,
@@ -1173,7 +1201,7 @@
         "size": 14,
         "bold": true
       },
-      "x": 491,
+      "x": -879,
       "y": 2062.5
     },
     {
@@ -1187,8 +1215,8 @@
         "size": 14,
         "bold": true
       },
-      "x": 131,
-      "y": 1987.5
+      "x": 519,
+      "y": 2062.5
     }
   ],
   "edges": [
@@ -1511,40 +1539,10 @@
       "texto": "ordenou padre"
     },
     {
-      "from": 58,
-      "to": 53,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 12,
-      "to": 54,
-      "title": "fundamenta",
-      "texto": "fundamenta"
-    },
-    {
-      "from": 17,
-      "to": 59,
-      "title": "lidera",
-      "texto": "lidera"
-    },
-    {
-      "from": 10,
-      "to": 58,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
       "from": 10,
       "to": 53,
       "title": "adota",
       "texto": "adota"
-    },
-    {
-      "from": 11,
-      "to": 58,
-      "title": "pertence a",
-      "texto": "pertence a"
     },
     {
       "from": 11,
@@ -1554,42 +1552,36 @@
     },
     {
       "from": 13,
-      "to": 58,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 13,
       "to": 53,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": 18,
-      "to": 63,
-      "title": "lidera",
-      "texto": "lidera"
+      "from": 14,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
     },
     {
-      "from": 18,
+      "from": 15,
+      "to": 56,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 16,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 17,
       "to": 54,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": 36,
-      "to": 63,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 37,
-      "to": 63,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 17,
+      "from": 18,
       "to": 54,
       "title": "adota",
       "texto": "adota"
@@ -1601,367 +1593,13 @@
       "texto": "adota"
     },
     {
-      "from": 15,
-      "to": 61,
-      "title": "lidera",
-      "texto": "lidera"
-    },
-    {
-      "from": 15,
-      "to": 56,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 23,
-      "to": 62,
-      "title": "lidera",
-      "texto": "lidera"
-    },
-    {
-      "from": 23,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 14,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 14,
-      "to": 72,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 22,
-      "to": 64,
-      "title": "lidera",
-      "texto": "lidera"
-    },
-    {
       "from": 22,
       "to": 55,
       "title": "adota",
       "texto": "adota"
     },
     {
-      "from": 16,
-      "to": 65,
-      "title": "lidera",
-      "texto": "lidera"
-    },
-    {
-      "from": 16,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 47,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 47,
-      "to": 87,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 35,
-      "to": 56,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 35,
-      "to": 86,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 35,
-      "to": 60,
-      "title": "dialoga com",
-      "texto": "dialoga com"
-    },
-    {
-      "from": 60,
-      "to": 56,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 48,
-      "to": 57,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 49,
-      "to": 57,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 29,
-      "to": 57,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 31,
-      "to": 57,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 31,
-      "to": 65,
-      "title": "auxilia",
-      "texto": "auxilia"
-    },
-    {
-      "from": 38,
-      "to": 57,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 38,
-      "to": 68,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 43,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 30,
-      "to": 66,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 30,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 32,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 32,
-      "to": 67,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 32,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 32,
-      "to": 80,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 39,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 39,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 39,
-      "to": 87,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 40,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 40,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 40,
-      "to": 84,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 40,
-      "to": 85,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 41,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 41,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 42,
-      "to": 58,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 42,
-      "to": 53,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 44,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 44,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 44,
-      "to": 81,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 45,
-      "to": 65,
-      "title": "auxilia",
-      "texto": "auxilia"
-    },
-    {
-      "from": 45,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 46,
-      "to": 65,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 46,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 46,
-      "to": 79,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 33,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 33,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 33,
-      "to": 79,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 34,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 34,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 34,
-      "to": 80,
-      "title": "atua em",
-      "texto": "atua em"
-    },
-    {
-      "from": 50,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 50,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 51,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 51,
-      "to": 55,
-      "title": "adota",
-      "texto": "adota"
-    },
-    {
-      "from": 52,
-      "to": 64,
-      "title": "pertence a",
-      "texto": "pertence a"
-    },
-    {
-      "from": 52,
+      "from": 23,
       "to": 55,
       "title": "adota",
       "texto": "adota"
@@ -1991,21 +1629,157 @@
       "texto": "adota"
     },
     {
-      "from": 4,
-      "to": 58,
-      "title": "fundamentou",
-      "texto": "fundamentou",
-      "dashes": true
+      "from": 29,
+      "to": 57,
+      "title": "adota",
+      "texto": "adota"
     },
     {
-      "from": 20,
-      "to": 62,
-      "title": "liderou",
-      "texto": "liderou",
-      "dashes": true
+      "from": 30,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
     },
     {
-      "from": 20,
+      "from": 31,
+      "to": 57,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 32,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 33,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 34,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 35,
+      "to": 56,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 38,
+      "to": 57,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 39,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 40,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 41,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 42,
+      "to": 53,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 43,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 44,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 45,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 46,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 47,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 48,
+      "to": 57,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 49,
+      "to": 57,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 50,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 51,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 52,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 58,
+      "to": 53,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 60,
+      "to": 56,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 88,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 6,
       "to": 55,
       "title": "adotou",
       "texto": "adotou",
@@ -2019,7 +1793,7 @@
       "dashes": true
     },
     {
-      "from": 6,
+      "from": 20,
       "to": 55,
       "title": "adotou",
       "texto": "adotou",
@@ -2033,116 +1807,100 @@
       "dashes": true
     },
     {
-      "from": 54,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 14,
+      "to": 72,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 22,
-      "to": 54,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 23,
+      "to": 72,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 22,
-      "to": 61,
-      "title": "foi membro de",
-      "texto": "foi membro de",
-      "dashes": true
+      "from": 24,
+      "to": 75,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 16,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 25,
+      "to": 76,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 16,
-      "to": 54,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 26,
+      "to": 77,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 29,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
-    },
-    {
-      "from": 31,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 27,
+      "to": 78,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
       "from": 32,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "to": 80,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 38,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 33,
+      "to": 79,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 43,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 34,
+      "to": 80,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 48,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 35,
+      "to": 86,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 49,
-      "to": 58,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "from": 39,
+      "to": 87,
+      "title": "atua em",
+      "texto": "atua em"
+    },
+    {
+      "from": 40,
+      "to": 84,
+      "title": "atua em",
+      "texto": "atua em"
+    },
+    {
+      "from": 40,
+      "to": 85,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
       "from": 44,
-      "to": 54,
-      "title": "rompeu com",
-      "texto": "rompeu com",
-      "dashes": true
+      "to": 81,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 29,
-      "to": 80,
-      "title": "visitou",
-      "texto": "visitou",
-      "dashes": true
-    },
-    {
-      "from": 29,
+      "from": 46,
       "to": 79,
-      "title": "visitou",
-      "texto": "visitou",
-      "dashes": true
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
-      "from": 32,
-      "to": 85,
-      "title": "visitou",
-      "texto": "visitou",
-      "dashes": true
+      "from": 47,
+      "to": 87,
+      "title": "atua em",
+      "texto": "atua em"
     },
     {
       "from": 39,
@@ -2159,56 +1917,91 @@
       "dashes": true
     },
     {
-      "from": 41,
-      "to": 80,
-      "title": "visitou",
-      "texto": "visitou",
+      "from": 31,
+      "to": 65,
+      "title": "auxilia",
+      "texto": "auxilia"
+    },
+    {
+      "from": 45,
+      "to": 65,
+      "title": "auxilia",
+      "texto": "auxilia"
+    },
+    {
+      "from": 35,
+      "to": 60,
+      "title": "dialoga com",
+      "texto": "dialoga com"
+    },
+    {
+      "from": 22,
+      "to": 61,
+      "title": "foi membro de",
+      "texto": "foi membro de",
       "dashes": true
     },
     {
-      "from": 41,
-      "to": 81,
-      "title": "visitou",
-      "texto": "visitou",
+      "from": 12,
+      "to": 54,
+      "title": "fundamenta",
+      "texto": "fundamenta"
+    },
+    {
+      "from": 4,
+      "to": 58,
+      "title": "fundamentou",
+      "texto": "fundamentou",
       "dashes": true
     },
     {
-      "from": 42,
-      "to": 79,
-      "title": "visitou",
-      "texto": "visitou",
+      "from": 15,
+      "to": 61,
+      "title": "lidera",
+      "texto": "lidera"
+    },
+    {
+      "from": 16,
+      "to": 65,
+      "title": "lidera",
+      "texto": "lidera"
+    },
+    {
+      "from": 17,
+      "to": 59,
+      "title": "lidera",
+      "texto": "lidera"
+    },
+    {
+      "from": 18,
+      "to": 63,
+      "title": "lidera",
+      "texto": "lidera"
+    },
+    {
+      "from": 22,
+      "to": 64,
+      "title": "lidera",
+      "texto": "lidera"
+    },
+    {
+      "from": 23,
+      "to": 62,
+      "title": "lidera",
+      "texto": "lidera"
+    },
+    {
+      "from": 88,
+      "to": 89,
+      "title": "lidera",
+      "texto": "lidera"
+    },
+    {
+      "from": 20,
+      "to": 62,
+      "title": "liderou",
+      "texto": "liderou",
       "dashes": true
-    },
-    {
-      "from": 42,
-      "to": 81,
-      "title": "visitou",
-      "texto": "visitou",
-      "dashes": true
-    },
-    {
-      "from": 58,
-      "to": 69,
-      "title": "mantém",
-      "texto": "mantém"
-    },
-    {
-      "from": 58,
-      "to": 70,
-      "title": "mantém",
-      "texto": "mantém"
-    },
-    {
-      "from": 61,
-      "to": 72,
-      "title": "localizado em",
-      "texto": "localizado em"
-    },
-    {
-      "from": 62,
-      "to": 72,
-      "title": "localizado em",
-      "texto": "localizado em"
     },
     {
       "from": 59,
@@ -2223,8 +2016,14 @@
       "texto": "localizado em"
     },
     {
-      "from": 64,
-      "to": 80,
+      "from": 61,
+      "to": 72,
+      "title": "localizado em",
+      "texto": "localizado em"
+    },
+    {
+      "from": 62,
+      "to": 72,
       "title": "localizado em",
       "texto": "localizado em"
     },
@@ -2259,6 +2058,12 @@
       "texto": "localizado em"
     },
     {
+      "from": 64,
+      "to": 80,
+      "title": "localizado em",
+      "texto": "localizado em"
+    },
+    {
       "from": 69,
       "to": 80,
       "title": "localizado em",
@@ -2271,34 +2076,275 @@
       "texto": "localizado em"
     },
     {
-      "from": 23,
-      "to": 72,
-      "title": "atua em",
-      "texto": "atua em"
+      "from": 89,
+      "to": 80,
+      "title": "localizado em",
+      "texto": "localizado em"
     },
     {
-      "from": 24,
-      "to": 75,
-      "title": "atua em",
-      "texto": "atua em"
+      "from": 58,
+      "to": 69,
+      "title": "mantém",
+      "texto": "mantém"
     },
     {
-      "from": 25,
-      "to": 76,
-      "title": "atua em",
-      "texto": "atua em"
+      "from": 58,
+      "to": 70,
+      "title": "mantém",
+      "texto": "mantém"
     },
     {
-      "from": 26,
-      "to": 77,
-      "title": "atua em",
-      "texto": "atua em"
+      "from": 10,
+      "to": 58,
+      "title": "pertence a",
+      "texto": "pertence a"
     },
     {
-      "from": 27,
-      "to": 78,
-      "title": "atua em",
-      "texto": "atua em"
+      "from": 11,
+      "to": 58,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 13,
+      "to": 58,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 30,
+      "to": 66,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 32,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 32,
+      "to": 67,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 33,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 34,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 36,
+      "to": 63,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 37,
+      "to": 63,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 38,
+      "to": 68,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 39,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 40,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 41,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 42,
+      "to": 58,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 44,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 46,
+      "to": 65,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 50,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 51,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 52,
+      "to": 64,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 16,
+      "to": 54,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 16,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 22,
+      "to": 54,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 29,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 31,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 32,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 38,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 43,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 44,
+      "to": 54,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 48,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 49,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 54,
+      "to": 58,
+      "title": "rompeu com",
+      "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 29,
+      "to": 79,
+      "title": "visitou",
+      "texto": "visitou",
+      "dashes": true
+    },
+    {
+      "from": 29,
+      "to": 80,
+      "title": "visitou",
+      "texto": "visitou",
+      "dashes": true
+    },
+    {
+      "from": 32,
+      "to": 85,
+      "title": "visitou",
+      "texto": "visitou",
+      "dashes": true
+    },
+    {
+      "from": 41,
+      "to": 80,
+      "title": "visitou",
+      "texto": "visitou",
+      "dashes": true
+    },
+    {
+      "from": 41,
+      "to": 81,
+      "title": "visitou",
+      "texto": "visitou",
+      "dashes": true
+    },
+    {
+      "from": 42,
+      "to": 79,
+      "title": "visitou",
+      "texto": "visitou",
+      "dashes": true
+    },
+    {
+      "from": 42,
+      "to": 81,
+      "title": "visitou",
+      "texto": "visitou",
+      "dashes": true
     }
   ],
   "regras": {
@@ -2351,12 +2397,12 @@
     },
     {
       "yInicio": 750,
-      "yFim": 1200,
+      "yFim": 1350,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 1200,
+      "yInicio": 1350,
       "yFim": 1500,
       "label": null,
       "cor": null
