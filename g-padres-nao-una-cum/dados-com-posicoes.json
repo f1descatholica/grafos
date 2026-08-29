@@ -6,11 +6,6 @@
       "categoria": "bispo",
       "label": "Scipione Rebiba",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -84,
       "y": 112.5
     },
@@ -20,11 +15,6 @@
       "categoria": "bispo",
       "label": "Achille Liénart",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -444,
       "y": 37.5
     },
@@ -34,89 +24,60 @@
       "categoria": "bispo",
       "label": "Pierre Martin Ngô\nĐình Thục",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 360,
       "y": 37.5
     },
     {
       "id": 4,
-      "level": 2,
-      "categoria": "bispo",
+      "level": 1,
+      "categoria": "bispo-fundacional",
       "label": "Marcel Lefebvre",
-      "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
+      "grupo": "bispo-fundacional",
       "x": -547,
       "y": 262.5
     },
     {
       "id": 5,
-      "level": 2,
-      "categoria": "bispo",
+      "level": 1,
+      "categoria": "bispo-fundacional",
       "label": "Antônio de\nCastro Mayer",
-      "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
+      "grupo": "bispo-fundacional",
       "x": -131,
       "y": 187.5
     },
     {
       "id": 6,
-      "level": 2,
-      "categoria": "bispo",
+      "level": 1,
+      "categoria": "bispo-fundacional",
       "label": "Moisés Carmona",
-      "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
+      "grupo": "bispo-fundacional",
       "x": 624,
       "y": 187.5
     },
     {
       "id": 7,
-      "level": 2,
-      "categoria": "bispo",
+      "level": 1,
+      "categoria": "bispo-fundacional",
       "label": "Robert McKenna",
-      "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
+      "grupo": "bispo-fundacional",
       "x": 970,
       "y": 262.5
     },
     {
       "id": 8,
-      "level": 2,
-      "categoria": "bispo",
+      "level": 1,
+      "categoria": "bispo-fundacional",
       "label": "Aloísio Lorscheider",
-      "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
+      "grupo": "bispo-fundacional",
       "x": -935,
       "y": 187.5
     },
     {
       "id": 9,
-      "level": 2,
-      "categoria": "bispo",
+      "level": 1,
+      "categoria": "bispo-fundacional",
       "label": "Orani Tempesta",
-      "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
+      "grupo": "bispo-fundacional",
       "x": 278,
       "y": 262.5
     },
@@ -126,10 +87,6 @@
       "categoria": "bispo",
       "label": "Bernard Fellay",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 341,
       "y": 412.5
     },
@@ -139,10 +96,6 @@
       "categoria": "bispo",
       "label": "Alfonso de Galarreta",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -991,
       "y": 337.5
     },
@@ -152,10 +105,6 @@
       "categoria": "bispo",
       "label": "Richard Williamson",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -33,
       "y": 337.5
     },
@@ -165,10 +114,6 @@
       "categoria": "bispo",
       "label": "Bernard Tissier\nde Mallerais",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -505,
       "y": 412.5
     },
@@ -178,10 +123,6 @@
       "categoria": "bispo",
       "label": "Mark Pivarunas",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 687,
       "y": 337.5
     },
@@ -191,10 +132,6 @@
       "categoria": "bispo",
       "label": "Donald Sanborn",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 1033,
       "y": 412.5
     },
@@ -205,10 +142,6 @@
       "label": "Ernesto Javier Cardozo",
       "grupo": "bispo",
       "ano": 1980,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1075,
       "y": 487.5
     },
@@ -218,10 +151,6 @@
       "categoria": "bispo",
       "label": "Jean-Michel Faure",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -278,
       "y": 487.5
     },
@@ -231,10 +160,6 @@
       "categoria": "bispo",
       "label": "Dom Tomás de Aquino\nFerreira da Costa",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 568,
       "y": 487.5
     },
@@ -244,10 +169,6 @@
       "categoria": "bispo",
       "label": "Gerardo Zendejas",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -659,
       "y": 562.5
     },
@@ -257,10 +178,6 @@
       "categoria": "bispo",
       "label": "Daniel Dolan",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 75,
       "y": 562.5
     },
@@ -270,10 +187,6 @@
       "categoria": "bispo",
       "label": "Juan José Squetino",
       "grupo": "bispo",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 1103,
       "y": 562.5
     },
@@ -284,11 +197,6 @@
       "label": "Rodrigo da Silva",
       "grupo": "bispo",
       "ano": 2021,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1150,
       "y": 637.5
     },
@@ -299,11 +207,6 @@
       "label": "Charles McGuire (2022)",
       "grupo": "bispo",
       "ano": 2022,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -734,
       "y": 712.5
     },
@@ -314,11 +217,6 @@
       "label": "Fernando Altamira (2024)",
       "grupo": "bispo",
       "ano": 2024,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 56,
       "y": 712.5
     },
@@ -329,11 +227,6 @@
       "label": "Pierre Roy",
       "grupo": "bispo",
       "ano": 2024,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 444,
       "y": 637.5
     },
@@ -344,11 +237,6 @@
       "label": "Bede Nkamuke",
       "grupo": "bispo",
       "ano": 2023,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -346,
       "y": 637.5
     },
@@ -359,11 +247,6 @@
       "label": "Merardo Loya",
       "grupo": "bispo",
       "ano": 2025,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 748,
       "y": 712.5
     },
@@ -374,11 +257,6 @@
       "label": "Michael Mary, F.S.R.",
       "grupo": "bispo",
       "ano": 2026,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1122,
       "y": 637.5
     },
@@ -389,10 +267,6 @@
       "label": "Elmo (Francisco\nde Paula)",
       "grupo": "padre",
       "ano": 1985,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1554,
       "y": 787.5
     },
@@ -403,10 +277,6 @@
       "label": "Frei Tiago de\nSão José",
       "grupo": "padre",
       "ano": 1995,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1075,
       "y": 862.5
     },
@@ -417,10 +287,6 @@
       "label": "João Dorival",
       "grupo": "padre",
       "ano": 1998,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -687,
       "y": 787.5
     },
@@ -431,10 +297,6 @@
       "label": "Gilberto Ferreira",
       "grupo": "padre",
       "ano": 2001,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -334,
       "y": 862.5
     },
@@ -444,10 +306,6 @@
       "categoria": "padre",
       "label": "Gabriel Spínola",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 512,
       "y": 1162.5
     },
@@ -457,10 +315,6 @@
       "categoria": "padre",
       "label": "Frei Pedro Maria",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -491,
       "y": 1087.5
     },
@@ -470,11 +324,6 @@
       "categoria": "padre",
       "label": "Marcelo Tenório",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -124,
       "y": 1162.5
     },
@@ -484,10 +333,6 @@
       "categoria": "padre",
       "label": "Dom Joaquim\n(Prior)",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 900,
       "y": 1087.5
     },
@@ -497,10 +342,6 @@
       "categoria": "padre",
       "label": "Dom Inácio",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 1253,
       "y": 1162.5
     },
@@ -511,10 +352,6 @@
       "label": "José Eduardo de\nOliveira",
       "grupo": "padre",
       "ano": 2002,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 103,
       "y": 787.5
     },
@@ -525,10 +362,6 @@
       "label": "Leonardo Holtz\nPeixoto (2022)",
       "grupo": "padre",
       "ano": 2004,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 624,
       "y": 862.5
     },
@@ -539,10 +372,6 @@
       "label": "Anselmo de Oliveira",
       "grupo": "padre",
       "ano": 2008,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 1110,
       "y": 787.5
     },
@@ -553,10 +382,6 @@
       "label": "Angelo Mello de\nCarvalho",
       "grupo": "padre",
       "ano": 2010,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 1561,
       "y": 862.5
     },
@@ -566,10 +391,6 @@
       "categoria": "padre",
       "label": "Pedro Patrício",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -851,
       "y": 1162.5
     },
@@ -580,10 +401,6 @@
       "label": "Leandro Neves",
       "grupo": "padre",
       "ano": 2012,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1505,
       "y": 937.5
     },
@@ -594,10 +411,6 @@
       "label": "Victor Rodrigues",
       "grupo": "padre",
       "ano": 2015,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1152,
       "y": 1012.5
     },
@@ -608,10 +421,6 @@
       "label": "Carlos Zúñiga",
       "grupo": "padre",
       "ano": 2017,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -799,
       "y": 937.5
     },
@@ -622,10 +431,6 @@
       "label": "Mateus Pereira",
       "grupo": "padre",
       "ano": 2018,
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -460,
       "y": 1012.5
     },
@@ -635,10 +440,6 @@
       "categoria": "padre",
       "label": "Pe. Jahir",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 194,
       "y": 1087.5
     },
@@ -648,10 +449,6 @@
       "categoria": "padre",
       "label": "Thiago Bonifácio",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1211,
       "y": 1087.5
     },
@@ -661,10 +458,6 @@
       "categoria": "padre",
       "label": "Lucas Prados",
       "grupo": "padre",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 0,
       "y": 1237.5
     },
@@ -675,11 +468,6 @@
       "label": "João Maria Vianney (2025)",
       "grupo": "padre",
       "ano": 2025,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -37,
       "y": 937.5
     },
@@ -690,11 +478,6 @@
       "label": "Pacífico Maria\n(anunciada 2026)",
       "grupo": "padre",
       "ano": 2026,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 837,
       "y": 937.5
     },
@@ -705,11 +488,6 @@
       "label": "Dimas Maria\n(anunciada 2026)",
       "grupo": "padre",
       "ano": 2026,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1400,
       "y": 1012.5
     },
@@ -720,11 +498,6 @@
       "label": "Wagner Joseph",
       "grupo": "padre",
       "ano": 2025,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 379,
       "y": 1012.5
     },
@@ -734,11 +507,6 @@
       "categoria": "classificacao",
       "label": "Tradicionalismo\nUna Cum",
       "grupo": "classificacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1070,
       "y": 1387.5
     },
@@ -748,11 +516,6 @@
       "categoria": "classificacao",
       "label": "Resistência\n(Una Cum)",
       "grupo": "classificacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -612,
       "y": 1462.5
     },
@@ -762,11 +525,6 @@
       "categoria": "classificacao",
       "label": "Sedevacantismo\nTotalista",
       "grupo": "classificacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 479,
       "y": 1462.5
     },
@@ -776,11 +534,6 @@
       "categoria": "classificacao",
       "label": "Sedeprivacionismo\n(Cassiciacum)",
       "grupo": "classificacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1014,
       "y": 1387.5
     },
@@ -790,11 +543,6 @@
       "categoria": "classificacao",
       "label": "Independente /\nNão Una Cum Parcial",
       "grupo": "classificacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -77,
       "y": 1387.5
     },
@@ -804,10 +552,6 @@
       "categoria": "instituicao",
       "label": "FSSPX",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1313,
       "y": 1612.5
     },
@@ -817,10 +561,6 @@
       "categoria": "instituicao",
       "label": "SAJM",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1526,
       "y": 1537.5
     },
@@ -830,10 +570,6 @@
       "categoria": "instituicao",
       "label": "Inst. Mater Boni\nConsilii",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 823,
       "y": 1537.5
     },
@@ -843,10 +579,6 @@
       "categoria": "instituicao",
       "label": "Most Holy Trinity\nSeminary",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -488,
       "y": 1612.5
     },
@@ -856,10 +588,6 @@
       "categoria": "instituicao",
       "label": "St. Gertrude\nthe Great",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -974,
       "y": 1537.5
     },
@@ -869,10 +597,6 @@
       "categoria": "instituicao",
       "label": "Mosteiro\nda Santa Cruz (1987)",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 1351,
       "y": 1612.5
     },
@@ -882,11 +606,6 @@
       "categoria": "instituicao",
       "label": "Seminário São José",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 372,
       "y": 1612.5
     },
@@ -896,10 +615,6 @@
       "categoria": "instituicao",
       "label": "Missões Cristo Rei",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -30,
       "y": 1537.5
     },
@@ -909,10 +624,6 @@
       "categoria": "instituicao",
       "label": "Mosteiro Santo Elias",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -570,
       "y": 1687.5
     },
@@ -922,10 +633,6 @@
       "categoria": "instituicao",
       "label": "Capela São Vicente\nde Paulo",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 1007,
       "y": 1762.5
     },
@@ -935,10 +642,6 @@
       "categoria": "instituicao",
       "label": "Capelania Santa\nMaria Madalena",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 458,
       "y": 1687.5
     },
@@ -948,10 +651,6 @@
       "categoria": "instituicao",
       "label": "Priorado\nSanta Teresinha",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1682,
       "y": 1687.5
     },
@@ -961,10 +660,6 @@
       "categoria": "instituicao",
       "label": "Capelania N. Sra do\nPerpétuo Socorro",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -1112,
       "y": 1762.5
     },
@@ -974,10 +669,6 @@
       "categoria": "instituicao",
       "label": "Redentoristas Transalpinos (Escócia)",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": 1598,
       "y": 1687.5
     },
@@ -987,10 +678,6 @@
       "categoria": "instituicao",
       "label": "Missão Pindamonhangaba (SP)",
       "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14
-      },
       "x": -91,
       "y": 1762.5
     },
@@ -1000,11 +687,6 @@
       "categoria": "localizacao",
       "label": "Estados Unidos",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -519,
       "y": 1837.5
     },
@@ -1014,11 +696,6 @@
       "categoria": "localizacao",
       "label": "França",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1057,
       "y": 1837.5
     },
@@ -1028,11 +705,6 @@
       "categoria": "localizacao",
       "label": "Itália",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1057,
       "y": 1912.5
     },
@@ -1042,11 +714,6 @@
       "categoria": "localizacao",
       "label": "Argentina",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -208,
       "y": 1912.5
     },
@@ -1056,11 +723,6 @@
       "categoria": "localizacao",
       "label": "Canadá",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 589,
       "y": 1912.5
     },
@@ -1070,11 +732,6 @@
       "categoria": "localizacao",
       "label": "Nigéria",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -816,
       "y": 1912.5
     },
@@ -1084,11 +741,6 @@
       "categoria": "localizacao",
       "label": "México",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 823,
       "y": 1837.5
     },
@@ -1098,11 +750,6 @@
       "categoria": "localizacao",
       "label": "B. Horizonte /\nContagem (MG)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 201,
       "y": 1837.5
     },
@@ -1112,11 +759,6 @@
       "categoria": "localizacao",
       "label": "São Paulo (SP)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1246,
       "y": 1987.5
     },
@@ -1126,11 +768,6 @@
       "categoria": "localizacao",
       "label": "Rio de Janeiro (RJ)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -477,
       "y": 1987.5
     },
@@ -1140,11 +777,6 @@
       "categoria": "localizacao",
       "label": "Nova Friburgo (RJ)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1218,
       "y": 2062.5
     },
@@ -1154,11 +786,6 @@
       "categoria": "localizacao",
       "label": "Curitiba (PR)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -103,
       "y": 2062.5
     },
@@ -1168,11 +795,6 @@
       "categoria": "localizacao",
       "label": "Brasília (DF)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 851,
       "y": 1987.5
     },
@@ -1182,11 +804,6 @@
       "categoria": "localizacao",
       "label": "Goiás (GO)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 208,
       "y": 1987.5
     },
@@ -1196,11 +813,6 @@
       "categoria": "localizacao",
       "label": "Campo Grande (MS)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -879,
       "y": 2062.5
     },
@@ -1210,11 +822,6 @@
       "categoria": "localizacao",
       "label": "Sul do Brasil",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 519,
       "y": 2062.5
     }
@@ -2359,7 +1966,15 @@
       "alturaPorFileira": 150,
       "numLinhasInternas": 2,
       "usaQuebraPorEpoca": false,
-      "quebrarSempreEntreCategorias": true
+      "quebrarSempreEntreCategorias": true,
+      "rotulosSubgruposNivel1": {
+        "bispo": "Raízes da Sucessão Apostólica",
+        "bispo-fundacional": "Bispos Fundacionais"
+      },
+      "coresSubgruposNivel1": {
+        "bispo": "rgba(220, 38, 38, 0.4)",
+        "bispo-fundacional": "rgba(124, 58, 237, 0.4)"
+      }
     },
     "cores": {}
   },
@@ -2368,14 +1983,14 @@
     {
       "yInicio": 0,
       "yFim": 150,
-      "label": null,
-      "cor": null
+      "label": "Raízes da Sucessão Apostólica",
+      "cor": "rgba(220, 38, 38, 0.4)"
     },
     {
       "yInicio": 150,
       "yFim": 300,
-      "label": null,
-      "cor": null
+      "label": "Bispos Fundacionais",
+      "cor": "rgba(124, 58, 237, 0.4)"
     },
     {
       "yInicio": 300,
