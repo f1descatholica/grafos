@@ -1,3 +1,4 @@
+
 // ============================================================
 // REGRAS GRAFO "g-padres-nao-una-cum"
 // Migrado do formato antigo (vis.js/renderizarMeuGrafo) para o
@@ -14,7 +15,18 @@ var regrasDoGrafo = {
     nosPorFileira: 8,             // grafo menor que "g-santos" — fileiras mais curtas evitam 1 fila única muito esticada
     alturaPorFileira: 150,
     numLinhasInternas: 2,
-    usaQuebraPorEpoca: false      // desativado por enquanto — datas concentradas no séc. XX/XXI, pouco valor visual
+    usaQuebraPorEpoca: false,     // desativado por enquanto — datas concentradas no séc. XX/XXI, pouco valor visual
+    // 2026-08-10: nível 1 unificado (antigos níveis 1 "Raízes da
+    // Sucessão Apostólica" + 2 "Bispos Fundacionais"), diferenciados
+    // por grupo/categoria — mesmo padrão de cor já usado no g-santos.
+    rotulosSubgruposNivel1: {
+      'bispo': 'Raízes da Sucessão Apostólica',
+      'bispo-fundacional': 'Bispos Fundacionais'
+    },
+    coresSubgruposNivel1: {
+      'bispo': 'rgba(220, 38, 38, 0.4)',
+      'bispo-fundacional': 'rgba(124, 58, 237, 0.4)'
+    }
   },
   cores: {}
 };
@@ -29,88 +41,89 @@ var regrasDoGrafo = {
 
 
 
-var todosNos = [
+// github dados grafo-padres-nao-una-cum
 
+var todosNos = [
 // NÍVEL 1: Raízes da Sucessão Apostólica
 
-{ id: 1, level: 1, categoria: 'bispo', label: 'Scipione Rebiba', grupo: 'bispo', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 2, level: 1, categoria: 'bispo', label: 'Achille Liénart', grupo: 'bispo', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 3, level: 1, categoria: 'bispo', label: 'Pierre Martin Ngô\nĐình Thục', grupo: 'bispo', font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 1, level: 1, categoria: 'bispo', label: 'Scipione Rebiba', grupo: 'bispo' },
+{ id: 2, level: 1, categoria: 'bispo', label: 'Achille Liénart', grupo: 'bispo' },
+{ id: 3, level: 1, categoria: 'bispo', label: 'Pierre Martin Ngô\nĐình Thục', grupo: 'bispo' },
 
-// NÍVEL 2: Bispos Fundacionais
+// NÍVEL 1: Bispos Fundacionais (unificado ao nível 1 em 2026-08-10, categoria/grupo próprios para gerar faixa colorida distinta)
 
-{ id: 4, level: 2, categoria: 'bispo', label: 'Marcel Lefebvre', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 5, level: 2, categoria: 'bispo', label: 'Antônio de\nCastro Mayer', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 6, level: 2, categoria: 'bispo', label: 'Moisés Carmona', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 7, level: 2, categoria: 'bispo', label: 'Robert McKenna', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 8, level: 2, categoria: 'bispo', label: 'Aloísio Lorscheider', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 9, level: 2, categoria: 'bispo', label: 'Orani Tempesta', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
+{ id: 4, level: 1, categoria: 'bispo-fundacional', label: 'Marcel Lefebvre', grupo: 'bispo-fundacional' },
+{ id: 5, level: 1, categoria: 'bispo-fundacional', label: 'Antônio de\nCastro Mayer', grupo: 'bispo-fundacional' },
+{ id: 6, level: 1, categoria: 'bispo-fundacional', label: 'Moisés Carmona', grupo: 'bispo-fundacional' },
+{ id: 7, level: 1, categoria: 'bispo-fundacional', label: 'Robert McKenna', grupo: 'bispo-fundacional' },
+{ id: 8, level: 1, categoria: 'bispo-fundacional', label: 'Aloísio Lorscheider', grupo: 'bispo-fundacional' },
+{ id: 9, level: 1, categoria: 'bispo-fundacional', label: 'Orani Tempesta', grupo: 'bispo-fundacional' },
 
 // NÍVEL 3: 2ª Geração de Bispos
 
-{ id: 10, level: 3, categoria: 'bispo', label: 'Bernard Fellay', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 11, level: 3, categoria: 'bispo', label: 'Alfonso de Galarreta', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 12, level: 3, categoria: 'bispo', label: 'Richard Williamson', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 13, level: 3, categoria: 'bispo', label: 'Bernard Tissier\nde Mallerais', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 14, level: 3, categoria: 'bispo', label: 'Mark Pivarunas', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 15, level: 3, categoria: 'bispo', label: 'Donald Sanborn', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
+{ id: 10, level: 3, categoria: 'bispo', label: 'Bernard Fellay', grupo: 'bispo' },
+{ id: 11, level: 3, categoria: 'bispo', label: 'Alfonso de Galarreta', grupo: 'bispo' },
+{ id: 12, level: 3, categoria: 'bispo', label: 'Richard Williamson', grupo: 'bispo' },
+{ id: 13, level: 3, categoria: 'bispo', label: 'Bernard Tissier\nde Mallerais', grupo: 'bispo' },
+{ id: 14, level: 3, categoria: 'bispo', label: 'Mark Pivarunas', grupo: 'bispo' },
+{ id: 15, level: 3, categoria: 'bispo', label: 'Donald Sanborn', grupo: 'bispo' },
 
 
 
 // NÍVEL 4: 3ª Geração / Bispos Recentes
 
-{ id: 16, level: 4, categoria: 'bispo', label: 'Ernesto Javier Cardozo', grupo: 'bispo', ano: 1980, font: { color: '#ffffff', size: 14 } },
-{ id: 17, level: 4, categoria: 'bispo', label: 'Jean-Michel Faure', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 18, level: 4, categoria: 'bispo', label: 'Dom Tomás de Aquino\nFerreira da Costa', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 19, level: 4, categoria: 'bispo', label: 'Gerardo Zendejas', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 20, level: 4, categoria: 'bispo', label: 'Daniel Dolan', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
-{ id: 21, level: 4, categoria: 'bispo', label: 'Juan José Squetino', grupo: 'bispo', font: { color: '#ffffff', size: 14 } },
+{ id: 16, level: 4, categoria: 'bispo', label: 'Ernesto Javier Cardozo', grupo: 'bispo', ano: 1980 },
+{ id: 17, level: 4, categoria: 'bispo', label: 'Jean-Michel Faure', grupo: 'bispo' },
+{ id: 18, level: 4, categoria: 'bispo', label: 'Dom Tomás de Aquino\nFerreira da Costa', grupo: 'bispo' },
+{ id: 19, level: 4, categoria: 'bispo', label: 'Gerardo Zendejas', grupo: 'bispo' },
+{ id: 20, level: 4, categoria: 'bispo', label: 'Daniel Dolan', grupo: 'bispo' },
+{ id: 21, level: 4, categoria: 'bispo', label: 'Juan José Squetino', grupo: 'bispo' },
 
 
 
 
 // NÍVEL 5: Bispos SUPER recentes
 
-{ id: 22, level: 5, categoria: 'bispo', label: 'Rodrigo da Silva', grupo: 'bispo', ano: 2021, font: { color: '#ffffff', size: 14, bold: true } }, // sagração episcopal 2021 (ordenação sacerdotal 2017)
+{ id: 22, level: 5, categoria: 'bispo', label: 'Rodrigo da Silva', grupo: 'bispo', ano: 2021 }, // sagração episcopal 2021 (ordenação sacerdotal 2017)
 
-{ id: 23, level: 5, categoria: 'bispo', label: 'Charles McGuire (2022)', grupo: 'bispo', ano: 2022, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 24, level: 5, categoria: 'bispo', label: 'Fernando Altamira (2024)', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 25, level: 5, categoria: 'bispo', label: 'Pierre Roy', grupo: 'bispo', ano: 2024, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 26, level: 5, categoria: 'bispo', label: 'Bede Nkamuke', grupo: 'bispo', ano: 2023, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 27, level: 5, categoria: 'bispo', label: 'Merardo Loya', grupo: 'bispo', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
+{ id: 23, level: 5, categoria: 'bispo', label: 'Charles McGuire (2022)', grupo: 'bispo', ano: 2022 },
+{ id: 24, level: 5, categoria: 'bispo', label: 'Fernando Altamira (2024)', grupo: 'bispo', ano: 2024 },
+{ id: 25, level: 5, categoria: 'bispo', label: 'Pierre Roy', grupo: 'bispo', ano: 2024 },
+{ id: 26, level: 5, categoria: 'bispo', label: 'Bede Nkamuke', grupo: 'bispo', ano: 2023 },
+{ id: 27, level: 5, categoria: 'bispo', label: 'Merardo Loya', grupo: 'bispo', ano: 2025 }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
 
-{ id: 28, level: 5, categoria: 'bispo', label: 'Michael Mary, F.S.R.', grupo: 'bispo', ano: 2026, font: { color: '#ffffff', size: 14, bold: true } }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
+{ id: 28, level: 5, categoria: 'bispo', label: 'Michael Mary, F.S.R.', grupo: 'bispo', ano: 2026 }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
 
 
 
 
 // NÍVEL 6: Padres
 
-{ id: 29, level: 6, categoria: 'padre', label: 'Elmo (Francisco\nde Paula)', grupo: 'padre', ano: 1985, font: { color: '#ffffff', size: 14 } },
-{ id: 30, level: 6, categoria: 'padre', label: 'Frei Tiago de\nSão José', grupo: 'padre', ano: 1995, font: { color: '#ffffff', size: 14 } },
-{ id: 31, level: 6, categoria: 'padre', label: 'João Dorival', grupo: 'padre', ano: 1998, font: { color: '#ffffff', size: 14 } },
-{ id: 32, level: 6, categoria: 'padre', label: 'Gilberto Ferreira', grupo: 'padre', ano: 2001, font: { color: '#ffffff', size: 14 } },
-{ id: 33, level: 6, categoria: 'padre', label: 'Gabriel Spínola', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 34, level: 6, categoria: 'padre', label: 'Frei Pedro Maria', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 35, level: 6, categoria: 'padre', label: 'Marcelo Tenório', grupo: 'padre', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 36, level: 6, categoria: 'padre', label: 'Dom Joaquim\n(Prior)', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 37, level: 6, categoria: 'padre', label: 'Dom Inácio', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 38, level: 6, categoria: 'padre', label: 'José Eduardo de\nOliveira', grupo: 'padre', ano: 2002, font: { color: '#ffffff', size: 14 } },
-{ id: 39, level: 6, categoria: 'padre', label: 'Leonardo Holtz\nPeixoto (2022)', grupo: 'padre', ano: 2004, font: { color: '#ffffff', size: 14 } },
-{ id: 40, level: 6, categoria: 'padre', label: 'Anselmo de Oliveira', grupo: 'padre', ano: 2008, font: { color: '#ffffff', size: 14 } },
-{ id: 41, level: 6, categoria: 'padre', label: 'Angelo Mello de\nCarvalho', grupo: 'padre', ano: 2010, font: { color: '#ffffff', size: 14 } },
-{ id: 42, level: 6, categoria: 'padre', label: 'Pedro Patrício', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 43, level: 6, categoria: 'padre', label: 'Leandro Neves', grupo: 'padre', ano: 2012, font: { color: '#ffffff', size: 14 } },
-{ id: 44, level: 6, categoria: 'padre', label: 'Victor Rodrigues', grupo: 'padre', ano: 2015, font: { color: '#ffffff', size: 14 } },
-{ id: 45, level: 6, categoria: 'padre', label: 'Carlos Zúñiga', grupo: 'padre', ano: 2017, font: { color: '#ffffff', size: 14 } },
-{ id: 46, level: 6, categoria: 'padre', label: 'Mateus Pereira', grupo: 'padre', ano: 2018, font: { color: '#ffffff', size: 14 } },
-{ id: 47, level: 6, categoria: 'padre', label: 'Pe. Jahir', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 48, level: 6, categoria: 'padre', label: 'Thiago Bonifácio', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 49, level: 6, categoria: 'padre', label: 'Lucas Prados', grupo: 'padre', font: { color: '#ffffff', size: 14 } },
-{ id: 50, level: 6, categoria: 'padre', label: 'João Maria Vianney (2025)', grupo: 'padre', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 51, level: 6, categoria: 'padre', label: 'Pacífico Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 52, level: 6, categoria: 'padre', label: 'Dimas Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026, font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 88, level: 6, categoria: 'padre', label: 'Wagner Joseph', grupo: 'padre', ano: 2025, font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 29, level: 6, categoria: 'padre', label: 'Elmo (Francisco\nde Paula)', grupo: 'padre', ano: 1985 },
+{ id: 30, level: 6, categoria: 'padre', label: 'Frei Tiago de\nSão José', grupo: 'padre', ano: 1995 },
+{ id: 31, level: 6, categoria: 'padre', label: 'João Dorival', grupo: 'padre', ano: 1998 },
+{ id: 32, level: 6, categoria: 'padre', label: 'Gilberto Ferreira', grupo: 'padre', ano: 2001 },
+{ id: 33, level: 6, categoria: 'padre', label: 'Gabriel Spínola', grupo: 'padre' },
+{ id: 34, level: 6, categoria: 'padre', label: 'Frei Pedro Maria', grupo: 'padre' },
+{ id: 35, level: 6, categoria: 'padre', label: 'Marcelo Tenório', grupo: 'padre' },
+{ id: 36, level: 6, categoria: 'padre', label: 'Dom Joaquim\n(Prior)', grupo: 'padre' },
+{ id: 37, level: 6, categoria: 'padre', label: 'Dom Inácio', grupo: 'padre' },
+{ id: 38, level: 6, categoria: 'padre', label: 'José Eduardo de\nOliveira', grupo: 'padre', ano: 2002 },
+{ id: 39, level: 6, categoria: 'padre', label: 'Leonardo Holtz\nPeixoto (2022)', grupo: 'padre', ano: 2004 },
+{ id: 40, level: 6, categoria: 'padre', label: 'Anselmo de Oliveira', grupo: 'padre', ano: 2008 },
+{ id: 41, level: 6, categoria: 'padre', label: 'Angelo Mello de\nCarvalho', grupo: 'padre', ano: 2010 },
+{ id: 42, level: 6, categoria: 'padre', label: 'Pedro Patrício', grupo: 'padre' },
+{ id: 43, level: 6, categoria: 'padre', label: 'Leandro Neves', grupo: 'padre', ano: 2012 },
+{ id: 44, level: 6, categoria: 'padre', label: 'Victor Rodrigues', grupo: 'padre', ano: 2015 },
+{ id: 45, level: 6, categoria: 'padre', label: 'Carlos Zúñiga', grupo: 'padre', ano: 2017 },
+{ id: 46, level: 6, categoria: 'padre', label: 'Mateus Pereira', grupo: 'padre', ano: 2018 },
+{ id: 47, level: 6, categoria: 'padre', label: 'Pe. Jahir', grupo: 'padre' },
+{ id: 48, level: 6, categoria: 'padre', label: 'Thiago Bonifácio', grupo: 'padre' },
+{ id: 49, level: 6, categoria: 'padre', label: 'Lucas Prados', grupo: 'padre' },
+{ id: 50, level: 6, categoria: 'padre', label: 'João Maria Vianney (2025)', grupo: 'padre', ano: 2025 },
+{ id: 51, level: 6, categoria: 'padre', label: 'Pacífico Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026 },
+{ id: 52, level: 6, categoria: 'padre', label: 'Dimas Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026 },
+{ id: 88, level: 6, categoria: 'padre', label: 'Wagner Joseph', grupo: 'padre', ano: 2025 },
 
 
 
@@ -118,64 +131,54 @@ var todosNos = [
 
 // NÍVEL 7: Classificações Teológicas
 
-{ id: 53, level: 7, categoria: 'classificacao', label: 'Tradicionalismo\nUna Cum', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 54, level: 7, categoria: 'classificacao', label: 'Resistência\n(Una Cum)', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 55, level: 7, categoria: 'classificacao', label: 'Sedevacantismo\nTotalista', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 56, level: 7, categoria: 'classificacao', label: 'Sedeprivacionismo\n(Cassiciacum)', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 57, level: 7, categoria: 'classificacao', label: 'Independente /\nNão Una Cum Parcial', grupo: 'classificacao', font: { color: '#ffffff', size: 14, bold: true } },
+{ id: 53, level: 7, categoria: 'classificacao', label: 'Tradicionalismo\nUna Cum', grupo: 'classificacao' },
+{ id: 54, level: 7, categoria: 'classificacao', label: 'Resistência\n(Una Cum)', grupo: 'classificacao' },
+{ id: 55, level: 7, categoria: 'classificacao', label: 'Sedevacantismo\nTotalista', grupo: 'classificacao' },
+{ id: 56, level: 7, categoria: 'classificacao', label: 'Sedeprivacionismo\n(Cassiciacum)', grupo: 'classificacao' },
+{ id: 57, level: 7, categoria: 'classificacao', label: 'Independente /\nNão Una Cum Parcial', grupo: 'classificacao' },
 
 
 // NÍVEL 8: Instituições e Seminários Independentes
 
-{ id: 58, level: 8, categoria: 'instituicao', label: 'FSSPX', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 59, level: 8, categoria: 'instituicao', label: 'SAJM', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 60, level: 8, categoria: 'instituicao', label: 'Inst. Mater Boni\nConsilii', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 61, level: 8, categoria: 'instituicao', label: 'Most Holy Trinity\nSeminary', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 62, level: 8, categoria: 'instituicao', label: 'St. Gertrude\nthe Great', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 63, level: 8, categoria: 'instituicao', label: 'Mosteiro\nda Santa Cruz (1987)', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 64, level: 8, categoria: 'instituicao', label: 'Seminário São José', grupo: 'instituicao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 65, level: 8, categoria: 'instituicao', label: 'Missões Cristo Rei', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 66, level: 8, categoria: 'instituicao', label: 'Mosteiro Santo Elias', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 67, level: 8, categoria: 'instituicao', label: 'Capela São Vicente\nde Paulo', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 68, level: 8, categoria: 'instituicao', label: 'Capelania Santa\nMaria Madalena', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 69, level: 8, categoria: 'instituicao', label: 'Priorado\nSanta Teresinha', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 70, level: 8, categoria: 'instituicao', label: 'Capelania N. Sra do\nPerpétuo Socorro', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 71, level: 8, categoria: 'instituicao', label: 'Redentoristas Transalpinos (Escócia)', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
-{ id: 89, level: 8, categoria: 'instituicao', label: 'Missão Pindamonhangaba (SP)', grupo: 'instituicao', font: { color: '#ffffff', size: 14 } },
+{ id: 58, level: 8, categoria: 'instituicao', label: 'FSSPX', grupo: 'instituicao' },
+{ id: 59, level: 8, categoria: 'instituicao', label: 'SAJM', grupo: 'instituicao' },
+{ id: 60, level: 8, categoria: 'instituicao', label: 'Inst. Mater Boni\nConsilii', grupo: 'instituicao' },
+{ id: 61, level: 8, categoria: 'instituicao', label: 'Most Holy Trinity\nSeminary', grupo: 'instituicao' },
+{ id: 62, level: 8, categoria: 'instituicao', label: 'St. Gertrude\nthe Great', grupo: 'instituicao' },
+{ id: 63, level: 8, categoria: 'instituicao', label: 'Mosteiro\nda Santa Cruz (1987)', grupo: 'instituicao' },
+{ id: 64, level: 8, categoria: 'instituicao', label: 'Seminário São José', grupo: 'instituicao' },
+{ id: 65, level: 8, categoria: 'instituicao', label: 'Missões Cristo Rei', grupo: 'instituicao' },
+{ id: 66, level: 8, categoria: 'instituicao', label: 'Mosteiro Santo Elias', grupo: 'instituicao' },
+{ id: 67, level: 8, categoria: 'instituicao', label: 'Capela São Vicente\nde Paulo', grupo: 'instituicao' },
+{ id: 68, level: 8, categoria: 'instituicao', label: 'Capelania Santa\nMaria Madalena', grupo: 'instituicao' },
+{ id: 69, level: 8, categoria: 'instituicao', label: 'Priorado\nSanta Teresinha', grupo: 'instituicao' },
+{ id: 70, level: 8, categoria: 'instituicao', label: 'Capelania N. Sra do\nPerpétuo Socorro', grupo: 'instituicao' },
+{ id: 71, level: 8, categoria: 'instituicao', label: 'Redentoristas Transalpinos (Escócia)', grupo: 'instituicao' },
+{ id: 89, level: 8, categoria: 'instituicao', label: 'Missão Pindamonhangaba (SP)', grupo: 'instituicao' },
 
 
 // NÍVEL 9: Localizações
 
 // Escócia
-{ id: 72, level: 9, categoria: 'localizacao', label: 'Estados Unidos', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 73, level: 9, categoria: 'localizacao', label: 'França', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 74, level: 9, categoria: 'localizacao', label: 'Itália', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 75, level: 9, categoria: 'localizacao', label: 'Argentina', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 76, level: 9, categoria: 'localizacao', label: 'Canadá', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 77, level: 9, categoria: 'localizacao', label: 'Nigéria', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 78, level: 9, categoria: 'localizacao', label: 'México', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 79, level: 9, categoria: 'localizacao', label: 'B. Horizonte /\nContagem (MG)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 80, level: 9, categoria: 'localizacao', label: 'São Paulo (SP)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 81, level: 9, categoria: 'localizacao', label: 'Rio de Janeiro (RJ)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 82, level: 9, categoria: 'localizacao', label: 'Nova Friburgo (RJ)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 83, level: 9, categoria: 'localizacao', label: 'Curitiba (PR)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 84, level: 9, categoria: 'localizacao', label: 'Brasília (DF)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 85, level: 9, categoria: 'localizacao', label: 'Goiás (GO)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 86, level: 9, categoria: 'localizacao', label: 'Campo Grande (MS)', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } },
-{ id: 87, level: 9, categoria: 'localizacao', label: 'Sul do Brasil', grupo: 'localizacao', font: { color: '#ffffff', size: 14, bold: true } }
+{ id: 72, level: 9, categoria: 'localizacao', label: 'Estados Unidos', grupo: 'localizacao' },
+{ id: 73, level: 9, categoria: 'localizacao', label: 'França', grupo: 'localizacao' },
+{ id: 74, level: 9, categoria: 'localizacao', label: 'Itália', grupo: 'localizacao' },
+{ id: 75, level: 9, categoria: 'localizacao', label: 'Argentina', grupo: 'localizacao' },
+{ id: 76, level: 9, categoria: 'localizacao', label: 'Canadá', grupo: 'localizacao' },
+{ id: 77, level: 9, categoria: 'localizacao', label: 'Nigéria', grupo: 'localizacao' },
+{ id: 78, level: 9, categoria: 'localizacao', label: 'México', grupo: 'localizacao' },
+{ id: 79, level: 9, categoria: 'localizacao', label: 'B. Horizonte /\nContagem (MG)', grupo: 'localizacao' },
+{ id: 80, level: 9, categoria: 'localizacao', label: 'São Paulo (SP)', grupo: 'localizacao' },
+{ id: 81, level: 9, categoria: 'localizacao', label: 'Rio de Janeiro (RJ)', grupo: 'localizacao' },
+{ id: 82, level: 9, categoria: 'localizacao', label: 'Nova Friburgo (RJ)', grupo: 'localizacao' },
+{ id: 83, level: 9, categoria: 'localizacao', label: 'Curitiba (PR)', grupo: 'localizacao' },
+{ id: 84, level: 9, categoria: 'localizacao', label: 'Brasília (DF)', grupo: 'localizacao' },
+{ id: 85, level: 9, categoria: 'localizacao', label: 'Goiás (GO)', grupo: 'localizacao' },
+{ id: 86, level: 9, categoria: 'localizacao', label: 'Campo Grande (MS)', grupo: 'localizacao' },
+{ id: 87, level: 9, categoria: 'localizacao', label: 'Sul do Brasil', grupo: 'localizacao' }
 ];
 
 // ultimo numero utilizado 89
-
-
-
-
-
-
-
-
-
-
 
 
 
