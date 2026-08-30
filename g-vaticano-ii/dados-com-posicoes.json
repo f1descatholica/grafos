@@ -1147,7 +1147,15 @@
       "alturaPorFileira": 150,
       "numLinhasInternas": 2,
       "usaQuebraPorEpoca": false,
-      "quebrarSempreEntreCategorias": true
+      "quebrarSempreEntreCategorias": true,
+      "rotulosSubgruposNivel1": {
+        "papa": "Papa",
+        "documento": "Documento"
+      },
+      "coresSubgruposNivel1": {
+        "papa": "rgba(220, 38, 38, 0.4)",
+        "documento": "rgba(124, 58, 237, 0.4)"
+      }
     },
     "cores": {}
   },
@@ -1155,9 +1163,15 @@
   "bandasNiveis": [
     {
       "yInicio": 0,
+      "yFim": 150,
+      "label": "Papa",
+      "cor": "rgba(220, 38, 38, 0.4)"
+    },
+    {
+      "yInicio": 150,
       "yFim": 300,
-      "label": null,
-      "cor": null
+      "label": "Documento",
+      "cor": "rgba(124, 58, 237, 0.4)"
     },
     {
       "yInicio": 300,
