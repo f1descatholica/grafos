@@ -221,7 +221,7 @@ var todosSetas = [
 
   // ---- João Paulo II ----
   { from: 'JP2', to: 'CAT', title: 'promulgou síntese oficial', texto: 'promulgou síntese oficial' },
-  { from: 'JP2', to: 'LEF', title: 'excomungou por sagrações ilícitas', texto: 'excomungou por sagrações' },
+  { from: 'JP2', to: 'LEF', title: 'excomungou por sagrações ilícitas', texto: 'excomungou por sagrações ilícitas' },
   { from: 'FSSPX', to: 'LEF', title: 'cisma formalizado por', texto: 'cisma formalizado por' },
   { from: 'JP2', to: 'ED', title: 'criou alternativa à FSSPX', texto: 'criou alternativa à FSSPX' },
   { from: 'TL', to: 'JP2', title: 'condenada e freada por', texto: 'condenada e freada por', dashes: true },
@@ -230,7 +230,7 @@ var todosSetas = [
   { from: 'RAT', to: 'B16', title: 'eleito papa', texto: 'eleito papa' },
   { from: 'B16', to: 'HER', title: 'filosofia de governo', texto: 'filosofia de governo' },
   { from: 'B16', to: 'SUM', title: 'ato de reconciliação', texto: 'ato de reconciliação' },
-  { from: 'B16', to: 'LEF', title: 'excomunhão anulada', texto: 'ato de reconciliação' },
+  { from: 'B16', to: 'LEF', title: 'excomunhão anulada', texto: 'excomunhão anulada' },
 
 
   // ---- Francisco ----
