@@ -1121,8 +1121,8 @@
       "numLinhasInternas": 2,
       "usaQuebraPorEpoca": false,
       "quebrarSempreEntreCategorias": true,
-      "coresSubgruposNivel1": {
-        "n1": "rgba(220, 38, 38, 0.4)"
+      "coresNiveis": {
+        "1": "rgba(220, 38, 38, 0.4)"
       }
     },
     "cores": {}
