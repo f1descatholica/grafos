@@ -1,4 +1,5 @@
 
+
 // ============================================================
 // REGRAS GRAFO "g-vaticano-ii"
 // ============================================================
@@ -16,16 +17,26 @@ var regrasDoGrafo = {
     rotulosSubgruposNivel1: {
       'papa1': 'Papas da tradição',
       'papa2': 'Papas pró-vaticano II'
-	  'cardeal_reformista': 'Cardeais reformistas'
-	  'cardeal_conservador': Cardeais conservadores'
     },
     coresSubgruposNivel1: {
       'papa1': 'rgba(220, 38, 38, 0.4)',
       'papa2': 'rgba(124, 58, 237, 0.4)'
+    },
+    // 2026-08-10: rótulo de texto para os demais níveis (sem cor de
+    // faixa, só o texto — mecanismo separado do nível 1). Ajuste os
+    // textos conforme o conteúdo real de cada nível deste grafo.
+    rotulosNiveis: {
+      2: 'Cardeais',
+      3: 'Peritos',
+      4: 'Eventos',
+      5: 'Movimentos / Comissões',
+      6: 'Documentos',
+      7: 'Filosofia / Agenda'
     }
   },
   cores: {}
 };
+
 
 
 
