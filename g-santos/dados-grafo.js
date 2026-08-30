@@ -25,19 +25,28 @@ var regrasDoGrafo = {
       8: 'Locais',
       9: 'Fenômenos, Relíquias e Iconografia'
     },
+    // 2026-08-10: migrado de rotulosSubgruposNivel1/coresSubgruposNivel1
+    // (formato antigo, restrito ao nível 1) para o mecanismo genérico
+    // subgruposPorNivel — mesmo padrão agora usado em todos os grafos
+    // (g-padres-nao-una-cum, g-vaticano-ii). Sem mudança de comportamento
+    // aqui: só o nível 1 usa subgrupo neste grafo.
     // NOTA (observado após implementação): apesar de 'ideia' (títulos)
     // vir processado ANTES de 'documento' (meses) na ordem dos dados,
     // a inversão do eixo Y no motor (y: -(n.y||0)) fez 'documento'
     // renderizar ACIMA de 'ideia' na tela — o oposto do que a ordem
     // lógica sugeriria. Não corrigido pois não trouxe problema visual;
     // ideia=vermelho ficou embaixo, documento=roxo ficou em cima.
-    rotulosSubgruposNivel1: {
-      ideia: 'Títulos dos Santos',
-      documento: 'Meses'
-    },
-    coresSubgruposNivel1: {
-      ideia: 'rgba(220, 38, 38, 0.4)',      // era âmbar 0.08 -> agora vermelho, opacidade +20%
-      documento: 'rgba(124, 58, 237, 0.4)'  // mesma cor, opacidade +20% (0.08 -> 0.096)
+    subgruposPorNivel: {
+      1: {
+        rotulos: {
+          ideia: 'Títulos dos Santos',
+          documento: 'Meses'
+        },
+        cores: {
+          ideia: 'rgba(220, 38, 38, 0.4)',      // era âmbar 0.08 -> agora vermelho, opacidade +20%
+          documento: 'rgba(124, 58, 237, 0.4)'  // mesma cor, opacidade +20% (0.08 -> 0.096)
+        }
+      }
     }
   },
   // Cores fixas tudo na paleta automatica, nenhuma regra especifica
