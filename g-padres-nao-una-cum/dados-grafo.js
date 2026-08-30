@@ -18,14 +18,20 @@ var regrasDoGrafo = {
     usaQuebraPorEpoca: false,     // desativado por enquanto — datas concentradas no séc. XX/XXI, pouco valor visual
     // 2026-08-10: nível 1 unificado (antigos níveis 1 "Raízes da
     // Sucessão Apostólica" + 2 "Bispos Fundacionais"), diferenciados
-    // por grupo/categoria — mesmo padrão de cor já usado no g-santos.
-    rotulosSubgruposNivel1: {
-      'bispo': 'Raízes da Sucessão Apostólica',
-      'bispo-fundacional': 'Bispos Fundacionais'
-    },
-    coresSubgruposNivel1: {
-      'bispo': 'rgba(220, 38, 38, 0.4)',
-      'bispo-fundacional': 'rgba(124, 58, 237, 0.4)'
+    // por grupo/categoria — migrado para o mecanismo genérico
+    // subgruposPorNivel (equivalente a rotulosSubgruposNivel1/
+    // coresSubgruposNivel1, mas não mais restrito ao nível 1).
+    subgruposPorNivel: {
+      1: {
+        rotulos: {
+          'bispo': 'Raízes da Sucessão Apostólica',
+          'bispo-fundacional': 'Bispos Fundacionais'
+        },
+        cores: {
+          'bispo': 'rgba(220, 38, 38, 0.4)',
+          'bispo-fundacional': 'rgba(124, 58, 237, 0.4)'
+        }
+      }
     }
   },
   cores: {}
