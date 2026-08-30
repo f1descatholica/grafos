@@ -18,11 +18,21 @@ var regrasDoGrafo = {
     nosPorFileira: 12,
     alturaPorFileira: 150,
     numLinhasInternas: 2,
-    usaQuebraPorEpoca: false
+    usaQuebraPorEpoca: false,
+    // 2026-08-10: nível 1 já tem 2 categorias naturais (papa, documento)
+    // — mesmo padrão de cor já usado no g-santos e no
+    // g-padres-nao-una-cum, sem precisar mexer em nenhum nó.
+    rotulosSubgruposNivel1: {
+      'papa': 'Papa',
+      'documento': 'Documento'
+    },
+    coresSubgruposNivel1: {
+      'papa': 'rgba(220, 38, 38, 0.4)',
+      'documento': 'rgba(124, 58, 237, 0.4)'
+    }
   },
   cores: {}
 };
-
 
 
 
