@@ -348,10 +348,17 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
   // Bandas de nível: linha divisória + nome (níveis nomeados em
   // regras.layout.rotulosNiveis) e, no nível 1, subgrupos coloridos
   // por categoria (regras.layout.rotulosSubgruposNivel1/coresSubgruposNivel1).
+  // 2026-08-10: mesma generalização aplicada no motor (runtime) —
+  // subgruposPorNivel funciona em QUALQUER nível (aditivo, não quebra
+  // g-santos nem g-padres-nao-una-cum, que continuam usando
+  // rotulosSubgruposNivel1/coresSubgruposNivel1 só no nível 1).
+  // coresNiveis pinta o nível INTEIRO sem subdividir por categoria.
   var bandasNiveis = [];
   var rotulosNiveisCfg = regras.layout.rotulosNiveis || {};
+  var coresNiveisCfg = regras.layout.coresNiveis || {};
   var rotulosSubNivel1Cfg = regras.layout.rotulosSubgruposNivel1 || {};
   var coresSubNivel1Cfg = regras.layout.coresSubgruposNivel1 || {};
+  var subgruposPorNivelCfg = regras.layout.subgruposPorNivel || {};
 
   listaNiveis.forEach(function(lvl) {
     var fileirasDoNivel = fileirasPorNivel[lvl];
@@ -359,7 +366,12 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     var yTopoNivel = yBasePorNivel[lvl];
     var yFimNivel = yBasePorNivel[lvl] + alturaTotalPorNivel[lvl];
 
-    if (lvl === 1 && Object.keys(rotulosSubNivel1Cfg).length > 0) {
+    var subgrupoDesteNivel = subgruposPorNivelCfg[lvl] || null;
+    var rotulosSubCfg = subgrupoDesteNivel ? (subgrupoDesteNivel.rotulos || {}) : (lvl === 1 ? rotulosSubNivel1Cfg : {});
+    var coresSubCfg = subgrupoDesteNivel ? (subgrupoDesteNivel.cores || {}) : (lvl === 1 ? coresSubNivel1Cfg : {});
+    var temSubgrupo = Object.keys(rotulosSubCfg).length > 0 || Object.keys(coresSubCfg).length > 0;
+
+    if (temSubgrupo) {
       var categoriaAtualSub = null;
       var yInicioSub = null;
       fileirasDoNivel.forEach(function(fileira, idxFileira) {
@@ -370,8 +382,8 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
             bandasNiveis.push({
               yInicio: yInicioSub,
               yFim: yTopoFileira,
-              label: rotulosSubNivel1Cfg[categoriaAtualSub] || null,
-              cor: coresSubNivel1Cfg[categoriaAtualSub] || null
+              label: rotulosSubCfg[categoriaAtualSub] || null,
+              cor: coresSubCfg[categoriaAtualSub] || null
             });
           }
           categoriaAtualSub = categoriaDaFileira;
@@ -382,8 +394,8 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
         bandasNiveis.push({
           yInicio: yInicioSub,
           yFim: yFimNivel,
-          label: rotulosSubNivel1Cfg[categoriaAtualSub] || null,
-          cor: coresSubNivel1Cfg[categoriaAtualSub] || null
+          label: rotulosSubCfg[categoriaAtualSub] || null,
+          cor: coresSubCfg[categoriaAtualSub] || null
         });
       }
     } else {
@@ -391,7 +403,7 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
         yInicio: yTopoNivel,
         yFim: yFimNivel,
         label: rotulosNiveisCfg[lvl] || null,
-        cor: null
+        cor: coresNiveisCfg[lvl] || null
       });
     }
   });
