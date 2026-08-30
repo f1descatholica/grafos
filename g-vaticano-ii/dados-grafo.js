@@ -1,3 +1,4 @@
+
 // ============================================================
 // REGRAS GRAFO "g-vaticano-ii"
 // ============================================================
@@ -15,6 +16,8 @@ var regrasDoGrafo = {
     rotulosSubgruposNivel1: {
       'papa1': 'Papas da tradição',
       'papa2': 'Papas pró-vaticano II'
+	  'cardeal_reformista': 'Cardeais reformistas'
+	  'cardeal_conservador': Cardeais conservadores'
     },
     coresSubgruposNivel1: {
       'papa1': 'rgba(220, 38, 38, 0.4)',
@@ -23,6 +26,7 @@ var regrasDoGrafo = {
   },
   cores: {}
 };
+
 
 
 
@@ -78,33 +82,30 @@ var todosNos = [
   { id: 'DH', level: 6, categoria: 'documento', label: 'Dignitatis Humanae', ano: 1965, grupo: 'documento' },
   { id: 'NA', level: 6, categoria: 'documento', label: 'Nostra Aetate', ano: 1965, grupo: 'documento' },
   { id: 'UR', level: 6, categoria: 'documento', label: 'Unitatis Redintegratio', ano: 1964, grupo: 'documento' },
-  { id: 'NOM', level: 7, categoria: 'pos_concilio', label: 'Novus Ordo Missae', ano: 1969, grupo: 'pos_concilio' },
-  { id: 'TL', level: 7, categoria: 'pos_concilio', label: 'Teologia da Libertação', grupo: 'pos_concilio' },
-  { id: 'FSSPX', level: 7, categoria: 'pos_concilio', label: 'Fraternidade São Pio X', ano: 1970, grupo: 'pos_concilio' },
+  { id: 'NOM', level: 6, categoria: 'documento', label: 'Novus Ordo Missae', ano: 1969, grupo: 'documento' },
+  { id: 'TL', level: 5, categoria: 'movimento', label: 'Teologia da Libertação', grupo: 'movimento' },
+  { id: 'FSSPX', level: 5, categoria: 'movimento', label: 'Fraternidade São Pio X', ano: 1970, grupo: 'movimento' },
 
   // ===== João Paulo II =====
   { id: 'JP2', level: 1, categoria: 'papa2', label: 'João Paulo II', ano: 1978, grupo: 'papa' },
-  { id: 'CAT', level: 6, categoria: 'pos_concilio', label: 'Catecismo da Igreja Católica', ano: 1992, grupo: 'pos_concilio' },
-  { id: 'EXC', level: 5, categoria: 'guerra_liturgica', label: 'Excomunhão de Lefebvre', ano: 1988, grupo: 'guerra_liturgica' },
-  { id: 'ED', level: 7, categoria: 'pos_concilio', label: 'Comissão Ecclesia Dei', ano: 1988, grupo: 'pos_concilio' },
+  { id: 'CAT', level: 6, categoria: 'documento', label: 'Catecismo da Igreja Católica', ano: 1992, grupo: 'documento' },
+  { id: 'ED', level: 5, categoria: 'comissao', label: 'Comissão Ecclesia Dei', ano: 1988, grupo: 'comissao' },
 
   // ===== Bento XVI =====
   { id: 'B16', level: 1, categoria: 'papa2', label: 'Bento XVI', ano: 2005, grupo: 'papa' },
-  { id: 'HER', level: 7, categoria: 'pos_concilio', label: 'Hermenêutica da Continuidade', ano: 2005, grupo: 'pos_concilio' },
-  { id: 'SUM', level: 6, categoria: 'guerra_liturgica', label: 'Summorum Pontificum', ano: 2007, grupo: 'guerra_liturgica' },
-  { id: 'FEX', level: 7, categoria: 'pos_concilio', label: 'Fim da Excomunhão de Lefebvre', ano: 2009, grupo: 'pos_concilio' },
+  { id: 'HER', level: 7, categoria: 'filosofia', label: 'Hermenêutica da Continuidade', ano: 2005, grupo: 'filosofia' },
+  { id: 'SUM', level: 6, categoria: 'documento', label: 'Summorum Pontificum', ano: 2007, grupo: 'guerra_liturgica' },
 
   // ===== Francisco =====
   { id: 'FR', level: 1, categoria: 'papa2', label: 'Francisco', ano: 2013, grupo: 'papa' },
-  { id: 'SIN', level: 4, categoria: 'pos_concilio', label: 'Sínodo sobre a Sinodalidade', ano: 2021, grupo: 'pos_concilio' },
-  { id: 'TC', level: 7, categoria: 'guerra_liturgica', label: 'Traditionis Custodes', ano: 2021, grupo: 'guerra_liturgica' },
-  { id: 'AMO', level: 5, categoria: 'pos_concilio', label: 'Amoris Laetitia / Fiducia Supplicans', grupo: 'pos_concilio' },
+  { id: 'SIN', level: 4, categoria: 'evento', label: 'Sínodo sobre a Sinodalidade', ano: 2021, grupo: 'evento' },
+  { id: 'TC', level: 6, categoria: 'documento', label: 'Traditionis Custodes', ano: 2021, grupo: 'guerra_liturgica' },
+  { id: 'AMO', level: 6, categoria: 'documento', label: 'Amoris Laetitia / Fiducia Supplicans', grupo: 'documento' },
 
   // ===== Leão XIV =====
   { id: 'L14', level: 1, categoria: 'papa2', label: 'Leão XIV', ano: 2025, grupo: 'papa' },
-  { id: 'AG30', level: 7, categoria: 'pos_concilio', label: 'Agenda 2030 / ODS da ONU', ano: 2025, grupo: 'pos_concilio' }
+  { id: 'AG30', level: 7, categoria: 'filosofia', label: 'Agenda 2030 / ODS da ONU', ano: 2025, grupo: 'filosofia' }
 ];
-
 
 
 
@@ -220,8 +221,8 @@ var todosSetas = [
 
   // ---- João Paulo II ----
   { from: 'JP2', to: 'CAT', title: 'promulgou síntese oficial', texto: 'promulgou síntese oficial' },
-  { from: 'JP2', to: 'EXC', title: 'excomungou por sagrações ilícitas', texto: 'excomungou por sagrações' },
-  { from: 'FSSPX', to: 'EXC', title: 'cisma formalizado por', texto: 'cisma formalizado por' },
+  { from: 'JP2', to: 'LEF', title: 'excomungou por sagrações ilícitas', texto: 'excomungou por sagrações' },
+  { from: 'FSSPX', to: 'LEF', title: 'cisma formalizado por', texto: 'cisma formalizado por' },
   { from: 'JP2', to: 'ED', title: 'criou alternativa à FSSPX', texto: 'criou alternativa à FSSPX' },
   { from: 'TL', to: 'JP2', title: 'condenada e freada por', texto: 'condenada e freada por', dashes: true },
 
@@ -229,8 +230,8 @@ var todosSetas = [
   { from: 'RAT', to: 'B16', title: 'eleito papa', texto: 'eleito papa' },
   { from: 'B16', to: 'HER', title: 'filosofia de governo', texto: 'filosofia de governo' },
   { from: 'B16', to: 'SUM', title: 'ato de reconciliação', texto: 'ato de reconciliação' },
-  { from: 'B16', to: 'FEX', title: 'ato de reconciliação', texto: 'ato de reconciliação' },
-  { from: 'EXC', to: 'FEX', title: 'anulada por', texto: 'anulada por', dashes: true },
+  { from: 'B16', to: 'LEF', title: 'excomunhão anulada', texto: 'ato de reconciliação' },
+
 
   // ---- Francisco ----
   { from: 'FR', to: 'SIN', title: 'expande radicalmente a pastoral de CV2', texto: 'expande pastoral de CV2' },
