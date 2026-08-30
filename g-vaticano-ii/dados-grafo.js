@@ -5,16 +5,15 @@
 var regrasDoGrafo = {
   dicionario: {
     chaveOrdenacao: 'ano',
-    agrupamento: 'categoria' // categoria = grupo em quase todo nó, exceto nível 3 (reformista/conservador/perito, já distintos por grupo)
+    agrupamento: 'categoria'
   },
   layout: {
     nosPorFileira: 12,
     alturaPorFileira: 150,
     numLinhasInternas: 2,
     usaQuebraPorEpoca: false,
-
-    coresSubgruposNivel1: {
-      'n1': 'rgba(220, 38, 38, 0.4)'
+    coresNiveis: {
+      1: 'rgba(220, 38, 38, 0.4)'
     }
   },
   cores: {}
