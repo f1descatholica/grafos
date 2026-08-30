@@ -1967,13 +1967,17 @@
       "numLinhasInternas": 2,
       "usaQuebraPorEpoca": false,
       "quebrarSempreEntreCategorias": true,
-      "rotulosSubgruposNivel1": {
-        "bispo": "Raízes da Sucessão Apostólica",
-        "bispo-fundacional": "Bispos Fundacionais"
-      },
-      "coresSubgruposNivel1": {
-        "bispo": "rgba(220, 38, 38, 0.4)",
-        "bispo-fundacional": "rgba(124, 58, 237, 0.4)"
+      "subgruposPorNivel": {
+        "1": {
+          "rotulos": {
+            "bispo": "Raízes da Sucessão Apostólica",
+            "bispo-fundacional": "Bispos Fundacionais"
+          },
+          "cores": {
+            "bispo": "rgba(220, 38, 38, 0.4)",
+            "bispo-fundacional": "rgba(124, 58, 237, 0.4)"
+          }
+        }
       }
     },
     "cores": {}
