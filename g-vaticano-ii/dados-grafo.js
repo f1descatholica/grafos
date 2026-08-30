@@ -1,13 +1,5 @@
-
-
 // ============================================================
 // REGRAS GRAFO "g-vaticano-ii"
-// Timeline organizada por papa (1 nível = 1 pontificado), do
-// Pio X ao Leão XIV. Recupera a granularidade pessoa->documento
-// da versão inicial + a estrutura de eras da versão mermaid mais
-// recente. Auditoria de conectividade (r7) aplicada: nenhum nó
-// órfão — Pio X e Pio XII conectam à árvore via oposição
-// (dashes:true) aos documentos conciliares que vieram depois.
 // ============================================================
 var regrasDoGrafo = {
   dicionario: {
@@ -19,16 +11,14 @@ var regrasDoGrafo = {
     alturaPorFileira: 150,
     numLinhasInternas: 2,
     usaQuebraPorEpoca: false,
-    // 2026-08-10: nível 1 já tem 2 categorias naturais (papa, documento)
-    // — mesmo padrão de cor já usado no g-santos e no
-    // g-padres-nao-una-cum, sem precisar mexer em nenhum nó.
+
     rotulosSubgruposNivel1: {
-      'papa': 'Papa',
-      'documento': 'Documento'
+      'papa1': 'Papas da tradição',
+      'papa2': 'Papas pró-vaticano II'
     },
     coresSubgruposNivel1: {
-      'papa': 'rgba(220, 38, 38, 0.4)',
-      'documento': 'rgba(124, 58, 237, 0.4)'
+      'papa1': 'rgba(220, 38, 38, 0.4)',
+      'papa2': 'rgba(124, 58, 237, 0.4)'
     }
   },
   cores: {}
@@ -46,73 +36,73 @@ var regrasDoGrafo = {
 var todosNos = [
   // ===== Pio X =====
   { id: 'PX',   level: 1, categoria: 'papa1', label: 'Pio X', ano: 1903, grupo: 'papa' },
-  { id: 'PASC', level: 4, categoria: 'documento', label: 'Pascendi\nDominici Gregis', ano: 1907, grupo: 'documento' },
+  { id: 'PASC', level: 6, categoria: 'documento', label: 'Pascendi Dominici Gregis', ano: 1907, grupo: 'documento' },
 
   // ===== Pio XII =====
   { id: 'PXII', level: 1, categoria: 'papa1', label: 'Pio XII', ano: 1939, grupo: 'papa' },
-  { id: 'HG',   level: 4, categoria: 'documento', label: 'Humani\nGeneris', ano: 1950, grupo: 'documento' },
-  { id: 'MD',   level: 4, categoria: 'documento', label: 'Mediator\nDei', ano: 1947, grupo: 'documento' },
-  { id: 'MC',   level: 4, categoria: 'documento', label: 'Mystici\nCorporis', ano: 1943, grupo: 'documento' },
+  { id: 'HG',   level: 6, categoria: 'documento', label: 'Humani Generis', ano: 1950, grupo: 'documento' },
+  { id: 'MD',   level: 6, categoria: 'documento', label: 'Mediator Dei', ano: 1947, grupo: 'documento' },
+  { id: 'MC',   level: 6, categoria: 'documento', label: 'Mystici Corporis', ano: 1943, grupo: 'documento' },
 
   // ===== João XXIII =====
   { id: 'J23', level: 1, categoria: 'papa2', label: 'João XXIII', ano: 1958, grupo: 'papa' },
-  { id: 'CV2', level: 2, categoria: 'evento', label: 'Concílio\nVaticano II\n(1962-1965)', ano: 1962, grupo: 'evento' },
+  { id: 'CV2', level: 4, categoria: 'evento', label: 'Concílio Vaticano II (1962-1965)', ano: 1962, grupo: 'evento' },
 
-  { id: 'BEA', level: 3, categoria: 'cardeal_reformista', label: 'Card. Bea', grupo: 'cardeal_reformista' },
-  { id: 'SUE', level: 3, categoria: 'cardeal_reformista', label: 'Card. Suenens', grupo: 'cardeal_reformista' },
-  { id: 'LER', level: 3, categoria: 'cardeal_reformista', label: 'Card. Lercaro', grupo: 'cardeal_reformista' },
-  { id: 'DOE', level: 3, categoria: 'cardeal_reformista', label: 'Card. Döpfner', grupo: 'cardeal_reformista' },
-  { id: 'KON', level: 3, categoria: 'cardeal_reformista', label: 'Card. König', grupo: 'cardeal_reformista' },
-  { id: 'ALF', level: 3, categoria: 'cardeal_reformista', label: 'Card. Alfrink', grupo: 'cardeal_reformista' },
-  { id: 'FRI', level: 3, categoria: 'cardeal_reformista', label: 'Card. Frings', grupo: 'cardeal_reformista' },
+  { id: 'BEA', level: 2, categoria: 'cardeal_reformista', label: 'Card. Bea', grupo: 'cardeal_reformista' },
+  { id: 'SUE', level: 2, categoria: 'cardeal_reformista', label: 'Card. Suenens', grupo: 'cardeal_reformista' },
+  { id: 'LER', level: 2, categoria: 'cardeal_reformista', label: 'Card. Lercaro', grupo: 'cardeal_reformista' },
+  { id: 'DOE', level: 2, categoria: 'cardeal_reformista', label: 'Card. Döpfner', grupo: 'cardeal_reformista' },
+  { id: 'KON', level: 2, categoria: 'cardeal_reformista', label: 'Card. König', grupo: 'cardeal_reformista' },
+  { id: 'ALF', level: 2, categoria: 'cardeal_reformista', label: 'Card. Alfrink', grupo: 'cardeal_reformista' },
+  { id: 'FRI', level: 2, categoria: 'cardeal_reformista', label: 'Card. Frings', grupo: 'cardeal_reformista' },
 
-  { id: 'OTT', level: 3, categoria: 'cardeal_conservador', label: 'Card. Ottaviani', grupo: 'cardeal_conservador' },
-  { id: 'RUF', level: 3, categoria: 'cardeal_conservador', label: 'Card. Ruffini', grupo: 'cardeal_conservador' },
-  { id: 'LEF', level: 3, categoria: 'cardeal_conservador', label: 'Dom Marcel\nLefebvre', grupo: 'cardeal_conservador' },
-  { id: 'CAR', level: 3, categoria: 'cardeal_conservador', label: 'Card. Carli', grupo: 'cardeal_conservador' },
-  { id: 'SIR', level: 3, categoria: 'cardeal_conservador', label: 'Card. Siri', grupo: 'cardeal_conservador' },
+  { id: 'OTT', level: 2, categoria: 'cardeal_conservador', label: 'Card. Ottaviani', grupo: 'cardeal_conservador' },
+  { id: 'RUF', level: 2, categoria: 'cardeal_conservador', label: 'Card. Ruffini', grupo: 'cardeal_conservador' },
+  { id: 'LEF', level: 2, categoria: 'cardeal_conservador', label: 'Dom Marcel Lefebvre', grupo: 'cardeal_conservador' },
+  { id: 'CAR', level: 2, categoria: 'cardeal_conservador', label: 'Card. Carli', grupo: 'cardeal_conservador' },
+  { id: 'SIR', level: 2, categoria: 'cardeal_conservador', label: 'Card. Siri', grupo: 'cardeal_conservador' },
 
-  { id: 'RAH', level: 4, categoria: 'perito', label: 'Karl Rahner', grupo: 'perito' },
-  { id: 'CON', level: 4, categoria: 'perito', label: 'Yves Congar', grupo: 'perito' },
-  { id: 'LUB', level: 4, categoria: 'perito', label: 'Henri de Lubac', grupo: 'perito' },
-  { id: 'RAT', level: 4, categoria: 'perito', label: 'Joseph\nRatzinger', grupo: 'perito' },
-  { id: 'SCH', level: 4, categoria: 'perito', label: 'Edward\nSchillebeeckx', grupo: 'perito' },
-  { id: 'MUR', level: 4, categoria: 'perito', label: 'John C. Murray', grupo: 'perito' },
+  { id: 'RAH', level: 3, categoria: 'perito', label: 'Karl Rahner', grupo: 'perito' },
+  { id: 'CON', level: 3, categoria: 'perito', label: 'Yves Congar', grupo: 'perito' },
+  { id: 'LUB', level: 3, categoria: 'perito', label: 'Henri de Lubac', grupo: 'perito' },
+  { id: 'RAT', level: 3, categoria: 'perito', label: 'Joseph Ratzinger', grupo: 'perito' },
+  { id: 'SCH', level: 3, categoria: 'perito', label: 'Edward Schillebeeckx', grupo: 'perito' },
+  { id: 'MUR', level: 3, categoria: 'perito', label: 'John C. Murray', grupo: 'perito' },
 
   // ===== Paulo VI =====
   { id: 'P6', level: 1, categoria: 'papa2', label: 'Paulo VI', ano: 1963, grupo: 'papa' },
-  { id: 'SC', level: 4, categoria: 'documento', label: 'Sacrosanctum\nConcilium', ano: 1963, grupo: 'documento' },
-  { id: 'LG', level: 4, categoria: 'documento', label: 'Lumen\nGentium', ano: 1964, grupo: 'documento' },
-  { id: 'DV', level: 4, categoria: 'documento', label: 'Dei\nVerbum', ano: 1965, grupo: 'documento' },
-  { id: 'GS', level: 4, categoria: 'documento', label: 'Gaudium\net Spes', ano: 1965, grupo: 'documento' },
-  { id: 'DH', level: 4, categoria: 'documento', label: 'Dignitatis\nHumanae', ano: 1965, grupo: 'documento' },
-  { id: 'NA', level: 4, categoria: 'documento', label: 'Nostra\nAetate', ano: 1965, grupo: 'documento' },
-  { id: 'UR', level: 4, categoria: 'documento', label: 'Unitatis\nRedintegratio', ano: 1964, grupo: 'documento' },
-  { id: 'NOM', level: 4, categoria: 'pos_concilio', label: 'Novus Ordo\nMissae', ano: 1969, grupo: 'pos_concilio' },
-  { id: 'TL', level: 4, categoria: 'pos_concilio', label: 'Teologia da\nLibertação', grupo: 'pos_concilio' },
-  { id: 'FSSPX', level: 4, categoria: 'pos_concilio', label: 'Fraternidade\nSão Pio X', ano: 1970, grupo: 'pos_concilio' },
+  { id: 'SC', level: 6, categoria: 'documento', label: 'Sacrosanctum Concilium', ano: 1963, grupo: 'documento' },
+  { id: 'LG', level: 6, categoria: 'documento', label: 'Lumen Gentium', ano: 1964, grupo: 'documento' },
+  { id: 'DV', level: 6, categoria: 'documento', label: 'Dei Verbum', ano: 1965, grupo: 'documento' },
+  { id: 'GS', level: 6, categoria: 'documento', label: 'Gaudium et Spes', ano: 1965, grupo: 'documento' },
+  { id: 'DH', level: 6, categoria: 'documento', label: 'Dignitatis Humanae', ano: 1965, grupo: 'documento' },
+  { id: 'NA', level: 6, categoria: 'documento', label: 'Nostra Aetate', ano: 1965, grupo: 'documento' },
+  { id: 'UR', level: 6, categoria: 'documento', label: 'Unitatis Redintegratio', ano: 1964, grupo: 'documento' },
+  { id: 'NOM', level: 7, categoria: 'pos_concilio', label: 'Novus Ordo Missae', ano: 1969, grupo: 'pos_concilio' },
+  { id: 'TL', level: 7, categoria: 'pos_concilio', label: 'Teologia da Libertação', grupo: 'pos_concilio' },
+  { id: 'FSSPX', level: 7, categoria: 'pos_concilio', label: 'Fraternidade São Pio X', ano: 1970, grupo: 'pos_concilio' },
 
   // ===== João Paulo II =====
   { id: 'JP2', level: 1, categoria: 'papa2', label: 'João Paulo II', ano: 1978, grupo: 'papa' },
-  { id: 'CAT', level: 2, categoria: 'pos_concilio', label: 'Catecismo da\nIgreja Católica', ano: 1992, grupo: 'pos_concilio' },
-  { id: 'EXC', level: 5, categoria: 'guerra_liturgica', label: 'Excomunhão\nde Lefebvre', ano: 1988, grupo: 'guerra_liturgica' },
-  { id: 'ED', level: 5, categoria: 'pos_concilio', label: 'Comissão\nEcclesia Dei', ano: 1988, grupo: 'pos_concilio' },
+  { id: 'CAT', level: 6, categoria: 'pos_concilio', label: 'Catecismo da Igreja Católica', ano: 1992, grupo: 'pos_concilio' },
+  { id: 'EXC', level: 5, categoria: 'guerra_liturgica', label: 'Excomunhão de Lefebvre', ano: 1988, grupo: 'guerra_liturgica' },
+  { id: 'ED', level: 7, categoria: 'pos_concilio', label: 'Comissão Ecclesia Dei', ano: 1988, grupo: 'pos_concilio' },
 
   // ===== Bento XVI =====
   { id: 'B16', level: 1, categoria: 'papa2', label: 'Bento XVI', ano: 2005, grupo: 'papa' },
-  { id: 'HER', level: 6, categoria: 'pos_concilio', label: 'Hermenêutica\nda Continuidade', ano: 2005, grupo: 'pos_concilio' },
-  { id: 'SUM', level: 6, categoria: 'guerra_liturgica', label: 'Summorum\nPontificum', ano: 2007, grupo: 'guerra_liturgica' },
-  { id: 'FEX', level: 6, categoria: 'pos_concilio', label: 'Fim da\nExcomunhão', ano: 2009, grupo: 'pos_concilio' },
+  { id: 'HER', level: 7, categoria: 'pos_concilio', label: 'Hermenêutica da Continuidade', ano: 2005, grupo: 'pos_concilio' },
+  { id: 'SUM', level: 6, categoria: 'guerra_liturgica', label: 'Summorum Pontificum', ano: 2007, grupo: 'guerra_liturgica' },
+  { id: 'FEX', level: 7, categoria: 'pos_concilio', label: 'Fim da Excomunhão de Lefebvre', ano: 2009, grupo: 'pos_concilio' },
 
   // ===== Francisco =====
   { id: 'FR', level: 1, categoria: 'papa2', label: 'Francisco', ano: 2013, grupo: 'papa' },
-  { id: 'SIN', level: 2, categoria: 'pos_concilio', label: 'Sínodo sobre\na Sinodalidade', ano: 2021, grupo: 'pos_concilio' },
-  { id: 'TC', level: 7, categoria: 'guerra_liturgica', label: 'Traditionis\nCustodes', ano: 2021, grupo: 'guerra_liturgica' },
-  { id: 'AMO', level: 7, categoria: 'pos_concilio', label: 'Amoris Laetitia /\nFiducia Supplicans', grupo: 'pos_concilio' },
+  { id: 'SIN', level: 4, categoria: 'pos_concilio', label: 'Sínodo sobre a Sinodalidade', ano: 2021, grupo: 'pos_concilio' },
+  { id: 'TC', level: 7, categoria: 'guerra_liturgica', label: 'Traditionis Custodes', ano: 2021, grupo: 'guerra_liturgica' },
+  { id: 'AMO', level: 5, categoria: 'pos_concilio', label: 'Amoris Laetitia / Fiducia Supplicans', grupo: 'pos_concilio' },
 
   // ===== Leão XIV =====
   { id: 'L14', level: 1, categoria: 'papa2', label: 'Leão XIV', ano: 2025, grupo: 'papa' },
-  { id: 'AG30', level: 8, categoria: 'pos_concilio', label: 'Agenda 2030 /\nODS da ONU', ano: 2025, grupo: 'pos_concilio' }
+  { id: 'AG30', level: 7, categoria: 'pos_concilio', label: 'Agenda 2030 / ODS da ONU', ano: 2025, grupo: 'pos_concilio' }
 ];
 
 
