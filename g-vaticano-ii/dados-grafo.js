@@ -13,7 +13,8 @@ var regrasDoGrafo = {
     numLinhasInternas: 2,
     usaQuebraPorEpoca: false,
     coresNiveis: {
-      1: 'rgba(220, 38, 38, 0.4)'
+      1: 'rgba(220, 38, 38, 0.4)',
+      2: 'rgba(124, 58, 237, 0.4)'
     }
   },
   cores: {}
