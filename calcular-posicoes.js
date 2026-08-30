@@ -345,19 +345,20 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     }
   }
 
-  // Bandas de nível: linha divisória + nome (níveis nomeados em
-  // regras.layout.rotulosNiveis) e, no nível 1, subgrupos coloridos
-  // por categoria (regras.layout.rotulosSubgruposNivel1/coresSubgruposNivel1).
-  // 2026-08-10: mesma generalização aplicada no motor (runtime) —
-  // subgruposPorNivel funciona em QUALQUER nível (aditivo, não quebra
-  // g-santos nem g-padres-nao-una-cum, que continuam usando
-  // rotulosSubgruposNivel1/coresSubgruposNivel1 só no nível 1).
-  // coresNiveis pinta o nível INTEIRO sem subdividir por categoria.
+  // Bandas de nível: linha divisória + nome (regras.layout.rotulosNiveis).
+  // Dois mecanismos opcionais de destaque, aplicáveis a QUALQUER nível:
+  // - regras.layout.subgruposPorNivel[nivel] = { rotulos: {...}, cores: {...} }
+  //   -> subdivide o nível em blocos por categoria, cada um com seu
+  //      rótulo/cor. Sem essa chave para o nível, nenhum subgrupo.
+  // - regras.layout.coresNiveis[nivel] = 'rgba(...)'
+  //   -> pinta o nível INTEIRO com uma cor sólida, sem subdividir por
+  //      categoria. Usado quando subgruposPorNivel não define o nível.
+  // Ambos aditivos: nível sem nenhuma das duas chaves só recebe o
+  // rótulo de texto (ou nada, se rotulosNiveis também não o definir).
+  
   var bandasNiveis = [];
   var rotulosNiveisCfg = regras.layout.rotulosNiveis || {};
   var coresNiveisCfg = regras.layout.coresNiveis || {};
-  var rotulosSubNivel1Cfg = regras.layout.rotulosSubgruposNivel1 || {};
-  var coresSubNivel1Cfg = regras.layout.coresSubgruposNivel1 || {};
   var subgruposPorNivelCfg = regras.layout.subgruposPorNivel || {};
 
   listaNiveis.forEach(function(lvl) {
@@ -367,8 +368,8 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     var yFimNivel = yBasePorNivel[lvl] + alturaTotalPorNivel[lvl];
 
     var subgrupoDesteNivel = subgruposPorNivelCfg[lvl] || null;
-    var rotulosSubCfg = subgrupoDesteNivel ? (subgrupoDesteNivel.rotulos || {}) : (lvl === 1 ? rotulosSubNivel1Cfg : {});
-    var coresSubCfg = subgrupoDesteNivel ? (subgrupoDesteNivel.cores || {}) : (lvl === 1 ? coresSubNivel1Cfg : {});
+    var rotulosSubCfg = subgrupoDesteNivel ? (subgrupoDesteNivel.rotulos || {}) : {};
+    var coresSubCfg = subgrupoDesteNivel ? (subgrupoDesteNivel.cores || {}) : {};
     var temSubgrupo = Object.keys(rotulosSubCfg).length > 0 || Object.keys(coresSubCfg).length > 0;
 
     if (temSubgrupo) {
