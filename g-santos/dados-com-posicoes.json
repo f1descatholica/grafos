@@ -13963,13 +13963,17 @@
         "8": "Locais",
         "9": "Fenômenos, Relíquias e Iconografia"
       },
-      "rotulosSubgruposNivel1": {
-        "ideia": "Títulos dos Santos",
-        "documento": "Meses"
-      },
-      "coresSubgruposNivel1": {
-        "ideia": "rgba(220, 38, 38, 0.4)",
-        "documento": "rgba(124, 58, 237, 0.4)"
+      "subgruposPorNivel": {
+        "1": {
+          "rotulos": {
+            "ideia": "Títulos dos Santos",
+            "documento": "Meses"
+          },
+          "cores": {
+            "ideia": "rgba(220, 38, 38, 0.4)",
+            "documento": "rgba(124, 58, 237, 0.4)"
+          }
+        }
       }
     },
     "cores": {}
