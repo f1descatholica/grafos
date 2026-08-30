@@ -12,13 +12,13 @@
     },
     {
       "id": "PASC",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Pascendi\nDominici Gregis",
+      "label": "Pascendi Dominici Gregis",
       "ano": 1907,
       "grupo": "documento",
       "x": -1835,
-      "y": 937.5
+      "y": 1387.5
     },
     {
       "id": "PXII",
@@ -32,33 +32,33 @@
     },
     {
       "id": "HG",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Humani\nGeneris",
+      "label": "Humani Generis",
       "ano": 1950,
       "grupo": "documento",
       "x": -727,
-      "y": 1012.5
+      "y": 1462.5
     },
     {
       "id": "MD",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Mediator\nDei",
+      "label": "Mediator Dei",
       "ano": 1947,
       "grupo": "documento",
       "x": -1059,
-      "y": 937.5
+      "y": 1387.5
     },
     {
       "id": "MC",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Mystici\nCorporis",
+      "label": "Mystici Corporis",
       "ano": 1943,
       "grupo": "documento",
       "x": -1405,
-      "y": 1012.5
+      "y": 1462.5
     },
     {
       "id": "J23",
@@ -72,175 +72,175 @@
     },
     {
       "id": "CV2",
-      "level": 2,
+      "level": 4,
       "categoria": "evento",
-      "label": "Concílio\nVaticano II\n(1962-1965)",
+      "label": "Concílio Vaticano II (1962-1965)",
       "ano": 1962,
       "grupo": "evento",
       "x": 0,
-      "y": 337.5
+      "y": 787.5
     },
     {
       "id": "BEA",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_reformista",
       "label": "Card. Bea",
       "grupo": "cardeal_reformista",
       "x": 339,
-      "y": 637.5
+      "y": 337.5
     },
     {
       "id": "SUE",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_reformista",
       "label": "Card. Suenens",
       "grupo": "cardeal_reformista",
       "x": 35,
-      "y": 712.5
+      "y": 412.5
     },
     {
       "id": "LER",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_reformista",
       "label": "Card. Lercaro",
       "grupo": "cardeal_reformista",
       "x": -629,
-      "y": 712.5
+      "y": 412.5
     },
     {
       "id": "DOE",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_reformista",
       "label": "Card. Döpfner",
       "grupo": "cardeal_reformista",
       "x": 643,
-      "y": 712.5
+      "y": 412.5
     },
     {
       "id": "KON",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_reformista",
       "label": "Card. König",
       "grupo": "cardeal_reformista",
       "x": 961,
-      "y": 637.5
+      "y": 337.5
     },
     {
       "id": "ALF",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_reformista",
       "label": "Card. Alfrink",
       "grupo": "cardeal_reformista",
       "x": -297,
-      "y": 637.5
+      "y": 337.5
     },
     {
       "id": "FRI",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_reformista",
       "label": "Card. Frings",
       "grupo": "cardeal_reformista",
       "x": -954,
-      "y": 637.5
+      "y": 337.5
     },
     {
       "id": "OTT",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_conservador",
       "label": "Card. Ottaviani",
       "grupo": "cardeal_conservador",
       "x": 49,
-      "y": 787.5
+      "y": 487.5
     },
     {
       "id": "RUF",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_conservador",
       "label": "Card. Ruffini",
       "grupo": "cardeal_conservador",
-      "x": 685,
-      "y": 787.5
+      "x": 395,
+      "y": 562.5
     },
     {
       "id": "LEF",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_conservador",
-      "label": "Dom Marcel\nLefebvre",
+      "label": "Dom Marcel Lefebvre",
       "grupo": "cardeal_conservador",
       "x": -339,
-      "y": 862.5
+      "y": 562.5
     },
     {
       "id": "CAR",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_conservador",
       "label": "Card. Carli",
       "grupo": "cardeal_conservador",
       "x": -699,
-      "y": 787.5
+      "y": 487.5
     },
     {
       "id": "SIR",
-      "level": 3,
+      "level": 2,
       "categoria": "cardeal_conservador",
       "label": "Card. Siri",
       "grupo": "cardeal_conservador",
-      "x": 374,
-      "y": 862.5
+      "x": 706,
+      "y": 487.5
     },
     {
       "id": "RAH",
-      "level": 4,
+      "level": 3,
       "categoria": "perito",
       "label": "Karl Rahner",
       "grupo": "perito",
       "x": 124,
-      "y": 1162.5
+      "y": 712.5
     },
     {
       "id": "CON",
-      "level": 4,
+      "level": 3,
       "categoria": "perito",
       "label": "Yves Congar",
       "grupo": "perito",
       "x": -900,
-      "y": 1087.5
+      "y": 637.5
     },
     {
       "id": "LUB",
-      "level": 4,
+      "level": 3,
       "categoria": "perito",
       "label": "Henri de Lubac",
       "grupo": "perito",
       "x": 879,
-      "y": 1162.5
+      "y": 712.5
     },
     {
       "id": "RAT",
-      "level": 4,
+      "level": 3,
       "categoria": "perito",
-      "label": "Joseph\nRatzinger",
+      "label": "Joseph Ratzinger",
       "grupo": "perito",
       "x": -215,
-      "y": 1087.5
+      "y": 637.5
     },
     {
       "id": "SCH",
-      "level": 4,
+      "level": 3,
       "categoria": "perito",
-      "label": "Edward\nSchillebeeckx",
+      "label": "Edward Schillebeeckx",
       "grupo": "perito",
       "x": 491,
-      "y": 1087.5
+      "y": 637.5
     },
     {
       "id": "MUR",
-      "level": 4,
+      "level": 3,
       "categoria": "perito",
       "label": "John C. Murray",
       "grupo": "perito",
       "x": -575,
-      "y": 1162.5
+      "y": 712.5
     },
     {
       "id": "P6",
@@ -254,102 +254,102 @@
     },
     {
       "id": "SC",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Sacrosanctum\nConcilium",
+      "label": "Sacrosanctum Concilium",
       "ano": 1963,
       "grupo": "documento",
       "x": -325,
-      "y": 937.5
+      "y": 1387.5
     },
     {
       "id": "LG",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Lumen\nGentium",
+      "label": "Lumen Gentium",
       "ano": 1964,
       "grupo": "documento",
       "x": 70,
-      "y": 1012.5
+      "y": 1462.5
     },
     {
       "id": "DV",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Dei\nVerbum",
+      "label": "Dei Verbum",
       "ano": 1965,
       "grupo": "documento",
       "x": 1241,
-      "y": 937.5
+      "y": 1387.5
     },
     {
       "id": "GS",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Gaudium\net Spes",
+      "label": "Gaudium et Spes",
       "ano": 1965,
       "grupo": "documento",
-      "x": 1566,
-      "y": 1012.5
+      "x": 1898,
+      "y": 1387.5
     },
     {
       "id": "DH",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Dignitatis\nHumanae",
+      "label": "Dignitatis Humanae",
       "ano": 1965,
       "grupo": "documento",
       "x": 895,
-      "y": 1012.5
+      "y": 1462.5
     },
     {
       "id": "NA",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Nostra\nAetate",
+      "label": "Nostra Aetate",
       "ano": 1965,
       "grupo": "documento",
-      "x": 1912,
-      "y": 937.5
+      "x": 1552,
+      "y": 1462.5
     },
     {
       "id": "UR",
-      "level": 4,
+      "level": 6,
       "categoria": "documento",
-      "label": "Unitatis\nRedintegratio",
+      "label": "Unitatis Redintegratio",
       "ano": 1964,
       "grupo": "documento",
       "x": 465,
-      "y": 937.5
+      "y": 1387.5
     },
     {
       "id": "NOM",
-      "level": 4,
+      "level": 7,
       "categoria": "pos_concilio",
-      "label": "Novus Ordo\nMissae",
+      "label": "Novus Ordo Missae",
       "ano": 1969,
       "grupo": "pos_concilio",
-      "x": -458,
-      "y": 1237.5
+      "x": -1472,
+      "y": 1837.5
     },
     {
       "id": "TL",
-      "level": 4,
+      "level": 7,
       "categoria": "pos_concilio",
-      "label": "Teologia da\nLibertação",
+      "label": "Teologia da Libertação",
       "grupo": "pos_concilio",
-      "x": 423,
-      "y": 1237.5
+      "x": 1437,
+      "y": 1837.5
     },
     {
       "id": "FSSPX",
-      "level": 4,
+      "level": 7,
       "categoria": "pos_concilio",
-      "label": "Fraternidade\nSão Pio X",
+      "label": "Fraternidade São Pio X",
       "ano": 1970,
       "grupo": "pos_concilio",
-      "x": -35,
-      "y": 1312.5
+      "x": -1049,
+      "y": 1912.5
     },
     {
       "id": "JP2",
@@ -363,33 +363,33 @@
     },
     {
       "id": "CAT",
-      "level": 2,
+      "level": 6,
       "categoria": "pos_concilio",
-      "label": "Catecismo da\nIgreja Católica",
+      "label": "Catecismo da Igreja Católica",
       "ano": 1992,
       "grupo": "pos_concilio",
-      "x": -264,
-      "y": 487.5
+      "x": 0,
+      "y": 1537.5
     },
     {
       "id": "EXC",
       "level": 5,
       "categoria": "guerra_liturgica",
-      "label": "Excomunhão\nde Lefebvre",
+      "label": "Excomunhão de Lefebvre",
       "ano": 1988,
       "grupo": "guerra_liturgica",
       "x": 0,
-      "y": 1387.5
+      "y": 1087.5
     },
     {
       "id": "ED",
-      "level": 5,
+      "level": 7,
       "categoria": "pos_concilio",
-      "label": "Comissão\nEcclesia Dei",
+      "label": "Comissão Ecclesia Dei",
       "ano": 1988,
       "grupo": "pos_concilio",
-      "x": 0,
-      "y": 1537.5
+      "x": -598,
+      "y": 1837.5
     },
     {
       "id": "B16",
@@ -403,33 +403,33 @@
     },
     {
       "id": "HER",
-      "level": 6,
+      "level": 7,
       "categoria": "pos_concilio",
-      "label": "Hermenêutica\nda Continuidade",
+      "label": "Hermenêutica da Continuidade",
       "ano": 2005,
       "grupo": "pos_concilio",
-      "x": -194,
-      "y": 1687.5
+      "x": -105,
+      "y": 1912.5
     },
     {
       "id": "SUM",
       "level": 6,
       "categoria": "guerra_liturgica",
-      "label": "Summorum\nPontificum",
+      "label": "Summorum Pontificum",
       "ano": 2007,
       "grupo": "guerra_liturgica",
       "x": 0,
-      "y": 1837.5
+      "y": 1687.5
     },
     {
       "id": "FEX",
-      "level": 6,
+      "level": 7,
       "categoria": "pos_concilio",
-      "label": "Fim da\nExcomunhão",
+      "label": "Fim da Excomunhão de Lefebvre",
       "ano": 2009,
       "grupo": "pos_concilio",
-      "x": 271,
-      "y": 1762.5
+      "x": 444,
+      "y": 1837.5
     },
     {
       "id": "FR",
@@ -443,19 +443,19 @@
     },
     {
       "id": "SIN",
-      "level": 2,
+      "level": 4,
       "categoria": "pos_concilio",
-      "label": "Sínodo sobre\na Sinodalidade",
+      "label": "Sínodo sobre a Sinodalidade",
       "ano": 2021,
       "grupo": "pos_concilio",
-      "x": 271,
-      "y": 562.5
+      "x": 0,
+      "y": 937.5
     },
     {
       "id": "TC",
       "level": 7,
       "categoria": "guerra_liturgica",
-      "label": "Traditionis\nCustodes",
+      "label": "Traditionis Custodes",
       "ano": 2021,
       "grupo": "guerra_liturgica",
       "x": 0,
@@ -463,12 +463,12 @@
     },
     {
       "id": "AMO",
-      "level": 7,
+      "level": 5,
       "categoria": "pos_concilio",
-      "label": "Amoris Laetitia /\nFiducia Supplicans",
+      "label": "Amoris Laetitia / Fiducia Supplicans",
       "grupo": "pos_concilio",
       "x": 0,
-      "y": 2137.5
+      "y": 1237.5
     },
     {
       "id": "L14",
@@ -482,13 +482,13 @@
     },
     {
       "id": "AG30",
-      "level": 8,
+      "level": 7,
       "categoria": "pos_concilio",
-      "label": "Agenda 2030 /\nODS da ONU",
+      "label": "Agenda 2030 / ODS da ONU",
       "ano": 2025,
       "grupo": "pos_concilio",
-      "x": 0,
-      "y": 2287.5
+      "x": 965,
+      "y": 1912.5
     }
   ],
   "edges": [
@@ -1149,12 +1149,12 @@
       "usaQuebraPorEpoca": false,
       "quebrarSempreEntreCategorias": true,
       "rotulosSubgruposNivel1": {
-        "papa": "Papa",
-        "documento": "Documento"
+        "papa1": "Papas da tradição",
+        "papa2": "Papas pró-vaticano II"
       },
       "coresSubgruposNivel1": {
-        "papa": "rgba(220, 38, 38, 0.4)",
-        "documento": "rgba(124, 58, 237, 0.4)"
+        "papa1": "rgba(220, 38, 38, 0.4)",
+        "papa2": "rgba(124, 58, 237, 0.4)"
       }
     },
     "cores": {}
@@ -1164,14 +1164,14 @@
     {
       "yInicio": 0,
       "yFim": 150,
-      "label": null,
-      "cor": null
+      "label": "Papas da tradição",
+      "cor": "rgba(220, 38, 38, 0.4)"
     },
     {
       "yInicio": 150,
       "yFim": 300,
-      "label": null,
-      "cor": null
+      "label": "Papas pró-vaticano II",
+      "cor": "rgba(124, 58, 237, 0.4)"
     },
     {
       "yInicio": 300,
@@ -1181,37 +1181,31 @@
     },
     {
       "yInicio": 600,
-      "yFim": 900,
+      "yFim": 750,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 900,
+      "yInicio": 750,
+      "yFim": 1050,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 1050,
       "yFim": 1350,
       "label": null,
       "cor": null
     },
     {
       "yInicio": 1350,
-      "yFim": 1650,
+      "yFim": 1800,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 1650,
-      "yFim": 1950,
-      "label": null,
-      "cor": null
-    },
-    {
-      "yInicio": 1950,
-      "yFim": 2250,
-      "label": null,
-      "cor": null
-    },
-    {
-      "yInicio": 2250,
-      "yFim": 2400,
+      "yInicio": 1800,
+      "yFim": 2100,
       "label": null,
       "cor": null
     }
