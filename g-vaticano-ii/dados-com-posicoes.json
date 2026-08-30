@@ -1133,7 +1133,7 @@
       "yInicio": 0,
       "yFim": 150,
       "label": null,
-      "cor": null
+      "cor": "rgba(220, 38, 38, 0.4)"
     },
     {
       "yInicio": 150,
