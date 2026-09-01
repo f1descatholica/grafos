@@ -106,32 +106,40 @@ var todosNos = [
   
   
   
-  // ---- novidades do chatgpt ---- 
-  { id: 'P10', level: 1, categoria: 'antecedentes', label: 'São Pio X', ano: 1903, grupo: 'pio_x' },
+  // ---- novidades do chatgpt ----   
+
+  // ---- Antecedentes doutrinais e litúrgicos ----
   { id: 'MOD', level: 2, categoria: 'antecedentes', label: 'Modernismo', ano: 1907, grupo: 'modernismo' },
-  { id: 'PAS', level: 2, categoria: 'documentos', label: 'Pascendi Dominici Gregis', ano: 1907, grupo: 'pio_x' },
-  { id: 'OATH', level: 2, categoria: 'documentos', label: 'Juramento Antimodernista', ano: 1910, grupo: 'pio_x' },
-  { id: 'MED', level: 3, categoria: 'documentos', label: 'Mediator Dei', ano: 1947, grupo: 'pio_xii' },
-  { id: 'LIT', level: 3, categoria: 'liturgia', label: 'Reformas litúrgicas de Pio XII', ano: 1951, grupo: 'pio_xii' },
+  { id: 'OATH', level: 2, categoria: 'documento', label: 'Juramento Antimodernista', ano: 1910, grupo: 'documento' },
+  { id: 'LIT', level: 3, categoria: 'liturgia', label: 'Reformas litúrgicas de Pio XII', ano: 1951, grupo: 'liturgia' },
+
+  // ---- Pós-concílio e resistência ----
   { id: 'REF', level: 5, categoria: 'liturgia', label: 'Reforma Litúrgica pós-conciliar', ano: 1969, grupo: 'pos_concilio' },
   { id: 'CRISE', level: 5, categoria: 'pos_concilio', label: 'Crise pós-conciliar', ano: 1965, grupo: 'pos_concilio' },
-  { id: 'DECL74', level: 6, categoria: 'tradicionalismo', label: 'Declaração de 21 de novembro de 1974', ano: 1974, grupo: 'lefebvre' },
-  { id: 'ECONE', level: 6, categoria: 'tradicionalismo', label: 'Seminário de Écône', ano: 1970, grupo: 'lefebvre' },
-  { id: 'SAC88', level: 7, categoria: 'tradicionalismo', label: 'Consagrações episcopais de 1988', ano: 1988, grupo: 'fsspx' },
-  { id: 'ICR', level: 7, categoria: 'tradicionalismo', label: 'Comunidades Ecclesia Dei', ano: 1988, grupo: 'ecclesia_dei' },
-  { id: 'SP', level: 8, categoria: 'liturgia', label: 'Summorum Pontificum', ano: 2007, grupo: 'bento_xvi' },
-  { id: 'MIS62', level: 8, categoria: 'liturgia', label: 'Missal Romano de 1962', ano: 1962, grupo: 'liturgia_tradicional' },
-  { id: 'TRAD', level: 8, categoria: 'tradicionalismo', label: 'Movimento tradicionalista', ano: 1970, grupo: 'tradicionalismo' },
-  { id: 'ROCHE', level: 9, categoria: 'pos_concilio', label: 'Cardeal Arthur Roche', ano: 2021, grupo: 'francisco' },
-  { id: 'LIT26', level: 10, categoria: 'liturgia', label: 'Catequeses de Leão XIV sobre Sacrosanctum Concilium', ano: 2026, grupo: 'leao_xiv' },
-  { id: 'ECONE26', level: 10, categoria: 'tradicionalismo', label: 'Consagrações episcopais de Écône', ano: 2026, grupo: 'fsspx' },
-  { id: 'NEC', level: 10, categoria: 'tradicionalismo', label: 'Estado de necessidade', ano: 1974, grupo: 'fsspx' },
-  { id: 'FR26', level: 10, categoria: 'pos_concilio', label: 'Viagem de Leão XIV à França', ano: 2026, grupo: 'leao_xiv' },
-  { id: 'LOURDES', level: 10, categoria: 'eventos', label: 'Lourdes — visita de Leão XIV', ano: 2026, grupo: 'leao_xiv' },
-  { id: 'METZ', level: 10, categoria: 'ecumenismo', label: 'Metz — encontro inter-religioso', ano: 2026, grupo: 'leao_xiv' },
-  { id: 'BATAILLE', level: 10, categoria: 'pos_concilio', label: 'Dom Sylvain Bataille', ano: 2026, grupo: 'pos_concilio' },
-  { id: 'BONNY', level: 10, categoria: 'pos_concilio', label: 'Dom Johan Bonny', ano: 2026, grupo: 'sinodalidade' },
-  { id: 'ORD28', level: 10, categoria: 'pos_concilio', label: 'Ordenação de homens casados prevista para 2028', ano: 2028, grupo: 'sinodalidade' }
+  { id: 'ECONE', level: 5, categoria: 'tradicionalismo', label: 'Seminário de Écône', ano: 1970, grupo: 'tradicionalismo' },
+  { id: 'DECL74', level: 5, categoria: 'tradicionalismo', label: 'Declaração de 21 de novembro de 1974', ano: 1974, grupo: 'tradicionalismo' },
+  { id: 'NEC', level: 5, categoria: 'tradicionalismo', label: 'Estado de necessidade', grupo: 'tradicionalismo' },
+
+  // ---- 1988 ----
+  { id: 'SAC88', level: 5, categoria: 'tradicionalismo', label: 'Consagrações episcopais de 1988', ano: 1988, grupo: 'tradicionalismo' },
+  { id: 'ICR', level: 5, categoria: 'tradicionalismo', label: 'Comunidades tradicionalistas ligadas à Ecclesia Dei', ano: 1988, grupo: 'tradicionalismo' },
+
+  // ---- Liturgia tradicional ----
+  { id: 'MIS62', level: 6, categoria: 'liturgia', label: 'Missal Romano de 1962', ano: 1962, grupo: 'liturgia_tradicional' },
+  { id: 'TRAD', level: 6, categoria: 'tradicionalismo', label: 'Movimento tradicionalista', grupo: 'tradicionalismo' },
+
+  // ---- Francisco ----
+  { id: 'ROCHE', level: 7, categoria: 'pos_concilio', label: 'Card. Arthur Roche', grupo: 'pos_concilio' },
+
+  // ---- Leão XIV ----
+  { id: 'LIT26', level: 8, categoria: 'liturgia', label: 'Catequeses de Leão XIV sobre Sacrosanctum Concilium', ano: 2026, grupo: 'leao_xiv' },
+
+  // ---- Écône 2026 ----
+  { id: 'ECONE26', level: 8, categoria: 'tradicionalismo', label: 'Consagrações episcopais de Écône — 2026', ano: 2026, grupo: 'tradicionalismo' },
+
+  // ---- Sinodalidade / disciplina ----
+  { id: 'BONNY', level: 8, categoria: 'pos_concilio', label: 'Dom Johan Bonny', ano: 2026, grupo: 'sinodalidade' },
+  { id: 'ORD28', level: 8, categoria: 'pos_concilio', label: 'Plano de ordenação de homens casados em Antuérpia', ano: 2028, grupo: 'sinodalidade' }
 ];
 
 
@@ -281,132 +289,94 @@ var todosSetas = [
   
   
   // ---- novos do chatgpt ---- 
-  
-  // ---- Eventos/documentos fundamentais do tradicionalismo ----
 
-  { from: 'P10', to: 'MOD', title: 'combateu o Modernismo', texto: 'combateu Modernismo', dashes: true },
-  { from: 'P10', to: 'PAS', title: 'condenou o Modernismo', texto: 'condenou Modernismo', dashes: true },
-  { from: 'P10', to: 'OATH', title: 'instituiu juramento antimodernista', texto: 'instituiu juramento' },
+  // ---- Pio X / Pio XII ----
+  { from: 'PX', to: 'MOD', title: 'combateu o Modernismo', texto: 'combateu Modernismo', dashes: true },
+  { from: 'PX', to: 'PASC', title: 'condenou o Modernismo', texto: 'condenou Modernismo', dashes: true },
+  { from: 'PX', to: 'OATH', title: 'instituiu juramento antimodernista', texto: 'instituiu juramento' },
 
-  { from: 'PXII', to: 'MED', title: 'condenou erros da Nova Teologia', texto: 'condenou Nova Teologia', dashes: true },
-  { from: 'PXII', to: 'LIT', title: 'promoveu reforma litúrgica anterior ao Concílio', texto: 'reformou liturgia' },
+  { from: 'PXII', to: 'MD', title: 'publicou', texto: 'publicou' },
+  { from: 'PXII', to: 'LIT', title: 'promoveu reformas litúrgicas anteriores ao Concílio', texto: 'reformou liturgia' },
 
-  // ---- Vaticano II e crise litúrgica ----
-
+  // ---- Vaticano II / Reforma ----
   { from: 'CV2', to: 'SC', title: 'promulgou constituição litúrgica', texto: 'promulgou' },
-  { from: 'SC', to: 'REF', title: 'estabeleceu princípios da reforma litúrgica', texto: 'iniciou reforma' },
-  { from: 'REF', to: 'NOM', title: 'conduziu ao Novus Ordo', texto: 'conduziu a' },
+  { from: 'SC', to: 'REF', title: 'estabeleceu princípios da reforma litúrgica', texto: 'fundamentou reforma' },
+  { from: 'REF', to: 'NOM', title: 'conduziu ao novo Missal', texto: 'conduziu ao Novus Ordo' },
   { from: 'P6', to: 'NOM', title: 'promulgou novo Missal', texto: 'promulgou' },
-  { from: 'NOM', to: 'CRISE', title: 'provocou resistência tradicionalista', texto: 'provocou resistência', dashes: true },
 
-  // ---- Paulo VI / resistência ----
+  // ---- Crise e resistência ----
+  { from: 'NOM', to: 'CRISE', title: 'tornou-se foco da resistência tradicionalista', texto: 'provocou resistência', dashes: true },
+  { from: 'P6', to: 'LEF', title: 'entrou em conflito com', texto: 'entrou em conflito com', dashes: true },
+  { from: 'LEF', to: 'DECL74', title: 'redigiu', texto: 'redigiu declaração' },
+  { from: 'DECL74', to: 'FSSPX', title: 'expressou princípios da resistência', texto: 'fundamentou resistência' },
+  { from: 'LEF', to: 'ECONE', title: 'fundou', texto: 'fundou' },
+  { from: 'ECONE', to: 'FSSPX', title: 'formou sacerdotes', texto: 'formou sacerdotes' },
 
-  { from: 'P6', to: 'LEF', title: 'entrou em conflito doutrinal e litúrgico com', texto: 'entrou em conflito com', dashes: true },
-  { from: 'LEF', to: 'DECL74', title: 'redigiu declaração de resistência', texto: 'redigiu declaração' },
-  { from: 'DECL74', to: 'FSSPX', title: 'expressou princípio fundador', texto: 'fundamentou' },
-  { from: 'LEF', to: 'ECONE', title: 'fundou seminário tradicional', texto: 'fundou' },
-  { from: 'ECONE', to: 'FSSPX', title: 'formou sacerdotes tradicionais', texto: 'formou sacerdotes' },
-
-  // ---- 1988: consagrações e nascimento da estrutura episcopal tradicionalista ----
-
-  { from: 'JP2', to: 'LEF', title: 'negociou solução para crise', texto: 'negociou com' },
+  // ---- 1988 ----
   { from: 'LEF', to: 'SAC88', title: 'realizou consagrações episcopais', texto: 'consagrou bispos', dashes: true },
-  { from: 'SAC88', to: 'FSSPX', title: 'garantiu continuidade episcopal', texto: 'garantiu continuidade' },
   { from: 'JP2', to: 'SAC88', title: 'reagiu às consagrações', texto: 'reagiu a', dashes: true },
+  { from: 'SAC88', to: 'FSSPX', title: 'garantiu continuidade episcopal', texto: 'garantiu continuidade' },
+
   { from: 'JP2', to: 'ED', title: 'criou estrutura para tradicionalistas', texto: 'criou estrutura' },
+  { from: 'ED', to: 'ICR', title: 'acolheu comunidades tradicionais', texto: 'acolheu' },
 
-  // ---- 1988: Ecclesia Dei ----
-
-  { from: 'JP2', to: 'ED', title: 'promulgou Ecclesia Dei', texto: 'promulgou' },
-  { from: 'ED', to: 'ICR', title: 'favoreceu comunidades tradicionais', texto: 'favoreceu' },
-  { from: 'ED', to: 'SP', title: 'preparou caminho para maior liberalização litúrgica', texto: 'antecedeu' },
-
-  // ---- Bento XVI / liberalização da Missa tradicional ----
-
-  { from: 'B16', to: 'SP', title: 'promulgou Summorum Pontificum', texto: 'promulgou' },
-  { from: 'SP', to: 'MIS62', title: 'reconheceu Missal de 1962 como forma extraordinária', texto: 'liberalizou' },
-  { from: 'SP', to: 'TRAD', title: 'ampliou acesso à liturgia tradicional', texto: 'ampliou acesso' },
-  { from: 'SP', to: 'FSSPX', title: 'favoreceu contexto de aproximação', texto: 'favoreceu aproximação' },
-
+  // ---- Bento XVI ----
+  { from: 'B16', to: 'SUM', title: 'promulgou Summorum Pontificum', texto: 'promulgou' },
+  { from: 'SUM', to: 'MIS62', title: 'liberalizou o uso do Missal de 1962', texto: 'liberalizou' },
+  { from: 'SUM', to: 'TRAD', title: 'ampliou acesso à liturgia tradicional', texto: 'ampliou acesso' },
+  { from: 'SUM', to: 'FSSPX', title: 'favoreceu contexto de aproximação', texto: 'favoreceu aproximação' },
   { from: 'B16', to: 'FSSPX', title: 'levantou excomunhões dos bispos', texto: 'levantou excomunhões' },
   { from: 'B16', to: 'HER', title: 'defendeu hermenêutica da continuidade', texto: 'defendeu continuidade' },
-  { from: 'HER', to: 'CV2', title: 'propôs interpretação em continuidade', texto: 'interpretou em continuidade' },
 
-  // ---- Francisco / reversão ----
-
+  // ---- Francisco / Traditionis Custodes ----
   { from: 'FR', to: 'TC', title: 'promulgou Traditionis Custodes', texto: 'promulgou' },
-  { from: 'TC', to: 'SP', title: 'restringiu e substituiu', texto: 'restringiu', dashes: true },
+  { from: 'TC', to: 'SUM', title: 'restringiu o regime litúrgico anterior', texto: 'restringiu', dashes: true },
+  { from: 'TC', to: 'MIS62', title: 'restringiu o uso do Missal de 1962', texto: 'restringiu uso', dashes: true },
   { from: 'TC', to: 'TRAD', title: 'restringiu celebração tradicional', texto: 'restringiu', dashes: true },
-  { from: 'TC', to: 'MIS62', title: 'restringiu uso do Missal de 1962', texto: 'restringiu uso', dashes: true },
   { from: 'ROCHE', to: 'TC', title: 'interpretou e aplicou', texto: 'aplicou' },
-  { from: 'ROCHE', to: 'MIS62', title: 'considerou uso concessão e não expressão própria', texto: 'restringiu status', dashes: true },
+  { from: 'ROCHE', to: 'MIS62', title: 'restringiu seu estatuto litúrgico', texto: 'restringiu estatuto', dashes: true },
 
-  // ---- Leão XIV / situação litúrgica de 2026 ----
+  // ---- Leão XIV / liturgia em 2026 ----
+  { from: 'L14', to: 'LIT26', title: 'promoveu catequeses sobre Sacrosanctum Concilium', texto: 'catequizou sobre SC' },
+  { from: 'LIT26', to: 'SC', title: 'retomou e explicou', texto: 'explicou SC' },
 
-  { from: 'L14', to: 'SC', title: 'dedicou catequese à constituição litúrgica', texto: 'retomou SC' },
-  { from: 'L14', to: 'LIT26', title: 'desenvolveu catequese sobre reforma litúrgica', texto: 'catequizou sobre reforma' },
-  { from: 'LIT26', to: 'SC', title: 'explicou motivações da reforma', texto: 'explicou reforma' },
-
-  // ---- FSSPX: novas consagrações episcopais de 2026 ----
-
+  // ---- Écône 2026 ----
   { from: 'FSSPX', to: 'ECONE26', title: 'realizou novas consagrações episcopais', texto: 'realizou consagrações' },
-  { from: 'ECONE26', to: 'L14', title: 'ocorreu sem mandato pontifício', texto: 'sem mandato pontifício', dashes: true },
-  { from: 'ECONE26', to: 'FSSPX', title: 'garantiu sucessão episcopal tradicional', texto: 'garantiu sucessão' },
-  { from: 'ECONE26', to: 'TRAD', title: 'reforçou estrutura sacramental tradicional', texto: 'reforçou estrutura' },
-  { from: 'ECONE26', to: 'CRISE', title: 'reabriu controvérsia sobre autoridade e estado de necessidade', texto: 'reabriu controvérsia', dashes: true },
-  { from: 'BATAILLE', to: 'ECONE26', title: 'criticou consagrações', texto: 'criticou', dashes: true },
-  { from: 'BATAILLE', to: 'FSSPX', title: 'contestou posição da Sociedade', texto: 'contestou', dashes: true },
+  { from: 'ECONE26', to: 'FSSPX', title: 'reforçou a sucessão episcopal', texto: 'reforçou sucessão' },
+  { from: 'ECONE26', to: 'TRAD', title: 'reforçou estrutura episcopal tradicional', texto: 'reforçou estrutura' },
+  { from: 'ECONE26', to: 'NEC', title: 'foi justificada pelo estado de necessidade', texto: 'invocou necessidade', dashes: true },
 
-  // ---- Debate sobre o estado de necessidade ----
+  // ---- Estado de necessidade ----
+  { from: 'LEF', to: 'NEC', title: 'invocou estado de necessidade', texto: 'invocou necessidade' },
+  { from: 'FSSPX', to: 'NEC', title: 'invoca estado de necessidade', texto: 'invoca necessidade' },
+  { from: 'NEC', to: 'SAC88', title: 'foi utilizado como argumento para', texto: 'fundamentou' },
+  { from: 'NEC', to: 'ECONE26', title: 'foi novamente invocado em', texto: 'fundamentou', dashes: true },
 
-  { from: 'FSSPX', to: 'NEC', title: 'justificou consagrações pelo estado de necessidade', texto: 'invocou estado de necessidade' },
-  { from: 'LEF', to: 'NEC', title: 'fundamentou resistência em estado de necessidade', texto: 'invocou necessidade' },
-  { from: 'NEC', to: 'ECONE26', title: 'fundamentou juridicamente a ação', texto: 'fundamentou' },
+  // ---- Linha histórica da crise ----
+  { from: 'CV2', to: 'CRISE', title: 'marcou o início da crise pós-conciliar segundo a leitura tradicionalista', texto: 'marcou início da crise' },
+  { from: 'CRISE', to: 'LEF', title: 'gerou resistência episcopal', texto: 'gerou resistência' },
+  { from: 'CRISE', to: 'FSSPX', title: 'motivou resistência organizada', texto: 'motivou resistência' },
+  { from: 'CRISE', to: 'SUM', title: 'precedeu posterior liberalização litúrgica', texto: 'precedeu liberalização' },
+  { from: 'CRISE', to: 'TC', title: 'permaneceu no centro do conflito litúrgico', texto: 'permaneceu em conflito' },
 
-  // ---- Francisco -> Leão XIV: continuidade e mudança a observar ----
-
-  { from: 'FR', to: 'L14', title: 'precedeu no pontificado', texto: 'precedeu' },
-  { from: 'TC', to: 'L14', title: 'legou restrições à liturgia tradicional', texto: 'legou restrições' },
-  { from: 'L14', to: 'TC', title: 'herdou regime jurídico litúrgico', texto: 'herdou regime' },
-
-  // ---- Viagem de Leão XIV à França: setembro de 2026 ----
-
-  { from: 'L14', to: 'FR26', title: 'realiza viagem apostólica à França', texto: 'viaja à França' },
-  { from: 'FR26', to: 'LOURDES', title: 'inclui visita a Lourdes', texto: 'visita' },
-  { from: 'L14', to: 'LOURDES', title: 'celebra Missa em Lourdes', texto: 'celebra Missa' },
-  { from: 'L14', to: 'METZ', title: 'participa de encontro inter-religioso', texto: 'participa de encontro', dashes: true },
-  { from: 'FR26', to: 'METZ', title: 'inclui encontro inter-religioso', texto: 'inclui encontro' },
+  // ---- Linha de continuidade tradicionalista ----
+  { from: 'PX', to: 'LEF', title: 'constituiu referência antimodernista', texto: 'inspirou' },
+  { from: 'PX', to: 'FSSPX', title: 'deu nome e referência à Fraternidade', texto: 'inspirou' },
+  { from: 'PXII', to: 'LEF', title: 'constituiu referência doutrinal e litúrgica', texto: 'precedeu' },
 
   // ---- Comunidades tradicionais ----
-
-  { from: 'ED', to: 'ICR', title: 'acolheu comunidades tradicionais', texto: 'acolheu' },
-  { from: 'ICR', to: 'TRAD', title: 'preservou liturgia tradicional', texto: 'preservou' },
+  { from: 'ICR', to: 'TRAD', title: 'preservou a liturgia tradicional em comunidades', texto: 'preservou' },
   { from: 'TRAD', to: 'FSSPX', title: 'compartilha defesa da liturgia tradicional', texto: 'compartilha defesa' },
   { from: 'TRAD', to: 'TC', title: 'sofreu restrições após Traditionis Custodes', texto: 'sofreu restrições', dashes: true },
 
-  // ---- Eixo histórico da crise pós-conciliar ----
+  // ---- Leão XIV / continuidade do regime herdado ----
+  { from: 'FR', to: 'L14', title: 'precedeu no pontificado', texto: 'precedeu' },
+  { from: 'TC', to: 'L14', title: 'legou regime restritivo da liturgia tradicional', texto: 'legou restrições' },
 
-  { from: 'CV2', to: 'CRISE', title: 'marcou início da crise pós-conciliar segundo tradicionalistas', texto: 'marcou início da crise' },
-  { from: 'CRISE', to: 'LEF', title: 'gerou resistência episcopal', texto: 'gerou resistência' },
-  { from: 'CRISE', to: 'FSSPX', title: 'motivou resistência organizada', texto: 'motivou resistência' },
-  { from: 'CRISE', to: 'SP', title: 'levou à posterior liberalização parcial', texto: 'levou a liberalização' },
-  { from: 'CRISE', to: 'TC', title: 'permanece no centro do conflito litúrgico', texto: 'permanece em conflito' },
-  { from: 'CRISE', to: 'ECONE26', title: 'culminou em nova crise episcopal', texto: 'culminou em nova crise', dashes: true },
-
-  // ---- Linha de continuidade tradicionalista ----
-
-  { from: 'P10', to: 'LEF', title: 'inspiração doutrinal da resistência antimodernista', texto: 'inspirou resistência' },
-  { from: 'P10', to: 'FSSPX', title: 'inspiração titular e espiritual', texto: 'inspirou' },
-  { from: 'PXII', to: 'LEF', title: 'precedente doutrinal e litúrgico', texto: 'precedeu' },
-  { from: 'LEF', to: 'FSSPX', title: 'fundou', texto: 'fundou' },
-  { from: 'FSSPX', to: 'ECONE26', title: 'manteve sucessão episcopal própria', texto: 'manteve sucessão' },
-  { from: 'ECONE26', to: 'TRAD', title: 'visa preservar continuidade sacramental', texto: 'preserva continuidade' },
-
-  // ---- Eventos recentes adicionais ----
-
-  { from: 'BONNY', to: 'ORD28', title: 'anunciou ordenação de homens casados para 2028', texto: 'anunciou para 2028', dashes: true },
-  { from: 'ORD28', to: 'CRISE', title: 'torna-se tema de controvérsia disciplinar', texto: 'gera controvérsia', dashes: true },
-  { from: 'BONNY', to: 'SIN', title: 'implementou processo sinodal na diocese', texto: 'implementou processo sinodal' }
+  // ---- Sinodalidade / Antuérpia 2026-2028 ----
+  { from: 'BONNY', to: 'ORD28', title: 'anunciou intenção de ordenar homens casados até 2028', texto: 'anunciou para 2028', dashes: true },
+  { from: 'BONNY', to: 'SIN', title: 'vinculou proposta à implementação do processo sinodal', texto: 'vinculou à sinodalidade' },
+  { from: 'ORD28', to: 'CRISE', title: 'tornou-se novo foco de controvérsia disciplinar', texto: 'gerou controvérsia', dashes: true }
 
 ];
 
