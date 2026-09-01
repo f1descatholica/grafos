@@ -111,39 +111,27 @@ var todosNos = [
   { id: 'MOD', level: 2, categoria: 'antecedentes', label: 'Modernismo', ano: 1907, grupo: 'modernismo' },
   { id: 'PAS', level: 2, categoria: 'documentos', label: 'Pascendi Dominici Gregis', ano: 1907, grupo: 'pio_x' },
   { id: 'OATH', level: 2, categoria: 'documentos', label: 'Juramento Antimodernista', ano: 1910, grupo: 'pio_x' },
-
   { id: 'MED', level: 3, categoria: 'documentos', label: 'Mediator Dei', ano: 1947, grupo: 'pio_xii' },
   { id: 'LIT', level: 3, categoria: 'liturgia', label: 'Reformas litúrgicas de Pio XII', ano: 1951, grupo: 'pio_xii' },
-
-  { id: 'CV2', level: 4, categoria: 'concilio', label: 'Concílio Vaticano II', ano: 1962, grupo: 'concilio' },
   { id: 'REF', level: 5, categoria: 'liturgia', label: 'Reforma Litúrgica pós-conciliar', ano: 1969, grupo: 'pos_concilio' },
   { id: 'CRISE', level: 5, categoria: 'pos_concilio', label: 'Crise pós-conciliar', ano: 1965, grupo: 'pos_concilio' },
-
   { id: 'DECL74', level: 6, categoria: 'tradicionalismo', label: 'Declaração de 21 de novembro de 1974', ano: 1974, grupo: 'lefebvre' },
   { id: 'ECONE', level: 6, categoria: 'tradicionalismo', label: 'Seminário de Écône', ano: 1970, grupo: 'lefebvre' },
-
   { id: 'SAC88', level: 7, categoria: 'tradicionalismo', label: 'Consagrações episcopais de 1988', ano: 1988, grupo: 'fsspx' },
   { id: 'ICR', level: 7, categoria: 'tradicionalismo', label: 'Comunidades Ecclesia Dei', ano: 1988, grupo: 'ecclesia_dei' },
-
   { id: 'SP', level: 8, categoria: 'liturgia', label: 'Summorum Pontificum', ano: 2007, grupo: 'bento_xvi' },
   { id: 'MIS62', level: 8, categoria: 'liturgia', label: 'Missal Romano de 1962', ano: 1962, grupo: 'liturgia_tradicional' },
   { id: 'TRAD', level: 8, categoria: 'tradicionalismo', label: 'Movimento tradicionalista', ano: 1970, grupo: 'tradicionalismo' },
-
-  { id: 'TC', level: 9, categoria: 'pos_concilio', label: 'Traditionis Custodes', ano: 2021, grupo: 'francisco' },
   { id: 'ROCHE', level: 9, categoria: 'pos_concilio', label: 'Cardeal Arthur Roche', ano: 2021, grupo: 'francisco' },
-
   { id: 'LIT26', level: 10, categoria: 'liturgia', label: 'Catequeses de Leão XIV sobre Sacrosanctum Concilium', ano: 2026, grupo: 'leao_xiv' },
   { id: 'ECONE26', level: 10, categoria: 'tradicionalismo', label: 'Consagrações episcopais de Écône', ano: 2026, grupo: 'fsspx' },
-  { id: 'NEC', level: 10, categoria: 'tradicionalismo', label: 'Estado de necessidade', ano: 2026, grupo: 'fsspx' },
-
+  { id: 'NEC', level: 10, categoria: 'tradicionalismo', label: 'Estado de necessidade', ano: 1974, grupo: 'fsspx' },
   { id: 'FR26', level: 10, categoria: 'pos_concilio', label: 'Viagem de Leão XIV à França', ano: 2026, grupo: 'leao_xiv' },
   { id: 'LOURDES', level: 10, categoria: 'eventos', label: 'Lourdes — visita de Leão XIV', ano: 2026, grupo: 'leao_xiv' },
   { id: 'METZ', level: 10, categoria: 'ecumenismo', label: 'Metz — encontro inter-religioso', ano: 2026, grupo: 'leao_xiv' },
-
   { id: 'BATAILLE', level: 10, categoria: 'pos_concilio', label: 'Dom Sylvain Bataille', ano: 2026, grupo: 'pos_concilio' },
   { id: 'BONNY', level: 10, categoria: 'pos_concilio', label: 'Dom Johan Bonny', ano: 2026, grupo: 'sinodalidade' },
   { id: 'ORD28', level: 10, categoria: 'pos_concilio', label: 'Ordenação de homens casados prevista para 2028', ano: 2028, grupo: 'sinodalidade' }
-  
 ];
 
 
