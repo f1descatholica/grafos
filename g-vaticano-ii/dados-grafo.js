@@ -97,7 +97,7 @@ var todosNos = [
 
   // ===== NÍVEL 8 — Leão XIV =====
   { id: 'L14', level: 8, categoria: 'papa', label: 'Leão XIV', ano: 2025, grupo: 'papa' },
-  { id: 'AG30', level: 8, categoria: 'pos_concilio', label: 'Agenda 2030 / ODS da ONU', ano: 2025, grupo: 'pos_concilio' }.
+  { id: 'AG30', level: 8, categoria: 'pos_concilio', label: 'Agenda 2030 / ODS da ONU', ano: 2025, grupo: 'pos_concilio' },
   
   
   
