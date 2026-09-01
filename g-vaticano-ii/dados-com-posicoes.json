@@ -78,7 +78,7 @@
       "ano": 1962,
       "grupo": "evento",
       "x": 0,
-      "y": 2437.5
+      "y": 1087.5
     },
     {
       "id": "BEA",
@@ -359,7 +359,7 @@
       "ano": 1978,
       "grupo": "papa",
       "x": 0,
-      "y": 2587.5
+      "y": 2437.5
     },
     {
       "id": "CAT",
@@ -369,7 +369,7 @@
       "ano": 1992,
       "grupo": "pos_concilio",
       "x": 430,
-      "y": 2737.5
+      "y": 2587.5
     },
     {
       "id": "ED",
@@ -379,7 +379,7 @@
       "ano": 1988,
       "grupo": "pos_concilio",
       "x": -63,
-      "y": 2812.5
+      "y": 2662.5
     },
     {
       "id": "B16",
@@ -389,7 +389,7 @@
       "ano": 2005,
       "grupo": "papa",
       "x": 0,
-      "y": 3037.5
+      "y": 2887.5
     },
     {
       "id": "HER",
@@ -399,7 +399,7 @@
       "ano": 2005,
       "grupo": "pos_concilio",
       "x": 0,
-      "y": 3187.5
+      "y": 3037.5
     },
     {
       "id": "SUM",
@@ -409,7 +409,7 @@
       "ano": 2007,
       "grupo": "guerra_liturgica",
       "x": 0,
-      "y": 3337.5
+      "y": 3187.5
     },
     {
       "id": "FR",
@@ -419,7 +419,7 @@
       "ano": 2013,
       "grupo": "papa",
       "x": 0,
-      "y": 3637.5
+      "y": 3487.5
     },
     {
       "id": "SIN",
@@ -429,7 +429,7 @@
       "ano": 2021,
       "grupo": "pos_concilio",
       "x": -327,
-      "y": 3787.5
+      "y": 3637.5
     },
     {
       "id": "TC",
@@ -438,8 +438,8 @@
       "label": "Traditionis Custodes",
       "ano": 2021,
       "grupo": "guerra_liturgica",
-      "x": -215,
-      "y": 4837.5
+      "x": 0,
+      "y": 3787.5
     },
     {
       "id": "AMO",
@@ -448,7 +448,7 @@
       "label": "Amoris Laetitia / Fiducia Supplicans",
       "grupo": "pos_concilio",
       "x": 264,
-      "y": 3862.5
+      "y": 3712.5
     },
     {
       "id": "L14",
@@ -458,7 +458,7 @@
       "ano": 2025,
       "grupo": "papa",
       "x": 0,
-      "y": 4237.5
+      "y": 4087.5
     },
     {
       "id": "AG30",
@@ -468,7 +468,7 @@
       "ano": 2025,
       "grupo": "pos_concilio",
       "x": 0,
-      "y": 4387.5
+      "y": 4237.5
     },
     {
       "id": "P10",
@@ -531,16 +531,6 @@
       "y": 1837.5
     },
     {
-      "id": "CV2",
-      "level": 4,
-      "categoria": "concilio",
-      "label": "Concílio Vaticano II",
-      "ano": 1962,
-      "grupo": "concilio",
-      "x": 0,
-      "y": 2437.5
-    },
-    {
       "id": "REF",
       "level": 5,
       "categoria": "liturgia",
@@ -548,7 +538,7 @@
       "ano": 1969,
       "grupo": "pos_concilio",
       "x": 0,
-      "y": 2887.5
+      "y": 2737.5
     },
     {
       "id": "CRISE",
@@ -558,7 +548,7 @@
       "ano": 1965,
       "grupo": "pos_concilio",
       "x": -493,
-      "y": 2737.5
+      "y": 2587.5
     },
     {
       "id": "DECL74",
@@ -568,7 +558,7 @@
       "ano": 1974,
       "grupo": "lefebvre",
       "x": 201,
-      "y": 3562.5
+      "y": 3412.5
     },
     {
       "id": "ECONE",
@@ -578,7 +568,7 @@
       "ano": 1970,
       "grupo": "lefebvre",
       "x": -327,
-      "y": 3487.5
+      "y": 3337.5
     },
     {
       "id": "SAC88",
@@ -588,7 +578,7 @@
       "ano": 1988,
       "grupo": "fsspx",
       "x": -243,
-      "y": 4087.5
+      "y": 3937.5
     },
     {
       "id": "ICR",
@@ -598,7 +588,7 @@
       "ano": 1988,
       "grupo": "ecclesia_dei",
       "x": 292,
-      "y": 4162.5
+      "y": 4012.5
     },
     {
       "id": "SP",
@@ -608,7 +598,7 @@
       "ano": 2007,
       "grupo": "bento_xvi",
       "x": 222,
-      "y": 4612.5
+      "y": 4462.5
     },
     {
       "id": "MIS62",
@@ -618,7 +608,7 @@
       "ano": 1962,
       "grupo": "liturgia_tradicional",
       "x": -208,
-      "y": 4537.5
+      "y": 4387.5
     },
     {
       "id": "TRAD",
@@ -628,17 +618,7 @@
       "ano": 1970,
       "grupo": "tradicionalismo",
       "x": 0,
-      "y": 4687.5
-    },
-    {
-      "id": "TC",
-      "level": 9,
-      "categoria": "pos_concilio",
-      "label": "Traditionis Custodes",
-      "ano": 2021,
-      "grupo": "francisco",
-      "x": -215,
-      "y": 4837.5
+      "y": 4537.5
     },
     {
       "id": "ROCHE",
@@ -647,8 +627,8 @@
       "label": "Cardeal Arthur Roche",
       "ano": 2021,
       "grupo": "francisco",
-      "x": 215,
-      "y": 4912.5
+      "x": 0,
+      "y": 4687.5
     },
     {
       "id": "LIT26",
@@ -658,7 +638,7 @@
       "ano": 2026,
       "grupo": "leao_xiv",
       "x": 0,
-      "y": 4987.5
+      "y": 4837.5
     },
     {
       "id": "ECONE26",
@@ -667,18 +647,18 @@
       "label": "Consagrações episcopais de Écône",
       "ano": 2026,
       "grupo": "fsspx",
-      "x": -222,
-      "y": 5137.5
+      "x": 222,
+      "y": 5062.5
     },
     {
       "id": "NEC",
       "level": 10,
       "categoria": "tradicionalismo",
       "label": "Estado de necessidade",
-      "ano": 2026,
+      "ano": 1974,
       "grupo": "fsspx",
-      "x": 299,
-      "y": 5212.5
+      "x": -299,
+      "y": 4987.5
     },
     {
       "id": "FR26",
@@ -688,7 +668,7 @@
       "ano": 2026,
       "grupo": "leao_xiv",
       "x": -750,
-      "y": 5287.5
+      "y": 5137.5
     },
     {
       "id": "LOURDES",
@@ -698,7 +678,7 @@
       "ano": 2026,
       "grupo": "leao_xiv",
       "x": 0,
-      "y": 5437.5
+      "y": 5287.5
     },
     {
       "id": "METZ",
@@ -708,7 +688,7 @@
       "ano": 2026,
       "grupo": "leao_xiv",
       "x": 0,
-      "y": 5587.5
+      "y": 5437.5
     },
     {
       "id": "BATAILLE",
@@ -718,7 +698,7 @@
       "ano": 2026,
       "grupo": "pos_concilio",
       "x": -271,
-      "y": 5362.5
+      "y": 5212.5
     },
     {
       "id": "BONNY",
@@ -728,7 +708,7 @@
       "ano": 2026,
       "grupo": "sinodalidade",
       "x": 124,
-      "y": 5287.5
+      "y": 5137.5
     },
     {
       "id": "ORD28",
@@ -738,7 +718,7 @@
       "ano": 2028,
       "grupo": "sinodalidade",
       "x": 659,
-      "y": 5362.5
+      "y": 5212.5
     }
   ],
   "edges": [
@@ -1896,43 +1876,43 @@
     },
     {
       "yInicio": 1950,
-      "yFim": 2550,
+      "yFim": 2400,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 2550,
-      "yFim": 3000,
+      "yInicio": 2400,
+      "yFim": 2850,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 3000,
-      "yFim": 3600,
+      "yInicio": 2850,
+      "yFim": 3450,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 3600,
-      "yFim": 4200,
+      "yInicio": 3450,
+      "yFim": 4050,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 4200,
+      "yInicio": 4050,
+      "yFim": 4650,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 4650,
       "yFim": 4800,
       "label": null,
       "cor": null
     },
     {
       "yInicio": 4800,
-      "yFim": 4950,
-      "label": null,
-      "cor": null
-    },
-    {
-      "yInicio": 4950,
-      "yFim": 5700,
+      "yFim": 5550,
       "label": null,
       "cor": null
     }
