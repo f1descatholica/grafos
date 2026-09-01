@@ -100,8 +100,14 @@ var todosNos = [
   { id: 'AG30', level: 8, categoria: 'pos_concilio', label: 'Agenda 2030 / ODS da ONU', ano: 2025, grupo: 'pos_concilio' }.
   
   
-  //novidades do chatgpt
-    { id: 'P10', level: 1, categoria: 'antecedentes', label: 'São Pio X', ano: 1903, grupo: 'pio_x' },
+  
+  
+  
+  
+  
+  
+  // ---- novidades do chatgpt ---- 
+  { id: 'P10', level: 1, categoria: 'antecedentes', label: 'São Pio X', ano: 1903, grupo: 'pio_x' },
   { id: 'MOD', level: 2, categoria: 'antecedentes', label: 'Modernismo', ano: 1907, grupo: 'modernismo' },
   { id: 'PAS', level: 2, categoria: 'documentos', label: 'Pascendi Dominici Gregis', ano: 1907, grupo: 'pio_x' },
   { id: 'OATH', level: 2, categoria: 'documentos', label: 'Juramento Antimodernista', ano: 1910, grupo: 'pio_x' },
@@ -286,9 +292,9 @@ var todosSetas = [
   
   
   
-  //novos do chatgpt
+  // ---- novos do chatgpt ---- 
   
-    // ---- Eventos/documentos fundamentais do tradicionalismo ----
+  // ---- Eventos/documentos fundamentais do tradicionalismo ----
 
   { from: 'P10', to: 'MOD', title: 'combateu o Modernismo', texto: 'combateu Modernismo', dashes: true },
   { from: 'P10', to: 'PAS', title: 'condenou o Modernismo', texto: 'condenou Modernismo', dashes: true },
