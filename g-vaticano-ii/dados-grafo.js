@@ -30,354 +30,262 @@ var regrasDoGrafo = {
 
 
 var todosNos = [
-  // ===== NÍVEL 1 — Pio X =====
-  { id: 'PX',   level: 1, categoria: 'n1', label: 'Pio X', ano: 1903, grupo: 'papa' },
-  { id: 'PASC', level: 1, categoria: 'n1', label: 'Pascendi Dominici Gregis', ano: 1907, grupo: 'documento' },
+  // ==========================================
+  // NÍVEL 1 — SÃO PIO X (1903–1914)
+  // ==========================================
+  { id: 'Pio-X',        level: 1, categoria: 'papa',       label: 'Pio X', ano: 1903, grupo: 'papa' },
+  { id: 'Modernismo',   level: 1, categoria: 'movimento',  label: 'Modernismo Teológico', ano: 1907, grupo: 'modernismo' },
+  { id: 'Pascendi',     level: 1, categoria: 'documento',  label: 'Pascendi Dominici Gregis', ano: 1907, grupo: 'documento' },
+  { id: 'Juramento-A',  level: 1, categoria: 'documento',  label: 'Juramento Antimodernista', ano: 1910, grupo: 'documento' },
 
-  // ===== NÍVEL 2 — Pio XII =====
-  { id: 'PXII', level: 2, categoria: 'papa', label: 'Pio XII', ano: 1939, grupo: 'papa' },
-  { id: 'HG',   level: 2, categoria: 'documento', label: 'Humani Generis', ano: 1950, grupo: 'documento' },
-  { id: 'MD',   level: 2, categoria: 'documento', label: 'Mediator Dei', ano: 1947, grupo: 'documento' },
-  { id: 'MC',   level: 2, categoria: 'documento', label: 'Mystici Corporis', ano: 1943, grupo: 'documento' },
+  // ==========================================
+  // NÍVEL 2 — PIO XII (1939–1958)
+  // ==========================================
+  { id: 'Pio-XII',          level: 2, categoria: 'papa',       label: 'Pio XII', ano: 1939, grupo: 'papa' },
+  { id: 'Humani-G',         level: 2, categoria: 'documento',  label: 'Humani Generis', ano: 1950, grupo: 'documento' },
+  { id: 'Mediator-D',       level: 2, categoria: 'documento',  label: 'Mediator Dei', ano: 1947, grupo: 'documento' },
+  { id: 'Mystici-C',        level: 2, categoria: 'documento',  label: 'Mystici Corporis', ano: 1943, grupo: 'documento' },
+  { id: 'Reformas-Pio-XII',  level: 2, categoria: 'liturgia',   label: 'Reformas Litúrgicas de Pio XII', ano: 1951, grupo: 'liturgia' },
 
-  // ===== NÍVEL 3 — João XXIII =====
-  { id: 'J23', level: 3, categoria: 'papa', label: 'João XXIII', ano: 1958, grupo: 'papa' },
-  { id: 'CV2', level: 3, categoria: 'evento', label: 'Concílio Vaticano II (1962-1965)', ano: 1962, grupo: 'evento' },
-
-  { id: 'BEA', level: 3, categoria: 'cardeal_reformista', label: 'Card. Bea', grupo: 'cardeal_reformista' },
-  { id: 'SUE', level: 3, categoria: 'cardeal_reformista', label: 'Card. Suenens', grupo: 'cardeal_reformista' },
-  { id: 'LER', level: 3, categoria: 'cardeal_reformista', label: 'Card. Lercaro', grupo: 'cardeal_reformista' },
-  { id: 'DOE', level: 3, categoria: 'cardeal_reformista', label: 'Card. Döpfner', grupo: 'cardeal_reformista' },
-  { id: 'KON', level: 3, categoria: 'cardeal_reformista', label: 'Card. König', grupo: 'cardeal_reformista' },
-  { id: 'ALF', level: 3, categoria: 'cardeal_reformista', label: 'Card. Alfrink', grupo: 'cardeal_reformista' },
-  { id: 'FRI', level: 3, categoria: 'cardeal_reformista', label: 'Card. Frings', grupo: 'cardeal_reformista' },
-
-  { id: 'OTT', level: 3, categoria: 'cardeal_conservador', label: 'Card. Ottaviani', grupo: 'cardeal_conservador' },
-  { id: 'RUF', level: 3, categoria: 'cardeal_conservador', label: 'Card. Ruffini', grupo: 'cardeal_conservador' },
-  { id: 'LEF', level: 3, categoria: 'cardeal_conservador', label: 'Dom Marcel Lefebvre', grupo: 'cardeal_conservador' },
-  { id: 'CAR', level: 3, categoria: 'cardeal_conservador', label: 'Card. Carli', grupo: 'cardeal_conservador' },
-  { id: 'SIR', level: 3, categoria: 'cardeal_conservador', label: 'Card. Siri', grupo: 'cardeal_conservador' },
-
-  { id: 'RAH', level: 3, categoria: 'perito', label: 'Karl Rahner', grupo: 'perito' },
-  { id: 'CON', level: 3, categoria: 'perito', label: 'Yves Congar', grupo: 'perito' },
-  { id: 'LUB', level: 3, categoria: 'perito', label: 'Henri de Lubac', grupo: 'perito' },
-  { id: 'RAT', level: 3, categoria: 'perito', label: 'Joseph Ratzinger', grupo: 'perito' },
-  { id: 'SCH', level: 3, categoria: 'perito', label: 'Edward Schillebeeckx', grupo: 'perito' },
-  { id: 'MUR', level: 3, categoria: 'perito', label: 'John C. Murray', grupo: 'perito' },
-
-  // ===== NÍVEL 4 — Paulo VI =====
-  { id: 'P6', level: 4, categoria: 'papa', label: 'Paulo VI', ano: 1963, grupo: 'papa' },
-  { id: 'SC', level: 4, categoria: 'documento', label: 'Sacrosanctum Concilium', ano: 1963, grupo: 'documento' },
-  { id: 'LG', level: 4, categoria: 'documento', label: 'Lumen Gentium', ano: 1964, grupo: 'documento' },
-  { id: 'DV', level: 4, categoria: 'documento', label: 'Dei Verbum', ano: 1965, grupo: 'documento' },
-  { id: 'GS', level: 4, categoria: 'documento', label: 'Gaudium et Spes', ano: 1965, grupo: 'documento' },
-  { id: 'DH', level: 4, categoria: 'documento', label: 'Dignitatis Humanae', ano: 1965, grupo: 'documento' },
-  { id: 'NA', level: 4, categoria: 'documento', label: 'Nostra Aetate', ano: 1965, grupo: 'documento' },
-  { id: 'UR', level: 4, categoria: 'documento', label: 'Unitatis Redintegratio', ano: 1964, grupo: 'documento' },
-  { id: 'NOM', level: 4, categoria: 'pos_concilio', label: 'Novus Ordo Missae', ano: 1969, grupo: 'pos_concilio' },
-  { id: 'TL', level: 4, categoria: 'pos_concilio', label: 'Teologia da Libertação', grupo: 'pos_concilio' },
-  { id: 'FSSPX', level: 4, categoria: 'pos_concilio', label: 'Fraternidade São Pio X', ano: 1970, grupo: 'pos_concilio' },
-
-  // ===== NÍVEL 5 — João Paulo II =====
-  { id: 'JP2', level: 5, categoria: 'papa', label: 'João Paulo II', ano: 1978, grupo: 'papa' },
-  { id: 'CAT', level: 5, categoria: 'pos_concilio', label: 'Catecismo da Igreja Católica', ano: 1992, grupo: 'pos_concilio' },
-  { id: 'ED', level: 5, categoria: 'pos_concilio', label: 'Comissão Ecclesia Dei', ano: 1988, grupo: 'pos_concilio' },
-
-  // ===== NÍVEL 6 — Bento XVI =====
-  { id: 'B16', level: 6, categoria: 'papa', label: 'Bento XVI', ano: 2005, grupo: 'papa' },
-  { id: 'HER', level: 6, categoria: 'pos_concilio', label: 'Hermenêutica da Continuidade', ano: 2005, grupo: 'pos_concilio' },
-  { id: 'SUM', level: 6, categoria: 'guerra_liturgica', label: 'Summorum Pontificum', ano: 2007, grupo: 'guerra_liturgica' },
-
-
-  // ===== NÍVEL 7 — Francisco =====
-  { id: 'FR', level: 7, categoria: 'papa', label: 'Francisco', ano: 2013, grupo: 'papa' },
-  { id: 'SIN', level: 7, categoria: 'pos_concilio', label: 'Sínodo sobre a Sinodalidade', ano: 2021, grupo: 'pos_concilio' },
-  { id: 'TC', level: 7, categoria: 'guerra_liturgica', label: 'Traditionis Custodes', ano: 2021, grupo: 'guerra_liturgica' },
-  { id: 'AMO', level: 7, categoria: 'pos_concilio', label: 'Amoris Laetitia / Fiducia Supplicans', grupo: 'pos_concilio' },
-
-  // ===== NÍVEL 8 — Leão XIV =====
-  { id: 'L14', level: 8, categoria: 'papa', label: 'Leão XIV', ano: 2025, grupo: 'papa' },
-  { id: 'AG30', level: 8, categoria: 'pos_concilio', label: 'Agenda 2030 / ODS da ONU', ano: 2025, grupo: 'pos_concilio' },
+  // ==========================================
+  // NÍVEL 3 — JOÃO XXIII (1958–1963) & CONCÍLIO
+  // ==========================================
+  { id: 'Joao-XXIII',   level: 3, categoria: 'papa',                label: 'João XXIII', ano: 1958, grupo: 'papa' },
+  { id: 'Concilio-V',   level: 3, categoria: 'evento',              label: 'Concílio Vaticano II', ano: 1962, grupo: 'evento' },
   
+  // Cardeais Reformistas
+  { id: 'Card-Bea',     level: 3, categoria: 'cardeal_reformista',  label: 'Card. Bea', grupo: 'cardeal_reformista' },
+  { id: 'Card-Suenens', level: 3, categoria: 'cardeal_reformista',  label: 'Card. Suenens', grupo: 'cardeal_reformista' },
+  { id: 'Card-Lercaro', level: 3, categoria: 'cardeal_reformista',  label: 'Card. Lercaro', grupo: 'cardeal_reformista' },
+  { id: 'Card-Dopfner', level: 3, categoria: 'cardeal_reformista',  label: 'Card. Döpfner', grupo: 'cardeal_reformista' },
+  { id: 'Card-Konig',   level: 3, categoria: 'cardeal_reformista',  label: 'Card. König', grupo: 'cardeal_reformista' },
+  { id: 'Card-Alfrink', level: 3, categoria: 'cardeal_reformista',  label: 'Card. Alfrink', grupo: 'cardeal_reformista' },
+  { id: 'Card-Frings',  level: 3, categoria: 'cardeal_reformista',  label: 'Card. Frings', grupo: 'cardeal_reformista' },
+
+  // Cardeais Conservadores / Coetus
+  { id: 'Card-Ottaviani', level: 3, categoria: 'cardeal_conservador', label: 'Card. Ottaviani', grupo: 'cardeal_conservador' },
+  { id: 'Card-Ruffini',   level: 3, categoria: 'cardeal_conservador', label: 'Card. Ruffini', grupo: 'cardeal_conservador' },
+  { id: 'Dom-Lefebvre',   level: 3, categoria: 'cardeal_conservador', label: 'Dom Marcel Lefebvre', grupo: 'cardeal_conservador' },
+  { id: 'Card-Carli',     level: 3, categoria: 'cardeal_conservador', label: 'Card. Carli', grupo: 'cardeal_conservador' },
+  { id: 'Card-Siri',      level: 3, categoria: 'cardeal_conservador', label: 'Card. Siri', grupo: 'cardeal_conservador' },
+
+  // Peritos Teológicos
+  { id: 'Karl-R',       level: 3, categoria: 'perito',              label: 'Karl Rahner', grupo: 'perito' },
+  { id: 'Yves-C',       level: 3, categoria: 'perito',              label: 'Yves Congar', grupo: 'perito' },
+  { id: 'Henri-L',      level: 3, categoria: 'perito',              label: 'Henri de Lubac', grupo: 'perito' },
+  { id: 'Joseph-R',     level: 3, categoria: 'perito',              label: 'Joseph Ratzinger', grupo: 'perito' },
+  { id: 'Edward-S',     level: 3, categoria: 'perito',              label: 'Edward Schillebeeckx', grupo: 'perito' },
+  { id: 'John-M',       level: 3, categoria: 'perito',              label: 'John C. Murray', grupo: 'perito' },
+
+  // ==========================================
+  // NÍVEL 4 — PAULO VI (1963–1978) & PÓS-CONCÍLIO
+  // ==========================================
+  { id: 'Paulo-VI',       level: 4, categoria: 'papa',              label: 'Paulo VI', ano: 1963, grupo: 'papa' },
+  { id: 'Sacrosanctum-C', level: 4, categoria: 'documento',         label: 'Sacrosanctum Concilium', ano: 1963, grupo: 'documento' },
+  { id: 'Lumen-G',        level: 4, categoria: 'documento',         label: 'Lumen Gentium', ano: 1964, grupo: 'documento' },
+  { id: 'Unitatis-R',     level: 4, categoria: 'documento',         label: 'Unitatis Redintegratio', ano: 1964, grupo: 'documento' },
+  { id: 'Dei-V',          level: 4, categoria: 'documento',         label: 'Dei Verbum', ano: 1965, grupo: 'documento' },
+  { id: 'Gaudium-S',      level: 4, categoria: 'documento',         label: 'Gaudium et Spes', ano: 1965, grupo: 'documento' },
+  { id: 'Dignitatis-H',   level: 4, categoria: 'documento',         label: 'Dignitatis Humanae', ano: 1965, grupo: 'documento' },
+  { id: 'Nostra-A',       level: 4, categoria: 'documento',         label: 'Nostra Aetate', ano: 1965, grupo: 'documento' },
   
+  { id: 'Reforma-L',      level: 4, categoria: 'liturgia',          label: 'Reforma Litúrgica', ano: 1969, grupo: 'pos_concilio' },
+  { id: 'Novus-O',        level: 4, categoria: 'liturgia',          label: 'Novus Ordo Missae', ano: 1969, grupo: 'pos_concilio' },
+  { id: 'Crise-P',        level: 4, categoria: 'pos_concilio',      label: 'Crise Pós-Conciliar', ano: 1965, grupo: 'pos_concilio' },
+  { id: 'Teologia-L',     level: 4, categoria: 'pos_concilio',      label: 'Teologia da Libertação', ano: 1971, grupo: 'pos_concilio' },
   
-  
-  
-  
-  
-  
-  // ---- novidades do chatgpt ----   
+  { id: 'Seminario-E',    level: 4, categoria: 'tradicionalismo',   label: 'Seminário de Écône', ano: 1970, grupo: 'tradicionalismo' },
+  { id: 'Fraternidade-S', level: 4, categoria: 'tradicionalismo',   label: 'Fraternidade São Pio X', ano: 1970, grupo: 'tradicionalismo' },
+  { id: 'Declaracao-1974',level: 4, categoria: 'tradicionalismo',   label: 'Declaração de 1974', ano: 1974, grupo: 'tradicionalismo' },
 
-  // ---- Antecedentes doutrinais e litúrgicos ----
-  { id: 'MOD', level: 2, categoria: 'antecedentes', label: 'Modernismo', ano: 1907, grupo: 'modernismo' },
-  { id: 'OATH', level: 2, categoria: 'documento', label: 'Juramento Antimodernista', ano: 1910, grupo: 'documento' },
-  { id: 'LIT', level: 3, categoria: 'liturgia', label: 'Reformas litúrgicas de Pio XII', ano: 1951, grupo: 'liturgia' },
+  // ==========================================
+  // NÍVEL 5 — JOÃO PAULO II (1978–2005)
+  // ==========================================
+  { id: 'Joao-Paulo-II',    level: 5, categoria: 'papa',            label: 'João Paulo II', ano: 1978, grupo: 'papa' },
+  { id: 'Catecismo-I',      level: 5, categoria: 'pos_concilio',    label: 'Catecismo da Igreja Católica', ano: 1992, grupo: 'pos_concilio' },
+  { id: 'Estado-N',         level: 5, categoria: 'tradicionalismo', label: 'Estado de Necessidade', grupo: 'tradicionalismo' },
+  { id: 'Consagracoes-1988',level: 5, categoria: 'tradicionalismo', label: 'Consagrações de 1988', ano: 1988, grupo: 'tradicionalismo' },
+  { id: 'Comissao-E',       level: 5, categoria: 'pos_concilio',    label: 'Comissão Ecclesia Dei', ano: 1988, grupo: 'pos_concilio' },
+  { id: 'Comunidades-T',    level: 5, categoria: 'tradicionalismo', label: 'Comunidades Ecclesia Dei', ano: 1988, grupo: 'tradicionalismo' },
 
-  // ---- Pós-concílio e resistência ----
-  { id: 'REF', level: 5, categoria: 'liturgia', label: 'Reforma Litúrgica pós-conciliar', ano: 1969, grupo: 'pos_concilio' },
-  { id: 'CRISE', level: 5, categoria: 'pos_concilio', label: 'Crise pós-conciliar', ano: 1965, grupo: 'pos_concilio' },
-  { id: 'ECONE', level: 5, categoria: 'tradicionalismo', label: 'Seminário de Écône', ano: 1970, grupo: 'tradicionalismo' },
-  { id: 'DECL74', level: 5, categoria: 'tradicionalismo', label: 'Declaração de 21 de novembro de 1974', ano: 1974, grupo: 'tradicionalismo' },
-  { id: 'NEC', level: 5, categoria: 'tradicionalismo', label: 'Estado de necessidade', grupo: 'tradicionalismo' },
+  // ==========================================
+  // NÍVEL 6 — BENTO XVI (2005–2013)
+  // ==========================================
+  { id: 'Bento-XVI',      level: 6, categoria: 'papa',              label: 'Bento XVI', ano: 2005, grupo: 'papa' },
+  { id: 'Hermeneutica-C', level: 6, categoria: 'pos_concilio',      label: 'Hermenêutica da Continuidade', ano: 2005, grupo: 'pos_concilio' },
+  { id: 'Summorum-P',     level: 6, categoria: 'guerra_liturgica',  label: 'Summorum Pontificum', ano: 2007, grupo: 'guerra_liturgica' },
+  { id: 'Missal-1962',    level: 6, categoria: 'liturgia',          label: 'Missal Romano de 1962', ano: 1962, grupo: 'liturgia_tradicional' },
+  { id: 'Movimento-T',    level: 6, categoria: 'tradicionalismo',   label: 'Movimento Tradicionalista', grupo: 'tradicionalismo' },
 
-  // ---- 1988 ----
-  { id: 'SAC88', level: 5, categoria: 'tradicionalismo', label: 'Consagrações episcopais de 1988', ano: 1988, grupo: 'tradicionalismo' },
-  { id: 'ICR', level: 5, categoria: 'tradicionalismo', label: 'Comunidades tradicionalistas ligadas à Ecclesia Dei', ano: 1988, grupo: 'tradicionalismo' },
+  // ==========================================
+  // NÍVEL 7 — FRANCISCO (2013–...)
+  // ==========================================
+  { id: 'Francisco',      level: 7, categoria: 'papa',              label: 'Francisco', ano: 2013, grupo: 'papa' },
+  { id: 'Card-Roche',     level: 7, categoria: 'pos_concilio',      label: 'Card. Arthur Roche', grupo: 'pos_concilio' },
+  { id: 'Traditionis-C',  level: 7, categoria: 'guerra_liturgica',  label: 'Traditionis Custodes', ano: 2021, grupo: 'guerra_liturgica' },
+  { id: 'Sinodo-S',       level: 7, categoria: 'pos_concilio',      label: 'Sínodo sobre a Sinodalidade', ano: 2021, grupo: 'pos_concilio' },
+  { id: 'Amoris-L',       level: 7, categoria: 'pos_concilio',      label: 'Amoris Laetitia / Fiducia Supplicans', ano: 2016, grupo: 'pos_concilio' },
 
-  // ---- Liturgia tradicional ----
-  { id: 'MIS62', level: 6, categoria: 'liturgia', label: 'Missal Romano de 1962', ano: 1962, grupo: 'liturgia_tradicional' },
-  { id: 'TRAD', level: 6, categoria: 'tradicionalismo', label: 'Movimento tradicionalista', grupo: 'tradicionalismo' },
-
-  // ---- Francisco ----
-  { id: 'ROCHE', level: 7, categoria: 'pos_concilio', label: 'Card. Arthur Roche', grupo: 'pos_concilio' },
-
-  // ---- Leão XIV ----
-  { id: 'LIT26', level: 8, categoria: 'liturgia', label: 'Catequeses de Leão XIV sobre Sacrosanctum Concilium', ano: 2026, grupo: 'leao_xiv' },
-
-  // ---- Écône 2026 ----
-  { id: 'ECONE26', level: 8, categoria: 'tradicionalismo', label: 'Consagrações episcopais de Écône — 2026', ano: 2026, grupo: 'tradicionalismo' },
-
-  // ---- Sinodalidade / disciplina ----
-  { id: 'BONNY', level: 8, categoria: 'pos_concilio', label: 'Dom Johan Bonny', ano: 2026, grupo: 'sinodalidade' },
-  { id: 'ORD28', level: 8, categoria: 'pos_concilio', label: 'Plano de ordenação de homens casados em Antuérpia', ano: 2028, grupo: 'sinodalidade' }
+  // ==========================================
+  // NÍVEL 8 — LEÃO XIV & FUTURO (2025–2028)
+  // ==========================================
+  { id: 'Leao-XIV',           level: 8, categoria: 'papa',          label: 'Leão XIV', ano: 2025, grupo: 'papa' },
+  { id: 'Agenda-2030',        level: 8, categoria: 'pos_concilio',  label: 'Agenda 2030 / ONU', ano: 2025, grupo: 'pos_concilio' },
+  { id: 'Catequeses-Leao-XIV',level: 8, categoria: 'liturgia',      label: 'Catequeses sobre Sacrosanctum Concilium', ano: 2026, grupo: 'leao_xiv' },
+  { id: 'Consagracoes-2026',  level: 8, categoria: 'tradicionalismo', label: 'Consagrações de Écône — 2026', ano: 2026, grupo: 'tradicionalismo' },
+  { id: 'Dom-Bonny',          level: 8, categoria: 'pos_concilio',  label: 'Dom Johan Bonny', ano: 2026, grupo: 'sinodalidade' },
+  { id: 'Plano-O',            level: 8, categoria: 'pos_concilio',  label: 'Ordenação de Casados (Antuérpia)', ano: 2028, grupo: 'sinodalidade' }
 ];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var todosSetas = [
-  // ---- Pio X / Pio XII: raízes de oposição/antecedência ----
-  { from: 'PX', to: 'PASC', title: 'publicou', texto: 'publicou' },
-  { from: 'PASC', to: 'GS', title: 'condena a abertura que viria a', texto: 'condena abertura de', dashes: true },
-  { from: 'PASC', to: 'DH', title: 'condena a abertura que viria a', texto: 'condena abertura de', dashes: true },
-  { from: 'PXII', to: 'HG', title: 'publicou', texto: 'publicou' },
-  { from: 'PXII', to: 'MD', title: 'publicou', texto: 'publicou' },
-  { from: 'PXII', to: 'MC', title: 'publicou', texto: 'publicou' },
-  { from: 'HG', to: 'LUB', title: 'condenou a Nova Teologia de', texto: 'condenou', dashes: true },
-  { from: 'HG', to: 'CON', title: 'condenou a Nova Teologia de', texto: 'condenou', dashes: true },
-  { from: 'MD', to: 'SC', title: 'antecede/influencia', texto: 'antecede' },
-  { from: 'MC', to: 'LG', title: 'antecede/influencia', texto: 'antecede' },
+  // ==========================================
+  // 1. PONTIFICADO DE SÃO PIO X (1903–1914)
+  // ==========================================
+  { from: 'Pio-X', to: 'Modernismo',   title: 'combateu', texto: 'combateu', dashes: true },
+  { from: 'Pio-X', to: 'Pascendi',     title: 'promulgou', texto: 'promulgou' },
+  { from: 'Pio-X', to: 'Juramento-A',  title: 'instituiu contra o modernismo', texto: 'instituiu' },
+  { from: 'Pio-X', to: 'Fraternidade-S', title: 'padroeiro e referência teológica', texto: 'inspira' },
+  { from: 'Pascendi', to: 'Gaudium-S',  title: 'condena teses que reapareceriam em', texto: 'condena teses de', dashes: true },
+  { from: 'Pascendi', to: 'Dignitatis-H',title: 'condena premissas liberais de', texto: 'condena teses de', dashes: true },
 
-  // ---- João XXIII / Concílio ----
-  { from: 'J23', to: 'CV2', title: 'convocou', texto: 'convocou' },
-  { from: 'J23', to: 'SC', title: 'convocou', texto: 'convocou' },
-  { from: 'J23', to: 'LG', title: 'convocou', texto: 'convocou' },
-  { from: 'J23', to: 'P6', title: 'abriu o Concílio, sucedido por', texto: 'sucedido por' },
+  // ==========================================
+  // 2. PONTIFICADO DE PIO XII (1939–1958)
+  // ==========================================
+  { from: 'Pio-XII', to: 'Humani-G',        title: 'promulgou', texto: 'promulgou' },
+  { from: 'Pio-XII', to: 'Mediator-D',      title: 'promulgou sobre a liturgia', texto: 'promulgou' },
+  { from: 'Pio-XII', to: 'Mystici-C',       title: 'promulgou sobre a Igreja', texto: 'promulgou' },
+  { from: 'Pio-XII', to: 'Reformas-Pio-XII', title: 'iniciou reformas litúrgicas nos anos 50', texto: 'iniciou reformas' },
+  { from: 'Humani-G', to: 'Henri-L',        title: 'censurou a Nova Teologia de', texto: 'censurou', dashes: true },
+  { from: 'Humani-G', to: 'Yves-C',         title: 'censurou teses ecumênicas de', texto: 'censurou', dashes: true },
+  { from: 'Mediator-D', to: 'Sacrosanctum-C',title: 'serviu de base magisterial', texto: 'antecede' },
+  { from: 'Mystici-C', to: 'Lumen-G',       title: 'antecedeu eclesiologia de', texto: 'antecede' },
 
-  { from: 'BEA', to: 'CV2', title: 'dominou agenda (ala reformista)', texto: 'participou (reformista)' },
-  { from: 'SUE', to: 'CV2', title: 'dominou agenda (ala reformista)', texto: 'participou (reformista)' },
-  { from: 'LER', to: 'CV2', title: 'dominou agenda (ala reformista)', texto: 'participou (reformista)' },
-  { from: 'DOE', to: 'CV2', title: 'dominou agenda (ala reformista)', texto: 'participou (reformista)' },
-  { from: 'KON', to: 'CV2', title: 'dominou agenda (ala reformista)', texto: 'participou (reformista)' },
-  { from: 'ALF', to: 'CV2', title: 'dominou agenda (ala reformista)', texto: 'participou (reformista)' },
-  { from: 'FRI', to: 'CV2', title: 'dominou agenda (ala reformista)', texto: 'participou (reformista)' },
+  // ==========================================
+  // 3. JOÃO XXIII (1958–1963) & CONCÍLIO VATICANO II
+  // ==========================================
+  { from: 'Joao-XXIII', to: 'Concilio-V',  title: 'convocou o Concílio Vaticano II', texto: 'convocou' },
+  { from: 'Joao-XXIII', to: 'Paulo-VI',    title: 'sucedido por', texto: 'sucedido por' },
 
-  { from: 'OTT', to: 'CV2', title: 'resistência e oposição', texto: 'resistiu', dashes: true },
-  { from: 'RUF', to: 'CV2', title: 'resistência e oposição', texto: 'resistiu', dashes: true },
-  { from: 'LEF', to: 'CV2', title: 'resistência e oposição', texto: 'resistiu', dashes: true },
-  { from: 'CAR', to: 'CV2', title: 'resistência e oposição', texto: 'resistiu', dashes: true },
-  { from: 'SIR', to: 'CV2', title: 'resistência e oposição', texto: 'resistiu', dashes: true },
+  // Ala Reformista -> Concílio
+  { from: 'Card-Bea',     to: 'Concilio-V', title: 'liderou ala ecumênica/progressista', texto: 'articulou' },
+  { from: 'Card-Suenens', to: 'Concilio-V', title: 'moderador e articulador reformista', texto: 'moderou' },
+  { from: 'Card-Lercaro', to: 'Concilio-V', title: 'líder da comissão de liturgia', texto: 'articulou' },
+  { from: 'Card-Dopfner', to: 'Concilio-V', title: 'coordenou reformas alemãs', texto: 'articulou' },
+  { from: 'Card-Konig',   to: 'Concilio-V', title: 'articulou abertura ao diálogo', texto: 'articulou' },
+  { from: 'Card-Alfrink', to: 'Concilio-V', title: 'apoiou ala progressista', texto: 'articulou' },
+  { from: 'Card-Frings',  to: 'Concilio-V', title: 'promoveu reformas teológicas com Ratzinger', texto: 'articulou' },
 
-  { from: 'RAH', to: 'CV2', title: 'escreveu textos base', texto: 'escreveu textos base', dashes: true },
-  { from: 'CON', to: 'CV2', title: 'escreveu textos base', texto: 'escreveu textos base', dashes: true },
-  { from: 'LUB', to: 'CV2', title: 'escreveu textos base', texto: 'escreveu textos base', dashes: true },
-  { from: 'RAT', to: 'CV2', title: 'escreveu textos base', texto: 'escreveu textos base', dashes: true },
-  { from: 'SCH', to: 'CV2', title: 'escreveu textos base', texto: 'escreveu textos base', dashes: true },
-  { from: 'MUR', to: 'CV2', title: 'escreveu textos base', texto: 'escreveu textos base', dashes: true },
+  // Ala Conservadora -> Concílio
+  { from: 'Card-Ottaviani', to: 'Concilio-V', title: 'liderou defesa dogmática e oposição a esquemas', texto: 'resistiu', dashes: true },
+  { from: 'Card-Ruffini',   to: 'Concilio-V', title: 'contestou teses liberais', texto: 'resistiu', dashes: true },
+  { from: 'Dom-Lefebvre',   to: 'Concilio-V', title: 'articulou o Coetus Internationalis Patrum', texto: 'liderou Coetus', dashes: true },
+  { from: 'Card-Carli',     to: 'Concilio-V', title: 'opôs-se à colegialidade excessiva', texto: 'resistiu', dashes: true },
+  { from: 'Card-Siri',      to: 'Concilio-V', title: 'defendeu a continuidade escolástica', texto: 'resistiu', dashes: true },
 
-  // ---- Pessoa -> documento específico (recuperado da versão original) ----
-  { from: 'BEA', to: 'NA', title: 'liderou elaboração', texto: 'liderou elaboração' },
-  { from: 'BEA', to: 'UR', title: 'promoveu ecumenismo', texto: 'promoveu ecumenismo' },
-  { from: 'SUE', to: 'GS', title: 'moderador do Concílio', texto: 'moderador do Concílio' },
-  { from: 'SUE', to: 'LG', title: 'defendeu colegialidade', texto: 'defendeu colegialidade' },
-  { from: 'LER', to: 'SC', title: 'presidiu comissão litúrgica', texto: 'presidiu comissão litúrgica' },
-  { from: 'DOE', to: 'GS', title: 'coordenou reformas', texto: 'coordenou reformas' },
-  { from: 'KON', to: 'GS', title: 'apoiou abertura', texto: 'apoiou abertura' },
-  { from: 'ALF', to: 'LG', title: 'apoiou reformas', texto: 'apoiou reformas' },
-  { from: 'RAH', to: 'LG', title: 'consultor teológico', texto: 'consultor teológico' },
-  { from: 'RAH', to: 'GS', title: 'influenciou', texto: 'influenciou' },
-  { from: 'CON', to: 'LG', title: 'influenciou', texto: 'influenciou' },
-  { from: 'CON', to: 'UR', title: 'influenciou', texto: 'influenciou' },
-  { from: 'LUB', to: 'DV', title: 'influenciou', texto: 'influenciou' },
-  { from: 'LUB', to: 'GS', title: 'influenciou', texto: 'influenciou' },
-  { from: 'RAT', to: 'DV', title: 'perito de Frings', texto: 'perito de Frings' },
-  { from: 'RAT', to: 'LG', title: 'contribuiu', texto: 'contribuiu' },
-  { from: 'SCH', to: 'SC', title: 'consultor', texto: 'consultor' },
-  { from: 'SCH', to: 'GS', title: 'consultor', texto: 'consultor' },
-  { from: 'MUR', to: 'DH', title: 'defendeu liberdade religiosa', texto: 'defendeu liberdade religiosa' },
-  { from: 'OTT', to: 'LG', title: 'opôs-se a mudanças', texto: 'opôs-se a mudanças', dashes: true },
-  { from: 'OTT', to: 'DH', title: 'criticou', texto: 'criticou', dashes: true },
-  { from: 'OTT', to: 'GS', title: 'criticou', texto: 'criticou', dashes: true },
-  { from: 'RUF', to: 'NA', title: 'contestou', texto: 'contestou', dashes: true },
-  { from: 'RUF', to: 'DH', title: 'contestou', texto: 'contestou', dashes: true },
-  { from: 'LEF', to: 'DH', title: 'opôs-se', texto: 'opôs-se', dashes: true },
-  { from: 'LEF', to: 'GS', title: 'opôs-se', texto: 'opôs-se', dashes: true },
-  { from: 'LEF', to: 'LG', title: 'opôs-se', texto: 'opôs-se', dashes: true },
-  { from: 'CAR', to: 'LG', title: 'contestou colegialidade', texto: 'contestou colegialidade', dashes: true },
-  { from: 'SIR', to: 'GS', title: 'posição conservadora', texto: 'posição conservadora', dashes: true },
-  { from: 'SIR', to: 'DH', title: 'posição conservadora', texto: 'posição conservadora', dashes: true },
+  // Peritos -> Concílio
+  { from: 'Karl-R',   to: 'Concilio-V', title: 'redigiu esquemas e orientou bispos', texto: 'orientou' },
+  { from: 'Yves-C',   to: 'Concilio-V', title: 'redigiu textos sobre Igreja e ecumenismo', texto: 'orientou' },
+  { from: 'Henri-L',  to: 'Concilio-V', title: 'reabilitado como perito conciliar', texto: 'influenciou' },
+  { from: 'Joseph-R', to: 'Concilio-V', title: 'perito principal do Card. Frings', texto: 'assessorou' },
+  { from: 'Edward-S', to: 'Concilio-V', title: 'redigiu análises para episcopado holandês', texto: 'orientou' },
+  { from: 'John-M',   to: 'Concilio-V', title: 'articulou o esquema de liberdade religiosa', texto: 'orientou' },
 
-  // ---- Relações interpessoais ----
-  { from: 'BEA', to: 'CON', title: 'trabalhou com', texto: 'trabalhou com' },
-  { from: 'BEA', to: 'LUB', title: 'trabalhou com', texto: 'trabalhou com' },
-  { from: 'SUE', to: 'RAH', title: 'colaborou com', texto: 'colaborou com' },
-  { from: 'SUE', to: 'CON', title: 'colaborou com', texto: 'colaborou com' },
-  { from: 'OTT', to: 'BEA', title: 'liderou oposição a', texto: 'liderou oposição a', dashes: true },
-  { from: 'OTT', to: 'SUE', title: 'liderou oposição a', texto: 'liderou oposição a', dashes: true },
-
-  // ---- Paulo VI: promulgações ----
-  { from: 'P6', to: 'SC', title: 'promulgou', texto: 'promulgou' },
-  { from: 'P6', to: 'LG', title: 'promulgou', texto: 'promulgou' },
-  { from: 'P6', to: 'DV', title: 'promulgou', texto: 'promulgou' },
-  { from: 'P6', to: 'GS', title: 'promulgou', texto: 'promulgou' },
-  { from: 'P6', to: 'DH', title: 'promulgou', texto: 'promulgou' },
-  { from: 'P6', to: 'NA', title: 'promulgou', texto: 'promulgou' },
-  { from: 'P6', to: 'UR', title: 'promulgou', texto: 'promulgou' },
-  { from: 'P6', to: 'SUE', title: 'nomeou moderador', texto: 'nomeou moderador' },
-  { from: 'P6', to: 'LER', title: 'apoiou comissão', texto: 'apoiou comissão' },
-
-  // ---- Pós-concílio (Paulo VI) ----
-  { from: 'SC', to: 'NOM', title: 'gerou a reforma litúrgica', texto: 'gerou reforma litúrgica' },
-  { from: 'GS', to: 'TL', title: 'inspirou abertura social', texto: 'inspirou abertura social' },
-  { from: 'DH', to: 'FSSPX', title: 'rejeitado pelos tradicionalistas', texto: 'rejeitado por', dashes: true },
-  { from: 'NOM', to: 'FSSPX', title: 'rejeitado pelos tradicionalistas', texto: 'rejeitado por', dashes: true },
-  { from: 'LEF', to: 'FSSPX', title: 'fundou', texto: 'fundou' },
-
-  // ---- João Paulo II ----
-  { from: 'JP2', to: 'CAT', title: 'promulgou síntese oficial', texto: 'promulgou síntese oficial' },
-  { from: 'JP2', to: 'LEF', title: 'excomungou por sagrações', texto: 'excomungou por sagrações' },
-  { from: 'FSSPX', to: 'LEF', title: 'cisma formalizado por', texto: 'cisma formalizado por' },
-  { from: 'JP2', to: 'ED', title: 'criou alternativa à FSSPX', texto: 'criou alternativa à FSSPX' },
-  { from: 'TL', to: 'JP2', title: 'condenada e freada por', texto: 'condenada e freada por', dashes: true },
-
-  // ---- Bento XVI ----
-  { from: 'RAT', to: 'B16', title: 'eleito papa', texto: 'eleito papa' },
-  { from: 'B16', to: 'HER', title: 'filosofia de governo', texto: 'filosofia de governo' },
-  { from: 'B16', to: 'SUM', title: 'ato de reconciliação', texto: 'ato de reconciliação' },
-  { from: 'B16', to: 'LEF', title: 'excomunhão anulada', texto: 'excomunhão anulada' },
-
-
-  // ---- Francisco ----
-  { from: 'FR', to: 'SIN', title: 'expande radicalmente a pastoral de CV2', texto: 'expande pastoral de CV2' },
-  { from: 'FR', to: 'TC', title: 'reverteu as políticas de Bento XVI', texto: 'reverteu políticas de Bento XVI' },
-  { from: 'FR', to: 'AMO', title: 'avanço moral/pastoral', texto: 'avanço moral/pastoral' },
-  { from: 'SUM', to: 'TC', title: 'revogado na prática por', texto: 'revogado na prática por', dashes: true },
-  { from: 'TC', to: 'FSSPX', title: 'revolta a resistência tradicionalista', texto: 'revolta resistência', dashes: true },
-  { from: 'LG', to: 'SIN', title: 'base teológica para', texto: 'base teológica para' },
-
-  // ---- Conexões críticas longas ----
-  { from: 'NOM', to: 'SUM', title: 'concorre diretamente contra', texto: 'concorre diretamente contra', dashes: true },
-  { from: 'CAT', to: 'HER', title: 'ignorado pelas extremas esquerda/direita', texto: 'ignorado pelas extremas', dashes: true },
-
-  // ---- Leão XIV ----
-  { from: 'L14', to: 'AG30', title: 'discurso alinhado à Agenda 2030/ODS (segundo InfoVaticana)', texto: 'adere / discurso alinhado a' },
+  // Influência Direta em Documentos
+  { from: 'Card-Bea',     to: 'Nostra-A',     title: 'liderou redação de', texto: 'redigiu' },
+  { from: 'Card-Bea',     to: 'Unitatis-R',   title: 'promoveu decreto ecumênico', texto: 'promoveu' },
+  { from: 'Card-Suenens', to: 'Gaudium-S',    title: 'impulsionou redação de', texto: 'impulsionou' },
+  { from: 'Card-Suenens', to: 'Lumen-G',      title: 'defendeu colegialidade em', texto: 'defendeu' },
+  { from: 'Card-Lercaro', to: 'Sacrosanctum-C',title: 'dirigiu a reforma litúrgica conciliar', texto: 'presidiu' },
+  { from: 'Karl-R',       to: 'Lumen-G',      title: 'influenciou eclesiologia de', texto: 'influenciou' },
+  { from: 'Yves-C',       to: 'Unitatis-R',   title: 'formatou a teologia ecumênica de', texto: 'formatou' },
+  { from: 'Henri-L',      to: 'Dei-V',        title: 'influenciou teologia da Revelação em', texto: 'influenciou' },
+  { from: 'Joseph-R',     to: 'Dei-V',        title: 'redigiu revisões para', texto: 'revisou' },
+  { from: 'John-M',       to: 'Dignitatis-H', title: 'principal redator de', texto: 'redigiu' },
   
+  // Tensões nos Documentos
+  { from: 'Card-Ottaviani', to: 'Card-Bea',   title: 'conflito doutrinal direto no Concílio', texto: 'combateu', dashes: true },
+  { from: 'Dom-Lefebvre',   to: 'Dignitatis-H',title: 'rejeitou como ruptura com o Magistério', texto: 'rejeitou', dashes: true },
+  { from: 'Dom-Lefebvre',   to: 'Gaudium-S',   title: 'rejeitou espírito humanista moderno de', texto: 'rejeitou', dashes: true },
+  { from: 'Dom-Lefebvre',   to: 'Unitatis-R',  title: 'rejeitou ecumenismo conciliar', texto: 'rejeitou', dashes: true },
+
+  // ==========================================
+  // 4. PONTIFICADO DE PAULO VI (1963–1978)
+  // ==========================================
+  // Promulgações Conciliares
+  { from: 'Paulo-VI', to: 'Sacrosanctum-C', title: 'promulgou', texto: 'promulgou' },
+  { from: 'Paulo-VI', to: 'Lumen-G',        title: 'promulgou com Nota Explicativa Prévia', texto: 'promulgou' },
+  { from: 'Paulo-VI', to: 'Unitatis-R',     title: 'promulgou', texto: 'promulgou' },
+  { from: 'Paulo-VI', to: 'Dei-V',          title: 'promulgou', texto: 'promulgou' },
+  { from: 'Paulo-VI', to: 'Gaudium-S',      title: 'promulgou', texto: 'promulgou' },
+  { from: 'Paulo-VI', to: 'Dignitatis-H',   title: 'promulgou', texto: 'promulgou' },
+  { from: 'Paulo-VI', to: 'Nostra-A',       title: 'promulgou', texto: 'promulgou' },
+
+  // Reforma e Ruptura Litúrgica
+  { from: 'Sacrosanctum-C', to: 'Reforma-L', title: 'determinou diretrizes para', texto: 'determinou' },
+  { from: 'Reforma-L',      to: 'Novus-O',   title: 'resultou na criação do novo rito', texto: 'gerou' },
+  { from: 'Paulo-VI',       to: 'Novus-O',   title: 'promulgou em 1969 o Missal Reformado', texto: 'promulgou' },
   
-  
-  
-  
-  
-  // ---- novos do chatgpt ---- 
+  // Crise Pós-Conciliar e Resistência Tradicionalista
+  { from: 'Concilio-V',     to: 'Crise-P',        title: 'deu início ao período de crise pós-conciliar', texto: 'desencadeou' },
+  { from: 'Gaudium-S',      to: 'Teologia-L',     title: 'inspirou matriz social e política de', texto: 'inspirou' },
+  { from: 'Dom-Lefebvre',   to: 'Seminario-E',    title: 'fundou para preservar sacerdócio tradicional', texto: 'fundou' },
+  { from: 'Seminario-E',    to: 'Fraternidade-S', title: 'sede de formação da', texto: 'formou clero da' },
+  { from: 'Dom-Lefebvre',   to: 'Declaracao-1974',title: 'publicou manifesto de recusa à Roma modernista', texto: 'publicou' },
+  { from: 'Declaracao-1974',to: 'Fraternidade-S', title: 'tornou-se carta de princípios da', texto: 'fundamentou' },
+  { from: 'Paulo-VI',       to: 'Dom-Lefebvre',   title: 'suspendeu a divinis Dom Lefebvre em 1976', texto: 'suspendeu a divinis', dashes: true },
 
-  // ---- Pio X / Pio XII ----
-  { from: 'PX', to: 'MOD', title: 'combateu o Modernismo', texto: 'combateu Modernismo', dashes: true },
-  { from: 'PX', to: 'PASC', title: 'condenou o Modernismo', texto: 'condenou Modernismo', dashes: true },
-  { from: 'PX', to: 'OATH', title: 'instituiu juramento antimodernista', texto: 'instituiu juramento' },
+  // ==========================================
+  // 5. PONTIFICADO DE JOÃO PAULO II (1978–2005)
+  // ==========================================
+  { from: 'Joao-Paulo-II', to: 'Catecismo-I',      title: 'promulgou síntese doutrinal conciliar', texto: 'promulgou' },
+  { from: 'Joao-Paulo-II', to: 'Teologia-L',       title: 'restringiu e censurou via CDF/Ratzinger', texto: 'censurou', dashes: true },
+  { from: 'Dom-Lefebvre',  to: 'Estado-N',         title: 'invocou para justificar atos extraordinários', texto: 'invocou' },
+  { from: 'Estado-N',      to: 'Consagracoes-1988',title: 'fundamentou a realização das sagrações sem mandato papal', texto: 'fundamentou' },
+  { from: 'Dom-Lefebvre',  to: 'Consagracoes-1988',title: 'consagrou quatro bispos em Écône', texto: 'consagrou bispos' },
+  { from: 'Joao-Paulo-II', to: 'Consagracoes-1988',title: 'declarou excomunhão por ato cismático', texto: 'excomungou', dashes: true },
+  { from: 'Consagracoes-1988', to: 'Fraternidade-S',title: 'garantiu sucessão episcopal da', texto: 'assegurou sucessão' },
+  { from: 'Joao-Paulo-II', to: 'Comissao-E',       title: 'criou para acolher dissidentes da FSSPX', texto: 'instituiu' },
+  { from: 'Comissao-E',    to: 'Comunidades-T',    title: 'enquadrou canonicamente FSSP, IBP, etc.', texto: 'enquadrou' },
+  { from: 'Comunidades-T', to: 'Movimento-T',      title: 'fomentou o crescimento do', texto: 'expandiu' },
 
-  { from: 'PXII', to: 'MD', title: 'publicou', texto: 'publicou' },
-  { from: 'PXII', to: 'LIT', title: 'promoveu reformas litúrgicas anteriores ao Concílio', texto: 'reformou liturgia' },
+  // ==========================================
+  // 6. PONTIFICADO DE BENTO XVI (2005–2013)
+  // ==========================================
+  { from: 'Joseph-R',     to: 'Bento-XVI',      title: 'eleito Sumo Pontífice', texto: 'eleito papa' },
+  { from: 'Bento-XVI',    to: 'Hermeneutica-C', title: 'definiu como chave interpretativa do Concílio', texto: 'formulou' },
+  { from: 'Bento-XVI',    to: 'Summorum-P',     title: 'promulgou liberalizando a liturgia antiga', texto: 'promulgou' },
+  { from: 'Summorum-P',   to: 'Missal-1962',    title: 'reabilitou como Forma Extraordinária', texto: 'reabilitou' },
+  { from: 'Summorum-P',   to: 'Novus-O',        title: 'estabeleceu coexistência mútua de ritos', texto: 'coexiste com' },
+  { from: 'Summorum-P',   to: 'Movimento-T',    title: 'causou grande expansão mundial do', texto: 'impulsionou' },
+  { from: 'Bento-XVI',    to: 'Fraternidade-S', title: 'levantou as excomunhões dos bispos em 2009', texto: 'revogou excomunhões' },
 
-  // ---- Vaticano II / Reforma ----
-  { from: 'CV2', to: 'SC', title: 'promulgou constituição litúrgica', texto: 'promulgou' },
-  { from: 'SC', to: 'REF', title: 'estabeleceu princípios da reforma litúrgica', texto: 'fundamentou reforma' },
-  { from: 'REF', to: 'NOM', title: 'conduziu ao novo Missal', texto: 'conduziu ao Novus Ordo' },
-  { from: 'P6', to: 'NOM', title: 'promulgou novo Missal', texto: 'promulgou' },
+  // ==========================================
+  // 7. PONTIFICADO DE FRANCISCO (2013–...)
+  // ==========================================
+  { from: 'Francisco',     to: 'Traditionis-C',  title: 'promulgou restringindo a missa tradicional', texto: 'promulgou' },
+  { from: 'Traditionis-C', to: 'Summorum-P',     title: 'ab-rogou na prática as concessões de', texto: 'ab-rogou', dashes: true },
+  { from: 'Traditionis-C', to: 'Missal-1962',    title: 'restringiu severamente a celebração pelo', texto: 'restringiu', dashes: true },
+  { from: 'Card-Roche',    to: 'Traditionis-C',  title: 'aplicou com decretos e rescriptos restritivos', texto: 'executou com rigor' },
+  { from: 'Traditionis-C', to: 'Comunidades-T',  title: 'restringiu apostolado e ordenações de', texto: 'restringiu', dashes: true },
+  { from: 'Traditionis-C', to: 'Fraternidade-S', title: 'aumentou procura e resistência da', texto: 'fortaleceu resistência' },
+  { from: 'Francisco',     to: 'Sinodo-S',       title: 'convocou processo global de governança e escuta', texto: 'convocou' },
+  { from: 'Lumen-G',       to: 'Sinodo-S',       title: 'utilizado como base da teologia do Povo de Deus', texto: 'fundamenta' },
+  { from: 'Francisco',     to: 'Amoris-L',       title: 'promulgou promovendo aberturas morais/pastorais', texto: 'promulgou' },
 
-  // ---- Crise e resistência ----
-  { from: 'NOM', to: 'CRISE', title: 'tornou-se foco da resistência tradicionalista', texto: 'provocou resistência', dashes: true },
-  { from: 'P6', to: 'LEF', title: 'entrou em conflito com', texto: 'entrou em conflito com', dashes: true },
-  { from: 'LEF', to: 'DECL74', title: 'redigiu', texto: 'redigiu declaração' },
-  { from: 'DECL74', to: 'FSSPX', title: 'expressou princípios da resistência', texto: 'fundamentou resistência' },
-  { from: 'LEF', to: 'ECONE', title: 'fundou', texto: 'fundou' },
-  { from: 'ECONE', to: 'FSSPX', title: 'formou sacerdotes', texto: 'formou sacerdotes' },
-
-  // ---- 1988 ----
-  { from: 'LEF', to: 'SAC88', title: 'realizou consagrações episcopais', texto: 'consagrou bispos', dashes: true },
-  { from: 'JP2', to: 'SAC88', title: 'reagiu às consagrações', texto: 'reagiu a', dashes: true },
-  { from: 'SAC88', to: 'FSSPX', title: 'garantiu continuidade episcopal', texto: 'garantiu continuidade' },
-
-  { from: 'JP2', to: 'ED', title: 'criou estrutura para tradicionalistas', texto: 'criou estrutura' },
-  { from: 'ED', to: 'ICR', title: 'acolheu comunidades tradicionais', texto: 'acolheu' },
-
-  // ---- Bento XVI ----
-  { from: 'B16', to: 'SUM', title: 'promulgou Summorum Pontificum', texto: 'promulgou' },
-  { from: 'SUM', to: 'MIS62', title: 'liberalizou o uso do Missal de 1962', texto: 'liberalizou' },
-  { from: 'SUM', to: 'TRAD', title: 'ampliou acesso à liturgia tradicional', texto: 'ampliou acesso' },
-  { from: 'SUM', to: 'FSSPX', title: 'favoreceu contexto de aproximação', texto: 'favoreceu aproximação' },
-  { from: 'B16', to: 'FSSPX', title: 'levantou excomunhões dos bispos', texto: 'levantou excomunhões' },
-  { from: 'B16', to: 'HER', title: 'defendeu hermenêutica da continuidade', texto: 'defendeu continuidade' },
-
-  // ---- Francisco / Traditionis Custodes ----
-  { from: 'FR', to: 'TC', title: 'promulgou Traditionis Custodes', texto: 'promulgou' },
-  { from: 'TC', to: 'SUM', title: 'restringiu o regime litúrgico anterior', texto: 'restringiu', dashes: true },
-  { from: 'TC', to: 'MIS62', title: 'restringiu o uso do Missal de 1962', texto: 'restringiu uso', dashes: true },
-  { from: 'TC', to: 'TRAD', title: 'restringiu celebração tradicional', texto: 'restringiu', dashes: true },
-  { from: 'ROCHE', to: 'TC', title: 'interpretou e aplicou', texto: 'aplicou' },
-  { from: 'ROCHE', to: 'MIS62', title: 'restringiu seu estatuto litúrgico', texto: 'restringiu estatuto', dashes: true },
-
-  // ---- Leão XIV / liturgia em 2026 ----
-  { from: 'L14', to: 'LIT26', title: 'promoveu catequeses sobre Sacrosanctum Concilium', texto: 'catequizou sobre SC' },
-  { from: 'LIT26', to: 'SC', title: 'retomou e explicou', texto: 'explicou SC' },
-
-  // ---- Écône 2026 ----
-  { from: 'FSSPX', to: 'ECONE26', title: 'realizou novas consagrações episcopais', texto: 'realizou consagrações' },
-  { from: 'ECONE26', to: 'FSSPX', title: 'reforçou a sucessão episcopal', texto: 'reforçou sucessão' },
-  { from: 'ECONE26', to: 'TRAD', title: 'reforçou estrutura episcopal tradicional', texto: 'reforçou estrutura' },
-  { from: 'ECONE26', to: 'NEC', title: 'foi justificada pelo estado de necessidade', texto: 'invocou necessidade', dashes: true },
-
-  // ---- Estado de necessidade ----
-  { from: 'LEF', to: 'NEC', title: 'invocou estado de necessidade', texto: 'invocou necessidade' },
-  { from: 'FSSPX', to: 'NEC', title: 'invoca estado de necessidade', texto: 'invoca necessidade' },
-  { from: 'NEC', to: 'SAC88', title: 'foi utilizado como argumento para', texto: 'fundamentou' },
-  { from: 'NEC', to: 'ECONE26', title: 'foi novamente invocado em', texto: 'fundamentou', dashes: true },
-
-  // ---- Linha histórica da crise ----
-  { from: 'CV2', to: 'CRISE', title: 'marcou o início da crise pós-conciliar segundo a leitura tradicionalista', texto: 'marcou início da crise' },
-  { from: 'CRISE', to: 'LEF', title: 'gerou resistência episcopal', texto: 'gerou resistência' },
-  { from: 'CRISE', to: 'FSSPX', title: 'motivou resistência organizada', texto: 'motivou resistência' },
-  { from: 'CRISE', to: 'SUM', title: 'precedeu posterior liberalização litúrgica', texto: 'precedeu liberalização' },
-  { from: 'CRISE', to: 'TC', title: 'permaneceu no centro do conflito litúrgico', texto: 'permaneceu em conflito' },
-
-  // ---- Linha de continuidade tradicionalista ----
-  { from: 'PX', to: 'LEF', title: 'constituiu referência antimodernista', texto: 'inspirou' },
-  { from: 'PX', to: 'FSSPX', title: 'deu nome e referência à Fraternidade', texto: 'inspirou' },
-  { from: 'PXII', to: 'LEF', title: 'constituiu referência doutrinal e litúrgica', texto: 'precedeu' },
-
-  // ---- Comunidades tradicionais ----
-  { from: 'ICR', to: 'TRAD', title: 'preservou a liturgia tradicional em comunidades', texto: 'preservou' },
-  { from: 'TRAD', to: 'FSSPX', title: 'compartilha defesa da liturgia tradicional', texto: 'compartilha defesa' },
-  { from: 'TRAD', to: 'TC', title: 'sofreu restrições após Traditionis Custodes', texto: 'sofreu restrições', dashes: true },
-
-  // ---- Leão XIV / continuidade do regime herdado ----
-  { from: 'FR', to: 'L14', title: 'precedeu no pontificado', texto: 'precedeu' },
-  { from: 'TC', to: 'L14', title: 'legou regime restritivo da liturgia tradicional', texto: 'legou restrições' },
-
-  // ---- Sinodalidade / Antuérpia 2026-2028 ----
-  { from: 'BONNY', to: 'ORD28', title: 'anunciou intenção de ordenar homens casados até 2028', texto: 'anunciou para 2028', dashes: true },
-  { from: 'BONNY', to: 'SIN', title: 'vinculou proposta à implementação do processo sinodal', texto: 'vinculou à sinodalidade' },
-  { from: 'ORD28', to: 'CRISE', title: 'tornou-se novo foco de controvérsia disciplinar', texto: 'gerou controvérsia', dashes: true }
-
+  // ==========================================
+  // 8. PONTIFICADO DE LEÃO XIV & PERSPECTIVAS (2025–2028)
+  // ==========================================
+  { from: 'Francisco',          to: 'Leao-XIV',           title: 'sucedido por', texto: 'sucedido por' },
+  { from: 'Traditionis-C',      to: 'Leao-XIV',           title: 'herdou o regime de restrição litúrgica', texto: 'legou restrições' },
+  { from: 'Leao-XIV',           to: 'Agenda-2030',        title: 'discurso alinhado a pautas globais da ONU', texto: 'alinha-se a' },
+  { from: 'Leao-XIV',           to: 'Catequeses-Leao-XIV',title: 'promoveu catequeses buscando pacificar a liturgia', texto: 'promoveu' },
+  { from: 'Catequeses-Leao-XIV',to: 'Sacrosanctum-C',     title: 'tentativa de reinterpretar e fixar limites de', texto: 'reinterpreta' },
+  { from: 'Fraternidade-S',     to: 'Consagracoes-2026',  title: 'realizou novas sagrações episcopais para perpetuação', texto: 'realizou' },
+  { from: 'Estado-N',           to: 'Consagracoes-2026',  title: 'reinvocado para justificar as novas sagrações', texto: 'fundamentou' },
+  { from: 'Consagracoes-2026',  to: 'Movimento-T',        title: 'reforçou polo de resistência tradicionalista', texto: 'consolidou' },
+  { from: 'Dom-Bonny',          to: 'Plano-O',            title: 'anunciou projeto de ordenação de homens casados', texto: 'propôs' },
+  { from: 'Sinodo-S',           to: 'Dom-Bonny',          title: 'usado como respaldo para experimentos disciplinares', texto: 'respalda' },
+  { from: 'Plano-O',            to: 'Crise-P',            title: 'alimenta novo capítulo da crise eclesial', texto: 'agrava', dashes: true }
 ];
 
 module.exports = { todosNos, todosSetas, regras: regrasDoGrafo };
