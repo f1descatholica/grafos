@@ -28,7 +28,7 @@
       "ano": 1939,
       "grupo": "papa",
       "x": 0,
-      "y": 187.5
+      "y": 337.5
     },
     {
       "id": "HG",
@@ -38,7 +38,7 @@
       "ano": 1950,
       "grupo": "documento",
       "x": 346,
-      "y": 337.5
+      "y": 487.5
     },
     {
       "id": "MD",
@@ -48,7 +48,7 @@
       "ano": 1947,
       "grupo": "documento",
       "x": 14,
-      "y": 412.5
+      "y": 562.5
     },
     {
       "id": "MC",
@@ -58,7 +58,7 @@
       "ano": 1943,
       "grupo": "documento",
       "x": -332,
-      "y": 337.5
+      "y": 487.5
     },
     {
       "id": "J23",
@@ -68,7 +68,7 @@
       "ano": 1958,
       "grupo": "papa",
       "x": 0,
-      "y": 487.5
+      "y": 937.5
     },
     {
       "id": "CV2",
@@ -78,7 +78,7 @@
       "ano": 1962,
       "grupo": "evento",
       "x": 0,
-      "y": 637.5
+      "y": 2437.5
     },
     {
       "id": "BEA",
@@ -87,7 +87,7 @@
       "label": "Card. Bea",
       "grupo": "cardeal_reformista",
       "x": 975,
-      "y": 787.5
+      "y": 1237.5
     },
     {
       "id": "SUE",
@@ -96,7 +96,7 @@
       "label": "Card. Suenens",
       "grupo": "cardeal_reformista",
       "x": 35,
-      "y": 862.5
+      "y": 1312.5
     },
     {
       "id": "LER",
@@ -105,7 +105,7 @@
       "label": "Card. Lercaro",
       "grupo": "cardeal_reformista",
       "x": -947,
-      "y": 787.5
+      "y": 1237.5
     },
     {
       "id": "DOE",
@@ -114,7 +114,7 @@
       "label": "Card. Döpfner",
       "grupo": "cardeal_reformista",
       "x": 367,
-      "y": 787.5
+      "y": 1237.5
     },
     {
       "id": "KON",
@@ -123,7 +123,7 @@
       "label": "Card. König",
       "grupo": "cardeal_reformista",
       "x": 685,
-      "y": 862.5
+      "y": 1312.5
     },
     {
       "id": "ALF",
@@ -132,7 +132,7 @@
       "label": "Card. Alfrink",
       "grupo": "cardeal_reformista",
       "x": -297,
-      "y": 787.5
+      "y": 1237.5
     },
     {
       "id": "FRI",
@@ -141,7 +141,7 @@
       "label": "Card. Frings",
       "grupo": "cardeal_reformista",
       "x": -622,
-      "y": 862.5
+      "y": 1312.5
     },
     {
       "id": "OTT",
@@ -150,7 +150,7 @@
       "label": "Card. Ottaviani",
       "grupo": "cardeal_conservador",
       "x": 339,
-      "y": 1012.5
+      "y": 1462.5
     },
     {
       "id": "RUF",
@@ -159,7 +159,7 @@
       "label": "Card. Ruffini",
       "grupo": "cardeal_conservador",
       "x": 685,
-      "y": 937.5
+      "y": 1387.5
     },
     {
       "id": "LEF",
@@ -168,7 +168,7 @@
       "label": "Dom Marcel Lefebvre",
       "grupo": "cardeal_conservador",
       "x": -339,
-      "y": 1012.5
+      "y": 1462.5
     },
     {
       "id": "CAR",
@@ -177,7 +177,7 @@
       "label": "Card. Carli",
       "grupo": "cardeal_conservador",
       "x": -699,
-      "y": 937.5
+      "y": 1387.5
     },
     {
       "id": "SIR",
@@ -186,7 +186,7 @@
       "label": "Card. Siri",
       "grupo": "cardeal_conservador",
       "x": 14,
-      "y": 937.5
+      "y": 1387.5
     },
     {
       "id": "RAH",
@@ -195,7 +195,7 @@
       "label": "Karl Rahner",
       "grupo": "perito",
       "x": 250,
-      "y": 1162.5
+      "y": 1612.5
     },
     {
       "id": "CON",
@@ -204,7 +204,7 @@
       "label": "Yves Congar",
       "grupo": "perito",
       "x": 554,
-      "y": 1087.5
+      "y": 1537.5
     },
     {
       "id": "LUB",
@@ -213,7 +213,7 @@
       "label": "Henri de Lubac",
       "grupo": "perito",
       "x": 879,
-      "y": 1162.5
+      "y": 1612.5
     },
     {
       "id": "RAT",
@@ -222,7 +222,7 @@
       "label": "Joseph Ratzinger",
       "grupo": "perito",
       "x": -865,
-      "y": 1087.5
+      "y": 1537.5
     },
     {
       "id": "SCH",
@@ -231,7 +231,7 @@
       "label": "Edward Schillebeeckx",
       "grupo": "perito",
       "x": -463,
-      "y": 1162.5
+      "y": 1612.5
     },
     {
       "id": "MUR",
@@ -240,7 +240,7 @@
       "label": "John C. Murray",
       "grupo": "perito",
       "x": -75,
-      "y": 1087.5
+      "y": 1537.5
     },
     {
       "id": "P6",
@@ -250,7 +250,7 @@
       "ano": 1963,
       "grupo": "papa",
       "x": 0,
-      "y": 1237.5
+      "y": 1987.5
     },
     {
       "id": "SC",
@@ -260,7 +260,7 @@
       "ano": 1963,
       "grupo": "documento",
       "x": -1087,
-      "y": 1387.5
+      "y": 2137.5
     },
     {
       "id": "LG",
@@ -270,7 +270,7 @@
       "ano": 1964,
       "grupo": "documento",
       "x": -692,
-      "y": 1462.5
+      "y": 2212.5
     },
     {
       "id": "DV",
@@ -280,7 +280,7 @@
       "ano": 1965,
       "grupo": "documento",
       "x": 77,
-      "y": 1462.5
+      "y": 2212.5
     },
     {
       "id": "GS",
@@ -290,7 +290,7 @@
       "ano": 1965,
       "grupo": "documento",
       "x": 804,
-      "y": 1462.5
+      "y": 2212.5
     },
     {
       "id": "DH",
@@ -300,7 +300,7 @@
       "ano": 1965,
       "grupo": "documento",
       "x": 423,
-      "y": 1387.5
+      "y": 2137.5
     },
     {
       "id": "NA",
@@ -310,7 +310,7 @@
       "ano": 1965,
       "grupo": "documento",
       "x": 1150,
-      "y": 1387.5
+      "y": 2137.5
     },
     {
       "id": "UR",
@@ -320,7 +320,7 @@
       "ano": 1964,
       "grupo": "documento",
       "x": -297,
-      "y": 1387.5
+      "y": 2137.5
     },
     {
       "id": "NOM",
@@ -330,7 +330,7 @@
       "ano": 1969,
       "grupo": "pos_concilio",
       "x": -458,
-      "y": 1537.5
+      "y": 2287.5
     },
     {
       "id": "TL",
@@ -339,7 +339,7 @@
       "label": "Teologia da Libertação",
       "grupo": "pos_concilio",
       "x": 423,
-      "y": 1537.5
+      "y": 2287.5
     },
     {
       "id": "FSSPX",
@@ -349,7 +349,7 @@
       "ano": 1970,
       "grupo": "pos_concilio",
       "x": -35,
-      "y": 1612.5
+      "y": 2362.5
     },
     {
       "id": "JP2",
@@ -359,7 +359,7 @@
       "ano": 1978,
       "grupo": "papa",
       "x": 0,
-      "y": 1687.5
+      "y": 2587.5
     },
     {
       "id": "CAT",
@@ -368,8 +368,8 @@
       "label": "Catecismo da Igreja Católica",
       "ano": 1992,
       "grupo": "pos_concilio",
-      "x": 222,
-      "y": 1912.5
+      "x": 430,
+      "y": 2737.5
     },
     {
       "id": "ED",
@@ -378,8 +378,8 @@
       "label": "Comissão Ecclesia Dei",
       "ano": 1988,
       "grupo": "pos_concilio",
-      "x": -271,
-      "y": 1837.5
+      "x": -63,
+      "y": 2812.5
     },
     {
       "id": "B16",
@@ -389,7 +389,7 @@
       "ano": 2005,
       "grupo": "papa",
       "x": 0,
-      "y": 1987.5
+      "y": 3037.5
     },
     {
       "id": "HER",
@@ -399,7 +399,7 @@
       "ano": 2005,
       "grupo": "pos_concilio",
       "x": 0,
-      "y": 2137.5
+      "y": 3187.5
     },
     {
       "id": "SUM",
@@ -409,7 +409,7 @@
       "ano": 2007,
       "grupo": "guerra_liturgica",
       "x": 0,
-      "y": 2287.5
+      "y": 3337.5
     },
     {
       "id": "FR",
@@ -419,7 +419,7 @@
       "ano": 2013,
       "grupo": "papa",
       "x": 0,
-      "y": 2437.5
+      "y": 3637.5
     },
     {
       "id": "SIN",
@@ -429,7 +429,7 @@
       "ano": 2021,
       "grupo": "pos_concilio",
       "x": -327,
-      "y": 2587.5
+      "y": 3787.5
     },
     {
       "id": "TC",
@@ -438,8 +438,8 @@
       "label": "Traditionis Custodes",
       "ano": 2021,
       "grupo": "guerra_liturgica",
-      "x": 0,
-      "y": 2737.5
+      "x": -215,
+      "y": 4837.5
     },
     {
       "id": "AMO",
@@ -448,7 +448,7 @@
       "label": "Amoris Laetitia / Fiducia Supplicans",
       "grupo": "pos_concilio",
       "x": 264,
-      "y": 2662.5
+      "y": 3862.5
     },
     {
       "id": "L14",
@@ -458,7 +458,7 @@
       "ano": 2025,
       "grupo": "papa",
       "x": 0,
-      "y": 2887.5
+      "y": 4237.5
     },
     {
       "id": "AG30",
@@ -468,7 +468,277 @@
       "ano": 2025,
       "grupo": "pos_concilio",
       "x": 0,
-      "y": 3037.5
+      "y": 4387.5
+    },
+    {
+      "id": "P10",
+      "level": 1,
+      "categoria": "antecedentes",
+      "label": "São Pio X",
+      "ano": 1903,
+      "grupo": "pio_x",
+      "x": 0,
+      "y": 187.5
+    },
+    {
+      "id": "MOD",
+      "level": 2,
+      "categoria": "antecedentes",
+      "label": "Modernismo",
+      "ano": 1907,
+      "grupo": "modernismo",
+      "x": 0,
+      "y": 637.5
+    },
+    {
+      "id": "PAS",
+      "level": 2,
+      "categoria": "documentos",
+      "label": "Pascendi Dominici Gregis",
+      "ano": 1907,
+      "grupo": "pio_x",
+      "x": -243,
+      "y": 787.5
+    },
+    {
+      "id": "OATH",
+      "level": 2,
+      "categoria": "documentos",
+      "label": "Juramento Antimodernista",
+      "ano": 1910,
+      "grupo": "pio_x",
+      "x": 243,
+      "y": 862.5
+    },
+    {
+      "id": "MED",
+      "level": 3,
+      "categoria": "documentos",
+      "label": "Mediator Dei",
+      "ano": 1947,
+      "grupo": "pio_xii",
+      "x": 0,
+      "y": 1687.5
+    },
+    {
+      "id": "LIT",
+      "level": 3,
+      "categoria": "liturgia",
+      "label": "Reformas litúrgicas de Pio XII",
+      "ano": 1951,
+      "grupo": "pio_xii",
+      "x": 0,
+      "y": 1837.5
+    },
+    {
+      "id": "CV2",
+      "level": 4,
+      "categoria": "concilio",
+      "label": "Concílio Vaticano II",
+      "ano": 1962,
+      "grupo": "concilio",
+      "x": 0,
+      "y": 2437.5
+    },
+    {
+      "id": "REF",
+      "level": 5,
+      "categoria": "liturgia",
+      "label": "Reforma Litúrgica pós-conciliar",
+      "ano": 1969,
+      "grupo": "pos_concilio",
+      "x": 0,
+      "y": 2887.5
+    },
+    {
+      "id": "CRISE",
+      "level": 5,
+      "categoria": "pos_concilio",
+      "label": "Crise pós-conciliar",
+      "ano": 1965,
+      "grupo": "pos_concilio",
+      "x": -493,
+      "y": 2737.5
+    },
+    {
+      "id": "DECL74",
+      "level": 6,
+      "categoria": "tradicionalismo",
+      "label": "Declaração de 21 de novembro de 1974",
+      "ano": 1974,
+      "grupo": "lefebvre",
+      "x": 201,
+      "y": 3562.5
+    },
+    {
+      "id": "ECONE",
+      "level": 6,
+      "categoria": "tradicionalismo",
+      "label": "Seminário de Écône",
+      "ano": 1970,
+      "grupo": "lefebvre",
+      "x": -327,
+      "y": 3487.5
+    },
+    {
+      "id": "SAC88",
+      "level": 7,
+      "categoria": "tradicionalismo",
+      "label": "Consagrações episcopais de 1988",
+      "ano": 1988,
+      "grupo": "fsspx",
+      "x": -243,
+      "y": 4087.5
+    },
+    {
+      "id": "ICR",
+      "level": 7,
+      "categoria": "tradicionalismo",
+      "label": "Comunidades Ecclesia Dei",
+      "ano": 1988,
+      "grupo": "ecclesia_dei",
+      "x": 292,
+      "y": 4162.5
+    },
+    {
+      "id": "SP",
+      "level": 8,
+      "categoria": "liturgia",
+      "label": "Summorum Pontificum",
+      "ano": 2007,
+      "grupo": "bento_xvi",
+      "x": 222,
+      "y": 4612.5
+    },
+    {
+      "id": "MIS62",
+      "level": 8,
+      "categoria": "liturgia",
+      "label": "Missal Romano de 1962",
+      "ano": 1962,
+      "grupo": "liturgia_tradicional",
+      "x": -208,
+      "y": 4537.5
+    },
+    {
+      "id": "TRAD",
+      "level": 8,
+      "categoria": "tradicionalismo",
+      "label": "Movimento tradicionalista",
+      "ano": 1970,
+      "grupo": "tradicionalismo",
+      "x": 0,
+      "y": 4687.5
+    },
+    {
+      "id": "TC",
+      "level": 9,
+      "categoria": "pos_concilio",
+      "label": "Traditionis Custodes",
+      "ano": 2021,
+      "grupo": "francisco",
+      "x": -215,
+      "y": 4837.5
+    },
+    {
+      "id": "ROCHE",
+      "level": 9,
+      "categoria": "pos_concilio",
+      "label": "Cardeal Arthur Roche",
+      "ano": 2021,
+      "grupo": "francisco",
+      "x": 215,
+      "y": 4912.5
+    },
+    {
+      "id": "LIT26",
+      "level": 10,
+      "categoria": "liturgia",
+      "label": "Catequeses de Leão XIV sobre Sacrosanctum Concilium",
+      "ano": 2026,
+      "grupo": "leao_xiv",
+      "x": 0,
+      "y": 4987.5
+    },
+    {
+      "id": "ECONE26",
+      "level": 10,
+      "categoria": "tradicionalismo",
+      "label": "Consagrações episcopais de Écône",
+      "ano": 2026,
+      "grupo": "fsspx",
+      "x": -222,
+      "y": 5137.5
+    },
+    {
+      "id": "NEC",
+      "level": 10,
+      "categoria": "tradicionalismo",
+      "label": "Estado de necessidade",
+      "ano": 2026,
+      "grupo": "fsspx",
+      "x": 299,
+      "y": 5212.5
+    },
+    {
+      "id": "FR26",
+      "level": 10,
+      "categoria": "pos_concilio",
+      "label": "Viagem de Leão XIV à França",
+      "ano": 2026,
+      "grupo": "leao_xiv",
+      "x": -750,
+      "y": 5287.5
+    },
+    {
+      "id": "LOURDES",
+      "level": 10,
+      "categoria": "eventos",
+      "label": "Lourdes — visita de Leão XIV",
+      "ano": 2026,
+      "grupo": "leao_xiv",
+      "x": 0,
+      "y": 5437.5
+    },
+    {
+      "id": "METZ",
+      "level": 10,
+      "categoria": "ecumenismo",
+      "label": "Metz — encontro inter-religioso",
+      "ano": 2026,
+      "grupo": "leao_xiv",
+      "x": 0,
+      "y": 5587.5
+    },
+    {
+      "id": "BATAILLE",
+      "level": 10,
+      "categoria": "pos_concilio",
+      "label": "Dom Sylvain Bataille",
+      "ano": 2026,
+      "grupo": "pos_concilio",
+      "x": -271,
+      "y": 5362.5
+    },
+    {
+      "id": "BONNY",
+      "level": 10,
+      "categoria": "pos_concilio",
+      "label": "Dom Johan Bonny",
+      "ano": 2026,
+      "grupo": "sinodalidade",
+      "x": 124,
+      "y": 5287.5
+    },
+    {
+      "id": "ORD28",
+      "level": 10,
+      "categoria": "pos_concilio",
+      "label": "Ordenação de homens casados prevista para 2028",
+      "ano": 2028,
+      "grupo": "sinodalidade",
+      "x": 659,
+      "y": 5362.5
     }
   ],
   "edges": [
@@ -1106,6 +1376,482 @@
       "to": "AG30",
       "title": "discurso alinhado à Agenda 2030/ODS (segundo InfoVaticana)",
       "texto": "adere / discurso alinhado a"
+    },
+    {
+      "from": "P10",
+      "to": "MOD",
+      "title": "combateu o Modernismo",
+      "texto": "combateu Modernismo",
+      "dashes": true
+    },
+    {
+      "from": "P10",
+      "to": "PAS",
+      "title": "condenou o Modernismo",
+      "texto": "condenou Modernismo",
+      "dashes": true
+    },
+    {
+      "from": "P10",
+      "to": "OATH",
+      "title": "instituiu juramento antimodernista",
+      "texto": "instituiu juramento"
+    },
+    {
+      "from": "PXII",
+      "to": "MED",
+      "title": "condenou erros da Nova Teologia",
+      "texto": "condenou Nova Teologia",
+      "dashes": true
+    },
+    {
+      "from": "PXII",
+      "to": "LIT",
+      "title": "promoveu reforma litúrgica anterior ao Concílio",
+      "texto": "reformou liturgia"
+    },
+    {
+      "from": "CV2",
+      "to": "SC",
+      "title": "promulgou constituição litúrgica",
+      "texto": "promulgou"
+    },
+    {
+      "from": "SC",
+      "to": "REF",
+      "title": "estabeleceu princípios da reforma litúrgica",
+      "texto": "iniciou reforma"
+    },
+    {
+      "from": "REF",
+      "to": "NOM",
+      "title": "conduziu ao Novus Ordo",
+      "texto": "conduziu a"
+    },
+    {
+      "from": "P6",
+      "to": "NOM",
+      "title": "promulgou novo Missal",
+      "texto": "promulgou"
+    },
+    {
+      "from": "NOM",
+      "to": "CRISE",
+      "title": "provocou resistência tradicionalista",
+      "texto": "provocou resistência",
+      "dashes": true
+    },
+    {
+      "from": "P6",
+      "to": "LEF",
+      "title": "entrou em conflito doutrinal e litúrgico com",
+      "texto": "entrou em conflito com",
+      "dashes": true
+    },
+    {
+      "from": "LEF",
+      "to": "DECL74",
+      "title": "redigiu declaração de resistência",
+      "texto": "redigiu declaração"
+    },
+    {
+      "from": "DECL74",
+      "to": "FSSPX",
+      "title": "expressou princípio fundador",
+      "texto": "fundamentou"
+    },
+    {
+      "from": "LEF",
+      "to": "ECONE",
+      "title": "fundou seminário tradicional",
+      "texto": "fundou"
+    },
+    {
+      "from": "ECONE",
+      "to": "FSSPX",
+      "title": "formou sacerdotes tradicionais",
+      "texto": "formou sacerdotes"
+    },
+    {
+      "from": "JP2",
+      "to": "LEF",
+      "title": "negociou solução para crise",
+      "texto": "negociou com"
+    },
+    {
+      "from": "LEF",
+      "to": "SAC88",
+      "title": "realizou consagrações episcopais",
+      "texto": "consagrou bispos",
+      "dashes": true
+    },
+    {
+      "from": "SAC88",
+      "to": "FSSPX",
+      "title": "garantiu continuidade episcopal",
+      "texto": "garantiu continuidade"
+    },
+    {
+      "from": "JP2",
+      "to": "SAC88",
+      "title": "reagiu às consagrações",
+      "texto": "reagiu a",
+      "dashes": true
+    },
+    {
+      "from": "JP2",
+      "to": "ED",
+      "title": "criou estrutura para tradicionalistas",
+      "texto": "criou estrutura"
+    },
+    {
+      "from": "JP2",
+      "to": "ED",
+      "title": "promulgou Ecclesia Dei",
+      "texto": "promulgou"
+    },
+    {
+      "from": "ED",
+      "to": "ICR",
+      "title": "favoreceu comunidades tradicionais",
+      "texto": "favoreceu"
+    },
+    {
+      "from": "ED",
+      "to": "SP",
+      "title": "preparou caminho para maior liberalização litúrgica",
+      "texto": "antecedeu"
+    },
+    {
+      "from": "B16",
+      "to": "SP",
+      "title": "promulgou Summorum Pontificum",
+      "texto": "promulgou"
+    },
+    {
+      "from": "SP",
+      "to": "MIS62",
+      "title": "reconheceu Missal de 1962 como forma extraordinária",
+      "texto": "liberalizou"
+    },
+    {
+      "from": "SP",
+      "to": "TRAD",
+      "title": "ampliou acesso à liturgia tradicional",
+      "texto": "ampliou acesso"
+    },
+    {
+      "from": "SP",
+      "to": "FSSPX",
+      "title": "favoreceu contexto de aproximação",
+      "texto": "favoreceu aproximação"
+    },
+    {
+      "from": "B16",
+      "to": "FSSPX",
+      "title": "levantou excomunhões dos bispos",
+      "texto": "levantou excomunhões"
+    },
+    {
+      "from": "B16",
+      "to": "HER",
+      "title": "defendeu hermenêutica da continuidade",
+      "texto": "defendeu continuidade"
+    },
+    {
+      "from": "HER",
+      "to": "CV2",
+      "title": "propôs interpretação em continuidade",
+      "texto": "interpretou em continuidade"
+    },
+    {
+      "from": "FR",
+      "to": "TC",
+      "title": "promulgou Traditionis Custodes",
+      "texto": "promulgou"
+    },
+    {
+      "from": "TC",
+      "to": "SP",
+      "title": "restringiu e substituiu",
+      "texto": "restringiu",
+      "dashes": true
+    },
+    {
+      "from": "TC",
+      "to": "TRAD",
+      "title": "restringiu celebração tradicional",
+      "texto": "restringiu",
+      "dashes": true
+    },
+    {
+      "from": "TC",
+      "to": "MIS62",
+      "title": "restringiu uso do Missal de 1962",
+      "texto": "restringiu uso",
+      "dashes": true
+    },
+    {
+      "from": "ROCHE",
+      "to": "TC",
+      "title": "interpretou e aplicou",
+      "texto": "aplicou"
+    },
+    {
+      "from": "ROCHE",
+      "to": "MIS62",
+      "title": "considerou uso concessão e não expressão própria",
+      "texto": "restringiu status",
+      "dashes": true
+    },
+    {
+      "from": "L14",
+      "to": "SC",
+      "title": "dedicou catequese à constituição litúrgica",
+      "texto": "retomou SC"
+    },
+    {
+      "from": "L14",
+      "to": "LIT26",
+      "title": "desenvolveu catequese sobre reforma litúrgica",
+      "texto": "catequizou sobre reforma"
+    },
+    {
+      "from": "LIT26",
+      "to": "SC",
+      "title": "explicou motivações da reforma",
+      "texto": "explicou reforma"
+    },
+    {
+      "from": "FSSPX",
+      "to": "ECONE26",
+      "title": "realizou novas consagrações episcopais",
+      "texto": "realizou consagrações"
+    },
+    {
+      "from": "ECONE26",
+      "to": "L14",
+      "title": "ocorreu sem mandato pontifício",
+      "texto": "sem mandato pontifício",
+      "dashes": true
+    },
+    {
+      "from": "ECONE26",
+      "to": "FSSPX",
+      "title": "garantiu sucessão episcopal tradicional",
+      "texto": "garantiu sucessão"
+    },
+    {
+      "from": "ECONE26",
+      "to": "TRAD",
+      "title": "reforçou estrutura sacramental tradicional",
+      "texto": "reforçou estrutura"
+    },
+    {
+      "from": "ECONE26",
+      "to": "CRISE",
+      "title": "reabriu controvérsia sobre autoridade e estado de necessidade",
+      "texto": "reabriu controvérsia",
+      "dashes": true
+    },
+    {
+      "from": "BATAILLE",
+      "to": "ECONE26",
+      "title": "criticou consagrações",
+      "texto": "criticou",
+      "dashes": true
+    },
+    {
+      "from": "BATAILLE",
+      "to": "FSSPX",
+      "title": "contestou posição da Sociedade",
+      "texto": "contestou",
+      "dashes": true
+    },
+    {
+      "from": "FSSPX",
+      "to": "NEC",
+      "title": "justificou consagrações pelo estado de necessidade",
+      "texto": "invocou estado de necessidade"
+    },
+    {
+      "from": "LEF",
+      "to": "NEC",
+      "title": "fundamentou resistência em estado de necessidade",
+      "texto": "invocou necessidade"
+    },
+    {
+      "from": "NEC",
+      "to": "ECONE26",
+      "title": "fundamentou juridicamente a ação",
+      "texto": "fundamentou"
+    },
+    {
+      "from": "FR",
+      "to": "L14",
+      "title": "precedeu no pontificado",
+      "texto": "precedeu"
+    },
+    {
+      "from": "TC",
+      "to": "L14",
+      "title": "legou restrições à liturgia tradicional",
+      "texto": "legou restrições"
+    },
+    {
+      "from": "L14",
+      "to": "TC",
+      "title": "herdou regime jurídico litúrgico",
+      "texto": "herdou regime"
+    },
+    {
+      "from": "L14",
+      "to": "FR26",
+      "title": "realiza viagem apostólica à França",
+      "texto": "viaja à França"
+    },
+    {
+      "from": "FR26",
+      "to": "LOURDES",
+      "title": "inclui visita a Lourdes",
+      "texto": "visita"
+    },
+    {
+      "from": "L14",
+      "to": "LOURDES",
+      "title": "celebra Missa em Lourdes",
+      "texto": "celebra Missa"
+    },
+    {
+      "from": "L14",
+      "to": "METZ",
+      "title": "participa de encontro inter-religioso",
+      "texto": "participa de encontro",
+      "dashes": true
+    },
+    {
+      "from": "FR26",
+      "to": "METZ",
+      "title": "inclui encontro inter-religioso",
+      "texto": "inclui encontro"
+    },
+    {
+      "from": "ED",
+      "to": "ICR",
+      "title": "acolheu comunidades tradicionais",
+      "texto": "acolheu"
+    },
+    {
+      "from": "ICR",
+      "to": "TRAD",
+      "title": "preservou liturgia tradicional",
+      "texto": "preservou"
+    },
+    {
+      "from": "TRAD",
+      "to": "FSSPX",
+      "title": "compartilha defesa da liturgia tradicional",
+      "texto": "compartilha defesa"
+    },
+    {
+      "from": "TRAD",
+      "to": "TC",
+      "title": "sofreu restrições após Traditionis Custodes",
+      "texto": "sofreu restrições",
+      "dashes": true
+    },
+    {
+      "from": "CV2",
+      "to": "CRISE",
+      "title": "marcou início da crise pós-conciliar segundo tradicionalistas",
+      "texto": "marcou início da crise"
+    },
+    {
+      "from": "CRISE",
+      "to": "LEF",
+      "title": "gerou resistência episcopal",
+      "texto": "gerou resistência"
+    },
+    {
+      "from": "CRISE",
+      "to": "FSSPX",
+      "title": "motivou resistência organizada",
+      "texto": "motivou resistência"
+    },
+    {
+      "from": "CRISE",
+      "to": "SP",
+      "title": "levou à posterior liberalização parcial",
+      "texto": "levou a liberalização"
+    },
+    {
+      "from": "CRISE",
+      "to": "TC",
+      "title": "permanece no centro do conflito litúrgico",
+      "texto": "permanece em conflito"
+    },
+    {
+      "from": "CRISE",
+      "to": "ECONE26",
+      "title": "culminou em nova crise episcopal",
+      "texto": "culminou em nova crise",
+      "dashes": true
+    },
+    {
+      "from": "P10",
+      "to": "LEF",
+      "title": "inspiração doutrinal da resistência antimodernista",
+      "texto": "inspirou resistência"
+    },
+    {
+      "from": "P10",
+      "to": "FSSPX",
+      "title": "inspiração titular e espiritual",
+      "texto": "inspirou"
+    },
+    {
+      "from": "PXII",
+      "to": "LEF",
+      "title": "precedente doutrinal e litúrgico",
+      "texto": "precedeu"
+    },
+    {
+      "from": "LEF",
+      "to": "FSSPX",
+      "title": "fundou",
+      "texto": "fundou"
+    },
+    {
+      "from": "FSSPX",
+      "to": "ECONE26",
+      "title": "manteve sucessão episcopal própria",
+      "texto": "manteve sucessão"
+    },
+    {
+      "from": "ECONE26",
+      "to": "TRAD",
+      "title": "visa preservar continuidade sacramental",
+      "texto": "preserva continuidade"
+    },
+    {
+      "from": "BONNY",
+      "to": "ORD28",
+      "title": "anunciou ordenação de homens casados para 2028",
+      "texto": "anunciou para 2028",
+      "dashes": true
+    },
+    {
+      "from": "ORD28",
+      "to": "CRISE",
+      "title": "torna-se tema de controvérsia disciplinar",
+      "texto": "gera controvérsia",
+      "dashes": true
+    },
+    {
+      "from": "BONNY",
+      "to": "SIN",
+      "title": "implementou processo sinodal na diocese",
+      "texto": "implementou processo sinodal"
     }
   ],
   "regras": {
@@ -1132,49 +1878,61 @@
   "bandasNiveis": [
     {
       "yInicio": 0,
-      "yFim": 150,
+      "yFim": 300,
       "label": null,
       "cor": "rgba(220, 38, 38, 0.4)"
     },
     {
-      "yInicio": 150,
-      "yFim": 450,
+      "yInicio": 300,
+      "yFim": 900,
       "label": null,
       "cor": "rgba(124, 58, 237, 0.4)"
     },
     {
-      "yInicio": 450,
-      "yFim": 1200,
-      "label": null,
-      "cor": null
-    },
-    {
-      "yInicio": 1200,
-      "yFim": 1650,
-      "label": null,
-      "cor": null
-    },
-    {
-      "yInicio": 1650,
+      "yInicio": 900,
       "yFim": 1950,
       "label": null,
       "cor": null
     },
     {
       "yInicio": 1950,
-      "yFim": 2400,
+      "yFim": 2550,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 2400,
-      "yFim": 2850,
+      "yInicio": 2550,
+      "yFim": 3000,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 2850,
-      "yFim": 3150,
+      "yInicio": 3000,
+      "yFim": 3600,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 3600,
+      "yFim": 4200,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 4200,
+      "yFim": 4800,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 4800,
+      "yFim": 4950,
+      "label": null,
+      "cor": null
+    },
+    {
+      "yInicio": 4950,
+      "yFim": 5700,
       "label": null,
       "cor": null
     }
