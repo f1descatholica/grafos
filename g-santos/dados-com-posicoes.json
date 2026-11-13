@@ -6,11 +6,6 @@
       "categoria": "ideia",
       "label": "MÁRTIR",
       "grupo": "ideia",
-      "font": {
-        "color": "#ffaaaa",
-        "size": 13,
-        "bold": true
-      },
       "x": 96,
       "y": 112.5
     },
@@ -20,11 +15,6 @@
       "categoria": "ideia",
       "label": "DOUTOR",
       "grupo": "ideia",
-      "font": {
-        "color": "#ffffaa",
-        "size": 13,
-        "bold": true
-      },
       "x": 756,
       "y": 37.5
     },
@@ -34,11 +24,6 @@
       "categoria": "ideia",
       "label": "VIRGEM",
       "grupo": "ideia",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "bold": true
-      },
       "x": -896,
       "y": 112.5
     },
@@ -48,11 +33,6 @@
       "categoria": "ideia",
       "label": "CONFESSOR",
       "grupo": "ideia",
-      "font": {
-        "color": "#aaffaa",
-        "size": 13,
-        "bold": true
-      },
       "x": -641,
       "y": 37.5
     },
@@ -62,11 +42,6 @@
       "categoria": "ideia",
       "label": "PAPA",
       "grupo": "ideia",
-      "font": {
-        "color": "#ffd700",
-        "size": 13,
-        "bold": true
-      },
       "x": 316,
       "y": 37.5
     },
@@ -76,11 +51,6 @@
       "categoria": "ideia",
       "label": "BISPO",
       "grupo": "ideia",
-      "font": {
-        "color": "#dca3ff",
-        "size": 13,
-        "bold": true
-      },
       "x": 529,
       "y": 112.5
     },
@@ -90,11 +60,6 @@
       "categoria": "ideia",
       "label": "ABADE",
       "grupo": "ideia",
-      "font": {
-        "color": "#ffb366",
-        "size": 13,
-        "bold": true
-      },
       "x": -1123,
       "y": 37.5
     },
@@ -104,11 +69,6 @@
       "categoria": "ideia",
       "label": "VIÚVA",
       "grupo": "ideia",
-      "font": {
-        "color": "#ff99cc",
-        "size": 13,
-        "bold": true
-      },
       "x": -131,
       "y": 37.5
     },
@@ -118,11 +78,6 @@
       "categoria": "ideia",
       "label": "FESTA",
       "grupo": "ideia",
-      "font": {
-        "color": "#a3e4ff",
-        "size": 13,
-        "bold": true
-      },
       "x": -1343,
       "y": 112.5
     },
@@ -132,11 +87,6 @@
       "categoria": "ideia",
       "label": "APÓSTOLO",
       "grupo": "ideia",
-      "font": {
-        "color": "#a3e4ff",
-        "size": 13,
-        "bold": true
-      },
       "x": -372,
       "y": 112.5
     },
@@ -146,11 +96,6 @@
       "categoria": "ideia",
       "label": "PROFETA",
       "grupo": "ideia",
-      "font": {
-        "color": "#a3e4ff",
-        "size": 13,
-        "bold": true
-      },
       "x": -1577,
       "y": 37.5
     },
@@ -160,11 +105,6 @@
       "categoria": "ideia",
       "label": "ARCANJO",
       "grupo": "ideia",
-      "font": {
-        "color": "#a3e4ff",
-        "size": 13,
-        "bold": true
-      },
       "x": 1301,
       "y": 37.5
     },
@@ -174,11 +114,6 @@
       "categoria": "ideia",
       "label": "EVANGELISTA",
       "grupo": "ideia",
-      "font": {
-        "color": "#a3e4ff",
-        "size": 13,
-        "bold": true
-      },
       "x": 1025,
       "y": 112.5
     },
@@ -188,11 +123,6 @@
       "categoria": "ideia",
       "label": "PENITENTE",
       "grupo": "ideia",
-      "font": {
-        "color": "#a3e4ff",
-        "size": 13,
-        "bold": true
-      },
       "x": 1563,
       "y": 112.5
     },
@@ -203,11 +133,6 @@
       "label": "JANEIRO",
       "grupo": "documento",
       "mesNumero": 1,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1315,
       "y": 262.5
     },
@@ -218,11 +143,6 @@
       "label": "FEVEREIRO",
       "grupo": "documento",
       "mesNumero": 2,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 791,
       "y": 262.5
     },
@@ -233,11 +153,6 @@
       "label": "MARÇO",
       "grupo": "documento",
       "mesNumero": 3,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -393,
       "y": 187.5
     },
@@ -248,11 +163,6 @@
       "label": "ABRIL",
       "grupo": "documento",
       "mesNumero": 4,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -613,
       "y": 262.5
     },
@@ -263,11 +173,6 @@
       "label": "MAIO",
       "grupo": "documento",
       "mesNumero": 5,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -180,
       "y": 262.5
     },
@@ -278,11 +183,6 @@
       "label": "JUNHO",
       "grupo": "documento",
       "mesNumero": 6,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 543,
       "y": 187.5
     },
@@ -293,11 +193,6 @@
       "label": "JULHO",
       "grupo": "documento",
       "mesNumero": 7,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -833,
       "y": 187.5
     },
@@ -308,11 +203,6 @@
       "label": "AGOSTO",
       "grupo": "documento",
       "mesNumero": 8,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1060,
       "y": 262.5
     },
@@ -323,11 +213,6 @@
       "label": "SETEMBRO",
       "grupo": "documento",
       "mesNumero": 9,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 302,
       "y": 262.5
     },
@@ -338,11 +223,6 @@
       "label": "OUTUBRO",
       "grupo": "documento",
       "mesNumero": 10,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 47,
       "y": 187.5
     },
@@ -353,11 +233,6 @@
       "label": "NOVEMBRO",
       "grupo": "documento",
       "mesNumero": 11,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1060,
       "y": 187.5
     },
@@ -368,11 +243,6 @@
       "label": "DEZEMBRO",
       "grupo": "documento",
       "mesNumero": 12,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1308,
       "y": 187.5
     },
@@ -382,11 +252,6 @@
       "label": "S. José",
       "grupo": "pessoa",
       "ano": 30,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1183,
       "y": 337.5
     },
@@ -396,11 +261,6 @@
       "label": "S. João Batista",
       "grupo": "pessoa",
       "ano": 29,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1487,
       "y": 412.5
     },
@@ -410,11 +270,6 @@
       "label": "S. Pedro",
       "grupo": "pessoa",
       "ano": 67,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1494,
       "y": 337.5
     },
@@ -424,11 +279,6 @@
       "label": "S. Paulo",
       "grupo": "pessoa",
       "ano": 67,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1756,
       "y": 412.5
     },
@@ -438,11 +288,6 @@
       "label": "S. João",
       "grupo": "pessoa",
       "ano": 100,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 92,
       "y": 562.5
     },
@@ -452,11 +297,6 @@
       "label": "S. Matias",
       "grupo": "pessoa",
       "ano": 80,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1704,
       "y": 562.5
     },
@@ -466,11 +306,6 @@
       "label": "S. André",
       "grupo": "pessoa",
       "ano": 60,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -82,
       "y": 412.5
     },
@@ -480,11 +315,6 @@
       "label": "S. Tiago Maior",
       "grupo": "pessoa",
       "ano": 44,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -386,
       "y": 337.5
     },
@@ -494,11 +324,6 @@
       "label": "S. Filipe",
       "grupo": "pessoa",
       "ano": 80,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1428,
       "y": 487.5
     },
@@ -508,11 +333,6 @@
       "label": "S. Bartolomeu",
       "grupo": "pessoa",
       "ano": 71,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2532,
       "y": 487.5
     },
@@ -522,11 +342,6 @@
       "label": "S. Tomé",
       "grupo": "pessoa",
       "ano": 72,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2242,
       "y": 562.5
     },
@@ -536,11 +351,6 @@
       "label": "S. Mateus",
       "grupo": "pessoa",
       "ano": 74,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1980,
       "y": 487.5
     },
@@ -550,11 +360,6 @@
       "label": "S. Tiago Menor",
       "grupo": "pessoa",
       "ano": 62,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 512,
       "y": 412.5
     },
@@ -564,11 +369,6 @@
       "label": "S. Tadeu",
       "grupo": "pessoa",
       "ano": 70,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2462,
       "y": 412.5
     },
@@ -578,11 +378,6 @@
       "label": "S. Simão",
       "grupo": "pessoa",
       "ano": 65,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1232,
       "y": 412.5
     },
@@ -592,11 +387,6 @@
       "label": "S. Barnabé",
       "grupo": "pessoa",
       "ano": 61,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 194,
       "y": 337.5
     },
@@ -606,11 +396,6 @@
       "label": "Sta. Maria Madalena",
       "grupo": "pessoa",
       "ano": 63,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 893,
       "y": 337.5
     },
@@ -620,11 +405,6 @@
       "label": "Sta. Ana",
       "grupo": "pessoa",
       "ano": 10,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2088,
       "y": 412.5
     },
@@ -634,11 +414,6 @@
       "label": "Sta. Marta",
       "grupo": "pessoa",
       "ano": 80,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1145,
       "y": 562.5
     },
@@ -648,11 +423,6 @@
       "label": "S. Timóteo",
       "grupo": "pessoa",
       "ano": 97,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -177,
       "y": 487.5
     },
@@ -662,11 +432,6 @@
       "label": "S. Tito",
       "grupo": "pessoa",
       "ano": 96,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -446,
       "y": 562.5
     },
@@ -675,11 +440,6 @@
       "level": 2,
       "label": "N. Sra. de Lourdes",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1707,
       "y": 562.5
     },
@@ -688,11 +448,6 @@
       "level": 2,
       "label": "S. Gabriel Arcanjo",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2109,
       "y": 487.5
     },
@@ -701,11 +456,6 @@
       "level": 2,
       "label": "N. Sra. da Anunciação",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1284,
       "y": 487.5
     },
@@ -714,11 +464,6 @@
       "level": 2,
       "label": "N. Sra. das Sete Dores",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 445,
       "y": 487.5
     },
@@ -728,11 +473,6 @@
       "label": "S. Marcos Evangelista",
       "grupo": "pessoa",
       "ano": 68,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2109,
       "y": 337.5
     },
@@ -741,11 +481,6 @@
       "level": 2,
       "label": "S. Miguel Arcanjo",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2504,
       "y": 562.5
     },
@@ -755,11 +490,6 @@
       "label": "Sto. Estêvão, Protomártir",
       "grupo": "pessoa",
       "ano": 36,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -809,
       "y": 412.5
     },
@@ -768,11 +498,6 @@
       "level": 2,
       "label": "N. Sra. das Neves",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 868,
       "y": 562.5
     },
@@ -781,11 +506,6 @@
       "level": 2,
       "label": "Transfiguração do Senhor",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -582,
       "y": 637.5
     },
@@ -794,11 +514,6 @@
       "level": 2,
       "label": "Assunção de Maria",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -145,
       "y": 712.5
     },
@@ -808,11 +523,6 @@
       "label": "S. Joaquim",
       "grupo": "pessoa",
       "ano": 10,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1812,
       "y": 337.5
     },
@@ -821,11 +531,6 @@
       "level": 2,
       "label": "Imaculado Coração",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 243,
       "y": 637.5
     },
@@ -835,11 +540,6 @@
       "label": "S. Lucas Evangelista",
       "grupo": "pessoa",
       "ano": 84,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -785,
       "y": 487.5
     },
@@ -848,11 +548,6 @@
       "level": 2,
       "label": "S. Rafael Arcanjo",
       "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 631,
       "y": 712.5
     },
@@ -862,11 +557,6 @@
       "label": "Santos Inocentes",
       "grupo": "pessoa",
       "ano": 4,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2406,
       "y": 337.5
     },
@@ -876,11 +566,6 @@
       "label": "Sta. Inês",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2438,
       "y": 1237.5
     },
@@ -890,11 +575,6 @@
       "label": "S. Sebastião",
       "grupo": "pessoa",
       "ano": 288,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -659,
       "y": 1237.5
     },
@@ -904,11 +584,6 @@
       "label": "S. Jorge",
       "grupo": "pessoa",
       "ano": 303,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 739,
       "y": 1237.5
     },
@@ -918,11 +593,6 @@
       "label": "S. Paulo Eremita",
       "grupo": "pessoa",
       "ano": 341,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1246,
       "y": 1537.5
     },
@@ -932,11 +602,6 @@
       "label": "S. Antão",
       "grupo": "pessoa",
       "ano": 356,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -638,
       "y": 1537.5
     },
@@ -946,11 +611,6 @@
       "label": "Sta. Mônica",
       "grupo": "pessoa",
       "ano": 387,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1634,
       "y": 1762.5
     },
@@ -960,11 +620,6 @@
       "label": "S. Agostinho",
       "grupo": "pessoa",
       "ano": 430,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1197,
       "y": 1762.5
     },
@@ -974,11 +629,6 @@
       "label": "S. Inácio de Antioquia",
       "grupo": "pessoa",
       "ano": 107,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 568,
       "y": 862.5
     },
@@ -988,11 +638,6 @@
       "label": "S. Brás",
       "grupo": "pessoa",
       "ano": 316,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2291,
       "y": 1612.5
     },
@@ -1002,11 +647,6 @@
       "label": "Sta. Águeda",
       "grupo": "pessoa",
       "ano": 251,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1194,
       "y": 1162.5
     },
@@ -1016,11 +656,6 @@
       "label": "S. Valentim",
       "grupo": "pessoa",
       "ano": 269,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2228,
       "y": 1087.5
     },
@@ -1030,11 +665,6 @@
       "label": "7 Irmãos, Rufina e Secunda",
       "grupo": "pessoa",
       "ano": 257,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -121,
       "y": 1087.5
     },
@@ -1044,11 +674,6 @@
       "label": "S. Pio I",
       "grupo": "pessoa",
       "ano": 154,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2256,
       "y": 787.5
     },
@@ -1058,11 +683,6 @@
       "label": "S. Anacleto",
       "grupo": "pessoa",
       "ano": 92,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -977,
       "y": 862.5
     },
@@ -1072,11 +692,6 @@
       "label": "Sto. Aleixo",
       "grupo": "pessoa",
       "ano": 412,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 582,
       "y": 1762.5
     },
@@ -1086,11 +701,6 @@
       "label": "Sta. Práxedes",
       "grupo": "pessoa",
       "ano": 165,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1592,
       "y": 1012.5
     },
@@ -1100,11 +710,6 @@
       "label": "Sto. Apolinário",
       "grupo": "pessoa",
       "ano": 79,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1655,
       "y": 862.5
     },
@@ -1114,11 +719,6 @@
       "label": "Sta. Cristina",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1536,
       "y": 1462.5
     },
@@ -1128,11 +728,6 @@
       "label": "S. Pantaleão",
       "grupo": "pessoa",
       "ano": 305,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 463,
       "y": 1462.5
     },
@@ -1142,11 +737,6 @@
       "label": "Nazário e Celso",
       "grupo": "pessoa",
       "ano": 68,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2263,
       "y": 862.5
     },
@@ -1156,11 +746,6 @@
       "label": "Abdon e Sennen",
       "grupo": "pessoa",
       "ano": 250,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1837,
       "y": 1162.5
     },
@@ -1170,11 +755,6 @@
       "label": "Marcelino, Pedro e Erasmo",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1952,
       "y": 1387.5
     },
@@ -1184,11 +764,6 @@
       "label": "Primo e Feliciano",
       "grupo": "pessoa",
       "ano": 297,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 414,
       "y": 1312.5
     },
@@ -1198,11 +773,6 @@
       "label": "S. Basílio Magno",
       "grupo": "pessoa",
       "ano": 379,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2560,
       "y": 1612.5
     },
@@ -1212,11 +782,6 @@
       "label": "Vito, Modesto e Crescência",
       "grupo": "pessoa",
       "ano": 303,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1127,
       "y": 1312.5
     },
@@ -1226,11 +791,6 @@
       "label": "Sto. Efrém",
       "grupo": "pessoa",
       "ano": 373,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2228,
       "y": 1537.5
     },
@@ -1240,11 +800,6 @@
       "label": "Gervásio e Protásio",
       "grupo": "pessoa",
       "ano": 165,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1966,
       "y": 937.5
     },
@@ -1254,11 +809,6 @@
       "label": "S. Paulino de Nola",
       "grupo": "pessoa",
       "ano": 431,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1557,
       "y": 1687.5
     },
@@ -1268,11 +818,6 @@
       "label": "João e Paulo",
       "grupo": "pessoa",
       "ano": 362,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 54,
       "y": 1537.5
     },
@@ -1282,11 +827,6 @@
       "label": "Sto. Irineu",
       "grupo": "pessoa",
       "ano": 202,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -306,
       "y": 1012.5
     },
@@ -1296,11 +836,6 @@
       "label": "S. Higino",
       "grupo": "pessoa",
       "ano": 142,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1987,
       "y": 862.5
     },
@@ -1310,11 +845,6 @@
       "label": "S. Hilário de Poitiers",
       "grupo": "pessoa",
       "ano": 367,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 760,
       "y": 1537.5
     },
@@ -1324,11 +854,6 @@
       "label": "S. Félix de Nola",
       "grupo": "pessoa",
       "ano": 256,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -565,
       "y": 1162.5
     },
@@ -1338,11 +863,6 @@
       "label": "S. Marcelo I",
       "grupo": "pessoa",
       "ano": 309,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2015,
       "y": 1462.5
     },
@@ -1352,11 +872,6 @@
       "label": "Sta. Prisca",
       "grupo": "pessoa",
       "ano": 269,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1924,
       "y": 1162.5
     },
@@ -1366,11 +881,6 @@
       "label": "Mário, Marta, Audifax e Abaco",
       "grupo": "pessoa",
       "ano": 270,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2658,
       "y": 1162.5
     },
@@ -1380,11 +890,6 @@
       "label": "S. Fabiano",
       "grupo": "pessoa",
       "ano": 250,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2459,
       "y": 1162.5
     },
@@ -1394,11 +899,6 @@
       "label": "Vicente e Anastácio",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2784,
       "y": 1312.5
     },
@@ -1408,11 +908,6 @@
       "label": "Sta. Emerenciana",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2777,
       "y": 1387.5
     },
@@ -1422,11 +917,6 @@
       "label": "S. Policarpo",
       "grupo": "pessoa",
       "ano": 155,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2546,
       "y": 862.5
     },
@@ -1436,11 +926,6 @@
       "label": "S. João Crisóstomo",
       "grupo": "pessoa",
       "ano": 407,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 229,
       "y": 1687.5
     },
@@ -1450,11 +935,6 @@
       "label": "Sta. Martinha",
       "grupo": "pessoa",
       "ano": 228,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1078,
       "y": 1012.5
     },
@@ -1464,11 +944,6 @@
       "label": "Sta. Dorotéia",
       "grupo": "pessoa",
       "ano": 311,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2340,
       "y": 1387.5
     },
@@ -1478,11 +953,6 @@
       "label": "S. Cirilo de Alexandria",
       "grupo": "pessoa",
       "ano": 444,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1994,
       "y": 1762.5
     },
@@ -1492,11 +962,6 @@
       "label": "Sta. Apolônia",
       "grupo": "pessoa",
       "ano": 249,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2770,
       "y": 1087.5
     },
@@ -1506,11 +971,6 @@
       "label": "Faustino e Jovita",
       "grupo": "pessoa",
       "ano": 120,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1655,
       "y": 787.5
     },
@@ -1520,11 +980,6 @@
       "label": "S. Simeão",
       "grupo": "pessoa",
       "ano": 107,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 935,
       "y": 787.5
     },
@@ -1534,11 +989,6 @@
       "label": "S. Lúcio I",
       "grupo": "pessoa",
       "ano": 254,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -897,
       "y": 1087.5
     },
@@ -1548,11 +998,6 @@
       "label": "Perpétua e Felicidade",
       "grupo": "pessoa",
       "ano": 203,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 68,
       "y": 937.5
     },
@@ -1562,11 +1007,6 @@
       "label": "Quarenta Mártires",
       "grupo": "pessoa",
       "ano": 320,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1973,
       "y": 1537.5
     },
@@ -1576,11 +1016,6 @@
       "label": "S. Cirilo de Jerusalém",
       "grupo": "pessoa",
       "ano": 386,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2015,
       "y": 1687.5
     },
@@ -1590,11 +1025,6 @@
       "label": "S. Leão Magno",
       "grupo": "pessoa",
       "ano": 461,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2798,
       "y": 1762.5
     },
@@ -1604,11 +1034,6 @@
       "label": "S. Justino",
       "grupo": "pessoa",
       "ano": 165,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2319,
       "y": 1012.5
     },
@@ -1618,11 +1043,6 @@
       "label": "Tibúrcio, Valeriano e Máximo",
       "grupo": "pessoa",
       "ano": 229,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1515,
       "y": 937.5
     },
@@ -1632,11 +1052,6 @@
       "label": "S. Aniceto",
       "grupo": "pessoa",
       "ano": 168,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -921,
       "y": 1012.5
     },
@@ -1646,11 +1061,6 @@
       "label": "Sotero e Caio",
       "grupo": "pessoa",
       "ano": 296,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 54,
       "y": 1237.5
     },
@@ -1660,11 +1070,6 @@
       "label": "Cleto e Marcelino",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2396,
       "y": 1462.5
     },
@@ -1674,11 +1079,6 @@
       "label": "S. Vital",
       "grupo": "pessoa",
       "ano": 62,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2574,
       "y": 787.5
     },
@@ -1688,11 +1088,6 @@
       "label": "Sto. Atanásio",
       "grupo": "pessoa",
       "ano": 373,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1917,
       "y": 1612.5
     },
@@ -1702,11 +1097,6 @@
       "label": "S. Gregório Nazianzeno",
       "grupo": "pessoa",
       "ano": 390,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1253,
       "y": 1687.5
     },
@@ -1716,11 +1106,6 @@
       "label": "Gordiano e Epímaco",
       "grupo": "pessoa",
       "ano": 362,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -306,
       "y": 1612.5
     },
@@ -1730,11 +1115,6 @@
       "label": "Nereu, Aquileu, Domitila...",
       "grupo": "pessoa",
       "ano": 100,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -229,
       "y": 862.5
     },
@@ -1744,11 +1124,6 @@
       "label": "S. Venâncio",
       "grupo": "pessoa",
       "ano": 250,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2162,
       "y": 1087.5
     },
@@ -1758,11 +1133,6 @@
       "label": "Sta. Pudenciana",
       "grupo": "pessoa",
       "ano": 160,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2644,
       "y": 937.5
     },
@@ -1772,11 +1142,6 @@
       "label": "S. Urbano I",
       "grupo": "pessoa",
       "ano": 230,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1938,
       "y": 1012.5
     },
@@ -1786,11 +1151,6 @@
       "label": "S. Eleutério",
       "grupo": "pessoa",
       "ano": 189,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -617,
       "y": 937.5
     },
@@ -1800,11 +1160,6 @@
       "label": "S. Félix I",
       "grupo": "pessoa",
       "ano": 274,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2389,
       "y": 1312.5
     },
@@ -1814,11 +1169,6 @@
       "label": "Sta. Petronila",
       "grupo": "pessoa",
       "ano": 90,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1302,
       "y": 787.5
     },
@@ -1828,11 +1178,6 @@
       "label": "Ciríaco, Largo e Esmaragdo",
       "grupo": "pessoa",
       "ano": 303,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1641,
       "y": 1237.5
     },
@@ -1842,11 +1187,6 @@
       "label": "S. Lourenço",
       "grupo": "pessoa",
       "ano": 258,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 648,
       "y": 1087.5
     },
@@ -1856,11 +1196,6 @@
       "label": "Tibúrcio e Susana",
       "grupo": "pessoa",
       "ano": 295,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -306,
       "y": 1312.5
     },
@@ -1870,11 +1205,6 @@
       "label": "Hipólito e Cassiano",
       "grupo": "pessoa",
       "ano": 235,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2616,
       "y": 1012.5
     },
@@ -1884,11 +1214,6 @@
       "label": "S. Agapito",
       "grupo": "pessoa",
       "ano": 274,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2099,
       "y": 1237.5
     },
@@ -1898,11 +1223,6 @@
       "label": "S. Zeferino",
       "grupo": "pessoa",
       "ano": 217,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 442,
       "y": 1012.5
     },
@@ -1912,11 +1232,6 @@
       "label": "Doze Santos Irmãos",
       "grupo": "pessoa",
       "ano": 303,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2099,
       "y": 1312.5
     },
@@ -1926,11 +1241,6 @@
       "label": "S. Gorgônio",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1218,
       "y": 1387.5
     },
@@ -1940,11 +1250,6 @@
       "label": "Proto e Jacinto",
       "grupo": "pessoa",
       "ano": 257,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 316,
       "y": 1162.5
     },
@@ -1954,11 +1259,6 @@
       "label": "Cornélio e Cipriano",
       "grupo": "pessoa",
       "ano": 258,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1008,
       "y": 1162.5
     },
@@ -1968,11 +1268,6 @@
       "label": "S. Januário e Comp.",
       "grupo": "pessoa",
       "ano": 305,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 830,
       "y": 1387.5
     },
@@ -1982,11 +1277,6 @@
       "label": "Eustáquio e Comp.",
       "grupo": "pessoa",
       "ano": 118,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1267,
       "y": 862.5
     },
@@ -1996,11 +1286,6 @@
       "label": "S. Maurício e Comp.",
       "grupo": "pessoa",
       "ano": 287,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1372,
       "y": 1237.5
     },
@@ -2010,11 +1295,6 @@
       "label": "S. Lino",
       "grupo": "pessoa",
       "ano": 76,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1959,
       "y": 787.5
     },
@@ -2024,11 +1304,6 @@
       "label": "Cipriano e Justina",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -865,
       "y": 1462.5
     },
@@ -2038,11 +1313,6 @@
       "label": "Cosme e Damião",
       "grupo": "pessoa",
       "ano": 287,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -991,
       "y": 1312.5
     },
@@ -2052,11 +1322,6 @@
       "label": "S. Jerônimo",
       "grupo": "pessoa",
       "ano": 420,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 886,
       "y": 1687.5
     },
@@ -2066,11 +1331,6 @@
       "label": "Dionísio, Rústico e Eleutério",
       "grupo": "pessoa",
       "ano": 258,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1494,
       "y": 1087.5
     },
@@ -2080,11 +1340,6 @@
       "label": "S. Calisto I",
       "grupo": "pessoa",
       "ano": 222,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 753,
       "y": 937.5
     },
@@ -2094,11 +1349,6 @@
       "label": "S. Hilarião",
       "grupo": "pessoa",
       "ano": 371,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1141,
       "y": 1612.5
     },
@@ -2108,11 +1358,6 @@
       "label": "Sta. Úrsula e Comp.",
       "grupo": "pessoa",
       "ano": 383,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2756,
       "y": 1687.5
     },
@@ -2122,11 +1367,6 @@
       "label": "Crisanto e Daria",
       "grupo": "pessoa",
       "ano": 283,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1767,
       "y": 1312.5
     },
@@ -2136,11 +1376,6 @@
       "label": "S. Evaristo",
       "grupo": "pessoa",
       "ano": 105,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 187,
       "y": 787.5
     },
@@ -2150,11 +1385,6 @@
       "label": "Quatro Coroados",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -484,
       "y": 1387.5
     },
@@ -2164,11 +1394,6 @@
       "label": "S. Teodoro",
       "grupo": "pessoa",
       "ano": 306,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1711,
       "y": 1387.5
     },
@@ -2178,11 +1403,6 @@
       "label": "S. Martinho de Tours",
       "grupo": "pessoa",
       "ano": 397,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -519,
       "y": 1687.5
     },
@@ -2192,11 +1412,6 @@
       "label": "S. Gregório Taumaturgo",
       "grupo": "pessoa",
       "ano": 270,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2763,
       "y": 1237.5
     },
@@ -2206,11 +1421,6 @@
       "label": "Sta. Cecília",
       "grupo": "pessoa",
       "ano": 230,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2249,
       "y": 937.5
     },
@@ -2220,11 +1430,6 @@
       "label": "S. Clemente I",
       "grupo": "pessoa",
       "ano": 99,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -659,
       "y": 787.5
     },
@@ -2234,11 +1439,6 @@
       "label": "Sta. Felicidade",
       "grupo": "pessoa",
       "ano": 165,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1246,
       "y": 937.5
     },
@@ -2248,11 +1448,6 @@
       "label": "S. Crisógono",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -145,
       "y": 1462.5
     },
@@ -2262,11 +1457,6 @@
       "label": "Sta. Catarina de Alexandria",
       "grupo": "pessoa",
       "ano": 305,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1302,
       "y": 1462.5
     },
@@ -2276,11 +1466,6 @@
       "label": "S. Pedro de Alexandria",
       "grupo": "pessoa",
       "ano": 311,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2735,
       "y": 1462.5
     },
@@ -2290,11 +1475,6 @@
       "label": "S. Saturnino",
       "grupo": "pessoa",
       "ano": 250,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1505,
       "y": 1087.5
     },
@@ -2304,11 +1484,6 @@
       "label": "Sta. Bibiana",
       "grupo": "pessoa",
       "ano": 363,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 372,
       "y": 1612.5
     },
@@ -2318,11 +1493,6 @@
       "label": "S. Pedro Crisólogo",
       "grupo": "pessoa",
       "ano": 450,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2431,
       "y": 1687.5
     },
@@ -2332,11 +1502,6 @@
       "label": "S. Nicolau",
       "grupo": "pessoa",
       "ano": 343,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -914,
       "y": 1612.5
     },
@@ -2346,11 +1511,6 @@
       "label": "Sto. Ambrósio",
       "grupo": "pessoa",
       "ano": 397,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -138,
       "y": 1762.5
     },
@@ -2360,11 +1520,6 @@
       "label": "S. Melquíades",
       "grupo": "pessoa",
       "ano": 314,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2581,
       "y": 1537.5
     },
@@ -2374,11 +1529,6 @@
       "label": "S. Dâmaso I",
       "grupo": "pessoa",
       "ano": 384,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2396,
       "y": 1762.5
     },
@@ -2388,27 +1538,8 @@
       "label": "Sta. Luzia",
       "grupo": "pessoa",
       "ano": 304,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 159,
       "y": 1387.5
-    },
-    {
-      "id": "720",
-      "level": 3,
-      "label": "S. Silvestre I",
-      "grupo": "pessoa",
-      "ano": 335,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1606,
-      "y": 1612.5
     },
     {
       "id": "717",
@@ -2416,13 +1547,26 @@
       "label": "S. Eusébio de Vercelli",
       "grupo": "pessoa",
       "ano": 371,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1522,
       "y": 1537.5
+    },
+    {
+      "id": "720",
+      "level": 3,
+      "label": "S. Silvestre I",
+      "grupo": "pessoa",
+      "ano": 335,
+      "x": -1606,
+      "y": 1612.5
+    },
+    {
+      "id": "721",
+      "level": 3,
+      "label": "S. Libório",
+      "grupo": "pessoa",
+      "ano": 397,
+      "x": -879,
+      "y": 1762.5
     },
     {
       "id": "6",
@@ -2430,11 +1574,6 @@
       "label": "S. Bento",
       "grupo": "pessoa",
       "ano": 547,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -341,
       "y": 1912.5
     },
@@ -2444,11 +1583,6 @@
       "label": "Sta. Escolástica",
       "grupo": "pessoa",
       "ano": 543,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -659,
       "y": 1837.5
     },
@@ -2458,11 +1592,6 @@
       "label": "S. Bernardo",
       "grupo": "pessoa",
       "ano": 1153,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1351,
       "y": 2137.5
     },
@@ -2472,11 +1601,6 @@
       "label": "S. Francisco",
       "grupo": "pessoa",
       "ano": 1226,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 662,
       "y": 2137.5
     },
@@ -2486,11 +1610,6 @@
       "label": "Sta. Clara",
       "grupo": "pessoa",
       "ano": 1253,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2508,
       "y": 2362.5
     },
@@ -2500,11 +1619,6 @@
       "label": "S. Domingos",
       "grupo": "pessoa",
       "ano": 1221,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 351,
       "y": 2212.5
     },
@@ -2514,11 +1628,6 @@
       "label": "S. Tomás de Aquino",
       "grupo": "pessoa",
       "ano": 1274,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -460,
       "y": 2362.5
     },
@@ -2528,11 +1637,6 @@
       "label": "Sto. Antônio",
       "grupo": "pessoa",
       "ano": 1231,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1424,
       "y": 2137.5
     },
@@ -2542,11 +1646,6 @@
       "label": "Sta. Rita",
       "grupo": "pessoa",
       "ano": 1457,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1500,
       "y": 2437.5
     },
@@ -2556,11 +1655,6 @@
       "label": "S. Leão II",
       "grupo": "pessoa",
       "ano": 683,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2595,
       "y": 1912.5
     },
@@ -2570,11 +1664,6 @@
       "label": "Cirilo e Metódio",
       "grupo": "pessoa",
       "ano": 885,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1148,
       "y": 1987.5
     },
@@ -2584,11 +1673,6 @@
       "label": "Sta Isabel da Hungria",
       "grupo": "pessoa",
       "ano": 1231,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1043,
       "y": 2212.5
     },
@@ -2598,11 +1682,6 @@
       "label": "Sta Isabel de Portugal",
       "grupo": "pessoa",
       "ano": 1336,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2139,
       "y": 2512.5
     },
@@ -2612,11 +1691,6 @@
       "label": "S. João Gualberto",
       "grupo": "pessoa",
       "ano": 1073,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1239,
       "y": 2062.5
     },
@@ -2626,11 +1700,6 @@
       "label": "S. Boaventura",
       "grupo": "pessoa",
       "ano": 1274,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -93,
       "y": 2287.5
     },
@@ -2640,11 +1709,6 @@
       "label": "Sto. Henrique",
       "grupo": "pessoa",
       "ano": 1024,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -477,
       "y": 1987.5
     },
@@ -2654,11 +1718,6 @@
       "label": "S. Bonifácio",
       "grupo": "pessoa",
       "ano": 754,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1494,
       "y": 2062.5
     },
@@ -2668,11 +1727,6 @@
       "label": "S. Norberto",
       "grupo": "pessoa",
       "ano": 1134,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1973,
       "y": 2137.5
     },
@@ -2682,11 +1736,6 @@
       "label": "Sta. Margarida",
       "grupo": "pessoa",
       "ano": 1093,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2602,
       "y": 2062.5
     },
@@ -2696,11 +1745,6 @@
       "label": "Sta. Juliana",
       "grupo": "pessoa",
       "ano": 1258,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1540,
       "y": 2287.5
     },
@@ -2710,11 +1754,6 @@
       "label": "S. Silvério",
       "grupo": "pessoa",
       "ano": 537,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1456,
       "y": 1837.5
     },
@@ -2724,11 +1763,6 @@
       "label": "S. Guilherme",
       "grupo": "pessoa",
       "ano": 1142,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1662,
       "y": 2212.5
     },
@@ -2738,11 +1772,6 @@
       "label": "S. Mauro",
       "grupo": "pessoa",
       "ano": 584,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 393,
       "y": 1912.5
     },
@@ -2752,11 +1781,6 @@
       "label": "S. Canuto",
       "grupo": "pessoa",
       "ano": 1086,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2291,
       "y": 1987.5
     },
@@ -2766,11 +1790,6 @@
       "label": "S. Raimundo de Penaforte",
       "grupo": "pessoa",
       "ano": 1275,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 316,
       "y": 2362.5
     },
@@ -2780,11 +1799,6 @@
       "label": "S. Pedro Nolasco",
       "grupo": "pessoa",
       "ano": 1256,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2176,
       "y": 2287.5
     },
@@ -2794,11 +1808,6 @@
       "label": "Sto. André Corsini",
       "grupo": "pessoa",
       "ano": 1374,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1391,
       "y": 2512.5
     },
@@ -2808,11 +1817,6 @@
       "label": "S. Romualdo",
       "grupo": "pessoa",
       "ano": 1027,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -159,
       "y": 2062.5
     },
@@ -2822,11 +1826,6 @@
       "label": "S. João da Mata",
       "grupo": "pessoa",
       "ano": 1213,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 19,
       "y": 2137.5
     },
@@ -2836,11 +1835,6 @@
       "label": "7 Fundadores Servitas",
       "grupo": "pessoa",
       "ano": 1310,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2791,
       "y": 2362.5
     },
@@ -2850,11 +1844,6 @@
       "label": "S. Pedro Damião",
       "grupo": "pessoa",
       "ano": 1072,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 865,
       "y": 1987.5
     },
@@ -2864,11 +1853,6 @@
       "label": "S. Casimiro",
       "grupo": "pessoa",
       "ano": 1484,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2730,
       "y": 2437.5
     },
@@ -2878,11 +1862,6 @@
       "label": "Sta. Francisca Romana",
       "grupo": "pessoa",
       "ano": 1440,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 238,
       "y": 2512.5
     },
@@ -2892,11 +1871,6 @@
       "label": "S. Gregório Magno",
       "grupo": "pessoa",
       "ano": 604,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1078,
       "y": 1912.5
     },
@@ -2906,11 +1880,6 @@
       "label": "S. Patrício",
       "grupo": "pessoa",
       "ano": 461,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2588,
       "y": 1837.5
     },
@@ -2920,11 +1889,6 @@
       "label": "S. João Damasceno",
       "grupo": "pessoa",
       "ano": 749,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1847,
       "y": 1987.5
     },
@@ -2934,11 +1898,6 @@
       "label": "Sto. Isidoro",
       "grupo": "pessoa",
       "ano": 636,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1959,
       "y": 1912.5
     },
@@ -2948,11 +1907,6 @@
       "label": "S. Vicente Férrer",
       "grupo": "pessoa",
       "ano": 1419,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -552,
       "y": 2512.5
     },
@@ -2962,11 +1916,6 @@
       "label": "S. Hermenegildo",
       "grupo": "pessoa",
       "ano": 585,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 704,
       "y": 1837.5
     },
@@ -2976,11 +1925,6 @@
       "label": "Sto. Anselmo",
       "grupo": "pessoa",
       "ano": 1109,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2284,
       "y": 2212.5
     },
@@ -2990,11 +1934,6 @@
       "label": "S. Pedro de Verona",
       "grupo": "pessoa",
       "ano": 1252,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2504,
       "y": 2212.5
     },
@@ -3004,11 +1943,6 @@
       "label": "Sta. Catarina de Sena",
       "grupo": "pessoa",
       "ano": 1380,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -968,
       "y": 2437.5
     },
@@ -3018,11 +1952,6 @@
       "label": "Sto. Estanislau",
       "grupo": "pessoa",
       "ano": 1079,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1613,
       "y": 1987.5
     },
@@ -3032,11 +1961,6 @@
       "label": "Sto. Antonino",
       "grupo": "pessoa",
       "ano": 1459,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1804,
       "y": 2512.5
     },
@@ -3046,11 +1970,6 @@
       "label": "S. Ubaldo",
       "grupo": "pessoa",
       "ano": 1160,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1061,
       "y": 2212.5
     },
@@ -3060,11 +1979,6 @@
       "label": "S. Pedro Celestino",
       "grupo": "pessoa",
       "ano": 1296,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1550,
       "y": 2287.5
     },
@@ -3074,11 +1988,6 @@
       "label": "S. Bernardino de Sena",
       "grupo": "pessoa",
       "ano": 1444,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 682,
       "y": 2437.5
     },
@@ -3088,11 +1997,6 @@
       "label": "S. Gregório VII",
       "grupo": "pessoa",
       "ano": 1085,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1973,
       "y": 2062.5
     },
@@ -3102,11 +2006,6 @@
       "label": "S. Beda, o Venerável",
       "grupo": "pessoa",
       "ano": 735,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2256,
       "y": 2062.5
     },
@@ -3116,11 +2015,6 @@
       "label": "S. João I",
       "grupo": "pessoa",
       "ano": 526,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2298,
       "y": 1912.5
     },
@@ -3130,11 +2024,6 @@
       "label": "Sto. Agostinho de Cantuária",
       "grupo": "pessoa",
       "ano": 604,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1536,
       "y": 1837.5
     },
@@ -3144,11 +2033,6 @@
       "label": "Sta. Joana d'Arc",
       "grupo": "pessoa",
       "ano": 1431,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -171,
       "y": 2437.5
     },
@@ -3158,11 +2042,6 @@
       "label": "S. Fernando III",
       "grupo": "pessoa",
       "ano": 1252,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2833,
       "y": 2287.5
     },
@@ -3172,11 +2051,6 @@
       "label": "S. Jacinto",
       "grupo": "pessoa",
       "ano": 1257,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1844,
       "y": 2362.5
     },
@@ -3186,11 +2060,6 @@
       "label": "S. Filipe Benício",
       "grupo": "pessoa",
       "ano": 1285,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1155,
       "y": 2362.5
     },
@@ -3200,11 +2069,6 @@
       "label": "S. Luís IX",
       "grupo": "pessoa",
       "ano": 1270,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -806,
       "y": 2287.5
     },
@@ -3214,11 +2078,6 @@
       "label": "S. Raimundo Nonato",
       "grupo": "pessoa",
       "ano": 1240,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1784,
       "y": 2212.5
     },
@@ -3228,11 +2087,6 @@
       "label": "Sto. Egídio",
       "grupo": "pessoa",
       "ano": 710,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2623,
       "y": 1987.5
     },
@@ -3242,11 +2096,6 @@
       "label": "Sto. Estêvão (Rei)",
       "grupo": "pessoa",
       "ano": 1038,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 194,
       "y": 1987.5
     },
@@ -3256,11 +2105,6 @@
       "label": "S. Lourenço Justiniano",
       "grupo": "pessoa",
       "ano": 1456,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1133,
       "y": 2512.5
     },
@@ -3270,11 +2114,6 @@
       "label": "S. Nicolau de Tolentino",
       "grupo": "pessoa",
       "ano": 1305,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2333,
       "y": 2287.5
     },
@@ -3284,11 +2123,6 @@
       "label": "S. Venceslau",
       "grupo": "pessoa",
       "ano": 935,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -802,
       "y": 2062.5
     },
@@ -3298,11 +2132,6 @@
       "label": "S. Remígio",
       "grupo": "pessoa",
       "ano": 533,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1753,
       "y": 1912.5
     },
@@ -3312,11 +2141,6 @@
       "label": "Plácido e Companheiros",
       "grupo": "pessoa",
       "ano": 541,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1075,
       "y": 1912.5
     },
@@ -3326,11 +2150,6 @@
       "label": "S. Bruno",
       "grupo": "pessoa",
       "ano": 1101,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2574,
       "y": 2137.5
     },
@@ -3340,11 +2159,6 @@
       "label": "Sta. Brígida",
       "grupo": "pessoa",
       "ano": 1373,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1751,
       "y": 2437.5
     },
@@ -3354,11 +2168,6 @@
       "label": "S. Eduardo",
       "grupo": "pessoa",
       "ano": 1066,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 540,
       "y": 2062.5
     },
@@ -3368,11 +2177,6 @@
       "label": "Sta. Edwiges",
       "grupo": "pessoa",
       "ano": 1243,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2144,
       "y": 2137.5
     },
@@ -3382,11 +2186,6 @@
       "label": "S. João Câncio",
       "grupo": "pessoa",
       "ano": 1473,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2405,
       "y": 2512.5
     },
@@ -3396,11 +2195,6 @@
       "label": "S. Leonardo de Limousin",
       "grupo": "pessoa",
       "ano": 559,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 26,
       "y": 1837.5
     },
@@ -3410,11 +2204,6 @@
       "label": "S. Martinho I",
       "grupo": "pessoa",
       "ano": 655,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2284,
       "y": 1837.5
     },
@@ -3424,11 +2213,6 @@
       "label": "S. Diogo",
       "grupo": "pessoa",
       "ano": 1463,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2101,
       "y": 2437.5
     },
@@ -3438,11 +2222,6 @@
       "label": "Sto. Alberto Magno",
       "grupo": "pessoa",
       "ano": 1280,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 760,
       "y": 2287.5
     },
@@ -3452,11 +2231,6 @@
       "label": "Sta. Gertrudes",
       "grupo": "pessoa",
       "ano": 1302,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1924,
       "y": 2362.5
     },
@@ -3466,11 +2240,6 @@
       "label": "S. Félix de Valois",
       "grupo": "pessoa",
       "ano": 1212,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -362,
       "y": 2212.5
     },
@@ -3480,11 +2249,6 @@
       "label": "S. Silvestre (Abade)",
       "grupo": "pessoa",
       "ano": 1267,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1166,
       "y": 2362.5
     },
@@ -3494,11 +2258,6 @@
       "label": "S. Sabas",
       "grupo": "pessoa",
       "ano": 532,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2029,
       "y": 1837.5
     },
@@ -3508,13 +2267,17 @@
       "label": "S. Tomás Becket",
       "grupo": "pessoa",
       "ano": 1170,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -743,
       "y": 2137.5
+    },
+    {
+      "id": "724",
+      "level": 4,
+      "label": "Sta. Inês de Montepulciano",
+      "grupo": "pessoa",
+      "ano": 1317,
+      "x": -2625,
+      "y": 2437.5
     },
     {
       "id": "14",
@@ -3522,11 +2285,6 @@
       "label": "Sto. Inácio de Loyola",
       "grupo": "pessoa",
       "ano": 1556,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -526,
       "y": 2587.5
     },
@@ -3536,11 +2294,6 @@
       "label": "S. Francisco Xavier",
       "grupo": "pessoa",
       "ano": 1552,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1386,
       "y": 2587.5
     },
@@ -3550,11 +2303,6 @@
       "label": "Sta. Teresa d'Ávila",
       "grupo": "pessoa",
       "ano": 1582,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1054,
       "y": 2587.5
     },
@@ -3564,11 +2312,6 @@
       "label": "S. João da Cruz",
       "grupo": "pessoa",
       "ano": 1591,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2204,
       "y": 2662.5
     },
@@ -3578,11 +2321,6 @@
       "label": "S. Francisco de Sales",
       "grupo": "pessoa",
       "ano": 1622,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -236,
       "y": 2812.5
     },
@@ -3592,11 +2330,6 @@
       "label": "Sto. Antônio Zaccaria",
       "grupo": "pessoa",
       "ano": 1539,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2466,
       "y": 2662.5
     },
@@ -3606,11 +2339,6 @@
       "label": "S. Camilo de Léllis",
       "grupo": "pessoa",
       "ano": 1614,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1484,
       "y": 2737.5
     },
@@ -3620,11 +2348,6 @@
       "label": "S. Vicente de Paulo",
       "grupo": "pessoa",
       "ano": 1660,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2746,
       "y": 2737.5
     },
@@ -3634,11 +2357,6 @@
       "label": "S. Jerônimo Emiliani",
       "grupo": "pessoa",
       "ano": 1537,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2903,
       "y": 2587.5
     },
@@ -3648,11 +2366,6 @@
       "label": "S. Luís Gonzaga",
       "grupo": "pessoa",
       "ano": 1591,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1844,
       "y": 2587.5
     },
@@ -3662,11 +2375,6 @@
       "label": "S. João de Deus",
       "grupo": "pessoa",
       "ano": 1550,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1774,
       "y": 2662.5
     },
@@ -3676,11 +2384,6 @@
       "label": "S. Fidélis de Sigmaringa",
       "grupo": "pessoa",
       "ano": 1622,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 229,
       "y": 2737.5
     },
@@ -3690,11 +2393,6 @@
       "label": "S. Pedro Canísio",
       "grupo": "pessoa",
       "ano": 1597,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -3197,
       "y": 2737.5
     },
@@ -3704,11 +2402,6 @@
       "label": "S. Paulo da Cruz",
       "grupo": "pessoa",
       "ano": 1775,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 458,
       "y": 2962.5
     },
@@ -3718,11 +2411,6 @@
       "label": "S. Pio V",
       "grupo": "pessoa",
       "ano": 1572,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 271,
       "y": 2587.5
     },
@@ -3732,11 +2420,6 @@
       "label": "S. Roberto Belarmino",
       "grupo": "pessoa",
       "ano": 1621,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -673,
       "y": 2737.5
     },
@@ -3746,11 +2429,6 @@
       "label": "S. João Batista de La Salle",
       "grupo": "pessoa",
       "ano": 1719,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 7,
       "y": 2887.5
     },
@@ -3760,11 +2438,6 @@
       "label": "S. Pascoal Bailão",
       "grupo": "pessoa",
       "ano": 1592,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2578,
       "y": 2587.5
     },
@@ -3774,11 +2447,6 @@
       "label": "S. Felipe Néri",
       "grupo": "pessoa",
       "ano": 1595,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2945,
       "y": 2662.5
     },
@@ -3788,11 +2456,6 @@
       "label": "Sta. Maria Madalena de Pazzi",
       "grupo": "pessoa",
       "ano": 1607,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2739,
       "y": 2812.5
     },
@@ -3802,11 +2465,6 @@
       "label": "Sto. Afonso M. de Ligório",
       "grupo": "pessoa",
       "ano": 1787,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 895,
       "y": 2887.5
     },
@@ -3816,11 +2474,6 @@
       "label": "S. Caetano",
       "grupo": "pessoa",
       "ano": 1547,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2099,
       "y": 2587.5
     },
@@ -3830,11 +2483,6 @@
       "label": "S. João Eudes",
       "grupo": "pessoa",
       "ano": 1680,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -979,
       "y": 2887.5
     },
@@ -3844,11 +2492,6 @@
       "label": "Sta. Joana Francisca de Chantal",
       "grupo": "pessoa",
       "ano": 1641,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1484,
       "y": 2812.5
     },
@@ -3858,11 +2501,6 @@
       "label": "S. José de Calasanz",
       "grupo": "pessoa",
       "ano": 1648,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 2330,
       "y": 2812.5
     },
@@ -3872,11 +2510,6 @@
       "label": "Sta. Rosa de Lima",
       "grupo": "pessoa",
       "ano": 1617,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1082,
       "y": 2812.5
     },
@@ -3886,11 +2519,6 @@
       "label": "S. José de Cupertino",
       "grupo": "pessoa",
       "ano": 1663,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 3169,
       "y": 2812.5
     },
@@ -3900,11 +2528,6 @@
       "label": "S. Tomás de Vilanova",
       "grupo": "pessoa",
       "ano": 1555,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -963,
       "y": 2662.5
     },
@@ -3914,11 +2537,6 @@
       "label": "S. João Leonardo",
       "grupo": "pessoa",
       "ano": 1609,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -1879,
       "y": 2812.5
     },
@@ -3928,11 +2546,6 @@
       "label": "S. Francisco de Borja",
       "grupo": "pessoa",
       "ano": 1572,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 624,
       "y": 2662.5
     },
@@ -3942,11 +2555,6 @@
       "label": "Sta. Margarida Maria Alacoque",
       "grupo": "pessoa",
       "ano": 1690,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -535,
       "y": 2962.5
     },
@@ -3956,11 +2564,6 @@
       "label": "S. Pedro de Alcântara",
       "grupo": "pessoa",
       "ano": 1562,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -82,
       "y": 2662.5
     },
@@ -3970,11 +2573,6 @@
       "label": "S. Carlos Borromeu",
       "grupo": "pessoa",
       "ano": 1584,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1463,
       "y": 2662.5
     },
@@ -3984,11 +2582,6 @@
       "label": "Sto. André Avelino",
       "grupo": "pessoa",
       "ano": 1608,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -2267,
       "y": 2737.5
     },
@@ -3998,2560 +2591,8 @@
       "label": "S. Josafá",
       "grupo": "pessoa",
       "ano": 1623,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 610,
       "y": 2812.5
-    },
-    {
-      "id": "16",
-      "level": 6,
-      "label": "S. João M. Vianney",
-      "grupo": "pessoa",
-      "ano": 1859,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -991,
-      "y": 3037.5
-    },
-    {
-      "id": "61",
-      "level": 6,
-      "label": "S. João Bosco",
-      "grupo": "pessoa",
-      "ano": 1888,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -124,
-      "y": 3037.5
-    },
-    {
-      "id": "17",
-      "level": 6,
-      "label": "Sta. Teresinha",
-      "grupo": "pessoa",
-      "ano": 1897,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 215,
-      "y": 3112.5
-    },
-    {
-      "id": "19",
-      "level": 6,
-      "label": "S. Pio X",
-      "grupo": "pessoa",
-      "ano": 1914,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 519,
-      "y": 3037.5
-    },
-    {
-      "id": "429",
-      "level": 6,
-      "label": "S. Gabriel da V. Dolorosa",
-      "grupo": "pessoa",
-      "ano": 1862,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -540,
-      "y": 3112.5
-    },
-    {
-      "id": "609",
-      "level": 6,
-      "label": "N. Sra. do Rosário de Fátima",
-      "grupo": "pessoa",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 921,
-      "y": 3112.5
-    },
-    {
-      "id": "22",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Beneditina",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -285,
-      "y": 3262.5
-    },
-    {
-      "id": "23",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Franciscana",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1218,
-      "y": 3262.5
-    },
-    {
-      "id": "24",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Dominicana",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 837,
-      "y": 3187.5
-    },
-    {
-      "id": "25",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Companhia de Jesus",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -673,
-      "y": 3187.5
-    },
-    {
-      "id": "62",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Família Salesiana",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2630,
-      "y": 3187.5
-    },
-    {
-      "id": "63",
-      "level": 7,
-      "categoria": "reformada",
-      "label": "Ordem Cisterciense",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -187,
-      "y": 3637.5
-    },
-    {
-      "id": "41",
-      "level": 7,
-      "categoria": "reformada",
-      "label": "Carmelo Descalço",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 201,
-      "y": 3712.5
-    },
-    {
-      "id": "850",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Agostiniana",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1606,
-      "y": 3187.5
-    },
-    {
-      "id": "851",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem do Carmo",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2263,
-      "y": 3262.5
-    },
-    {
-      "id": "852",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Servita",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1966,
-      "y": 3262.5
-    },
-    {
-      "id": "853",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Trinitária",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 89,
-      "y": 3187.5
-    },
-    {
-      "id": "854",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Mercedária",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 463,
-      "y": 3262.5
-    },
-    {
-      "id": "855",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Família Vicentina",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2326,
-      "y": 3187.5
-    },
-    {
-      "id": "856",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Redentoristas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1040,
-      "y": 3262.5
-    },
-    {
-      "id": "857",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Passionistas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1931,
-      "y": 3187.5
-    },
-    {
-      "id": "858",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Oratorianos",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2672,
-      "y": 3262.5
-    },
-    {
-      "id": "859",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Lassalistas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1620,
-      "y": 3262.5
-    },
-    {
-      "id": "860",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Teatinos",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1337,
-      "y": 3187.5
-    },
-    {
-      "id": "861",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Camilianos",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1061,
-      "y": 3412.5
-    },
-    {
-      "id": "862",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Hospitaleiros",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1802,
-      "y": 3412.5
-    },
-    {
-      "id": "863",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Barnabitas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2487,
-      "y": 3412.5
-    },
-    {
-      "id": "864",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Escolápios",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1959,
-      "y": 3412.5
-    },
-    {
-      "id": "865",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Visitandinas",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -299,
-      "y": 3412.5
-    },
-    {
-      "id": "866",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Ordem Cartuxa",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2798,
-      "y": 3337.5
-    },
-    {
-      "id": "867",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Premonstratenses",
-      "grupo": "instituicao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2155,
-      "y": 3337.5
-    },
-    {
-      "id": "32",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Suma Teológica",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 33,
-      "y": 3337.5
-    },
-    {
-      "id": "34",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Exercícios Espirituais",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -687,
-      "y": 3337.5
-    },
-    {
-      "id": "38",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Mística Cristã",
-      "grupo": "ideia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1641,
-      "y": 3337.5
-    },
-    {
-      "id": "900",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Regra de São Bento",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 407,
-      "y": 3412.5
-    },
-    {
-      "id": "901",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Regra de Santo Agostinho",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 1225,
-      "y": 3412.5
-    },
-    {
-      "id": "902",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Regra de São Basílio",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 2749,
-      "y": 3412.5
-    },
-    {
-      "id": "903",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Castelo Interior",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 795,
-      "y": 3337.5
-    },
-    {
-      "id": "904",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Noite Escura da Alma",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 2319,
-      "y": 3337.5
-    },
-    {
-      "id": "905",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "História de uma Alma",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": -1421,
-      "y": 3337.5
-    },
-    {
-      "id": "906",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Introdução à Vida Devota",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": -631,
-      "y": 3487.5
-    },
-    {
-      "id": "907",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "O Diálogo",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": -1428,
-      "y": 3487.5
-    },
-    {
-      "id": "908",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "As Glórias de Maria",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": -1082,
-      "y": 3562.5
-    },
-    {
-      "id": "909",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Cântico das Criaturas",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 792,
-      "y": 3562.5
-    },
-    {
-      "id": "910",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Confissões",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 1435,
-      "y": 3562.5
-    },
-    {
-      "id": "911",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "A Cidade de Deus",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 1767,
-      "y": 3487.5
-    },
-    {
-      "id": "912",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "A Vulgata",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 1152,
-      "y": 3487.5
-    },
-    {
-      "id": "913",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Contra as Heresias",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": -187,
-      "y": 3562.5
-    },
-    {
-      "id": "914",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Itinerário da Mente para Deus",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 292,
-      "y": 3487.5
-    },
-    {
-      "id": "915",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Proslogion",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": -2155,
-      "y": 3487.5
-    },
-    {
-      "id": "916",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "Regra Pastoral",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": 2127,
-      "y": 3562.5
-    },
-    {
-      "id": "917",
-      "level": 7,
-      "categoria": "fundadora",
-      "label": "História Eclesiástica",
-      "grupo": "documento",
-      "font": {
-        "color": "#ffffff",
-        "size": 13,
-        "italic": true
-      },
-      "x": -1788,
-      "y": 3562.5
-    },
-    {
-      "id": "130",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Nazaré",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -61,
-      "y": 3862.5
-    },
-    {
-      "id": "131",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Rio Jordão",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1357,
-      "y": 3787.5
-    },
-    {
-      "id": "132",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Éfeso",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 910,
-      "y": 3862.5
-    },
-    {
-      "id": "134",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Lida",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1343,
-      "y": 3862.5
-    },
-    {
-      "id": "135",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Tebaida",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -634,
-      "y": 3862.5
-    },
-    {
-      "id": "137",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Hipona",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1797,
-      "y": 3862.5
-    },
-    {
-      "id": "138",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Antioquia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 414,
-      "y": 3862.5
-    },
-    {
-      "id": "141",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Monte Cassino",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -344,
-      "y": 3787.5
-    },
-    {
-      "id": "142",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Claraval",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1081,
-      "y": 3862.5
-    },
-    {
-      "id": "143",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Assis",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 166,
-      "y": 3787.5
-    },
-    {
-      "id": "147",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Cássia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1563,
-      "y": 3787.5
-    },
-    {
-      "id": "148",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Goa",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -854,
-      "y": 3787.5
-    },
-    {
-      "id": "149",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Ávila",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1130,
-      "y": 3787.5
-    },
-    {
-      "id": "151",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Genebra",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 676,
-      "y": 3787.5
-    },
-    {
-      "id": "152",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Ars",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1818,
-      "y": 3787.5
-    },
-    {
-      "id": "153",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Turim",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1612,
-      "y": 3862.5
-    },
-    {
-      "id": "154",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Lisieux",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -641,
-      "y": 4012.5
-    },
-    {
-      "id": "159",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Querala",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1661,
-      "y": 4012.5
-    },
-    {
-      "id": "160",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Etiópia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -889,
-      "y": 3937.5
-    },
-    {
-      "id": "300",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Milão",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 89,
-      "y": 3937.5
-    },
-    {
-      "id": "301",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Morávia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 323,
-      "y": 4012.5
-    },
-    {
-      "id": "302",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Hungria",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1633,
-      "y": 3937.5
-    },
-    {
-      "id": "804",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Portugal",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1406,
-      "y": 3937.5
-    },
-    {
-      "id": "303",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Vallombrosa",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1357,
-      "y": 4012.5
-    },
-    {
-      "id": "304",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Lyon",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 550,
-      "y": 3937.5
-    },
-    {
-      "id": "305",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Bamberg",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -145,
-      "y": 4012.5
-    },
-    {
-      "id": "306",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Somasca",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1909,
-      "y": 3937.5
-    },
-    {
-      "id": "309",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Betânia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -393,
-      "y": 3937.5
-    },
-    {
-      "id": "311",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Maguncia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1144,
-      "y": 4012.5
-    },
-    {
-      "id": "312",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Magdeburgo",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 798,
-      "y": 4012.5
-    },
-    {
-      "id": "313",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Edimburgo",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1895,
-      "y": 4012.5
-    },
-    {
-      "id": "315",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Cesareia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1074,
-      "y": 3937.5
-    },
-    {
-      "id": "316",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Edessa",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1511,
-      "y": 4162.5
-    },
-    {
-      "id": "317",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Florença",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -281,
-      "y": 4087.5
-    },
-    {
-      "id": "318",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Nola",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 491,
-      "y": 4162.5
-    },
-    {
-      "id": "319",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Monte Vergine",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1944,
-      "y": 4087.5
-    },
-    {
-      "id": "500",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Poitiers",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 257,
-      "y": 4087.5
-    },
-    {
-      "id": "501",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Glanfeuil",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -12,
-      "y": 4162.5
-    },
-    {
-      "id": "502",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Odense",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1745,
-      "y": 4087.5
-    },
-    {
-      "id": "503",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Saragoça",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1263,
-      "y": 4087.5
-    },
-    {
-      "id": "504",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Barcelona",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -550,
-      "y": 4162.5
-    },
-    {
-      "id": "505",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Esmirna",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1986,
-      "y": 4162.5
-    },
-    {
-      "id": "506",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Constantinopla",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1357,
-      "y": 4087.5
-    },
-    {
-      "id": "507",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Fiesole",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1654,
-      "y": 4162.5
-    },
-    {
-      "id": "508",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Creta",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1074,
-      "y": 4162.5
-    },
-    {
-      "id": "509",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Camaldoli",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -826,
-      "y": 4087.5
-    },
-    {
-      "id": "510",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Alexandria",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 739,
-      "y": 4087.5
-    },
-    {
-      "id": "511",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Lourdes",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1008,
-      "y": 4162.5
-    },
-    {
-      "id": "512",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Bréscia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1986,
-      "y": 4312.5
-    },
-    {
-      "id": "513",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Fonte Avellana",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 917,
-      "y": 4312.5
-    },
-    {
-      "id": "514",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Isola Gran Sasso",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1413,
-      "y": 4237.5
-    },
-    {
-      "id": "515",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Cracóvia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1497,
-      "y": 4312.5
-    },
-    {
-      "id": "517",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Granada",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -854,
-      "y": 4237.5
-    },
-    {
-      "id": "518",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Irlanda",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1986,
-      "y": 4237.5
-    },
-    {
-      "id": "519",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Damasco",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1102,
-      "y": 4312.5
-    },
-    {
-      "id": "520",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Sevilha",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 124,
-      "y": 4237.5
-    },
-    {
-      "id": "521",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Valência",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 379,
-      "y": 4312.5
-    },
-    {
-      "id": "522",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Tarragona",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1228,
-      "y": 4237.5
-    },
-    {
-      "id": "523",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Cantuária",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -138,
-      "y": 4312.5
-    },
-    {
-      "id": "524",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Seewis",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 627,
-      "y": 4237.5
-    },
-    {
-      "id": "525",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Veneza",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1745,
-      "y": 4237.5
-    },
-    {
-      "id": "526",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Friburgo",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1731,
-      "y": 4312.5
-    },
-    {
-      "id": "527",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Siena",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -386,
-      "y": 4237.5
-    },
-    {
-      "id": "801",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Fátima",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -613,
-      "y": 4312.5
-    },
-    {
-      "id": "26",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Roma",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1029,
-      "y": 4612.5
-    },
-    {
-      "id": "133",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Jerusalém",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -952,
-      "y": 4537.5
-    },
-    {
-      "id": "136",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Óstia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1448,
-      "y": 4537.5
-    },
-    {
-      "id": "139",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Sebaste",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1682,
-      "y": 4612.5
-    },
-    {
-      "id": "140",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Catânia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 512,
-      "y": 4612.5
-    },
-    {
-      "id": "144",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Bolonha",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1256,
-      "y": 4537.5
-    },
-    {
-      "id": "145",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Nápoles",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -246,
-      "y": 4537.5
-    },
-    {
-      "id": "146",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Pádua",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1490,
-      "y": 4612.5
-    },
-    {
-      "id": "150",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Úbeda",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1710,
-      "y": 4537.5
-    },
-    {
-      "id": "155",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Patras",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 271,
-      "y": 4537.5
-    },
-    {
-      "id": "156",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Santiago (Compostela)",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -592,
-      "y": 4612.5
-    },
-    {
-      "id": "157",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Hierápolis",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 781,
-      "y": 4537.5
-    },
-    {
-      "id": "158",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Armênia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1930,
-      "y": 4537.5
-    },
-    {
-      "id": "161",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Pérsia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1937,
-      "y": 4612.5
-    },
-    {
-      "id": "307",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Bolsena",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1214,
-      "y": 4612.5
-    },
-    {
-      "id": "308",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Nicomédia",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 16,
-      "y": 4612.5
-    },
-    {
-      "id": "310",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Ravena",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -461,
-      "y": 4687.5
-    },
-    {
-      "id": "314",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Chipre",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 213,
-      "y": 4762.5
-    },
-    {
-      "id": "320",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Paris",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -234,
-      "y": 4762.5
-    },
-    {
-      "id": "516",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Cartago",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 454,
-      "y": 4687.5
-    },
-    {
-      "id": "800",
-      "level": 8,
-      "categoria": "morte",
-      "label": "Tours",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -14,
-      "y": 4687.5
-    },
-    {
-      "id": "1006",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de S. Francisco",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 390,
-      "y": 5062.5
-    },
-    {
-      "id": "1007",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de Sto. Antônio",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1404,
-      "y": 5062.5
-    },
-    {
-      "id": "1000",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "Corpo Incorrupto",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -297,
-      "y": 5212.5
-    },
-    {
-      "id": "1001",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "Estigmas (Chagas)",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 84,
-      "y": 5137.5
-    },
-    {
-      "id": "1002",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "Bilocação",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 416,
-      "y": 5212.5
-    },
-    {
-      "id": "1003",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "Levitação",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 692,
-      "y": 5137.5
-    },
-    {
-      "id": "1",
-      "level": 9,
-      "categoria": "mistica",
-      "label": "dragão Tarasca",
-      "grupo": "fenomeno",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -657,
-      "y": 5137.5
-    },
-    {
-      "id": "1010",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Sangue Liquefeito",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 187,
-      "y": 5362.5
-    },
-    {
-      "id": "1011",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Coração Incorrupto",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -208,
-      "y": 5287.5
-    },
-    {
-      "id": "1012",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Língua Intacta",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 554,
-      "y": 5287.5
-    },
-    {
-      "id": "1013",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Cabeça / Crânio",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -963,
-      "y": 5287.5
-    },
-    {
-      "id": "1014",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Manto Partilhado",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -596,
-      "y": 5362.5
-    },
-    {
-      "id": "1015",
-      "level": 9,
-      "categoria": "reliquia",
-      "label": "Correntes da Prisão",
-      "grupo": "reliquia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 935,
-      "y": 5362.5
-    },
-    {
-      "id": "1020",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de S. Pedro (Roma)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 897,
-      "y": 4987.5
-    },
-    {
-      "id": "1021",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Catedral de Santiago (Espanha)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -138,
-      "y": 4987.5
-    },
-    {
-      "id": "1022",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de Assis (Itália)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -680,
-      "y": 5062.5
-    },
-    {
-      "id": "1023",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de Pádua (Itália)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1904,
-      "y": 4987.5
-    },
-    {
-      "id": "1024",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de S. Paulo (Roma)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2425,
-      "y": 5062.5
-    },
-    {
-      "id": "1025",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Santuário de Ars (França)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2439,
-      "y": 4987.5
-    },
-    {
-      "id": "1026",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Basílica de Lisieux (França)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1918,
-      "y": 5062.5
-    },
-    {
-      "id": "1004",
-      "level": 9,
-      "categoria": "santuario",
-      "label": "Collégiale Sainte-Marthe - Tarascon (França)",
-      "grupo": "santuario",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1292,
-      "y": 4987.5
-    },
-    {
-      "id": "1008",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "As Chaves do Reino",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2630,
-      "y": 5437.5
-    },
-    {
-      "id": "1009",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "Chuva de Rosas",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1882,
-      "y": 5437.5
-    },
-    {
-      "id": "1030",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "As Chaves",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2431,
-      "y": 5437.5
-    },
-    {
-      "id": "1031",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "A Espada",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1054,
-      "y": 5437.5
-    },
-    {
-      "id": "1032",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "O Lírio (Pureza)",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 736,
-      "y": 5512.5
-    },
-    {
-      "id": "1033",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "As Rosas",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -760,
-      "y": 5512.5
-    },
-    {
-      "id": "1034",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "A Caveira (Memento Mori)",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1428,
-      "y": 5512.5
-    },
-    {
-      "id": "1035",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "Livro (Doutor/Evangelho)",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -386,
-      "y": 5437.5
-    },
-    {
-      "id": "1036",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "O Dragão",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2700,
-      "y": 5512.5
-    },
-    {
-      "id": "1037",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "Flechas do Martírio",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1501,
-      "y": 5512.5
-    },
-    {
-      "id": "1038",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "A Grelha",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 1802,
-      "y": 5437.5
-    },
-    {
-      "id": "1039",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "O Cordeiro",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 404,
-      "y": 5437.5
-    },
-    {
-      "id": "1040",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "Olhos numa bandeja",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 58,
-      "y": 5512.5
-    },
-    {
-      "id": "1041",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "Seios numa bandeja",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1092,
-      "y": 5437.5
-    },
-    {
-      "id": "1042",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "Alicate e Dentes",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2242,
-      "y": 5512.5
-    },
-    {
-      "id": "1043",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "A Roda Quebrada",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 2113,
-      "y": 5512.5
-    },
-    {
-      "id": "1044",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "O Leão",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 926,
-      "y": 5662.5
-    },
-    {
-      "id": "1045",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "A Águia",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -119,
-      "y": 5587.5
-    },
-    {
-      "id": "1046",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "O Touro",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -685,
-      "y": 5587.5
-    },
-    {
-      "id": "721",
-      "level": 3,
-      "label": "S. Libório",
-      "grupo": "pessoa",
-      "ano": 397,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -879,
-      "y": 1762.5
-    },
-    {
-      "id": "802",
-      "level": 8,
-      "categoria": "atuacao",
-      "label": "Le Mans",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -152,
-      "y": 4387.5
-    },
-    {
-      "id": "805",
-      "level": 8,
-      "categoria": "santuario",
-      "label": "Paderborn (Alemanha)",
-      "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 0,
-      "y": 4837.5
-    },
-    {
-      "id": "1047",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "O Pavão",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1377,
-      "y": 5587.5
-    },
-    {
-      "id": "1048",
-      "level": 9,
-      "categoria": "simbolo",
-      "label": "Pedras sobre um livro",
-      "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -1031,
-      "y": 5662.5
     },
     {
       "id": "722",
@@ -6559,11 +2600,6 @@
       "label": "S. Martinho de Porres",
       "grupo": "pessoa",
       "ano": 1639,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 970,
       "y": 2737.5
     },
@@ -6573,27 +2609,1443 @@
       "label": "S. João Macias",
       "grupo": "pessoa",
       "ano": 1645,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1949,
       "y": 2737.5
     },
     {
-      "id": "724",
-      "level": 4,
-      "label": "Sta. Inês de Montepulciano",
+      "id": "16",
+      "level": 6,
+      "label": "S. João M. Vianney",
       "grupo": "pessoa",
-      "ano": 1317,
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": -2625,
-      "y": 2437.5
+      "ano": 1859,
+      "x": -991,
+      "y": 3037.5
+    },
+    {
+      "id": "61",
+      "level": 6,
+      "label": "S. João Bosco",
+      "grupo": "pessoa",
+      "ano": 1888,
+      "x": -124,
+      "y": 3037.5
+    },
+    {
+      "id": "17",
+      "level": 6,
+      "label": "Sta. Teresinha",
+      "grupo": "pessoa",
+      "ano": 1897,
+      "x": 215,
+      "y": 3112.5
+    },
+    {
+      "id": "19",
+      "level": 6,
+      "label": "S. Pio X",
+      "grupo": "pessoa",
+      "ano": 1914,
+      "x": 519,
+      "y": 3037.5
+    },
+    {
+      "id": "429",
+      "level": 6,
+      "label": "S. Gabriel da V. Dolorosa",
+      "grupo": "pessoa",
+      "ano": 1862,
+      "x": -540,
+      "y": 3112.5
+    },
+    {
+      "id": "609",
+      "level": 6,
+      "label": "N. Sra. do Rosário de Fátima",
+      "grupo": "pessoa",
+      "x": 921,
+      "y": 3112.5
+    },
+    {
+      "id": "22",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Beneditina",
+      "grupo": "instituicao",
+      "x": -285,
+      "y": 3262.5
+    },
+    {
+      "id": "23",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Franciscana",
+      "grupo": "instituicao",
+      "x": 1218,
+      "y": 3262.5
+    },
+    {
+      "id": "24",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Dominicana",
+      "grupo": "instituicao",
+      "x": 837,
+      "y": 3187.5
+    },
+    {
+      "id": "25",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Companhia de Jesus",
+      "grupo": "instituicao",
+      "x": -673,
+      "y": 3187.5
+    },
+    {
+      "id": "62",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Família Salesiana",
+      "grupo": "instituicao",
+      "x": -2630,
+      "y": 3187.5
+    },
+    {
+      "id": "63",
+      "level": 7,
+      "categoria": "reformada",
+      "label": "Ordem Cisterciense",
+      "grupo": "instituicao",
+      "x": -187,
+      "y": 3637.5
+    },
+    {
+      "id": "41",
+      "level": 7,
+      "categoria": "reformada",
+      "label": "Carmelo Descalço",
+      "grupo": "instituicao",
+      "x": 201,
+      "y": 3712.5
+    },
+    {
+      "id": "850",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Agostiniana",
+      "grupo": "instituicao",
+      "x": 1606,
+      "y": 3187.5
+    },
+    {
+      "id": "851",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem do Carmo",
+      "grupo": "instituicao",
+      "x": -2263,
+      "y": 3262.5
+    },
+    {
+      "id": "852",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Servita",
+      "grupo": "instituicao",
+      "x": 1966,
+      "y": 3262.5
+    },
+    {
+      "id": "853",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Trinitária",
+      "grupo": "instituicao",
+      "x": 89,
+      "y": 3187.5
+    },
+    {
+      "id": "854",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Mercedária",
+      "grupo": "instituicao",
+      "x": 463,
+      "y": 3262.5
+    },
+    {
+      "id": "855",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Família Vicentina",
+      "grupo": "instituicao",
+      "x": 2326,
+      "y": 3187.5
+    },
+    {
+      "id": "856",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Redentoristas",
+      "grupo": "instituicao",
+      "x": -1040,
+      "y": 3262.5
+    },
+    {
+      "id": "857",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Passionistas",
+      "grupo": "instituicao",
+      "x": -1931,
+      "y": 3187.5
+    },
+    {
+      "id": "858",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Oratorianos",
+      "grupo": "instituicao",
+      "x": 2672,
+      "y": 3262.5
+    },
+    {
+      "id": "859",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Lassalistas",
+      "grupo": "instituicao",
+      "x": -1620,
+      "y": 3262.5
+    },
+    {
+      "id": "860",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Teatinos",
+      "grupo": "instituicao",
+      "x": -1337,
+      "y": 3187.5
+    },
+    {
+      "id": "861",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Camilianos",
+      "grupo": "instituicao",
+      "x": -1061,
+      "y": 3412.5
+    },
+    {
+      "id": "862",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Hospitaleiros",
+      "grupo": "instituicao",
+      "x": -1802,
+      "y": 3412.5
+    },
+    {
+      "id": "863",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Barnabitas",
+      "grupo": "instituicao",
+      "x": -2487,
+      "y": 3412.5
+    },
+    {
+      "id": "864",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Escolápios",
+      "grupo": "instituicao",
+      "x": 1959,
+      "y": 3412.5
+    },
+    {
+      "id": "865",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Visitandinas",
+      "grupo": "instituicao",
+      "x": -299,
+      "y": 3412.5
+    },
+    {
+      "id": "866",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Ordem Cartuxa",
+      "grupo": "instituicao",
+      "x": -2798,
+      "y": 3337.5
+    },
+    {
+      "id": "867",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Premonstratenses",
+      "grupo": "instituicao",
+      "x": -2155,
+      "y": 3337.5
+    },
+    {
+      "id": "32",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Suma Teológica",
+      "grupo": "documento",
+      "x": 33,
+      "y": 3337.5
+    },
+    {
+      "id": "34",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Exercícios Espirituais",
+      "grupo": "documento",
+      "x": -687,
+      "y": 3337.5
+    },
+    {
+      "id": "38",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Mística Cristã",
+      "grupo": "ideia",
+      "x": 1641,
+      "y": 3337.5
+    },
+    {
+      "id": "900",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Regra de São Bento",
+      "grupo": "documento",
+      "x": 407,
+      "y": 3412.5
+    },
+    {
+      "id": "901",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Regra de Santo Agostinho",
+      "grupo": "documento",
+      "x": 1225,
+      "y": 3412.5
+    },
+    {
+      "id": "902",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Regra de São Basílio",
+      "grupo": "documento",
+      "x": 2749,
+      "y": 3412.5
+    },
+    {
+      "id": "903",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Castelo Interior",
+      "grupo": "documento",
+      "x": 795,
+      "y": 3337.5
+    },
+    {
+      "id": "904",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Noite Escura da Alma",
+      "grupo": "documento",
+      "x": 2319,
+      "y": 3337.5
+    },
+    {
+      "id": "905",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "História de uma Alma",
+      "grupo": "documento",
+      "x": -1421,
+      "y": 3337.5
+    },
+    {
+      "id": "906",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Introdução à Vida Devota",
+      "grupo": "documento",
+      "x": -631,
+      "y": 3487.5
+    },
+    {
+      "id": "907",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "O Diálogo",
+      "grupo": "documento",
+      "x": -1428,
+      "y": 3487.5
+    },
+    {
+      "id": "908",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "As Glórias de Maria",
+      "grupo": "documento",
+      "x": -1082,
+      "y": 3562.5
+    },
+    {
+      "id": "909",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Cântico das Criaturas",
+      "grupo": "documento",
+      "x": 792,
+      "y": 3562.5
+    },
+    {
+      "id": "910",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Confissões",
+      "grupo": "documento",
+      "x": 1435,
+      "y": 3562.5
+    },
+    {
+      "id": "911",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "A Cidade de Deus",
+      "grupo": "documento",
+      "x": 1767,
+      "y": 3487.5
+    },
+    {
+      "id": "912",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "A Vulgata",
+      "grupo": "documento",
+      "x": 1152,
+      "y": 3487.5
+    },
+    {
+      "id": "913",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Contra as Heresias",
+      "grupo": "documento",
+      "x": -187,
+      "y": 3562.5
+    },
+    {
+      "id": "914",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Itinerário da Mente para Deus",
+      "grupo": "documento",
+      "x": 292,
+      "y": 3487.5
+    },
+    {
+      "id": "915",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Proslogion",
+      "grupo": "documento",
+      "x": -2155,
+      "y": 3487.5
+    },
+    {
+      "id": "916",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "Regra Pastoral",
+      "grupo": "documento",
+      "x": 2127,
+      "y": 3562.5
+    },
+    {
+      "id": "917",
+      "level": 7,
+      "categoria": "fundadora",
+      "label": "História Eclesiástica",
+      "grupo": "documento",
+      "x": -1788,
+      "y": 3562.5
+    },
+    {
+      "id": "26",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Roma",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1029,
+      "y": 3862.5
+    },
+    {
+      "id": "130",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Nazaré",
+      "grupo": "localizacao",
+      "pais": "Israel",
+      "iso": "IL",
+      "x": -61,
+      "y": 4162.5
+    },
+    {
+      "id": "131",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Rio Jordão",
+      "grupo": "localizacao",
+      "pais": "Jordânia",
+      "iso": "JO",
+      "x": -1357,
+      "y": 4087.5
+    },
+    {
+      "id": "132",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Éfeso",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": 910,
+      "y": 4162.5
+    },
+    {
+      "id": "133",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Jerusalém",
+      "grupo": "localizacao",
+      "pais": "Israel",
+      "iso": "IL",
+      "x": -952,
+      "y": 3787.5
+    },
+    {
+      "id": "134",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Lida",
+      "grupo": "localizacao",
+      "pais": "Israel",
+      "iso": "IL",
+      "x": 1343,
+      "y": 4162.5
+    },
+    {
+      "id": "135",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Tebaida",
+      "grupo": "localizacao",
+      "pais": "Egito",
+      "iso": "EG",
+      "x": -634,
+      "y": 4162.5
+    },
+    {
+      "id": "136",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Óstia",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -1448,
+      "y": 3787.5
+    },
+    {
+      "id": "137",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Hipona",
+      "grupo": "localizacao",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "x": 1797,
+      "y": 4162.5
+    },
+    {
+      "id": "138",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Antioquia",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": 414,
+      "y": 4162.5
+    },
+    {
+      "id": "139",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Sebaste",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": -1682,
+      "y": 3862.5
+    },
+    {
+      "id": "140",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Catânia",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 512,
+      "y": 3862.5
+    },
+    {
+      "id": "141",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Monte Cassino",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -344,
+      "y": 4087.5
+    },
+    {
+      "id": "142",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Claraval",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -1081,
+      "y": 4162.5
+    },
+    {
+      "id": "143",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Assis",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 166,
+      "y": 4087.5
+    },
+    {
+      "id": "144",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Bolonha",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1256,
+      "y": 3787.5
+    },
+    {
+      "id": "145",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Nápoles",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -246,
+      "y": 3787.5
+    },
+    {
+      "id": "146",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Pádua",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1490,
+      "y": 3862.5
+    },
+    {
+      "id": "147",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cássia",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1563,
+      "y": 4087.5
+    },
+    {
+      "id": "148",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Goa",
+      "grupo": "localizacao",
+      "pais": "Índia",
+      "iso": "IN",
+      "x": -854,
+      "y": 4087.5
+    },
+    {
+      "id": "149",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Ávila",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 1130,
+      "y": 4087.5
+    },
+    {
+      "id": "150",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Úbeda",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 1710,
+      "y": 3787.5
+    },
+    {
+      "id": "151",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Genebra",
+      "grupo": "localizacao",
+      "pais": "Suíça",
+      "iso": "CH",
+      "x": 676,
+      "y": 4087.5
+    },
+    {
+      "id": "152",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Ars",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -1818,
+      "y": 4087.5
+    },
+    {
+      "id": "153",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Turim",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -1612,
+      "y": 4162.5
+    },
+    {
+      "id": "154",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Lisieux",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -889,
+      "y": 4237.5
+    },
+    {
+      "id": "155",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Patras",
+      "grupo": "localizacao",
+      "pais": "Grécia",
+      "iso": "GR",
+      "x": 271,
+      "y": 3787.5
+    },
+    {
+      "id": "156",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Santiago (Compostela)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": -592,
+      "y": 3862.5
+    },
+    {
+      "id": "157",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Hierápolis",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": 781,
+      "y": 3787.5
+    },
+    {
+      "id": "158",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Armênia",
+      "grupo": "localizacao",
+      "pais": "Armênia",
+      "iso": "AM",
+      "x": -1930,
+      "y": 3787.5
+    },
+    {
+      "id": "159",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Querala",
+      "grupo": "localizacao",
+      "pais": "Índia",
+      "iso": "IN",
+      "x": -1647,
+      "y": 4312.5
+    },
+    {
+      "id": "160",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Etiópia",
+      "grupo": "localizacao",
+      "pais": "Etiópia",
+      "iso": "ET",
+      "x": -1137,
+      "y": 4312.5
+    },
+    {
+      "id": "161",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Pérsia",
+      "grupo": "localizacao",
+      "pais": "Irã",
+      "iso": "IR",
+      "x": 1937,
+      "y": 3862.5
+    },
+    {
+      "id": "300",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Milão",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -159,
+      "y": 4312.5
+    },
+    {
+      "id": "301",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Morávia",
+      "grupo": "localizacao",
+      "pais": "Chéquia",
+      "iso": "CZ",
+      "x": 75,
+      "y": 4237.5
+    },
+    {
+      "id": "302",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Hungria",
+      "grupo": "localizacao",
+      "pais": "Hungria",
+      "iso": "HU",
+      "x": 1385,
+      "y": 4312.5
+    },
+    {
+      "id": "303",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Vallombrosa",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1109,
+      "y": 4237.5
+    },
+    {
+      "id": "304",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Lyon",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": 302,
+      "y": 4312.5
+    },
+    {
+      "id": "305",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Bamberg",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "x": -393,
+      "y": 4237.5
+    },
+    {
+      "id": "306",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Somasca",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -1895,
+      "y": 4237.5
+    },
+    {
+      "id": "307",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Bolsena",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -1214,
+      "y": 3862.5
+    },
+    {
+      "id": "308",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Nicomédia",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": 16,
+      "y": 3862.5
+    },
+    {
+      "id": "309",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Betânia",
+      "grupo": "localizacao",
+      "pais": "Palestina",
+      "iso": "PS",
+      "x": -641,
+      "y": 4312.5
+    },
+    {
+      "id": "310",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Ravena",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -461,
+      "y": 3937.5
+    },
+    {
+      "id": "311",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Maguncia",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "x": -1392,
+      "y": 4237.5
+    },
+    {
+      "id": "312",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Magdeburgo",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "x": 550,
+      "y": 4237.5
+    },
+    {
+      "id": "313",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Edimburgo",
+      "grupo": "localizacao",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "x": 1881,
+      "y": 4312.5
+    },
+    {
+      "id": "315",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cesareia",
+      "grupo": "localizacao",
+      "pais": "Israel",
+      "iso": "IL",
+      "x": 826,
+      "y": 4312.5
+    },
+    {
+      "id": "316",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Edessa",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": 1626,
+      "y": 4237.5
+    },
+    {
+      "id": "317",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Florença",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -288,
+      "y": 4387.5
+    },
+    {
+      "id": "318",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Nola",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 484,
+      "y": 4462.5
+    },
+    {
+      "id": "319",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Monte Vergine",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -1951,
+      "y": 4387.5
+    },
+    {
+      "id": "320",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Paris",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -234,
+      "y": 4012.5
+    },
+    {
+      "id": "500",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Poitiers",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": 250,
+      "y": 4387.5
+    },
+    {
+      "id": "501",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Glanfeuil",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -19,
+      "y": 4462.5
+    },
+    {
+      "id": "502",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Odense",
+      "grupo": "localizacao",
+      "pais": "Dinamarca",
+      "iso": "DK",
+      "x": 1752,
+      "y": 4387.5
+    },
+    {
+      "id": "503",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Saragoça",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 1504,
+      "y": 4462.5
+    },
+    {
+      "id": "504",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Barcelona",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": -557,
+      "y": 4462.5
+    },
+    {
+      "id": "505",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Esmirna",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": 1993,
+      "y": 4462.5
+    },
+    {
+      "id": "506",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Constantinopla",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": -1364,
+      "y": 4387.5
+    },
+    {
+      "id": "507",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Fiesole",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -1661,
+      "y": 4462.5
+    },
+    {
+      "id": "508",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Creta",
+      "grupo": "localizacao",
+      "pais": "Grécia",
+      "iso": "GR",
+      "x": -1081,
+      "y": 4462.5
+    },
+    {
+      "id": "509",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Camaldoli",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -833,
+      "y": 4387.5
+    },
+    {
+      "id": "510",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Alexandria",
+      "grupo": "localizacao",
+      "pais": "Egito",
+      "iso": "EG",
+      "x": 732,
+      "y": 4387.5
+    },
+    {
+      "id": "511",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Lourdes",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": 1249,
+      "y": 4387.5
+    },
+    {
+      "id": "512",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Bréscia",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1001,
+      "y": 4462.5
+    },
+    {
+      "id": "513",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Fonte Avellana",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1165,
+      "y": 4537.5
+    },
+    {
+      "id": "514",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Isola Gran Sasso",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -1413,
+      "y": 4537.5
+    },
+    {
+      "id": "515",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cracóvia",
+      "grupo": "localizacao",
+      "pais": "Polônia",
+      "iso": "PL",
+      "x": 1745,
+      "y": 4537.5
+    },
+    {
+      "id": "516",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Cartago",
+      "grupo": "localizacao",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "x": 454,
+      "y": 3937.5
+    },
+    {
+      "id": "517",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Granada",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": -854,
+      "y": 4537.5
+    },
+    {
+      "id": "518",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Irlanda",
+      "grupo": "localizacao",
+      "pais": "Irlanda",
+      "iso": "IE",
+      "x": -1986,
+      "y": 4537.5
+    },
+    {
+      "id": "519",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Damasco",
+      "grupo": "localizacao",
+      "pais": "Síria",
+      "iso": "SY",
+      "x": -1102,
+      "y": 4612.5
+    },
+    {
+      "id": "520",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Sevilha",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 372,
+      "y": 4612.5
+    },
+    {
+      "id": "521",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Valência",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 627,
+      "y": 4537.5
+    },
+    {
+      "id": "522",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Tarragona",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 1476,
+      "y": 4612.5
+    },
+    {
+      "id": "523",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cantuária",
+      "grupo": "localizacao",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "x": 110,
+      "y": 4537.5
+    },
+    {
+      "id": "524",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Seewis",
+      "grupo": "localizacao",
+      "pais": "Suíça",
+      "iso": "CH",
+      "x": 875,
+      "y": 4612.5
+    },
+    {
+      "id": "525",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Veneza",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1993,
+      "y": 4612.5
+    },
+    {
+      "id": "526",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Friburgo",
+      "grupo": "localizacao",
+      "pais": "Suíça",
+      "iso": "CH",
+      "x": -1731,
+      "y": 4612.5
+    },
+    {
+      "id": "527",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Siena",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -138,
+      "y": 4612.5
+    },
+    {
+      "id": "314",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Chipre",
+      "grupo": "localizacao",
+      "pais": "Chipre",
+      "iso": "CY",
+      "x": 213,
+      "y": 4012.5
+    },
+    {
+      "id": "800",
+      "level": 8,
+      "categoria": "morte",
+      "label": "Tours",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -14,
+      "y": 3937.5
+    },
+    {
+      "id": "801",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Fátima",
+      "grupo": "localizacao",
+      "pais": "Portugal",
+      "iso": "PT",
+      "x": -613,
+      "y": 4612.5
+    },
+    {
+      "id": "802",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Le Mans",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -372,
+      "y": 4537.5
+    },
+    {
+      "id": "803_loc",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Saragoça (Corte)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": -2063,
+      "y": 4687.5
+    },
+    {
+      "id": "804",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Portugal",
+      "grupo": "localizacao",
+      "pais": "Portugal",
+      "iso": "PT",
+      "x": -1745,
+      "y": 4762.5
+    },
+    {
+      "id": "805",
+      "level": 8,
+      "categoria": "santuario",
+      "label": "Paderborn (Alemanha)",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "x": 0,
+      "y": 5137.5
     },
     {
       "id": "806",
@@ -6601,13 +4053,775 @@
       "categoria": "atuacao",
       "label": "Lima (Peru)",
       "grupo": "localizacao",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
-      "x": 124,
-      "y": 4462.5
+      "pais": "Peru",
+      "iso": "PE",
+      "x": 138,
+      "y": 4687.5
+    },
+    {
+      "id": "810",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Lisboa",
+      "grupo": "localizacao",
+      "pais": "Portugal",
+      "iso": "PT",
+      "x": -1497,
+      "y": 4687.5
+    },
+    {
+      "id": "811",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Tagaste",
+      "grupo": "localizacao",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "x": -1256,
+      "y": 4762.5
+    },
+    {
+      "id": "812",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Estridão (Dalmácia)",
+      "grupo": "localizacao",
+      "pais": "Croácia",
+      "iso": "HR",
+      "x": -924,
+      "y": 4687.5
+    },
+    {
+      "id": "813",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Tarso",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "x": -606,
+      "y": 4762.5
+    },
+    {
+      "id": "814",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Betsaida",
+      "grupo": "localizacao",
+      "pais": "Israel",
+      "iso": "IL",
+      "x": -365,
+      "y": 4687.5
+    },
+    {
+      "id": "815",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Belém",
+      "grupo": "localizacao",
+      "pais": "Palestina",
+      "iso": "PS",
+      "x": -124,
+      "y": 4762.5
+    },
+    {
+      "id": "816",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Nórcia",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 407,
+      "y": 4762.5
+    },
+    {
+      "id": "817",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Fontaine-lès-Dijon",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": 725,
+      "y": 4687.5
+    },
+    {
+      "id": "818",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Caleruega",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 1064,
+      "y": 4762.5
+    },
+    {
+      "id": "819",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Roccasecca",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1347,
+      "y": 4687.5
+    },
+    {
+      "id": "820",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Loyola",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 1609,
+      "y": 4762.5
+    },
+    {
+      "id": "821",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Javier",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 1843,
+      "y": 4687.5
+    },
+    {
+      "id": "822",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Fontiveros",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 2105,
+      "y": 4762.5
+    },
+    {
+      "id": "823",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Castelo de Sales",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -2280,
+      "y": 4837.5
+    },
+    {
+      "id": "824",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Dardilly",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -1962,
+      "y": 4912.5
+    },
+    {
+      "id": "825",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Castelnuovo Don Bosco",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -1609,
+      "y": 4837.5
+    },
+    {
+      "id": "826",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Alençon",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -1263,
+      "y": 4912.5
+    },
+    {
+      "id": "827",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Riese Pio X",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -987,
+      "y": 4837.5
+    },
+    {
+      "id": "828",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Montemor-o-Novo",
+      "grupo": "localizacao",
+      "pais": "Portugal",
+      "iso": "PT",
+      "x": -655,
+      "y": 4912.5
+    },
+    {
+      "id": "829",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cremona",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -351,
+      "y": 4837.5
+    },
+    {
+      "id": "830",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Bucchianico",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -75,
+      "y": 4912.5
+    },
+    {
+      "id": "831",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Pouy",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": 180,
+      "y": 4837.5
+    },
+    {
+      "id": "832",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Castiglione delle Stiviere",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 540,
+      "y": 4912.5
+    },
+    {
+      "id": "833",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Sigmaringen",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "x": 949,
+      "y": 4837.5
+    },
+    {
+      "id": "834",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Nijmegen",
+      "grupo": "localizacao",
+      "pais": "Países Baixos",
+      "iso": "NL",
+      "x": 1232,
+      "y": 4912.5
+    },
+    {
+      "id": "835",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Ovada",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1473,
+      "y": 4837.5
+    },
+    {
+      "id": "836",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Bosco Marengo",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 1749,
+      "y": 4912.5
+    },
+    {
+      "id": "837",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Montepulciano",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 2081,
+      "y": 4837.5
+    },
+    {
+      "id": "838",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Reims",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": 2357,
+      "y": 4912.5
+    },
+    {
+      "id": "839",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Torrehermosa",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": -807,
+      "y": 4987.5
+    },
+    {
+      "id": "840",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Marianella",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -503,
+      "y": 5062.5
+    },
+    {
+      "id": "841",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Vicenza",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": -234,
+      "y": 4987.5
+    },
+    {
+      "id": "842",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Ri",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": -14,
+      "y": 5062.5
+    },
+    {
+      "id": "843",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Dijon",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "x": 192,
+      "y": 4987.5
+    },
+    {
+      "id": "844",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Peralta de la Sal",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "x": 496,
+      "y": 5062.5
+    },
+    {
+      "id": "845",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cupertino",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "x": 828,
+      "y": 4987.5
+    },
+    {
+      "id": "1004",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Collégiale Sainte-Marthe - Tarascon (França)",
+      "grupo": "santuario",
+      "x": -1292,
+      "y": 5287.5
+    },
+    {
+      "id": "1006",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de S. Francisco",
+      "grupo": "santuario",
+      "x": 390,
+      "y": 5362.5
+    },
+    {
+      "id": "1007",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de Sto. Antônio",
+      "grupo": "santuario",
+      "x": 1404,
+      "y": 5362.5
+    },
+    {
+      "id": "1020",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de S. Pedro (Roma)",
+      "grupo": "santuario",
+      "x": 897,
+      "y": 5287.5
+    },
+    {
+      "id": "1021",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Catedral de Santiago (Espanha)",
+      "grupo": "santuario",
+      "x": -138,
+      "y": 5287.5
+    },
+    {
+      "id": "1022",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de Assis (Itália)",
+      "grupo": "santuario",
+      "x": -680,
+      "y": 5362.5
+    },
+    {
+      "id": "1023",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de Pádua (Itália)",
+      "grupo": "santuario",
+      "x": 1904,
+      "y": 5287.5
+    },
+    {
+      "id": "1024",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de S. Paulo (Roma)",
+      "grupo": "santuario",
+      "x": 2425,
+      "y": 5362.5
+    },
+    {
+      "id": "1025",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Santuário de Ars (França)",
+      "grupo": "santuario",
+      "x": -2439,
+      "y": 5287.5
+    },
+    {
+      "id": "1026",
+      "level": 9,
+      "categoria": "santuario",
+      "label": "Basílica de Lisieux (França)",
+      "grupo": "santuario",
+      "x": -1918,
+      "y": 5362.5
+    },
+    {
+      "id": "1000",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "Corpo Incorrupto",
+      "grupo": "fenomeno",
+      "x": -470,
+      "y": 5437.5
+    },
+    {
+      "id": "1001",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "Estigmas (Chagas)",
+      "grupo": "fenomeno",
+      "x": -89,
+      "y": 5512.5
+    },
+    {
+      "id": "1002",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "Bilocação",
+      "grupo": "fenomeno",
+      "x": 243,
+      "y": 5437.5
+    },
+    {
+      "id": "1003",
+      "level": 9,
+      "categoria": "mistica",
+      "label": "Levitação",
+      "grupo": "fenomeno",
+      "x": 519,
+      "y": 5512.5
+    },
+    {
+      "id": "1010",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Sangue Liquefeito",
+      "grupo": "reliquia",
+      "x": 187,
+      "y": 5662.5
+    },
+    {
+      "id": "1011",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Coração Incorrupto",
+      "grupo": "reliquia",
+      "x": -208,
+      "y": 5587.5
+    },
+    {
+      "id": "1012",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Língua Intacta",
+      "grupo": "reliquia",
+      "x": 554,
+      "y": 5587.5
+    },
+    {
+      "id": "1013",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Cabeça / Crânio",
+      "grupo": "reliquia",
+      "x": -963,
+      "y": 5587.5
+    },
+    {
+      "id": "1014",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Manto Partilhado",
+      "grupo": "reliquia",
+      "x": -596,
+      "y": 5662.5
+    },
+    {
+      "id": "1015",
+      "level": 9,
+      "categoria": "reliquia",
+      "label": "Correntes da Prisão",
+      "grupo": "reliquia",
+      "x": 935,
+      "y": 5662.5
+    },
+    {
+      "id": "1008",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "As Chaves do Reino",
+      "grupo": "iconografia",
+      "x": -2630,
+      "y": 5737.5
+    },
+    {
+      "id": "1009",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "Chuva de Rosas",
+      "grupo": "iconografia",
+      "x": -1882,
+      "y": 5737.5
+    },
+    {
+      "id": "1030",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "As Chaves",
+      "grupo": "iconografia",
+      "x": 2693,
+      "y": 5812.5
+    },
+    {
+      "id": "1031",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "A Espada",
+      "grupo": "iconografia",
+      "x": 1054,
+      "y": 5737.5
+    },
+    {
+      "id": "1032",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "O Lírio (Pureza)",
+      "grupo": "iconografia",
+      "x": 736,
+      "y": 5812.5
+    },
+    {
+      "id": "1033",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "As Rosas",
+      "grupo": "iconografia",
+      "x": -760,
+      "y": 5812.5
+    },
+    {
+      "id": "1034",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "A Caveira (Memento Mori)",
+      "grupo": "iconografia",
+      "x": 1428,
+      "y": 5812.5
+    },
+    {
+      "id": "1035",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "Livro (Doutor/Evangelho)",
+      "grupo": "iconografia",
+      "x": -386,
+      "y": 5737.5
+    },
+    {
+      "id": "1036",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "O Dragão",
+      "grupo": "iconografia",
+      "x": 2424,
+      "y": 5737.5
+    },
+    {
+      "id": "1037",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "Flechas do Martírio",
+      "grupo": "iconografia",
+      "x": -1501,
+      "y": 5812.5
+    },
+    {
+      "id": "1038",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "A Grelha",
+      "grupo": "iconografia",
+      "x": 1802,
+      "y": 5737.5
+    },
+    {
+      "id": "1039",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "O Cordeiro",
+      "grupo": "iconografia",
+      "x": 404,
+      "y": 5737.5
+    },
+    {
+      "id": "1040",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "Olhos numa bandeja",
+      "grupo": "iconografia",
+      "x": 58,
+      "y": 5812.5
+    },
+    {
+      "id": "1041",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "Seios numa bandeja",
+      "grupo": "iconografia",
+      "x": -1092,
+      "y": 5737.5
+    },
+    {
+      "id": "1042",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "Alicate e Dentes",
+      "grupo": "iconografia",
+      "x": -2242,
+      "y": 5812.5
+    },
+    {
+      "id": "1043",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "A Roda Quebrada",
+      "grupo": "iconografia",
+      "x": 2113,
+      "y": 5812.5
+    },
+    {
+      "id": "1044",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "O Leão",
+      "grupo": "iconografia",
+      "x": 926,
+      "y": 5962.5
+    },
+    {
+      "id": "1045",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "A Águia",
+      "grupo": "iconografia",
+      "x": -119,
+      "y": 5887.5
+    },
+    {
+      "id": "1046",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "O Touro",
+      "grupo": "iconografia",
+      "x": -685,
+      "y": 5887.5
+    },
+    {
+      "id": "1047",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "O Pavão",
+      "grupo": "iconografia",
+      "x": -1377,
+      "y": 5887.5
+    },
+    {
+      "id": "1048",
+      "level": 9,
+      "categoria": "simbolo",
+      "label": "Pedras sobre um livro",
+      "grupo": "iconografia",
+      "x": -1031,
+      "y": 5962.5
     },
     {
       "id": "1049",
@@ -6615,13 +4829,8 @@
       "categoria": "simbolo",
       "label": "Cão com Tocha na boca",
       "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 227,
-      "y": 5662.5
+      "y": 5962.5
     },
     {
       "id": "1050",
@@ -6629,13 +4838,8 @@
       "categoria": "simbolo",
       "label": "O Santo Rosário",
       "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 629,
-      "y": 5587.5
+      "y": 5887.5
     },
     {
       "id": "1051",
@@ -6643,13 +4847,8 @@
       "categoria": "simbolo",
       "label": "Faca cravada na cabeça",
       "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": 1272,
-      "y": 5587.5
+      "y": 5887.5
     },
     {
       "id": "1052",
@@ -6657,13 +4856,8 @@
       "categoria": "simbolo",
       "label": "Sol no peito",
       "grupo": "iconografia",
-      "font": {
-        "color": "#ffffff",
-        "size": 14,
-        "bold": true
-      },
       "x": -402,
-      "y": 5662.5
+      "y": 5962.5
     }
   ],
   "edges": [
@@ -12522,12 +10716,6 @@
       "texto": "possui"
     },
     {
-      "from": "221",
-      "to": "1",
-      "title": "subjugou",
-      "texto": "subjugou"
-    },
-    {
       "from": "8",
       "to": "1001",
       "title": "recebeu",
@@ -12873,6 +11061,12 @@
       "from": "227",
       "to": "1036",
       "title": "venceu o",
+      "texto": "venceu o"
+    },
+    {
+      "from": "221",
+      "to": "1036",
+      "title": "subjugou o dragão Tarasca",
       "texto": "venceu o"
     },
     {
@@ -14037,7 +12231,7 @@
     {
       "seculo": 19,
       "yInicio": 3000,
-      "yFim": 5700
+      "yFim": 6000
     }
   ],
   "bandasNiveis": [
@@ -14091,13 +12285,13 @@
     },
     {
       "yInicio": 3750,
-      "yFim": 4950,
+      "yFim": 5250,
       "label": "Locais",
       "cor": null
     },
     {
-      "yInicio": 4950,
-      "yFim": 5700,
+      "yInicio": 5250,
+      "yFim": 6000,
       "label": "Fenômenos, Relíquias e Iconografia",
       "cor": null
     }
