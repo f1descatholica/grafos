@@ -66,13 +66,12 @@ var regrasDoGrafo = {
 
 
 
+
 var todosNos = [
 
     // ==========================================
     // NÍVEL 1: TÍTULOS E MESES
     // ==========================================
-    
-    // Títulos
     { id: '50', level: 1, categoria: 'ideia', label: 'MÁRTIR', grupo: 'ideia' },
     { id: '51', level: 1, categoria: 'ideia', label: 'DOUTOR', grupo: 'ideia' },
     { id: '52', level: 1, categoria: 'ideia', label: 'VIRGEM', grupo: 'ideia' },
@@ -88,7 +87,6 @@ var todosNos = [
     { id: '54', level: 1, categoria: 'ideia', label: 'EVANGELISTA', grupo: 'ideia' },
     { id: '1053', level: 1, categoria: 'ideia', label: 'PENITENTE', grupo: 'ideia' },
 
-    // Meses
     { id: '70', level: 1, categoria: 'documento', label: 'JANEIRO', grupo: 'documento', mesNumero: 1 },
     { id: '80', level: 1, categoria: 'documento', label: 'FEVEREIRO', grupo: 'documento', mesNumero: 2 },
     { id: '90', level: 1, categoria: 'documento', label: 'MARÇO', grupo: 'documento', mesNumero: 3 },
@@ -126,20 +124,20 @@ var todosNos = [
     { id: '221', level: 2, label: 'Sta. Marta', grupo: 'pessoa', ano: 80 },
     { id: '412', level: 2, label: 'S. Timóteo', grupo: 'pessoa', ano: 97 },
     { id: '418', level: 2, label: 'S. Tito', grupo: 'pessoa', ano: 96 },
-    { id: '424', level: 2, label: 'N. Sra. de Lourdes', grupo: 'pessoa' },
-    { id: '439', level: 2, label: 'S. Gabriel Arcanjo', grupo: 'pessoa' },
-    { id: '440', level: 2, label: 'N. Sra. da Anunciação', grupo: 'pessoa' },
-    { id: '441', level: 2, label: 'N. Sra. das Sete Dores', grupo: 'pessoa' },
+    { id: '424', level: 2, label: 'N. Sra. de Lourdes', grupo: 'pessoa', ano: 1858 },
+    { id: '439', level: 2, label: 'S. Gabriel Arcanjo', grupo: 'pessoa', ano: 1 },
+    { id: '440', level: 2, label: 'N. Sra. da Anunciação', grupo: 'pessoa', ano: 1 },
+    { id: '441', level: 2, label: 'N. Sra. das Sete Dores', grupo: 'pessoa', ano: 33 },
     { id: '453', level: 2, label: 'S. Marcos Evangelista', grupo: 'pessoa', ano: 68 },
-    { id: '603', level: 2, label: 'S. Miguel Arcanjo', grupo: 'pessoa' },
+    { id: '603', level: 2, label: 'S. Miguel Arcanjo', grupo: 'pessoa', ano: 1 },
     { id: '630', level: 2, label: 'Sto. Estêvão, Protomártir', grupo: 'pessoa', ano: 36 },
-    { id: '631', level: 2, label: 'N. Sra. das Neves', grupo: 'pessoa' },
-    { id: '632', level: 2, label: 'Transfiguração do Senhor', grupo: 'pessoa' },
-    { id: '638', level: 2, label: 'Assunção de Maria', grupo: 'pessoa' },
+    { id: '631', level: 2, label: 'N. Sra. das Neves', grupo: 'pessoa', ano: 352 },
+    { id: '632', level: 2, label: 'Transfiguração do Senhor', grupo: 'pessoa', ano: 32 },
+    { id: '638', level: 2, label: 'Assunção de Maria', grupo: 'pessoa', ano: 48 },
     { id: '639', level: 2, label: 'S. Joaquim', grupo: 'pessoa', ano: 10 },
-    { id: '644', level: 2, label: 'Imaculado Coração', grupo: 'pessoa' },
+    { id: '644', level: 2, label: 'Imaculado Coração', grupo: 'pessoa', ano: 48 },
     { id: '680', level: 2, label: 'S. Lucas Evangelista', grupo: 'pessoa', ano: 84 },
-    { id: '685', level: 2, label: 'S. Rafael Arcanjo', grupo: 'pessoa' },
+    { id: '685', level: 2, label: 'S. Rafael Arcanjo', grupo: 'pessoa', ano: 1 },
     { id: '718', level: 2, label: 'Santos Inocentes', grupo: 'pessoa', ano: 4 },
 
     // ==========================================
@@ -195,6 +193,7 @@ var todosNos = [
     { id: '431', level: 3, label: 'S. Lúcio I', grupo: 'pessoa', ano: 254 },
     { id: '432', level: 3, label: 'Perpétua e Felicidade', grupo: 'pessoa', ano: 203 },
     { id: '435', level: 3, label: 'Quarenta Mártires', grupo: 'pessoa', ano: 320 },
+    { id: '437', level: 3, label: 'S. Patrício', grupo: 'pessoa', ano: 461 },
     { id: '438', level: 3, label: 'S. Cirilo de Jerusalém', grupo: 'pessoa', ano: 386 },
     { id: '445', level: 3, label: 'S. Leão Magno', grupo: 'pessoa', ano: 461 },
     { id: '447', level: 3, label: 'S. Justino', grupo: 'pessoa', ano: 165 },
@@ -295,7 +294,6 @@ var todosNos = [
     { id: '430', level: 4, label: 'S. Casimiro', grupo: 'pessoa', ano: 1484 },
     { id: '434', level: 4, label: 'Sta. Francisca Romana', grupo: 'pessoa', ano: 1440 },
     { id: '436', level: 4, label: 'S. Gregório Magno', grupo: 'pessoa', ano: 604 },
-    { id: '437', level: 4, label: 'S. Patrício', grupo: 'pessoa', ano: 461 },
     { id: '442', level: 4, label: 'S. João Damasceno', grupo: 'pessoa', ano: 749 },
     { id: '443', level: 4, label: 'Sto. Isidoro', grupo: 'pessoa', ano: 636 },
     { id: '444', level: 4, label: 'S. Vicente Férrer', grupo: 'pessoa', ano: 1419 },
@@ -390,7 +388,7 @@ var todosNos = [
     { id: '17',  level: 6, label: 'Sta. Teresinha', grupo: 'pessoa', ano: 1897 },
     { id: '19',  level: 6, label: 'S. Pio X', grupo: 'pessoa', ano: 1914 },
     { id: '429', level: 6, label: 'S. Gabriel da V. Dolorosa', grupo: 'pessoa', ano: 1862 },
-    { id: '609', level: 6, label: 'N. Sra. do Rosário de Fátima', grupo: 'pessoa' },
+    { id: '609', level: 6, label: 'N. Sra. do Rosário de Fátima', grupo: 'pessoa', ano: 1917 },
 
     // ==========================================
     // NÍVEL 7: CONGREGAÇÕES E OBRAS
@@ -421,7 +419,6 @@ var todosNos = [
     { id: '866', level: 7, categoria: 'fundadora', label: 'Ordem Cartuxa', grupo: 'instituicao' },
     { id: '867', level: 7, categoria: 'fundadora', label: 'Premonstratenses', grupo: 'instituicao' },
 
-    // Obras / Documentos
     { id: '32',  level: 7, categoria: 'fundadora', label: 'Suma Teológica', grupo: 'documento' },
     { id: '34',  level: 7, categoria: 'fundadora', label: 'Exercícios Espirituais', grupo: 'documento' },
     { id: '38',  level: 7, categoria: 'fundadora', label: 'Mística Cristã', grupo: 'ideia' },
@@ -445,161 +442,153 @@ var todosNos = [
     { id: '917', level: 7, categoria: 'fundadora', label: 'História Eclesiástica', grupo: 'documento' },
 
     // ==========================================
-    // NÍVEL 8: GEOGRAFIA (COM PAÍS E ISO)
+    // NÍVEL 8: GEOGRAFIA COM "CIDADE (PAÍS)"
     // ==========================================
-    
-    // Locais Originais Enriquecidos
-    { id: '26',  level: 8, categoria: 'morte',   label: 'Roma', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '130', level: 8, categoria: 'atuacao', label: 'Nazaré', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
-    { id: '131', level: 8, categoria: 'atuacao', label: 'Rio Jordão', grupo: 'localizacao', pais: 'Jordânia', iso: 'JO' },
-    { id: '132', level: 8, categoria: 'atuacao', label: 'Éfeso', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
-    { id: '133', level: 8, categoria: 'morte',   label: 'Jerusalém', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
-    { id: '134', level: 8, categoria: 'atuacao', label: 'Lida', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
-    { id: '135', level: 8, categoria: 'atuacao', label: 'Tebaida', grupo: 'localizacao', pais: 'Egito', iso: 'EG' },
-    { id: '136', level: 8, categoria: 'morte',   label: 'Óstia', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '137', level: 8, categoria: 'atuacao', label: 'Hipona', grupo: 'localizacao', pais: 'Argélia', iso: 'DZ' },
-    { id: '138', level: 8, categoria: 'atuacao', label: 'Antioquia', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
-    { id: '139', level: 8, categoria: 'morte',   label: 'Sebaste', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
-    { id: '140', level: 8, categoria: 'morte',   label: 'Catânia', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '141', level: 8, categoria: 'atuacao', label: 'Monte Cassino', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '142', level: 8, categoria: 'atuacao', label: 'Claraval', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '143', level: 8, categoria: 'atuacao', label: 'Assis', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '144', level: 8, categoria: 'morte',   label: 'Bolonha', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '145', level: 8, categoria: 'morte',   label: 'Nápoles', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '146', level: 8, categoria: 'morte',   label: 'Pádua', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '147', level: 8, categoria: 'atuacao', label: 'Cássia', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '148', level: 8, categoria: 'atuacao', label: 'Goa', grupo: 'localizacao', pais: 'Índia', iso: 'IN' },
-    { id: '149', level: 8, categoria: 'atuacao', label: 'Ávila', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '150', level: 8, categoria: 'morte',   label: 'Úbeda', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '151', level: 8, categoria: 'atuacao', label: 'Genebra', grupo: 'localizacao', pais: 'Suíça', iso: 'CH' },
-    { id: '152', level: 8, categoria: 'atuacao', label: 'Ars', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '153', level: 8, categoria: 'atuacao', label: 'Turim', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '154', level: 8, categoria: 'atuacao', label: 'Lisieux', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '155', level: 8, categoria: 'morte',   label: 'Patras', grupo: 'localizacao', pais: 'Grécia', iso: 'GR' },
-    { id: '156', level: 8, categoria: 'morte',   label: 'Santiago (Compostela)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '157', level: 8, categoria: 'morte',   label: 'Hierápolis', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '26',  level: 8, categoria: 'morte',   label: 'Roma (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '130', level: 8, categoria: 'atuacao', label: 'Nazaré (Israel)', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
+    { id: '131', level: 8, categoria: 'atuacao', label: 'Rio Jordão (Jordânia)', grupo: 'localizacao', pais: 'Jordânia', iso: 'JO' },
+    { id: '132', level: 8, categoria: 'atuacao', label: 'Éfeso (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '133', level: 8, categoria: 'morte',   label: 'Jerusalém (Israel)', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
+    { id: '134', level: 8, categoria: 'atuacao', label: 'Lida (Israel)', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
+    { id: '135', level: 8, categoria: 'atuacao', label: 'Tebaida (Egito)', grupo: 'localizacao', pais: 'Egito', iso: 'EG' },
+    { id: '136', level: 8, categoria: 'morte',   label: 'Óstia (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '137', level: 8, categoria: 'atuacao', label: 'Hipona (Argélia)', grupo: 'localizacao', pais: 'Argélia', iso: 'DZ' },
+    { id: '138', level: 8, categoria: 'atuacao', label: 'Antioquia (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '139', level: 8, categoria: 'morte',   label: 'Sebaste (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '140', level: 8, categoria: 'morte',   label: 'Catânia (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '141', level: 8, categoria: 'atuacao', label: 'Monte Cassino (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '142', level: 8, categoria: 'atuacao', label: 'Claraval (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '143', level: 8, categoria: 'atuacao', label: 'Assis (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '144', level: 8, categoria: 'morte',   label: 'Bolonha (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '145', level: 8, categoria: 'morte',   label: 'Nápoles (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '146', level: 8, categoria: 'morte',   label: 'Pádua (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '147', level: 8, categoria: 'atuacao', label: 'Cássia (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '148', level: 8, categoria: 'atuacao', label: 'Goa (Índia)', grupo: 'localizacao', pais: 'Índia', iso: 'IN' },
+    { id: '149', level: 8, categoria: 'atuacao', label: 'Ávila (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '150', level: 8, categoria: 'morte',   label: 'Úbeda (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '151', level: 8, categoria: 'atuacao', label: 'Genebra (Suíça)', grupo: 'localizacao', pais: 'Suíça', iso: 'CH' },
+    { id: '152', level: 8, categoria: 'atuacao', label: 'Ars (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '153', level: 8, categoria: 'atuacao', label: 'Turim (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '154', level: 8, categoria: 'atuacao', label: 'Lisieux (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '155', level: 8, categoria: 'morte',   label: 'Patras (Grécia)', grupo: 'localizacao', pais: 'Grécia', iso: 'GR' },
+    { id: '156', level: 8, categoria: 'morte',   label: 'Santiago de Compostela (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '157', level: 8, categoria: 'morte',   label: 'Hierápolis (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
     { id: '158', level: 8, categoria: 'morte',   label: 'Armênia', grupo: 'localizacao', pais: 'Armênia', iso: 'AM' },
-    { id: '159', level: 8, categoria: 'atuacao', label: 'Querala', grupo: 'localizacao', pais: 'Índia', iso: 'IN' },
+    { id: '159', level: 8, categoria: 'atuacao', label: 'Querala (Índia)', grupo: 'localizacao', pais: 'Índia', iso: 'IN' },
     { id: '160', level: 8, categoria: 'atuacao', label: 'Etiópia', grupo: 'localizacao', pais: 'Etiópia', iso: 'ET' },
-    { id: '161', level: 8, categoria: 'morte',   label: 'Pérsia', grupo: 'localizacao', pais: 'Irã', iso: 'IR' },
-    { id: '300', level: 8, categoria: 'atuacao', label: 'Milão', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '301', level: 8, categoria: 'atuacao', label: 'Morávia', grupo: 'localizacao', pais: 'Chéquia', iso: 'CZ' },
+    { id: '161', level: 8, categoria: 'morte',   label: 'Pérsia (Irã)', grupo: 'localizacao', pais: 'Irã', iso: 'IR' },
+    { id: '300', level: 8, categoria: 'atuacao', label: 'Milão (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '301', level: 8, categoria: 'atuacao', label: 'Morávia (Chéquia)', grupo: 'localizacao', pais: 'Chéquia', iso: 'CZ' },
     { id: '302', level: 8, categoria: 'atuacao', label: 'Hungria', grupo: 'localizacao', pais: 'Hungria', iso: 'HU' },
-    { id: '303', level: 8, categoria: 'atuacao', label: 'Vallombrosa', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '304', level: 8, categoria: 'atuacao', label: 'Lyon', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '305', level: 8, categoria: 'atuacao', label: 'Bamberg', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
-    { id: '306', level: 8, categoria: 'atuacao', label: 'Somasca', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '307', level: 8, categoria: 'morte',   label: 'Bolsena', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '308', level: 8, categoria: 'morte',   label: 'Nicomédia', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
-    { id: '309', level: 8, categoria: 'atuacao', label: 'Betânia', grupo: 'localizacao', pais: 'Palestina', iso: 'PS' },
-    { id: '310', level: 8, categoria: 'morte',   label: 'Ravena', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '311', level: 8, categoria: 'atuacao', label: 'Maguncia', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
-    { id: '312', level: 8, categoria: 'atuacao', label: 'Magdeburgo', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
-    { id: '313', level: 8, categoria: 'atuacao', label: 'Edimburgo', grupo: 'localizacao', pais: 'Reino Unido', iso: 'GB' },
-    { id: '315', level: 8, categoria: 'atuacao', label: 'Cesareia', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
-    { id: '316', level: 8, categoria: 'atuacao', label: 'Edessa', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
-    { id: '317', level: 8, categoria: 'atuacao', label: 'Florença', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '318', level: 8, categoria: 'atuacao', label: 'Nola', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '319', level: 8, categoria: 'atuacao', label: 'Monte Vergine', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '320', level: 8, categoria: 'morte',   label: 'Paris', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '500', level: 8, categoria: 'atuacao', label: 'Poitiers', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '501', level: 8, categoria: 'atuacao', label: 'Glanfeuil', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '502', level: 8, categoria: 'atuacao', label: 'Odense', grupo: 'localizacao', pais: 'Dinamarca', iso: 'DK' },
-    { id: '503', level: 8, categoria: 'atuacao', label: 'Saragoça', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '504', level: 8, categoria: 'atuacao', label: 'Barcelona', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '505', level: 8, categoria: 'atuacao', label: 'Esmirna', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
-    { id: '506', level: 8, categoria: 'atuacao', label: 'Constantinopla', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
-    { id: '507', level: 8, categoria: 'atuacao', label: 'Fiesole', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '508', level: 8, categoria: 'atuacao', label: 'Creta', grupo: 'localizacao', pais: 'Grécia', iso: 'GR' },
-    { id: '509', level: 8, categoria: 'atuacao', label: 'Camaldoli', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '510', level: 8, categoria: 'atuacao', label: 'Alexandria', grupo: 'localizacao', pais: 'Egito', iso: 'EG' },
-    { id: '511', level: 8, categoria: 'atuacao', label: 'Lourdes', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '512', level: 8, categoria: 'atuacao', label: 'Bréscia', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '513', level: 8, categoria: 'atuacao', label: 'Fonte Avellana', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '514', level: 8, categoria: 'atuacao', label: 'Isola Gran Sasso', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '515', level: 8, categoria: 'atuacao', label: 'Cracóvia', grupo: 'localizacao', pais: 'Polônia', iso: 'PL' },
-    { id: '516', level: 8, categoria: 'morte',   label: 'Cartago', grupo: 'localizacao', pais: 'Tunísia', iso: 'TN' },
-    { id: '517', level: 8, categoria: 'atuacao', label: 'Granada', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '518', level: 8, categoria: 'atuacao', label: 'Irlanda', grupo: 'localizacao', pais: 'Irlanda', iso: 'IE' },
-    { id: '519', level: 8, categoria: 'atuacao', label: 'Damasco', grupo: 'localizacao', pais: 'Síria', iso: 'SY' },
-    { id: '520', level: 8, categoria: 'atuacao', label: 'Sevilha', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '521', level: 8, categoria: 'atuacao', label: 'Valência', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '522', level: 8, categoria: 'atuacao', label: 'Tarragona', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '523', level: 8, categoria: 'atuacao', label: 'Cantuária', grupo: 'localizacao', pais: 'Reino Unido', iso: 'GB' },
-    { id: '524', level: 8, categoria: 'atuacao', label: 'Seewis', grupo: 'localizacao', pais: 'Suíça', iso: 'CH' },
-    { id: '525', level: 8, categoria: 'atuacao', label: 'Veneza', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '526', level: 8, categoria: 'atuacao', label: 'Friburgo', grupo: 'localizacao', pais: 'Suíça', iso: 'CH' },
-    { id: '527', level: 8, categoria: 'atuacao', label: 'Siena', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '303', level: 8, categoria: 'atuacao', label: 'Vallombrosa (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '304', level: 8, categoria: 'atuacao', label: 'Lyon (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '305', level: 8, categoria: 'atuacao', label: 'Bamberg (Alemanha)', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
+    { id: '306', level: 8, categoria: 'atuacao', label: 'Somasca (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '307', level: 8, categoria: 'morte',   label: 'Bolsena (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '308', level: 8, categoria: 'morte',   label: 'Nicomédia (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '309', level: 8, categoria: 'atuacao', label: 'Betânia (Palestina)', grupo: 'localizacao', pais: 'Palestina', iso: 'PS' },
+    { id: '310', level: 8, categoria: 'morte',   label: 'Ravena (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '311', level: 8, categoria: 'atuacao', label: 'Mainz (Alemanha)', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
+    { id: '312', level: 8, categoria: 'atuacao', label: 'Magdeburgo (Alemanha)', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
+    { id: '313', level: 8, categoria: 'atuacao', label: 'Edimburgo (Reino Unido)', grupo: 'localizacao', pais: 'Reino Unido', iso: 'GB' },
     { id: '314', level: 8, categoria: 'morte',   label: 'Chipre', grupo: 'localizacao', pais: 'Chipre', iso: 'CY' },
-    { id: '800', level: 8, categoria: 'morte',   label: 'Tours', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '801', level: 8, categoria: 'atuacao', label: 'Fátima', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
-    { id: '802', level: 8, categoria: 'atuacao', label: 'Le Mans', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '803_loc', level: 8, categoria: 'atuacao', label: 'Saragoça (Corte)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '315', level: 8, categoria: 'atuacao', label: 'Cesareia (Israel)', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
+    { id: '316', level: 8, categoria: 'atuacao', label: 'Edessa (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '317', level: 8, categoria: 'atuacao', label: 'Florença (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '318', level: 8, categoria: 'atuacao', label: 'Nola (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '319', level: 8, categoria: 'atuacao', label: 'Montevergine (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '320', level: 8, categoria: 'morte',   label: 'Paris (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '500', level: 8, categoria: 'atuacao', label: 'Poitiers (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '501', level: 8, categoria: 'atuacao', label: 'Glanfeuil (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '502', level: 8, categoria: 'atuacao', label: 'Odense (Dinamarca)', grupo: 'localizacao', pais: 'Dinamarca', iso: 'DK' },
+    { id: '503', level: 8, categoria: 'atuacao', label: 'Saragoça (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '504', level: 8, categoria: 'atuacao', label: 'Barcelona (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '505', level: 8, categoria: 'atuacao', label: 'Esmirna (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '506', level: 8, categoria: 'atuacao', label: 'Constantinopla (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '507', level: 8, categoria: 'atuacao', label: 'Fiesole (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '508', level: 8, categoria: 'atuacao', label: 'Creta (Grécia)', grupo: 'localizacao', pais: 'Grécia', iso: 'GR' },
+    { id: '509', level: 8, categoria: 'atuacao', label: 'Camaldoli (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '510', level: 8, categoria: 'atuacao', label: 'Alexandria (Egito)', grupo: 'localizacao', pais: 'Egito', iso: 'EG' },
+    { id: '511', level: 8, categoria: 'atuacao', label: 'Lourdes (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '512', level: 8, categoria: 'atuacao', label: 'Bréscia (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '513', level: 8, categoria: 'atuacao', label: 'Fonte Avellana (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '514', level: 8, categoria: 'atuacao', label: 'Isola del Gran Sasso (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '515', level: 8, categoria: 'atuacao', label: 'Cracóvia (Polônia)', grupo: 'localizacao', pais: 'Polônia', iso: 'PL' },
+    { id: '516', level: 8, categoria: 'morte',   label: 'Cartago (Tunísia)', grupo: 'localizacao', pais: 'Tunísia', iso: 'TN' },
+    { id: '517', level: 8, categoria: 'atuacao', label: 'Granada (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '518', level: 8, categoria: 'atuacao', label: 'Irlanda', grupo: 'localizacao', pais: 'Irlanda', iso: 'IE' },
+    { id: '519', level: 8, categoria: 'atuacao', label: 'Damasco (Síria)', grupo: 'localizacao', pais: 'Síria', iso: 'SY' },
+    { id: '520', level: 8, categoria: 'atuacao', label: 'Sevilha (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '521', level: 8, categoria: 'atuacao', label: 'Valência (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '522', level: 8, categoria: 'atuacao', label: 'Tarragona (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '523', level: 8, categoria: 'atuacao', label: 'Cantuária (Reino Unido)', grupo: 'localizacao', pais: 'Reino Unido', iso: 'GB' },
+    { id: '524', level: 8, categoria: 'atuacao', label: 'Seewis (Suíça)', grupo: 'localizacao', pais: 'Suíça', iso: 'CH' },
+    { id: '525', level: 8, categoria: 'atuacao', label: 'Veneza (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '526', level: 8, categoria: 'atuacao', label: 'Friburgo (Suíça)', grupo: 'localizacao', pais: 'Suíça', iso: 'CH' },
+    { id: '527', level: 8, categoria: 'atuacao', label: 'Siena (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '800', level: 8, categoria: 'morte',   label: 'Tours (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '801', level: 8, categoria: 'atuacao', label: 'Fátima (Portugal)', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
+    { id: '802', level: 8, categoria: 'atuacao', label: 'Le Mans (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
     { id: '804', level: 8, categoria: 'atuacao', label: 'Portugal', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
     { id: '805', level: 8, categoria: 'santuario', label: 'Paderborn (Alemanha)', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
     { id: '806', level: 8, categoria: 'atuacao', label: 'Lima (Peru)', grupo: 'localizacao', pais: 'Peru', iso: 'PE' },
+    { id: '807', level: 8, categoria: 'atuacao', label: 'Coimbra (Portugal)', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
 
-    // Novas Cidades Natais Adicionadas
-    { id: '810', level: 8, categoria: 'atuacao', label: 'Lisboa', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
-    { id: '811', level: 8, categoria: 'atuacao', label: 'Tagaste', grupo: 'localizacao', pais: 'Argélia', iso: 'DZ' },
-    { id: '812', level: 8, categoria: 'atuacao', label: 'Estridão (Dalmácia)', grupo: 'localizacao', pais: 'Croácia', iso: 'HR' },
-    { id: '813', level: 8, categoria: 'atuacao', label: 'Tarso', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
-    { id: '814', level: 8, categoria: 'atuacao', label: 'Betsaida', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
-    { id: '815', level: 8, categoria: 'atuacao', label: 'Belém', grupo: 'localizacao', pais: 'Palestina', iso: 'PS' },
-    { id: '816', level: 8, categoria: 'atuacao', label: 'Nórcia', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '817', level: 8, categoria: 'atuacao', label: 'Fontaine-lès-Dijon', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '818', level: 8, categoria: 'atuacao', label: 'Caleruega', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '819', level: 8, categoria: 'atuacao', label: 'Roccasecca', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '820', level: 8, categoria: 'atuacao', label: 'Loyola', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '821', level: 8, categoria: 'atuacao', label: 'Javier', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '822', level: 8, categoria: 'atuacao', label: 'Fontiveros', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '823', level: 8, categoria: 'atuacao', label: 'Castelo de Sales', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '824', level: 8, categoria: 'atuacao', label: 'Dardilly', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '825', level: 8, categoria: 'atuacao', label: 'Castelnuovo Don Bosco', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '826', level: 8, categoria: 'atuacao', label: 'Alençon', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '827', level: 8, categoria: 'atuacao', label: 'Riese Pio X', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '828', level: 8, categoria: 'atuacao', label: 'Montemor-o-Novo', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
-    { id: '829', level: 8, categoria: 'atuacao', label: 'Cremona', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '830', level: 8, categoria: 'atuacao', label: 'Bucchianico', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '831', level: 8, categoria: 'atuacao', label: 'Pouy', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '832', level: 8, categoria: 'atuacao', label: 'Castiglione delle Stiviere', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '833', level: 8, categoria: 'atuacao', label: 'Sigmaringen', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
-    { id: '834', level: 8, categoria: 'atuacao', label: 'Nijmegen', grupo: 'localizacao', pais: 'Países Baixos', iso: 'NL' },
-    { id: '835', level: 8, categoria: 'atuacao', label: 'Ovada', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '836', level: 8, categoria: 'atuacao', label: 'Bosco Marengo', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '837', level: 8, categoria: 'atuacao', label: 'Montepulciano', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '838', level: 8, categoria: 'atuacao', label: 'Reims', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '839', level: 8, categoria: 'atuacao', label: 'Torrehermosa', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '840', level: 8, categoria: 'atuacao', label: 'Marianella', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '841', level: 8, categoria: 'atuacao', label: 'Vicenza', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
-    { id: '842', level: 8, categoria: 'atuacao', label: 'Ri', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '843', level: 8, categoria: 'atuacao', label: 'Dijon', grupo: 'localizacao', pais: 'França', iso: 'FR' },
-    { id: '844', level: 8, categoria: 'atuacao', label: 'Peralta de la Sal', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
-    { id: '845', level: 8, categoria: 'atuacao', label: 'Cupertino', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    // Cidades Natais Adicionadas
+    { id: '810', level: 8, categoria: 'atuacao', label: 'Lisboa (Portugal)', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
+    { id: '811', level: 8, categoria: 'atuacao', label: 'Tagaste (Argélia)', grupo: 'localizacao', pais: 'Argélia', iso: 'DZ' },
+    { id: '812', level: 8, categoria: 'atuacao', label: 'Estridão (Croácia)', grupo: 'localizacao', pais: 'Croácia', iso: 'HR' },
+    { id: '813', level: 8, categoria: 'atuacao', label: 'Tarso (Turquia)', grupo: 'localizacao', pais: 'Turquia', iso: 'TR' },
+    { id: '814', level: 8, categoria: 'atuacao', label: 'Betsaida (Israel)', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
+    { id: '815', level: 8, categoria: 'atuacao', label: 'Belém (Palestina)', grupo: 'localizacao', pais: 'Palestina', iso: 'PS' },
+    { id: '816', level: 8, categoria: 'atuacao', label: 'Nórcia (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '817', level: 8, categoria: 'atuacao', label: 'Fontaine-lès-Dijon (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '818', level: 8, categoria: 'atuacao', label: 'Caleruega (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '819', level: 8, categoria: 'atuacao', label: 'Roccasecca (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '820', level: 8, categoria: 'atuacao', label: 'Loyola (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '821', level: 8, categoria: 'atuacao', label: 'Javier (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '822', level: 8, categoria: 'atuacao', label: 'Fontiveros (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '823', level: 8, categoria: 'atuacao', label: 'Thorens-Glières (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '824', level: 8, categoria: 'atuacao', label: 'Dardilly (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '825', level: 8, categoria: 'atuacao', label: 'Castelnuovo Don Bosco (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '826', level: 8, categoria: 'atuacao', label: 'Alençon (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '827', level: 8, categoria: 'atuacao', label: 'Riese Pio X (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '828', level: 8, categoria: 'atuacao', label: 'Montemor-o-Novo (Portugal)', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
+    { id: '829', level: 8, categoria: 'atuacao', label: 'Cremona (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '830', level: 8, categoria: 'atuacao', label: 'Bucchianico (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '831', level: 8, categoria: 'atuacao', label: 'Pouy (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '832', level: 8, categoria: 'atuacao', label: 'Castiglione delle Stiviere (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '833', level: 8, categoria: 'atuacao', label: 'Sigmaringen (Alemanha)', grupo: 'localizacao', pais: 'Alemanha', iso: 'DE' },
+    { id: '834', level: 8, categoria: 'atuacao', label: 'Nijmegen (Países Baixos)', grupo: 'localizacao', pais: 'Países Baixos', iso: 'NL' },
+    { id: '835', level: 8, categoria: 'atuacao', label: 'Ovada (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '836', level: 8, categoria: 'atuacao', label: 'Bosco Marengo (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '837', level: 8, categoria: 'atuacao', label: 'Montepulciano (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '838', level: 8, categoria: 'atuacao', label: 'Reims (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '839', level: 8, categoria: 'atuacao', label: 'Torrehermosa (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '840', level: 8, categoria: 'atuacao', label: 'Marianella (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '841', level: 8, categoria: 'atuacao', label: 'Vicenza (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
+    { id: '842', level: 8, categoria: 'atuacao', label: 'Ri (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '843', level: 8, categoria: 'atuacao', label: 'Dijon (França)', grupo: 'localizacao', pais: 'França', iso: 'FR' },
+    { id: '844', level: 8, categoria: 'atuacao', label: 'Peralta de la Sal (Espanha)', grupo: 'localizacao', pais: 'Espanha', iso: 'ES' },
+    { id: '845', level: 8, categoria: 'atuacao', label: 'Cupertino (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
 
     // ==========================================
     // NÍVEL 9: FENÔMENOS, RELÍQUIAS E ICONOGRAFIA
     // ==========================================
-    
-    // Santuários e Túmulos
     { id: '1004', level: 9, categoria: 'santuario', label: 'Collégiale Sainte-Marthe - Tarascon (França)', grupo: 'santuario' },
-    { id: '1006', level: 9, categoria: 'santuario', label: 'Basílica de S. Francisco', grupo: 'santuario' },
-    { id: '1007', level: 9, categoria: 'santuario', label: 'Basílica de Sto. Antônio', grupo: 'santuario' },
     { id: '1020', level: 9, categoria: 'santuario', label: 'Basílica de S. Pedro (Roma)', grupo: 'santuario' },
-    { id: '1021', level: 9, categoria: 'santuario', label: 'Catedral de Santiago (Espanha)', grupo: 'santuario' },
-    { id: '1022', level: 9, categoria: 'santuario', label: 'Basílica de Assis (Itália)', grupo: 'santuario' },
-    { id: '1023', level: 9, categoria: 'santuario', label: 'Basílica de Pádua (Itália)', grupo: 'santuario' },
-    { id: '1024', level: 9, categoria: 'santuario', label: 'Basílica de S. Paulo (Roma)', grupo: 'santuario' },
+    { id: '1021', level: 9, categoria: 'santuario', label: 'Catedral de Santiago de Compostela', grupo: 'santuario' },
+    { id: '1022', level: 9, categoria: 'santuario', label: 'Basílica de S. Francisco (Assis)', grupo: 'santuario' },
+    { id: '1023', level: 9, categoria: 'santuario', label: 'Basílica de Sto. Antônio (Pádua)', grupo: 'santuario' },
+    { id: '1024', level: 9, categoria: 'santuario', label: 'Basílica de S. Paulo Extramuros (Roma)', grupo: 'santuario' },
     { id: '1025', level: 9, categoria: 'santuario', label: 'Santuário de Ars (França)', grupo: 'santuario' },
     { id: '1026', level: 9, categoria: 'santuario', label: 'Basílica de Lisieux (França)', grupo: 'santuario' },
 
-    // Fenômenos Místicos
     { id: '1000', level: 9, categoria: 'mistica', label: 'Corpo Incorrupto', grupo: 'fenomeno' },
     { id: '1001', level: 9, categoria: 'mistica', label: 'Estigmas (Chagas)', grupo: 'fenomeno' },
     { id: '1002', level: 9, categoria: 'mistica', label: 'Bilocação', grupo: 'fenomeno' },
     { id: '1003', level: 9, categoria: 'mistica', label: 'Levitação', grupo: 'fenomeno' },
 
-    // Relíquias
     { id: '1010', level: 9, categoria: 'reliquia', label: 'Sangue Liquefeito', grupo: 'reliquia' },
     { id: '1011', level: 9, categoria: 'reliquia', label: 'Coração Incorrupto', grupo: 'reliquia' },
     { id: '1012', level: 9, categoria: 'reliquia', label: 'Língua Intacta', grupo: 'reliquia' },
@@ -607,13 +596,10 @@ var todosNos = [
     { id: '1014', level: 9, categoria: 'reliquia', label: 'Manto Partilhado', grupo: 'reliquia' },
     { id: '1015', level: 9, categoria: 'reliquia', label: 'Correntes da Prisão', grupo: 'reliquia' },
 
-    // Iconografia e Símbolos
-    { id: '1008', level: 9, categoria: 'simbolo', label: 'As Chaves do Reino', grupo: 'iconografia' },
-    { id: '1009', level: 9, categoria: 'simbolo', label: 'Chuva de Rosas', grupo: 'iconografia' },
-    { id: '1030', level: 9, categoria: 'simbolo', label: 'As Chaves', grupo: 'iconografia' },
+    { id: '1030', level: 9, categoria: 'simbolo', label: 'As Chaves do Reino', grupo: 'iconografia' },
     { id: '1031', level: 9, categoria: 'simbolo', label: 'A Espada', grupo: 'iconografia' },
     { id: '1032', level: 9, categoria: 'simbolo', label: 'O Lírio (Pureza)', grupo: 'iconografia' },
-    { id: '1033', level: 9, categoria: 'simbolo', label: 'As Rosas', grupo: 'iconografia' },
+    { id: '1033', level: 9, categoria: 'simbolo', label: 'Chuva de Rosas', grupo: 'iconografia' },
     { id: '1034', level: 9, categoria: 'simbolo', label: 'A Caveira (Memento Mori)', grupo: 'iconografia' },
     { id: '1035', level: 9, categoria: 'simbolo', label: 'Livro (Doutor/Evangelho)', grupo: 'iconografia' },
     { id: '1036', level: 9, categoria: 'simbolo', label: 'O Dragão', grupo: 'iconografia' },
@@ -653,422 +639,433 @@ var todosNos = [
 
 var todosSetas = [
 
-
-    // ATRIBUTOS -> SANTOS (Nível 1 descendo)
-	
+    // ==========================================
+    // 1. ATRIBUTOS E TÍTULOS (Nível 1 -> Santos)
+    // ==========================================
     // Papas (56)
-    { from: '56', to: '2', title: 'é', texto: 'é' },
-    { from: '56', to: '19', title: 'é', texto: 'é' },
-    { from: '56', to: '200', title: 'é', texto: 'é' },
-    { from: '56', to: '205', title: 'é', texto: 'é' },
-    { from: '56', to: '207', title: 'é', texto: 'é' },
-    { from: '56', to: '234', title: 'é', texto: 'é' },
-    { from: '56', to: '400', title: 'é', texto: 'é' },
-    { from: '56', to: '404', title: 'é', texto: 'é' },
-    { from: '56', to: '408', title: 'é', texto: 'é' },
-    { from: '56', to: '431', title: 'é', texto: 'é' },
-    { from: '56', to: '436', title: 'é', texto: 'é' },
-    { from: '56', to: '445', title: 'é', texto: 'é' },
-    { from: '56', to: '449', title: 'é', texto: 'é' },
-    { from: '56', to: '451', title: 'é', texto: 'é' },
-    { from: '56', to: '454', title: 'é', texto: 'é' },
-    { from: '56', to: '601', title: 'é', texto: 'é' },
-    { from: '56', to: '614', title: 'é', texto: 'é' },
-    { from: '56', to: '617', title: 'é', texto: 'é' },
-    { from: '56', to: '618', title: 'é', texto: 'é' },
-    { from: '56', to: '620', title: 'é', texto: 'é' },
-    { from: '56', to: '622', title: 'é', texto: 'é' },
-    { from: '56', to: '625', title: 'é', texto: 'é' },
-    { from: '56', to: '647', title: 'é', texto: 'é' },
-    { from: '56', to: '658', title: 'é', texto: 'é' },
-    { from: '56', to: '664', title: 'é', texto: 'é' },
-    { from: '56', to: '677', title: 'é', texto: 'é' },
-    { from: '56', to: '687', title: 'é', texto: 'é' },
-    { from: '56', to: '694', title: 'é', texto: 'é' },
-    { from: '56', to: '702', title: 'é', texto: 'é' },
-    { from: '56', to: '714', title: 'é', texto: 'é' },
-    { from: '56', to: '715', title: 'é', texto: 'é' },
-    { from: '56', to: '720', title: 'é', texto: 'é' },
+    { from: '56', to: '2', texto: 'é' },
+    { from: '56', to: '19', texto: 'é' },
+    { from: '56', to: '200', texto: 'é' },
+    { from: '56', to: '205', texto: 'é' },
+    { from: '56', to: '207', texto: 'é' },
+    { from: '56', to: '234', texto: 'é' },
+    { from: '56', to: '400', texto: 'é' },
+    { from: '56', to: '404', texto: 'é' },
+    { from: '56', to: '408', texto: 'é' },
+    { from: '56', to: '431', texto: 'é' },
+    { from: '56', to: '436', texto: 'é' },
+    { from: '56', to: '445', texto: 'é' },
+    { from: '56', to: '449', texto: 'é' },
+    { from: '56', to: '451', texto: 'é' },
+    { from: '56', to: '454', texto: 'é' },
+    { from: '56', to: '601', texto: 'é' },
+    { from: '56', to: '614', texto: 'é' },
+    { from: '56', to: '617', texto: 'é' },
+    { from: '56', to: '618', texto: 'é' },
+    { from: '56', to: '620', texto: 'é' },
+    { from: '56', to: '622', texto: 'é' },
+    { from: '56', to: '625', texto: 'é' },
+    { from: '56', to: '647', texto: 'é' },
+    { from: '56', to: '658', texto: 'é' },
+    { from: '56', to: '664', texto: 'é' },
+    { from: '56', to: '677', texto: 'é' },
+    { from: '56', to: '687', texto: 'é' },
+    { from: '56', to: '694', texto: 'é' },
+    { from: '56', to: '702', texto: 'é' },
+    { from: '56', to: '714', texto: 'é' },
+    { from: '56', to: '715', texto: 'é' },
+    { from: '56', to: '720', texto: 'é' },
 
     // Bispos (57)
-    { from: '57', to: '5', title: 'é', texto: 'é' },
-    { from: '57', to: '75', title: 'é', texto: 'é' },
-    { from: '57', to: '81', title: 'é', texto: 'é' },
-    { from: '57', to: '82', title: 'é', texto: 'é' },
-    { from: '57', to: '208', title: 'é', texto: 'é' },
-    { from: '57', to: '216', title: 'é', texto: 'é' },
-    { from: '57', to: '224', title: 'é', texto: 'é' },
-    { from: '57', to: '225', title: 'é', texto: 'é' },
-    { from: '57', to: '229', title: 'é', texto: 'é' },
-    { from: '57', to: '236', title: 'é', texto: 'é' },
-    { from: '57', to: '239', title: 'é', texto: 'é' },
-    { from: '57', to: '401', title: 'é', texto: 'é' },
-    { from: '57', to: '412', title: 'é', texto: 'é' },
-    { from: '57', to: '413', title: 'é', texto: 'é' },
-    { from: '57', to: '414', title: 'é', texto: 'é' },
-    { from: '57', to: '417', title: 'é', texto: 'é' },
-    { from: '57', to: '418', title: 'é', texto: 'é' },
-    { from: '57', to: '422', title: 'é', texto: 'é' },
-    { from: '57', to: '427', title: 'é', texto: 'é' },
-    { from: '57', to: '428', title: 'é', texto: 'é' },
-    { from: '57', to: '437', title: 'é', texto: 'é' },
-    { from: '57', to: '438', title: 'é', texto: 'é' },
-    { from: '57', to: '443', title: 'é', texto: 'é' },
-    { from: '57', to: '450', title: 'é', texto: 'é' },
-    { from: '57', to: '55', title: 'é', texto: 'é' },
-    { from: '57', to: '600', title: 'é', texto: 'é' },
-    { from: '57', to: '602', title: 'é', texto: 'é' },
-    { from: '57', to: '604', title: 'é', texto: 'é' },
-    { from: '57', to: '605', title: 'é', texto: 'é' },
-    { from: '57', to: '608', title: 'é', texto: 'é' },
-    { from: '57', to: '611', title: 'é', texto: 'é' },
-    { from: '57', to: '623', title: 'é', texto: 'é' },
-    { from: '57', to: '629', title: 'é', texto: 'é' },
-    { from: '57', to: '654', title: 'é', texto: 'é' },
-    { from: '57', to: '660', title: 'é', texto: 'é' },
-    { from: '57', to: '662', title: 'é', texto: 'é' },
-    { from: '57', to: '669', title: 'é', texto: 'é' },
-    { from: '57', to: '688', title: 'é', texto: 'é' },
-    { from: '57', to: '693', title: 'é', texto: 'é' },
-    { from: '57', to: '696', title: 'é', texto: 'é' },
-    { from: '57', to: '697', title: 'é', texto: 'é' },
-    { from: '57', to: '699', title: 'é', texto: 'é' },
-    { from: '57', to: '707', title: 'é', texto: 'é' },
-    { from: '57', to: '710', title: 'é', texto: 'é' },
-    { from: '57', to: '712', title: 'é', texto: 'é' },
-    { from: '57', to: '713', title: 'é', texto: 'é' },
-    { from: '57', to: '717', title: 'é', texto: 'é' },
-    { from: '57', to: '719', title: 'é', texto: 'é' },
+    { from: '57', to: '5', texto: 'é' },
+    { from: '57', to: '75', texto: 'é' },
+    { from: '57', to: '81', texto: 'é' },
+    { from: '57', to: '82', texto: 'é' },
+    { from: '57', to: '208', texto: 'é' },
+    { from: '57', to: '216', texto: 'é' },
+    { from: '57', to: '224', texto: 'é' },
+    { from: '57', to: '225', texto: 'é' },
+    { from: '57', to: '229', texto: 'é' },
+    { from: '57', to: '236', texto: 'é' },
+    { from: '57', to: '239', texto: 'é' },
+    { from: '57', to: '401', texto: 'é' },
+    { from: '57', to: '412', texto: 'é' },
+    { from: '57', to: '413', texto: 'é' },
+    { from: '57', to: '414', texto: 'é' },
+    { from: '57', to: '417', texto: 'é' },
+    { from: '57', to: '418', texto: 'é' },
+    { from: '57', to: '422', texto: 'é' },
+    { from: '57', to: '427', texto: 'é' },
+    { from: '57', to: '428', texto: 'é' },
+    { from: '57', to: '437', texto: 'é' },
+    { from: '57', to: '438', texto: 'é' },
+    { from: '57', to: '443', texto: 'é' },
+    { from: '57', to: '450', texto: 'é' },
+    { from: '57', to: '55', texto: 'é' },
+    { from: '57', to: '600', texto: 'é' },
+    { from: '57', to: '602', texto: 'é' },
+    { from: '57', to: '604', texto: 'é' },
+    { from: '57', to: '605', texto: 'é' },
+    { from: '57', to: '608', texto: 'é' },
+    { from: '57', to: '611', texto: 'é' },
+    { from: '57', to: '623', texto: 'é' },
+    { from: '57', to: '629', texto: 'é' },
+    { from: '57', to: '654', texto: 'é' },
+    { from: '57', to: '660', texto: 'é' },
+    { from: '57', to: '662', texto: 'é' },
+    { from: '57', to: '669', texto: 'é' },
+    { from: '57', to: '688', texto: 'é' },
+    { from: '57', to: '693', texto: 'é' },
+    { from: '57', to: '696', texto: 'é' },
+    { from: '57', to: '697', texto: 'é' },
+    { from: '57', to: '699', texto: 'é' },
+    { from: '57', to: '707', texto: 'é' },
+    { from: '57', to: '710', texto: 'é' },
+    { from: '57', to: '712', texto: 'é' },
+    { from: '57', to: '713', texto: 'é' },
+    { from: '57', to: '717', texto: 'é' },
+    { from: '57', to: '719', texto: 'é' },
+    { from: '57', to: '721', texto: 'é' },
 
     // Abades (59)
-    { from: '59', to: '74', title: 'é', texto: 'é' },
-    { from: '59', to: '6', title: 'é', texto: 'é' },
-    { from: '59', to: '66', title: 'é', texto: 'é' },
-    { from: '59', to: '206', title: 'é', texto: 'é' },
-    { from: '59', to: '238', title: 'é', texto: 'é' },
-    { from: '59', to: '403', title: 'é', texto: 'é' },
-    { from: '59', to: '420', title: 'é', texto: 'é' },
-    { from: '59', to: '651', title: 'é', texto: 'é' },
-    { from: '59', to: '683', title: 'é', texto: 'é' },
-    { from: '59', to: '706', title: 'é', texto: 'é' },
-    { from: '59', to: '711', title: 'é', texto: 'é' },
+    { from: '59', to: '74', texto: 'é' },
+    { from: '59', to: '6', texto: 'é' },
+    { from: '59', to: '66', texto: 'é' },
+    { from: '59', to: '206', texto: 'é' },
+    { from: '59', to: '238', texto: 'é' },
+    { from: '59', to: '403', texto: 'é' },
+    { from: '59', to: '420', texto: 'é' },
+    { from: '59', to: '651', texto: 'é' },
+    { from: '59', to: '683', texto: 'é' },
+    { from: '59', to: '706', texto: 'é' },
+    { from: '59', to: '711', texto: 'é' },
 
     // Viúvas (60)
-    { from: '60', to: '64', title: 'é', texto: 'é' },
-    { from: '60', to: '67', title: 'é', texto: 'é' },
-    { from: '60', to: '203', title: 'é', texto: 'é' },
-    { from: '60', to: '803', title: 'é', texto: 'é' },
-    { from: '60', to: '227', title: 'é', texto: 'é' },
-    { from: '60', to: '218', title: 'é', texto: 'é' },
-    { from: '60', to: '434', title: 'é', texto: 'é' },
-    { from: '60', to: '643', title: 'é', texto: 'é' },
-    { from: '60', to: '672', title: 'é', texto: 'é' },
-    { from: '60', to: '678', title: 'é', texto: 'é' },
+    { from: '60', to: '64', texto: 'é' },
+    { from: '60', to: '67', texto: 'é' },
+    { from: '60', to: '203', texto: 'é' },
+    { from: '60', to: '803', texto: 'é' },
+    { from: '60', to: '227', texto: 'é' },
+    { from: '60', to: '218', texto: 'é' },
+    { from: '60', to: '434', texto: 'é' },
+    { from: '60', to: '643', texto: 'é' },
+    { from: '60', to: '672', texto: 'é' },
+    { from: '60', to: '678', texto: 'é' },
 
     // Virgens (52)
-    { from: '52', to: '73', title: 'é', texto: 'é' },
-    { from: '52', to: '11', title: 'é', texto: 'é' },
-    { from: '52', to: '12', title: 'é', texto: 'é' },
-    { from: '52', to: '17', title: 'é', texto: 'é' },
-    { from: '52', to: '83', title: 'é', texto: 'é' },
-    { from: '52', to: '85', title: 'é', texto: 'é' },
-    { from: '52', to: '214', title: 'é', texto: 'é' },
-    { from: '52', to: '217', title: 'é', texto: 'é' },
-    { from: '52', to: '232', title: 'é', texto: 'é' },
-    { from: '52', to: '221', title: 'é', texto: 'é' },
-    { from: '52', to: '405', title: 'é', texto: 'é' },
-    { from: '52', to: '411', title: 'é', texto: 'é' },
-    { from: '52', to: '416', title: 'é', texto: 'é' },
-    { from: '52', to: '419', title: 'é', texto: 'é' },
-    { from: '52', to: '423', title: 'é', texto: 'é' },
-    { from: '52', to: '424', title: 'é', texto: 'é' },
-    { from: '52', to: '440', title: 'é', texto: 'é' },
-    { from: '52', to: '441', title: 'é', texto: 'é' },
-    { from: '52', to: '459', title: 'é', texto: 'é' },
-    { from: '52', to: '615', title: 'é', texto: 'é' },
-    { from: '52', to: '624', title: 'é', texto: 'é' },
-    { from: '52', to: '626', title: 'é', texto: 'é' },
-    { from: '52', to: '628', title: 'é', texto: 'é' },
-    { from: '52', to: '649', title: 'é', texto: 'é' },
-    { from: '52', to: '679', title: 'é', texto: 'é' },
-    { from: '52', to: '684', title: 'é', texto: 'é' },
-    { from: '52', to: '698', title: 'é', texto: 'é' },
-    { from: '52', to: '701', title: 'é', texto: 'é' },
-    { from: '52', to: '705', title: 'é', texto: 'é' },
-    { from: '52', to: '709', title: 'é', texto: 'é' },
-    { from: '52', to: '716', title: 'é', texto: 'é' },
-
-    // Penitentes virou outros
-    { from: '58', to: '215', title: 'é', texto: 'é' },
+    { from: '52', to: '73', texto: 'é' },
+    { from: '52', to: '11', texto: 'é' },
+    { from: '52', to: '12', texto: 'é' },
+    { from: '52', to: '17', texto: 'é' },
+    { from: '52', to: '83', texto: 'é' },
+    { from: '52', to: '85', texto: 'é' },
+    { from: '52', to: '214', texto: 'é' },
+    { from: '52', to: '217', texto: 'é' },
+    { id_virg_232: true, from: '52', to: '232', texto: 'é' },
+    { from: '52', to: '221', texto: 'é' },
+    { from: '52', to: '405', texto: 'é' },
+    { from: '52', to: '411', texto: 'é' },
+    { from: '52', to: '416', texto: 'é' },
+    { from: '52', to: '419', texto: 'é' },
+    { from: '52', to: '423', texto: 'é' },
+    { from: '52', to: '424', texto: 'é' },
+    { from: '52', to: '440', texto: 'é' },
+    { from: '52', to: '441', texto: 'é' },
+    { from: '52', to: '459', texto: 'é' },
+    { from: '52', to: '615', texto: 'é' },
+    { from: '52', to: '624', texto: 'é' },
+    { from: '52', to: '626', texto: 'é' },
+    { from: '52', to: '628', texto: 'é' },
+    { from: '52', to: '649', texto: 'é' },
+    { from: '52', to: '679', texto: 'é' },
+    { from: '52', to: '684', texto: 'é' },
+    { from: '52', to: '698', texto: 'é' },
+    { from: '52', to: '701', texto: 'é' },
+    { from: '52', to: '705', texto: 'é' },
+    { from: '52', to: '709', texto: 'é' },
+    { from: '52', to: '716', texto: 'é' },
+    { from: '52', to: '724', texto: 'é' },
 
     // Doutores (51)
-    { from: '51', to: '5', title: 'é', texto: 'é' },
-    { from: '51', to: '10', title: 'é', texto: 'é' },
-    { from: '51', to: '13', title: 'é', texto: 'é' },
-    { from: '51', to: '65', title: 'é', texto: 'é' },
-    { from: '51', to: '66', title: 'é', texto: 'é' },
-    { from: '51', to: '75', title: 'é', texto: 'é' },
-    { from: '51', to: '208', title: 'é', texto: 'é' },
-    { from: '51', to: '229', title: 'é', texto: 'é' },
-    { from: '51', to: '231', title: 'é', texto: 'é' },
-    { from: '51', to: '401', title: 'é', texto: 'é' },
-    { from: '51', to: '414', title: 'é', texto: 'é' },
-    { from: '51', to: '422', title: 'é', texto: 'é' },
-    { from: '51', to: '428', title: 'é', texto: 'é' },
-    { from: '51', to: '436', title: 'é', texto: 'é' },
-    { from: '51', to: '438', title: 'é', texto: 'é' },
-    { from: '51', to: '442', title: 'é', texto: 'é' },
-    { from: '51', to: '443', title: 'é', texto: 'é' },
-    { from: '51', to: '445', title: 'é', texto: 'é' },
-    { from: '51', to: '450', title: 'é', texto: 'é' },
-    { from: '51', to: '455', title: 'é', texto: 'é' },
-    { from: '51', to: '600', title: 'é', texto: 'é' },
-    { from: '51', to: '604', title: 'é', texto: 'é' },
-    { from: '51', to: '608', title: 'é', texto: 'é' },
-    { from: '51', to: '621', title: 'é', texto: 'é' },
-    { from: '51', to: '629', title: 'é', texto: 'é' },
-    { from: '51', to: '668', title: 'é', texto: 'é' },
-    { from: '51', to: '697', title: 'é', texto: 'é' },
-    { from: '51', to: '710', title: 'é', texto: 'é' },
-    { from: '51', to: '713', title: 'é', texto: 'é' },
+    { from: '51', to: '5', texto: 'é' },
+    { from: '51', to: '10', texto: 'é' },
+    { from: '51', to: '13', texto: 'é' },
+    { from: '51', to: '65', texto: 'é' },
+    { from: '51', to: '66', texto: 'é' },
+    { from: '51', to: '75', texto: 'é' },
+    { from: '51', to: '208', texto: 'é' },
+    { from: '51', to: '229', texto: 'é' },
+    { from: '51', to: '231', texto: 'é' },
+    { from: '51', to: '401', texto: 'é' },
+    { from: '51', to: '414', texto: 'é' },
+    { from: '51', to: '422', texto: 'é' },
+    { from: '51', to: '428', texto: 'é' },
+    { from: '51', to: '436', texto: 'é' },
+    { from: '51', to: '438', texto: 'é' },
+    { from: '51', to: '442', texto: 'é' },
+    { from: '51', to: '443', texto: 'é' },
+    { from: '51', to: '445', texto: 'é' },
+    { from: '51', to: '450', texto: 'é' },
+    { from: '51', to: '455', texto: 'é' },
+    { from: '51', to: '459', texto: 'é' },
+    { from: '51', to: '600', texto: 'é' },
+    { from: '51', to: '604', texto: 'é' },
+    { from: '51', to: '608', texto: 'é' },
+    { from: '51', to: '621', texto: 'é' },
+    { from: '51', to: '629', texto: 'é' },
+    { from: '51', to: '668', texto: 'é' },
+    { from: '51', to: '697', texto: 'é' },
+    { from: '51', to: '710', texto: 'é' },
+    { from: '51', to: '713', texto: 'é' },
 
     // Mártires (50)
-    { from: '50', to: '71', title: 'é', texto: 'é' },
-    { from: '50', to: '2', title: 'é', texto: 'é' },
-    { from: '50', to: '3', title: 'é', texto: 'é' },
-    { from: '50', to: '73', title: 'é', texto: 'é' },
-    { from: '50', to: '72', title: 'é', texto: 'é' },
-    { from: '50', to: '7', title: 'é', texto: 'é' },
-    { from: '50', to: '86', title: 'é', texto: 'é' },
-    { from: '50', to: '81', title: 'é', texto: 'é' },
-    { from: '50', to: '82', title: 'é', texto: 'é' },
-    { from: '50', to: '83', title: 'é', texto: 'é' },
-    { from: '50', to: '84', title: 'é', texto: 'é' },
-    { from: '50', to: '110', title: 'é', texto: 'é' },
-    { from: '50', to: '111', title: 'é', texto: 'é' },
-    { from: '50', to: '112', title: 'é', texto: 'é' },
-    { from: '50', to: '113', title: 'é', texto: 'é' },
-    { from: '50', to: '114', title: 'é', texto: 'é' },
-    { from: '50', to: '115', title: 'é', texto: 'é' },
-    { from: '50', to: '116', title: 'é', texto: 'é' },
-    { from: '50', to: '117', title: 'é', texto: 'é' },
-    { from: '50', to: '118', title: 'é', texto: 'é' },
-    { from: '50', to: '228', title: 'é', texto: 'é' },
-    { from: '50', to: '204', title: 'é', texto: 'é' },
-    { from: '50', to: '205', title: 'é', texto: 'é' },
-    { from: '50', to: '207', title: 'é', texto: 'é' },
-    { from: '50', to: '216', title: 'é', texto: 'é' },
-    { from: '50', to: '217', title: 'é', texto: 'é' },
-    { from: '50', to: '219', title: 'é', texto: 'é' },
-    { from: '50', to: '220', title: 'é', texto: 'é' },
-    { from: '50', to: '222', title: 'é', texto: 'é' },
-    { from: '50', to: '223', title: 'é', texto: 'é' },
-    { from: '50', to: '224', title: 'é', texto: 'é' },
-    { from: '50', to: '226', title: 'é', texto: 'é' },
-    { from: '50', to: '230', title: 'é', texto: 'é' },
-    { from: '50', to: '233', title: 'é', texto: 'é' },
-    { from: '50', to: '234', title: 'é', texto: 'é' },
-    { from: '50', to: '237', title: 'é', texto: 'é' },
-    { from: '50', to: '239', title: 'é', texto: 'é' },
-    { from: '50', to: '400', title: 'é', texto: 'é' },
-    { from: '50', to: '402', title: 'é', texto: 'é' },
-    { from: '50', to: '404', title: 'é', texto: 'é' },
-    { from: '50', to: '405', title: 'é', texto: 'é' },
-    { from: '50', to: '406', title: 'é', texto: 'é' },
-    { from: '50', to: '407', title: 'é', texto: 'é' },
-    { from: '50', to: '408', title: 'é', texto: 'é' },
-    { from: '50', to: '409', title: 'é', texto: 'é' },
-    { from: '50', to: '411', title: 'é', texto: 'é' },
-    { from: '50', to: '412', title: 'é', texto: 'é' },
-    { from: '50', to: '413', title: 'é', texto: 'é' },
-    { from: '50', to: '416', title: 'é', texto: 'é' },
-    { from: '50', to: '419', title: 'é', texto: 'é' },
-    { from: '50', to: '423', title: 'é', texto: 'é' },
-    { from: '50', to: '426', title: 'é', texto: 'é' },
-    { from: '50', to: '427', title: 'é', texto: 'é' },
-    { from: '50', to: '431', title: 'é', texto: 'é' },
-    { from: '50', to: '432', title: 'é', texto: 'é' },
-    { from: '50', to: '435', title: 'é', texto: 'é' },
-    { from: '50', to: '446', title: 'é', texto: 'é' },
-    { from: '50', to: '447', title: 'é', texto: 'é' },
-    { from: '50', to: '448', title: 'é', texto: 'é' },
-    { from: '50', to: '449', title: 'é', texto: 'é' },
-    { from: '50', to: '451', title: 'é', texto: 'é' },
-    { from: '50', to: '452', title: 'é', texto: 'é' },
-    { from: '50', to: '453', title: 'é', texto: 'é' },
-    { from: '50', to: '454', title: 'é', texto: 'é' },
-    { from: '50', to: '457', title: 'é', texto: 'é' },
-    { from: '50', to: '458', title: 'é', texto: 'é' },
-    { from: '50', to: '602', title: 'é', texto: 'é' },
-    { from: '50', to: '606', title: 'é', texto: 'é' },
-    { from: '50', to: '607', title: 'é', texto: 'é' },
-    { from: '50', to: '613', title: 'é', texto: 'é' },
-    { from: '50', to: '618', title: 'é', texto: 'é' },
-    { from: '50', to: '620', title: 'é', texto: 'é' },
-    { from: '50', to: '622', title: 'é', texto: 'é' },
-    { from: '50', to: '625', title: 'é', texto: 'é' },
-    { from: '50', to: '630', title: 'é', texto: 'é' },
-    { from: '50', to: '634', title: 'é', texto: 'é' },
-    { from: '50', to: '635', title: 'é', texto: 'é' },
-    { from: '50', to: '636', title: 'é', texto: 'é' },
-    { from: '50', to: '637', title: 'é', texto: 'é' },
-    { from: '50', to: '641', title: 'é', texto: 'é' },
-    { from: '50', to: '647', title: 'é', texto: 'é' },
-    { from: '50', to: '652', title: 'é', texto: 'é' },
-    { from: '50', to: '655', title: 'é', texto: 'é' },
-    { from: '50', to: '657', title: 'é', texto: 'é' },
-    { from: '50', to: '658', title: 'é', texto: 'é' },
-    { from: '50', to: '660', title: 'é', texto: 'é' },
-    { from: '50', to: '661', title: 'é', texto: 'é' },
-    { from: '50', to: '663', title: 'é', texto: 'é' },
-    { from: '50', to: '664', title: 'é', texto: 'é' },
-    { from: '50', to: '665', title: 'é', texto: 'é' },
-    { from: '50', to: '666', title: 'é', texto: 'é' },
-    { from: '50', to: '667', title: 'é', texto: 'é' },
-    { from: '50', to: '670', title: 'é', texto: 'é' },
-    { from: '50', to: '674', title: 'é', texto: 'é' },
-    { from: '50', to: '677', title: 'é', texto: 'é' },
-    { from: '50', to: '684', title: 'é', texto: 'é' },
-    { from: '50', to: '686', title: 'é', texto: 'é' },
-    { from: '50', to: '687', title: 'é', texto: 'é' },
-    { from: '50', to: '690', title: 'é', texto: 'é' },
-    { from: '50', to: '691', title: 'é', texto: 'é' },
-    { from: '50', to: '694', title: 'é', texto: 'é' },
-    { from: '50', to: '696', title: 'é', texto: 'é' },
-    { from: '50', to: '701', title: 'é', texto: 'é' },
-    { from: '50', to: '702', title: 'é', texto: 'é' },
-    { from: '50', to: '703', title: 'é', texto: 'é' },
-    { from: '50', to: '704', title: 'é', texto: 'é' },
-    { from: '50', to: '705', title: 'é', texto: 'é' },
-    { from: '50', to: '707', title: 'é', texto: 'é' },
-    { from: '50', to: '708', title: 'é', texto: 'é' },
-    { from: '50', to: '709', title: 'é', texto: 'é' },
-    { from: '50', to: '714', title: 'é', texto: 'é' },
-    { from: '50', to: '716', title: 'é', texto: 'é' },
-    { from: '50', to: '717', title: 'é', texto: 'é' },
-    { from: '50', to: '718', title: 'é', texto: 'é' },
-    { from: '50', to: '719', title: 'é', texto: 'é' },
+    { from: '50', to: '71', texto: 'é' },
+    { from: '50', to: '2', texto: 'é' },
+    { from: '50', to: '3', texto: 'é' },
+    { from: '50', to: '73', texto: 'é' },
+    { from: '50', to: '72', texto: 'é' },
+    { from: '50', to: '7', texto: 'é' },
+    { from: '50', to: '86', texto: 'é' },
+    { from: '50', to: '81', texto: 'é' },
+    { from: '50', to: '82', texto: 'é' },
+    { from: '50', to: '83', texto: 'é' },
+    { from: '50', to: '84', texto: 'é' },
+    { from: '50', to: '110', texto: 'é' },
+    { from: '50', to: '111', texto: 'é' },
+    { from: '50', to: '112', texto: 'é' },
+    { from: '50', to: '113', texto: 'é' },
+    { from: '50', to: '114', texto: 'é' },
+    { from: '50', to: '115', texto: 'é' },
+    { from: '50', to: '116', texto: 'é' },
+    { from: '50', to: '117', texto: 'é' },
+    { from: '50', to: '118', texto: 'é' },
+    { from: '50', to: '228', texto: 'é' },
+    { from: '50', to: '204', texto: 'é' },
+    { from: '50', to: '205', texto: 'é' },
+    { from: '50', to: '207', texto: 'é' },
+    { from: '50', to: '216', texto: 'é' },
+    { from: '50', to: '217', texto: 'é' },
+    { from: '50', to: '219', texto: 'é' },
+    { from: '50', to: '220', texto: 'é' },
+    { from: '50', to: '222', texto: 'é' },
+    { from: '50', to: '223', texto: 'é' },
+    { from: '50', to: '224', texto: 'é' },
+    { from: '50', to: '226', texto: 'é' },
+    { from: '50', to: '230', texto: 'é' },
+    { from: '50', to: '233', texto: 'é' },
+    { from: '50', to: '234', texto: 'é' },
+    { from: '50', to: '237', texto: 'é' },
+    { from: '50', to: '239', texto: 'é' },
+    { from: '50', to: '400', texto: 'é' },
+    { from: '50', to: '402', texto: 'é' },
+    { from: '50', to: '404', texto: 'é' },
+    { from: '50', to: '405', texto: 'é' },
+    { from: '50', to: '406', texto: 'é' },
+    { from: '50', to: '407', texto: 'é' },
+    { from: '50', to: '408', texto: 'é' },
+    { from: '50', to: '409', texto: 'é' },
+    { from: '50', to: '411', texto: 'é' },
+    { from: '50', to: '412', texto: 'é' },
+    { from: '50', to: '413', texto: 'é' },
+    { from: '50', to: '416', texto: 'é' },
+    { from: '50', to: '419', texto: 'é' },
+    { from: '50', to: '423', texto: 'é' },
+    { from: '50', to: '426', texto: 'é' },
+    { from: '50', to: '427', texto: 'é' },
+    { from: '50', to: '431', texto: 'é' },
+    { from: '50', to: '432', texto: 'é' },
+    { from: '50', to: '435', texto: 'é' },
+    { from: '50', to: '446', texto: 'é' },
+    { from: '50', to: '447', texto: 'é' },
+    { from: '50', to: '448', texto: 'é' },
+    { from: '50', to: '449', texto: 'é' },
+    { from: '50', to: '451', texto: 'é' },
+    { from: '50', to: '452', texto: 'é' },
+    { from: '50', to: '453', texto: 'é' },
+    { from: '50', to: '454', texto: 'é' },
+    { from: '50', to: '457', texto: 'é' },
+    { from: '50', to: '458', texto: 'é' },
+    { from: '50', to: '602', texto: 'é' },
+    { from: '50', to: '606', texto: 'é' },
+    { from: '50', to: '607', texto: 'é' },
+    { from: '50', to: '613', texto: 'é' },
+    { from: '50', to: '618', texto: 'é' },
+    { from: '50', to: '620', texto: 'é' },
+    { from: '50', to: '622', texto: 'é' },
+    { from: '50', to: '625', texto: 'é' },
+    { from: '50', to: '630', texto: 'é' },
+    { from: '50', to: '634', texto: 'é' },
+    { from: '50', to: '635', texto: 'é' },
+    { from: '50', to: '636', texto: 'é' },
+    { from: '50', to: '637', texto: 'é' },
+    { from: '50', to: '641', texto: 'é' },
+    { from: '50', to: '647', texto: 'é' },
+    { from: '50', to: '652', texto: 'é' },
+    { from: '50', to: '655', texto: 'é' },
+    { from: '50', to: '657', texto: 'é' },
+    { from: '50', to: '658', texto: 'é' },
+    { from: '50', to: '660', texto: 'é' },
+    { from: '50', to: '661', texto: 'é' },
+    { from: '50', to: '663', texto: 'é' },
+    { from: '50', to: '664', texto: 'é' },
+    { from: '50', to: '665', texto: 'é' },
+    { from: '50', to: '666', texto: 'é' },
+    { from: '50', to: '667', texto: 'é' },
+    { from: '50', to: '670', texto: 'é' },
+    { from: '50', to: '674', texto: 'é' },
+    { from: '50', to: '677', texto: 'é' },
+    { from: '50', to: '684', texto: 'é' },
+    { from: '50', to: '686', texto: 'é' },
+    { from: '50', to: '687', texto: 'é' },
+    { from: '50', to: '690', texto: 'é' },
+    { from: '50', to: '691', texto: 'é' },
+    { from: '50', to: '694', texto: 'é' },
+    { from: '50', to: '696', texto: 'é' },
+    { from: '50', to: '701', texto: 'é' },
+    { from: '50', to: '702', texto: 'é' },
+    { from: '50', to: '703', texto: 'é' },
+    { from: '50', to: '704', texto: 'é' },
+    { from: '50', to: '705', texto: 'é' },
+    { from: '50', to: '707', texto: 'é' },
+    { from: '50', to: '708', texto: 'é' },
+    { from: '50', to: '709', texto: 'é' },
+    { from: '50', to: '714', texto: 'é' },
+    { from: '50', to: '716', texto: 'é' },
+    { from: '50', to: '717', texto: 'é' },
+    { from: '50', to: '718', texto: 'é' },
+    { from: '50', to: '719', texto: 'é' },
 
     // Confessores (53)
-    { from: '53', to: '4', title: 'é', texto: 'é' },
-    { from: '53', to: '76', title: 'é', texto: 'é' },
-    { from: '53', to: '8', title: 'é', texto: 'é' },
-    { from: '53', to: '9', title: 'é', texto: 'é' },
-    { from: '53', to: '14', title: 'é', texto: 'é' },
-    { from: '53', to: '15', title: 'é', texto: 'é' },
-    { from: '53', to: '16', title: 'é', texto: 'é' },
-    { from: '53', to: '61', title: 'é', texto: 'é' },
-    { from: '53', to: '201', title: 'é', texto: 'é' },
-    { from: '53', to: '202', title: 'é', texto: 'é' },
-    { from: '53', to: '209', title: 'é', texto: 'é' },
-    { from: '53', to: '210', title: 'é', texto: 'é' },
-    { from: '53', to: '211', title: 'é', texto: 'é' },
-    { from: '53', to: '212', title: 'é', texto: 'é' },
-    { from: '53', to: '213', title: 'é', texto: 'é' },
-    { from: '53', to: '235', title: 'é', texto: 'é' },
-    { from: '53', to: '55', title: 'é', texto: 'é' },
-    { from: '53', to: '410', title: 'é', texto: 'é' },
-    { from: '53', to: '415', title: 'é', texto: 'é' },
-    { from: '53', to: '421', title: 'é', texto: 'é' },
-    { from: '53', to: '425', title: 'é', texto: 'é' },
-    { from: '53', to: '429', title: 'é', texto: 'é' },
-    { from: '53', to: '430', title: 'é', texto: 'é' },
-    { from: '53', to: '433', title: 'é', texto: 'é' },
-    { from: '53', to: '444', title: 'é', texto: 'é' },
-    { from: '53', to: '456', title: 'é', texto: 'é' },
-    { from: '53', to: '600', title: 'é', texto: 'é' },
-    { from: '53', to: '601', title: 'é', texto: 'é' },
-    { from: '53', to: '604', title: 'é', texto: 'é' },
-    { from: '53', to: '605', title: 'é', texto: 'é' },
-    { from: '53', to: '608', title: 'é', texto: 'é' },
-    { from: '53', to: '610', title: 'é', texto: 'é' },
-    { from: '53', to: '611', title: 'é', texto: 'é' },
-    { from: '53', to: '612', title: 'é', texto: 'é' },
-    { from: '53', to: '614', title: 'é', texto: 'é' },
-    { from: '53', to: '616', title: 'é', texto: 'é' },
-    { from: '53', to: '617', title: 'é', texto: 'é' },
-    { from: '53', to: '619', title: 'é', texto: 'é' },
-    { from: '53', to: '621', title: 'é', texto: 'é' },
-    { from: '53', to: '623', title: 'é', texto: 'é' },
-    { from: '53', to: '627', title: 'é', texto: 'é' },
-    { from: '53', to: '629', title: 'é', texto: 'é' },
-    { from: '53', to: '633', title: 'é', texto: 'é' },
-    { from: '53', to: '639', title: 'é', texto: 'é' },
-    { from: '53', to: '640', title: 'é', texto: 'é' },
-    { from: '53', to: '642', title: 'é', texto: 'é' },
-    { from: '53', to: '645', title: 'é', texto: 'é' },
-    { from: '53', to: '646', title: 'é', texto: 'é' },
-    { from: '53', to: '648', title: 'é', texto: 'é' },
-    { from: '53', to: '650', title: 'é', texto: 'é' },
-    { from: '53', to: '651', title: 'é', texto: 'é' },
-    { from: '53', to: '653', title: 'é', texto: 'é' },
-    { from: '53', to: '654', title: 'é', texto: 'é' },
-    { from: '53', to: '656', title: 'é', texto: 'é' },
-    { from: '53', to: '659', title: 'é', texto: 'é' },
-    { from: '53', to: '662', title: 'é', texto: 'é' },
-    { from: '53', to: '668', title: 'é', texto: 'é' },
-    { from: '53', to: '669', title: 'é', texto: 'é' },
-    { from: '53', to: '671', title: 'é', texto: 'é' },
-    { from: '53', to: '673', title: 'é', texto: 'é' },
-    { from: '53', to: '675', title: 'é', texto: 'é' },
-    { from: '53', to: '676', title: 'é', texto: 'é' },
-    { from: '53', to: '681', title: 'é', texto: 'é' },
-    { from: '53', to: '682', title: 'é', texto: 'é' },
-    { from: '53', to: '683', title: 'é', texto: 'é' },
-    { from: '53', to: '688', title: 'é', texto: 'é' },
-    { from: '53', to: '689', title: 'é', texto: 'é' },
-    { from: '53', to: '692', title: 'é', texto: 'é' },
-    { from: '53', to: '693', title: 'é', texto: 'é' },
-    { from: '53', to: '695', title: 'é', texto: 'é' },
-    { from: '53', to: '697', title: 'é', texto: 'é' },
-    { from: '53', to: '699', title: 'é', texto: 'é' },
-    { from: '53', to: '700', title: 'é', texto: 'é' },
-    { from: '53', to: '706', title: 'é', texto: 'é' },
-    { from: '53', to: '710', title: 'é', texto: 'é' },
-    { from: '53', to: '711', title: 'é', texto: 'é' },
-    { from: '53', to: '712', title: 'é', texto: 'é' },
-    { from: '53', to: '713', title: 'é', texto: 'é' },
-    { from: '53', to: '715', title: 'é', texto: 'é' },
-    { from: '53', to: '720', title: 'é', texto: 'é' },
+    { from: '53', to: '4', texto: 'é' },
+    { from: '53', to: '76', texto: 'é' },
+    { from: '53', to: '8', texto: 'é' },
+    { from: '53', to: '9', texto: 'é' },
+    { from: '53', to: '14', texto: 'é' },
+    { from: '53', to: '15', texto: 'é' },
+    { from: '53', to: '16', texto: 'é' },
+    { from: '53', to: '61', texto: 'é' },
+    { from: '53', to: '201', texto: 'é' },
+    { from: '53', to: '202', texto: 'é' },
+    { from: '53', to: '209', texto: 'é' },
+    { from: '53', to: '210', texto: 'é' },
+    { from: '53', to: '211', texto: 'é' },
+    { from: '53', to: '212', texto: 'é' },
+    { from: '53', to: '213', texto: 'é' },
+    { from: '53', to: '235', texto: 'é' },
+    { from: '53', to: '55', texto: 'é' },
+    { from: '53', to: '410', texto: 'é' },
+    { from: '53', to: '415', texto: 'é' },
+    { from: '53', to: '421', texto: 'é' },
+    { from: '53', to: '425', texto: 'é' },
+    { from: '53', to: '429', texto: 'é' },
+    { from: '53', to: '430', texto: 'é' },
+    { from: '53', to: '433', texto: 'é' },
+    { from: '53', to: '444', texto: 'é' },
+    { from: '53', to: '456', texto: 'é' },
+    { from: '53', to: '600', texto: 'é' },
+    { from: '53', to: '601', texto: 'é' },
+    { from: '53', to: '604', texto: 'é' },
+    { from: '53', to: '605', texto: 'é' },
+    { from: '53', to: '608', texto: 'é' },
+    { from: '53', to: '610', texto: 'é' },
+    { from: '53', to: '611', texto: 'é' },
+    { from: '53', to: '612', texto: 'é' },
+    { from: '53', to: '614', texto: 'é' },
+    { from: '53', to: '616', texto: 'é' },
+    { from: '53', to: '617', texto: 'é' },
+    { from: '53', to: '619', texto: 'é' },
+    { from: '53', to: '621', texto: 'é' },
+    { from: '53', to: '623', texto: 'é' },
+    { from: '53', to: '627', texto: 'é' },
+    { from: '53', to: '629', texto: 'é' },
+    { from: '53', to: '633', texto: 'é' },
+    { from: '53', to: '639', texto: 'é' },
+    { from: '53', to: '640', texto: 'é' },
+    { from: '53', to: '642', texto: 'é' },
+    { from: '53', to: '645', texto: 'é' },
+    { from: '53', to: '646', texto: 'é' },
+    { from: '53', to: '648', texto: 'é' },
+    { from: '53', to: '650', texto: 'é' },
+    { from: '53', to: '651', texto: 'é' },
+    { from: '53', to: '653', texto: 'é' },
+    { from: '53', to: '654', texto: 'é' },
+    { from: '53', to: '656', texto: 'é' },
+    { from: '53', to: '659', texto: 'é' },
+    { from: '53', to: '662', texto: 'é' },
+    { from: '53', to: '668', texto: 'é' },
+    { from: '53', to: '669', texto: 'é' },
+    { from: '53', to: '671', texto: 'é' },
+    { from: '53', to: '673', texto: 'é' },
+    { from: '53', to: '675', texto: 'é' },
+    { from: '53', to: '676', texto: 'é' },
+    { from: '53', to: '681', texto: 'é' },
+    { from: '53', to: '682', texto: 'é' },
+    { from: '53', to: '683', texto: 'é' },
+    { from: '53', to: '688', texto: 'é' },
+    { from: '53', to: '689', texto: 'é' },
+    { from: '53', to: '692', texto: 'é' },
+    { from: '53', to: '693', texto: 'é' },
+    { from: '53', to: '695', texto: 'é' },
+    { from: '53', to: '697', texto: 'é' },
+    { from: '53', to: '699', texto: 'é' },
+    { from: '53', to: '700', texto: 'é' },
+    { from: '53', to: '706', texto: 'é' },
+    { from: '53', to: '710', texto: 'é' },
+    { from: '53', to: '711', texto: 'é' },
+    { from: '53', to: '712', texto: 'é' },
+    { from: '53', to: '713', texto: 'é' },
+    { from: '53', to: '715', texto: 'é' },
+    { from: '53', to: '720', texto: 'é' },
+    { from: '53', to: '721', texto: 'é' },
+    { from: '53', to: '722', texto: 'é' },
+    { from: '53', to: '723', texto: 'é' },
 
-    // Festas
-	
-    { from: '58', to: '609', title: 'é', texto: 'é' },
-    { from: '58', to: '631', title: 'é', texto: 'é' },
-    { from: '58', to: '632', title: 'é', texto: 'é' },
-    { from: '58', to: '638', title: 'é', texto: 'é' },
-    { from: '58', to: '644', title: 'é', texto: 'é' },
-    { from: '58', to: '680', title: 'é', texto: 'é' },
-	
-	 // arcanjo
-	 
-    { from: '1005', to: '439', title: 'é', texto: 'é' },
-    { from: '1005', to: '603', title: 'é', texto: 'é' },
-    { from: '1005', to: '685', title: 'é', texto: 'é' },
-	
-	{ from: '54', to: '55',  title: 'é', texto: 'é' }, // S. João Evangelista
-    { from: '54', to: '115', title: 'é', texto: 'é' }, // S. Mateus Evangelista
-    { from: '54', to: '453', title: 'é', texto: 'é' }, // S. Marcos Evangelista
-	
-	// Profeta (848)
-    { from: '848', to: '71', title: 'é', texto: 'é' }, // S. João Batista
+    // Penitente (1053)
+    { from: '1053', to: '215', texto: 'é' },
 
-	// Apóstolos (849)
-    { from: '849', to: '2',   title: 'é', texto: 'é' }, // S. Pedro
-    { from: '849', to: '3',   title: 'é', texto: 'é' }, // S. Paulo
-    { from: '849', to: '110', title: 'é', texto: 'é' }, // S. André
-    { from: '849', to: '111', title: 'é', texto: 'é' }, // S. Tiago Maior
-    { from: '849', to: '55',  title: 'é', texto: 'é' }, // S. João
-    { from: '849', to: '112', title: 'é', texto: 'é' }, // S. Filipe
-    { from: '849', to: '113', title: 'é', texto: 'é' }, // S. Bartolomeu
-    { from: '849', to: '114', title: 'é', texto: 'é' }, // S. Tomé
-    { from: '849', to: '115', title: 'é', texto: 'é' }, // S. Mateus
-    { from: '849', to: '116', title: 'é', texto: 'é' }, // S. Tiago Menor
-    { from: '849', to: '117', title: 'é', texto: 'é' }, // S. Tadeu
-    { from: '849', to: '118', title: 'é', texto: 'é' }, // S. Simão
-    { from: '849', to: '86',  title: 'é', texto: 'é' }, // S. Matias
-	
-    //  CALENDÁRIO -> SANTOS 
+    // Festas e Marianos (58)
+    { from: '58', to: '424', texto: 'é' },
+    { from: '58', to: '440', texto: 'é' },
+    { from: '58', to: '441', texto: 'é' },
+    { from: '58', to: '609', texto: 'é' },
+    { from: '58', to: '631', texto: 'é' },
+    { from: '58', to: '632', texto: 'é' },
+    { from: '58', to: '638', texto: 'é' },
+    { from: '58', to: '644', texto: 'é' },
+    { from: '58', to: '680', texto: 'é' },
+
+    // Arcanjos (1005)
+    { from: '1005', to: '439', texto: 'é' },
+    { from: '1005', to: '603', texto: 'é' },
+    { from: '1005', to: '685', texto: 'é' },
+
+    // Evangelistas (54)
+    { from: '54', to: '55',  texto: 'é' },
+    { from: '54', to: '115', texto: 'é' },
+    { from: '54', to: '453', texto: 'é' },
+    { from: '54', to: '680', texto: 'é' },
+
+    // Profeta (848)
+    { from: '848', to: '71', texto: 'é' },
+
+    // Apóstolos (849)
+    { from: '849', to: '2',   texto: 'é' },
+    { from: '849', to: '3',   texto: 'é' },
+    { from: '849', to: '110', texto: 'é' },
+    { from: '849', to: '111', texto: 'é' },
+    { from: '849', to: '55',  texto: 'é' },
+    { from: '849', to: '112', texto: 'é' },
+    { from: '849', to: '113', texto: 'é' },
+    { from: '849', to: '114', texto: 'é' },
+    { from: '849', to: '115', texto: 'é' },
+    { from: '849', to: '116', texto: 'é' },
+    { from: '849', to: '117', texto: 'é' },
+    { from: '849', to: '118', texto: 'é' },
+    { from: '849', to: '86',  texto: 'é' },
+
+    // ==========================================
+    // 2. CALENDÁRIO LITÚRGICO (Meses -> Santos)
+    // ==========================================
     // Janeiro (70)
     { from: '70', to: '400', texto: 'Dia 11' },
     { from: '70', to: '401', texto: 'Dia 14' },
@@ -1078,7 +1075,7 @@ var todosSetas = [
     { from: '70', to: '404', texto: 'Dia 16' },
     { from: '70', to: '74',  texto: 'Dia 17' },
     { from: '70', to: '2',   texto: 'Cátedra Roma (18)' },
-    { from: '70', to: '3',   texto: 'Dia 18' },
+    { from: '70', to: '3',   texto: 'Conversão (25)' },
     { from: '70', to: '405', texto: 'Dia 18' },
     { from: '70', to: '406', texto: 'Dia 19' },
     { from: '70', to: '407', texto: 'Dia 19' },
@@ -1089,11 +1086,9 @@ var todosSetas = [
     { from: '70', to: '410', texto: 'Dia 23' },
     { from: '70', to: '411', texto: 'Dia 23' },
     { from: '70', to: '412', texto: 'Dia 24' },
-    { from: '70', to: '3',   texto: 'Conversão (25)' },
     { from: '70', to: '413', texto: 'Dia 26' },
     { from: '70', to: '414', texto: 'Dia 27' },
     { from: '70', to: '415', texto: 'Dia 28' },
-    { from: '70', to: '73',  texto: 'Secundo (28)' },
     { from: '70', to: '75',  texto: 'Dia 29' },
     { from: '70', to: '416', texto: 'Dia 30' },
     { from: '70', to: '61',  texto: 'Dia 31' },
@@ -1117,7 +1112,7 @@ var todosSetas = [
     { from: '80', to: '427', texto: 'Dia 18' },
     { from: '80', to: '2',   texto: 'Cátedra Antioquia (22)' },
     { from: '80', to: '428', texto: 'Dia 23' },
-    { from: '80', to: '86',  texto: 'Dia 24 (ou 23)' },
+    { from: '80', to: '86',  texto: 'Dia 24' },
     { from: '80', to: '429', texto: 'Dia 27' },
 
     // Março (90)
@@ -1146,8 +1141,8 @@ var todosSetas = [
     { from: '91', to: '447', texto: 'Dia 14' },
     { from: '91', to: '448', texto: 'Dia 14' },
     { from: '91', to: '449', texto: 'Dia 17' },
+    { from: '91', to: '724', texto: 'Dia 20' },
     { from: '91', to: '450', texto: 'Dia 21' },
-    { from: '91', to: '4',   texto: 'Dia 22' },
     { from: '91', to: '451', texto: 'Dia 22' },
     { from: '91', to: '7',   texto: 'Dia 23' },
     { from: '91', to: '452', texto: 'Dia 24' },
@@ -1160,24 +1155,20 @@ var todosSetas = [
     { from: '91', to: '459', texto: 'Dia 30' },
 
     // Maio (92)
-    { from: '92', to: '64',  texto: 'Dia 4' },
-    { from: '92', to: '112', texto: 'Dia 11' },
-    { from: '92', to: '116', texto: 'Dia 11' },
-    { from: '92', to: '67',  texto: 'Dia 22' },
-    { from: '92', to: '112', texto: 'Dia 1' },
-    { from: '92', to: '116', texto: 'Dia 1' },
     { from: '92', to: '600', texto: 'Dia 2' },
+    { from: '92', to: '64',  texto: 'Dia 4' },
     { from: '92', to: '601', texto: 'Dia 5' },
-    { from: '92', to: '55', texto: 'Dia 6' },
+    { from: '92', to: '55',  texto: 'Dia 6' },
     { from: '92', to: '602', texto: 'Dia 7' },
     { from: '92', to: '603', texto: 'Dia 8' },
     { from: '92', to: '604', texto: 'Dia 9' },
     { from: '92', to: '605', texto: 'Dia 10' },
     { from: '92', to: '606', texto: 'Dia 10' },
+    { from: '92', to: '112', texto: 'Dia 11' },
+    { from: '92', to: '116', texto: 'Dia 11' },
     { from: '92', to: '607', texto: 'Dia 12' },
     { from: '92', to: '608', texto: 'Dia 13' },
     { from: '92', to: '609', texto: 'Dia 13' },
-    { from: '92', to: '224', texto: 'Dia 14' },
     { from: '92', to: '610', texto: 'Dia 15' },
     { from: '92', to: '611', texto: 'Dia 16' },
     { from: '92', to: '612', texto: 'Dia 17' },
@@ -1185,6 +1176,7 @@ var todosSetas = [
     { from: '92', to: '614', texto: 'Dia 19' },
     { from: '92', to: '615', texto: 'Dia 19' },
     { from: '92', to: '616', texto: 'Dia 20' },
+    { from: '92', to: '67',  texto: 'Dia 22' },
     { from: '92', to: '617', texto: 'Dia 25' },
     { from: '92', to: '618', texto: 'Dia 25' },
     { from: '92', to: '619', texto: 'Dia 26' },
@@ -1225,6 +1217,7 @@ var todosSetas = [
     { from: '94', to: '200', texto: 'Dia 3' },
     { from: '94', to: '201', texto: 'Dia 5' },
     { from: '94', to: '202', texto: 'Dia 7' },
+    { from: '94', to: '803', texto: 'Dia 8' },
     { from: '94', to: '204', texto: 'Dia 10' },
     { from: '94', to: '205', texto: 'Dia 11' },
     { from: '94', to: '206', texto: 'Dia 12' },
@@ -1238,6 +1231,7 @@ var todosSetas = [
     { from: '94', to: '214', texto: 'Dia 21' },
     { from: '94', to: '215', texto: 'Dia 22' },
     { from: '94', to: '216', texto: 'Dia 23' },
+    { from: '94', to: '721', texto: 'Dia 23' },
     { from: '94', to: '217', texto: 'Dia 24' },
     { from: '94', to: '111', texto: 'Dia 25' },
     { from: '94', to: '218', texto: 'Dia 26' },
@@ -1248,52 +1242,53 @@ var todosSetas = [
     { from: '94', to: '14',  texto: 'Dia 31' },
 
     // Agosto (95)
-    { from: '95', to: '9',   texto: 'Dia 4' },
-    { from: '95', to: '16',  texto: 'Dia 9' },
-    { from: '95', to: '11',  texto: 'Dia 12' },
-    { from: '95', to: '66',  texto: 'Dia 20' },
-    { from: '95', to: '113', texto: 'Dia 24' },
-    { from: '95', to: '5',   texto: 'Dia 28' },
-    { from: '95', to: '2', texto: 'Dia 1 (Acorrentado)' },
+    { from: '95', to: '2',   texto: 'Dia 1' },
     { from: '95', to: '629', texto: 'Dia 2' },
     { from: '95', to: '630', texto: 'Dia 3' },
+    { from: '95', to: '9',   texto: 'Dia 4' },
     { from: '95', to: '631', texto: 'Dia 5' },
     { from: '95', to: '632', texto: 'Dia 6' },
     { from: '95', to: '633', texto: 'Dia 7' },
     { from: '95', to: '634', texto: 'Dia 8' },
+    { from: '95', to: '16',  texto: 'Dia 9' },
     { from: '95', to: '635', texto: 'Dia 10' },
     { from: '95', to: '636', texto: 'Dia 11' },
+    { from: '95', to: '11',  texto: 'Dia 12' },
     { from: '95', to: '637', texto: 'Dia 13' },
     { from: '95', to: '638', texto: 'Dia 15' },
     { from: '95', to: '639', texto: 'Dia 16' },
     { from: '95', to: '640', texto: 'Dia 17' },
     { from: '95', to: '641', texto: 'Dia 18' },
     { from: '95', to: '642', texto: 'Dia 19' },
+    { from: '95', to: '66',  texto: 'Dia 20' },
     { from: '95', to: '643', texto: 'Dia 21' },
     { from: '95', to: '644', texto: 'Dia 22' },
     { from: '95', to: '645', texto: 'Dia 23' },
+    { from: '95', to: '113', texto: 'Dia 24' },
     { from: '95', to: '646', texto: 'Dia 25' },
     { from: '95', to: '647', texto: 'Dia 26' },
     { from: '95', to: '648', texto: 'Dia 27' },
-    { from: '95', to: '71', texto: 'Dia 29' },
+    { from: '95', to: '5',   texto: 'Dia 28' },
+    { from: '95', to: '71',  texto: 'Dia 29' },
     { from: '95', to: '649', texto: 'Dia 30' },
     { from: '95', to: '650', texto: 'Dia 31' },
 
     // Setembro (96)
-    { from: '96', to: '19',  texto: 'Dia 3' },
-    { from: '96', to: '115', texto: 'Dia 21' },
     { from: '96', to: '651', texto: 'Dia 1' },
     { from: '96', to: '652', texto: 'Dia 1' },
     { from: '96', to: '653', texto: 'Dia 2' },
+    { from: '96', to: '19',  texto: 'Dia 3' },
     { from: '96', to: '654', texto: 'Dia 5' },
     { from: '96', to: '655', texto: 'Dia 9' },
     { from: '96', to: '656', texto: 'Dia 10' },
     { from: '96', to: '657', texto: 'Dia 11' },
     { from: '96', to: '658', texto: 'Dia 16' },
-    { from: '96', to: '8', texto: 'Dia 17' },
+    { from: '96', to: '8',   texto: 'Dia 17' },
+    { from: '96', to: '723', texto: 'Dia 18' },
     { from: '96', to: '659', texto: 'Dia 18' },
     { from: '96', to: '660', texto: 'Dia 19' },
     { from: '96', to: '661', texto: 'Dia 20' },
+    { from: '96', to: '115', texto: 'Dia 21' },
     { from: '96', to: '662', texto: 'Dia 22' },
     { from: '96', to: '663', texto: 'Dia 22' },
     { from: '96', to: '664', texto: 'Dia 23' },
@@ -1304,12 +1299,9 @@ var todosSetas = [
     { from: '96', to: '668', texto: 'Dia 30' },
 
     // Outubro (97)
+    { from: '97', to: '669', texto: 'Dia 1' },
     { from: '97', to: '17',  texto: 'Dia 3' },
     { from: '97', to: '8',   texto: 'Dia 4' },
-    { from: '97', to: '12',  texto: 'Dia 15' },
-    { from: '97', to: '117', texto: 'Dia 28' },
-    { from: '97', to: '118', texto: 'Dia 28' },
-    { from: '97', to: '669', texto: 'Dia 1' },
     { from: '97', to: '670', texto: 'Dia 5' },
     { from: '97', to: '671', texto: 'Dia 6' },
     { from: '97', to: '672', texto: 'Dia 8' },
@@ -1318,6 +1310,7 @@ var todosSetas = [
     { from: '97', to: '675', texto: 'Dia 10' },
     { from: '97', to: '676', texto: 'Dia 13' },
     { from: '97', to: '677', texto: 'Dia 14' },
+    { from: '97', to: '12',  texto: 'Dia 15' },
     { from: '97', to: '678', texto: 'Dia 16' },
     { from: '97', to: '679', texto: 'Dia 17' },
     { from: '97', to: '680', texto: 'Dia 18' },
@@ -1328,10 +1321,11 @@ var todosSetas = [
     { from: '97', to: '685', texto: 'Dia 24' },
     { from: '97', to: '686', texto: 'Dia 25' },
     { from: '97', to: '687', texto: 'Dia 26' },
+    { from: '97', to: '117', texto: 'Dia 28' },
+    { from: '97', to: '118', texto: 'Dia 28' },
 
     // Novembro (98)
-    { from: '98', to: '13',  texto: 'Dia 24' },
-    { from: '98', to: '110', texto: 'Dia 30' },
+    { from: '98', to: '722', texto: 'Dia 3' },
     { from: '98', to: '688', texto: 'Dia 4' },
     { from: '98', to: '689', texto: 'Dia 6' },
     { from: '98', to: '690', texto: 'Dia 8' },
@@ -1344,23 +1338,24 @@ var todosSetas = [
     { from: '98', to: '697', texto: 'Dia 15' },
     { from: '98', to: '698', texto: 'Dia 16' },
     { from: '98', to: '699', texto: 'Dia 17' },
-    { from: '98', to: '2', texto: 'Dia 18' },
-    { from: '98', to: '3', texto: 'Dia 18' },
+    { from: '98', to: '2',   texto: 'Dia 18' },
+    { from: '98', to: '3',   texto: 'Dia 18' },
+    { from: '98', to: '203', texto: 'Dia 19' },
     { from: '98', to: '700', texto: 'Dia 20' },
     { from: '98', to: '701', texto: 'Dia 22' },
     { from: '98', to: '702', texto: 'Dia 23' },
     { from: '98', to: '703', texto: 'Dia 23' },
+    { from: '98', to: '13',  texto: 'Dia 24' },
     { from: '98', to: '704', texto: 'Dia 24' },
     { from: '98', to: '705', texto: 'Dia 25' },
     { from: '98', to: '706', texto: 'Dia 26' },
     { from: '98', to: '707', texto: 'Dia 26' },
     { from: '98', to: '708', texto: 'Dia 29' },
+    { from: '98', to: '110', texto: 'Dia 30' },
 
     // Dezembro (99)
-    { from: '99', to: '15',  texto: 'Dia 3' },
-    { from: '99', to: '114', texto: 'Dia 21' },
-    { from: '99', to: '55',  texto: 'Dia 27' },
     { from: '99', to: '709', texto: 'Dia 2' },
+    { from: '99', to: '15',  texto: 'Dia 3' },
     { from: '99', to: '710', texto: 'Dia 4' },
     { from: '99', to: '711', texto: 'Dia 5' },
     { from: '99', to: '712', texto: 'Dia 6' },
@@ -1369,796 +1364,598 @@ var todosSetas = [
     { from: '99', to: '715', texto: 'Dia 11' },
     { from: '99', to: '716', texto: 'Dia 13' },
     { from: '99', to: '717', texto: 'Dia 16' },
-    { from: '99', to: '114', texto: 'Dia 19' },
+    { from: '99', to: '114', texto: 'Dia 21' },
     { from: '99', to: '630', texto: 'Dia 26' },
+    { from: '99', to: '55',  texto: 'Dia 27' },
     { from: '99', to: '718', texto: 'Dia 28' },
     { from: '99', to: '719', texto: 'Dia 29' },
     { from: '99', to: '720', texto: 'Dia 31' },
 
-    //  SANTOS -> LOCAIS (REGRAS DE LIGAÇÃO CUMPRIDAS) 
-    { from: '4',   to: '130', title: 'nasceu em', texto: 'nasceu em' },
-    { from: '71',  to: '131', title: 'pregou em', texto: 'pregou em' },
-    { from: '2',   to: '26',  title: 'sede / martírio em', texto: 'sede / martírio em' },
-    { from: '3',   to: '26',  title: 'martirizado em', texto: 'martirizado em' },
-    { from: '55',  to: '132', title: 'atuou em', texto: 'atuou em' },
-    { from: '86',  to: '133', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '110', to: '155', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '111', to: '156', title: 'venerado em', texto: 'venerado em' },
-    { from: '112', to: '157', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '113', to: '158', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '114', to: '159', title: 'evangelizou', texto: 'evangelizou' },
-    { from: '115', to: '160', title: 'evangelizou', texto: 'evangelizou' },
-    { from: '116', to: '133', title: 'bispo de', texto: 'bispo de' },
-    { from: '117', to: '161', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '118', to: '161', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '228', to: '314', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '215', to: '133', title: 'testemunhou em', texto: 'testemunhou em' },
-    { from: '218', to: '130', title: 'venerada em', texto: 'venerada em' },
-// sta marta
-    { from: '221', to: '309', title: 'viveu em', texto: 'viveu em' },
-	{ from: '221', to: '1004', title: 'sepultada na', texto: 'sepultada na' },
-
-    { from: '73',  to: '26',  title: 'martirizada em', texto: 'martirizada em' },
-    { from: '72',  to: '26',  title: 'martirizado em', texto: 'martirizado em' },
-    { from: '7',   to: '134', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '76',  to: '135', title: 'viveu em', texto: 'viveu em' },
-    { from: '74',  to: '135', title: 'viveu em', texto: 'viveu em' },
-    { from: '64',  to: '136', title: 'morreu em', texto: 'morreu em' },
-    { from: '5',   to: '137', title: 'bispo de', texto: 'bispo de' },
-    { from: '81',  to: '138', title: 'bispo de', texto: 'bispo de' },
-    { from: '82',  to: '139', title: 'bispo de', texto: 'bispo de' },
-    { from: '83',  to: '140', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '84',  to: '26',  title: 'martirizado em', texto: 'martirizado em' },
-    { from: '204', to: '26',  title: 'martirizados em', texto: 'martirizados em' },
-    { from: '205', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '207', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '210', to: '26',  title: 'viveu em', texto: 'viveu em' },
-    { from: '214', to: '26',  title: 'martirizada em', texto: 'martirizada em' },
-    { from: '216', to: '310', title: 'bispo de', texto: 'bispo de' },
-    { from: '217', to: '307', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '219', to: '308', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '220', to: '300', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '222', to: '26',  title: 'martirizados em', texto: 'martirizados em' },
-    { from: '223', to: '26',  title: 'martirizados em', texto: 'martirizados em' },
-    { from: '226', to: '26',  title: 'martirizados em', texto: 'martirizados em' },
-    { from: '230', to: '140', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '233', to: '300', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '234', to: '26',  title: 'morreu em', texto: 'morreu em' },
-    { from: '237', to: '26',  title: 'martirizados em', texto: 'martirizados em' },
-    { from: '6',   to: '141', title: 'fundou em', texto: 'fundou em' },
-    { from: '85',  to: '141', title: 'viveu em', texto: 'viveu em' },
-    { from: '66',  to: '142', title: 'abade de', texto: 'abade de' },
-    { from: '8',   to: '143', title: 'nasceu em', texto: 'nasceu em' },
-    { from: '11',  to: '143', title: 'viveu em', texto: 'viveu em' },
-    { from: '9',   to: '144', title: 'morreu em', texto: 'morreu em' },
-    { from: '10',  to: '145', title: 'ensinou em', texto: 'ensinou em' },
-    { from: '65',  to: '146', title: 'morreu em', texto: 'morreu em' },
-    { from: '67',  to: '147', title: 'viveu em', texto: 'viveu em' },
-    { from: '200', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '202', to: '301', title: 'evangelizaram', texto: 'evangelizaram' },
-    { from: '203', to: '302', title: 'Princesa de', texto: 'Princesa de' },
-    { from: '803', to: '804', title: 'rainha de', texto: 'rainha de' },
-    { from: '206', to: '303', title: 'fundou em', texto: 'fundou em' },
-    { from: '208', to: '304', title: 'morreu em', texto: 'morreu em' },
-    { from: '209', to: '305', title: 'imperador de', texto: 'imperador de' },
-    { from: '224', to: '311', title: 'bispo de', texto: 'bispo de' },
-    { from: '225', to: '312', title: 'bispo de', texto: 'bispo de' },
-    { from: '227', to: '313', title: 'rainha de', texto: 'rainha de' },
-    { from: '229', to: '315', title: 'bispo de', texto: 'bispo de' },
-    { from: '231', to: '316', title: 'diácono de', texto: 'diácono de' },
-    { from: '232', to: '317', title: 'fundou em', texto: 'fundou em' },
-    { from: '236', to: '318', title: 'bispo de', texto: 'bispo de' },
-    { from: '238', to: '319', title: 'fundou em', texto: 'fundou em' },
-    { from: '239', to: '304', title: 'bispo de', texto: 'bispo de' },
-    { from: '14',  to: '26',  title: 'morreu em', texto: 'morreu em' },
-    { from: '15',  to: '148', title: 'missionou em', texto: 'missionou em' },
-    { from: '12',  to: '149', title: 'nasceu em', texto: 'nasceu em' },
-    { from: '13',  to: '150', title: 'morreu em', texto: 'morreu em' },
-    { from: '75',  to: '151', title: 'bispo de', texto: 'bispo de' },
-    { from: '201', to: '300', title: 'fundou em', texto: 'fundou em' },
-    { from: '211', to: '26',  title: 'morreu em', texto: 'morreu em' },
-    { from: '212', to: '320', title: 'atuou em', texto: 'atuou em' },
-    { from: '213', to: '306', title: 'fundou em', texto: 'fundou em' },
-    { from: '235', to: '26',  title: 'morreu em', texto: 'morreu em' },
-    { from: '16',  to: '152', title: 'pároco de', texto: 'pároco de' },
-    { from: '61',  to: '153', title: 'fundou em', texto: 'fundou em' },
-    { from: '17',  to: '154', title: 'viveu em', texto: 'viveu em' },
-    { from: '19',  to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '400', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '401', to: '500', title: 'bispo de', texto: 'bispo de' },
-    { from: '402', to: '318', title: 'atuou em', texto: 'atuou em' },
-    { from: '403', to: '501', title: 'abade em', texto: 'abade em' },
-    { from: '404', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '405', to: '26',  title: 'martirizada em', texto: 'martirizada em' },
-    { from: '406', to: '26',  title: 'martirizados em', texto: 'martirizados em' },
-    { from: '407', to: '502', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '408', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '409', to: '503', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '410', to: '504', title: 'atuou em', texto: 'atuou em' },
-    { from: '411', to: '26',  title: 'martirizada em', texto: 'martirizada em' },
-    { from: '412', to: '132', title: 'bispo de', texto: 'bispo de' },
-    { from: '413', to: '505', title: 'bispo de', texto: 'bispo de' },
-    { from: '414', to: '506', title: 'bispo de', texto: 'bispo de' },
-    { from: '415', to: '504', title: 'fundou em', texto: 'fundou em' },
-    { from: '416', to: '26',  title: 'martirizada em', texto: 'martirizada em' },
-    { from: '417', to: '507', title: 'bispo de', texto: 'bispo de' },
-    { from: '418', to: '508', title: 'bispo de', texto: 'bispo de' },
-    { from: '419', to: '315', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '420', to: '509', title: 'fundou em', texto: 'fundou em' },
-    { from: '421', to: '26',  title: 'morreu em', texto: 'morreu em' },
-    { from: '422', to: '510', title: 'bispo de', texto: 'bispo de' },
-    { from: '423', to: '510', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '424', to: '511', title: 'venerada em', texto: 'venerada em' },
-    { from: '425', to: '317', title: 'fundaram em', texto: 'fundaram em' },
-    { from: '426', to: '512', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '427', to: '133', title: 'bispo de', texto: 'bispo de' },
-    { from: '428', to: '513', title: 'abade de', texto: 'abade de' },
-    { from: '429', to: '514', title: 'morreu em', texto: 'morreu em' },
-    { from: '430', to: '515', title: 'morreu em', texto: 'morreu em' },
-    { from: '431', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '432', to: '516', title: 'martirizadas em', texto: 'martirizadas em' },
-    { from: '433', to: '517', title: 'fundou em', texto: 'fundou em' },
-    { from: '434', to: '26',  title: 'viveu em', texto: 'viveu em' },
-    { from: '435', to: '139', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '436', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '437', to: '518', title: 'evangelizou', texto: 'evangelizou' },
-    { from: '438', to: '133', title: 'bispo de', texto: 'bispo de' },
-    { from: '439', to: '26',  title: 'venerado em', texto: 'venerado em' },
-    { from: '440', to: '130', title: 'ocorreu em', texto: 'ocorreu em' },
-    { from: '441', to: '133', title: 'venerada em', texto: 'venerada em' },
-    { from: '442', to: '519', title: 'viveu em', texto: 'viveu em' },
-    { from: '443', to: '520', title: 'bispo de', texto: 'bispo de' },
-    { from: '444', to: '521', title: 'nasceu em', texto: 'nasceu em' },
-    { from: '445', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '446', to: '522', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '447', to: '26',  title: 'martirizado em', texto: 'martirizado em' },
-    { from: '448', to: '26',  title: 'martirizados em', texto: 'martirizados em' },
-    { from: '449', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '450', to: '523', title: 'bispo de', texto: 'bispo de' },
-    { from: '451', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '452', to: '524', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '453', to: '525', title: 'venerado em', texto: 'venerado em' },
-    { from: '454', to: '26',  title: 'sede em', texto: 'sede em' },
-    { from: '455', to: '526', title: 'morreu em', texto: 'morreu em' },
-    { from: '456', to: '26',  title: 'morreu em', texto: 'morreu em' },
-    { from: '457', to: '310', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '458', to: '300', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '459', to: '527', title: 'viveu em', texto: 'viveu em' },
-
-    // NOVOS SANTOS -> LOCAIS (Adicionado para não quebrar a regra de 100+ santos órfãos)
-    { from: '600', to: '510', title: 'bispo de', texto: 'bispo de' },
-    { from: '601', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '602', to: '515', title: 'bispo de', texto: 'bispo de' },
-    { from: '603', to: '26', title: 'venerado em', texto: 'venerado em' },
-    { from: '604', to: '506', title: 'bispo de', texto: 'bispo de' },
-    { from: '605', to: '317', title: 'bispo de', texto: 'bispo de' },
-    { from: '606', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '607', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '608', to: '26', title: 'viveu em', texto: 'viveu em' },
-    { from: '609', to: '801', title: 'apareceu em', texto: 'apareceu em' },
-    { from: '610', to: '320', title: 'fundou em', texto: 'fundou em' },
-    { from: '611', to: '26', title: 'viveu em', texto: 'viveu em' },
-    { from: '612', to: '521', title: 'viveu em', texto: 'viveu em' },
-    { from: '613', to: '26', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '614', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '615', to: '26', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '616', to: '527', title: 'viveu em', texto: 'viveu em' },
-    { from: '617', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '618', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '619', to: '26', title: 'atuou em', texto: 'atuou em' },
-    { from: '620', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '621', to: '523', title: 'viveu em', texto: 'viveu em' },
-    { from: '622', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '623', to: '523', title: 'bispo de', texto: 'bispo de' },
-    { from: '624', to: '317', title: 'viveu em', texto: 'viveu em' },
-    { from: '625', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '626', to: '320', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '627', to: '520', title: 'viveu em', texto: 'viveu em' },
-    { from: '628', to: '26', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '629', to: '145', title: 'fundou em', texto: 'fundou em' },
-    { from: '630', to: '133', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '631', to: '26', title: 'venerada em', texto: 'venerada em' },
-    { from: '632', to: '133', title: 'ocorreu em', texto: 'ocorreu em' },
-    { from: '633', to: '145', title: 'fundou em', texto: 'fundou em' },
-    { from: '634', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '635', to: '26', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '636', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '637', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '638', to: '133', title: 'ocorreu em', texto: 'ocorreu em' },
-    { from: '639', to: '130', title: 'viveu em', texto: 'viveu em' },
-    { from: '640', to: '515', title: 'evangelizou', texto: 'evangelizou' },
-    { from: '641', to: '26', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '642', to: '320', title: 'fundou em', texto: 'fundou em' },
-    { from: '643', to: '151', title: 'fundou em', texto: 'fundou em' },
-    { from: '644', to: '801', title: 'venerado em', texto: 'venerado em' },
-    { from: '645', to: '317', title: 'viveu em', texto: 'viveu em' },
-    { from: '646', to: '320', title: 'rei em', texto: 'rei em' },
-    { from: '647', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '648', to: '26', title: 'fundou em', texto: 'fundou em' },
-    { from: '649', to: '145', title: 'viveu em', texto: 'viveu em' },
-    { from: '650', to: '504', title: 'atuou em', texto: 'atuou em' },
-    { from: '651', to: '320', title: 'abade de', texto: 'abade de' },
-    { from: '652', to: '145', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '653', to: '301', title: 'rei em', texto: 'rei em' },
-    { from: '654', to: '525', title: 'bispo de', texto: 'bispo de' },
-    { from: '655', to: '308', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '656', to: '26', title: 'viveu em', texto: 'viveu em' },
-    { from: '657', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '658', to: '516', title: 'bispo/mártir em', texto: 'bispo/mártir em' },
-    { from: '659', to: '26', title: 'viveu em', texto: 'viveu em' },
-    { from: '660', to: '145', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '661', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '662', to: '521', title: 'bispo de', texto: 'bispo de' },
-    { from: '663', to: '151', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '664', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '665', to: '138', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '666', to: '138', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '667', to: '301', title: 'rei em', texto: 'rei em' },
-    { from: '668', to: '133', title: 'viveu em', texto: 'viveu em' },
-    { from: '669', to: '320', title: 'bispo de', texto: 'bispo de' },
-    { from: '670', to: '141', title: 'viveu em', texto: 'viveu em' },
-    { from: '671', to: '141', title: 'fundou em', texto: 'fundou em' },
-    { from: '672', to: '26', title: 'viveu em', texto: 'viveu em' },
-    { from: '673', to: '26', title: 'fundou em', texto: 'fundou em' },
-    { from: '674', to: '320', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '675', to: '26', title: 'viveu em', texto: 'viveu em' },
-    { from: '676', to: '523', title: 'rei em', texto: 'rei em' },
-    { from: '677', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '678', to: '301', title: 'viveu em', texto: 'viveu em' },
-    { from: '679', to: '320', title: 'viveu em', texto: 'viveu em' },
-    { from: '680', to: '138', title: 'viveu em', texto: 'viveu em' },
-    { from: '681', to: '149', title: 'viveu em', texto: 'viveu em' },
-    { from: '682', to: '515', title: 'viveu em', texto: 'viveu em' },
-    { from: '683', to: '133', title: 'viveu em', texto: 'viveu em' },
-    { from: '684', to: '311', title: 'martirizadas em', texto: 'martirizadas em' },
-    { from: '685', to: '130', title: 'venerado em', texto: 'venerado em' },
-    { from: '686', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '687', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '688', to: '300', title: 'bispo de', texto: 'bispo de' },
-    { from: '689', to: '320', title: 'viveu em', texto: 'viveu em' },
-    { from: '690', to: '26', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '691', to: '157', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '692', to: '145', title: 'viveu em', texto: 'viveu em' },
-    { from: '693', to: '800', title: 'bispo de', texto: 'bispo de' },
-    { from: '694', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '695', to: '503', title: 'viveu em', texto: 'viveu em' },
-    { from: '696', to: '515', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '697', to: '312', title: 'viveu em', texto: 'viveu em' },
-    { from: '698', to: '312', title: 'viveu em', texto: 'viveu em' },
-    { from: '699', to: '315', title: 'bispo de', texto: 'bispo de' },
-    { from: '700', to: '320', title: 'fundou em', texto: 'fundou em' },
-    { from: '701', to: '26', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '702', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '703', to: '26', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '704', to: '26', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '705', to: '510', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '706', to: '141', title: 'abade em', texto: 'abade em' },
-    { from: '707', to: '510', title: 'bispo de', texto: 'bispo de' },
-    { from: '708', to: '320', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '709', to: '26', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '710', to: '310', title: 'bispo de', texto: 'bispo de' },
-    { from: '711', to: '133', title: 'abade em', texto: 'abade em' },
-    { from: '712', to: '132', title: 'bispo de', texto: 'bispo de' },
-    { from: '713', to: '300', title: 'bispo de', texto: 'bispo de' },
-    { from: '714', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '715', to: '26', title: 'sede em', texto: 'sede em' },
-    { from: '716', to: '140', title: 'martirizada em', texto: 'martirizada em' },
-    { from: '717', to: '26', title: 'martirizado em', texto: 'martirizado em' },
-    { from: '718', to: '133', title: 'martirizados em', texto: 'martirizados em' },
-    { from: '719', to: '523', title: 'bispo / martirizado em', texto: 'bispo / martirizado em' },
-    { from: '720', to: '26', title: 'sede em', texto: 'sede em' },
-
-    // CONGREGAÇÕES E OBRAS
-    { from: '6', to: '22', title: 'fundou a', texto: 'fundou a' },
-    { from: '85', to: '22', title: 'cofundou (ramo feminino)', texto: 'cofundou (ramo feminino)' },
-    { from: '22', to: '63', title: 'gerou o ramo', texto: 'gerou o ramo' },
-    { from: '8', to: '23', title: 'fundou a', texto: 'fundou a' },
-    { from: '9', to: '24', title: 'fundou a', texto: 'fundou a' },
-    { from: '14', to: '25', title: 'fundou a', texto: 'fundou a' },
-    { from: '12', to: '41', title: 'reformou o', texto: 'reformou o' },
-    { from: '61', to: '62', title: 'fundou a', texto: 'fundou a' },
-    
-    // Membros comuns (Dashed) as linhas tracejadas sao apenas aqui usadas
-	// nao tem carater negativo, apenas uma conexao menos forte
-	
-    { from: '66', to: '63', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '11', to: '23', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '65', to: '23', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '10', to: '24', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '15', to: '25', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '13', to: '41', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '17', to: '41', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '235', to: '25', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '410', to: '24', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '444', to: '24', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '455', to: '25', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '458', to: '24', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '459', to: '24', title: 'membro de', texto: 'membro de', dashes: true },
-    { from: '608', to: '25', title: 'membro da', texto: 'membro da', dashes: true },
-    { from: '675', to: '25', title: 'membro da', texto: 'membro da', dashes: true },
-    { from: '616', to: '23', title: 'membro da', texto: 'membro da', dashes: true },
-    { from: '681', to: '23', title: 'membro da', texto: 'membro da', dashes: true },
-    { from: '697', to: '24', title: 'membro da', texto: 'membro da', dashes: true },
-    { from: '624', to: '41', title: 'membro do', texto: 'membro do', dashes: true },
-
-    // Obras / Parentescos
-    { from: '10', to: '32', title: 'escreveu', texto: 'escreveu' },
-    { from: '14', to: '34', title: 'escreveu', texto: 'escreveu' },
-    { from: '12', to: '38', title: 'mestra de', texto: 'mestra de' },
-    { from: '13', to: '38', title: 'mestre de', texto: 'mestre de' },
-    { from: '64', to: '5', title: 'mãe de', texto: 'mãe de', dashes: true },
-    { from: '75', to: '61', title: 'inspirou patronato', texto: 'inspirou patronato', dashes: true },
-    { from: '85', to: '6', title: 'irmã de', texto: 'irmã de', dashes: true }, 
-	
-	
-	
-	
-	
-	
-	
-	
-	// ===
-    // SANTOS -> ORDENS RELIGIOSAS (Nível 7)
-    // ===
-    
-    // Ordem Agostiniana (850)
-    { from: '5', to: '850', title: 'inspirou / deu regra', texto: 'inspirou' }, // S. Agostinho
-    { from: '67', to: '850', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Rita
-    { from: '656', to: '850', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Nicolau de Tolentino
-    { from: '662', to: '850', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Tomás de Vilanova
-
-    // Ordem do Carmo (851)
-    { from: '417', to: '851', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. André Corsini
-    { from: '624', to: '851', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Maria Madalena de Pazzi
-
-    // Ordem Servita (852)
-    { from: '425', to: '852', title: 'fundaram', texto: 'fundaram' }, // 7 Fundadores Servitas
-    { from: '645', to: '852', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Filipe Benício
-
-    // Ordem Trinitária (853)
-    { from: '421', to: '853', title: 'fundou', texto: 'fundou' }, // S. João da Mata
-    { from: '700', to: '853', title: 'co-fundou', texto: 'co-fundou' }, // S. Félix de Valois
-
-    // Ordem Mercedária (854)
-    { from: '415', to: '854', title: 'fundou', texto: 'fundou' }, // S. Pedro Nolasco
-    { from: '650', to: '854', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Raimundo Nonato
-
-    // Família Vicentina (855)
-    { from: '212', to: '855', title: 'fundou', texto: 'fundou' }, // S. Vicente de Paulo
-
-    // Redentoristas (856)
-    { from: '629', to: '856', title: 'fundou', texto: 'fundou' }, // Sto. Afonso M. de Ligório
-
-    // Passionistas (857)
-    { from: '456', to: '857', title: 'fundou', texto: 'fundou' }, // S. Paulo da Cruz
-    { from: '429', to: '857', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Gabriel da V. Dolorosa
-
-    // Oratorianos (858)
-    { from: '619', to: '858', title: 'fundou', texto: 'fundou' }, // S. Felipe Néri
-
-    // Lassalistas (859)
-    { from: '610', to: '859', title: 'fundou', texto: 'fundou' }, // S. João Batista de La Salle
-
-    // Teatinos (860)
-    { from: '633', to: '860', title: 'fundou', texto: 'fundou' }, // S. Caetano
-    { from: '692', to: '860', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. André Avelino
-
-    // Camilianos (861)
-    { from: '211', to: '861', title: 'fundou', texto: 'fundou' }, // S. Camilo de Léllis
-
-    // Hospitaleiros (862)
-    { from: '433', to: '862', title: 'fundou', texto: 'fundou' }, // S. João de Deus
-
-    // Barnabitas (863)
-    { from: '201', to: '863', title: 'fundou', texto: 'fundou' }, // Sto. Antônio Zaccaria
-
-    // Escolápios (864)
-    { from: '648', to: '864', title: 'fundou', texto: 'fundou' }, // S. José de Calasanz
-
-    // Visitandinas (865)
-    { from: '75', to: '865', title: 'fundou', texto: 'fundou' }, // S. Francisco de Sales
-    { from: '643', to: '865', title: 'fundou', texto: 'fundou' }, // Sta. Joana Francisca de Chantal
-    { from: '679', to: '865', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Margarida Maria Alacoque
-
-    // Ordem Cartuxa (866)
-    { from: '671', to: '866', title: 'fundou', texto: 'fundou' }, // S. Bruno
-
-    // Premonstratenses (867)
-    { from: '225', to: '867', title: 'fundou', texto: 'fundou' }, // S. Norberto
-
-
-    // ===
-    // SANTOS -> OBRAS ESCRITAS / DOCUMENTOS (Nível 7)
-    // ===
-    
-    // Regras Monásticas
-    { from: '6', to: '900', title: 'escreveu', texto: 'escreveu' }, // S. Bento -> Regra de S. Bento
-    { from: '5', to: '901', title: 'escreveu', texto: 'escreveu' }, // S. Agostinho -> Regra de S. Agostinho
-    { from: '229', to: '902', title: 'escreveu', texto: 'escreveu' }, // S. Basílio Magno -> Regra de S. Basílio
-
-    // Espiritualidade e Mística
-    { from: '12', to: '903', title: 'escreveu', texto: 'escreveu' }, // Sta. Teresa d'Ávila -> Castelo Interior
-    { from: '13', to: '904', title: 'escreveu', texto: 'escreveu' }, // S. João da Cruz -> Noite Escura da Alma
-    { from: '17', to: '905', title: 'escreveu', texto: 'escreveu' }, // Sta. Teresinha -> História de uma Alma
-    { from: '75', to: '906', title: 'escreveu', texto: 'escreveu' }, // S. Francisco de Sales -> Introdução à Vida Devota
-    { from: '459', to: '907', title: 'ditou', texto: 'ditou' }, // Sta. Catarina de Sena -> O Diálogo
-    { from: '629', to: '908', title: 'escreveu', texto: 'escreveu' }, // Sto. Afonso M. de Ligório -> As Glórias de Maria
-    { from: '8', to: '909', title: 'compôs', texto: 'compôs' }, // S. Francisco -> Cântico das Criaturas
-
-    // Teologia, Filosofia e História
-    { from: '5', to: '910', title: 'escreveu', texto: 'escreveu' }, // S. Agostinho -> Confissões
-    { from: '5', to: '911', title: 'escreveu', texto: 'escreveu' }, // S. Agostinho -> A Cidade de Deus
-    { from: '668', to: '912', title: 'traduziu', texto: 'traduziu' }, // S. Jerônimo -> A Vulgata
-    { from: '239', to: '913', title: 'escreveu', texto: 'escreveu' }, // Sto. Irineu -> Contra as Heresias
-    { from: '208', to: '914', title: 'escreveu', texto: 'escreveu' }, // S. Boaventura -> Itinerário da Mente para Deus
-    { from: '450', to: '915', title: 'escreveu', texto: 'escreveu' }, // Sto. Anselmo -> Proslogion
-    { from: '436', to: '916', title: 'escreveu', texto: 'escreveu' }, // S. Gregório Magno -> Regra Pastoral
-    { from: '621', to: '917', title: 'escreveu', texto: 'escreveu' }, // S. Beda -> História Eclesiástica
-	
-	
-	
-	
-	
-	
-
-
-    // Nível 9
- 
-    //  FENÔMENOS MÍSTICOS 
-    // Corpos Incorruptos
-    { from: '16', to: '1000', title: 'possui', texto: 'possui' },   // S. João M. Vianney
-    { from: '688', to: '1000', title: 'possui', texto: 'possui' },  // S. Carlos Borromeu
-    { from: '424', to: '1000', title: 'possui', texto: 'possui' }, // N. Sra. de Lourdes (representando Sta. Bernadette)
-    { from: '67', to: '1000', title: 'possui', texto: 'possui' },  // Sta. Rita
-    { from: '16', to: '1000', title: 'possui', texto: 'possui' },  // S. João M. Vianney (Cura d'Ars)
-    { from: '624', to: '1000', title: 'possui', texto: 'possui' }, // Sta. Maria Madalena de Pazzi
-
-    // Estigmas
-    { from: '8', to: '1001', title: 'recebeu', texto: 'recebeu' }, // S. Francisco
-    { from: '459', to: '1001', title: 'recebeu (invisíveis)', texto: 'recebeu' }, // Sta. Catarina de Sena
-    { from: '67', to: '1001', title: 'chaga na testa', texto: 'chaga na testa' }, // Sta. Rita
-
-    // Bilocação
-    { from: '61', to: '1002', title: 'experimentou', texto: 'experimentou' }, // S. João Bosco
-    { from: '65', to: '1002', title: 'experimentou', texto: 'experimentou' }, // Sto. Antônio
-    { from: '619', to: '1002', title: 'experimentou', texto: 'experimentou' }, // S. Felipe Néri
-    { from: '629', to: '1002', title: 'experimentou', texto: 'experimentou' }, // Sto. Afonso
-
-    // Levitação
-    { from: '659', to: '1003', title: 'famoso por', texto: 'famoso por' }, // S. José de Cupertino
-    { from: '12', to: '1003', title: 'experimentou', texto: 'experimentou' }, // Sta. Teresa d'Ávila
-
-
-    //  RELÍQUIAS  
-    { from: '660', to: '1010', title: 'milagre do', texto: 'milagre do' }, // S. Januário -> Sangue
-    { from: '219', to: '1010', title: 'milagre do', texto: 'milagre do' }, // S. Pantaleão -> Sangue
-    { from: '212', to: '1011', title: 'possui', texto: 'possui' }, // S. Vicente de Paulo -> Coração Incorrupto
-    { from: '75', to: '1011', title: 'possui', texto: 'possui' }, // S. Francisco de Sales -> Coração Incorrupto
-    { from: '211', to: '1011', title: 'possui', texto: 'possui' }, // S. Camilo de Léllis -> Coração Incorrupto
-    { from: '65', to: '1012', title: 'possui', texto: 'possui' }, // Sto. Antônio -> Língua Intacta
-    { from: '459', to: '1013', title: 'preservada em Siena', texto: 'preservada' }, // Sta. Catarina de Sena -> Cabeça
-    { from: '71', to: '1013', title: 'venerada em Roma/Amiens', texto: 'venerada' }, // S. João Batista -> Cabeça
-    { from: '693', to: '1014', title: 'deixou o', texto: 'deixou o' }, // S. Martinho de Tours -> Manto
-    { from: '2', to: '1015', title: 'libertado das', texto: 'libertado das' }, // S. Pedro -> Correntes
-    { from: '660', to: '1002', title: 'milagre do', texto: 'milagre do' }, // S. Januário -> Sangue Liquefeito
-    { from: '219', to: '1002', title: 'milagre do', texto: 'milagre do' }, // S. Pantaleão -> Sangue Liquefeito
-    { from: '65', to: '1003', title: 'possui', texto: 'possui' }, // Sto. Antônio -> Língua Intacta
-	
-    //  SANTUÁRIOS E TÚMULOS 
-    { from: '2', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Pedro
-    { from: '445', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Leão Magno
-    { from: '436', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Gregório Magno
-    { from: '19', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Pio X
-    { from: '111', to: '1021', title: 'sepultado na', texto: 'sepultado na' }, // S. Tiago Maior -> Santiago
-    { from: '8', to: '1022', title: 'sepultado na', texto: 'sepultado na' }, // S. Francisco -> Assis
-    { from: '11', to: '1022', title: 'sepultada na', texto: 'sepultada na' }, // Sta. Clara -> Assis
-    { from: '65', to: '1023', title: 'sepultado na', texto: 'sepultado na' }, // Sto. Antônio -> Pádua
-    { from: '3', to: '1024', title: 'sepultado na', texto: 'sepultado na' }, // S. Paulo
-    { from: '16', to: '1025', title: 'sepultado no', texto: 'sepultado no' }, // S. João Vianney -> Ars
-    { from: '17', to: '1026', title: 'sepultada na', texto: 'sepultada na' }, // Sta. Teresinha -> Lisieux
-    { from: '2', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Pedro -> Basílica de S. Pedro
-    { from: '200', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Leão II (e vários papas)
-    { from: '436', to: '1020', title: 'sepultado na', texto: 'sepultado na' }, // S. Gregório Magno
-    { from: '111', to: '1021', title: 'sepultado na', texto: 'sepultado na' }, // S. Tiago Maior -> Santiago de Compostela
-    { from: '8', to: '1006', title: 'sepultado na', texto: 'sepultado na' },   // S. Francisco -> Basílica de Assis
-    { from: '65', to: '1007', title: 'sepultado na', texto: 'sepultado na' },  // Sto. Antônio -> Basílica de Pádua
-
-
-    //  ICONOGRAFIA
-    { from: '2', to: '1030', title: 'representado por', texto: 'representado por' }, // S. Pedro -> Chaves
-    { from: '3', to: '1031', title: 'representado por', texto: 'representado por' }, // S. Paulo -> Espada
-    { from: '626', to: '1031', title: 'representada por', texto: 'representada por' }, // Sta. Joana d'Arc -> Espada
-    { from: '4', to: '1032', title: 'representado por', texto: 'representado por' }, // S. José -> Lírio
-    { from: '65', to: '1032', title: 'representado por', texto: 'representado por' }, // Sto. Antônio -> Lírio
-    { from: '235', to: '1032', title: 'representado por', texto: 'representado por' }, // S. Luís Gonzaga -> Lírio
-    { from: '17', to: '1033', title: 'representada por', texto: 'representada por' }, // Sta. Teresinha -> Rosas
-    { from: '649', to: '1033', title: 'representada por', texto: 'representada por' }, // Sta. Rosa de Lima -> Rosas
-    { from: '419', to: '1033', title: 'representada por', texto: 'representada por' }, // Sta. Dorotéia -> Rosas
-    { from: '668', to: '1034', title: 'representado por', texto: 'representado por' }, // S. Jerônimo -> Caveira
-    { from: '675', to: '1034', title: 'representado por', texto: 'representado por' }, // S. Francisco de Borja -> Caveira
-    { from: '215', to: '1034', title: 'representada por', texto: 'representada por' }, // Sta. Maria Madalena -> Caveira
-    { from: '5', to: '1035', title: 'representado por', texto: 'representado por' }, // S. Agostinho -> Livro
-    { from: '10', to: '1035', title: 'representado por', texto: 'representado por' }, // S. Tomás de Aquino -> Livro
-    { from: '9', to: '1035', title: 'representado por', texto: 'representado por' }, // S. Domingos -> Livro
-    { from: '115', to: '1035', title: 'representado por', texto: 'representado por' }, // S. Mateus -> Livro (Evangelho)
-	
-    { from: '7', to: '1036', title: 'venceu o', texto: 'venceu o' }, // S. Jorge -> Dragão
-    { from: '603', to: '1036', title: 'venceu o', texto: 'venceu o' }, // S. Miguel -> Dragão
-    { from: '227', to: '1036', title: 'venceu o', texto: 'venceu o' }, // Sta. Margarida -> Dragão
-    { from: '221', to: '1036', title: 'subjugou o dragão Tarasca', texto: 'venceu o' }, // Sta. Margarida -> Dragão
-	
-    { from: '72', to: '1037', title: 'martirizado por', texto: 'martirizado por' }, // S. Sebastião -> Flechas
-    { from: '684', to: '1037', title: 'martirizada por', texto: 'martirizada por' }, // Sta. Úrsula -> Flechas
-    { from: '635', to: '1038', title: 'martirizado na', texto: 'martirizado na' }, // S. Lourenço -> Grelha
-    { from: '71', to: '1039', title: 'representado por', texto: 'representado por' }, // S. João Batista -> Cordeiro
-    { from: '73', to: '1039', title: 'representada por', texto: 'representada por' }, // Sta. Inês -> Cordeiro
-    { from: '716', to: '1040', title: 'representada por', texto: 'representada por' }, // Sta. Luzia -> Olhos
-    { from: '83', to: '1041', title: 'representada por', texto: 'representada por' }, // Sta. Águeda -> Seios
-    { from: '423', to: '1042', title: 'representada por', texto: 'representada por' }, // Sta. Apolônia -> Dentes
-    { from: '705', to: '1043', title: 'martirizada na', texto: 'martirizada na' }, // Sta. Catarina de Alexandria -> Roda
-    { from: '453', to: '1044', title: 'representado por', texto: 'representado por' }, // S. Marcos -> Leão
-    { from: '668', to: '1044', title: 'representado por', texto: 'representado por' }, // S. Jerônimo -> Leão
-    { from: '55', to: '1045', title: 'representado por', texto: 'representado por' }, // S. João (Evangelista) -> Águia
-    { from: '680', to: '1046', title: 'representado por', texto: 'representado por' }, // S. Lucas -> Touro
-	
-	
-	
-	
-    // Nível 7
-    
+    // ==========================================
+    // 3. CONGREGAÇÕES E ORDENS (Aresta forte vence)
+    // ==========================================
     // Ordem Beneditina (22)
-    { from: '6', to: '22', title: 'fundou', texto: 'fundou' }, // S. Bento
-    { from: '85', to: '22', title: 'co-fundou (Ramo feminino)', texto: 'co-fundou' }, // Sta. Escolástica
-    { from: '436', to: '22', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Gregório Magno
-    { from: '403', to: '22', title: 'propagou a', texto: 'propagou a' }, // S. Mauro
-    { from: '428', to: '22', title: 'reformou a', texto: 'reformador' }, // S. Pedro Damião
-    { from: '706', to: '22', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Silvestre (Abade)
-
-    // Ordem Franciscana (23)
-    { from: '8', to: '23', title: 'fundou', texto: 'fundou' }, // S. Francisco
-    { from: '11', to: '23', title: 'fundou (Clarissas)', texto: 'fundou' }, // Sta. Clara
-    { from: '65', to: '23', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. Antônio
-    { from: '208', to: '23', title: 'ministro geral da', texto: 'liderou a' }, // S. Boaventura
-    { from: '616', to: '23', title: 'reformou a', texto: 'reformador' }, // S. Bernardino de Sena
-    { from: '612', to: '23', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pascoal Bailão
-    { from: '681', to: '23', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pedro de Alcântara
-    { from: '452', to: '23', title: 'pertenceu a (Capuchinho)', texto: 'pertenceu a' }, // S. Fidélis
-    { from: '695', to: '23', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Diogo
-
-    // Ordem Dominicana (24)
-    { from: '9', to: '24', title: 'fundou', texto: 'fundou' }, // S. Domingos
-    { from: '10', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Tomás de Aquino
-    { from: '458', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pedro de Verona
-    { from: '444', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Vicente Férrer
-    { from: '459', to: '24', title: 'pertenceu a (Terceira)', texto: 'pertenceu a' }, // Sta. Catarina de Sena
-    { from: '601', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pio V
-    { from: '640', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Jacinto
-    { from: '649', to: '24', title: 'pertenceu a (Terceira)', texto: 'pertenceu a' }, // Sta. Rosa de Lima
-    { from: '697', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. Alberto Magno
-
-    // Companhia de Jesus / Jesuítas (25)
-    { from: '14', to: '25', title: 'fundou', texto: 'fundou' }, // Sto. Inácio de Loyola
-    { from: '15', to: '25', title: 'co-fundou', texto: 'co-fundou' }, // S. Francisco Xavier
-    { from: '235', to: '25', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Luís Gonzaga
-    { from: '455', to: '25', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pedro Canísio
-    { from: '608', to: '25', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Roberto Belarmino
-    { from: '675', to: '25', title: 'superior geral da', texto: 'liderou a' }, // S. Francisco de Borja
-
-    // Família Salesiana (62)
-    { from: '61', to: '62', title: 'fundou', texto: 'fundou' }, // S. João Bosco
+    { from: '6', to: '22', texto: 'fundou' },
+    { from: '85', to: '22', texto: 'co-fundou' },
+    { from: '436', to: '22', texto: 'pertenceu a' },
+    { from: '403', to: '22', texto: 'propagou a' },
+    { from: '428', to: '22', texto: 'reformou' },
+    { from: '706', to: '22', texto: 'pertenceu a' },
 
     // Ordem Cisterciense (63)
-    { from: '66', to: '63', title: 'reformou e expandiu', texto: 'expandiu' }, // S. Bernardo
+    { from: '22', to: '63', texto: 'gerou o ramo' },
+    { from: '66', to: '63', texto: 'reformou e expandiu' },
+
+    // Ordem Franciscana (23)
+    { from: '8', to: '23', texto: 'fundou' },
+    { from: '11', to: '23', texto: 'fundou (Clarissas)' },
+    { from: '65', to: '23', texto: 'pertenceu a' },
+    { from: '208', to: '23', texto: 'liderou a' },
+    { from: '616', to: '23', texto: 'reformou' },
+    { from: '612', to: '23', texto: 'pertenceu a' },
+    { from: '681', to: '23', texto: 'pertenceu a' },
+    { from: '452', to: '23', texto: 'pertenceu a' },
+    { from: '695', to: '23', texto: 'pertenceu a' },
+
+    // Ordem Dominicana (24)
+    { from: '9', to: '24', texto: 'fundou' },
+    { from: '10', to: '24', texto: 'pertenceu a' },
+    { from: '458', to: '24', texto: 'pertenceu a' },
+    { from: '444', to: '24', texto: 'pertenceu a' },
+    { from: '459', to: '24', texto: 'pertenceu a' },
+    { from: '601', to: '24', texto: 'pertenceu a' },
+    { from: '640', to: '24', texto: 'pertenceu a' },
+    { from: '649', to: '24', texto: 'pertenceu a' },
+    { from: '697', to: '24', texto: 'pertenceu a' },
+    { from: '605', to: '24', texto: 'pertenceu a' },
+    { from: '410', to: '24', texto: 'liderou a' },
+    { from: '722', to: '24', texto: 'pertenceu a' },
+    { from: '723', to: '24', texto: 'pertenceu a' },
+    { from: '724', to: '24', texto: 'pertenceu a' },
+
+    // Companhia de Jesus (25)
+    { from: '14', to: '25', texto: 'fundou' },
+    { from: '15', to: '25', texto: 'co-fundou' },
+    { from: '235', to: '25', texto: 'pertenceu a' },
+    { from: '455', to: '25', texto: 'pertenceu a' },
+    { from: '608', to: '25', texto: 'pertenceu a' },
+    { from: '675', to: '25', texto: 'liderou a' },
+
+    // Família Salesiana (62)
+    { from: '61', to: '62', texto: 'fundou' },
 
     // Carmelo Descalço (41)
-    { from: '12', to: '41', title: 'fundou', texto: 'fundou' }, // Sta. Teresa d'Ávila
-    { from: '13', to: '41', title: 'co-fundou', texto: 'co-fundou' }, // S. João da Cruz
-    { from: '17', to: '41', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Teresinha
+    { from: '12', to: '41', texto: 'fundou' },
+    { from: '13', to: '41', texto: 'co-fundou' },
+    { from: '17', to: '41', texto: 'pertenceu a' },
+    { from: '624', to: '41', texto: 'pertenceu a' },
 
-    // Obras / Documentos Originais (32, 34, 38)
-    { from: '10', to: '32', title: 'escreveu', texto: 'escreveu' }, // S. Tomás -> Suma Teológica
-    { from: '14', to: '34', title: 'escreveu', texto: 'escreveu' }, // Sto. Inácio -> Exercícios Espirituais
-    { from: '12', to: '38', title: 'mestra da', texto: 'mestra da' }, // Sta. Teresa -> Mística Cristã
-    { from: '13', to: '38', title: 'doutor da', texto: 'doutor da' }, // S. João da Cruz -> Mística Cristã
+    // Outras Ordens
+    { from: '5', to: '850', texto: 'inspirou' },
+    { from: '67', to: '850', texto: 'pertenceu a' },
+    { from: '656', to: '850', texto: 'pertenceu a' },
+    { from: '662', to: '850', texto: 'pertenceu a' },
+    { from: '417', to: '851', texto: 'pertenceu a' },
+    { from: '425', to: '852', texto: 'fundaram' },
+    { from: '645', to: '852', texto: 'pertenceu a' },
+    { from: '421', to: '853', texto: 'fundou' },
+    { from: '700', to: '853', texto: 'co-fundou' },
+    { from: '415', to: '854', texto: 'fundou' },
+    { from: '650', to: '854', texto: 'pertenceu a' },
+    { from: '212', to: '855', texto: 'fundou' },
+    { from: '629', to: '856', texto: 'fundou' },
+    { from: '456', to: '857', texto: 'fundou' },
+    { from: '429', to: '857', texto: 'pertenceu a' },
+    { from: '619', to: '858', texto: 'fundou' },
+    { from: '610', to: '859', texto: 'fundou' },
+    { from: '633', to: '860', texto: 'fundou' },
+    { from: '692', to: '860', texto: 'pertenceu a' },
+    { from: '211', to: '861', texto: 'fundou' },
+    { from: '433', to: '862', texto: 'fundou' },
+    { from: '201', to: '863', texto: 'fundou' },
+    { from: '648', to: '864', texto: 'fundou' },
+    { from: '75', to: '865', texto: 'fundou' },
+    { from: '643', to: '865', texto: 'fundou' },
+    { from: '679', to: '865', texto: 'pertenceu a' },
+    { from: '671', to: '866', texto: 'fundou' },
+    { from: '225', to: '867', texto: 'fundou' },
 
+    // ==========================================
+    // 4. OBRAS E LIVROS (Nível 7)
+    // ==========================================
+    { from: '10', to: '32', texto: 'escreveu' },
+    { from: '14', to: '34', texto: 'escreveu' },
+    { from: '12', to: '38', texto: 'mestra de' },
+    { from: '13', to: '38', texto: 'mestre de' },
+    { from: '6', to: '900', texto: 'escreveu' },
+    { from: '5', to: '901', texto: 'escreveu' },
+    { from: '229', to: '902', texto: 'escreveu' },
+    { from: '12', to: '903', texto: 'escreveu' },
+    { from: '13', to: '904', texto: 'escreveu' },
+    { from: '17', to: '905', texto: 'escreveu' },
+    { from: '75', to: '906', texto: 'escreveu' },
+    { from: '459', to: '907', texto: 'ditou' },
+    { from: '629', to: '908', texto: 'escreveu' },
+    { from: '8', to: '909', texto: 'compôs' },
+    { from: '5', to: '910', texto: 'escreveu' },
+    { from: '5', to: '911', texto: 'escreveu' },
+    { from: '668', to: '912', texto: 'traduziu' },
+    { from: '239', to: '913', texto: 'escreveu' },
+    { from: '208', to: '914', texto: 'escreveu' },
+    { from: '450', to: '915', texto: 'escreveu' },
+    { from: '436', to: '916', texto: 'escreveu' },
+    { from: '621', to: '917', texto: 'escreveu' },
 
-    // Nível 8
-    
-    // Terra Santa e Oriente
-    { from: '4', to: '130', title: 'viveu em', texto: 'viveu em' }, // S. José -> Nazaré
-    { from: '440', to: '130', title: 'ocorreu em', texto: 'ocorreu em' }, // Anunciação -> Nazaré
-    { from: '71', to: '131', title: 'batizou no', texto: 'batizou no' }, // S. João Batista -> Rio Jordão
-    { from: '116', to: '133', title: 'bispo de', texto: 'bispo de' }, // S. Tiago Menor -> Jerusalém
-    { from: '630', to: '133', title: 'martirizado em', texto: 'martirizado em' }, // Sto. Estêvão -> Jerusalém
-    { from: '55', to: '132', title: 'viveu em', texto: 'viveu em' }, // S. João -> Éfeso
-    { from: '13', to: '132', title: 'bispo de (segundo a tradição)', texto: 'bispo de' }, // S. Timóteo -> Éfeso (Correção: O ID 412 é Timóteo. Usarei 412)
-    { from: '412', to: '132', title: 'bispo de', texto: 'bispo de' }, // S. Timóteo -> Éfeso
-    { from: '600', to: '510', title: 'bispo de', texto: 'bispo de' }, // Sto. Atanásio -> Alexandria
-    { from: '422', to: '510', title: 'bispo de', texto: 'bispo de' }, // S. Cirilo -> Alexandria
-    { from: '81', to: '138', title: 'bispo de', texto: 'bispo de' }, // S. Inácio -> Antioquia
-    { from: '414', to: '506', title: 'bispo de', texto: 'bispo de' }, // S. João Crisóstomo -> Constantinopla
-    { from: '604', to: '506', title: 'bispo de', texto: 'bispo de' }, // S. Greg. Nazianzeno -> Constantinopla
+    // ==========================================
+    // 5. GEOGRAFIA DE ATUAÇÃO E MORTE
+    // ==========================================
+    { from: '71', to: '131', texto: 'pregou em' },
+    { from: '2', to: '26', texto: 'sede / martírio em' },
+    { from: '3', to: '26', texto: 'martirizado em' },
+    { from: '55', to: '132', texto: 'atuou em' },
+    { from: '86', to: '133', texto: 'martirizado em' },
+    { from: '110', to: '155', texto: 'martirizado em' },
+    { from: '111', to: '156', texto: 'venerado em' },
+    { from: '112', to: '157', texto: 'martirizado em' },
+    { from: '113', to: '158', texto: 'martirizado em' },
+    { from: '114', to: '159', texto: 'evangelizou' },
+    { from: '115', to: '160', texto: 'evangelizou' },
+    { from: '116', to: '133', texto: 'bispo de' },
+    { from: '117', to: '161', texto: 'martirizado em' },
+    { from: '118', to: '161', texto: 'martirizado em' },
+    { from: '228', to: '314', texto: 'martirizado em' },
+    { from: '215', to: '133', texto: 'testemunhou em' },
+    { from: '218', to: '130', texto: 'venerada em' },
+    { from: '221', to: '309', texto: 'viveu em' },
+    { from: '221', to: '1004', texto: 'sepultada na' },
+    { from: '73', to: '26', texto: 'martirizada em' },
+    { from: '72', to: '26', texto: 'martirizado em' },
+    { from: '7', to: '134', texto: 'martirizado em' },
+    { from: '76', to: '135', texto: 'viveu em' },
+    { from: '74', to: '135', texto: 'viveu em' },
+    { from: '64', to: '136', texto: 'morreu em' },
+    { from: '5', to: '137', texto: 'bispo de' },
+    { from: '81', to: '138', texto: 'bispo de' },
+    { from: '82', to: '139', texto: 'bispo de' },
+    { from: '83', to: '140', texto: 'martirizada em' },
+    { from: '84', to: '26', texto: 'martirizado em' },
+    { from: '204', to: '26', texto: 'martirizados em' },
+    { from: '205', to: '26', texto: 'sede em' },
+    { from: '207', to: '26', texto: 'sede em' },
+    { from: '210', to: '26', texto: 'viveu em' },
+    { from: '214', to: '26', texto: 'martirizada em' },
+    { from: '216', to: '310', texto: 'bispo de' },
+    { from: '217', to: '307', texto: 'martirizada em' },
+    { from: '219', to: '308', texto: 'martirizado em' },
+    { from: '220', to: '300', texto: 'martirizados em' },
+    { from: '222', to: '26', texto: 'martirizados em' },
+    { from: '223', to: '26', texto: 'martirizados em' },
+    { from: '226', to: '26', texto: 'martirizados em' },
+    { from: '230', to: '140', texto: 'martirizados em' },
+    { from: '233', to: '300', texto: 'martirizados em' },
+    { from: '234', to: '26', texto: 'morreu em' },
+    { from: '237', to: '26', texto: 'martirizados em' },
+    { from: '6', to: '141', texto: 'fundou em' },
+    { from: '85', to: '141', texto: 'viveu em' },
+    { from: '66', to: '142', texto: 'abade de' },
+    { from: '11', to: '143', texto: 'viveu em' },
+    { from: '9', to: '144', texto: 'morreu em' },
+    { from: '10', to: '145', texto: 'ensinou em' },
+    { from: '65', to: '146', texto: 'morreu em' },
+    { from: '65', to: '807', texto: 'atuou em' },
+    { from: '67', to: '147', texto: 'viveu em' },
+    { from: '200', to: '26', texto: 'sede em' },
+    { from: '202', to: '301', texto: 'evangelizaram' },
+    { from: '203', to: '302', texto: 'Princesa de' },
+    { from: '803', to: '804', texto: 'rainha de' },
+    { from: '206', to: '303', texto: 'fundou em' },
+    { from: '208', to: '304', texto: 'morreu em' },
+    { from: '209', to: '305', texto: 'imperador de' },
+    { from: '224', to: '311', texto: 'bispo de' },
+    { from: '225', to: '312', texto: 'bispo de' },
+    { from: '227', to: '313', texto: 'rainha de' },
+    { from: '229', to: '315', texto: 'bispo de' },
+    { from: '231', to: '316', texto: 'diácono de' },
+    { from: '232', to: '317', texto: 'fundou em' },
+    { from: '236', to: '318', texto: 'bispo de' },
+    { from: '238', to: '319', texto: 'fundou em' },
+    { from: '239', to: '304', texto: 'bispo de' },
+    { from: '14', to: '26', texto: 'morreu em' },
+    { from: '15', to: '148', texto: 'missionou em' },
+    { from: '13', to: '150', texto: 'morreu em' },
+    { from: '75', to: '151', texto: 'bispo de' },
+    { from: '201', to: '300', texto: 'fundou em' },
+    { from: '211', to: '26', texto: 'morreu em' },
+    { from: '212', to: '320', texto: 'atuou em' },
+    { from: '213', to: '306', texto: 'fundou em' },
+    { from: '235', to: '26', texto: 'morreu em' },
+    { from: '16', to: '152', texto: 'pároco de' },
+    { from: '61', to: '153', texto: 'fundou em' },
+    { from: '17', to: '154', texto: 'viveu em' },
+    { from: '19', to: '26', texto: 'sede em' },
+    { from: '400', to: '26', texto: 'sede em' },
+    { from: '401', to: '500', texto: 'bispo de' },
+    { from: '402', to: '318', texto: 'atuou em' },
+    { from: '403', to: '501', texto: 'abade em' },
+    { from: '404', to: '26', texto: 'sede em' },
+    { from: '405', to: '26', texto: 'martirizada em' },
+    { from: '406', to: '26', texto: 'martirizados em' },
+    { from: '407', to: '502', texto: 'martirizado em' },
+    { from: '408', to: '26', texto: 'sede em' },
+    { from: '409', to: '503', texto: 'martirizados em' },
+    { from: '410', to: '504', texto: 'atuou em' },
+    { from: '411', to: '26', texto: 'martirizada em' },
+    { from: '412', to: '132', texto: 'bispo de' },
+    { from: '413', to: '505', texto: 'bispo de' },
+    { from: '414', to: '506', texto: 'bispo de' },
+    { from: '415', to: '504', texto: 'fundou em' },
+    { from: '416', to: '26', texto: 'martirizada em' },
+    { from: '417', to: '507', texto: 'bispo de' },
+    { from: '418', to: '508', texto: 'bispo de' },
+    { from: '419', to: '315', texto: 'martirizada em' },
+    { from: '420', to: '509', texto: 'fundou em' },
+    { from: '421', to: '26', texto: 'morreu em' },
+    { from: '422', to: '510', texto: 'bispo de' },
+    { from: '423', to: '510', texto: 'martirizada em' },
+    { from: '424', to: '511', texto: 'venerada em' },
+    { from: '425', to: '317', texto: 'fundaram em' },
+    { from: '426', to: '512', texto: 'martirizados em' },
+    { from: '427', to: '133', texto: 'bispo de' },
+    { from: '428', to: '513', texto: 'abade de' },
+    { from: '429', to: '514', texto: 'morreu em' },
+    { from: '430', to: '515', texto: 'morreu em' },
+    { from: '431', to: '26', texto: 'sede em' },
+    { from: '432', to: '516', texto: 'martirizadas em' },
+    { from: '433', to: '517', texto: 'fundou em' },
+    { from: '434', to: '26', texto: 'viveu em' },
+    { from: '435', to: '139', texto: 'martirizados em' },
+    { from: '436', to: '26', texto: 'sede em' },
+    { from: '437', to: '518', texto: 'evangelizou' },
+    { from: '438', to: '133', texto: 'bispo de' },
+    { from: '439', to: '26', texto: 'venerado em' },
+    { from: '440', to: '130', texto: 'ocorreu em' },
+    { from: '441', to: '133', texto: 'venerada em' },
+    { from: '442', to: '519', texto: 'viveu em' },
+    { from: '443', to: '520', texto: 'bispo de' },
+    { from: '445', to: '26', texto: 'sede em' },
+    { from: '446', to: '522', texto: 'martirizado em' },
+    { from: '447', to: '26', texto: 'martirizado em' },
+    { from: '448', to: '26', texto: 'martirizados em' },
+    { from: '449', to: '26', texto: 'sede em' },
+    { from: '450', to: '523', texto: 'bispo de' },
+    { from: '451', to: '26', texto: 'sede em' },
+    { from: '452', to: '524', texto: 'martirizado em' },
+    { from: '453', to: '525', texto: 'venerado em' },
+    { from: '454', to: '26', texto: 'sede em' },
+    { from: '455', to: '526', texto: 'morreu em' },
+    { from: '456', to: '26', texto: 'morreu em' },
+    { from: '457', to: '310', texto: 'martirizado em' },
+    { from: '458', to: '300', texto: 'martirizado em' },
+    { from: '459', to: '527', texto: 'viveu em' },
+    { from: '459', to: '26', texto: 'faleceu em' },
+    { from: '600', to: '510', texto: 'bispo de' },
+    { from: '601', to: '26', texto: 'sede em' },
+    { from: '602', to: '515', texto: 'bispo de' },
+    { from: '603', to: '26', texto: 'venerado em' },
+    { from: '604', to: '506', texto: 'bispo de' },
+    { from: '605', to: '317', texto: 'bispo de' },
+    { from: '606', to: '26', texto: 'martirizados em' },
+    { from: '607', to: '26', texto: 'martirizados em' },
+    { from: '608', to: '26', texto: 'viveu em' },
+    { from: '609', to: '801', texto: 'apareceu em' },
+    { from: '610', to: '320', texto: 'fundou em' },
+    { from: '611', to: '26', texto: 'viveu em' },
+    { from: '612', to: '521', texto: 'viveu em' },
+    { from: '613', to: '26', texto: 'martirizado em' },
+    { from: '614', to: '26', texto: 'sede em' },
+    { from: '615', to: '26', texto: 'martirizada em' },
+    { from: '616', to: '527', texto: 'viveu em' },
+    { from: '617', to: '26', texto: 'sede em' },
+    { from: '618', to: '26', texto: 'sede em' },
+    { from: '619', to: '26', texto: 'atuou em' },
+    { from: '620', to: '26', texto: 'sede em' },
+    { from: '621', to: '523', texto: 'viveu em' },
+    { from: '622', to: '26', texto: 'sede em' },
+    { from: '623', to: '523', texto: 'bispo de' },
+    { from: '624', to: '317', texto: 'viveu em' },
+    { from: '625', to: '26', texto: 'sede em' },
+    { from: '626', to: '320', texto: 'padroeira' },
+    { from: '627', to: '520', texto: 'viveu em' },
+    { from: '628', to: '26', texto: 'martirizada em' },
+    { from: '629', to: '145', texto: 'fundou em' },
+    { from: '630', to: '133', texto: 'martirizado em' },
+    { from: '631', to: '26', texto: 'venerada em' },
+    { from: '632', to: '133', texto: 'ocorreu em' },
+    { from: '633', to: '145', texto: 'fundou em' },
+    { from: '634', to: '26', texto: 'martirizados em' },
+    { from: '635', to: '26', texto: 'martirizado em' },
+    { from: '636', to: '26', texto: 'martirizados em' },
+    { from: '637', to: '26', texto: 'martirizados em' },
+    { from: '638', to: '133', texto: 'ocorreu em' },
+    { from: '639', to: '130', texto: 'viveu em' },
+    { from: '640', to: '515', texto: 'evangelizou' },
+    { from: '641', to: '26', texto: 'martirizado em' },
+    { from: '642', to: '320', texto: 'fundou em' },
+    { from: '643', to: '151', texto: 'fundou em' },
+    { from: '644', to: '801', texto: 'venerado em' },
+    { from: '645', to: '317', texto: 'viveu em' },
+    { from: '646', to: '320', texto: 'rei em' },
+    { from: '647', to: '26', texto: 'sede em' },
+    { from: '648', to: '26', texto: 'fundou em' },
+    { from: '649', to: '806', texto: 'atuou em' },
+    { from: '650', to: '504', texto: 'atuou em' },
+    { from: '651', to: '320', texto: 'abade de' },
+    { from: '652', to: '145', texto: 'martirizados em' },
+    { from: '653', to: '301', texto: 'rei em' },
+    { from: '654', to: '525', texto: 'bispo de' },
+    { from: '655', to: '308', texto: 'martirizado em' },
+    { from: '656', to: '26', texto: 'viveu em' },
+    { from: '657', to: '26', texto: 'martirizados em' },
+    { from: '658', to: '516', texto: 'bispo/mártir em' },
+    { from: '659', to: '26', texto: 'viveu em' },
+    { from: '660', to: '145', texto: 'martirizados em' },
+    { from: '661', to: '26', texto: 'martirizados em' },
+    { from: '662', to: '521', texto: 'bispo de' },
+    { from: '663', to: '151', texto: 'martirizados em' },
+    { from: '664', to: '26', texto: 'sede em' },
+    { from: '665', to: '138', texto: 'martirizados em' },
+    { from: '666', to: '138', texto: 'martirizados em' },
+    { from: '667', to: '301', texto: 'rei em' },
+    { from: '668', to: '133', texto: 'viveu em' },
+    { from: '669', to: '320', texto: 'bispo de' },
+    { from: '670', to: '141', texto: 'viveu em' },
+    { from: '671', to: '141', texto: 'fundou em' },
+    { from: '672', to: '26', texto: 'viveu em' },
+    { from: '673', to: '26', texto: 'fundou em' },
+    { from: '674', to: '320', texto: 'martirizados em' },
+    { from: '675', to: '26', texto: 'viveu em' },
+    { from: '676', to: '523', texto: 'rei em' },
+    { from: '677', to: '26', texto: 'sede em' },
+    { from: '678', to: '301', texto: 'viveu em' },
+    { from: '679', to: '320', texto: 'viveu em' },
+    { from: '680', to: '138', texto: 'viveu em' },
+    { from: '681', to: '149', texto: 'viveu em' },
+    { from: '682', to: '515', texto: 'viveu em' },
+    { from: '683', to: '133', texto: 'viveu em' },
+    { from: '684', to: '311', texto: 'martirizadas em' },
+    { from: '685', to: '130', texto: 'venerado em' },
+    { from: '686', to: '26', texto: 'martirizados em' },
+    { from: '687', to: '26', texto: 'sede em' },
+    { from: '688', to: '300', texto: 'bispo de' },
+    { from: '689', to: '320', texto: 'viveu em' },
+    { from: '690', to: '26', texto: 'martirizados em' },
+    { from: '691', to: '157', texto: 'martirizado em' },
+    { from: '692', to: '145', texto: 'viveu em' },
+    { from: '693', to: '800', texto: 'bispo de' },
+    { from: '694', to: '26', texto: 'sede em' },
+    { from: '695', to: '503', texto: 'viveu em' },
+    { from: '696', to: '515', texto: 'martirizado em' },
+    { from: '697', to: '312', texto: 'viveu em' },
+    { from: '698', to: '312', texto: 'viveu em' },
+    { from: '699', to: '315', texto: 'bispo de' },
+    { from: '700', to: '320', texto: 'fundou em' },
+    { from: '701', to: '26', texto: 'martirizada em' },
+    { from: '702', to: '26', texto: 'sede em' },
+    { from: '703', to: '26', texto: 'martirizada em' },
+    { from: '704', to: '26', texto: 'martirizado em' },
+    { from: '705', to: '510', texto: 'martirizada em' },
+    { from: '706', to: '141', texto: 'abade em' },
+    { from: '707', to: '510', texto: 'bispo de' },
+    { from: '708', to: '320', texto: 'martirizado em' },
+    { from: '709', to: '26', texto: 'martirizada em' },
+    { from: '710', to: '310', texto: 'bispo de' },
+    { from: '711', to: '133', texto: 'abade em' },
+    { from: '712', to: '132', texto: 'bispo de' },
+    { from: '713', to: '300', texto: 'bispo de' },
+    { from: '714', to: '26', texto: 'sede em' },
+    { from: '715', to: '26', texto: 'sede em' },
+    { from: '716', to: '140', texto: 'martirizada em' },
+    { from: '717', to: '26', texto: 'martirizado em' },
+    { from: '718', to: '133', texto: 'martirizados em' },
+    { from: '719', to: '523', texto: 'bispo / martirizado em' },
+    { from: '720', to: '26', texto: 'sede em' },
+    { from: '721', to: '802', texto: 'bispo de' },
+    { from: '721', to: '805', texto: 'relíquias transladadas para' },
+    { from: '722', to: '806', texto: 'atuou em' },
+    { from: '723', to: '806', texto: 'atuou em' },
 
-    // Roma e Itália
-    { from: '2', to: '26', title: 'bispo e mártir em', texto: 'martirizado em' }, // S. Pedro -> Roma
-    { from: '3', to: '26', title: 'martirizado em', texto: 'martirizado em' }, // S. Paulo -> Roma
-    { from: '635', to: '26', title: 'martirizado em', texto: 'martirizado em' }, // S. Lourenço -> Roma
-    { from: '73', to: '26', title: 'martirizada em', texto: 'martirizada em' }, // Sta. Inês -> Roma
-    { from: '72', to: '26', title: 'martirizado em', texto: 'martirizado em' }, // S. Sebastião -> Roma
-    { from: '6', to: '141', title: 'fundou abadia em', texto: 'fundou abadia' }, // S. Bento -> Monte Cassino
-    { from: '8', to: '143', title: 'nasceu/atuou em', texto: 'atuou em' }, // S. Francisco -> Assis
-    { from: '11', to: '143', title: 'nasceu/atuou em', texto: 'atuou em' }, // Sta. Clara -> Assis
-    { from: '65', to: '146', title: 'faleceu em', texto: 'faleceu em' }, // Sto. Antônio -> Pádua
-    { from: '67', to: '147', title: 'viveu em', texto: 'viveu em' }, // Sta. Rita -> Cássia
-    { from: '713', to: '300', title: 'bispo de', texto: 'bispo de' }, // Sto. Ambrósio -> Milão
-    { from: '688', to: '300', title: 'bispo de', texto: 'bispo de' }, // S. Carlos Borromeu -> Milão
-    { from: '236', to: '318', title: 'bispo de', texto: 'bispo de' }, // S. Paulino -> Nola
-    { from: '459', to: '527', title: 'nasceu/atuou em', texto: 'atuou em' }, // Sta. Catarina -> Siena
-    { from: '61', to: '153', title: 'atuou em', texto: 'atuou em' }, // S. João Bosco -> Turim
+    // ==========================================
+    // 6. CIDADES NATAIS (Ligando nós 810 a 845)
+    // ==========================================
+    { from: '4', to: '130', texto: 'nasceu em' },
+    { from: '8', to: '143', texto: 'nasceu em' },
+    { from: '12', to: '149', texto: 'nasceu em' },
+    { from: '444', to: '521', texto: 'nasceu em' },
+    { from: '65', to: '810', texto: 'nasceu em' },
+    { from: '5', to: '811', texto: 'nasceu em' },
+    { from: '668', to: '812', texto: 'nasceu em' },
+    { from: '3', to: '813', texto: 'nasceu em' },
+    { from: '2', to: '814', texto: 'nasceu em' },
+    { from: '110', to: '814', texto: 'nasceu em' },
+    { from: '111', to: '814', texto: 'nasceu em' },
+    { from: '55', to: '814', texto: 'nasceu em' },
+    { from: '112', to: '814', texto: 'nasceu em' },
+    { from: '71', to: '815', texto: 'nasceu em' },
+    { from: '6', to: '816', texto: 'nasceu em' },
+    { from: '85', to: '816', texto: 'nasceu em' },
+    { from: '66', to: '817', texto: 'nasceu em' },
+    { from: '9', to: '818', texto: 'nasceu em' },
+    { from: '10', to: '819', texto: 'nasceu em' },
+    { from: '14', to: '820', texto: 'nasceu em' },
+    { from: '15', to: '821', texto: 'nasceu em' },
+    { from: '13', to: '822', texto: 'nasceu em' },
+    { from: '75', to: '823', texto: 'nasceu em' },
+    { from: '16', to: '824', texto: 'nasceu em' },
+    { from: '61', to: '825', texto: 'nasceu em' },
+    { from: '17', to: '826', texto: 'nasceu em' },
+    { from: '19', to: '827', texto: 'nasceu em' },
+    { from: '433', to: '828', texto: 'nasceu em' },
+    { from: '201', to: '829', texto: 'nasceu em' },
+    { from: '211', to: '830', texto: 'nasceu em' },
+    { from: '212', to: '831', texto: 'nasceu em' },
+    { from: '235', to: '832', texto: 'nasceu em' },
+    { from: '452', to: '833', texto: 'nasceu em' },
+    { from: '455', to: '834', texto: 'nasceu em' },
+    { from: '456', to: '835', texto: 'nasceu em' },
+    { from: '601', to: '836', texto: 'nasceu em' },
+    { from: '724', to: '837', texto: 'nasceu em' },
+    { from: '610', to: '838', texto: 'nasceu em' },
+    { from: '612', to: '839', texto: 'nasceu em' },
+    { from: '629', to: '840', texto: 'nasceu em' },
+    { from: '633', to: '841', texto: 'nasceu em' },
+    { from: '642', to: '842', texto: 'nasceu em' },
+    { from: '643', to: '843', texto: 'nasceu em' },
+    { from: '648', to: '844', texto: 'nasceu em' },
+    { from: '659', to: '845', texto: 'nasceu em' },
+    { from: '722', to: '806', texto: 'nasceu em' },
 
-    // França (Gália) e Europa
-    { from: '16', to: '152', title: 'pároco em', texto: 'pároco em' }, // S. João Vianney -> Ars
-    { from: '17', to: '154', title: 'viveu no carmelo de', texto: 'carmelita em' }, // Sta. Teresinha -> Lisieux
-    { from: '5', to: '137', title: 'bispo de', texto: 'bispo de' }, // S. Agostinho -> Hipona (África do Norte)
-    { from: '424', to: '511', title: 'aparição em', texto: 'apareceu em' }, // N.S. Lourdes -> Lourdes
-    { from: '609', to: '801', title: 'aparição em', texto: 'apareceu em' }, // N.S. Fátima -> Fátima
-    { from: '626', to: '320', title: 'padroeira de', texto: 'padroeira' }, // Sta. Joana d'Arc -> Paris (padroeira da França)
-    { from: '212', to: '320', title: 'atuou e faleceu em', texto: 'faleceu em' }, // S. Vicente de Paulo -> Paris
-    { from: '693', to: '800', title: 'bispo de', texto: 'bispo de' }, // S. Martinho -> Tours
-    { from: '75', to: '151', title: 'bispo de', texto: 'bispo de' }, // S. Francisco de Sales -> Genebra
-    { from: '66', to: '142', title: 'abade de', texto: 'abade de' }, // S. Bernardo -> Claraval
-    
-	
-	//bagunça:
-	
-    // Inserção Específica para S. Libório
-    { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
-	//  ATRIBUTOS DE HIERARQUIA (Nível 1 -> Santo) 
-    // ATENÇÃO: Substitua 'ID_BISPO' e 'ID_CONFESSOR' pelos IDs numéricos que você usa no seu Nível 1
-    { from: '57', to: '721', title: 'é', texto: 'é' },
-    { from: '53', to: '721', title: 'é', texto: 'é' },
+    // ==========================================
+    // 7. SANTUÁRIOS E TÚMULOS (Nós Únicos 1020-1026)
+    // ==========================================
+    { from: '2', to: '1020', texto: 'sepultado na' },
+    { from: '200', to: '1020', texto: 'sepultado na' },
+    { from: '436', to: '1020', texto: 'sepultado na' },
+    { from: '445', to: '1020', texto: 'sepultado na' },
+    { from: '19', to: '1020', texto: 'sepultado na' },
+    { from: '111', to: '1021', texto: 'sepultado na' },
+    { from: '8', to: '1022', texto: 'sepultado na' },
+    { from: '11', to: '1022', texto: 'sepultada na' },
+    { from: '65', to: '1023', texto: 'sepultado na' },
+    { from: '3', to: '1024', texto: 'sepultado na' },
+    { from: '16', to: '1025', texto: 'sepultado no' },
+    { from: '17', to: '1026', texto: 'sepultada na' },
 
-    //  GEOGRAFIA E RELÍQUIAS (Nível 8) 
-    { from: '721', to: '802', title: 'bispo de', texto: 'bispo de' }, // S. Libório -> Le Mans
-    { from: '721', to: '805', title: 'relíquias veneradas em', texto: 'relíquias transladadas para' }, // S. Libório -> Paderborn
+    // ==========================================
+    // 8. FENÔMENOS MÍSTICOS (Corrigidos)
+    // ==========================================
+    // Corpos Incorruptos (1000)
+    { from: '16', to: '1000', texto: 'possui' },
+    { from: '67', to: '1000', texto: 'possui' },
+    { from: '624', to: '1000', texto: 'possui' },
+    { from: '688', to: '1000', texto: 'possui' },
 
-    //  "REDE SOCIAL" DOS SANTOS (Conexões Interpessoais) 
-    // Ele era grande amigo de S. Martinho de Tours (que já está na sua base com o ID 693)
-    { from: '721', to: '693', title: 'amigo de (assistido no leito de morte por)', texto: 'amigo de' }, // S. Libório <-> S. Martinho de Tours
+    // Estigmas (1001)
+    { from: '8', to: '1001', texto: 'recebeu' },
+    { from: '67', to: '1001', texto: 'chaga na testa' },
+    { from: '459', to: '1001', texto: 'recebeu' },
 
-    //  ICONOGRAFIA / SÍMBOLOS NA ARTE (Nível 9) 
-    { from: '721', to: '1047', title: 'representado por (guiou suas relíquias)', texto: 'representado por' }, // S. Libório -> Pavão
-    { from: '721', to: '1048', title: 'padroeiro dos doentes dos rins', texto: 'representado por' }, // S. Libório -> Pedras
+    // Bilocação (1002)
+    { from: '61', to: '1002', texto: 'experimentou' },
+    { from: '65', to: '1002', texto: 'experimentou' },
+    { from: '619', to: '1002', texto: 'experimentou' },
+    { from: '629', to: '1002', texto: 'experimentou' },
 
-    // Ibéria (Espanha / Portugal)
-    { from: '12', to: '149', title: 'nasceu/atuou em', texto: 'atuou em' }, // Sta. Teresa -> Ávila
-    { from: '13', to: '150', title: 'faleceu em', texto: 'faleceu em' }, // S. João da Cruz -> Úbeda
-    { from: '111', to: '156', title: 'jaz em', texto: 'jaz em' }, // S. Tiago Maior -> Santiago de Compostela
-    { from: '65', to: '302', title: 'atuou em', texto: 'atuou em' }, // Sto. Antônio (de Lisboa) -> Coimbra
+    // Levitação (1003)
+    { from: '12', to: '1003', texto: 'experimentou' },
+    { from: '659', to: '1003', texto: 'famoso por' },
 
-    // Missões e Resto do Mundo
-    { from: '15', to: '148', title: 'missionário em', texto: 'atuou em' }, // S. Francisco Xavier -> Goa
-    { from: '437', to: '518', title: 'evangelizou a', texto: 'evangelizou' }, // S. Patrício -> Irlanda
-    { from: '719', to: '523', title: 'arcebispo e mártir em', texto: 'martirizado em' }, // S. Tomás Becket -> Cantuária
-    { from: '202', to: '301', title: 'evangelizaram a', texto: 'evangelizaram' }, // Cirilo e Metódio -> Morávia
-	
-	
-	
-	
-	
-	// nivel 1 "REDE SOCIAL" DOS SANTOS
+    // ==========================================
+    // 9. RELÍQUIAS (Corrigidas)
+    // ==========================================
+    { from: '219', to: '1010', texto: 'milagre do' },
+    { from: '660', to: '1010', texto: 'milagre do' },
+    { from: '75', to: '1011', texto: 'possui' },
+    { from: '211', to: '1011', texto: 'possui' },
+    { from: '212', to: '1011', texto: 'possui' },
+    { from: '65', to: '1012', texto: 'possui' },
+    { from: '71', to: '1013', texto: 'venerada' },
+    { from: '459', to: '1013', texto: 'preservada' },
+    { from: '693', to: '1014', texto: 'deixou o' },
+    { from: '2', to: '1015', texto: 'libertado das' },
 
-    //  1. A FAMÍLIA E OS DISCÍPULOS BÍBLICOS 
-    { from: '218', to: '639', title: 'esposos', texto: 'casados' }, // Sta. Ana <-> S. Joaquim
-    { from: '2', to: '110', title: 'irmãos de sangue', texto: 'irmão de' }, // S. Pedro <-> S. André
-    { from: '55', to: '111', title: 'irmãos de sangue', texto: 'irmão de' }, // S. João <-> S. Tiago Maior
-    { from: '3', to: '412', title: 'mestre e pai espiritual de', texto: 'discipulou' }, // S. Paulo -> S. Timóteo
-    { from: '3', to: '418', title: 'mestre de', texto: 'discipulou' }, // S. Paulo -> S. Tito
-    { from: '3', to: '228', title: 'companheiros de missão', texto: 'missionário com' }, // S. Paulo <-> S. Barnabé
-    { from: '2', to: '453', title: 'ditou seu Evangelho para', texto: 'mestre de' }, // S. Pedro -> S. Marcos Evangelista
-    { from: '3', to: '680', title: 'companheiros de missão', texto: 'missionário com' }, // S. Paulo <-> S. Lucas Evangelista
-    { from: '55', to: '413', title: 'mestre de', texto: 'discipulou' }, // S. João -> S. Policarpo
+    // ==========================================
+    // 10. ICONOGRAFIA E SÍMBOLOS
+    // ==========================================
+    { from: '2', to: '1030', texto: 'representado por' },
+    { from: '3', to: '1031', texto: 'representado por' },
+    { from: '626', to: '1031', texto: 'representada por' },
+    { from: '4', to: '1032', texto: 'representado por' },
+    { from: '9', to: '1032', texto: 'representado por' },
+    { from: '65', to: '1032', texto: 'representado por' },
+    { from: '235', to: '1032', texto: 'representado por' },
+    { from: '17', to: '1033', texto: 'representada por' },
+    { from: '419', to: '1033', texto: 'representada por' },
+    { from: '649', to: '1033', texto: 'representada por' },
+    { from: '215', to: '1034', texto: 'representada por' },
+    { from: '668', to: '1034', texto: 'representado por' },
+    { from: '675', to: '1034', texto: 'representado por' },
+    { from: '5', to: '1035', texto: 'representado por' },
+    { from: '10', to: '1035', texto: 'representado por' },
+    { from: '115', to: '1035', texto: 'representado por' },
+    { from: '7', to: '1036', texto: 'venceu o' },
+    { from: '221', to: '1036', texto: 'subjugou o dragão Tarasca' },
+    { from: '227', to: '1036', texto: 'venceu o' },
+    { from: '603', to: '1036', texto: 'venceu o' },
+    { from: '72', to: '1037', texto: 'martirizado por' },
+    { from: '684', to: '1037', texto: 'martirizada por' },
+    { from: '635', to: '1038', texto: 'martirizado na' },
+    { from: '71', to: '1039', texto: 'representado por' },
+    { from: '73', to: '1039', texto: 'representada por' },
+    { from: '716', to: '1040', texto: 'representada por' },
+    { from: '83', to: '1041', texto: 'representada por' },
+    { from: '423', to: '1042', texto: 'representada por' },
+    { from: '705', to: '1043', texto: 'martirizada na' },
+    { from: '453', to: '1044', texto: 'representado por' },
+    { from: '668', to: '1044', texto: 'representado por' },
+    { from: '55', to: '1045', texto: 'representado por' },
+    { from: '680', to: '1046', texto: 'representado por' },
+    { from: '721', to: '1047', texto: 'representado por' },
+    { from: '721', to: '1048', texto: 'representado por' },
+    { from: '9', to: '1049', texto: 'representado por' },
+    { from: '9', to: '1050', texto: 'recebeu' },
+    { from: '601', to: '1050', texto: 'instituiu' },
+    { from: '722', to: '1050', texto: 'carregava' },
+    { from: '458', to: '1051', texto: 'representado por' },
+    { from: '10', to: '1052', texto: 'representado por' },
 
-    //  2. ANTIGUIDADE E PADRES DA IGREJA 
-    { from: '413', to: '239', title: 'mestre de', texto: 'discipulou' }, // S. Policarpo -> Sto. Irineu
-    { from: '64', to: '5', title: 'mãe de', texto: 'mãe de' }, // Sta. Mônica -> S. Agostinho
-    { from: '713', to: '5', title: 'converteu e batizou', texto: 'batizou' }, // Sto. Ambrósio -> S. Agostinho
-    { from: '76', to: '74', title: 'amigos no deserto', texto: 'amigo de' }, // S. Paulo Eremita <-> S. Antão
-    { from: '229', to: '604', title: 'grandes amigos (Padres Capadócios)', texto: 'amigo de' }, // S. Basílio Magno <-> S. Gregório Nazianzeno
-    { from: '715', to: '668', title: 'encomendou a Vulgata a', texto: 'patrono de' }, // S. Dâmaso I -> S. Jerônimo
+    // ==========================================
+    // 11. REDE RELACIONAL (Conexões Interpessoais)
+    // ==========================================
+    // Bíblicos e Família
+    { from: '218', to: '639', texto: 'casados' },
+    { from: '2', to: '110', texto: 'irmão de' },
+    { from: '55', to: '111', texto: 'irmão de' },
+    { from: '3', to: '412', texto: 'discipulou' },
+    { from: '3', to: '418', texto: 'discipulou' },
+    { from: '3', to: '228', texto: 'missionário com' },
+    { from: '2', to: '453', texto: 'mestre de' },
+    { from: '3', to: '680', texto: 'missionário com' },
+    { from: '55', to: '413', texto: 'discipulou' },
 
-    //  3. IDADE MÉDIA E ESCOLÁSTICA 
-    { from: '6', to: '85', title: 'irmãos gêmeos', texto: 'irmão de' }, // S. Bento <-> Sta. Escolástica
-    { from: '8', to: '9', title: 'contemporâneos (encontro em Roma)', texto: 'amigo de' }, // S. Francisco <-> S. Domingos
-    { from: '8', to: '11', title: 'orientador espiritual de', texto: 'inspirou' }, // S. Francisco -> Sta. Clara
-    { from: '697', to: '10', title: 'mestre de', texto: 'mestre de' }, // Sto. Alberto Magno -> S. Tomás de Aquino
-    { from: '208', to: '10', title: 'amigos e professores em Paris', texto: 'amigo de' }, // S. Boaventura <-> S. Tomás de Aquino
-    { from: '646', to: '10', title: 'buscava conselhos com', texto: 'aconselhado por' }, // S. Luís IX -> S. Tomás de Aquino
+    // Antiguidade e Padres da Igreja
+    { from: '413', to: '239', texto: 'discipulou' },
+    { from: '64', to: '5', texto: 'mãe de', dashes: true },
+    { from: '713', to: '5', texto: 'batizou' },
+    { from: '76', to: '74', texto: 'amigo de' },
+    { from: '229', to: '604', texto: 'amigo de' },
+    { from: '715', to: '668', texto: 'patrono de' },
+    { from: '721', to: '693', texto: 'amigo de' },
 
-    //  4. ERA MODERNA (A Grande "Rede" de Roma e Espanha) 
-    { from: '14', to: '15', title: 'colegas de quarto e co-fundadores', texto: 'amigo de' }, // Sto. Inácio <-> S. Francisco Xavier
-    { from: '12', to: '13', title: 'amigos e co-reformadores', texto: 'amiga de' }, // Sta. Teresa d'Ávila <-> S. João da Cruz
-    { from: '619', to: '14', title: 'amigos em Roma', texto: 'amigo de' }, // S. Felipe Néri <-> Sto. Inácio de Loyola
-    { from: '619', to: '688', title: 'grandes amigos e colaboradores', texto: 'amigo de' }, // S. Felipe Néri <-> S. Carlos Borromeu
-    { from: '608', to: '235', title: 'diretor espiritual de', texto: 'diretor espiritual' }, // S. Roberto Belarmino -> S. Luís Gonzaga
-    { from: '75', to: '643', title: 'amigos e co-fundadores', texto: 'amigo de' }, // S. Francisco de Sales <-> Sta. Joana de Chantal
-    { from: '212', to: '75', title: 'admirava profundamente', texto: 'discípulo de' }, // S. Vicente de Paulo -> S. Francisco de Sales
+    // Idade Média
+    { from: '6', to: '85', texto: 'irmão de', dashes: true },
+    { from: '8', to: '9', texto: 'amigo de' },
+    { from: '8', to: '11', texto: 'inspirou' },
+    { from: '697', to: '10', texto: 'mestre de' },
+    { from: '208', to: '10', texto: 'amigo de' },
+    { from: '646', to: '10', texto: 'aconselhado por' },
+    { from: '9', to: '640', texto: 'enviou' },
+    { from: '10', to: '605', texto: 'inspirou' },
+    { from: '459', to: '724', texto: 'venerava' },
+    { from: '410', to: '10', texto: 'amigo de' },
 
-    //  5. ERA CONTEMPORÂNEA 
-    { from: '61', to: '16', title: 'admirava e correspondia-se com', texto: 'amigo de' }, // S. João Bosco -> S. João M. Vianney
-    { from: '75', to: '61', title: 'inspirou o método pastoral de', texto: 'patrono de' }, // S. Francisco de Sales -> S. João Bosco (origem do nome "Salesianos")
-	
-	
-	// RELAÇÕES DOMINICANAS
+    // Era Moderna e Contemporânea
+    { from: '14', to: '15', texto: 'amigo de' },
+    { from: '12', to: '13', texto: 'amiga de' },
+    { from: '619', to: '14', texto: 'amigo de' },
+    { from: '619', to: '688', texto: 'amigo de' },
+    { from: '608', to: '235', texto: 'diretor espiritual' },
+    { from: '75', to: '643', texto: 'amigo de' },
+    { from: '212', to: '75', texto: 'discípulo de' },
+    { from: '75', to: '61', texto: 'inspirou o método pastoral', dashes: true },
+    { from: '61', to: '16', texto: 'amigo de' },
+    { from: '649', to: '722', texto: 'amigo de' },
+    { from: '722', to: '723', texto: 'amigo de' }
 
-    //  1. PERTENCIMENTO À ORDEM DOMINICANA (Nó 24) 
-    // (Incluindo os da base antiga que haviam ficado de fora)
-    { from: '9', to: '24', title: 'fundou', texto: 'fundou' }, // S. Domingos
-    { from: '10', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Tomás de Aquino
-    { from: '458', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pedro de Verona
-    { from: '444', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Vicente Férrer
-    { from: '459', to: '24', title: 'pertenceu a (Terceira)', texto: 'pertenceu a' }, // Sta. Catarina de Sena
-    { from: '601', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Pio V
-    { from: '640', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // S. Jacinto
-    { from: '649', to: '24', title: 'pertenceu a (Terceira)', texto: 'pertenceu a' }, // Sta. Rosa de Lima
-    { from: '697', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. Alberto Magno
-    { from: '605', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sto. Antonino
-    { from: '410', to: '24', title: 'mestre geral da', texto: 'liderou a' }, // S. Raimundo de Penaforte
-    { from: '722', to: '24', title: 'pertenceu a (Irmão Leigo)', texto: 'pertenceu a' }, // S. Martinho de Porres
-    { from: '723', to: '24', title: 'pertenceu a (Irmão Leigo)', texto: 'pertenceu a' }, // S. João Macias
-    { from: '724', to: '24', title: 'pertenceu a', texto: 'pertenceu a' }, // Sta. Inês de Montepulciano
-
-    //  2. HIERARQUIA (Nível 1) 
-    { from: '51', to: '10', title: 'é', texto: 'é' }, // S. Tomás
-    { from: '51', to: '697', title: 'é', texto: 'é' }, // Sto. Alberto
-    { from: '51', to: '459', title: 'é', texto: 'é' }, // Sta. Catarina
-    { from: '56', to: '601', title: 'é', texto: 'é' }, // S. Pio V
-    { from: '50', to: '458', title: 'é', texto: 'é' }, // S. Pedro de Verona
-
-    //  3. A "REDE SOCIAL" DOMINICANA (Interpessoal) 
-    // O Eixo Fundador e Europeu
-    { from: '697', to: '10', title: 'mestre de', texto: 'mestre de' }, // Sto. Alberto -> S. Tomás
-    { from: '9', to: '640', title: 'enviou em missão para a Polônia', texto: 'enviou' }, // S. Domingos -> S. Jacinto
-    { from: '10', to: '605', title: 'sua teologia inspirou', texto: 'inspirou' }, // S. Tomás -> Sto. Antonino
-    { from: '459', to: '724', title: 'venerava o túmulo de', texto: 'venerava' }, // Sta. Catarina de Sena -> Sta. Inês
-    { from: '410', to: '10', title: 'encomendou a Suma Contra os Gentios a', texto: 'amigo de' }, // S. Raimundo de Penaforte -> S. Tomás
-    
-    // O Eixo Sul-Americano (O Milagre de Lima)
-    // Curiosidade histórica: Rosa, Martinho e João Macias viveram na mesma cidade, na mesma época e eram amigos!
-    { from: '649', to: '722', title: 'amigos e contemporâneos em Lima', texto: 'amigo de' }, // Sta. Rosa <-> S. Martinho de Porres
-    { from: '722', to: '723', title: 'grandes amigos e confidentes', texto: 'amigo de' }, // S. Martinho de Porres <-> S. João Macias
-
-    //  4. GEOGRAFIA DE ATUAÇÃO E MORTE 
-    { from: '649', to: '806', title: 'nasceu/faleceu em', texto: 'atuou em' }, // Sta. Rosa -> Lima
-    { from: '722', to: '806', title: 'nasceu/faleceu em', texto: 'atuou em' }, // S. Martinho -> Lima
-    { from: '723', to: '806', title: 'atuou/faleceu em', texto: 'atuou em' }, // S. João Macias -> Lima
-    { from: '459', to: '26', title: 'faleceu em', texto: 'faleceu em' }, // Sta. Catarina -> Roma (Já na base)
-    { from: '10', to: '145', title: 'faleceu perto de', texto: 'faleceu em' }, // S. Tomás -> Nápoles (Já na base)
-    { from: '9', to: '144', title: 'faleceu em', texto: 'faleceu em' }, // S. Domingos -> Bolonha (Já na base)
-
-    //  5. ICONOGRAFIA E SÍMBOLOS DOMINICANOS 
-    { from: '9', to: '1049', title: 'representado por (Domini Canes = Cães do Senhor)', texto: 'representado por' }, // S. Domingos -> Cão com tocha
-    { from: '10', to: '1052', title: 'representado por', texto: 'representado por' }, // S. Tomás -> Sol no peito
-    { from: '458', to: '1051', title: 'representado por (arma do seu martírio)', texto: 'representado por' }, // S. Pedro de Verona -> Faca na cabeça
-    { from: '649', to: '1033', title: 'representada por (coroa de rosas)', texto: 'representada por' }, // Sta. Rosa -> Rosas (ID 1033 já criamos antes)
-    { from: '10', to: '1035', title: 'representado por', texto: 'representado por' }, // S. Tomás -> Livro (Suma) (ID 1035 já criado)
-    { from: '9', to: '1032', title: 'representado por', texto: 'representado por' }, // S. Domingos -> O Lírio (ID 1032 já criado)
-    
-    // A forte ligação dos Dominicanos com a Devoção do Rosário
-    { from: '9', to: '1050', title: 'recebeu de N. Senhora', texto: 'recebeu' }, // S. Domingos -> Rosário
-    { from: '601', to: '1050', title: 'instituiu a festa de', texto: 'instituiu' }, // S. Pio V -> Rosário (N.S. da Vitória/Lepanto)
-    { from: '722', to: '1050', title: 'sempre carregava', texto: 'carregava' } // S. Martinho -> Rosário
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 ];
 
 module.exports = { todosNos, todosSetas, regras: regrasDoGrafo };
