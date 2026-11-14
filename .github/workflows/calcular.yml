@@ -33,5 +33,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add */dados-com-posicoes.json 2>/dev/null || echo "Nenhum dados-com-posicoes.json encontrado ainda"
-          git commit -m "Atualiza posições dos grafos" || echo "Nada novo para salvar"
+          git add */dados-mapa.json 2>/dev/null || echo "Nenhum dados-mapa.json encontrado ainda"
+          git commit -m "Atualiza posições e mapas dos grafos" || echo "Nada novo para salvar"
           git push
