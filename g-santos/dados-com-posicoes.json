@@ -5387,7 +5387,6 @@
       "texto": "é"
     },
     {
-      "id_virg_232": true,
       "from": "52",
       "to": "232",
       "texto": "é"
@@ -10075,11 +10074,6 @@
     {
       "from": "112",
       "to": "814",
-      "texto": "nasceu em"
-    },
-    {
-      "from": "71",
-      "to": "815",
       "texto": "nasceu em"
     },
     {
