@@ -1,3 +1,4 @@
+
 // ============================================================
 // CALCULADOR DE POSIÇÕES — calcular-posicoes.js
 // ============================================================
@@ -540,6 +541,12 @@ function gerarDadosDoMapa(todosNos, regrasCarregadas, nomeGrafo) {
     var localNo = nosPorId[idLoc];
     if (localNo[campoLat] === undefined || localNo[campoLng] === undefined) return;
     var nomePais = localNo[campoPais] || '';
+    var listaSantosCidade = Array.from(setSantos).map(function(idSanto) {
+      var noSanto = nosPorId[idSanto];
+      return { id: idSanto, nome: noSanto ? noSanto.label : idSanto };
+    }).sort(function(a, b) {
+      return String(a.nome).localeCompare(String(b.nome));
+    });
     cidadesSaida.push({
       id: idLoc,
       nome: limparNomeCidadeMapa(localNo.label, nomePais),
@@ -547,7 +554,8 @@ function gerarDadosDoMapa(todosNos, regrasCarregadas, nomeGrafo) {
       iso: localNo[campoIso] || '',
       lat: localNo[campoLat],
       lng: localNo[campoLng],
-      qtd: setSantos.size
+      qtd: setSantos.size,
+      santos: listaSantosCidade
     });
   });
 
@@ -647,3 +655,6 @@ module.exports = { calcularPosicoesDeUmGrafo: calcularPosicoesDeUmGrafo };
 if (require.main === module) {
   main();
 }
+
+
+// FIM CALCULADOR DE POSIÇÕES — calcular-posicoes.js
