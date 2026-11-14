@@ -1,41 +1,23 @@
-// 
-// REGRAS GRAFO "g-santos" parte inicial do arquivo no github dados-grafo.js
-// Muda um número aqui, o build e o motor obedecem sozinhos.
-// (antes vivia em regras-grafo.js — agora mora aqui, no mesmo
-// arquivo dos dados, pra motor/página buscarem tudo numa fetch só)
-// 
+// ============================================================
+// REGRAS GRAFO "g-santos"
+// ============================================================
 var regrasDoGrafo = {
-  // Traduz "papel" -> nome real do campo na base deste grafo
   dicionario: {
-    chaveOrdenacao: 'ano',        // campo usado pra ordenar dentro do nível
-    agrupamento: 'categoria',     // campo que separa em fileiras diferentes
-    mesReferencia: 'mesNumero'    // campo do nó de mês que dá o número do mês
+    chaveOrdenacao: 'ano',
+    agrupamento: 'categoria',
+    mesReferencia: 'mesNumero'
   },
-// Números de layout
   layout: {
-// nosPorFileira: 20,           // [DESATIVADO pois nao tem sentido mexer aqui, mas usar o default que esta no calcular grafo] valor antigo — comente/descomente pra voltar a 20. Sem essa chave, o sistema usa o padrão genérico (16).
-// minimoAntesQuebraSeculo: 10, // [DESATIVADO] valor antigo — junto com a linha acima, controlava o limiar de quebra entre grupos/século.
     alturaPorFileira: 150,
     numLinhasInternas: 2,
-    usaQuebraPorEpoca: true,       // se false, ignora século e só quebra por 20/16
-    niveisComSeculo: [3, 4, 5, 6], // só estes níveis geram faixa/rótulo de século
+    usaQuebraPorEpoca: true,
+    niveisComSeculo: [3, 4, 5, 6],
     rotulosNiveis: {
       2: 'Santos Bíblicos',
       7: 'Congregações e Obras',
       8: 'Locais',
       9: 'Fenômenos, Relíquias e Iconografia'
     },
-    // 2026-08-10: migrado de rotulosSubgruposNivel1/coresSubgruposNivel1
-    // (formato antigo, restrito ao nível 1) para o mecanismo genérico
-    // subgruposPorNivel — mesmo padrão agora usado em todos os grafos
-    // (g-padres-nao-una-cum, g-vaticano-ii). Sem mudança de comportamento
-    // aqui: só o nível 1 usa subgrupo neste grafo.
-    // NOTA (observado após implementação): apesar de 'ideia' (títulos)
-    // vir processado ANTES de 'documento' (meses) na ordem dos dados,
-    // a inversão do eixo Y no motor (y: -(n.y||0)) fez 'documento'
-    // renderizar ACIMA de 'ideia' na tela — o oposto do que a ordem
-    // lógica sugeriria. Não corrigido pois não trouxe problema visual;
-    // ideia=vermelho ficou embaixo, documento=roxo ficou em cima.
     subgruposPorNivel: {
       1: {
         rotulos: {
@@ -43,29 +25,14 @@ var regrasDoGrafo = {
           documento: 'Meses'
         },
         cores: {
-          ideia: 'rgba(220, 38, 38, 0.4)',      // era âmbar 0.08 -> agora vermelho, opacidade +20%
-          documento: 'rgba(124, 58, 237, 0.4)'  // mesma cor, opacidade +20% (0.08 -> 0.096)
+          ideia: 'rgba(220, 38, 38, 0.4)',
+          documento: 'rgba(124, 58, 237, 0.4)'
         }
       }
     }
   },
-  // Cores fixas tudo na paleta automatica, nenhuma regra especifica
   cores: {}
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 var todosNos = [
 
@@ -442,7 +409,7 @@ var todosNos = [
     { id: '917', level: 7, categoria: 'fundadora', label: 'História Eclesiástica', grupo: 'documento' },
 
     // ==========================================
-    // NÍVEL 8: GEOGRAFIA COM "CIDADE (PAÍS)"
+    // NÍVEL 8: GEOGRAFIA
     // ==========================================
     { id: '26',  level: 8, categoria: 'morte',   label: 'Roma (Itália)', grupo: 'localizacao', pais: 'Itália', iso: 'IT' },
     { id: '130', level: 8, categoria: 'atuacao', label: 'Nazaré (Israel)', grupo: 'localizacao', pais: 'Israel', iso: 'IL' },
@@ -534,7 +501,6 @@ var todosNos = [
     { id: '806', level: 8, categoria: 'atuacao', label: 'Lima (Peru)', grupo: 'localizacao', pais: 'Peru', iso: 'PE' },
     { id: '807', level: 8, categoria: 'atuacao', label: 'Coimbra (Portugal)', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
 
-    // Cidades Natais Adicionadas
     { id: '810', level: 8, categoria: 'atuacao', label: 'Lisboa (Portugal)', grupo: 'localizacao', pais: 'Portugal', iso: 'PT' },
     { id: '811', level: 8, categoria: 'atuacao', label: 'Tagaste (Argélia)', grupo: 'localizacao', pais: 'Argélia', iso: 'DZ' },
     { id: '812', level: 8, categoria: 'atuacao', label: 'Estridão (Croácia)', grupo: 'localizacao', pais: 'Croácia', iso: 'HR' },
@@ -622,27 +588,9 @@ var todosNos = [
 
 ];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var todosSetas = [
 
-    // ==========================================
-    // 1. ATRIBUTOS E TÍTULOS (Nível 1 -> Santos)
-    // ==========================================
-    // Papas (56)
+    // ATRIBUTOS -> SANTOS
     { from: '56', to: '2', texto: 'é' },
     { from: '56', to: '19', texto: 'é' },
     { from: '56', to: '200', texto: 'é' },
@@ -676,7 +624,6 @@ var todosSetas = [
     { from: '56', to: '715', texto: 'é' },
     { from: '56', to: '720', texto: 'é' },
 
-    // Bispos (57)
     { from: '57', to: '5', texto: 'é' },
     { from: '57', to: '75', texto: 'é' },
     { from: '57', to: '81', texto: 'é' },
@@ -727,7 +674,6 @@ var todosSetas = [
     { from: '57', to: '719', texto: 'é' },
     { from: '57', to: '721', texto: 'é' },
 
-    // Abades (59)
     { from: '59', to: '74', texto: 'é' },
     { from: '59', to: '6', texto: 'é' },
     { from: '59', to: '66', texto: 'é' },
@@ -740,7 +686,6 @@ var todosSetas = [
     { from: '59', to: '706', texto: 'é' },
     { from: '59', to: '711', texto: 'é' },
 
-    // Viúvas (60)
     { from: '60', to: '64', texto: 'é' },
     { from: '60', to: '67', texto: 'é' },
     { from: '60', to: '203', texto: 'é' },
@@ -752,7 +697,6 @@ var todosSetas = [
     { from: '60', to: '672', texto: 'é' },
     { from: '60', to: '678', texto: 'é' },
 
-    // Virgens (52)
     { from: '52', to: '73', texto: 'é' },
     { from: '52', to: '11', texto: 'é' },
     { from: '52', to: '12', texto: 'é' },
@@ -761,7 +705,7 @@ var todosSetas = [
     { from: '52', to: '85', texto: 'é' },
     { from: '52', to: '214', texto: 'é' },
     { from: '52', to: '217', texto: 'é' },
-    { id_virg_232: true, from: '52', to: '232', texto: 'é' },
+    { from: '52', to: '232', texto: 'é' },
     { from: '52', to: '221', texto: 'é' },
     { from: '52', to: '405', texto: 'é' },
     { from: '52', to: '411', texto: 'é' },
@@ -786,7 +730,6 @@ var todosSetas = [
     { from: '52', to: '716', texto: 'é' },
     { from: '52', to: '724', texto: 'é' },
 
-    // Doutores (51)
     { from: '51', to: '5', texto: 'é' },
     { from: '51', to: '10', texto: 'é' },
     { from: '51', to: '13', texto: 'é' },
@@ -818,7 +761,6 @@ var todosSetas = [
     { from: '51', to: '710', texto: 'é' },
     { from: '51', to: '713', texto: 'é' },
 
-    // Mártires (50)
     { from: '50', to: '71', texto: 'é' },
     { from: '50', to: '2', texto: 'é' },
     { from: '50', to: '3', texto: 'é' },
@@ -935,7 +877,6 @@ var todosSetas = [
     { from: '50', to: '718', texto: 'é' },
     { from: '50', to: '719', texto: 'é' },
 
-    // Confessores (53)
     { from: '53', to: '4', texto: 'é' },
     { from: '53', to: '76', texto: 'é' },
     { from: '53', to: '8', texto: 'é' },
@@ -1020,10 +961,8 @@ var todosSetas = [
     { from: '53', to: '722', texto: 'é' },
     { from: '53', to: '723', texto: 'é' },
 
-    // Penitente (1053)
     { from: '1053', to: '215', texto: 'é' },
 
-    // Festas e Marianos (58)
     { from: '58', to: '424', texto: 'é' },
     { from: '58', to: '440', texto: 'é' },
     { from: '58', to: '441', texto: 'é' },
@@ -1034,21 +973,17 @@ var todosSetas = [
     { from: '58', to: '644', texto: 'é' },
     { from: '58', to: '680', texto: 'é' },
 
-    // Arcanjos (1005)
     { from: '1005', to: '439', texto: 'é' },
     { from: '1005', to: '603', texto: 'é' },
     { from: '1005', to: '685', texto: 'é' },
 
-    // Evangelistas (54)
     { from: '54', to: '55',  texto: 'é' },
     { from: '54', to: '115', texto: 'é' },
     { from: '54', to: '453', texto: 'é' },
     { from: '54', to: '680', texto: 'é' },
 
-    // Profeta (848)
     { from: '848', to: '71', texto: 'é' },
 
-    // Apóstolos (849)
     { from: '849', to: '2',   texto: 'é' },
     { from: '849', to: '3',   texto: 'é' },
     { from: '849', to: '110', texto: 'é' },
@@ -1063,10 +998,7 @@ var todosSetas = [
     { from: '849', to: '118', texto: 'é' },
     { from: '849', to: '86',  texto: 'é' },
 
-    // ==========================================
-    // 2. CALENDÁRIO LITÚRGICO (Meses -> Santos)
-    // ==========================================
-    // Janeiro (70)
+    // CALENDÁRIO
     { from: '70', to: '400', texto: 'Dia 11' },
     { from: '70', to: '401', texto: 'Dia 14' },
     { from: '70', to: '402', texto: 'Dia 14' },
@@ -1093,7 +1025,6 @@ var todosSetas = [
     { from: '70', to: '416', texto: 'Dia 30' },
     { from: '70', to: '61',  texto: 'Dia 31' },
 
-    // Fevereiro (80)
     { from: '80', to: '81',  texto: 'Dia 1' },
     { from: '80', to: '82',  texto: 'Dia 3' },
     { from: '80', to: '417', texto: 'Dia 4' },
@@ -1115,7 +1046,6 @@ var todosSetas = [
     { from: '80', to: '86',  texto: 'Dia 24' },
     { from: '80', to: '429', texto: 'Dia 27' },
 
-    // Março (90)
     { from: '90', to: '430', texto: 'Dia 4' },
     { from: '90', to: '431', texto: 'Dia 4' },
     { from: '90', to: '432', texto: 'Dia 6' },
@@ -1133,7 +1063,6 @@ var todosSetas = [
     { from: '90', to: '441', texto: 'Dia 27' },
     { from: '90', to: '442', texto: 'Dia 27' },
 
-    // Abril (91)
     { from: '91', to: '443', texto: 'Dia 4' },
     { from: '91', to: '444', texto: 'Dia 5' },
     { from: '91', to: '445', texto: 'Dia 11' },
@@ -1154,7 +1083,6 @@ var todosSetas = [
     { from: '91', to: '458', texto: 'Dia 29' },
     { from: '91', to: '459', texto: 'Dia 30' },
 
-    // Maio (92)
     { from: '92', to: '600', texto: 'Dia 2' },
     { from: '92', to: '64',  texto: 'Dia 4' },
     { from: '92', to: '601', texto: 'Dia 5' },
@@ -1190,7 +1118,6 @@ var todosSetas = [
     { from: '92', to: '627', texto: 'Dia 30' },
     { from: '92', to: '628', texto: 'Dia 31' },
 
-    // Junho (93)
     { from: '93', to: '223', texto: 'Dia 2' },
     { from: '93', to: '224', texto: 'Dia 5' },
     { from: '93', to: '225', texto: 'Dia 6' },
@@ -1213,7 +1140,6 @@ var todosSetas = [
     { from: '93', to: '2',   texto: 'Dia 29' },
     { from: '93', to: '3',   texto: 'Dia 29' },
 
-    // Julho (94)
     { from: '94', to: '200', texto: 'Dia 3' },
     { from: '94', to: '201', texto: 'Dia 5' },
     { from: '94', to: '202', texto: 'Dia 7' },
@@ -1241,7 +1167,6 @@ var todosSetas = [
     { from: '94', to: '222', texto: 'Dia 30' },
     { from: '94', to: '14',  texto: 'Dia 31' },
 
-    // Agosto (95)
     { from: '95', to: '2',   texto: 'Dia 1' },
     { from: '95', to: '629', texto: 'Dia 2' },
     { from: '95', to: '630', texto: 'Dia 3' },
@@ -1273,7 +1198,6 @@ var todosSetas = [
     { from: '95', to: '649', texto: 'Dia 30' },
     { from: '95', to: '650', texto: 'Dia 31' },
 
-    // Setembro (96)
     { from: '96', to: '651', texto: 'Dia 1' },
     { from: '96', to: '652', texto: 'Dia 1' },
     { from: '96', to: '653', texto: 'Dia 2' },
@@ -1298,7 +1222,6 @@ var todosSetas = [
     { from: '96', to: '603', texto: 'Dia 29' },
     { from: '96', to: '668', texto: 'Dia 30' },
 
-    // Outubro (97)
     { from: '97', to: '669', texto: 'Dia 1' },
     { from: '97', to: '17',  texto: 'Dia 3' },
     { from: '97', to: '8',   texto: 'Dia 4' },
@@ -1324,7 +1247,6 @@ var todosSetas = [
     { from: '97', to: '117', texto: 'Dia 28' },
     { from: '97', to: '118', texto: 'Dia 28' },
 
-    // Novembro (98)
     { from: '98', to: '722', texto: 'Dia 3' },
     { from: '98', to: '688', texto: 'Dia 4' },
     { from: '98', to: '689', texto: 'Dia 6' },
@@ -1353,7 +1275,6 @@ var todosSetas = [
     { from: '98', to: '708', texto: 'Dia 29' },
     { from: '98', to: '110', texto: 'Dia 30' },
 
-    // Dezembro (99)
     { from: '99', to: '709', texto: 'Dia 2' },
     { from: '99', to: '15',  texto: 'Dia 3' },
     { from: '99', to: '710', texto: 'Dia 4' },
@@ -1371,22 +1292,16 @@ var todosSetas = [
     { from: '99', to: '719', texto: 'Dia 29' },
     { from: '99', to: '720', texto: 'Dia 31' },
 
-    // ==========================================
-    // 3. CONGREGAÇÕES E ORDENS (Aresta forte vence)
-    // ==========================================
-    // Ordem Beneditina (22)
+    // ORDENS E OBRAS
     { from: '6', to: '22', texto: 'fundou' },
     { from: '85', to: '22', texto: 'co-fundou' },
     { from: '436', to: '22', texto: 'pertenceu a' },
     { from: '403', to: '22', texto: 'propagou a' },
     { from: '428', to: '22', texto: 'reformou' },
     { from: '706', to: '22', texto: 'pertenceu a' },
-
-    // Ordem Cisterciense (63)
     { from: '22', to: '63', texto: 'gerou o ramo' },
     { from: '66', to: '63', texto: 'reformou e expandiu' },
 
-    // Ordem Franciscana (23)
     { from: '8', to: '23', texto: 'fundou' },
     { from: '11', to: '23', texto: 'fundou (Clarissas)' },
     { from: '65', to: '23', texto: 'pertenceu a' },
@@ -1397,7 +1312,6 @@ var todosSetas = [
     { from: '452', to: '23', texto: 'pertenceu a' },
     { from: '695', to: '23', texto: 'pertenceu a' },
 
-    // Ordem Dominicana (24)
     { from: '9', to: '24', texto: 'fundou' },
     { from: '10', to: '24', texto: 'pertenceu a' },
     { from: '458', to: '24', texto: 'pertenceu a' },
@@ -1413,7 +1327,6 @@ var todosSetas = [
     { from: '723', to: '24', texto: 'pertenceu a' },
     { from: '724', to: '24', texto: 'pertenceu a' },
 
-    // Companhia de Jesus (25)
     { from: '14', to: '25', texto: 'fundou' },
     { from: '15', to: '25', texto: 'co-fundou' },
     { from: '235', to: '25', texto: 'pertenceu a' },
@@ -1421,16 +1334,13 @@ var todosSetas = [
     { from: '608', to: '25', texto: 'pertenceu a' },
     { from: '675', to: '25', texto: 'liderou a' },
 
-    // Família Salesiana (62)
     { from: '61', to: '62', texto: 'fundou' },
 
-    // Carmelo Descalço (41)
     { from: '12', to: '41', texto: 'fundou' },
     { from: '13', to: '41', texto: 'co-fundou' },
     { from: '17', to: '41', texto: 'pertenceu a' },
     { from: '624', to: '41', texto: 'pertenceu a' },
 
-    // Outras Ordens
     { from: '5', to: '850', texto: 'inspirou' },
     { from: '67', to: '850', texto: 'pertenceu a' },
     { from: '656', to: '850', texto: 'pertenceu a' },
@@ -1460,9 +1370,6 @@ var todosSetas = [
     { from: '671', to: '866', texto: 'fundou' },
     { from: '225', to: '867', texto: 'fundou' },
 
-    // ==========================================
-    // 4. OBRAS E LIVROS (Nível 7)
-    // ==========================================
     { from: '10', to: '32', texto: 'escreveu' },
     { from: '14', to: '34', texto: 'escreveu' },
     { from: '12', to: '38', texto: 'mestra de' },
@@ -1486,9 +1393,7 @@ var todosSetas = [
     { from: '436', to: '916', texto: 'escreveu' },
     { from: '621', to: '917', texto: 'escreveu' },
 
-    // ==========================================
-    // 5. GEOGRAFIA DE ATUAÇÃO E MORTE
-    // ==========================================
+    // GEOGRAFIA
     { from: '71', to: '131', texto: 'pregou em' },
     { from: '2', to: '26', texto: 'sede / martírio em' },
     { from: '3', to: '26', texto: 'martirizado em' },
@@ -1759,9 +1664,7 @@ var todosSetas = [
     { from: '722', to: '806', texto: 'atuou em' },
     { from: '723', to: '806', texto: 'atuou em' },
 
-    // ==========================================
-    // 6. CIDADES NATAIS (Ligando nós 810 a 845)
-    // ==========================================
+    // CIDADES NATAIS (Conexões visuais)
     { from: '4', to: '130', texto: 'nasceu em' },
     { from: '8', to: '143', texto: 'nasceu em' },
     { from: '12', to: '149', texto: 'nasceu em' },
@@ -1775,7 +1678,6 @@ var todosSetas = [
     { from: '111', to: '814', texto: 'nasceu em' },
     { from: '55', to: '814', texto: 'nasceu em' },
     { from: '112', to: '814', texto: 'nasceu em' },
-    { from: '71', to: '815', texto: 'nasceu em' },
     { from: '6', to: '816', texto: 'nasceu em' },
     { from: '85', to: '816', texto: 'nasceu em' },
     { from: '66', to: '817', texto: 'nasceu em' },
@@ -1809,9 +1711,7 @@ var todosSetas = [
     { from: '659', to: '845', texto: 'nasceu em' },
     { from: '722', to: '806', texto: 'nasceu em' },
 
-    // ==========================================
-    // 7. SANTUÁRIOS E TÚMULOS (Nós Únicos 1020-1026)
-    // ==========================================
+    // SANTUÁRIOS E TÚMULOS
     { from: '2', to: '1020', texto: 'sepultado na' },
     { from: '200', to: '1020', texto: 'sepultado na' },
     { from: '436', to: '1020', texto: 'sepultado na' },
@@ -1825,33 +1725,25 @@ var todosSetas = [
     { from: '16', to: '1025', texto: 'sepultado no' },
     { from: '17', to: '1026', texto: 'sepultada na' },
 
-    // ==========================================
-    // 8. FENÔMENOS MÍSTICOS (Corrigidos)
-    // ==========================================
-    // Corpos Incorruptos (1000)
+    // FENÔMENOS MÍSTICOS
     { from: '16', to: '1000', texto: 'possui' },
     { from: '67', to: '1000', texto: 'possui' },
     { from: '624', to: '1000', texto: 'possui' },
     { from: '688', to: '1000', texto: 'possui' },
 
-    // Estigmas (1001)
     { from: '8', to: '1001', texto: 'recebeu' },
     { from: '67', to: '1001', texto: 'chaga na testa' },
     { from: '459', to: '1001', texto: 'recebeu' },
 
-    // Bilocação (1002)
     { from: '61', to: '1002', texto: 'experimentou' },
     { from: '65', to: '1002', texto: 'experimentou' },
     { from: '619', to: '1002', texto: 'experimentou' },
     { from: '629', to: '1002', texto: 'experimentou' },
 
-    // Levitação (1003)
     { from: '12', to: '1003', texto: 'experimentou' },
     { from: '659', to: '1003', texto: 'famoso por' },
 
-    // ==========================================
-    // 9. RELÍQUIAS (Corrigidas)
-    // ==========================================
+    // RELÍQUIAS
     { from: '219', to: '1010', texto: 'milagre do' },
     { from: '660', to: '1010', texto: 'milagre do' },
     { from: '75', to: '1011', texto: 'possui' },
@@ -1863,9 +1755,7 @@ var todosSetas = [
     { from: '693', to: '1014', texto: 'deixou o' },
     { from: '2', to: '1015', texto: 'libertado das' },
 
-    // ==========================================
-    // 10. ICONOGRAFIA E SÍMBOLOS
-    // ==========================================
+    // ICONOGRAFIA
     { from: '2', to: '1030', texto: 'representado por' },
     { from: '3', to: '1031', texto: 'representado por' },
     { from: '626', to: '1031', texto: 'representada por' },
@@ -1908,10 +1798,7 @@ var todosSetas = [
     { from: '458', to: '1051', texto: 'representado por' },
     { from: '10', to: '1052', texto: 'representado por' },
 
-    // ==========================================
-    // 11. REDE RELACIONAL (Conexões Interpessoais)
-    // ==========================================
-    // Bíblicos e Família
+    // REDE RELACIONAL
     { from: '218', to: '639', texto: 'casados' },
     { from: '2', to: '110', texto: 'irmão de' },
     { from: '55', to: '111', texto: 'irmão de' },
@@ -1922,7 +1809,6 @@ var todosSetas = [
     { from: '3', to: '680', texto: 'missionário com' },
     { from: '55', to: '413', texto: 'discipulou' },
 
-    // Antiguidade e Padres da Igreja
     { from: '413', to: '239', texto: 'discipulou' },
     { from: '64', to: '5', texto: 'mãe de', dashes: true },
     { from: '713', to: '5', texto: 'batizou' },
@@ -1931,7 +1817,6 @@ var todosSetas = [
     { from: '715', to: '668', texto: 'patrono de' },
     { from: '721', to: '693', texto: 'amigo de' },
 
-    // Idade Média
     { from: '6', to: '85', texto: 'irmão de', dashes: true },
     { from: '8', to: '9', texto: 'amigo de' },
     { from: '8', to: '11', texto: 'inspirou' },
@@ -1943,7 +1828,6 @@ var todosSetas = [
     { from: '459', to: '724', texto: 'venerava' },
     { from: '410', to: '10', texto: 'amigo de' },
 
-    // Era Moderna e Contemporânea
     { from: '14', to: '15', texto: 'amigo de' },
     { from: '12', to: '13', texto: 'amiga de' },
     { from: '619', to: '14', texto: 'amigo de' },
