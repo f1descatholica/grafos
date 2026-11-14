@@ -1,7 +1,5 @@
 // ============================================================
-// CALCULADOR DE POSIÇÕES — VERSÃO GENÉRICA (N GRAFOS)
-// Lê os dados E as regras de cada grafo de "dados-grafo.js" (arquivo
-// único por pasta — regras-grafo.js foi consolidado aqui dentro).
+// CALCULADOR DE POSIÇÕES — calcular-posicoes.js
 // ============================================================
 //
 // ÁRVORE DE DECISÃO — CAMADAS DE GENERALIDADE (não remover nem mover):
@@ -452,6 +450,137 @@ function encontrarPastasDeGrafo() {
     .filter(function(nome) { return PASTAS_IGNORADAS.indexOf(nome) === -1; });
 }
 
+function limparNomeCidadeMapa(label, nomePais) {
+  var texto = String(label || '').trim();
+  if (!nomePais) return texto;
+  var sufixo = ' (' + nomePais + ')';
+  if (texto.endsWith(sufixo)) {
+    return texto.slice(0, -sufixo.length).trim();
+  }
+  return texto;
+}
+
+function gerarDadosDoMapa(todosNos, regrasCarregadas, nomeGrafo) {
+  var cfg = regrasCarregadas.mapa;
+  var campos = cfg.campos || {};
+  var campoLocalNasc = campos.localNasc || 'localNasc';
+  var campoPaisNasc = campos.paisNasc || 'paisNasc';
+  var campoPais = campos.pais || 'pais';
+  var campoIso = campos.iso || 'iso';
+  var campoLat = campos.lat || 'lat';
+  var campoLng = campos.lng || 'lng';
+
+  var niveisSet = new Set(cfg.niveisSantos || []);
+  var excluidosSet = new Set((cfg.idsExcluidos || []).map(String));
+  var mapaPaisesCfg = cfg.paises || {};
+
+  var nosPorId = {};
+  todosNos.forEach(function(n) { nosPorId[String(n.id)] = n; });
+
+  var contagemCidades = {}; // idLocal -> Set de ids de santos
+  var contagemPaises = {};  // iso -> Set de ids de santos
+  var santosContados = new Set();
+
+  var qtdExcluidosAplicados = 0;
+  var semNascimento = [];
+  var comConflito = [];
+  var locaisSemCoord = new Set();
+  var locaisInexistentes = new Set();
+  var isosSemTabela = new Set();
+
+  todosNos.forEach(function(n) {
+    if (!niveisSet.has(n.level)) return;
+    var idStr = String(n.id);
+    if (excluidosSet.has(idStr)) {
+      qtdExcluidosAplicados++;
+      return;
+    }
+
+    var localId = n[campoLocalNasc];
+    var paisIsoDireto = n[campoPaisNasc];
+
+    if (localId && paisIsoDireto) {
+      comConflito.push(idStr + ' (' + n.label + ')');
+    }
+
+    if (localId) {
+      var localNo = nosPorId[String(localId)];
+      if (!localNo) {
+        locaisInexistentes.add(String(localId));
+        return;
+      }
+      if (localNo[campoLat] === undefined || localNo[campoLng] === undefined) {
+        locaisSemCoord.add(String(localId) + ' (' + localNo.label + ')');
+      }
+      var isoLocal = localNo[campoIso];
+      if (!contagemCidades[String(localId)]) contagemCidades[String(localId)] = new Set();
+      contagemCidades[String(localId)].add(idStr);
+
+      if (isoLocal) {
+        if (!mapaPaisesCfg[isoLocal]) isosSemTabela.add(isoLocal);
+        if (!contagemPaises[isoLocal]) contagemPaises[isoLocal] = new Set();
+        contagemPaises[isoLocal].add(idStr);
+      }
+      santosContados.add(idStr);
+    } else if (paisIsoDireto) {
+      var isoDir = String(paisIsoDireto);
+      if (!mapaPaisesCfg[isoDir]) isosSemTabela.add(isoDir);
+      if (!contagemPaises[isoDir]) contagemPaises[isoDir] = new Set();
+      contagemPaises[isoDir].add(idStr);
+      santosContados.add(idStr);
+    } else {
+      semNascimento.push(idStr + ' (' + n.label + ')');
+    }
+  });
+
+  var cidadesSaida = [];
+  Object.keys(contagemCidades).forEach(function(idLoc) {
+    var setSantos = contagemCidades[idLoc];
+    if (setSantos.size === 0) return;
+    var localNo = nosPorId[idLoc];
+    if (localNo[campoLat] === undefined || localNo[campoLng] === undefined) return;
+    var nomePais = localNo[campoPais] || '';
+    cidadesSaida.push({
+      id: idLoc,
+      nome: limparNomeCidadeMapa(localNo.label, nomePais),
+      pais: nomePais,
+      iso: localNo[campoIso] || '',
+      lat: localNo[campoLat],
+      lng: localNo[campoLng],
+      qtd: setSantos.size
+    });
+  });
+
+  var paisesSaida = [];
+  var somaPaises = 0;
+  Object.keys(contagemPaises).forEach(function(iso) {
+    var setSantos = contagemPaises[iso];
+    if (setSantos.size === 0) return;
+    var cfgPais = mapaPaisesCfg[iso];
+    if (!cfgPais) return;
+    somaPaises += setSantos.size;
+    paisesSaida.push({
+      iso: iso,
+      nome: cfgPais.nome,
+      lat: cfgPais.lat,
+      lng: cfgPais.lng,
+      qtd: setSantos.size
+    });
+  });
+
+  console.log('  [MAPA "' + nomeGrafo + '"] Santos contados: ' + santosContados.size + ' | Soma dos países: ' + somaPaises + ' | Excluídos: ' + qtdExcluidosAplicados);
+  if (semNascimento.length > 0) console.warn('  [MAPA AVISO] Santos sem nascimento (' + semNascimento.length + '): ' + semNascimento.join(', '));
+  if (comConflito.length > 0) console.warn('  [MAPA AVISO] Santos com localNasc e paisNasc simultâneos (usado localNasc): ' + comConflito.join(', '));
+  if (locaisInexistentes.size > 0) console.warn('  [MAPA AVISO] localNasc inexistente: ' + Array.from(locaisInexistentes).join(', '));
+  if (locaisSemCoord.size > 0) console.warn('  [MAPA AVISO] Locais sem lat/lng: ' + Array.from(locaisSemCoord).join(', '));
+  if (isosSemTabela.size > 0) console.warn('  [MAPA AVISO] ISOs sem entrada em regras.mapa.paises: ' + Array.from(isosSemTabela).join(', '));
+
+  return {
+    cidades: cidadesSaida,
+    paises: paisesSaida
+  };
+}
+
 function main() {
   var nomesDosGrafos = encontrarPastasDeGrafo();
 
@@ -494,6 +623,13 @@ function main() {
       };
       fs.writeFileSync(arquivoSaida, JSON.stringify(resultado, null, 2), 'utf8');
       console.log('OK: "' + nomeGrafo + '" -> ' + resultadoCalculo.nodes.length + ' nós, ' + dados.todosSetas.length + ' arestas.');
+
+      if (regrasCarregadas && regrasCarregadas.mapa) {
+        var arquivoSaidaMapa = path.join(pastaAtual, 'dados-mapa.json');
+        var dadosMapa = gerarDadosDoMapa(dados.todosNos, regrasCarregadas, nomeGrafo);
+        fs.writeFileSync(arquivoSaidaMapa, JSON.stringify(dadosMapa, null, 2), 'utf8');
+      }
+
       sucesso++;
     } catch (erro) {
       console.error('ERRO ao processar "' + nomeGrafo + '": ' + erro.message);
