@@ -313,6 +313,7 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     }
     var seculoAtualBandaBuild = null;
     var yInicioBandaBuild = null;
+    var yFimUltimaLinhaValida = null;
     listaLinhasVisuais.forEach(function(idxLinha) {
       var idsDaLinha = niveis[idxLinha];
       var info = infoLinhaVisual[idxLinha];
@@ -320,6 +321,7 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
       // mas não deve gerar faixa de século — só serve pra ordenação).
       if (niveisComSeculoSet && !niveisComSeculoSet[info.lvl]) return;
       var yTopoLinha = yBasePorNivel[info.lvl] + info.indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA;
+      yFimUltimaLinhaValida = yTopoLinha + ALTURA_POR_FILEIRA;
       var seculoDaLinha = null;
       for (var k = 0; k < idsDaLinha.length; k++) {
         var noRef = mapaNoPorId[idsDaLinha[k]];
@@ -338,9 +340,8 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
       }
     });
     if (seculoAtualBandaBuild !== null) {
-      var ultimoIdx = listaLinhasVisuais[listaLinhasVisuais.length - 1];
-      var infoUltimo = infoLinhaVisual[ultimoIdx];
-      var yFimFinal = yBasePorNivel[infoUltimo.lvl] + infoUltimo.indiceFileiraDentroDoNivel * ALTURA_POR_FILEIRA + ALTURA_POR_FILEIRA;
+      // Fecha rigorosamente no final do último nível com século (Nível 6), sem invadir congregações ou locais
+      var yFimFinal = yFimUltimaLinhaValida || (yInicioBandaBuild + ALTURA_POR_FILEIRA);
       bandasEpoca.push({ seculo: seculoAtualBandaBuild, yInicio: yInicioBandaBuild, yFim: yFimFinal });
     }
   }
