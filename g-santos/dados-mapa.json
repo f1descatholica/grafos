@@ -1,0 +1,775 @@
+{
+  "cidades": [
+    {
+      "id": "26",
+      "nome": "Roma",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "qtd": 32
+    },
+    {
+      "id": "130",
+      "nome": "Nazaré",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 32.7019,
+      "lng": 35.3033,
+      "qtd": 2
+    },
+    {
+      "id": "133",
+      "nome": "Jerusalém",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "qtd": 2
+    },
+    {
+      "id": "138",
+      "nome": "Antioquia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 36.2021,
+      "lng": 36.1606,
+      "qtd": 4
+    },
+    {
+      "id": "139",
+      "nome": "Sebaste",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 39.7505,
+      "lng": 37.015,
+      "qtd": 2
+    },
+    {
+      "id": "140",
+      "nome": "Catânia",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 37.5079,
+      "lng": 15.0873,
+      "qtd": 1
+    },
+    {
+      "id": "143",
+      "nome": "Assis",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.0707,
+      "lng": 12.6196,
+      "qtd": 2
+    },
+    {
+      "id": "145",
+      "nome": "Nápoles",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 40.8518,
+      "lng": 14.2681,
+      "qtd": 1
+    },
+    {
+      "id": "147",
+      "nome": "Cássia",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.7186,
+      "lng": 13.0131,
+      "qtd": 1
+    },
+    {
+      "id": "149",
+      "nome": "Ávila",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 40.6565,
+      "lng": -4.6818,
+      "qtd": 1
+    },
+    {
+      "id": "300",
+      "nome": "Milão",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.4642,
+      "lng": 9.19,
+      "qtd": 3
+    },
+    {
+      "id": "307",
+      "nome": "Bolsena",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.645,
+      "lng": 11.9861,
+      "qtd": 1
+    },
+    {
+      "id": "308",
+      "nome": "Nicomédia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 40.7654,
+      "lng": 29.9406,
+      "qtd": 2
+    },
+    {
+      "id": "309",
+      "nome": "Betânia",
+      "pais": "Palestina",
+      "iso": "PS",
+      "lat": 31.7708,
+      "lng": 35.2608,
+      "qtd": 1
+    },
+    {
+      "id": "310",
+      "nome": "Ravena",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 44.4184,
+      "lng": 12.2035,
+      "qtd": 2
+    },
+    {
+      "id": "317",
+      "nome": "Florença",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.7696,
+      "lng": 11.2558,
+      "qtd": 8
+    },
+    {
+      "id": "318",
+      "nome": "Nola",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 40.9256,
+      "lng": 14.5283,
+      "qtd": 1
+    },
+    {
+      "id": "500",
+      "nome": "Poitiers",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 46.5802,
+      "lng": 0.3404,
+      "qtd": 1
+    },
+    {
+      "id": "503",
+      "nome": "Saragoça",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 41.6488,
+      "lng": -0.8891,
+      "qtd": 2
+    },
+    {
+      "id": "504",
+      "nome": "Barcelona",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 41.3879,
+      "lng": 2.1699,
+      "qtd": 1
+    },
+    {
+      "id": "505",
+      "nome": "Esmirna",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 38.4237,
+      "lng": 27.1428,
+      "qtd": 2
+    },
+    {
+      "id": "510",
+      "nome": "Alexandria",
+      "pais": "Egito",
+      "iso": "EG",
+      "lat": 31.2001,
+      "lng": 29.9187,
+      "qtd": 5
+    },
+    {
+      "id": "512",
+      "nome": "Bréscia",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.5416,
+      "lng": 10.2118,
+      "qtd": 1
+    },
+    {
+      "id": "515",
+      "nome": "Cracóvia",
+      "pais": "Polônia",
+      "iso": "PL",
+      "lat": 50.0647,
+      "lng": 19.945,
+      "qtd": 2
+    },
+    {
+      "id": "516",
+      "nome": "Cartago",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "lat": 36.8531,
+      "lng": 10.3231,
+      "qtd": 1
+    },
+    {
+      "id": "519",
+      "nome": "Damasco",
+      "pais": "Síria",
+      "iso": "SY",
+      "lat": 33.5138,
+      "lng": 36.2765,
+      "qtd": 1
+    },
+    {
+      "id": "521",
+      "nome": "Valência",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 39.4699,
+      "lng": -0.3763,
+      "qtd": 1
+    },
+    {
+      "id": "525",
+      "nome": "Veneza",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.4408,
+      "lng": 12.3155,
+      "qtd": 2
+    },
+    {
+      "id": "527",
+      "nome": "Siena",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.3188,
+      "lng": 11.3308,
+      "qtd": 1
+    },
+    {
+      "id": "806",
+      "nome": "Lima",
+      "pais": "Peru",
+      "iso": "PE",
+      "lat": -12.0464,
+      "lng": -77.0428,
+      "qtd": 2
+    },
+    {
+      "id": "810",
+      "nome": "Lisboa",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "qtd": 1
+    },
+    {
+      "id": "811",
+      "nome": "Tagaste",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "lat": 36.2864,
+      "lng": 7.9511,
+      "qtd": 2
+    },
+    {
+      "id": "812",
+      "nome": "Estridão",
+      "pais": "Croácia",
+      "iso": "HR",
+      "lat": 45.3833,
+      "lng": 13.8167,
+      "qtd": 1
+    },
+    {
+      "id": "813",
+      "nome": "Tarso",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 36.9165,
+      "lng": 34.8953,
+      "qtd": 1
+    },
+    {
+      "id": "814",
+      "nome": "Betsaida",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 32.9089,
+      "lng": 35.6322,
+      "qtd": 5
+    },
+    {
+      "id": "815",
+      "nome": "Belém",
+      "pais": "Palestina",
+      "iso": "PS",
+      "lat": 31.7054,
+      "lng": 35.2024,
+      "qtd": 1
+    },
+    {
+      "id": "816",
+      "nome": "Nórcia",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.7936,
+      "lng": 13.0933,
+      "qtd": 2
+    },
+    {
+      "id": "817",
+      "nome": "Fontaine-lès-Dijon",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 47.3444,
+      "lng": 5.0222,
+      "qtd": 1
+    },
+    {
+      "id": "818",
+      "nome": "Caleruega",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 41.8258,
+      "lng": -3.4878,
+      "qtd": 1
+    },
+    {
+      "id": "819",
+      "nome": "Roccasecca",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 41.5539,
+      "lng": 13.6669,
+      "qtd": 1
+    },
+    {
+      "id": "820",
+      "nome": "Loyola",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 43.1744,
+      "lng": -2.2825,
+      "qtd": 1
+    },
+    {
+      "id": "821",
+      "nome": "Javier",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 42.5925,
+      "lng": -1.2158,
+      "qtd": 1
+    },
+    {
+      "id": "822",
+      "nome": "Fontiveros",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 40.9839,
+      "lng": -4.9619,
+      "qtd": 1
+    },
+    {
+      "id": "823",
+      "nome": "Thorens-Glières",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 45.9975,
+      "lng": 6.2472,
+      "qtd": 1
+    },
+    {
+      "id": "824",
+      "nome": "Dardilly",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 45.8058,
+      "lng": 4.7508,
+      "qtd": 1
+    },
+    {
+      "id": "825",
+      "nome": "Castelnuovo Don Bosco",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.0411,
+      "lng": 7.9644,
+      "qtd": 1
+    },
+    {
+      "id": "826",
+      "nome": "Alençon",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 48.4329,
+      "lng": 0.0913,
+      "qtd": 1
+    },
+    {
+      "id": "827",
+      "nome": "Riese Pio X",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.7289,
+      "lng": 11.9214,
+      "qtd": 1
+    },
+    {
+      "id": "828",
+      "nome": "Montemor-o-Novo",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 38.6444,
+      "lng": -8.2178,
+      "qtd": 1
+    },
+    {
+      "id": "829",
+      "nome": "Cremona",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.1336,
+      "lng": 10.0247,
+      "qtd": 1
+    },
+    {
+      "id": "830",
+      "nome": "Bucchianico",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.3131,
+      "lng": 14.1808,
+      "qtd": 1
+    },
+    {
+      "id": "831",
+      "nome": "Pouy",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 43.7469,
+      "lng": -0.9997,
+      "qtd": 1
+    },
+    {
+      "id": "832",
+      "nome": "Castiglione delle Stiviere",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.3939,
+      "lng": 10.4958,
+      "qtd": 1
+    },
+    {
+      "id": "833",
+      "nome": "Sigmaringen",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "lat": 48.0869,
+      "lng": 9.2175,
+      "qtd": 1
+    },
+    {
+      "id": "834",
+      "nome": "Nijmegen",
+      "pais": "Países Baixos",
+      "iso": "NL",
+      "lat": 51.8426,
+      "lng": 5.8528,
+      "qtd": 1
+    },
+    {
+      "id": "835",
+      "nome": "Ovada",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 44.6381,
+      "lng": 8.6456,
+      "qtd": 1
+    },
+    {
+      "id": "836",
+      "nome": "Bosco Marengo",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 44.8256,
+      "lng": 8.6781,
+      "qtd": 1
+    },
+    {
+      "id": "837",
+      "nome": "Montepulciano",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.0928,
+      "lng": 11.7878,
+      "qtd": 2
+    },
+    {
+      "id": "838",
+      "nome": "Reims",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 49.2583,
+      "lng": 4.0317,
+      "qtd": 1
+    },
+    {
+      "id": "839",
+      "nome": "Torrehermosa",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 41.2389,
+      "lng": -2.0628,
+      "qtd": 1
+    },
+    {
+      "id": "840",
+      "nome": "Marianella",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 40.8872,
+      "lng": 14.2344,
+      "qtd": 1
+    },
+    {
+      "id": "841",
+      "nome": "Vicenza",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.5455,
+      "lng": 11.5353,
+      "qtd": 1
+    },
+    {
+      "id": "842",
+      "nome": "Ri",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 48.7906,
+      "lng": -0.1381,
+      "qtd": 1
+    },
+    {
+      "id": "843",
+      "nome": "Dijon",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 47.322,
+      "lng": 5.0415,
+      "qtd": 1
+    },
+    {
+      "id": "844",
+      "nome": "Peralta de la Sal",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 41.9939,
+      "lng": 0.3922,
+      "qtd": 1
+    },
+    {
+      "id": "845",
+      "nome": "Cupertino",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 40.2747,
+      "lng": 18.0469,
+      "qtd": 1
+    }
+  ],
+  "paises": [
+    {
+      "iso": "IL",
+      "nome": "Israel",
+      "lat": 31.0461,
+      "lng": 34.8516,
+      "qtd": 21
+    },
+    {
+      "iso": "TR",
+      "nome": "Turquia",
+      "lat": 38.9637,
+      "lng": 35.2433,
+      "qtd": 21
+    },
+    {
+      "iso": "CY",
+      "nome": "Chipre",
+      "lat": 35.1264,
+      "lng": 33.4299,
+      "qtd": 1
+    },
+    {
+      "iso": "PS",
+      "nome": "Palestina",
+      "lat": 31.9522,
+      "lng": 35.2332,
+      "qtd": 5
+    },
+    {
+      "iso": "GR",
+      "nome": "Grécia",
+      "lat": 39.0742,
+      "lng": 21.8243,
+      "qtd": 6
+    },
+    {
+      "iso": "IT",
+      "nome": "Itália",
+      "lat": 41.8719,
+      "lng": 12.5674,
+      "qtd": 112
+    },
+    {
+      "iso": "FR",
+      "nome": "França",
+      "lat": 46.2276,
+      "lng": 2.2137,
+      "qtd": 20
+    },
+    {
+      "iso": "EG",
+      "nome": "Egito",
+      "lat": 26.8206,
+      "lng": 30.8025,
+      "qtd": 9
+    },
+    {
+      "iso": "DZ",
+      "nome": "Argélia",
+      "lat": 28.0339,
+      "lng": 1.6596,
+      "qtd": 2
+    },
+    {
+      "iso": "SY",
+      "nome": "Síria",
+      "lat": 34.8021,
+      "lng": 38.9968,
+      "qtd": 4
+    },
+    {
+      "iso": "IR",
+      "nome": "Irã",
+      "lat": 32.4279,
+      "lng": 53.688,
+      "qtd": 2
+    },
+    {
+      "iso": "ES",
+      "nome": "Espanha",
+      "lat": 40.4637,
+      "lng": -3.7492,
+      "qtd": 22
+    },
+    {
+      "iso": "TN",
+      "nome": "Tunísia",
+      "lat": 33.8869,
+      "lng": 9.5375,
+      "qtd": 2
+    },
+    {
+      "iso": "GB",
+      "nome": "Reino Unido",
+      "lat": 55.3781,
+      "lng": -3.436,
+      "qtd": 6
+    },
+    {
+      "iso": "HR",
+      "nome": "Croácia",
+      "lat": 45.1,
+      "lng": 15.2,
+      "qtd": 1
+    },
+    {
+      "iso": "HU",
+      "nome": "Hungria",
+      "lat": 47.1625,
+      "lng": 19.5033,
+      "qtd": 4
+    },
+    {
+      "iso": "DE",
+      "nome": "Alemanha",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "qtd": 8
+    },
+    {
+      "iso": "PT",
+      "nome": "Portugal",
+      "lat": 39.3999,
+      "lng": -8.2245,
+      "qtd": 2
+    },
+    {
+      "iso": "DK",
+      "nome": "Dinamarca",
+      "lat": 56.2639,
+      "lng": 9.5018,
+      "qtd": 1
+    },
+    {
+      "iso": "PL",
+      "nome": "Polônia",
+      "lat": 51.9194,
+      "lng": 19.1451,
+      "qtd": 4
+    },
+    {
+      "iso": "CZ",
+      "nome": "Chéquia",
+      "lat": 49.8175,
+      "lng": 15.473,
+      "qtd": 1
+    },
+    {
+      "iso": "SE",
+      "nome": "Suécia",
+      "lat": 60.1282,
+      "lng": 18.6435,
+      "qtd": 1
+    },
+    {
+      "iso": "NL",
+      "nome": "Países Baixos",
+      "lat": 52.1326,
+      "lng": 5.2913,
+      "qtd": 1
+    },
+    {
+      "iso": "PE",
+      "nome": "Peru",
+      "lat": -9.19,
+      "lng": -75.0152,
+      "qtd": 2
+    },
+    {
+      "iso": "UA",
+      "nome": "Ucrânia",
+      "lat": 48.3794,
+      "lng": 31.1656,
+      "qtd": 1
+    }
+  ]
+}
