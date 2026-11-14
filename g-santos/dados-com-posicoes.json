@@ -252,6 +252,7 @@
       "label": "S. José",
       "grupo": "pessoa",
       "ano": 30,
+      "localNasc": "130",
       "x": 40,
       "y": 337.5
     },
@@ -261,6 +262,7 @@
       "label": "S. João Batista",
       "grupo": "pessoa",
       "ano": 29,
+      "paisNasc": "IL",
       "x": -264,
       "y": 412.5
     },
@@ -270,6 +272,7 @@
       "label": "S. Pedro",
       "grupo": "pessoa",
       "ano": 67,
+      "localNasc": "814",
       "x": -1015,
       "y": 487.5
     },
@@ -279,6 +282,7 @@
       "label": "S. Paulo",
       "grupo": "pessoa",
       "ano": 67,
+      "localNasc": "813",
       "x": -753,
       "y": 562.5
     },
@@ -288,6 +292,7 @@
       "label": "S. João",
       "grupo": "pessoa",
       "ano": 100,
+      "localNasc": "814",
       "x": -250,
       "y": 712.5
     },
@@ -297,6 +302,7 @@
       "label": "S. Matias",
       "grupo": "pessoa",
       "ano": 80,
+      "paisNasc": "IL",
       "x": 1078,
       "y": 562.5
     },
@@ -306,6 +312,7 @@
       "label": "S. André",
       "grupo": "pessoa",
       "ano": 60,
+      "localNasc": "814",
       "x": 2861,
       "y": 412.5
     },
@@ -315,6 +322,7 @@
       "label": "S. Tiago Maior",
       "grupo": "pessoa",
       "ano": 44,
+      "localNasc": "814",
       "x": 1781,
       "y": 337.5
     },
@@ -324,6 +332,7 @@
       "label": "S. Filipe",
       "grupo": "pessoa",
       "ano": 80,
+      "localNasc": "814",
       "x": 1354,
       "y": 487.5
     },
@@ -333,6 +342,7 @@
       "label": "S. Bartolomeu",
       "grupo": "pessoa",
       "ano": 71,
+      "paisNasc": "IL",
       "x": 250,
       "y": 487.5
     },
@@ -342,6 +352,7 @@
       "label": "S. Tomé",
       "grupo": "pessoa",
       "ano": 72,
+      "paisNasc": "IL",
       "x": 540,
       "y": 562.5
     },
@@ -351,6 +362,7 @@
       "label": "S. Mateus",
       "grupo": "pessoa",
       "ano": 74,
+      "paisNasc": "IL",
       "x": 802,
       "y": 487.5
     },
@@ -360,6 +372,7 @@
       "label": "S. Tiago Menor",
       "grupo": "pessoa",
       "ano": 62,
+      "paisNasc": "IL",
       "x": -1997,
       "y": 562.5
     },
@@ -369,6 +382,7 @@
       "label": "S. Tadeu",
       "grupo": "pessoa",
       "ano": 70,
+      "paisNasc": "IL",
       "x": -47,
       "y": 562.5
     },
@@ -378,6 +392,7 @@
       "label": "S. Simão",
       "grupo": "pessoa",
       "ano": 65,
+      "paisNasc": "IL",
       "x": -1277,
       "y": 562.5
     },
@@ -387,6 +402,7 @@
       "label": "S. Barnabé",
       "grupo": "pessoa",
       "ano": 61,
+      "paisNasc": "CY",
       "x": -2315,
       "y": 487.5
     },
@@ -396,6 +412,7 @@
       "label": "Sta. Maria Madalena",
       "grupo": "pessoa",
       "ano": 63,
+      "paisNasc": "IL",
       "x": -1616,
       "y": 487.5
     },
@@ -405,6 +422,7 @@
       "label": "Sta. Ana",
       "grupo": "pessoa",
       "ano": 10,
+      "paisNasc": "IL",
       "x": -865,
       "y": 412.5
     },
@@ -414,6 +432,7 @@
       "label": "Sta. Marta",
       "grupo": "pessoa",
       "ano": 80,
+      "localNasc": "309",
       "x": 1637,
       "y": 562.5
     },
@@ -423,6 +442,7 @@
       "label": "S. Timóteo",
       "grupo": "pessoa",
       "ano": 97,
+      "paisNasc": "TR",
       "x": -519,
       "y": 637.5
     },
@@ -432,6 +452,7 @@
       "label": "S. Tito",
       "grupo": "pessoa",
       "ano": 96,
+      "paisNasc": "GR",
       "x": 2336,
       "y": 562.5
     },
@@ -477,6 +498,7 @@
       "label": "S. Marcos Evangelista",
       "grupo": "pessoa",
       "ano": 68,
+      "paisNasc": "IL",
       "x": -400,
       "y": 487.5
     },
@@ -495,6 +517,7 @@
       "label": "Sto. Estêvão, Protomártir",
       "grupo": "pessoa",
       "ano": 36,
+      "localNasc": "133",
       "x": 1358,
       "y": 412.5
     },
@@ -531,6 +554,7 @@
       "label": "S. Joaquim",
       "grupo": "pessoa",
       "ano": 10,
+      "localNasc": "130",
       "x": -589,
       "y": 337.5
     },
@@ -549,6 +573,7 @@
       "label": "S. Lucas Evangelista",
       "grupo": "pessoa",
       "ano": 84,
+      "localNasc": "138",
       "x": 1997,
       "y": 487.5
     },
@@ -567,6 +592,7 @@
       "label": "Santos Inocentes",
       "grupo": "pessoa",
       "ano": 4,
+      "localNasc": "815",
       "x": -1183,
       "y": 337.5
     },
@@ -576,6 +602,7 @@
       "label": "Sta. Inês",
       "grupo": "pessoa",
       "ano": 304,
+      "localNasc": "26",
       "x": 2438,
       "y": 1237.5
     },
@@ -585,6 +612,7 @@
       "label": "S. Sebastião",
       "grupo": "pessoa",
       "ano": 288,
+      "paisNasc": "FR",
       "x": -659,
       "y": 1237.5
     },
@@ -594,6 +622,7 @@
       "label": "S. Jorge",
       "grupo": "pessoa",
       "ano": 303,
+      "paisNasc": "TR",
       "x": 739,
       "y": 1237.5
     },
@@ -603,6 +632,7 @@
       "label": "S. Paulo Eremita",
       "grupo": "pessoa",
       "ano": 341,
+      "paisNasc": "EG",
       "x": -1246,
       "y": 1537.5
     },
@@ -612,6 +642,7 @@
       "label": "S. Antão",
       "grupo": "pessoa",
       "ano": 356,
+      "paisNasc": "EG",
       "x": -638,
       "y": 1537.5
     },
@@ -621,6 +652,7 @@
       "label": "Sta. Mônica",
       "grupo": "pessoa",
       "ano": 387,
+      "localNasc": "811",
       "x": -1620,
       "y": 1762.5
     },
@@ -630,6 +662,7 @@
       "label": "S. Agostinho",
       "grupo": "pessoa",
       "ano": 430,
+      "localNasc": "811",
       "x": 1211,
       "y": 1762.5
     },
@@ -639,6 +672,7 @@
       "label": "S. Inácio de Antioquia",
       "grupo": "pessoa",
       "ano": 107,
+      "paisNasc": "SY",
       "x": 568,
       "y": 862.5
     },
@@ -648,6 +682,7 @@
       "label": "S. Brás",
       "grupo": "pessoa",
       "ano": 316,
+      "localNasc": "139",
       "x": -2291,
       "y": 1612.5
     },
@@ -657,6 +692,7 @@
       "label": "Sta. Águeda",
       "grupo": "pessoa",
       "ano": 251,
+      "localNasc": "140",
       "x": -1194,
       "y": 1162.5
     },
@@ -666,6 +702,7 @@
       "label": "S. Valentim",
       "grupo": "pessoa",
       "ano": 269,
+      "paisNasc": "IT",
       "x": 2228,
       "y": 1087.5
     },
@@ -675,6 +712,7 @@
       "label": "7 Irmãos, Rufina e Secunda",
       "grupo": "pessoa",
       "ano": 257,
+      "paisNasc": "IT",
       "x": -121,
       "y": 1087.5
     },
@@ -684,6 +722,7 @@
       "label": "S. Pio I",
       "grupo": "pessoa",
       "ano": 154,
+      "paisNasc": "IT",
       "x": 2256,
       "y": 787.5
     },
@@ -693,6 +732,7 @@
       "label": "S. Anacleto",
       "grupo": "pessoa",
       "ano": 92,
+      "paisNasc": "IT",
       "x": -977,
       "y": 862.5
     },
@@ -702,6 +742,7 @@
       "label": "Sto. Aleixo",
       "grupo": "pessoa",
       "ano": 412,
+      "localNasc": "26",
       "x": 596,
       "y": 1762.5
     },
@@ -711,6 +752,7 @@
       "label": "Sta. Práxedes",
       "grupo": "pessoa",
       "ano": 165,
+      "localNasc": "26",
       "x": -1592,
       "y": 1012.5
     },
@@ -720,6 +762,7 @@
       "label": "Sto. Apolinário",
       "grupo": "pessoa",
       "ano": 79,
+      "localNasc": "138",
       "x": -1655,
       "y": 862.5
     },
@@ -729,6 +772,7 @@
       "label": "Sta. Cristina",
       "grupo": "pessoa",
       "ano": 304,
+      "localNasc": "307",
       "x": -1536,
       "y": 1462.5
     },
@@ -738,6 +782,7 @@
       "label": "S. Pantaleão",
       "grupo": "pessoa",
       "ano": 305,
+      "localNasc": "308",
       "x": 463,
       "y": 1462.5
     },
@@ -747,6 +792,7 @@
       "label": "Nazário e Celso",
       "grupo": "pessoa",
       "ano": 68,
+      "localNasc": "300",
       "x": -2263,
       "y": 862.5
     },
@@ -756,6 +802,7 @@
       "label": "Abdon e Sennen",
       "grupo": "pessoa",
       "ano": 250,
+      "paisNasc": "IR",
       "x": -1837,
       "y": 1162.5
     },
@@ -765,6 +812,7 @@
       "label": "Marcelino, Pedro e Erasmo",
       "grupo": "pessoa",
       "ano": 304,
+      "paisNasc": "IT",
       "x": -1952,
       "y": 1387.5
     },
@@ -774,6 +822,7 @@
       "label": "Primo e Feliciano",
       "grupo": "pessoa",
       "ano": 297,
+      "paisNasc": "IT",
       "x": 414,
       "y": 1312.5
     },
@@ -783,6 +832,7 @@
       "label": "S. Basílio Magno",
       "grupo": "pessoa",
       "ano": 379,
+      "paisNasc": "TR",
       "x": 2560,
       "y": 1612.5
     },
@@ -792,6 +842,7 @@
       "label": "Vito, Modesto e Crescência",
       "grupo": "pessoa",
       "ano": 303,
+      "paisNasc": "IT",
       "x": 1127,
       "y": 1312.5
     },
@@ -801,6 +852,7 @@
       "label": "Sto. Efrém",
       "grupo": "pessoa",
       "ano": 373,
+      "paisNasc": "TR",
       "x": 2228,
       "y": 1537.5
     },
@@ -810,6 +862,7 @@
       "label": "Gervásio e Protásio",
       "grupo": "pessoa",
       "ano": 165,
+      "localNasc": "300",
       "x": -1966,
       "y": 937.5
     },
@@ -819,6 +872,7 @@
       "label": "S. Paulino de Nola",
       "grupo": "pessoa",
       "ano": 431,
+      "paisNasc": "FR",
       "x": 1571,
       "y": 1687.5
     },
@@ -828,6 +882,7 @@
       "label": "João e Paulo",
       "grupo": "pessoa",
       "ano": 362,
+      "localNasc": "26",
       "x": 54,
       "y": 1537.5
     },
@@ -837,6 +892,7 @@
       "label": "Sto. Irineu",
       "grupo": "pessoa",
       "ano": 202,
+      "localNasc": "505",
       "x": -306,
       "y": 1012.5
     },
@@ -846,6 +902,7 @@
       "label": "S. Higino",
       "grupo": "pessoa",
       "ano": 142,
+      "paisNasc": "GR",
       "x": 1987,
       "y": 862.5
     },
@@ -855,6 +912,7 @@
       "label": "S. Hilário de Poitiers",
       "grupo": "pessoa",
       "ano": 367,
+      "localNasc": "500",
       "x": 760,
       "y": 1537.5
     },
@@ -864,6 +922,7 @@
       "label": "S. Félix de Nola",
       "grupo": "pessoa",
       "ano": 256,
+      "localNasc": "318",
       "x": -565,
       "y": 1162.5
     },
@@ -873,6 +932,7 @@
       "label": "S. Marcelo I",
       "grupo": "pessoa",
       "ano": 309,
+      "paisNasc": "IT",
       "x": 2015,
       "y": 1462.5
     },
@@ -882,6 +942,7 @@
       "label": "Sta. Prisca",
       "grupo": "pessoa",
       "ano": 269,
+      "localNasc": "26",
       "x": 1924,
       "y": 1162.5
     },
@@ -891,6 +952,7 @@
       "label": "Mário, Marta, Audifax e Abaco",
       "grupo": "pessoa",
       "ano": 270,
+      "paisNasc": "IR",
       "x": 2658,
       "y": 1162.5
     },
@@ -900,6 +962,7 @@
       "label": "S. Fabiano",
       "grupo": "pessoa",
       "ano": 250,
+      "paisNasc": "IT",
       "x": -2459,
       "y": 1162.5
     },
@@ -909,6 +972,7 @@
       "label": "Vicente e Anastácio",
       "grupo": "pessoa",
       "ano": 304,
+      "localNasc": "503",
       "x": 2784,
       "y": 1312.5
     },
@@ -918,6 +982,7 @@
       "label": "Sta. Emerenciana",
       "grupo": "pessoa",
       "ano": 304,
+      "localNasc": "26",
       "x": -2777,
       "y": 1387.5
     },
@@ -927,6 +992,7 @@
       "label": "S. Policarpo",
       "grupo": "pessoa",
       "ano": 155,
+      "localNasc": "505",
       "x": 2546,
       "y": 862.5
     },
@@ -936,6 +1002,7 @@
       "label": "S. João Crisóstomo",
       "grupo": "pessoa",
       "ano": 407,
+      "localNasc": "138",
       "x": 243,
       "y": 1687.5
     },
@@ -945,6 +1012,7 @@
       "label": "Sta. Martinha",
       "grupo": "pessoa",
       "ano": 228,
+      "localNasc": "26",
       "x": 1078,
       "y": 1012.5
     },
@@ -954,6 +1022,7 @@
       "label": "Sta. Dorotéia",
       "grupo": "pessoa",
       "ano": 311,
+      "paisNasc": "TR",
       "x": 2340,
       "y": 1387.5
     },
@@ -963,6 +1032,7 @@
       "label": "S. Cirilo de Alexandria",
       "grupo": "pessoa",
       "ano": 444,
+      "localNasc": "510",
       "x": 2008,
       "y": 1762.5
     },
@@ -972,6 +1042,7 @@
       "label": "Sta. Apolônia",
       "grupo": "pessoa",
       "ano": 249,
+      "localNasc": "510",
       "x": -2770,
       "y": 1087.5
     },
@@ -981,6 +1052,7 @@
       "label": "Faustino e Jovita",
       "grupo": "pessoa",
       "ano": 120,
+      "localNasc": "512",
       "x": 1655,
       "y": 787.5
     },
@@ -990,6 +1062,7 @@
       "label": "S. Simeão",
       "grupo": "pessoa",
       "ano": 107,
+      "paisNasc": "IL",
       "x": 935,
       "y": 787.5
     },
@@ -999,6 +1072,7 @@
       "label": "S. Lúcio I",
       "grupo": "pessoa",
       "ano": 254,
+      "localNasc": "26",
       "x": -897,
       "y": 1087.5
     },
@@ -1008,6 +1082,7 @@
       "label": "Perpétua e Felicidade",
       "grupo": "pessoa",
       "ano": 203,
+      "localNasc": "516",
       "x": 68,
       "y": 937.5
     },
@@ -1017,6 +1092,7 @@
       "label": "Quarenta Mártires",
       "grupo": "pessoa",
       "ano": 320,
+      "localNasc": "139",
       "x": -1973,
       "y": 1537.5
     },
@@ -1026,6 +1102,7 @@
       "label": "S. Patrício",
       "grupo": "pessoa",
       "ano": 461,
+      "paisNasc": "GB",
       "x": 2798,
       "y": 1762.5
     },
@@ -1035,6 +1112,7 @@
       "label": "S. Cirilo de Jerusalém",
       "grupo": "pessoa",
       "ano": 386,
+      "localNasc": "133",
       "x": -2001,
       "y": 1687.5
     },
@@ -1044,6 +1122,7 @@
       "label": "S. Leão Magno",
       "grupo": "pessoa",
       "ano": 461,
+      "paisNasc": "IT",
       "x": 0,
       "y": 1837.5
     },
@@ -1053,6 +1132,7 @@
       "label": "S. Justino",
       "grupo": "pessoa",
       "ano": 165,
+      "paisNasc": "PS",
       "x": -2319,
       "y": 1012.5
     },
@@ -1062,6 +1142,7 @@
       "label": "Tibúrcio, Valeriano e Máximo",
       "grupo": "pessoa",
       "ano": 229,
+      "localNasc": "26",
       "x": 1515,
       "y": 937.5
     },
@@ -1071,6 +1152,7 @@
       "label": "S. Aniceto",
       "grupo": "pessoa",
       "ano": 168,
+      "paisNasc": "SY",
       "x": -921,
       "y": 1012.5
     },
@@ -1080,6 +1162,7 @@
       "label": "Sotero e Caio",
       "grupo": "pessoa",
       "ano": 296,
+      "paisNasc": "IT",
       "x": 54,
       "y": 1237.5
     },
@@ -1089,6 +1172,7 @@
       "label": "Cleto e Marcelino",
       "grupo": "pessoa",
       "ano": 304,
+      "paisNasc": "IT",
       "x": -2396,
       "y": 1462.5
     },
@@ -1098,6 +1182,7 @@
       "label": "S. Vital",
       "grupo": "pessoa",
       "ano": 62,
+      "localNasc": "300",
       "x": -2574,
       "y": 787.5
     },
@@ -1107,6 +1192,7 @@
       "label": "Sto. Atanásio",
       "grupo": "pessoa",
       "ano": 373,
+      "localNasc": "510",
       "x": 1917,
       "y": 1612.5
     },
@@ -1116,6 +1202,7 @@
       "label": "S. Gregório Nazianzeno",
       "grupo": "pessoa",
       "ano": 390,
+      "paisNasc": "TR",
       "x": -1239,
       "y": 1687.5
     },
@@ -1125,6 +1212,7 @@
       "label": "Gordiano e Epímaco",
       "grupo": "pessoa",
       "ano": 362,
+      "localNasc": "26",
       "x": -306,
       "y": 1612.5
     },
@@ -1134,6 +1222,7 @@
       "label": "Nereu, Aquileu, Domitila...",
       "grupo": "pessoa",
       "ano": 100,
+      "localNasc": "26",
       "x": -229,
       "y": 862.5
     },
@@ -1143,6 +1232,7 @@
       "label": "S. Venâncio",
       "grupo": "pessoa",
       "ano": 250,
+      "paisNasc": "IT",
       "x": -2162,
       "y": 1087.5
     },
@@ -1152,6 +1242,7 @@
       "label": "Sta. Pudenciana",
       "grupo": "pessoa",
       "ano": 160,
+      "localNasc": "26",
       "x": -2644,
       "y": 937.5
     },
@@ -1161,6 +1252,7 @@
       "label": "S. Urbano I",
       "grupo": "pessoa",
       "ano": 230,
+      "localNasc": "26",
       "x": 1938,
       "y": 1012.5
     },
@@ -1170,6 +1262,7 @@
       "label": "S. Eleutério",
       "grupo": "pessoa",
       "ano": 189,
+      "paisNasc": "GR",
       "x": -617,
       "y": 937.5
     },
@@ -1179,6 +1272,7 @@
       "label": "S. Félix I",
       "grupo": "pessoa",
       "ano": 274,
+      "localNasc": "26",
       "x": -2389,
       "y": 1312.5
     },
@@ -1188,6 +1282,7 @@
       "label": "Sta. Petronila",
       "grupo": "pessoa",
       "ano": 90,
+      "localNasc": "26",
       "x": -1302,
       "y": 787.5
     },
@@ -1197,6 +1292,7 @@
       "label": "Ciríaco, Largo e Esmaragdo",
       "grupo": "pessoa",
       "ano": 303,
+      "localNasc": "26",
       "x": 1641,
       "y": 1237.5
     },
@@ -1206,6 +1302,7 @@
       "label": "S. Lourenço",
       "grupo": "pessoa",
       "ano": 258,
+      "paisNasc": "ES",
       "x": 648,
       "y": 1087.5
     },
@@ -1215,6 +1312,7 @@
       "label": "Tibúrcio e Susana",
       "grupo": "pessoa",
       "ano": 295,
+      "localNasc": "26",
       "x": -306,
       "y": 1312.5
     },
@@ -1224,6 +1322,7 @@
       "label": "Hipólito e Cassiano",
       "grupo": "pessoa",
       "ano": 235,
+      "localNasc": "26",
       "x": 2616,
       "y": 1012.5
     },
@@ -1233,6 +1332,7 @@
       "label": "S. Agapito",
       "grupo": "pessoa",
       "ano": 274,
+      "paisNasc": "IT",
       "x": -2099,
       "y": 1237.5
     },
@@ -1242,6 +1342,7 @@
       "label": "S. Zeferino",
       "grupo": "pessoa",
       "ano": 217,
+      "localNasc": "26",
       "x": 442,
       "y": 1012.5
     },
@@ -1251,6 +1352,7 @@
       "label": "Doze Santos Irmãos",
       "grupo": "pessoa",
       "ano": 303,
+      "paisNasc": "IT",
       "x": 2099,
       "y": 1312.5
     },
@@ -1260,6 +1362,7 @@
       "label": "S. Gorgônio",
       "grupo": "pessoa",
       "ano": 304,
+      "localNasc": "308",
       "x": -1218,
       "y": 1387.5
     },
@@ -1269,6 +1372,7 @@
       "label": "Proto e Jacinto",
       "grupo": "pessoa",
       "ano": 257,
+      "paisNasc": "IT",
       "x": 316,
       "y": 1162.5
     },
@@ -1278,6 +1382,7 @@
       "label": "Cornélio e Cipriano",
       "grupo": "pessoa",
       "ano": 258,
+      "paisNasc": "IT",
       "x": 1008,
       "y": 1162.5
     },
@@ -1287,6 +1392,7 @@
       "label": "S. Januário e Comp.",
       "grupo": "pessoa",
       "ano": 305,
+      "localNasc": "145",
       "x": 830,
       "y": 1387.5
     },
@@ -1296,6 +1402,7 @@
       "label": "Eustáquio e Comp.",
       "grupo": "pessoa",
       "ano": 118,
+      "localNasc": "26",
       "x": 1267,
       "y": 862.5
     },
@@ -1305,6 +1412,7 @@
       "label": "S. Maurício e Comp.",
       "grupo": "pessoa",
       "ano": 287,
+      "paisNasc": "EG",
       "x": -1372,
       "y": 1237.5
     },
@@ -1314,6 +1422,7 @@
       "label": "S. Lino",
       "grupo": "pessoa",
       "ano": 76,
+      "paisNasc": "IT",
       "x": -1959,
       "y": 787.5
     },
@@ -1323,6 +1432,7 @@
       "label": "Cipriano e Justina",
       "grupo": "pessoa",
       "ano": 304,
+      "localNasc": "138",
       "x": -865,
       "y": 1462.5
     },
@@ -1332,6 +1442,7 @@
       "label": "Cosme e Damião",
       "grupo": "pessoa",
       "ano": 287,
+      "paisNasc": "SY",
       "x": -991,
       "y": 1312.5
     },
@@ -1341,6 +1452,7 @@
       "label": "S. Jerônimo",
       "grupo": "pessoa",
       "ano": 420,
+      "localNasc": "812",
       "x": 900,
       "y": 1687.5
     },
@@ -1350,6 +1462,7 @@
       "label": "Dionísio, Rústico e Eleutério",
       "grupo": "pessoa",
       "ano": 258,
+      "paisNasc": "IT",
       "x": 1494,
       "y": 1087.5
     },
@@ -1359,6 +1472,7 @@
       "label": "S. Calisto I",
       "grupo": "pessoa",
       "ano": 222,
+      "localNasc": "26",
       "x": 753,
       "y": 937.5
     },
@@ -1368,6 +1482,7 @@
       "label": "S. Hilarião",
       "grupo": "pessoa",
       "ano": 371,
+      "paisNasc": "PS",
       "x": 1141,
       "y": 1612.5
     },
@@ -1377,6 +1492,7 @@
       "label": "Sta. Úrsula e Comp.",
       "grupo": "pessoa",
       "ano": 383,
+      "paisNasc": "GB",
       "x": -2742,
       "y": 1687.5
     },
@@ -1386,6 +1502,7 @@
       "label": "Crisanto e Daria",
       "grupo": "pessoa",
       "ano": 283,
+      "paisNasc": "EG",
       "x": -1767,
       "y": 1312.5
     },
@@ -1395,6 +1512,7 @@
       "label": "S. Evaristo",
       "grupo": "pessoa",
       "ano": 105,
+      "paisNasc": "PS",
       "x": 187,
       "y": 787.5
     },
@@ -1404,6 +1522,7 @@
       "label": "Quatro Coroados",
       "grupo": "pessoa",
       "ano": 304,
+      "localNasc": "26",
       "x": -484,
       "y": 1387.5
     },
@@ -1413,6 +1532,7 @@
       "label": "S. Teodoro",
       "grupo": "pessoa",
       "ano": 306,
+      "paisNasc": "TR",
       "x": 1711,
       "y": 1387.5
     },
@@ -1422,6 +1542,7 @@
       "label": "S. Martinho de Tours",
       "grupo": "pessoa",
       "ano": 397,
+      "paisNasc": "HU",
       "x": -505,
       "y": 1687.5
     },
@@ -1431,6 +1552,7 @@
       "label": "S. Gregório Taumaturgo",
       "grupo": "pessoa",
       "ano": 270,
+      "paisNasc": "TR",
       "x": -2763,
       "y": 1237.5
     },
@@ -1440,6 +1562,7 @@
       "label": "Sta. Cecília",
       "grupo": "pessoa",
       "ano": 230,
+      "localNasc": "26",
       "x": 2249,
       "y": 937.5
     },
@@ -1449,6 +1572,7 @@
       "label": "S. Clemente I",
       "grupo": "pessoa",
       "ano": 99,
+      "localNasc": "26",
       "x": -659,
       "y": 787.5
     },
@@ -1458,6 +1582,7 @@
       "label": "Sta. Felicidade",
       "grupo": "pessoa",
       "ano": 165,
+      "localNasc": "26",
       "x": -1246,
       "y": 937.5
     },
@@ -1467,6 +1592,7 @@
       "label": "S. Crisógono",
       "grupo": "pessoa",
       "ano": 304,
+      "paisNasc": "IT",
       "x": -145,
       "y": 1462.5
     },
@@ -1476,6 +1602,7 @@
       "label": "Sta. Catarina de Alexandria",
       "grupo": "pessoa",
       "ano": 305,
+      "localNasc": "510",
       "x": 1302,
       "y": 1462.5
     },
@@ -1485,6 +1612,7 @@
       "label": "S. Pedro de Alexandria",
       "grupo": "pessoa",
       "ano": 311,
+      "localNasc": "510",
       "x": 2735,
       "y": 1462.5
     },
@@ -1494,6 +1622,7 @@
       "label": "S. Saturnino",
       "grupo": "pessoa",
       "ano": 250,
+      "paisNasc": "GR",
       "x": -1505,
       "y": 1087.5
     },
@@ -1503,6 +1632,7 @@
       "label": "Sta. Bibiana",
       "grupo": "pessoa",
       "ano": 363,
+      "localNasc": "26",
       "x": 372,
       "y": 1612.5
     },
@@ -1512,6 +1642,7 @@
       "label": "S. Pedro Crisólogo",
       "grupo": "pessoa",
       "ano": 450,
+      "paisNasc": "IT",
       "x": 2445,
       "y": 1687.5
     },
@@ -1521,6 +1652,7 @@
       "label": "S. Nicolau",
       "grupo": "pessoa",
       "ano": 343,
+      "paisNasc": "TR",
       "x": -914,
       "y": 1612.5
     },
@@ -1530,6 +1662,7 @@
       "label": "Sto. Ambrósio",
       "grupo": "pessoa",
       "ano": 397,
+      "paisNasc": "DE",
       "x": -124,
       "y": 1762.5
     },
@@ -1539,6 +1672,7 @@
       "label": "S. Melquíades",
       "grupo": "pessoa",
       "ano": 314,
+      "paisNasc": "TN",
       "x": -2581,
       "y": 1537.5
     },
@@ -1548,6 +1682,7 @@
       "label": "S. Dâmaso I",
       "grupo": "pessoa",
       "ano": 384,
+      "paisNasc": "ES",
       "x": -2382,
       "y": 1762.5
     },
@@ -1557,6 +1692,7 @@
       "label": "Sta. Luzia",
       "grupo": "pessoa",
       "ano": 304,
+      "paisNasc": "IT",
       "x": 159,
       "y": 1387.5
     },
@@ -1566,6 +1702,7 @@
       "label": "S. Eusébio de Vercelli",
       "grupo": "pessoa",
       "ano": 371,
+      "paisNasc": "IT",
       "x": 1522,
       "y": 1537.5
     },
@@ -1575,6 +1712,7 @@
       "label": "S. Silvestre I",
       "grupo": "pessoa",
       "ano": 335,
+      "localNasc": "26",
       "x": -1606,
       "y": 1612.5
     },
@@ -1584,6 +1722,7 @@
       "label": "S. Libório",
       "grupo": "pessoa",
       "ano": 397,
+      "paisNasc": "FR",
       "x": -865,
       "y": 1762.5
     },
@@ -1593,6 +1732,7 @@
       "label": "S. Bento",
       "grupo": "pessoa",
       "ano": 547,
+      "localNasc": "816",
       "x": -645,
       "y": 1987.5
     },
@@ -1602,6 +1742,7 @@
       "label": "Sta. Escolástica",
       "grupo": "pessoa",
       "ano": 543,
+      "localNasc": "816",
       "x": -963,
       "y": 2062.5
     },
@@ -1611,6 +1752,7 @@
       "label": "S. Bernardo",
       "grupo": "pessoa",
       "ano": 1153,
+      "localNasc": "817",
       "x": -1662,
       "y": 2362.5
     },
@@ -1620,6 +1762,7 @@
       "label": "S. Francisco",
       "grupo": "pessoa",
       "ano": 1226,
+      "localNasc": "143",
       "x": 351,
       "y": 2362.5
     },
@@ -1629,6 +1772,7 @@
       "label": "Sta. Clara",
       "grupo": "pessoa",
       "ano": 1253,
+      "localNasc": "143",
       "x": -2945,
       "y": 2437.5
     },
@@ -1638,6 +1782,7 @@
       "label": "S. Domingos",
       "grupo": "pessoa",
       "ano": 1221,
+      "localNasc": "818",
       "x": 40,
       "y": 2287.5
     },
@@ -1647,6 +1792,7 @@
       "label": "S. Tomás de Aquino",
       "grupo": "pessoa",
       "ano": 1274,
+      "localNasc": "819",
       "x": -897,
       "y": 2437.5
     },
@@ -1656,6 +1802,7 @@
       "label": "Sto. Antônio",
       "grupo": "pessoa",
       "ano": 1231,
+      "localNasc": "810",
       "x": 669,
       "y": 2287.5
     },
@@ -1665,6 +1812,7 @@
       "label": "Sta. Rita",
       "grupo": "pessoa",
       "ano": 1457,
+      "localNasc": "147",
       "x": 1243,
       "y": 2662.5
     },
@@ -1674,6 +1822,7 @@
       "label": "S. Leão II",
       "grupo": "pessoa",
       "ano": 683,
+      "paisNasc": "IT",
       "x": 2291,
       "y": 1987.5
     },
@@ -1683,6 +1832,7 @@
       "label": "Cirilo e Metódio",
       "grupo": "pessoa",
       "ano": 885,
+      "paisNasc": "GR",
       "x": -1431,
       "y": 2212.5
     },
@@ -1692,6 +1842,7 @@
       "label": "Sta Isabel da Hungria",
       "grupo": "pessoa",
       "ano": 1231,
+      "paisNasc": "HU",
       "x": 1050,
       "y": 2362.5
     },
@@ -1701,6 +1852,7 @@
       "label": "Sta Isabel de Portugal",
       "grupo": "pessoa",
       "ano": 1336,
+      "localNasc": "503",
       "x": -2396,
       "y": 2587.5
     },
@@ -1710,6 +1862,7 @@
       "label": "S. João Gualberto",
       "grupo": "pessoa",
       "ano": 1073,
+      "localNasc": "317",
       "x": 956,
       "y": 2137.5
     },
@@ -1719,6 +1872,7 @@
       "label": "S. Boaventura",
       "grupo": "pessoa",
       "ano": 1274,
+      "paisNasc": "IT",
       "x": -530,
       "y": 2512.5
     },
@@ -1728,6 +1882,7 @@
       "label": "Sto. Henrique",
       "grupo": "pessoa",
       "ano": 1024,
+      "paisNasc": "DE",
       "x": -760,
       "y": 2212.5
     },
@@ -1737,6 +1892,7 @@
       "label": "S. Bonifácio",
       "grupo": "pessoa",
       "ano": 754,
+      "paisNasc": "GB",
       "x": -1777,
       "y": 2137.5
     },
@@ -1746,6 +1902,7 @@
       "label": "S. Norberto",
       "grupo": "pessoa",
       "ano": 1134,
+      "paisNasc": "DE",
       "x": -2284,
       "y": 2362.5
     },
@@ -1755,6 +1912,7 @@
       "label": "Sta. Margarida",
       "grupo": "pessoa",
       "ano": 1093,
+      "paisNasc": "HU",
       "x": 2319,
       "y": 2137.5
     },
@@ -1764,6 +1922,7 @@
       "label": "Sta. Juliana",
       "grupo": "pessoa",
       "ano": 1258,
+      "localNasc": "317",
       "x": -1977,
       "y": 2512.5
     },
@@ -1773,6 +1932,7 @@
       "label": "S. Silvério",
       "grupo": "pessoa",
       "ano": 537,
+      "paisNasc": "IT",
       "x": -1760,
       "y": 2062.5
     },
@@ -1782,6 +1942,7 @@
       "label": "S. Guilherme",
       "grupo": "pessoa",
       "ano": 1142,
+      "paisNasc": "IT",
       "x": -1973,
       "y": 2287.5
     },
@@ -1791,6 +1952,7 @@
       "label": "S. Mauro",
       "grupo": "pessoa",
       "ano": 584,
+      "localNasc": "26",
       "x": 89,
       "y": 1987.5
     },
@@ -1800,6 +1962,7 @@
       "label": "S. Canuto",
       "grupo": "pessoa",
       "ano": 1086,
+      "paisNasc": "DK",
       "x": 2008,
       "y": 2212.5
     },
@@ -1809,6 +1972,7 @@
       "label": "S. Raimundo de Penaforte",
       "grupo": "pessoa",
       "ano": 1275,
+      "localNasc": "504",
       "x": -121,
       "y": 2437.5
     },
@@ -1818,6 +1982,7 @@
       "label": "S. Pedro Nolasco",
       "grupo": "pessoa",
       "ano": 1256,
+      "paisNasc": "FR",
       "x": -2613,
       "y": 2512.5
     },
@@ -1827,6 +1992,7 @@
       "label": "Sto. André Corsini",
       "grupo": "pessoa",
       "ano": 1374,
+      "localNasc": "317",
       "x": -1648,
       "y": 2587.5
     },
@@ -1836,6 +2002,7 @@
       "label": "S. Romualdo",
       "grupo": "pessoa",
       "ano": 1027,
+      "localNasc": "310",
       "x": -442,
       "y": 2137.5
     },
@@ -1845,6 +2012,7 @@
       "label": "S. João da Mata",
       "grupo": "pessoa",
       "ano": 1213,
+      "paisNasc": "FR",
       "x": -292,
       "y": 2362.5
     },
@@ -1854,6 +2022,7 @@
       "label": "7 Fundadores Servitas",
       "grupo": "pessoa",
       "ano": 1310,
+      "localNasc": "317",
       "x": 2354,
       "y": 2437.5
     },
@@ -1863,6 +2032,7 @@
       "label": "S. Pedro Damião",
       "grupo": "pessoa",
       "ano": 1072,
+      "localNasc": "310",
       "x": 582,
       "y": 2212.5
     },
@@ -1872,6 +2042,7 @@
       "label": "S. Casimiro",
       "grupo": "pessoa",
       "ano": 1484,
+      "localNasc": "515",
       "x": 2473,
       "y": 2662.5
     },
@@ -1881,6 +2052,7 @@
       "label": "Sta. Francisca Romana",
       "grupo": "pessoa",
       "ano": 1440,
+      "localNasc": "26",
       "x": -19,
       "y": 2587.5
     },
@@ -1890,6 +2062,7 @@
       "label": "S. Gregório Magno",
       "grupo": "pessoa",
       "ano": 604,
+      "localNasc": "26",
       "x": 774,
       "y": 1987.5
     },
@@ -1899,6 +2072,7 @@
       "label": "S. João Damasceno",
       "grupo": "pessoa",
       "ano": 749,
+      "localNasc": "519",
       "x": -2130,
       "y": 2212.5
     },
@@ -1908,6 +2082,7 @@
       "label": "Sto. Isidoro",
       "grupo": "pessoa",
       "ano": 636,
+      "paisNasc": "ES",
       "x": 1655,
       "y": 1987.5
     },
@@ -1917,6 +2092,7 @@
       "label": "S. Vicente Férrer",
       "grupo": "pessoa",
       "ano": 1419,
+      "localNasc": "521",
       "x": -809,
       "y": 2587.5
     },
@@ -1926,6 +2102,7 @@
       "label": "S. Hermenegildo",
       "grupo": "pessoa",
       "ano": 585,
+      "paisNasc": "ES",
       "x": 400,
       "y": 2062.5
     },
@@ -1935,6 +2112,7 @@
       "label": "Sto. Anselmo",
       "grupo": "pessoa",
       "ano": 1109,
+      "paisNasc": "IT",
       "x": -2595,
       "y": 2287.5
     },
@@ -1944,6 +2122,7 @@
       "label": "S. Pedro de Verona",
       "grupo": "pessoa",
       "ano": 1252,
+      "paisNasc": "IT",
       "x": 2193,
       "y": 2287.5
     },
@@ -1953,6 +2132,7 @@
       "label": "Sta. Catarina de Sena",
       "grupo": "pessoa",
       "ano": 1380,
+      "localNasc": "527",
       "x": -1225,
       "y": 2662.5
     },
@@ -1962,6 +2142,7 @@
       "label": "Sto. Estanislau",
       "grupo": "pessoa",
       "ano": 1079,
+      "localNasc": "515",
       "x": 1330,
       "y": 2212.5
     },
@@ -1971,6 +2152,7 @@
       "label": "Sto. Antonino",
       "grupo": "pessoa",
       "ano": 1459,
+      "localNasc": "317",
       "x": 1547,
       "y": 2587.5
     },
@@ -1980,6 +2162,7 @@
       "label": "S. Ubaldo",
       "grupo": "pessoa",
       "ano": 1160,
+      "paisNasc": "IT",
       "x": -1372,
       "y": 2287.5
     },
@@ -1989,6 +2172,7 @@
       "label": "S. Pedro Celestino",
       "grupo": "pessoa",
       "ano": 1296,
+      "paisNasc": "IT",
       "x": 1113,
       "y": 2512.5
     },
@@ -1998,6 +2182,7 @@
       "label": "S. Bernardino de Sena",
       "grupo": "pessoa",
       "ano": 1444,
+      "paisNasc": "IT",
       "x": 425,
       "y": 2662.5
     },
@@ -2007,6 +2192,7 @@
       "label": "S. Gregório VII",
       "grupo": "pessoa",
       "ano": 1085,
+      "paisNasc": "IT",
       "x": 1690,
       "y": 2137.5
     },
@@ -2016,6 +2202,7 @@
       "label": "S. Beda, o Venerável",
       "grupo": "pessoa",
       "ano": 735,
+      "paisNasc": "GB",
       "x": -2539,
       "y": 2137.5
     },
@@ -2025,6 +2212,7 @@
       "label": "S. João I",
       "grupo": "pessoa",
       "ano": 526,
+      "paisNasc": "IT",
       "x": -2602,
       "y": 1987.5
     },
@@ -2034,6 +2222,7 @@
       "label": "Sto. Agostinho de Cantuária",
       "grupo": "pessoa",
       "ano": 604,
+      "localNasc": "26",
       "x": 1232,
       "y": 2062.5
     },
@@ -2043,6 +2232,7 @@
       "label": "Sta. Joana d'Arc",
       "grupo": "pessoa",
       "ano": 1431,
+      "paisNasc": "FR",
       "x": -428,
       "y": 2662.5
     },
@@ -2052,6 +2242,7 @@
       "label": "S. Fernando III",
       "grupo": "pessoa",
       "ano": 1252,
+      "paisNasc": "ES",
       "x": 2574,
       "y": 2362.5
     },
@@ -2061,6 +2252,7 @@
       "label": "S. Jacinto",
       "grupo": "pessoa",
       "ano": 1257,
+      "paisNasc": "PL",
       "x": -2281,
       "y": 2437.5
     },
@@ -2070,6 +2262,7 @@
       "label": "S. Filipe Benício",
       "grupo": "pessoa",
       "ano": 1285,
+      "localNasc": "317",
       "x": 718,
       "y": 2437.5
     },
@@ -2079,6 +2272,7 @@
       "label": "S. Luís IX",
       "grupo": "pessoa",
       "ano": 1270,
+      "paisNasc": "FR",
       "x": -1243,
       "y": 2512.5
     },
@@ -2088,6 +2282,7 @@
       "label": "S. Raimundo Nonato",
       "grupo": "pessoa",
       "ano": 1240,
+      "paisNasc": "ES",
       "x": 1473,
       "y": 2287.5
     },
@@ -2097,6 +2292,7 @@
       "label": "Sto. Egídio",
       "grupo": "pessoa",
       "ano": 710,
+      "paisNasc": "GR",
       "x": 2588,
       "y": 2062.5
     },
@@ -2106,6 +2302,7 @@
       "label": "Sto. Estêvão (Rei)",
       "grupo": "pessoa",
       "ano": 1038,
+      "paisNasc": "HU",
       "x": -89,
       "y": 2212.5
     },
@@ -2115,6 +2312,7 @@
       "label": "S. Lourenço Justiniano",
       "grupo": "pessoa",
       "ano": 1456,
+      "localNasc": "525",
       "x": 876,
       "y": 2587.5
     },
@@ -2124,6 +2322,7 @@
       "label": "S. Nicolau de Tolentino",
       "grupo": "pessoa",
       "ano": 1305,
+      "paisNasc": "IT",
       "x": 1896,
       "y": 2512.5
     },
@@ -2133,6 +2332,7 @@
       "label": "S. Venceslau",
       "grupo": "pessoa",
       "ano": 935,
+      "paisNasc": "CZ",
       "x": -1085,
       "y": 2137.5
     },
@@ -2142,6 +2342,7 @@
       "label": "S. Remígio",
       "grupo": "pessoa",
       "ano": 533,
+      "paisNasc": "FR",
       "x": -2057,
       "y": 1987.5
     },
@@ -2151,6 +2352,7 @@
       "label": "Plácido e Companheiros",
       "grupo": "pessoa",
       "ano": 541,
+      "localNasc": "26",
       "x": -1379,
       "y": 1987.5
     },
@@ -2160,6 +2362,7 @@
       "label": "S. Bruno",
       "grupo": "pessoa",
       "ano": 1101,
+      "paisNasc": "DE",
       "x": 2623,
       "y": 2212.5
     },
@@ -2169,6 +2372,7 @@
       "label": "Sta. Brígida",
       "grupo": "pessoa",
       "ano": 1373,
+      "paisNasc": "SE",
       "x": -2008,
       "y": 2662.5
     },
@@ -2178,6 +2382,7 @@
       "label": "S. Eduardo",
       "grupo": "pessoa",
       "ano": 1066,
+      "paisNasc": "GB",
       "x": 257,
       "y": 2137.5
     },
@@ -2187,6 +2392,7 @@
       "label": "Sta. Edwiges",
       "grupo": "pessoa",
       "ano": 1243,
+      "paisNasc": "DE",
       "x": 1833,
       "y": 2362.5
     },
@@ -2196,6 +2402,7 @@
       "label": "S. João Câncio",
       "grupo": "pessoa",
       "ano": 1473,
+      "paisNasc": "PL",
       "x": 2148,
       "y": 2587.5
     },
@@ -2205,6 +2412,7 @@
       "label": "S. Leonardo de Limousin",
       "grupo": "pessoa",
       "ano": 559,
+      "paisNasc": "FR",
       "x": -278,
       "y": 2062.5
     },
@@ -2214,6 +2422,7 @@
       "label": "S. Martinho I",
       "grupo": "pessoa",
       "ano": 655,
+      "paisNasc": "IT",
       "x": 1980,
       "y": 2062.5
     },
@@ -2223,6 +2432,7 @@
       "label": "S. Diogo",
       "grupo": "pessoa",
       "ano": 1463,
+      "paisNasc": "ES",
       "x": 1844,
       "y": 2662.5
     },
@@ -2232,6 +2442,7 @@
       "label": "Sto. Alberto Magno",
       "grupo": "pessoa",
       "ano": 1280,
+      "paisNasc": "DE",
       "x": 323,
       "y": 2512.5
     },
@@ -2241,6 +2452,7 @@
       "label": "Sta. Gertrudes",
       "grupo": "pessoa",
       "ano": 1302,
+      "paisNasc": "DE",
       "x": 1487,
       "y": 2437.5
     },
@@ -2250,6 +2462,7 @@
       "label": "S. Félix de Valois",
       "grupo": "pessoa",
       "ano": 1212,
+      "paisNasc": "FR",
       "x": -673,
       "y": 2287.5
     },
@@ -2259,6 +2472,7 @@
       "label": "S. Silvestre (Abade)",
       "grupo": "pessoa",
       "ano": 1267,
+      "paisNasc": "IT",
       "x": -1603,
       "y": 2437.5
     },
@@ -2268,6 +2482,7 @@
       "label": "S. Sabas",
       "grupo": "pessoa",
       "ano": 532,
+      "paisNasc": "TR",
       "x": -2333,
       "y": 2062.5
     },
@@ -2277,6 +2492,7 @@
       "label": "S. Tomás Becket",
       "grupo": "pessoa",
       "ano": 1170,
+      "paisNasc": "GB",
       "x": -1054,
       "y": 2362.5
     },
@@ -2286,6 +2502,7 @@
       "label": "Sta. Inês de Montepulciano",
       "grupo": "pessoa",
       "ano": 1317,
+      "localNasc": "837",
       "x": 2833,
       "y": 2512.5
     },
@@ -2295,6 +2512,7 @@
       "label": "Sto. Inácio de Loyola",
       "grupo": "pessoa",
       "ano": 1556,
+      "localNasc": "820",
       "x": -526,
       "y": 2737.5
     },
@@ -2304,6 +2522,7 @@
       "label": "S. Francisco Xavier",
       "grupo": "pessoa",
       "ano": 1552,
+      "localNasc": "821",
       "x": -1386,
       "y": 2737.5
     },
@@ -2313,6 +2532,7 @@
       "label": "Sta. Teresa d'Ávila",
       "grupo": "pessoa",
       "ano": 1582,
+      "localNasc": "149",
       "x": 1054,
       "y": 2737.5
     },
@@ -2322,6 +2542,7 @@
       "label": "S. João da Cruz",
       "grupo": "pessoa",
       "ano": 1591,
+      "localNasc": "822",
       "x": 2204,
       "y": 2812.5
     },
@@ -2331,6 +2552,7 @@
       "label": "S. Francisco de Sales",
       "grupo": "pessoa",
       "ano": 1622,
+      "localNasc": "823",
       "x": -236,
       "y": 2962.5
     },
@@ -2340,6 +2562,7 @@
       "label": "Sto. Antônio Zaccaria",
       "grupo": "pessoa",
       "ano": 1539,
+      "localNasc": "829",
       "x": -2466,
       "y": 2812.5
     },
@@ -2349,6 +2572,7 @@
       "label": "S. Camilo de Léllis",
       "grupo": "pessoa",
       "ano": 1614,
+      "localNasc": "830",
       "x": -1484,
       "y": 2887.5
     },
@@ -2358,6 +2582,7 @@
       "label": "S. Vicente de Paulo",
       "grupo": "pessoa",
       "ano": 1660,
+      "localNasc": "831",
       "x": 2746,
       "y": 2887.5
     },
@@ -2367,6 +2592,7 @@
       "label": "S. Jerônimo Emiliani",
       "grupo": "pessoa",
       "ano": 1537,
+      "localNasc": "525",
       "x": -2903,
       "y": 2737.5
     },
@@ -2376,6 +2602,7 @@
       "label": "S. Luís Gonzaga",
       "grupo": "pessoa",
       "ano": 1591,
+      "localNasc": "832",
       "x": 1844,
       "y": 2737.5
     },
@@ -2385,6 +2612,7 @@
       "label": "S. João de Deus",
       "grupo": "pessoa",
       "ano": 1550,
+      "localNasc": "828",
       "x": -1774,
       "y": 2812.5
     },
@@ -2394,6 +2622,7 @@
       "label": "S. Fidélis de Sigmaringa",
       "grupo": "pessoa",
       "ano": 1622,
+      "localNasc": "833",
       "x": 229,
       "y": 2887.5
     },
@@ -2403,6 +2632,7 @@
       "label": "S. Pedro Canísio",
       "grupo": "pessoa",
       "ano": 1597,
+      "localNasc": "834",
       "x": -3197,
       "y": 2887.5
     },
@@ -2412,6 +2642,7 @@
       "label": "S. Paulo da Cruz",
       "grupo": "pessoa",
       "ano": 1775,
+      "localNasc": "835",
       "x": 458,
       "y": 3112.5
     },
@@ -2421,6 +2652,7 @@
       "label": "S. Pio V",
       "grupo": "pessoa",
       "ano": 1572,
+      "localNasc": "836",
       "x": 271,
       "y": 2737.5
     },
@@ -2430,6 +2662,7 @@
       "label": "S. Roberto Belarmino",
       "grupo": "pessoa",
       "ano": 1621,
+      "localNasc": "837",
       "x": -673,
       "y": 2887.5
     },
@@ -2439,6 +2672,7 @@
       "label": "S. João Batista de La Salle",
       "grupo": "pessoa",
       "ano": 1719,
+      "localNasc": "838",
       "x": 7,
       "y": 3037.5
     },
@@ -2448,6 +2682,7 @@
       "label": "S. Pascoal Bailão",
       "grupo": "pessoa",
       "ano": 1592,
+      "localNasc": "839",
       "x": 2578,
       "y": 2737.5
     },
@@ -2457,6 +2692,7 @@
       "label": "S. Felipe Néri",
       "grupo": "pessoa",
       "ano": 1595,
+      "localNasc": "317",
       "x": 2945,
       "y": 2812.5
     },
@@ -2466,6 +2702,7 @@
       "label": "Sta. Maria Madalena de Pazzi",
       "grupo": "pessoa",
       "ano": 1607,
+      "localNasc": "317",
       "x": -2739,
       "y": 2962.5
     },
@@ -2475,6 +2712,7 @@
       "label": "Sto. Afonso M. de Ligório",
       "grupo": "pessoa",
       "ano": 1787,
+      "localNasc": "840",
       "x": 895,
       "y": 3037.5
     },
@@ -2484,6 +2722,7 @@
       "label": "S. Caetano",
       "grupo": "pessoa",
       "ano": 1547,
+      "localNasc": "841",
       "x": -2099,
       "y": 2737.5
     },
@@ -2493,6 +2732,7 @@
       "label": "S. João Eudes",
       "grupo": "pessoa",
       "ano": 1680,
+      "localNasc": "842",
       "x": -979,
       "y": 3037.5
     },
@@ -2502,6 +2742,7 @@
       "label": "Sta. Joana Francisca de Chantal",
       "grupo": "pessoa",
       "ano": 1641,
+      "localNasc": "843",
       "x": 1484,
       "y": 2962.5
     },
@@ -2511,6 +2752,7 @@
       "label": "S. José de Calasanz",
       "grupo": "pessoa",
       "ano": 1648,
+      "localNasc": "844",
       "x": 2330,
       "y": 2962.5
     },
@@ -2520,6 +2762,7 @@
       "label": "Sta. Rosa de Lima",
       "grupo": "pessoa",
       "ano": 1617,
+      "localNasc": "806",
       "x": -1082,
       "y": 2962.5
     },
@@ -2529,6 +2772,7 @@
       "label": "S. José de Cupertino",
       "grupo": "pessoa",
       "ano": 1663,
+      "localNasc": "845",
       "x": 3169,
       "y": 2962.5
     },
@@ -2538,6 +2782,7 @@
       "label": "S. Tomás de Vilanova",
       "grupo": "pessoa",
       "ano": 1555,
+      "paisNasc": "ES",
       "x": -963,
       "y": 2812.5
     },
@@ -2547,6 +2792,7 @@
       "label": "S. João Leonardo",
       "grupo": "pessoa",
       "ano": 1609,
+      "paisNasc": "IT",
       "x": -1879,
       "y": 2962.5
     },
@@ -2556,6 +2802,7 @@
       "label": "S. Francisco de Borja",
       "grupo": "pessoa",
       "ano": 1572,
+      "paisNasc": "ES",
       "x": 624,
       "y": 2812.5
     },
@@ -2565,6 +2812,7 @@
       "label": "Sta. Margarida Maria Alacoque",
       "grupo": "pessoa",
       "ano": 1690,
+      "paisNasc": "FR",
       "x": -535,
       "y": 3112.5
     },
@@ -2574,6 +2822,7 @@
       "label": "S. Pedro de Alcântara",
       "grupo": "pessoa",
       "ano": 1562,
+      "paisNasc": "ES",
       "x": -82,
       "y": 2812.5
     },
@@ -2583,6 +2832,7 @@
       "label": "S. Carlos Borromeu",
       "grupo": "pessoa",
       "ano": 1584,
+      "paisNasc": "IT",
       "x": 1463,
       "y": 2812.5
     },
@@ -2592,6 +2842,7 @@
       "label": "Sto. André Avelino",
       "grupo": "pessoa",
       "ano": 1608,
+      "paisNasc": "IT",
       "x": -2267,
       "y": 2887.5
     },
@@ -2601,6 +2852,7 @@
       "label": "S. Josafá",
       "grupo": "pessoa",
       "ano": 1623,
+      "paisNasc": "UA",
       "x": 610,
       "y": 2962.5
     },
@@ -2610,6 +2862,7 @@
       "label": "S. Martinho de Porres",
       "grupo": "pessoa",
       "ano": 1639,
+      "localNasc": "806",
       "x": 970,
       "y": 2887.5
     },
@@ -2619,6 +2872,7 @@
       "label": "S. João Macias",
       "grupo": "pessoa",
       "ano": 1645,
+      "paisNasc": "ES",
       "x": 1949,
       "y": 2887.5
     },
@@ -2628,6 +2882,7 @@
       "label": "S. João M. Vianney",
       "grupo": "pessoa",
       "ano": 1859,
+      "localNasc": "824",
       "x": -991,
       "y": 3187.5
     },
@@ -2637,6 +2892,7 @@
       "label": "S. João Bosco",
       "grupo": "pessoa",
       "ano": 1888,
+      "localNasc": "825",
       "x": -124,
       "y": 3187.5
     },
@@ -2646,6 +2902,7 @@
       "label": "Sta. Teresinha",
       "grupo": "pessoa",
       "ano": 1897,
+      "localNasc": "826",
       "x": 215,
       "y": 3262.5
     },
@@ -2655,6 +2912,7 @@
       "label": "S. Pio X",
       "grupo": "pessoa",
       "ano": 1914,
+      "localNasc": "827",
       "x": 519,
       "y": 3187.5
     },
@@ -2664,6 +2922,7 @@
       "label": "S. Gabriel da V. Dolorosa",
       "grupo": "pessoa",
       "ano": 1862,
+      "paisNasc": "IT",
       "x": -540,
       "y": 3262.5
     },
@@ -3098,6 +3357,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 41.9028,
+      "lng": 12.4964,
       "x": -638,
       "y": 3937.5
     },
@@ -3109,6 +3370,8 @@
       "grupo": "localizacao",
       "pais": "Israel",
       "iso": "IL",
+      "lat": 32.7019,
+      "lng": 35.3033,
       "x": -701,
       "y": 4237.5
     },
@@ -3142,6 +3405,8 @@
       "grupo": "localizacao",
       "pais": "Israel",
       "iso": "IL",
+      "lat": 31.7683,
+      "lng": 35.2137,
       "x": -271,
       "y": 4012.5
     },
@@ -3197,6 +3462,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
+      "lat": 36.2021,
+      "lng": 36.1606,
       "x": 1309,
       "y": 4312.5
     },
@@ -3208,6 +3475,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
+      "lat": 39.7505,
+      "lng": 37.015,
       "x": -2826,
       "y": 3937.5
     },
@@ -3219,6 +3488,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 37.5079,
+      "lng": 15.0873,
       "x": 117,
       "y": 3937.5
     },
@@ -3252,6 +3523,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 43.0707,
+      "lng": 12.6196,
       "x": -1054,
       "y": 4312.5
     },
@@ -3274,6 +3547,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 40.8518,
+      "lng": 14.2681,
       "x": -1407,
       "y": 3937.5
     },
@@ -3296,6 +3571,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 42.7186,
+      "lng": 13.0131,
       "x": 2057,
       "y": 4312.5
     },
@@ -3318,6 +3595,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 40.6565,
+      "lng": -4.6818,
       "x": 1697,
       "y": 4237.5
     },
@@ -3461,6 +3740,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 45.4642,
+      "lng": 9.19,
       "x": -1288,
       "y": 4387.5
     },
@@ -3538,6 +3819,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 42.645,
+      "lng": 11.9861,
       "x": -2099,
       "y": 3937.5
     },
@@ -3549,6 +3832,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
+      "lat": 40.7654,
+      "lng": 29.9406,
       "x": -1012,
       "y": 4012.5
     },
@@ -3560,6 +3845,8 @@
       "grupo": "localizacao",
       "pais": "Palestina",
       "iso": "PS",
+      "lat": 31.7708,
+      "lng": 35.2608,
       "x": 1931,
       "y": 4462.5
     },
@@ -3571,6 +3858,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 44.4184,
+      "lng": 12.2035,
       "x": -423,
       "y": 4162.5
     },
@@ -3648,6 +3937,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 43.7696,
+      "lng": 11.2558,
       "x": -470,
       "y": 4537.5
     },
@@ -3659,6 +3950,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 40.9256,
+      "lng": 14.5283,
       "x": 292,
       "y": 4537.5
     },
@@ -3692,6 +3985,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 46.5802,
+      "lng": 0.3404,
       "x": 652,
       "y": 4612.5
     },
@@ -3725,6 +4020,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 41.6488,
+      "lng": -0.8891,
       "x": 2225,
       "y": 4612.5
     },
@@ -3736,6 +4033,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 41.3879,
+      "lng": 2.1699,
       "x": -872,
       "y": 4612.5
     },
@@ -3747,6 +4046,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
+      "lat": 38.4237,
+      "lng": 27.1428,
       "x": 2620,
       "y": 4537.5
     },
@@ -3802,6 +4103,8 @@
       "grupo": "localizacao",
       "pais": "Egito",
       "iso": "EG",
+      "lat": 31.2001,
+      "lng": 29.9187,
       "x": 1047,
       "y": 4537.5
     },
@@ -3824,6 +4127,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 45.5416,
+      "lng": 10.2118,
       "x": 1435,
       "y": 4612.5
     },
@@ -3857,6 +4162,8 @@
       "grupo": "localizacao",
       "pais": "Polônia",
       "iso": "PL",
+      "lat": 50.0647,
+      "lng": 19.945,
       "x": 1921,
       "y": 4687.5
     },
@@ -3868,6 +4175,8 @@
       "grupo": "localizacao",
       "pais": "Tunísia",
       "iso": "TN",
+      "lat": 36.8531,
+      "lng": 10.3231,
       "x": 643,
       "y": 4087.5
     },
@@ -3901,6 +4210,8 @@
       "grupo": "localizacao",
       "pais": "Síria",
       "iso": "SY",
+      "lat": 33.5138,
+      "lng": 36.2765,
       "x": -2036,
       "y": 4687.5
     },
@@ -3923,6 +4234,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 39.4699,
+      "lng": -0.3763,
       "x": 285,
       "y": 4687.5
     },
@@ -3967,6 +4280,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 45.4408,
+      "lng": 12.3155,
       "x": -96,
       "y": 4762.5
     },
@@ -3989,6 +4304,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 43.3188,
+      "lng": 11.3308,
       "x": -823,
       "y": 4762.5
     },
@@ -4055,6 +4372,8 @@
       "grupo": "localizacao",
       "pais": "Peru",
       "iso": "PE",
+      "lat": -12.0464,
+      "lng": -77.0428,
       "x": 928,
       "y": 4837.5
     },
@@ -4077,6 +4396,8 @@
       "grupo": "localizacao",
       "pais": "Portugal",
       "iso": "PT",
+      "lat": 38.7223,
+      "lng": -9.1393,
       "x": 1676,
       "y": 4837.5
     },
@@ -4088,6 +4409,8 @@
       "grupo": "localizacao",
       "pais": "Argélia",
       "iso": "DZ",
+      "lat": 36.2864,
+      "lng": 7.9511,
       "x": 2466,
       "y": 4837.5
     },
@@ -4099,6 +4422,8 @@
       "grupo": "localizacao",
       "pais": "Croácia",
       "iso": "HR",
+      "lat": 45.3833,
+      "lng": 13.8167,
       "x": 2071,
       "y": 4912.5
     },
@@ -4110,6 +4435,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
+      "lat": 36.9165,
+      "lng": 34.8953,
       "x": -1746,
       "y": 4912.5
     },
@@ -4121,6 +4448,8 @@
       "grupo": "localizacao",
       "pais": "Israel",
       "iso": "IL",
+      "lat": 32.9089,
+      "lng": 35.6322,
       "x": 582,
       "y": 4912.5
     },
@@ -4132,6 +4461,8 @@
       "grupo": "localizacao",
       "pais": "Palestina",
       "iso": "PS",
+      "lat": 31.7054,
+      "lng": 35.2024,
       "x": -222,
       "y": 4912.5
     },
@@ -4143,6 +4474,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 42.7936,
+      "lng": 13.0933,
       "x": -1386,
       "y": 4837.5
     },
@@ -4154,6 +4487,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 47.3444,
+      "lng": 5.0222,
       "x": -2564,
       "y": 4912.5
     },
@@ -4165,6 +4500,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 41.8258,
+      "lng": -3.4878,
       "x": 180,
       "y": 4837.5
     },
@@ -4176,6 +4513,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 41.5539,
+      "lng": 13.6669,
       "x": -998,
       "y": 4912.5
     },
@@ -4187,6 +4526,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 43.1744,
+      "lng": -2.2825,
       "x": -603,
       "y": 4837.5
     },
@@ -4198,6 +4539,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 42.5925,
+      "lng": -1.2158,
       "x": -2113,
       "y": 4837.5
     },
@@ -4209,6 +4552,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 40.9839,
+      "lng": -4.9619,
       "x": 2875,
       "y": 4912.5
     },
@@ -4220,6 +4565,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 45.9975,
+      "lng": 6.2472,
       "x": 956,
       "y": 4987.5
     },
@@ -4231,6 +4578,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 45.8058,
+      "lng": 4.7508,
       "x": -3351,
       "y": 4987.5
     },
@@ -4242,6 +4591,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 45.0411,
+      "lng": 7.9644,
       "x": -2012,
       "y": 5062.5
     },
@@ -4253,6 +4604,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 48.4329,
+      "lng": 0.0913,
       "x": -1194,
       "y": 5062.5
     },
@@ -4264,6 +4617,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 45.7289,
+      "lng": 11.9214,
       "x": 68,
       "y": 4987.5
     },
@@ -4275,6 +4630,8 @@
       "grupo": "localizacao",
       "pais": "Portugal",
       "iso": "PT",
+      "lat": 38.6444,
+      "lng": -8.2178,
       "x": -750,
       "y": 4987.5
     },
@@ -4286,6 +4643,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 45.1336,
+      "lng": 10.0247,
       "x": -2484,
       "y": 4987.5
     },
@@ -4297,6 +4656,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 42.3131,
+      "lng": 14.1808,
       "x": 498,
       "y": 5062.5
     },
@@ -4308,6 +4669,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 43.7469,
+      "lng": -0.9997,
       "x": 2921,
       "y": 4987.5
     },
@@ -4319,6 +4682,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 45.3939,
+      "lng": 10.4958,
       "x": 2435,
       "y": 5062.5
     },
@@ -4330,6 +4695,8 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
+      "lat": 48.0869,
+      "lng": 9.2175,
       "x": 1428,
       "y": 5062.5
     },
@@ -4341,6 +4708,8 @@
       "grupo": "localizacao",
       "pais": "Países Baixos",
       "iso": "NL",
+      "lat": 51.8426,
+      "lng": 5.8528,
       "x": -2914,
       "y": 5062.5
     },
@@ -4352,6 +4721,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 44.6381,
+      "lng": 8.6456,
       "x": -320,
       "y": 5062.5
     },
@@ -4363,6 +4734,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 44.8256,
+      "lng": 8.6781,
       "x": 1886,
       "y": 4987.5
     },
@@ -4374,6 +4747,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 43.0928,
+      "lng": 11.7878,
       "x": 3316,
       "y": 5062.5
     },
@@ -4385,6 +4760,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 49.2583,
+      "lng": 4.0317,
       "x": -1554,
       "y": 4987.5
     },
@@ -4396,6 +4773,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 41.2389,
+      "lng": -2.0628,
       "x": 783,
       "y": 5212.5
     },
@@ -4407,6 +4786,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 40.8872,
+      "lng": 14.2344,
       "x": -528,
       "y": 5137.5
     },
@@ -4418,6 +4799,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 45.5455,
+      "lng": 11.5353,
       "x": -923,
       "y": 5212.5
     },
@@ -4429,6 +4812,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 48.7906,
+      "lng": -0.1381,
       "x": -1262,
       "y": 5137.5
     },
@@ -4440,6 +4825,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
+      "lat": 47.322,
+      "lng": 5.0415,
       "x": -147,
       "y": 5212.5
     },
@@ -4451,6 +4838,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
+      "lat": 41.9939,
+      "lng": 0.3922,
       "x": 290,
       "y": 5137.5
     },
@@ -4462,6 +4851,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
+      "lat": 40.2747,
+      "lng": 18.0469,
       "x": 1213,
       "y": 5137.5
     },
