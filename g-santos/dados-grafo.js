@@ -1,3 +1,4 @@
+
 // ============================================================
 // REGRAS GRAFO e MAPA "g-santos"
 // ============================================================
@@ -33,6 +34,8 @@ var regrasDoGrafo = {
   },
   cores: {},
   mapa: {
+    arquivoAvulsos: 'santos-avulsos.json',
+    arquivoRelatorio: 'santos-substituidos.txt',
     niveisSantos: [2, 3, 4, 5, 6],
     idsExcluidos: ['424', '439', '440', '441', '603', '609', '631', '632', '638', '644', '685'],
     campos: {
