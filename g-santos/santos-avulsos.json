@@ -1,0 +1,40 @@
+{
+  "santos": [
+    {
+      "id": "x_001",
+      "nome": "São José Pignatelli",
+      "atributo_liturgico": "Presbítero e Confessor",
+      "dia_festa_liturgica": "14 de novembro",
+      "cidade_nascimento": "Saragoça",
+      "pais_nascimento": "Espanha",
+      "iso": "ES",
+      "lat": 41.6488,
+      "lng": -0.8891,
+      "data_morte": "15 de novembro de 1811"
+    },
+    {
+      "id": "x_002",
+      "nome": "São Valério de Saragoça",
+      "atributo_liturgico": "Bispo e Confessor",
+      "dia_festa_liturgica": "29 de janeiro",
+      "cidade_nascimento": "Saragoça",
+      "pais_nascimento": "Espanha",
+      "iso": "ES",
+      "lat": 41.6488,
+      "lng": -0.8891,
+      "data_morte": "cerca de 315"
+    },
+    {
+      "id": "x_003",
+      "nome": "São Bráulio de Saragoça",
+      "atributo_liturgico": "Bispo e Confessor",
+      "dia_festa_liturgica": "26 de março",
+      "cidade_nascimento": "Saragoça",
+      "pais_nascimento": "Espanha",
+      "iso": "ES",
+      "lat": 41.6488,
+      "lng": -0.8891,
+      "data_morte": "651"
+    }
+  ]
+}
