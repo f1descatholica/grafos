@@ -461,7 +461,174 @@ function limparNomeCidadeMapa(label, nomePais) {
   return texto;
 }
 
-function gerarDadosDoMapa(todosNos, regrasCarregadas, nomeGrafo) {
+var NOMES_MESES_MAPA = [
+  'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
+  'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
+];
+
+var MAPA_MES_POR_NOME = {
+  janeiro: 1, fevereiro: 2, marco: 3, abril: 4, maio: 5, junho: 6,
+  julho: 7, agosto: 8, setembro: 9, outubro: 10, novembro: 11, dezembro: 12
+};
+
+function normalizarSemAcentoMaiuscula(texto) {
+  return String(texto || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toUpperCase()
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function capitalizarTituloLiturgico(texto) {
+  var limpo = String(texto || '').trim();
+  if (!limpo) return '';
+  return limpo.charAt(0).toUpperCase() + limpo.slice(1).toLowerCase();
+}
+
+function sanitizarCampoRelatorio(texto) {
+  var s = String(texto === undefined || texto === null ? '' : texto)
+    .replace(/[\r\n|]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return s === '' ? '-' : s;
+}
+
+function formatarDataHoraAtual() {
+  var d = new Date();
+  function pad(n) { return n < 10 ? '0' + n : String(n); }
+  return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()) +
+    ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes()) + ':' + pad(d.getSeconds());
+}
+
+function gravarRelatorioAcumulativo(caminhoRelatorio, ocorrencias) {
+  if (!caminhoRelatorio || !ocorrencias || ocorrencias.length === 0) return 0;
+
+  var cabecalho = 'data/hora | tipo | santo | campo | valor_grafo | valor_ficou';
+  var chavesExistentes = new Set();
+  var conteudoExistente = '';
+
+  if (fs.existsSync(caminhoRelatorio)) {
+    conteudoExistente = fs.readFileSync(caminhoRelatorio, 'utf8');
+    conteudoExistente.split(/\r?\n/).forEach(function(linha) {
+      var l = linha.trim();
+      if (!l || l.indexOf('data/hora |') === 0) return;
+      var partes = l.split(' | ');
+      if (partes.length >= 6) {
+        chavesExistentes.add(partes.slice(1, 6).join(' | '));
+      }
+    });
+  }
+
+  var agora = formatarDataHoraAtual();
+  var novasLinhas = [];
+
+  ocorrencias.forEach(function(oc) {
+    var chave = [
+      sanitizarCampoRelatorio(oc.tipo),
+      sanitizarCampoRelatorio(oc.santo),
+      sanitizarCampoRelatorio(oc.campo),
+      sanitizarCampoRelatorio(oc.valorGrafo),
+      sanitizarCampoRelatorio(oc.valorFicou)
+    ].join(' | ');
+    if (!chavesExistentes.has(chave)) {
+      chavesExistentes.add(chave);
+      novasLinhas.push(agora + ' | ' + chave);
+    }
+  });
+
+  if (novasLinhas.length === 0) return 0;
+
+  if (!fs.existsSync(caminhoRelatorio) || conteudoExistente.trim() === '') {
+    fs.writeFileSync(caminhoRelatorio, cabecalho + '\n' + novasLinhas.join('\n') + '\n', 'utf8');
+  } else {
+    var prefixo = conteudoExistente.endsWith('\n') ? '' : '\n';
+    fs.appendFileSync(caminhoRelatorio, prefixo + novasLinhas.join('\n') + '\n', 'utf8');
+  }
+  return novasLinhas.length;
+}
+
+function extrairDiaMesDeTexto(texto) {
+  var limpo = String(texto || '').trim();
+  if (!limpo) return null;
+  var m = limpo.match(/\b(\d{1,2})\s+de\s+([a-zA-ZÀ-ÿ]+)/i);
+  if (!m) return null;
+  var dia = parseInt(m[1], 10);
+  if (isNaN(dia) || dia < 1 || dia > 31) return null;
+  var mesNorm = normalizarSemAcentoMaiuscula(m[2]).toLowerCase();
+  var mesNum = MAPA_MES_POR_NOME[mesNorm];
+  if (!mesNum) return null;
+  return {
+    dia: dia,
+    mesNum: mesNum,
+    diaMesStr: dia + ' de ' + NOMES_MESES_MAPA[mesNum - 1]
+  };
+}
+
+function ehNumeroCoordValido(v) {
+  if (v === undefined || v === null || v === '') return false;
+  var n = Number(v);
+  return typeof n === 'number' && !isNaN(n) && isFinite(n);
+}
+
+function normalizarTokensNomeSanto(nome) {
+  var limpo = normalizarSemAcentoMaiuscula(nome)
+    .replace(/[.,\/\-()]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!limpo) return [];
+  var ignoraPreposicoes = { DE: true, DA: true, DO: true, DAS: true, DOS: true };
+  var prefixosSanto = { S: true, SAO: true, STO: true, SANTO: true, STA: true, SANTA: true };
+  return limpo.split(' ').reduce(function(acc, tok) {
+    if (!tok || ignoraPreposicoes[tok]) return acc;
+    if (prefixosSanto[tok]) {
+      acc.push('SANTO');
+    } else {
+      acc.push(tok);
+    }
+    return acc;
+  }, []);
+}
+
+function normalizarChaveNomeSanto(nome) {
+  return normalizarTokensNomeSanto(nome).join(' ');
+}
+
+function extrairRomanos(tokens) {
+  var reRomano = /^(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX)$/;
+  return tokens.filter(function(t) { return reRomano.test(t); });
+}
+
+function nomesSaoProvavelDuplicata(nomeA, nomeB) {
+  var tokA = normalizarTokensNomeSanto(nomeA);
+  var tokB = normalizarTokensNomeSanto(nomeB);
+  if (tokA.length === 0 || tokB.length === 0) return false;
+  if (tokA.join(' ') === tokB.join(' ')) return false;
+
+  var romA = extrairRomanos(tokA);
+  var romB = extrairRomanos(tokB);
+  if (romA.length > 0 && romB.length > 0 && romA.join(',') !== romB.join(',')) {
+    return false;
+  }
+
+  var sigA = tokA.filter(function(t) { return t !== 'SANTO'; });
+  var sigB = tokB.filter(function(t) { return t !== 'SANTO'; });
+  if (sigA.length === 0 || sigB.length === 0) return false;
+  if (Math.min(sigA.length, sigB.length) < 2) return false;
+
+  var setA = new Set(sigA);
+  var setB = new Set(sigB);
+  var contemATodoB = sigB.every(function(t) { return setA.has(t); });
+  var contemBTodoA = sigA.every(function(t) { return setB.has(t); });
+  if (contemATodoB || contemBTodoA) return true;
+
+  var comuns = 0;
+  setA.forEach(function(t) { if (setB.has(t)) comuns++; });
+  var maxLen = Math.max(sigA.length, sigB.length);
+  return (comuns / maxLen) >= 0.75;
+}
+
+function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pastaAtual) {
   var cfg = regrasCarregadas.mapa;
   var campos = cfg.campos || {};
   var campoLocalNasc = campos.localNasc || 'localNasc';
@@ -470,26 +637,53 @@ function gerarDadosDoMapa(todosNos, regrasCarregadas, nomeGrafo) {
   var campoIso = campos.iso || 'iso';
   var campoLat = campos.lat || 'lat';
   var campoLng = campos.lng || 'lng';
+  var campoAno = campos.ano || 'ano';
+  var campoMesNumero = campos.mesNumero ||
+    (regrasCarregadas.dicionario && regrasCarregadas.dicionario.mesReferencia) ||
+    'mesNumero';
+
+  var nivelTitulos = (cfg.nivelTitulos !== undefined) ? cfg.nivelTitulos : 1;
+  var categoriaTitulo = cfg.categoriaTitulo || 'ideia';
+  var titulosIgnoradosSet = new Set((cfg.titulosIgnorados || ['FESTA']).map(normalizarSemAcentoMaiuscula));
+  var festasIgnoradasLista = (cfg.festasIgnoradas || ['CATEDRA', 'CONVERSAO']).map(normalizarSemAcentoMaiuscula);
 
   var niveisSet = new Set(cfg.niveisSantos || []);
   var excluidosSet = new Set((cfg.idsExcluidos || []).map(String));
   var mapaPaisesCfg = cfg.paises || {};
 
-  var nosPorId = {};
-  todosNos.forEach(function(n) { nosPorId[String(n.id)] = n; });
+  var ocorrenciasRelatorio = [];
+  function registrarOcorrencia(tipo, santo, campo, valorGrafo, valorFicou) {
+    ocorrenciasRelatorio.push({
+      tipo: tipo,
+      santo: santo,
+      campo: campo,
+      valorGrafo: valorGrafo,
+      valorFicou: valorFicou
+    });
+  }
 
-  var contagemCidades = {}; // idLocal -> Set de ids de santos
-  var contagemPaises = {};  // iso -> Set de ids de santos
-  var santosContados = new Set();
+  var nosPorId = {};
+  (todosNos || []).forEach(function(n) { nosPorId[String(n.id)] = n; });
+
+  var setasPorTo = {};
+  (todosSetas || []).forEach(function(s) {
+    var para = String(s.to);
+    if (!setasPorTo[para]) setasPorTo[para] = [];
+    setasPorTo[para].push(s);
+  });
 
   var qtdExcluidosAplicados = 0;
-  var semNascimento = [];
   var comConflito = [];
   var locaisSemCoord = new Set();
   var locaisInexistentes = new Set();
   var isosSemTabela = new Set();
 
-  todosNos.forEach(function(n) {
+  // 1) Extrair santos do grafo
+  var santosGrafo = [];
+  var grafoPorId = {};
+  var grafoPorNomeNorm = {};
+
+  (todosNos || []).forEach(function(n) {
     if (!niveisSet.has(n.level)) return;
     var idStr = String(n.id);
     if (excluidosSet.has(idStr)) {
@@ -497,93 +691,559 @@ function gerarDadosDoMapa(todosNos, regrasCarregadas, nomeGrafo) {
       return;
     }
 
+    var nomeSanto = String(n.label || '').trim();
+    var rotuloRel = idStr + ' - ' + nomeSanto;
+
+    var titulos = [];
+    var titulosVistos = new Set();
+    var festasCandidatas = [];
+    var arestasParaSanto = setasPorTo[idStr] || [];
+
+    arestasParaSanto.forEach(function(s) {
+      var noOrigem = nosPorId[String(s.from)];
+      if (!noOrigem) return;
+
+      var mesVal = noOrigem[campoMesNumero];
+      var ehMes = (mesVal !== undefined && mesVal !== null && !isNaN(Number(mesVal)));
+
+      if (ehMes) {
+        var mesNum = parseInt(mesVal, 10);
+        if (mesNum < 1 || mesNum > 12) return;
+        var textoEdge = String(s.texto || '').trim();
+        var textoNorm = normalizarSemAcentoMaiuscula(textoEdge);
+
+        var ehFestaIgnorada = festasIgnoradasLista.some(function(palavra) {
+          return textoNorm.indexOf(palavra) !== -1;
+        });
+        if (ehFestaIgnorada) {
+          registrarOcorrencia('festa ignorada', rotuloRel, 'diaFesta', textoEdge, '(ignorado: Cátedra/Conversão)');
+          return;
+        }
+
+        var dia = extrairDiaDoTexto(textoEdge);
+        if (dia === null || dia < 1 || dia > 31) {
+          registrarOcorrencia('festa sem dia válido', rotuloRel, 'diaFesta', textoEdge, '-');
+          return;
+        }
+
+        var diaFestaFormatado = dia + ' de ' + NOMES_MESES_MAPA[mesNum - 1];
+        var ehPadraoSimples = (textoEdge.replace(/\s+/g, ' ').toLowerCase() === ('dia ' + dia));
+        festasCandidatas.push({
+          dia: dia,
+          mesNum: mesNum,
+          textoFormatado: diaFestaFormatado,
+          textoOriginal: textoEdge,
+          ehPadrao: ehPadraoSimples
+        });
+        return;
+      }
+
+      if (noOrigem.level === nivelTitulos) {
+        if (noOrigem.categoria === categoriaTitulo) {
+          var tituloNorm = normalizarSemAcentoMaiuscula(noOrigem.label);
+          if (titulosIgnoradosSet.has(tituloNorm)) return;
+          var tituloCap = capitalizarTituloLiturgico(noOrigem.label);
+          if (tituloCap && !titulosVistos.has(tituloCap)) {
+            titulosVistos.add(tituloCap);
+            titulos.push(tituloCap);
+          }
+        } else {
+          registrarOcorrencia('dúvida título', rotuloRel, 'atributoLiturgico', String(noOrigem.label || ''), '(categoria inesperada)');
+        }
+      }
+    });
+
+    var rawAno = n[campoAno];
+    var anoMortePositivo = null;
+    var anoInvalidoTexto = '';
+    if (rawAno !== undefined && rawAno !== null && String(rawAno).trim() !== '') {
+      var strAno = String(rawAno).trim();
+      if (/^\d+$/.test(strAno) && parseInt(strAno, 10) > 0) {
+        anoMortePositivo = parseInt(strAno, 10);
+      } else {
+        anoInvalidoTexto = strAno;
+      }
+    }
+
     var localId = n[campoLocalNasc];
     var paisIsoDireto = n[campoPaisNasc];
+    var cidadeGrafo = '';
+    var paisGrafo = '';
+    var isoGrafo = '';
+    var latGrafo = null;
+    var lngGrafo = null;
 
     if (localId && paisIsoDireto) {
-      comConflito.push(idStr + ' (' + n.label + ')');
+      comConflito.push(idStr + ' (' + nomeSanto + ')');
     }
 
     if (localId) {
       var localNo = nosPorId[String(localId)];
       if (!localNo) {
         locaisInexistentes.add(String(localId));
-        return;
+      } else {
+        paisGrafo = String(localNo[campoPais] || '').trim();
+        cidadeGrafo = limparNomeCidadeMapa(localNo.label, paisGrafo);
+        isoGrafo = String(localNo[campoIso] || '').trim().toUpperCase();
+        if (ehNumeroCoordValido(localNo[campoLat]) && ehNumeroCoordValido(localNo[campoLng])) {
+          latGrafo = Number(localNo[campoLat]);
+          lngGrafo = Number(localNo[campoLng]);
+        } else {
+          locaisSemCoord.add(String(localId) + ' (' + localNo.label + ')');
+        }
+        if (isoGrafo && !mapaPaisesCfg[isoGrafo]) isosSemTabela.add(isoGrafo);
       }
-      if (localNo[campoLat] === undefined || localNo[campoLng] === undefined) {
-        locaisSemCoord.add(String(localId) + ' (' + localNo.label + ')');
-      }
-      var isoLocal = localNo[campoIso];
-      if (!contagemCidades[String(localId)]) contagemCidades[String(localId)] = new Set();
-      contagemCidades[String(localId)].add(idStr);
-
-      if (isoLocal) {
-        if (!mapaPaisesCfg[isoLocal]) isosSemTabela.add(isoLocal);
-        if (!contagemPaises[isoLocal]) contagemPaises[isoLocal] = new Set();
-        contagemPaises[isoLocal].add(idStr);
-      }
-      santosContados.add(idStr);
     } else if (paisIsoDireto) {
-      var isoDir = String(paisIsoDireto);
-      if (!mapaPaisesCfg[isoDir]) isosSemTabela.add(isoDir);
-      if (!contagemPaises[isoDir]) contagemPaises[isoDir] = new Set();
-      contagemPaises[isoDir].add(idStr);
-      santosContados.add(idStr);
-    } else {
-      semNascimento.push(idStr + ' (' + n.label + ')');
+      isoGrafo = String(paisIsoDireto).trim().toUpperCase();
+      if (isoGrafo && !mapaPaisesCfg[isoGrafo]) isosSemTabela.add(isoGrafo);
+      paisGrafo = (mapaPaisesCfg[isoGrafo] && mapaPaisesCfg[isoGrafo].nome) || '';
+    }
+
+    var itemGrafo = {
+      idGrafo: idStr,
+      nome: nomeSanto,
+      atributoLiturgico: titulos.join(' e '),
+      festasCandidatas: festasCandidatas,
+      anoMortePositivo: anoMortePositivo,
+      anoInvalidoTexto: anoInvalidoTexto,
+      cidade: cidadeGrafo,
+      pais: paisGrafo,
+      iso: isoGrafo,
+      lat: latGrafo,
+      lng: lngGrafo,
+      localIdGrafo: localId ? String(localId) : null
+    };
+    santosGrafo.push(itemGrafo);
+    grafoPorId[idStr] = itemGrafo;
+
+    var chaveNome = normalizarChaveNomeSanto(nomeSanto);
+    if (chaveNome) {
+      if (!grafoPorNomeNorm[chaveNome]) grafoPorNomeNorm[chaveNome] = [];
+      grafoPorNomeNorm[chaveNome].push(itemGrafo);
     }
   });
 
+  // Índice de coordenadas conhecidas no grafo por cidade+ISO (para avulso sem lat/lng)
+  var coordGrafoPorCidadeIso = {};
+  var idLocalGrafoPorCidadeIso = {};
+  (todosNos || []).forEach(function(n) {
+    if (!n[campoPais] && !n[campoIso] && !ehNumeroCoordValido(n[campoLat])) return;
+    var nomePaisLoc = String(n[campoPais] || '').trim();
+    var cidadeLoc = limparNomeCidadeMapa(n.label, nomePaisLoc);
+    var isoLoc = String(n[campoIso] || '').trim().toUpperCase();
+    if (!cidadeLoc) return;
+    var chaveCid = normalizarSemAcentoMaiuscula(cidadeLoc) + '|' + isoLoc;
+    if (!idLocalGrafoPorCidadeIso[chaveCid]) idLocalGrafoPorCidadeIso[chaveCid] = String(n.id);
+    if (!coordGrafoPorCidadeIso[chaveCid] && ehNumeroCoordValido(n[campoLat]) && ehNumeroCoordValido(n[campoLng])) {
+      coordGrafoPorCidadeIso[chaveCid] = { lat: Number(n[campoLat]), lng: Number(n[campoLng]) };
+    }
+  });
+
+  // 2) Ler e validar santos-avulsos.json (se configurado em regras.mapa)
+  var avulsosValidos = [];
+  var idsAvulsosVistos = new Set();
+
+  if (cfg.arquivoAvulsos && pastaAtual) {
+    var caminhoAvulsos = path.join(pastaAtual, cfg.arquivoAvulsos);
+    if (fs.existsSync(caminhoAvulsos)) {
+      try {
+        var bruto = fs.readFileSync(caminhoAvulsos, 'utf8');
+        var jsonAv = JSON.parse(bruto);
+        if (!jsonAv || !Array.isArray(jsonAv.santos)) {
+          throw new Error('Estrutura inválida: esperado objeto com array "santos".');
+        }
+        jsonAv.santos.forEach(function(a) {
+          var idAv = String(a && a.id ? a.id : '').trim();
+          var nomeAv = String(a && a.nome ? a.nome : '').trim();
+          if (!idAv || idsAvulsosVistos.has(idAv)) {
+            registrarOcorrencia('id de avulso repetido', (idAv || '(sem id)') + ' - ' + nomeAv, 'id', '(já existente)', '(segundo descartado)');
+            return;
+          }
+          idsAvulsosVistos.add(idAv);
+          avulsosValidos.push(a);
+        });
+      } catch (erroAv) {
+        console.error('  [MAPA ERRO] JSON inválido em "' + cfg.arquivoAvulsos + '": ' + erroAv.message + ' (gerando só com o grafo)');
+        registrarOcorrencia('avulso ignorado por JSON inválido', '-', cfg.arquivoAvulsos, '(mantido apenas grafo)', erroAv.message);
+        avulsosValidos = [];
+      }
+    }
+  }
+
+  // 3) Casar avulsos <-> santos do grafo
+  var avulsoPorIdGrafo = {};
+  var grafoIdsCasados = new Set();
+  var avulsosPuros = [];
+  var qtdAvulsosSubstituidos = 0;
+
+  avulsosValidos.forEach(function(a) {
+    if (!a.idGrafo) return;
+    var idG = String(a.idGrafo).trim();
+    if (!grafoPorId[idG]) {
+      registrarOcorrencia('idGrafo inexistente', String(a.id) + ' - ' + String(a.nome || ''), 'idGrafo', idG, '(tratado sem vínculo com grafo)');
+      avulsosPuros.push(a);
+      return;
+    }
+    if (avulsoPorIdGrafo[idG]) {
+      registrarOcorrencia('idGrafo duplicado nos avulsos', String(a.id) + ' - ' + String(a.nome || ''), 'idGrafo', idG, '(segundo avulso descartado)');
+      return;
+    }
+    avulsoPorIdGrafo[idG] = a;
+    grafoIdsCasados.add(idG);
+    qtdAvulsosSubstituidos++;
+  });
+
+  avulsosValidos.forEach(function(a) {
+    if (a.idGrafo) return;
+    var chaveAv = normalizarChaveNomeSanto(a.nome);
+    var candidatosExatos = (chaveAv && grafoPorNomeNorm[chaveAv]) ? grafoPorNomeNorm[chaveAv] : [];
+    var alvoExato = candidatosExatos.find(function(g) { return !grafoIdsCasados.has(g.idGrafo); });
+
+    if (alvoExato) {
+      avulsoPorIdGrafo[alvoExato.idGrafo] = a;
+      grafoIdsCasados.add(alvoExato.idGrafo);
+      qtdAvulsosSubstituidos++;
+      return;
+    }
+
+    santosGrafo.forEach(function(g) {
+      if (grafoIdsCasados.has(g.idGrafo)) return;
+      if (nomesSaoProvavelDuplicata(a.nome, g.nome)) {
+        registrarOcorrencia(
+          'provável duplicata',
+          String(a.id) + ' - ' + String(a.nome || ''),
+          'nome',
+          g.idGrafo + ' - ' + g.nome,
+          String(a.id) + ' - ' + String(a.nome || '')
+        );
+      }
+    });
+
+    avulsosPuros.push(a);
+  });
+
+  // 4) Montar lista unificada de santos (fusão + inferências)
+  var santosComNascimento = [];
+  var semNascimentoFinal = [];
+
+  function resolverFestaDoGrafo(g, dataMorteAvulso, registrarEventos) {
+    var candidatas = g.festasCandidatas || [];
+    if (candidatas.length === 0) return '';
+    var rotuloRel = g.idGrafo + ' - ' + g.nome;
+
+    if (candidatas.length === 1) {
+      var unica = candidatas[0];
+      if (registrarEventos && !unica.ehPadrao) {
+        registrarOcorrencia('festa texto fora do padrão', rotuloRel, 'diaFesta', unica.textoOriginal, unica.textoFormatado);
+      }
+      return unica.textoFormatado;
+    }
+
+    var escolhida = null;
+    var motivo = '';
+    var dmMorte = dataMorteAvulso ? extrairDiaMesDeTexto(dataMorteAvulso) : null;
+
+    if (dmMorte) {
+      escolhida = candidatas.find(function(c) {
+        return c.dia === dmMorte.dia && c.mesNum === dmMorte.mesNum;
+      }) || null;
+      if (escolhida) motivo = 'coincide com data_morte';
+    }
+
+    if (!escolhida) {
+      var ordenadas = candidatas.slice().sort(function(a, b) {
+        if (a.ehPadrao !== b.ehPadrao) return a.ehPadrao ? -1 : 1;
+        return 0;
+      });
+      escolhida = ordenadas[0];
+      motivo = 'empate/mais completo';
+    }
+
+    if (registrarEventos) {
+      var descartadas = candidatas
+        .filter(function(c) { return c !== escolhida; })
+        .map(function(c) { return c.textoFormatado + ' (' + c.textoOriginal + ')'; })
+        .join(', ');
+      registrarOcorrencia('escolha entre duas festas', rotuloRel, 'diaFesta', descartadas, escolhida.textoFormatado + ' [' + motivo + ']');
+    }
+    return escolhida.textoFormatado;
+  }
+
+  function consolidarSanto(g, a) {
+    var rotuloRel = g ? (g.idGrafo + ' - ' + g.nome) : (String(a.id) + ' - ' + String(a.nome || ''));
+
+    var avNome = a && a.nome ? String(a.nome).trim() : '';
+    var avAtrib = a && a.atributo_liturgico ? String(a.atributo_liturgico).trim() : '';
+    var avFesta = a && a.dia_festa_liturgica ? String(a.dia_festa_liturgica).trim() : '';
+    var avCidade = a && a.cidade_nascimento ? String(a.cidade_nascimento).trim() : '';
+    var avPais = a && a.pais_nascimento ? String(a.pais_nascimento).trim() : '';
+    var avIso = a && a.iso ? String(a.iso).trim().toUpperCase() : '';
+    var avMorte = a && a.data_morte ? String(a.data_morte).trim() : '';
+    var avTemCoord = a && ehNumeroCoordValido(a.lat) && ehNumeroCoordValido(a.lng);
+
+    var nomeFinal = avNome || (g ? g.nome : '');
+    var attribFinal = avAtrib || (g ? g.atributoLiturgico : '');
+    var festaGrafo = g ? resolverFestaDoGrafo(g, avMorte, !avFesta) : '';
+    var festaFinal = avFesta || festaGrafo;
+
+    var cidadeFinal = avCidade || (g ? g.cidade : '');
+    var isoFinal = avIso || (g ? g.iso : '');
+    if (isoFinal && !mapaPaisesCfg[isoFinal]) isosSemTabela.add(isoFinal);
+
+    var paisFinal = avPais || (g ? g.pais : '');
+    if (!paisFinal && isoFinal && mapaPaisesCfg[isoFinal]) {
+      paisFinal = mapaPaisesCfg[isoFinal].nome;
+    }
+
+    // Santo sem local/país de nascimento não entra no mapa e vai para lista de sem nascimento
+    if (!cidadeFinal && !isoFinal && !paisFinal) {
+      semNascimentoFinal.push(rotuloRel);
+      return;
+    }
+
+    var morteFinal = '';
+    if (avMorte) {
+      morteFinal = avMorte;
+    } else if (g && g.anoMortePositivo !== null) {
+      var dmFesta = festaFinal ? extrairDiaMesDeTexto(festaFinal) : null;
+      if (dmFesta) {
+        morteFinal = festaFinal + ' de ' + g.anoMortePositivo;
+        registrarOcorrencia('dado inferido', rotuloRel, 'dataMorte', String(g.anoMortePositivo), morteFinal);
+      } else {
+        morteFinal = String(g.anoMortePositivo);
+      }
+    } else if (g && g.anoInvalidoTexto) {
+      registrarOcorrencia('ano inválido para inferência', rotuloRel, 'dataMorte', g.anoInvalidoTexto, '-');
+    }
+
+    if (!festaFinal && morteFinal) {
+      var dmDeMorte = extrairDiaMesDeTexto(morteFinal);
+      if (dmDeMorte) {
+        festaFinal = dmDeMorte.diaMesStr;
+        registrarOcorrencia('dado inferido', rotuloRel, 'diaFesta', '-', festaFinal);
+      }
+    }
+
+    if (g && a) {
+      var comparacoes = [
+        ['nome', g.nome, avNome],
+        ['atributoLiturgico', g.atributoLiturgico, avAtrib],
+        ['diaFesta', festaGrafo, avFesta],
+        ['cidade', g.cidade, avCidade],
+        ['pais', g.pais, avPais],
+        ['iso', g.iso, avIso],
+        ['dataMorte', g.anoMortePositivo !== null ? String(g.anoMortePositivo) : g.anoInvalidoTexto, avMorte]
+      ];
+      comparacoes.forEach(function(par) {
+        var campo = par[0], valG = par[1], valA = par[2];
+        if (valG && valA && valG !== valA) {
+          registrarOcorrencia('substituição de campo', rotuloRel, campo, valG, valA);
+        }
+      });
+    }
+
+    var latFinal = avTemCoord ? Number(a.lat) : (g ? g.lat : null);
+    var lngFinal = avTemCoord ? Number(a.lng) : (g ? g.lng : null);
+
+    santosComNascimento.push({
+      id: g ? g.idGrafo : String(a.id),
+      nome: nomeFinal,
+      atributoLiturgico: attribFinal,
+      diaFesta: festaFinal,
+      cidade: cidadeFinal,
+      pais: paisFinal,
+      iso: isoFinal,
+      dataMorte: morteFinal,
+      idGrafo: g ? g.idGrafo : null,
+      temGrafo: !!g,
+      _lat: latFinal,
+      _lng: lngFinal,
+      _temCoordAvulso: avTemCoord,
+      _localIdGrafo: g ? g.localIdGrafo : null,
+      _rotuloRel: rotuloRel
+    });
+  }
+
+  santosGrafo.forEach(function(g) {
+    consolidarSanto(g, avulsoPorIdGrafo[g.idGrafo] || null);
+  });
+  avulsosPuros.forEach(function(a) {
+    consolidarSanto(null, a);
+  });
+
+  // 5) Unificar bolhas de cidades (nome limpo normalizado + ISO; coordenadas do avulso prevalecem)
+  var cidadesMapa = {};
+
+  santosComNascimento.forEach(function(s) {
+    if (!s.cidade) {
+      s.cidadeId = null;
+      return;
+    }
+    var chaveCid = normalizarSemAcentoMaiuscula(s.cidade) + '|' + s.iso;
+    if (!cidadesMapa[chaveCid]) {
+      var idCidPadrao = s._localIdGrafo || idLocalGrafoPorCidadeIso[chaveCid] ||
+        ('cid_' + normalizarSemAcentoMaiuscula(s.cidade).replace(/[^A-Z0-9]+/g, '_').toLowerCase() + (s.iso ? '_' + s.iso : ''));
+      cidadesMapa[chaveCid] = {
+        id: idCidPadrao,
+        nome: s.cidade,
+        pais: s.pais,
+        iso: s.iso,
+        lat: null,
+        lng: null,
+        latAvulso: null,
+        lngAvulso: null,
+        latGrafo: null,
+        lngGrafo: null,
+        santos: []
+      };
+    }
+    var cid = cidadesMapa[chaveCid];
+    if (!cid.pais && s.pais) cid.pais = s.pais;
+
+    if (s._temCoordAvulso) {
+      if (cid.latAvulso === null) {
+        cid.latAvulso = s._lat;
+        cid.lngAvulso = s._lng;
+      } else if (cid.latAvulso !== s._lat || cid.lngAvulso !== s._lng) {
+        registrarOcorrencia(
+          'coordenada divergente',
+          s._rotuloRel,
+          'lat/lng',
+          cid.latAvulso + ',' + cid.lngAvulso,
+          s._lat + ',' + s._lng + ' (mantida primeira do avulso)'
+        );
+      }
+    } else if (ehNumeroCoordValido(s._lat) && ehNumeroCoordValido(s._lng)) {
+      if (cid.latGrafo === null) {
+        cid.latGrafo = s._lat;
+        cid.lngGrafo = s._lng;
+      }
+    }
+    cid.santos.push(s);
+  });
+
   var cidadesSaida = [];
-  Object.keys(contagemCidades).forEach(function(idLoc) {
-    var setSantos = contagemCidades[idLoc];
-    if (setSantos.size === 0) return;
-    var localNo = nosPorId[idLoc];
-    if (localNo[campoLat] === undefined || localNo[campoLng] === undefined) return;
-    var nomePais = localNo[campoPais] || '';
-    var listaSantosCidade = Array.from(setSantos).map(function(idSanto) {
-      var noSanto = nosPorId[idSanto];
-      return { id: idSanto, nome: noSanto ? noSanto.label : idSanto };
-    }).sort(function(a, b) {
-      return String(a.nome).localeCompare(String(b.nome));
+  Object.keys(cidadesMapa).forEach(function(chaveCid) {
+    var cid = cidadesMapa[chaveCid];
+    if (cid.santos.length === 0) return;
+
+    if (cid.latAvulso === null && cid.latGrafo === null && coordGrafoPorCidadeIso[chaveCid]) {
+      cid.latGrafo = coordGrafoPorCidadeIso[chaveCid].lat;
+      cid.lngGrafo = coordGrafoPorCidadeIso[chaveCid].lng;
+    }
+
+    if (cid.latAvulso !== null && cid.latGrafo !== null &&
+        (cid.latAvulso !== cid.latGrafo || cid.lngAvulso !== cid.lngGrafo)) {
+      registrarOcorrencia(
+        'coordenada divergente do grafo',
+        cid.nome + ' (' + cid.iso + ')',
+        'lat/lng',
+        cid.latGrafo + ',' + cid.lngGrafo,
+        cid.latAvulso + ',' + cid.lngAvulso
+      );
+    }
+
+    var latFinalCid = (cid.latAvulso !== null) ? cid.latAvulso : cid.latGrafo;
+    var lngFinalCid = (cid.lngAvulso !== null) ? cid.lngAvulso : cid.lngGrafo;
+
+    if (!ehNumeroCoordValido(latFinalCid) || !ehNumeroCoordValido(lngFinalCid)) {
+      cid.santos.forEach(function(s) {
+        s.cidadeId = null;
+        registrarOcorrencia('cidade sem coordenada', s._rotuloRel, 'cidade', cid.nome + ' (' + cid.iso + ')', '(sem bolha de cidade)');
+      });
+      console.warn('  [MAPA AVISO] Cidade sem coordenadas (avulso/grafo): ' + cid.nome + ' (' + cid.iso + ')');
+      return;
+    }
+
+    var qtdGrafoCid = 0;
+    cid.santos.forEach(function(s) {
+      s.cidadeId = cid.id;
+      if (s.temGrafo) qtdGrafoCid++;
     });
+
     cidadesSaida.push({
-      id: idLoc,
-      nome: limparNomeCidadeMapa(localNo.label, nomePais),
-      pais: nomePais,
-      iso: localNo[campoIso] || '',
-      lat: localNo[campoLat],
-      lng: localNo[campoLng],
-      qtd: setSantos.size,
-      santos: listaSantosCidade
+      id: cid.id,
+      nome: cid.nome,
+      pais: cid.pais,
+      iso: cid.iso,
+      lat: latFinalCid,
+      lng: lngFinalCid,
+      qtd: cid.santos.length,
+      qtdGrafo: qtdGrafoCid
     });
+  });
+
+  // 6) Contagem de países
+  var contagemPaises = {};
+  santosComNascimento.forEach(function(s) {
+    if (!s.iso || !mapaPaisesCfg[s.iso]) return;
+    if (!contagemPaises[s.iso]) contagemPaises[s.iso] = { qtd: 0, qtdGrafo: 0 };
+    contagemPaises[s.iso].qtd++;
+    if (s.temGrafo) contagemPaises[s.iso].qtdGrafo++;
   });
 
   var paisesSaida = [];
   var somaPaises = 0;
   Object.keys(contagemPaises).forEach(function(iso) {
-    var setSantos = contagemPaises[iso];
-    if (setSantos.size === 0) return;
+    var info = contagemPaises[iso];
+    if (info.qtd === 0) return;
     var cfgPais = mapaPaisesCfg[iso];
-    if (!cfgPais) return;
-    somaPaises += setSantos.size;
+    somaPaises += info.qtd;
     paisesSaida.push({
       iso: iso,
       nome: cfgPais.nome,
       lat: cfgPais.lat,
       lng: cfgPais.lng,
-      qtd: setSantos.size
+      qtd: info.qtd,
+      qtdGrafo: info.qtdGrafo
     });
   });
 
-  console.log('  [MAPA "' + nomeGrafo + '"] Santos contados: ' + santosContados.size + ' | Soma dos países: ' + somaPaises + ' | Excluídos: ' + qtdExcluidosAplicados);
-  if (semNascimento.length > 0) console.warn('  [MAPA AVISO] Santos sem nascimento (' + semNascimento.length + '): ' + semNascimento.join(', '));
+  var santosSaida = santosComNascimento.map(function(s) {
+    return {
+      id: s.id,
+      nome: s.nome,
+      atributoLiturgico: s.atributoLiturgico,
+      diaFesta: s.diaFesta,
+      cidade: s.cidade,
+      pais: s.pais,
+      iso: s.iso,
+      dataMorte: s.dataMorte,
+      cidadeId: s.cidadeId || null,
+      idGrafo: s.idGrafo,
+      temGrafo: s.temGrafo
+    };
+  });
+
+  // 7) Gravar relatório acumulativo (se configurado em regras.mapa)
+  var qtdNovasRelatorio = 0;
+  if (cfg.arquivoRelatorio && pastaAtual) {
+    var caminhoRel = path.join(pastaAtual, cfg.arquivoRelatorio);
+    qtdNovasRelatorio = gravarRelatorioAcumulativo(caminhoRel, ocorrenciasRelatorio);
+  }
+
+  console.log(
+    '  [MAPA "' + nomeGrafo + '"] Santos contados (com nascimento): ' + santosSaida.length +
+    ' | Sem nascimento: ' + semNascimentoFinal.length +
+    ' | Soma dos países: ' + somaPaises +
+    ' | Excluídos: ' + qtdExcluidosAplicados +
+    ' | Avulsos lidos: ' + avulsosValidos.length +
+    ' (substituídos: ' + qtdAvulsosSubstituidos + ', novos: ' + avulsosPuros.length + ')' +
+    ' | Relatório: ' + ocorrenciasRelatorio.length + ' ocorrências (' + qtdNovasRelatorio + ' novas)'
+  );
+  if (semNascimentoFinal.length > 0) console.warn('  [MAPA AVISO] Santos sem nascimento (' + semNascimentoFinal.length + '): ' + semNascimentoFinal.join(', '));
   if (comConflito.length > 0) console.warn('  [MAPA AVISO] Santos com localNasc e paisNasc simultâneos (usado localNasc): ' + comConflito.join(', '));
   if (locaisInexistentes.size > 0) console.warn('  [MAPA AVISO] localNasc inexistente: ' + Array.from(locaisInexistentes).join(', '));
   if (locaisSemCoord.size > 0) console.warn('  [MAPA AVISO] Locais sem lat/lng: ' + Array.from(locaisSemCoord).join(', '));
   if (isosSemTabela.size > 0) console.warn('  [MAPA AVISO] ISOs sem entrada em regras.mapa.paises: ' + Array.from(isosSemTabela).join(', '));
+  if (ocorrenciasRelatorio.length > 0) {
+    console.log('  [MAPA RELATÓRIO] ' + ocorrenciasRelatorio.map(function(o) {
+      return o.tipo + ': ' + o.santo + ' (' + o.campo + ')';
+    }).join(' | '));
+  }
 
   return {
+    santos: santosSaida,
     cidades: cidadesSaida,
     paises: paisesSaida
   };
@@ -634,7 +1294,7 @@ function main() {
 
       if (regrasCarregadas && regrasCarregadas.mapa) {
         var arquivoSaidaMapa = path.join(pastaAtual, 'dados-mapa.json');
-        var dadosMapa = gerarDadosDoMapa(dados.todosNos, regrasCarregadas, nomeGrafo);
+        var dadosMapa = gerarDadosDoMapa(dados.todosNos, dados.todosSetas, regrasCarregadas, nomeGrafo, pastaAtual);
         fs.writeFileSync(arquivoSaidaMapa, JSON.stringify(dadosMapa, null, 2), 'utf8');
       }
 
