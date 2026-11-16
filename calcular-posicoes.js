@@ -1,3 +1,4 @@
+
 // ============================================================
 // CALCULADOR DE POSIÇÕES — calcular-posicoes.js
 // ============================================================
@@ -637,6 +638,8 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
   var campoLat = campos.lat || 'lat';
   var campoLng = campos.lng || 'lng';
   var campoAno = campos.ano || 'ano';
+  var campoDataMorte = campos.dataMorte || 'dataMorte';
+  var campoIgnorarMapa = campos.ignorarMapa || 'ignorarMapa';
   var campoMesNumero = campos.mesNumero ||
     (regrasCarregadas.dicionario && regrasCarregadas.dicionario.mesReferencia) ||
     'mesNumero';
@@ -685,7 +688,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
   (todosNos || []).forEach(function(n) {
     if (!niveisSet.has(n.level)) return;
     var idStr = String(n.id);
-    if (excluidosSet.has(idStr)) {
+    if (excluidosSet.has(idStr) || n[campoIgnorarMapa] === true) {
       qtdExcluidosAplicados++;
       return;
     }
@@ -699,6 +702,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
     var arestasParaSanto = setasPorTo[idStr] || [];
 
     arestasParaSanto.forEach(function(s) {
+      if (s[campoIgnorarMapa] === true) return;
       var noOrigem = nosPorId[String(s.from)];
       if (!noOrigem) return;
 
@@ -764,6 +768,10 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
       }
     }
 
+    var dataMorteGrafo = (n[campoDataMorte] !== undefined && n[campoDataMorte] !== null)
+      ? String(n[campoDataMorte]).trim()
+      : '';
+
     var localId = n[campoLocalNasc];
     var paisIsoDireto = n[campoPaisNasc];
     var cidadeGrafo = '';
@@ -805,6 +813,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
       festasCandidatas: festasCandidatas,
       anoMortePositivo: anoMortePositivo,
       anoInvalidoTexto: anoInvalidoTexto,
+      dataMorteGrafo: dataMorteGrafo,
       cidade: cidadeGrafo,
       pais: paisGrafo,
       iso: isoGrafo,
@@ -982,7 +991,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
 
     var nomeFinal = avNome || (g ? g.nome : '');
     var attribFinal = avAtrib || (g ? g.atributoLiturgico : '');
-    var festaGrafo = g ? resolverFestaDoGrafo(g, avMorte, !avFesta) : '';
+    var festaGrafo = g ? resolverFestaDoGrafo(g, avMorte || g.dataMorteGrafo, !avFesta) : '';
     var festaFinal = avFesta || festaGrafo;
 
     var cidadeFinal = avCidade || (g ? g.cidade : '');
@@ -1003,6 +1012,8 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
     var morteFinal = '';
     if (avMorte) {
       morteFinal = avMorte;
+    } else if (g && g.dataMorteGrafo) {
+      morteFinal = g.dataMorteGrafo;
     } else if (g && g.anoMortePositivo !== null) {
       var dmFesta = festaFinal ? extrairDiaMesDeTexto(festaFinal) : null;
       if (dmFesta) {
@@ -1031,7 +1042,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
         ['cidade', g.cidade, avCidade],
         ['pais', g.pais, avPais],
         ['iso', g.iso, avIso],
-        ['dataMorte', g.anoMortePositivo !== null ? String(g.anoMortePositivo) : g.anoInvalidoTexto, avMorte]
+        ['dataMorte', (g.dataMorteGrafo || (g.anoMortePositivo !== null ? String(g.anoMortePositivo) : g.anoInvalidoTexto)), avMorte]
       ];
       comparacoes.forEach(function(par) {
         var campo = par[0], valG = par[1], valA = par[2];
