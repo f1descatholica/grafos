@@ -253,6 +253,7 @@
       "grupo": "pessoa",
       "ano": 30,
       "localNasc": "130",
+      "dataMorte": "cerca de 30",
       "x": 40,
       "y": 337.5
     },
@@ -263,6 +264,7 @@
       "grupo": "pessoa",
       "ano": 29,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 29",
       "x": -264,
       "y": 412.5
     },
@@ -273,6 +275,7 @@
       "grupo": "pessoa",
       "ano": 67,
       "localNasc": "814",
+      "dataMorte": "cerca de 67",
       "x": -1015,
       "y": 487.5
     },
@@ -283,6 +286,7 @@
       "grupo": "pessoa",
       "ano": 67,
       "localNasc": "813",
+      "dataMorte": "cerca de 67",
       "x": -753,
       "y": 562.5
     },
@@ -293,6 +297,7 @@
       "grupo": "pessoa",
       "ano": 100,
       "localNasc": "814",
+      "dataMorte": "cerca de 100",
       "x": -250,
       "y": 712.5
     },
@@ -303,6 +308,7 @@
       "grupo": "pessoa",
       "ano": 80,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 80",
       "x": 1078,
       "y": 562.5
     },
@@ -313,6 +319,7 @@
       "grupo": "pessoa",
       "ano": 60,
       "localNasc": "814",
+      "dataMorte": "cerca de 60",
       "x": 2861,
       "y": 412.5
     },
@@ -323,6 +330,7 @@
       "grupo": "pessoa",
       "ano": 44,
       "localNasc": "814",
+      "dataMorte": "cerca de 44",
       "x": 1781,
       "y": 337.5
     },
@@ -333,6 +341,7 @@
       "grupo": "pessoa",
       "ano": 80,
       "localNasc": "814",
+      "dataMorte": "cerca de 80",
       "x": 1354,
       "y": 487.5
     },
@@ -343,6 +352,7 @@
       "grupo": "pessoa",
       "ano": 71,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 71",
       "x": 250,
       "y": 487.5
     },
@@ -353,6 +363,7 @@
       "grupo": "pessoa",
       "ano": 72,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 72",
       "x": 540,
       "y": 562.5
     },
@@ -363,6 +374,7 @@
       "grupo": "pessoa",
       "ano": 74,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 74",
       "x": 802,
       "y": 487.5
     },
@@ -373,6 +385,7 @@
       "grupo": "pessoa",
       "ano": 62,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 62",
       "x": -1997,
       "y": 562.5
     },
@@ -383,6 +396,7 @@
       "grupo": "pessoa",
       "ano": 70,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 70",
       "x": -47,
       "y": 562.5
     },
@@ -393,6 +407,7 @@
       "grupo": "pessoa",
       "ano": 65,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 65",
       "x": -1277,
       "y": 562.5
     },
@@ -403,6 +418,7 @@
       "grupo": "pessoa",
       "ano": 61,
       "paisNasc": "CY",
+      "dataMorte": "cerca de 61",
       "x": -2315,
       "y": 487.5
     },
@@ -413,6 +429,7 @@
       "grupo": "pessoa",
       "ano": 63,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 63",
       "x": -1616,
       "y": 487.5
     },
@@ -423,6 +440,7 @@
       "grupo": "pessoa",
       "ano": 10,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 10",
       "x": -865,
       "y": 412.5
     },
@@ -433,6 +451,7 @@
       "grupo": "pessoa",
       "ano": 80,
       "localNasc": "309",
+      "dataMorte": "cerca de 80",
       "x": 1637,
       "y": 562.5
     },
@@ -443,6 +462,7 @@
       "grupo": "pessoa",
       "ano": 97,
       "paisNasc": "TR",
+      "dataMorte": "cerca de 97",
       "x": -519,
       "y": 637.5
     },
@@ -453,6 +473,7 @@
       "grupo": "pessoa",
       "ano": 96,
       "paisNasc": "GR",
+      "dataMorte": "cerca de 96",
       "x": 2336,
       "y": 562.5
     },
@@ -462,6 +483,7 @@
       "label": "N. Sra. de Lourdes",
       "grupo": "pessoa",
       "ano": 1858,
+      "ignorarMapa": true,
       "x": 463,
       "y": 712.5
     },
@@ -471,6 +493,7 @@
       "label": "S. Gabriel Arcanjo",
       "grupo": "pessoa",
       "ano": 1,
+      "ignorarMapa": true,
       "x": -2791,
       "y": 337.5
     },
@@ -480,6 +503,7 @@
       "label": "N. Sra. da Anunciação",
       "grupo": "pessoa",
       "ano": 1,
+      "ignorarMapa": true,
       "x": -2368,
       "y": 412.5
     },
@@ -489,6 +513,7 @@
       "label": "N. Sra. das Sete Dores",
       "grupo": "pessoa",
       "ano": 33,
+      "ignorarMapa": true,
       "x": 879,
       "y": 337.5
     },
@@ -499,6 +524,7 @@
       "grupo": "pessoa",
       "ano": 68,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 68",
       "x": -400,
       "y": 487.5
     },
@@ -508,6 +534,7 @@
       "label": "S. Miguel Arcanjo",
       "grupo": "pessoa",
       "ano": 1,
+      "ignorarMapa": true,
       "x": -1952,
       "y": 337.5
     },
@@ -518,6 +545,7 @@
       "grupo": "pessoa",
       "ano": 36,
       "localNasc": "133",
+      "dataMorte": "cerca de 36",
       "x": 1358,
       "y": 412.5
     },
@@ -527,6 +555,7 @@
       "label": "N. Sra. das Neves",
       "grupo": "pessoa",
       "ano": 352,
+      "ignorarMapa": true,
       "x": 68,
       "y": 637.5
     },
@@ -536,6 +565,7 @@
       "label": "Transfiguração do Senhor",
       "grupo": "pessoa",
       "ano": 32,
+      "ignorarMapa": true,
       "x": 407,
       "y": 412.5
     },
@@ -545,6 +575,7 @@
       "label": "Assunção de Maria",
       "grupo": "pessoa",
       "ano": 48,
+      "ignorarMapa": true,
       "x": 2148,
       "y": 412.5
     },
@@ -555,6 +586,7 @@
       "grupo": "pessoa",
       "ano": 10,
       "localNasc": "130",
+      "dataMorte": "cerca de 10",
       "x": -589,
       "y": 337.5
     },
@@ -564,6 +596,7 @@
       "label": "Imaculado Coração",
       "grupo": "pessoa",
       "ano": 48,
+      "ignorarMapa": true,
       "x": 2536,
       "y": 337.5
     },
@@ -574,6 +607,7 @@
       "grupo": "pessoa",
       "ano": 84,
       "localNasc": "138",
+      "dataMorte": "cerca de 84",
       "x": 1997,
       "y": 487.5
     },
@@ -583,6 +617,7 @@
       "label": "S. Rafael Arcanjo",
       "grupo": "pessoa",
       "ano": 1,
+      "ignorarMapa": true,
       "x": -1564,
       "y": 412.5
     },
@@ -593,6 +628,7 @@
       "grupo": "pessoa",
       "ano": 4,
       "localNasc": "815",
+      "dataMorte": "cerca de 4 a.C.",
       "x": -1183,
       "y": 337.5
     },
@@ -603,6 +639,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "26",
+      "dataMorte": "cerca de 304",
       "x": 2438,
       "y": 1237.5
     },
@@ -613,6 +650,7 @@
       "grupo": "pessoa",
       "ano": 288,
       "paisNasc": "FR",
+      "dataMorte": "cerca de 288",
       "x": -659,
       "y": 1237.5
     },
@@ -623,6 +661,7 @@
       "grupo": "pessoa",
       "ano": 303,
       "paisNasc": "TR",
+      "dataMorte": "cerca de 303",
       "x": 739,
       "y": 1237.5
     },
@@ -633,6 +672,7 @@
       "grupo": "pessoa",
       "ano": 341,
       "paisNasc": "EG",
+      "dataMorte": "cerca de 341",
       "x": -1246,
       "y": 1537.5
     },
@@ -643,6 +683,7 @@
       "grupo": "pessoa",
       "ano": 356,
       "paisNasc": "EG",
+      "dataMorte": "17 de janeiro de 356",
       "x": -638,
       "y": 1537.5
     },
@@ -653,6 +694,7 @@
       "grupo": "pessoa",
       "ano": 387,
       "localNasc": "811",
+      "dataMorte": "cerca de 387",
       "x": -1620,
       "y": 1762.5
     },
@@ -663,6 +705,7 @@
       "grupo": "pessoa",
       "ano": 430,
       "localNasc": "811",
+      "dataMorte": "28 de agosto de 430",
       "x": 1211,
       "y": 1762.5
     },
@@ -673,6 +716,7 @@
       "grupo": "pessoa",
       "ano": 107,
       "paisNasc": "SY",
+      "dataMorte": "cerca de 107",
       "x": 568,
       "y": 862.5
     },
@@ -683,6 +727,7 @@
       "grupo": "pessoa",
       "ano": 316,
       "localNasc": "139",
+      "dataMorte": "cerca de 316",
       "x": -2291,
       "y": 1612.5
     },
@@ -693,6 +738,7 @@
       "grupo": "pessoa",
       "ano": 251,
       "localNasc": "140",
+      "dataMorte": "cerca de 251",
       "x": -1194,
       "y": 1162.5
     },
@@ -703,6 +749,7 @@
       "grupo": "pessoa",
       "ano": 269,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 269",
       "x": 2228,
       "y": 1087.5
     },
@@ -713,6 +760,7 @@
       "grupo": "pessoa",
       "ano": 257,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 257",
       "x": -121,
       "y": 1087.5
     },
@@ -723,6 +771,7 @@
       "grupo": "pessoa",
       "ano": 154,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 154",
       "x": 2256,
       "y": 787.5
     },
@@ -733,6 +782,7 @@
       "grupo": "pessoa",
       "ano": 92,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 92",
       "x": -977,
       "y": 862.5
     },
@@ -743,6 +793,7 @@
       "grupo": "pessoa",
       "ano": 412,
       "localNasc": "26",
+      "dataMorte": "cerca de 412",
       "x": 596,
       "y": 1762.5
     },
@@ -753,6 +804,7 @@
       "grupo": "pessoa",
       "ano": 165,
       "localNasc": "26",
+      "dataMorte": "cerca de 165",
       "x": -1592,
       "y": 1012.5
     },
@@ -763,6 +815,7 @@
       "grupo": "pessoa",
       "ano": 79,
       "localNasc": "138",
+      "dataMorte": "cerca de 79",
       "x": -1655,
       "y": 862.5
     },
@@ -773,6 +826,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "307",
+      "dataMorte": "cerca de 304",
       "x": -1536,
       "y": 1462.5
     },
@@ -783,6 +837,7 @@
       "grupo": "pessoa",
       "ano": 305,
       "localNasc": "308",
+      "dataMorte": "cerca de 305",
       "x": 463,
       "y": 1462.5
     },
@@ -793,6 +848,7 @@
       "grupo": "pessoa",
       "ano": 68,
       "localNasc": "300",
+      "dataMorte": "cerca de 68",
       "x": -2263,
       "y": 862.5
     },
@@ -803,6 +859,7 @@
       "grupo": "pessoa",
       "ano": 250,
       "paisNasc": "IR",
+      "dataMorte": "cerca de 250",
       "x": -1837,
       "y": 1162.5
     },
@@ -813,6 +870,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 304",
       "x": -1952,
       "y": 1387.5
     },
@@ -823,6 +881,7 @@
       "grupo": "pessoa",
       "ano": 297,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 297",
       "x": 414,
       "y": 1312.5
     },
@@ -833,6 +892,7 @@
       "grupo": "pessoa",
       "ano": 379,
       "paisNasc": "TR",
+      "dataMorte": "1 de janeiro de 379",
       "x": 2560,
       "y": 1612.5
     },
@@ -843,6 +903,7 @@
       "grupo": "pessoa",
       "ano": 303,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 303",
       "x": 1127,
       "y": 1312.5
     },
@@ -853,6 +914,7 @@
       "grupo": "pessoa",
       "ano": 373,
       "paisNasc": "TR",
+      "dataMorte": "9 de junho de 373",
       "x": 2228,
       "y": 1537.5
     },
@@ -863,6 +925,7 @@
       "grupo": "pessoa",
       "ano": 165,
       "localNasc": "300",
+      "dataMorte": "cerca de 165",
       "x": -1966,
       "y": 937.5
     },
@@ -873,6 +936,7 @@
       "grupo": "pessoa",
       "ano": 431,
       "paisNasc": "FR",
+      "dataMorte": "22 de junho de 431",
       "x": 1571,
       "y": 1687.5
     },
@@ -883,6 +947,7 @@
       "grupo": "pessoa",
       "ano": 362,
       "localNasc": "26",
+      "dataMorte": "cerca de 362",
       "x": 54,
       "y": 1537.5
     },
@@ -893,6 +958,7 @@
       "grupo": "pessoa",
       "ano": 202,
       "localNasc": "505",
+      "dataMorte": "cerca de 202",
       "x": -306,
       "y": 1012.5
     },
@@ -903,6 +969,7 @@
       "grupo": "pessoa",
       "ano": 142,
       "paisNasc": "GR",
+      "dataMorte": "cerca de 142",
       "x": 1987,
       "y": 862.5
     },
@@ -913,6 +980,7 @@
       "grupo": "pessoa",
       "ano": 367,
       "localNasc": "500",
+      "dataMorte": "cerca de 367",
       "x": 760,
       "y": 1537.5
     },
@@ -923,6 +991,7 @@
       "grupo": "pessoa",
       "ano": 256,
       "localNasc": "318",
+      "dataMorte": "cerca de 256",
       "x": -565,
       "y": 1162.5
     },
@@ -933,6 +1002,7 @@
       "grupo": "pessoa",
       "ano": 309,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 309",
       "x": 2015,
       "y": 1462.5
     },
@@ -943,6 +1013,7 @@
       "grupo": "pessoa",
       "ano": 269,
       "localNasc": "26",
+      "dataMorte": "cerca de 269",
       "x": 1924,
       "y": 1162.5
     },
@@ -953,6 +1024,7 @@
       "grupo": "pessoa",
       "ano": 270,
       "paisNasc": "IR",
+      "dataMorte": "cerca de 270",
       "x": 2658,
       "y": 1162.5
     },
@@ -963,6 +1035,7 @@
       "grupo": "pessoa",
       "ano": 250,
       "paisNasc": "IT",
+      "dataMorte": "20 de janeiro de 250",
       "x": -2459,
       "y": 1162.5
     },
@@ -973,6 +1046,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "503",
+      "dataMorte": "cerca de 304",
       "x": 2784,
       "y": 1312.5
     },
@@ -983,6 +1057,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "26",
+      "dataMorte": "cerca de 304",
       "x": -2777,
       "y": 1387.5
     },
@@ -993,6 +1068,7 @@
       "grupo": "pessoa",
       "ano": 155,
       "localNasc": "505",
+      "dataMorte": "cerca de 155",
       "x": 2546,
       "y": 862.5
     },
@@ -1003,6 +1079,7 @@
       "grupo": "pessoa",
       "ano": 407,
       "localNasc": "138",
+      "dataMorte": "14 de setembro de 407",
       "x": 243,
       "y": 1687.5
     },
@@ -1013,6 +1090,7 @@
       "grupo": "pessoa",
       "ano": 228,
       "localNasc": "26",
+      "dataMorte": "cerca de 228",
       "x": 1078,
       "y": 1012.5
     },
@@ -1023,6 +1101,7 @@
       "grupo": "pessoa",
       "ano": 311,
       "paisNasc": "TR",
+      "dataMorte": "cerca de 311",
       "x": 2340,
       "y": 1387.5
     },
@@ -1033,6 +1112,7 @@
       "grupo": "pessoa",
       "ano": 444,
       "localNasc": "510",
+      "dataMorte": "27 de junho de 444",
       "x": 2008,
       "y": 1762.5
     },
@@ -1043,6 +1123,7 @@
       "grupo": "pessoa",
       "ano": 249,
       "localNasc": "510",
+      "dataMorte": "cerca de 249",
       "x": -2770,
       "y": 1087.5
     },
@@ -1053,6 +1134,7 @@
       "grupo": "pessoa",
       "ano": 120,
       "localNasc": "512",
+      "dataMorte": "cerca de 120",
       "x": 1655,
       "y": 787.5
     },
@@ -1063,6 +1145,7 @@
       "grupo": "pessoa",
       "ano": 107,
       "paisNasc": "IL",
+      "dataMorte": "cerca de 107",
       "x": 935,
       "y": 787.5
     },
@@ -1073,6 +1156,7 @@
       "grupo": "pessoa",
       "ano": 254,
       "localNasc": "26",
+      "dataMorte": "5 de março de 254",
       "x": -897,
       "y": 1087.5
     },
@@ -1083,6 +1167,7 @@
       "grupo": "pessoa",
       "ano": 203,
       "localNasc": "516",
+      "dataMorte": "7 de março de 203",
       "x": 68,
       "y": 937.5
     },
@@ -1093,6 +1178,7 @@
       "grupo": "pessoa",
       "ano": 320,
       "localNasc": "139",
+      "dataMorte": "cerca de 320",
       "x": -1973,
       "y": 1537.5
     },
@@ -1103,6 +1189,7 @@
       "grupo": "pessoa",
       "ano": 461,
       "paisNasc": "GB",
+      "dataMorte": "cerca de 461",
       "x": 2798,
       "y": 1762.5
     },
@@ -1113,6 +1200,7 @@
       "grupo": "pessoa",
       "ano": 386,
       "localNasc": "133",
+      "dataMorte": "18 de março de 386",
       "x": -2001,
       "y": 1687.5
     },
@@ -1123,6 +1211,7 @@
       "grupo": "pessoa",
       "ano": 461,
       "paisNasc": "IT",
+      "dataMorte": "10 de novembro de 461",
       "x": 0,
       "y": 1837.5
     },
@@ -1133,6 +1222,7 @@
       "grupo": "pessoa",
       "ano": 165,
       "paisNasc": "PS",
+      "dataMorte": "cerca de 165",
       "x": -2319,
       "y": 1012.5
     },
@@ -1143,6 +1233,7 @@
       "grupo": "pessoa",
       "ano": 229,
       "localNasc": "26",
+      "dataMorte": "cerca de 229",
       "x": 1515,
       "y": 937.5
     },
@@ -1153,6 +1244,7 @@
       "grupo": "pessoa",
       "ano": 168,
       "paisNasc": "SY",
+      "dataMorte": "cerca de 168",
       "x": -921,
       "y": 1012.5
     },
@@ -1163,6 +1255,7 @@
       "grupo": "pessoa",
       "ano": 296,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 296",
       "x": 54,
       "y": 1237.5
     },
@@ -1173,6 +1266,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 304",
       "x": -2396,
       "y": 1462.5
     },
@@ -1183,6 +1277,7 @@
       "grupo": "pessoa",
       "ano": 62,
       "localNasc": "300",
+      "dataMorte": "cerca de 62",
       "x": -2574,
       "y": 787.5
     },
@@ -1193,6 +1288,7 @@
       "grupo": "pessoa",
       "ano": 373,
       "localNasc": "510",
+      "dataMorte": "2 de maio de 373",
       "x": 1917,
       "y": 1612.5
     },
@@ -1203,6 +1299,7 @@
       "grupo": "pessoa",
       "ano": 390,
       "paisNasc": "TR",
+      "dataMorte": "25 de janeiro de 390",
       "x": -1239,
       "y": 1687.5
     },
@@ -1213,6 +1310,7 @@
       "grupo": "pessoa",
       "ano": 362,
       "localNasc": "26",
+      "dataMorte": "cerca de 362",
       "x": -306,
       "y": 1612.5
     },
@@ -1223,6 +1321,7 @@
       "grupo": "pessoa",
       "ano": 100,
       "localNasc": "26",
+      "dataMorte": "cerca de 100",
       "x": -229,
       "y": 862.5
     },
@@ -1233,6 +1332,7 @@
       "grupo": "pessoa",
       "ano": 250,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 250",
       "x": -2162,
       "y": 1087.5
     },
@@ -1243,6 +1343,7 @@
       "grupo": "pessoa",
       "ano": 160,
       "localNasc": "26",
+      "dataMorte": "cerca de 160",
       "x": -2644,
       "y": 937.5
     },
@@ -1253,6 +1354,7 @@
       "grupo": "pessoa",
       "ano": 230,
       "localNasc": "26",
+      "dataMorte": "cerca de 230",
       "x": 1938,
       "y": 1012.5
     },
@@ -1263,6 +1365,7 @@
       "grupo": "pessoa",
       "ano": 189,
       "paisNasc": "GR",
+      "dataMorte": "cerca de 189",
       "x": -617,
       "y": 937.5
     },
@@ -1273,6 +1376,7 @@
       "grupo": "pessoa",
       "ano": 274,
       "localNasc": "26",
+      "dataMorte": "30 de dezembro de 274",
       "x": -2389,
       "y": 1312.5
     },
@@ -1283,6 +1387,7 @@
       "grupo": "pessoa",
       "ano": 90,
       "localNasc": "26",
+      "dataMorte": "cerca de 90",
       "x": -1302,
       "y": 787.5
     },
@@ -1293,6 +1398,7 @@
       "grupo": "pessoa",
       "ano": 303,
       "localNasc": "26",
+      "dataMorte": "cerca de 303",
       "x": 1641,
       "y": 1237.5
     },
@@ -1303,6 +1409,7 @@
       "grupo": "pessoa",
       "ano": 258,
       "paisNasc": "ES",
+      "dataMorte": "10 de agosto de 258",
       "x": 648,
       "y": 1087.5
     },
@@ -1313,6 +1420,7 @@
       "grupo": "pessoa",
       "ano": 295,
       "localNasc": "26",
+      "dataMorte": "cerca de 295",
       "x": -306,
       "y": 1312.5
     },
@@ -1323,6 +1431,7 @@
       "grupo": "pessoa",
       "ano": 235,
       "localNasc": "26",
+      "dataMorte": "cerca de 235",
       "x": 2616,
       "y": 1012.5
     },
@@ -1333,6 +1442,7 @@
       "grupo": "pessoa",
       "ano": 274,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 274",
       "x": -2099,
       "y": 1237.5
     },
@@ -1343,6 +1453,7 @@
       "grupo": "pessoa",
       "ano": 217,
       "localNasc": "26",
+      "dataMorte": "cerca de 217",
       "x": 442,
       "y": 1012.5
     },
@@ -1353,6 +1464,7 @@
       "grupo": "pessoa",
       "ano": 303,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 303",
       "x": 2099,
       "y": 1312.5
     },
@@ -1363,6 +1475,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "308",
+      "dataMorte": "cerca de 304",
       "x": -1218,
       "y": 1387.5
     },
@@ -1373,6 +1486,7 @@
       "grupo": "pessoa",
       "ano": 257,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 257",
       "x": 316,
       "y": 1162.5
     },
@@ -1383,6 +1497,7 @@
       "grupo": "pessoa",
       "ano": 258,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 258",
       "x": 1008,
       "y": 1162.5
     },
@@ -1393,6 +1508,7 @@
       "grupo": "pessoa",
       "ano": 305,
       "localNasc": "145",
+      "dataMorte": "cerca de 305",
       "x": 830,
       "y": 1387.5
     },
@@ -1403,6 +1519,7 @@
       "grupo": "pessoa",
       "ano": 118,
       "localNasc": "26",
+      "dataMorte": "cerca de 118",
       "x": 1267,
       "y": 862.5
     },
@@ -1413,6 +1530,7 @@
       "grupo": "pessoa",
       "ano": 287,
       "paisNasc": "EG",
+      "dataMorte": "cerca de 287",
       "x": -1372,
       "y": 1237.5
     },
@@ -1423,6 +1541,7 @@
       "grupo": "pessoa",
       "ano": 76,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 76",
       "x": -1959,
       "y": 787.5
     },
@@ -1433,6 +1552,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "138",
+      "dataMorte": "cerca de 304",
       "x": -865,
       "y": 1462.5
     },
@@ -1443,6 +1563,7 @@
       "grupo": "pessoa",
       "ano": 287,
       "paisNasc": "SY",
+      "dataMorte": "cerca de 287",
       "x": -991,
       "y": 1312.5
     },
@@ -1453,6 +1574,7 @@
       "grupo": "pessoa",
       "ano": 420,
       "localNasc": "812",
+      "dataMorte": "30 de setembro de 420",
       "x": 900,
       "y": 1687.5
     },
@@ -1463,6 +1585,7 @@
       "grupo": "pessoa",
       "ano": 258,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 258",
       "x": 1494,
       "y": 1087.5
     },
@@ -1473,6 +1596,7 @@
       "grupo": "pessoa",
       "ano": 222,
       "localNasc": "26",
+      "dataMorte": "cerca de 222",
       "x": 753,
       "y": 937.5
     },
@@ -1483,6 +1607,7 @@
       "grupo": "pessoa",
       "ano": 371,
       "paisNasc": "PS",
+      "dataMorte": "cerca de 371",
       "x": 1141,
       "y": 1612.5
     },
@@ -1493,6 +1618,7 @@
       "grupo": "pessoa",
       "ano": 383,
       "paisNasc": "GB",
+      "dataMorte": "cerca de 383",
       "x": -2742,
       "y": 1687.5
     },
@@ -1503,6 +1629,7 @@
       "grupo": "pessoa",
       "ano": 283,
       "paisNasc": "EG",
+      "dataMorte": "cerca de 283",
       "x": -1767,
       "y": 1312.5
     },
@@ -1513,6 +1640,7 @@
       "grupo": "pessoa",
       "ano": 105,
       "paisNasc": "PS",
+      "dataMorte": "cerca de 105",
       "x": 187,
       "y": 787.5
     },
@@ -1523,6 +1651,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "26",
+      "dataMorte": "cerca de 304",
       "x": -484,
       "y": 1387.5
     },
@@ -1533,6 +1662,7 @@
       "grupo": "pessoa",
       "ano": 306,
       "paisNasc": "TR",
+      "dataMorte": "cerca de 306",
       "x": 1711,
       "y": 1387.5
     },
@@ -1543,6 +1673,7 @@
       "grupo": "pessoa",
       "ano": 397,
       "paisNasc": "HU",
+      "dataMorte": "8 de novembro de 397",
       "x": -505,
       "y": 1687.5
     },
@@ -1553,6 +1684,7 @@
       "grupo": "pessoa",
       "ano": 270,
       "paisNasc": "TR",
+      "dataMorte": "cerca de 270",
       "x": -2763,
       "y": 1237.5
     },
@@ -1563,6 +1695,7 @@
       "grupo": "pessoa",
       "ano": 230,
       "localNasc": "26",
+      "dataMorte": "cerca de 230",
       "x": 2249,
       "y": 937.5
     },
@@ -1573,6 +1706,7 @@
       "grupo": "pessoa",
       "ano": 99,
       "localNasc": "26",
+      "dataMorte": "cerca de 99",
       "x": -659,
       "y": 787.5
     },
@@ -1583,6 +1717,7 @@
       "grupo": "pessoa",
       "ano": 165,
       "localNasc": "26",
+      "dataMorte": "cerca de 165",
       "x": -1246,
       "y": 937.5
     },
@@ -1593,6 +1728,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 304",
       "x": -145,
       "y": 1462.5
     },
@@ -1603,6 +1739,7 @@
       "grupo": "pessoa",
       "ano": 305,
       "localNasc": "510",
+      "dataMorte": "cerca de 305",
       "x": 1302,
       "y": 1462.5
     },
@@ -1613,6 +1750,7 @@
       "grupo": "pessoa",
       "ano": 311,
       "localNasc": "510",
+      "dataMorte": "25 de novembro de 311",
       "x": 2735,
       "y": 1462.5
     },
@@ -1623,6 +1761,7 @@
       "grupo": "pessoa",
       "ano": 250,
       "paisNasc": "GR",
+      "dataMorte": "cerca de 250",
       "x": -1505,
       "y": 1087.5
     },
@@ -1633,6 +1772,7 @@
       "grupo": "pessoa",
       "ano": 363,
       "localNasc": "26",
+      "dataMorte": "cerca de 363",
       "x": 372,
       "y": 1612.5
     },
@@ -1643,6 +1783,7 @@
       "grupo": "pessoa",
       "ano": 450,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 450",
       "x": 2445,
       "y": 1687.5
     },
@@ -1653,6 +1794,7 @@
       "grupo": "pessoa",
       "ano": 343,
       "paisNasc": "TR",
+      "dataMorte": "cerca de 343",
       "x": -914,
       "y": 1612.5
     },
@@ -1663,6 +1805,7 @@
       "grupo": "pessoa",
       "ano": 397,
       "paisNasc": "DE",
+      "dataMorte": "4 de abril de 397",
       "x": -124,
       "y": 1762.5
     },
@@ -1673,6 +1816,7 @@
       "grupo": "pessoa",
       "ano": 314,
       "paisNasc": "TN",
+      "dataMorte": "10 de janeiro de 314",
       "x": -2581,
       "y": 1537.5
     },
@@ -1683,6 +1827,7 @@
       "grupo": "pessoa",
       "ano": 384,
       "paisNasc": "ES",
+      "dataMorte": "11 de dezembro de 384",
       "x": -2382,
       "y": 1762.5
     },
@@ -1693,6 +1838,7 @@
       "grupo": "pessoa",
       "ano": 304,
       "paisNasc": "IT",
+      "dataMorte": "cerca de 304",
       "x": 159,
       "y": 1387.5
     },
@@ -1703,6 +1849,7 @@
       "grupo": "pessoa",
       "ano": 371,
       "paisNasc": "IT",
+      "dataMorte": "1 de agosto de 371",
       "x": 1522,
       "y": 1537.5
     },
@@ -1713,6 +1860,7 @@
       "grupo": "pessoa",
       "ano": 335,
       "localNasc": "26",
+      "dataMorte": "31 de dezembro de 335",
       "x": -1606,
       "y": 1612.5
     },
@@ -1723,6 +1871,7 @@
       "grupo": "pessoa",
       "ano": 397,
       "paisNasc": "FR",
+      "dataMorte": "cerca de 397",
       "x": -865,
       "y": 1762.5
     },
@@ -1733,6 +1882,7 @@
       "grupo": "pessoa",
       "ano": 547,
       "localNasc": "816",
+      "dataMorte": "21 de março de 547",
       "x": -645,
       "y": 1987.5
     },
@@ -1743,6 +1893,7 @@
       "grupo": "pessoa",
       "ano": 543,
       "localNasc": "816",
+      "dataMorte": "cerca de 543",
       "x": -963,
       "y": 2062.5
     },
@@ -1753,6 +1904,7 @@
       "grupo": "pessoa",
       "ano": 1153,
       "localNasc": "817",
+      "dataMorte": "20 de agosto de 1153",
       "x": -1662,
       "y": 2362.5
     },
@@ -1763,6 +1915,7 @@
       "grupo": "pessoa",
       "ano": 1226,
       "localNasc": "143",
+      "dataMorte": "3 de outubro de 1226",
       "x": 351,
       "y": 2362.5
     },
@@ -1773,6 +1926,7 @@
       "grupo": "pessoa",
       "ano": 1253,
       "localNasc": "143",
+      "dataMorte": "11 de agosto de 1253",
       "x": -2945,
       "y": 2437.5
     },
@@ -1783,6 +1937,7 @@
       "grupo": "pessoa",
       "ano": 1221,
       "localNasc": "818",
+      "dataMorte": "6 de agosto de 1221",
       "x": 40,
       "y": 2287.5
     },
@@ -1793,6 +1948,7 @@
       "grupo": "pessoa",
       "ano": 1274,
       "localNasc": "819",
+      "dataMorte": "7 de março de 1274",
       "x": -897,
       "y": 2437.5
     },
@@ -1803,6 +1959,7 @@
       "grupo": "pessoa",
       "ano": 1231,
       "localNasc": "810",
+      "dataMorte": "13 de junho de 1231",
       "x": 669,
       "y": 2287.5
     },
@@ -1813,6 +1970,7 @@
       "grupo": "pessoa",
       "ano": 1457,
       "localNasc": "147",
+      "dataMorte": "22 de maio de 1457",
       "x": 1243,
       "y": 2662.5
     },
@@ -1823,6 +1981,7 @@
       "grupo": "pessoa",
       "ano": 683,
       "paisNasc": "IT",
+      "dataMorte": "28 de junho de 683",
       "x": 2291,
       "y": 1987.5
     },
@@ -1833,6 +1992,7 @@
       "grupo": "pessoa",
       "ano": 885,
       "paisNasc": "GR",
+      "dataMorte": "14 de fevereiro de 869 / 6 de abril de 885",
       "x": -1431,
       "y": 2212.5
     },
@@ -1843,6 +2003,7 @@
       "grupo": "pessoa",
       "ano": 1231,
       "paisNasc": "HU",
+      "dataMorte": "17 de novembro de 1231",
       "x": 1050,
       "y": 2362.5
     },
@@ -1853,6 +2014,7 @@
       "grupo": "pessoa",
       "ano": 1336,
       "localNasc": "503",
+      "dataMorte": "4 de julho de 1336",
       "x": -2396,
       "y": 2587.5
     },
@@ -1863,6 +2025,7 @@
       "grupo": "pessoa",
       "ano": 1073,
       "localNasc": "317",
+      "dataMorte": "12 de julho de 1073",
       "x": 956,
       "y": 2137.5
     },
@@ -1873,6 +2036,7 @@
       "grupo": "pessoa",
       "ano": 1274,
       "paisNasc": "IT",
+      "dataMorte": "15 de julho de 1274",
       "x": -530,
       "y": 2512.5
     },
@@ -1883,6 +2047,7 @@
       "grupo": "pessoa",
       "ano": 1024,
       "paisNasc": "DE",
+      "dataMorte": "13 de julho de 1024",
       "x": -760,
       "y": 2212.5
     },
@@ -1893,6 +2058,7 @@
       "grupo": "pessoa",
       "ano": 754,
       "paisNasc": "GB",
+      "dataMorte": "5 de junho de 754",
       "x": -1777,
       "y": 2137.5
     },
@@ -1903,6 +2069,7 @@
       "grupo": "pessoa",
       "ano": 1134,
       "paisNasc": "DE",
+      "dataMorte": "6 de junho de 1134",
       "x": -2284,
       "y": 2362.5
     },
@@ -1913,6 +2080,7 @@
       "grupo": "pessoa",
       "ano": 1093,
       "paisNasc": "HU",
+      "dataMorte": "16 de novembro de 1093",
       "x": 2319,
       "y": 2137.5
     },
@@ -1923,6 +2091,7 @@
       "grupo": "pessoa",
       "ano": 1258,
       "localNasc": "317",
+      "dataMorte": "cerca de 1258",
       "x": -1977,
       "y": 2512.5
     },
@@ -1933,6 +2102,7 @@
       "grupo": "pessoa",
       "ano": 537,
       "paisNasc": "IT",
+      "dataMorte": "2 de dezembro de 537",
       "x": -1760,
       "y": 2062.5
     },
@@ -1943,6 +2113,7 @@
       "grupo": "pessoa",
       "ano": 1142,
       "paisNasc": "IT",
+      "dataMorte": "25 de junho de 1142",
       "x": -1973,
       "y": 2287.5
     },
@@ -1953,6 +2124,7 @@
       "grupo": "pessoa",
       "ano": 584,
       "localNasc": "26",
+      "dataMorte": "cerca de 584",
       "x": 89,
       "y": 1987.5
     },
@@ -1963,6 +2135,7 @@
       "grupo": "pessoa",
       "ano": 1086,
       "paisNasc": "DK",
+      "dataMorte": "10 de julho de 1086",
       "x": 2008,
       "y": 2212.5
     },
@@ -1973,6 +2146,7 @@
       "grupo": "pessoa",
       "ano": 1275,
       "localNasc": "504",
+      "dataMorte": "6 de janeiro de 1275",
       "x": -121,
       "y": 2437.5
     },
@@ -1983,6 +2157,7 @@
       "grupo": "pessoa",
       "ano": 1256,
       "paisNasc": "FR",
+      "dataMorte": "cerca de 1256",
       "x": -2613,
       "y": 2512.5
     },
@@ -1993,6 +2168,7 @@
       "grupo": "pessoa",
       "ano": 1374,
       "localNasc": "317",
+      "dataMorte": "6 de janeiro de 1374",
       "x": -1648,
       "y": 2587.5
     },
@@ -2003,6 +2179,7 @@
       "grupo": "pessoa",
       "ano": 1027,
       "localNasc": "310",
+      "dataMorte": "19 de junho de 1027",
       "x": -442,
       "y": 2137.5
     },
@@ -2013,6 +2190,7 @@
       "grupo": "pessoa",
       "ano": 1213,
       "paisNasc": "FR",
+      "dataMorte": "17 de dezembro de 1213",
       "x": -292,
       "y": 2362.5
     },
@@ -2023,6 +2201,7 @@
       "grupo": "pessoa",
       "ano": 1310,
       "localNasc": "317",
+      "dataMorte": "cerca de 1310",
       "x": 2354,
       "y": 2437.5
     },
@@ -2033,6 +2212,7 @@
       "grupo": "pessoa",
       "ano": 1072,
       "localNasc": "310",
+      "dataMorte": "21 de fevereiro de 1072",
       "x": 582,
       "y": 2212.5
     },
@@ -2043,6 +2223,7 @@
       "grupo": "pessoa",
       "ano": 1484,
       "localNasc": "515",
+      "dataMorte": "4 de março de 1484",
       "x": 2473,
       "y": 2662.5
     },
@@ -2053,6 +2234,7 @@
       "grupo": "pessoa",
       "ano": 1440,
       "localNasc": "26",
+      "dataMorte": "9 de março de 1440",
       "x": -19,
       "y": 2587.5
     },
@@ -2063,6 +2245,7 @@
       "grupo": "pessoa",
       "ano": 604,
       "localNasc": "26",
+      "dataMorte": "12 de março de 604",
       "x": 774,
       "y": 1987.5
     },
@@ -2073,6 +2256,7 @@
       "grupo": "pessoa",
       "ano": 749,
       "localNasc": "519",
+      "dataMorte": "4 de dezembro de 749",
       "x": -2130,
       "y": 2212.5
     },
@@ -2083,6 +2267,7 @@
       "grupo": "pessoa",
       "ano": 636,
       "paisNasc": "ES",
+      "dataMorte": "4 de abril de 636",
       "x": 1655,
       "y": 1987.5
     },
@@ -2093,6 +2278,7 @@
       "grupo": "pessoa",
       "ano": 1419,
       "localNasc": "521",
+      "dataMorte": "5 de abril de 1419",
       "x": -809,
       "y": 2587.5
     },
@@ -2103,6 +2289,7 @@
       "grupo": "pessoa",
       "ano": 585,
       "paisNasc": "ES",
+      "dataMorte": "13 de abril de 585",
       "x": 400,
       "y": 2062.5
     },
@@ -2113,6 +2300,7 @@
       "grupo": "pessoa",
       "ano": 1109,
       "paisNasc": "IT",
+      "dataMorte": "21 de abril de 1109",
       "x": -2595,
       "y": 2287.5
     },
@@ -2123,6 +2311,7 @@
       "grupo": "pessoa",
       "ano": 1252,
       "paisNasc": "IT",
+      "dataMorte": "6 de abril de 1252",
       "x": 2193,
       "y": 2287.5
     },
@@ -2133,6 +2322,7 @@
       "grupo": "pessoa",
       "ano": 1380,
       "localNasc": "527",
+      "dataMorte": "29 de abril de 1380",
       "x": -1225,
       "y": 2662.5
     },
@@ -2143,6 +2333,7 @@
       "grupo": "pessoa",
       "ano": 1079,
       "localNasc": "515",
+      "dataMorte": "11 de abril de 1079",
       "x": 1330,
       "y": 2212.5
     },
@@ -2153,6 +2344,7 @@
       "grupo": "pessoa",
       "ano": 1459,
       "localNasc": "317",
+      "dataMorte": "2 de maio de 1459",
       "x": 1547,
       "y": 2587.5
     },
@@ -2163,6 +2355,7 @@
       "grupo": "pessoa",
       "ano": 1160,
       "paisNasc": "IT",
+      "dataMorte": "16 de maio de 1160",
       "x": -1372,
       "y": 2287.5
     },
@@ -2173,6 +2366,7 @@
       "grupo": "pessoa",
       "ano": 1296,
       "paisNasc": "IT",
+      "dataMorte": "19 de maio de 1296",
       "x": 1113,
       "y": 2512.5
     },
@@ -2183,6 +2377,7 @@
       "grupo": "pessoa",
       "ano": 1444,
       "paisNasc": "IT",
+      "dataMorte": "20 de maio de 1444",
       "x": 425,
       "y": 2662.5
     },
@@ -2193,6 +2388,7 @@
       "grupo": "pessoa",
       "ano": 1085,
       "paisNasc": "IT",
+      "dataMorte": "25 de maio de 1085",
       "x": 1690,
       "y": 2137.5
     },
@@ -2203,6 +2399,7 @@
       "grupo": "pessoa",
       "ano": 735,
       "paisNasc": "GB",
+      "dataMorte": "25 de maio de 735",
       "x": -2539,
       "y": 2137.5
     },
@@ -2213,6 +2410,7 @@
       "grupo": "pessoa",
       "ano": 526,
       "paisNasc": "IT",
+      "dataMorte": "18 de maio de 526",
       "x": -2602,
       "y": 1987.5
     },
@@ -2223,6 +2421,7 @@
       "grupo": "pessoa",
       "ano": 604,
       "localNasc": "26",
+      "dataMorte": "26 de maio de 604",
       "x": 1232,
       "y": 2062.5
     },
@@ -2233,6 +2432,7 @@
       "grupo": "pessoa",
       "ano": 1431,
       "paisNasc": "FR",
+      "dataMorte": "30 de maio de 1431",
       "x": -428,
       "y": 2662.5
     },
@@ -2243,6 +2443,7 @@
       "grupo": "pessoa",
       "ano": 1252,
       "paisNasc": "ES",
+      "dataMorte": "30 de maio de 1252",
       "x": 2574,
       "y": 2362.5
     },
@@ -2253,6 +2454,7 @@
       "grupo": "pessoa",
       "ano": 1257,
       "paisNasc": "PL",
+      "dataMorte": "15 de agosto de 1257",
       "x": -2281,
       "y": 2437.5
     },
@@ -2263,6 +2465,7 @@
       "grupo": "pessoa",
       "ano": 1285,
       "localNasc": "317",
+      "dataMorte": "22 de agosto de 1285",
       "x": 718,
       "y": 2437.5
     },
@@ -2273,6 +2476,7 @@
       "grupo": "pessoa",
       "ano": 1270,
       "paisNasc": "FR",
+      "dataMorte": "25 de agosto de 1270",
       "x": -1243,
       "y": 2512.5
     },
@@ -2283,6 +2487,7 @@
       "grupo": "pessoa",
       "ano": 1240,
       "paisNasc": "ES",
+      "dataMorte": "31 de agosto de 1240",
       "x": 1473,
       "y": 2287.5
     },
@@ -2293,6 +2498,7 @@
       "grupo": "pessoa",
       "ano": 710,
       "paisNasc": "GR",
+      "dataMorte": "cerca de 710",
       "x": 2588,
       "y": 2062.5
     },
@@ -2303,6 +2509,7 @@
       "grupo": "pessoa",
       "ano": 1038,
       "paisNasc": "HU",
+      "dataMorte": "15 de agosto de 1038",
       "x": -89,
       "y": 2212.5
     },
@@ -2313,6 +2520,7 @@
       "grupo": "pessoa",
       "ano": 1456,
       "localNasc": "525",
+      "dataMorte": "8 de janeiro de 1456",
       "x": 876,
       "y": 2587.5
     },
@@ -2323,6 +2531,7 @@
       "grupo": "pessoa",
       "ano": 1305,
       "paisNasc": "IT",
+      "dataMorte": "10 de setembro de 1305",
       "x": 1896,
       "y": 2512.5
     },
@@ -2333,6 +2542,7 @@
       "grupo": "pessoa",
       "ano": 935,
       "paisNasc": "CZ",
+      "dataMorte": "28 de setembro de 935",
       "x": -1085,
       "y": 2137.5
     },
@@ -2343,6 +2553,7 @@
       "grupo": "pessoa",
       "ano": 533,
       "paisNasc": "FR",
+      "dataMorte": "13 de janeiro de 533",
       "x": -2057,
       "y": 1987.5
     },
@@ -2353,6 +2564,7 @@
       "grupo": "pessoa",
       "ano": 541,
       "localNasc": "26",
+      "dataMorte": "cerca de 541",
       "x": -1379,
       "y": 1987.5
     },
@@ -2363,6 +2575,7 @@
       "grupo": "pessoa",
       "ano": 1101,
       "paisNasc": "DE",
+      "dataMorte": "6 de outubro de 1101",
       "x": 2623,
       "y": 2212.5
     },
@@ -2373,6 +2586,7 @@
       "grupo": "pessoa",
       "ano": 1373,
       "paisNasc": "SE",
+      "dataMorte": "23 de julho de 1373",
       "x": -2008,
       "y": 2662.5
     },
@@ -2383,6 +2597,7 @@
       "grupo": "pessoa",
       "ano": 1066,
       "paisNasc": "GB",
+      "dataMorte": "5 de janeiro de 1066",
       "x": 257,
       "y": 2137.5
     },
@@ -2393,6 +2608,7 @@
       "grupo": "pessoa",
       "ano": 1243,
       "paisNasc": "DE",
+      "dataMorte": "15 de outubro de 1243",
       "x": 1833,
       "y": 2362.5
     },
@@ -2403,6 +2619,7 @@
       "grupo": "pessoa",
       "ano": 1473,
       "paisNasc": "PL",
+      "dataMorte": "24 de dezembro de 1473",
       "x": 2148,
       "y": 2587.5
     },
@@ -2413,6 +2630,7 @@
       "grupo": "pessoa",
       "ano": 559,
       "paisNasc": "FR",
+      "dataMorte": "cerca de 559",
       "x": -278,
       "y": 2062.5
     },
@@ -2423,6 +2641,7 @@
       "grupo": "pessoa",
       "ano": 655,
       "paisNasc": "IT",
+      "dataMorte": "16 de setembro de 655",
       "x": 1980,
       "y": 2062.5
     },
@@ -2433,6 +2652,7 @@
       "grupo": "pessoa",
       "ano": 1463,
       "paisNasc": "ES",
+      "dataMorte": "12 de novembro de 1463",
       "x": 1844,
       "y": 2662.5
     },
@@ -2443,6 +2663,7 @@
       "grupo": "pessoa",
       "ano": 1280,
       "paisNasc": "DE",
+      "dataMorte": "15 de novembro de 1280",
       "x": 323,
       "y": 2512.5
     },
@@ -2453,6 +2674,7 @@
       "grupo": "pessoa",
       "ano": 1302,
       "paisNasc": "DE",
+      "dataMorte": "17 de novembro de 1302",
       "x": 1487,
       "y": 2437.5
     },
@@ -2463,6 +2685,7 @@
       "grupo": "pessoa",
       "ano": 1212,
       "paisNasc": "FR",
+      "dataMorte": "4 de novembro de 1212",
       "x": -673,
       "y": 2287.5
     },
@@ -2473,6 +2696,7 @@
       "grupo": "pessoa",
       "ano": 1267,
       "paisNasc": "IT",
+      "dataMorte": "26 de novembro de 1267",
       "x": -1603,
       "y": 2437.5
     },
@@ -2483,6 +2707,7 @@
       "grupo": "pessoa",
       "ano": 532,
       "paisNasc": "TR",
+      "dataMorte": "5 de dezembro de 532",
       "x": -2333,
       "y": 2062.5
     },
@@ -2493,6 +2718,7 @@
       "grupo": "pessoa",
       "ano": 1170,
       "paisNasc": "GB",
+      "dataMorte": "29 de dezembro de 1170",
       "x": -1054,
       "y": 2362.5
     },
@@ -2503,6 +2729,7 @@
       "grupo": "pessoa",
       "ano": 1317,
       "localNasc": "837",
+      "dataMorte": "20 de abril de 1317",
       "x": 2833,
       "y": 2512.5
     },
@@ -2513,6 +2740,7 @@
       "grupo": "pessoa",
       "ano": 1556,
       "localNasc": "820",
+      "dataMorte": "31 de julho de 1556",
       "x": -526,
       "y": 2737.5
     },
@@ -2523,6 +2751,7 @@
       "grupo": "pessoa",
       "ano": 1552,
       "localNasc": "821",
+      "dataMorte": "3 de dezembro de 1552",
       "x": -1386,
       "y": 2737.5
     },
@@ -2533,6 +2762,7 @@
       "grupo": "pessoa",
       "ano": 1582,
       "localNasc": "149",
+      "dataMorte": "4 de outubro de 1582",
       "x": 1054,
       "y": 2737.5
     },
@@ -2543,6 +2773,7 @@
       "grupo": "pessoa",
       "ano": 1591,
       "localNasc": "822",
+      "dataMorte": "14 de dezembro de 1591",
       "x": 2204,
       "y": 2812.5
     },
@@ -2553,6 +2784,7 @@
       "grupo": "pessoa",
       "ano": 1622,
       "localNasc": "823",
+      "dataMorte": "28 de dezembro de 1622",
       "x": -236,
       "y": 2962.5
     },
@@ -2563,6 +2795,7 @@
       "grupo": "pessoa",
       "ano": 1539,
       "localNasc": "829",
+      "dataMorte": "5 de julho de 1539",
       "x": -2466,
       "y": 2812.5
     },
@@ -2573,6 +2806,7 @@
       "grupo": "pessoa",
       "ano": 1614,
       "localNasc": "830",
+      "dataMorte": "14 de julho de 1614",
       "x": -1484,
       "y": 2887.5
     },
@@ -2583,6 +2817,7 @@
       "grupo": "pessoa",
       "ano": 1660,
       "localNasc": "831",
+      "dataMorte": "27 de setembro de 1660",
       "x": 2746,
       "y": 2887.5
     },
@@ -2593,6 +2828,7 @@
       "grupo": "pessoa",
       "ano": 1537,
       "localNasc": "525",
+      "dataMorte": "8 de fevereiro de 1537",
       "x": -2903,
       "y": 2737.5
     },
@@ -2603,6 +2839,7 @@
       "grupo": "pessoa",
       "ano": 1591,
       "localNasc": "832",
+      "dataMorte": "21 de junho de 1591",
       "x": 1844,
       "y": 2737.5
     },
@@ -2613,6 +2850,7 @@
       "grupo": "pessoa",
       "ano": 1550,
       "localNasc": "828",
+      "dataMorte": "8 de março de 1550",
       "x": -1774,
       "y": 2812.5
     },
@@ -2623,6 +2861,7 @@
       "grupo": "pessoa",
       "ano": 1622,
       "localNasc": "833",
+      "dataMorte": "24 de abril de 1622",
       "x": 229,
       "y": 2887.5
     },
@@ -2633,6 +2872,7 @@
       "grupo": "pessoa",
       "ano": 1597,
       "localNasc": "834",
+      "dataMorte": "21 de dezembro de 1597",
       "x": -3197,
       "y": 2887.5
     },
@@ -2643,6 +2883,7 @@
       "grupo": "pessoa",
       "ano": 1775,
       "localNasc": "835",
+      "dataMorte": "18 de outubro de 1775",
       "x": 458,
       "y": 3112.5
     },
@@ -2653,6 +2894,7 @@
       "grupo": "pessoa",
       "ano": 1572,
       "localNasc": "836",
+      "dataMorte": "1 de maio de 1572",
       "x": 271,
       "y": 2737.5
     },
@@ -2663,6 +2905,7 @@
       "grupo": "pessoa",
       "ano": 1621,
       "localNasc": "837",
+      "dataMorte": "17 de setembro de 1621",
       "x": -673,
       "y": 2887.5
     },
@@ -2673,6 +2916,7 @@
       "grupo": "pessoa",
       "ano": 1719,
       "localNasc": "838",
+      "dataMorte": "7 de abril de 1719",
       "x": 7,
       "y": 3037.5
     },
@@ -2683,6 +2927,7 @@
       "grupo": "pessoa",
       "ano": 1592,
       "localNasc": "839",
+      "dataMorte": "17 de maio de 1592",
       "x": 2578,
       "y": 2737.5
     },
@@ -2693,6 +2938,7 @@
       "grupo": "pessoa",
       "ano": 1595,
       "localNasc": "317",
+      "dataMorte": "26 de maio de 1595",
       "x": 2945,
       "y": 2812.5
     },
@@ -2703,6 +2949,7 @@
       "grupo": "pessoa",
       "ano": 1607,
       "localNasc": "317",
+      "dataMorte": "25 de maio de 1607",
       "x": -2739,
       "y": 2962.5
     },
@@ -2713,6 +2960,7 @@
       "grupo": "pessoa",
       "ano": 1787,
       "localNasc": "840",
+      "dataMorte": "1 de agosto de 1787",
       "x": 895,
       "y": 3037.5
     },
@@ -2723,6 +2971,7 @@
       "grupo": "pessoa",
       "ano": 1547,
       "localNasc": "841",
+      "dataMorte": "7 de agosto de 1547",
       "x": -2099,
       "y": 2737.5
     },
@@ -2733,6 +2982,7 @@
       "grupo": "pessoa",
       "ano": 1680,
       "localNasc": "842",
+      "dataMorte": "19 de agosto de 1680",
       "x": -979,
       "y": 3037.5
     },
@@ -2743,6 +2993,7 @@
       "grupo": "pessoa",
       "ano": 1641,
       "localNasc": "843",
+      "dataMorte": "13 de dezembro de 1641",
       "x": 1484,
       "y": 2962.5
     },
@@ -2753,6 +3004,7 @@
       "grupo": "pessoa",
       "ano": 1648,
       "localNasc": "844",
+      "dataMorte": "25 de agosto de 1648",
       "x": 2330,
       "y": 2962.5
     },
@@ -2763,6 +3015,7 @@
       "grupo": "pessoa",
       "ano": 1617,
       "localNasc": "806",
+      "dataMorte": "24 de agosto de 1617",
       "x": -1082,
       "y": 2962.5
     },
@@ -2773,6 +3026,7 @@
       "grupo": "pessoa",
       "ano": 1663,
       "localNasc": "845",
+      "dataMorte": "18 de setembro de 1663",
       "x": 3169,
       "y": 2962.5
     },
@@ -2783,6 +3037,7 @@
       "grupo": "pessoa",
       "ano": 1555,
       "paisNasc": "ES",
+      "dataMorte": "8 de setembro de 1555",
       "x": -963,
       "y": 2812.5
     },
@@ -2793,6 +3048,7 @@
       "grupo": "pessoa",
       "ano": 1609,
       "paisNasc": "IT",
+      "dataMorte": "9 de outubro de 1609",
       "x": -1879,
       "y": 2962.5
     },
@@ -2803,6 +3059,7 @@
       "grupo": "pessoa",
       "ano": 1572,
       "paisNasc": "ES",
+      "dataMorte": "30 de setembro de 1572",
       "x": 624,
       "y": 2812.5
     },
@@ -2813,6 +3070,7 @@
       "grupo": "pessoa",
       "ano": 1690,
       "paisNasc": "FR",
+      "dataMorte": "17 de outubro de 1690",
       "x": -535,
       "y": 3112.5
     },
@@ -2823,6 +3081,7 @@
       "grupo": "pessoa",
       "ano": 1562,
       "paisNasc": "ES",
+      "dataMorte": "18 de outubro de 1562",
       "x": -82,
       "y": 2812.5
     },
@@ -2833,6 +3092,7 @@
       "grupo": "pessoa",
       "ano": 1584,
       "paisNasc": "IT",
+      "dataMorte": "3 de novembro de 1584",
       "x": 1463,
       "y": 2812.5
     },
@@ -2843,6 +3103,7 @@
       "grupo": "pessoa",
       "ano": 1608,
       "paisNasc": "IT",
+      "dataMorte": "10 de novembro de 1608",
       "x": -2267,
       "y": 2887.5
     },
@@ -2853,6 +3114,7 @@
       "grupo": "pessoa",
       "ano": 1623,
       "paisNasc": "UA",
+      "dataMorte": "12 de novembro de 1623",
       "x": 610,
       "y": 2962.5
     },
@@ -2863,6 +3125,7 @@
       "grupo": "pessoa",
       "ano": 1639,
       "localNasc": "806",
+      "dataMorte": "3 de novembro de 1639",
       "x": 970,
       "y": 2887.5
     },
@@ -2873,6 +3136,7 @@
       "grupo": "pessoa",
       "ano": 1645,
       "paisNasc": "ES",
+      "dataMorte": "16 de setembro de 1645",
       "x": 1949,
       "y": 2887.5
     },
@@ -2883,6 +3147,7 @@
       "grupo": "pessoa",
       "ano": 1859,
       "localNasc": "824",
+      "dataMorte": "4 de agosto de 1859",
       "x": -991,
       "y": 3187.5
     },
@@ -2893,6 +3158,7 @@
       "grupo": "pessoa",
       "ano": 1888,
       "localNasc": "825",
+      "dataMorte": "31 de janeiro de 1888",
       "x": -124,
       "y": 3187.5
     },
@@ -2903,6 +3169,7 @@
       "grupo": "pessoa",
       "ano": 1897,
       "localNasc": "826",
+      "dataMorte": "30 de setembro de 1897",
       "x": 215,
       "y": 3262.5
     },
@@ -2913,6 +3180,7 @@
       "grupo": "pessoa",
       "ano": 1914,
       "localNasc": "827",
+      "dataMorte": "20 de agosto de 1914",
       "x": 519,
       "y": 3187.5
     },
@@ -2923,6 +3191,7 @@
       "grupo": "pessoa",
       "ano": 1862,
       "paisNasc": "IT",
+      "dataMorte": "27 de fevereiro de 1862",
       "x": -540,
       "y": 3262.5
     },
@@ -2932,6 +3201,7 @@
       "label": "N. Sra. do Rosário de Fátima",
       "grupo": "pessoa",
       "ano": 1917,
+      "ignorarMapa": true,
       "x": 921,
       "y": 3262.5
     },
@@ -7230,12 +7500,14 @@
     {
       "from": "70",
       "to": "2",
-      "texto": "Cátedra Roma (18)"
+      "texto": "Cátedra Roma (18)",
+      "ignorarMapa": true
     },
     {
       "from": "70",
       "to": "3",
-      "texto": "Conversão (25)"
+      "texto": "Conversão (25)",
+      "ignorarMapa": true
     },
     {
       "from": "70",
@@ -7400,7 +7672,8 @@
     {
       "from": "80",
       "to": "2",
-      "texto": "Cátedra Antioquia (22)"
+      "texto": "Cátedra Antioquia (22)",
+      "ignorarMapa": true
     },
     {
       "from": "80",
@@ -7610,7 +7883,8 @@
     {
       "from": "92",
       "to": "55",
-      "texto": "Dia 6"
+      "texto": "Dia 6",
+      "ignorarMapa": true
     },
     {
       "from": "92",
@@ -8000,7 +8274,8 @@
     {
       "from": "95",
       "to": "2",
-      "texto": "Dia 1"
+      "texto": "Dia 1",
+      "ignorarMapa": true
     },
     {
       "from": "95",
@@ -8010,7 +8285,8 @@
     {
       "from": "95",
       "to": "630",
-      "texto": "Dia 3"
+      "texto": "Dia 3",
+      "ignorarMapa": true
     },
     {
       "from": "95",
@@ -8135,7 +8411,8 @@
     {
       "from": "95",
       "to": "71",
-      "texto": "Dia 29"
+      "texto": "Dia 29",
+      "ignorarMapa": true
     },
     {
       "from": "95",
@@ -8195,7 +8472,8 @@
     {
       "from": "96",
       "to": "8",
-      "texto": "Dia 17"
+      "texto": "Dia 17",
+      "ignorarMapa": true
     },
     {
       "from": "96",
@@ -8450,12 +8728,14 @@
     {
       "from": "98",
       "to": "2",
-      "texto": "Dia 18"
+      "texto": "Dia 18",
+      "ignorarMapa": true
     },
     {
       "from": "98",
       "to": "3",
-      "texto": "Dia 18"
+      "texto": "Dia 18",
+      "ignorarMapa": true
     },
     {
       "from": "98",
