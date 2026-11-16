@@ -3366,6 +3366,45 @@
       "cidadeId": null,
       "idGrafo": "429",
       "temGrafo": true
+    },
+    {
+      "id": "x_001",
+      "nome": "São José Pignatelli",
+      "atributoLiturgico": "Presbítero e Confessor",
+      "diaFesta": "14 de novembro",
+      "cidade": "Saragoça",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "15 de novembro de 1811",
+      "cidadeId": "503",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_002",
+      "nome": "São Valério de Saragoça",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "29 de janeiro",
+      "cidade": "Saragoça",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "cerca de 315",
+      "cidadeId": "503",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_003",
+      "nome": "São Bráulio de Saragoça",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "26 de março",
+      "cidade": "Saragoça",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "651",
+      "cidadeId": "503",
+      "idGrafo": null,
+      "temGrafo": false
     }
   ],
   "cidades": [
@@ -3546,7 +3585,7 @@
       "iso": "ES",
       "lat": 41.6488,
       "lng": -0.8891,
-      "qtd": 2,
+      "qtd": 5,
       "qtdGrafo": 2
     },
     {
@@ -4124,7 +4163,7 @@
       "nome": "Espanha",
       "lat": 40.4637,
       "lng": -3.7492,
-      "qtd": 22,
+      "qtd": 25,
       "qtdGrafo": 22
     },
     {
