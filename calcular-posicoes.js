@@ -1,4 +1,3 @@
-
 // ============================================================
 // CALCULADOR DE POSIÇÕES — calcular-posicoes.js
 // ============================================================
@@ -847,7 +846,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
     var caminhoAvulsos = path.join(pastaAtual, cfg.arquivoAvulsos);
     if (fs.existsSync(caminhoAvulsos)) {
       try {
-        var bruto = fs.readFileSync(caminhoAvulsos, 'utf8');
+        var bruto = fs.readFileSync(caminhoAvulsos, 'utf8').replace(/^\uFEFF/, '');
         var jsonAv = JSON.parse(bruto);
         if (!jsonAv || !Array.isArray(jsonAv.santos)) {
           throw new Error('Estrutura inválida: esperado objeto com array "santos".');
@@ -1059,7 +1058,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
       _lat: latFinal,
       _lng: lngFinal,
       _temCoordAvulso: avTemCoord,
-      _localIdGrafo: g ? g.localIdGrafo : null,
+      _localIdGrafo: (g && g.localIdGrafo && normalizarSemAcentoMaiuscula(cidadeFinal) === normalizarSemAcentoMaiuscula(g.cidade) && isoFinal === g.iso) ? g.localIdGrafo : null,
       _rotuloRel: rotuloRel
     });
   }
@@ -1315,6 +1314,3 @@ module.exports = { calcularPosicoesDeUmGrafo: calcularPosicoesDeUmGrafo };
 if (require.main === module) {
   main();
 }
-
-
-// FIM CALCULADOR DE POSIÇÕES — calcular-posicoes.js
