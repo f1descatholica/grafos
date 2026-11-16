@@ -1,0 +1,269 @@
+data/hora | tipo | santo | campo | valor_grafo | valor_ficou
+2026-11-16 18:46:24 | festa ignorada | 2 - S. Pedro | diaFesta | Cátedra Roma (18) | (ignorado: Cátedra/Conversão)
+2026-11-16 18:46:24 | festa ignorada | 2 - S. Pedro | diaFesta | Cátedra Antioquia (22) | (ignorado: Cátedra/Conversão)
+2026-11-16 18:46:24 | festa ignorada | 3 - S. Paulo | diaFesta | Conversão (25) | (ignorado: Cátedra/Conversão)
+2026-11-16 18:46:24 | dado inferido | 4 - S. José | dataMorte | 30 | 19 de março de 30
+2026-11-16 18:46:24 | escolha entre duas festas | 71 - S. João Batista | diaFesta | 29 de agosto (Dia 29) | 24 de junho [empate/mais completo]
+2026-11-16 18:46:24 | dado inferido | 71 - S. João Batista | dataMorte | 29 | 24 de junho de 29
+2026-11-16 18:46:24 | escolha entre duas festas | 2 - S. Pedro | diaFesta | 1 de agosto (Dia 1), 18 de novembro (Dia 18) | 29 de junho [empate/mais completo]
+2026-11-16 18:46:24 | dado inferido | 2 - S. Pedro | dataMorte | 67 | 29 de junho de 67
+2026-11-16 18:46:24 | escolha entre duas festas | 3 - S. Paulo | diaFesta | 18 de novembro (Dia 18) | 29 de junho [empate/mais completo]
+2026-11-16 18:46:24 | dado inferido | 3 - S. Paulo | dataMorte | 67 | 29 de junho de 67
+2026-11-16 18:46:24 | escolha entre duas festas | 55 - S. João | diaFesta | 27 de dezembro (Dia 27) | 6 de maio [empate/mais completo]
+2026-11-16 18:46:24 | dado inferido | 55 - S. João | dataMorte | 100 | 6 de maio de 100
+2026-11-16 18:46:24 | dado inferido | 86 - S. Matias | dataMorte | 80 | 24 de fevereiro de 80
+2026-11-16 18:46:24 | dado inferido | 110 - S. André | dataMorte | 60 | 30 de novembro de 60
+2026-11-16 18:46:24 | dado inferido | 111 - S. Tiago Maior | dataMorte | 44 | 25 de julho de 44
+2026-11-16 18:46:24 | dado inferido | 112 - S. Filipe | dataMorte | 80 | 11 de maio de 80
+2026-11-16 18:46:24 | dado inferido | 113 - S. Bartolomeu | dataMorte | 71 | 24 de agosto de 71
+2026-11-16 18:46:24 | dado inferido | 114 - S. Tomé | dataMorte | 72 | 21 de dezembro de 72
+2026-11-16 18:46:24 | dado inferido | 115 - S. Mateus | dataMorte | 74 | 21 de setembro de 74
+2026-11-16 18:46:24 | dado inferido | 116 - S. Tiago Menor | dataMorte | 62 | 11 de maio de 62
+2026-11-16 18:46:24 | dado inferido | 117 - S. Tadeu | dataMorte | 70 | 28 de outubro de 70
+2026-11-16 18:46:24 | dado inferido | 118 - S. Simão | dataMorte | 65 | 28 de outubro de 65
+2026-11-16 18:46:24 | dado inferido | 228 - S. Barnabé | dataMorte | 61 | 11 de junho de 61
+2026-11-16 18:46:24 | dado inferido | 215 - Sta. Maria Madalena | dataMorte | 63 | 22 de julho de 63
+2026-11-16 18:46:24 | dado inferido | 218 - Sta. Ana | dataMorte | 10 | 26 de julho de 10
+2026-11-16 18:46:24 | dado inferido | 221 - Sta. Marta | dataMorte | 80 | 29 de julho de 80
+2026-11-16 18:46:24 | dado inferido | 412 - S. Timóteo | dataMorte | 97 | 24 de janeiro de 97
+2026-11-16 18:46:24 | dado inferido | 418 - S. Tito | dataMorte | 96 | 6 de fevereiro de 96
+2026-11-16 18:46:24 | dado inferido | 453 - S. Marcos Evangelista | dataMorte | 68 | 25 de abril de 68
+2026-11-16 18:46:24 | escolha entre duas festas | 630 - Sto. Estêvão, Protomártir | diaFesta | 26 de dezembro (Dia 26) | 3 de agosto [empate/mais completo]
+2026-11-16 18:46:24 | dado inferido | 630 - Sto. Estêvão, Protomártir | dataMorte | 36 | 3 de agosto de 36
+2026-11-16 18:46:24 | dado inferido | 639 - S. Joaquim | dataMorte | 10 | 16 de agosto de 10
+2026-11-16 18:46:24 | dado inferido | 680 - S. Lucas Evangelista | dataMorte | 84 | 18 de outubro de 84
+2026-11-16 18:46:24 | dado inferido | 718 - Santos Inocentes | dataMorte | 4 | 28 de dezembro de 4
+2026-11-16 18:46:24 | dado inferido | 73 - Sta. Inês | dataMorte | 304 | 21 de janeiro de 304
+2026-11-16 18:46:24 | dado inferido | 72 - S. Sebastião | dataMorte | 288 | 20 de janeiro de 288
+2026-11-16 18:46:24 | dado inferido | 7 - S. Jorge | dataMorte | 303 | 23 de abril de 303
+2026-11-16 18:46:24 | dado inferido | 76 - S. Paulo Eremita | dataMorte | 341 | 15 de janeiro de 341
+2026-11-16 18:46:24 | dado inferido | 74 - S. Antão | dataMorte | 356 | 17 de janeiro de 356
+2026-11-16 18:46:24 | dado inferido | 64 - Sta. Mônica | dataMorte | 387 | 4 de maio de 387
+2026-11-16 18:46:24 | dado inferido | 5 - S. Agostinho | dataMorte | 430 | 28 de agosto de 430
+2026-11-16 18:46:24 | dado inferido | 81 - S. Inácio de Antioquia | dataMorte | 107 | 1 de fevereiro de 107
+2026-11-16 18:46:24 | dado inferido | 82 - S. Brás | dataMorte | 316 | 3 de fevereiro de 316
+2026-11-16 18:46:24 | dado inferido | 83 - Sta. Águeda | dataMorte | 251 | 5 de fevereiro de 251
+2026-11-16 18:46:24 | dado inferido | 84 - S. Valentim | dataMorte | 269 | 14 de fevereiro de 269
+2026-11-16 18:46:24 | dado inferido | 204 - 7 Irmãos, Rufina e Secunda | dataMorte | 257 | 10 de julho de 257
+2026-11-16 18:46:24 | dado inferido | 205 - S. Pio I | dataMorte | 154 | 11 de julho de 154
+2026-11-16 18:46:24 | dado inferido | 207 - S. Anacleto | dataMorte | 92 | 13 de julho de 92
+2026-11-16 18:46:24 | dado inferido | 210 - Sto. Aleixo | dataMorte | 412 | 17 de julho de 412
+2026-11-16 18:46:24 | dado inferido | 214 - Sta. Práxedes | dataMorte | 165 | 21 de julho de 165
+2026-11-16 18:46:24 | dado inferido | 216 - Sto. Apolinário | dataMorte | 79 | 23 de julho de 79
+2026-11-16 18:46:24 | dado inferido | 217 - Sta. Cristina | dataMorte | 304 | 24 de julho de 304
+2026-11-16 18:46:24 | dado inferido | 219 - S. Pantaleão | dataMorte | 305 | 27 de julho de 305
+2026-11-16 18:46:24 | dado inferido | 220 - Nazário e Celso | dataMorte | 68 | 28 de julho de 68
+2026-11-16 18:46:24 | dado inferido | 222 - Abdon e Sennen | dataMorte | 250 | 30 de julho de 250
+2026-11-16 18:46:24 | dado inferido | 223 - Marcelino, Pedro e Erasmo | dataMorte | 304 | 2 de junho de 304
+2026-11-16 18:46:24 | dado inferido | 226 - Primo e Feliciano | dataMorte | 297 | 9 de junho de 297
+2026-11-16 18:46:24 | dado inferido | 229 - S. Basílio Magno | dataMorte | 379 | 14 de junho de 379
+2026-11-16 18:46:24 | dado inferido | 230 - Vito, Modesto e Crescência | dataMorte | 303 | 15 de junho de 303
+2026-11-16 18:46:24 | dado inferido | 231 - Sto. Efrém | dataMorte | 373 | 18 de junho de 373
+2026-11-16 18:46:24 | dado inferido | 233 - Gervásio e Protásio | dataMorte | 165 | 19 de junho de 165
+2026-11-16 18:46:24 | dado inferido | 236 - S. Paulino de Nola | dataMorte | 431 | 22 de junho de 431
+2026-11-16 18:46:24 | dado inferido | 237 - João e Paulo | dataMorte | 362 | 26 de junho de 362
+2026-11-16 18:46:24 | dado inferido | 239 - Sto. Irineu | dataMorte | 202 | 28 de junho de 202
+2026-11-16 18:46:24 | dado inferido | 400 - S. Higino | dataMorte | 142 | 11 de janeiro de 142
+2026-11-16 18:46:24 | dado inferido | 401 - S. Hilário de Poitiers | dataMorte | 367 | 14 de janeiro de 367
+2026-11-16 18:46:24 | dado inferido | 402 - S. Félix de Nola | dataMorte | 256 | 14 de janeiro de 256
+2026-11-16 18:46:24 | dado inferido | 404 - S. Marcelo I | dataMorte | 309 | 16 de janeiro de 309
+2026-11-16 18:46:24 | dado inferido | 405 - Sta. Prisca | dataMorte | 269 | 18 de janeiro de 269
+2026-11-16 18:46:24 | dado inferido | 406 - Mário, Marta, Audifax e Abaco | dataMorte | 270 | 19 de janeiro de 270
+2026-11-16 18:46:24 | dado inferido | 408 - S. Fabiano | dataMorte | 250 | 20 de janeiro de 250
+2026-11-16 18:46:24 | dado inferido | 409 - Vicente e Anastácio | dataMorte | 304 | 22 de janeiro de 304
+2026-11-16 18:46:24 | dado inferido | 411 - Sta. Emerenciana | dataMorte | 304 | 23 de janeiro de 304
+2026-11-16 18:46:24 | dado inferido | 413 - S. Policarpo | dataMorte | 155 | 26 de janeiro de 155
+2026-11-16 18:46:24 | dado inferido | 414 - S. João Crisóstomo | dataMorte | 407 | 27 de janeiro de 407
+2026-11-16 18:46:24 | dado inferido | 416 - Sta. Martinha | dataMorte | 228 | 30 de janeiro de 228
+2026-11-16 18:46:24 | dado inferido | 419 - Sta. Dorotéia | dataMorte | 311 | 6 de fevereiro de 311
+2026-11-16 18:46:24 | dado inferido | 422 - S. Cirilo de Alexandria | dataMorte | 444 | 9 de fevereiro de 444
+2026-11-16 18:46:24 | dado inferido | 423 - Sta. Apolônia | dataMorte | 249 | 9 de fevereiro de 249
+2026-11-16 18:46:24 | dado inferido | 426 - Faustino e Jovita | dataMorte | 120 | 15 de fevereiro de 120
+2026-11-16 18:46:24 | dado inferido | 427 - S. Simeão | dataMorte | 107 | 18 de fevereiro de 107
+2026-11-16 18:46:24 | dado inferido | 431 - S. Lúcio I | dataMorte | 254 | 4 de março de 254
+2026-11-16 18:46:24 | dado inferido | 432 - Perpétua e Felicidade | dataMorte | 203 | 6 de março de 203
+2026-11-16 18:46:24 | dado inferido | 435 - Quarenta Mártires | dataMorte | 320 | 10 de março de 320
+2026-11-16 18:46:24 | dado inferido | 437 - S. Patrício | dataMorte | 461 | 17 de março de 461
+2026-11-16 18:46:24 | dado inferido | 438 - S. Cirilo de Jerusalém | dataMorte | 386 | 18 de março de 386
+2026-11-16 18:46:24 | dado inferido | 445 - S. Leão Magno | dataMorte | 461 | 11 de abril de 461
+2026-11-16 18:46:24 | dado inferido | 447 - S. Justino | dataMorte | 165 | 14 de abril de 165
+2026-11-16 18:46:24 | dado inferido | 448 - Tibúrcio, Valeriano e Máximo | dataMorte | 229 | 14 de abril de 229
+2026-11-16 18:46:24 | dado inferido | 449 - S. Aniceto | dataMorte | 168 | 17 de abril de 168
+2026-11-16 18:46:24 | dado inferido | 451 - Sotero e Caio | dataMorte | 296 | 22 de abril de 296
+2026-11-16 18:46:24 | dado inferido | 454 - Cleto e Marcelino | dataMorte | 304 | 26 de abril de 304
+2026-11-16 18:46:24 | dado inferido | 457 - S. Vital | dataMorte | 62 | 28 de abril de 62
+2026-11-16 18:46:24 | dado inferido | 600 - Sto. Atanásio | dataMorte | 373 | 2 de maio de 373
+2026-11-16 18:46:24 | dado inferido | 604 - S. Gregório Nazianzeno | dataMorte | 390 | 9 de maio de 390
+2026-11-16 18:46:24 | dado inferido | 606 - Gordiano e Epímaco | dataMorte | 362 | 10 de maio de 362
+2026-11-16 18:46:24 | dado inferido | 607 - Nereu, Aquileu, Domitila... | dataMorte | 100 | 12 de maio de 100
+2026-11-16 18:46:24 | dado inferido | 613 - S. Venâncio | dataMorte | 250 | 18 de maio de 250
+2026-11-16 18:46:24 | dado inferido | 615 - Sta. Pudenciana | dataMorte | 160 | 19 de maio de 160
+2026-11-16 18:46:24 | dado inferido | 618 - S. Urbano I | dataMorte | 230 | 25 de maio de 230
+2026-11-16 18:46:24 | dado inferido | 620 - S. Eleutério | dataMorte | 189 | 26 de maio de 189
+2026-11-16 18:46:24 | dado inferido | 625 - S. Félix I | dataMorte | 274 | 30 de maio de 274
+2026-11-16 18:46:24 | dado inferido | 628 - Sta. Petronila | dataMorte | 90 | 31 de maio de 90
+2026-11-16 18:46:24 | dado inferido | 634 - Ciríaco, Largo e Esmaragdo | dataMorte | 303 | 8 de agosto de 303
+2026-11-16 18:46:24 | dado inferido | 635 - S. Lourenço | dataMorte | 258 | 10 de agosto de 258
+2026-11-16 18:46:24 | dado inferido | 636 - Tibúrcio e Susana | dataMorte | 295 | 11 de agosto de 295
+2026-11-16 18:46:24 | dado inferido | 637 - Hipólito e Cassiano | dataMorte | 235 | 13 de agosto de 235
+2026-11-16 18:46:24 | dado inferido | 641 - S. Agapito | dataMorte | 274 | 18 de agosto de 274
+2026-11-16 18:46:24 | dado inferido | 647 - S. Zeferino | dataMorte | 217 | 26 de agosto de 217
+2026-11-16 18:46:24 | dado inferido | 652 - Doze Santos Irmãos | dataMorte | 303 | 1 de setembro de 303
+2026-11-16 18:46:24 | dado inferido | 655 - S. Gorgônio | dataMorte | 304 | 9 de setembro de 304
+2026-11-16 18:46:24 | dado inferido | 657 - Proto e Jacinto | dataMorte | 257 | 11 de setembro de 257
+2026-11-16 18:46:24 | dado inferido | 658 - Cornélio e Cipriano | dataMorte | 258 | 16 de setembro de 258
+2026-11-16 18:46:24 | dado inferido | 660 - S. Januário e Comp. | dataMorte | 305 | 19 de setembro de 305
+2026-11-16 18:46:24 | dado inferido | 661 - Eustáquio e Comp. | dataMorte | 118 | 20 de setembro de 118
+2026-11-16 18:46:24 | dado inferido | 663 - S. Maurício e Comp. | dataMorte | 287 | 22 de setembro de 287
+2026-11-16 18:46:24 | dado inferido | 664 - S. Lino | dataMorte | 76 | 23 de setembro de 76
+2026-11-16 18:46:24 | dado inferido | 665 - Cipriano e Justina | dataMorte | 304 | 26 de setembro de 304
+2026-11-16 18:46:24 | dado inferido | 666 - Cosme e Damião | dataMorte | 287 | 27 de setembro de 287
+2026-11-16 18:46:24 | dado inferido | 668 - S. Jerônimo | dataMorte | 420 | 30 de setembro de 420
+2026-11-16 18:46:24 | dado inferido | 674 - Dionísio, Rústico e Eleutério | dataMorte | 258 | 9 de outubro de 258
+2026-11-16 18:46:24 | dado inferido | 677 - S. Calisto I | dataMorte | 222 | 14 de outubro de 222
+2026-11-16 18:46:24 | dado inferido | 683 - S. Hilarião | dataMorte | 371 | 21 de outubro de 371
+2026-11-16 18:46:24 | dado inferido | 684 - Sta. Úrsula e Comp. | dataMorte | 383 | 21 de outubro de 383
+2026-11-16 18:46:24 | dado inferido | 686 - Crisanto e Daria | dataMorte | 283 | 25 de outubro de 283
+2026-11-16 18:46:24 | dado inferido | 687 - S. Evaristo | dataMorte | 105 | 26 de outubro de 105
+2026-11-16 18:46:24 | dado inferido | 690 - Quatro Coroados | dataMorte | 304 | 8 de novembro de 304
+2026-11-16 18:46:24 | dado inferido | 691 - S. Teodoro | dataMorte | 306 | 9 de novembro de 306
+2026-11-16 18:46:24 | dado inferido | 693 - S. Martinho de Tours | dataMorte | 397 | 11 de novembro de 397
+2026-11-16 18:46:24 | dado inferido | 699 - S. Gregório Taumaturgo | dataMorte | 270 | 17 de novembro de 270
+2026-11-16 18:46:24 | dado inferido | 701 - Sta. Cecília | dataMorte | 230 | 22 de novembro de 230
+2026-11-16 18:46:24 | dado inferido | 702 - S. Clemente I | dataMorte | 99 | 23 de novembro de 99
+2026-11-16 18:46:24 | dado inferido | 703 - Sta. Felicidade | dataMorte | 165 | 23 de novembro de 165
+2026-11-16 18:46:24 | dado inferido | 704 - S. Crisógono | dataMorte | 304 | 24 de novembro de 304
+2026-11-16 18:46:24 | dado inferido | 705 - Sta. Catarina de Alexandria | dataMorte | 305 | 25 de novembro de 305
+2026-11-16 18:46:24 | dado inferido | 707 - S. Pedro de Alexandria | dataMorte | 311 | 26 de novembro de 311
+2026-11-16 18:46:24 | dado inferido | 708 - S. Saturnino | dataMorte | 250 | 29 de novembro de 250
+2026-11-16 18:46:24 | dado inferido | 709 - Sta. Bibiana | dataMorte | 363 | 2 de dezembro de 363
+2026-11-16 18:46:24 | dado inferido | 710 - S. Pedro Crisólogo | dataMorte | 450 | 4 de dezembro de 450
+2026-11-16 18:46:24 | dado inferido | 712 - S. Nicolau | dataMorte | 343 | 6 de dezembro de 343
+2026-11-16 18:46:24 | dado inferido | 713 - Sto. Ambrósio | dataMorte | 397 | 7 de dezembro de 397
+2026-11-16 18:46:24 | dado inferido | 714 - S. Melquíades | dataMorte | 314 | 10 de dezembro de 314
+2026-11-16 18:46:24 | dado inferido | 715 - S. Dâmaso I | dataMorte | 384 | 11 de dezembro de 384
+2026-11-16 18:46:24 | dado inferido | 716 - Sta. Luzia | dataMorte | 304 | 13 de dezembro de 304
+2026-11-16 18:46:24 | dado inferido | 717 - S. Eusébio de Vercelli | dataMorte | 371 | 16 de dezembro de 371
+2026-11-16 18:46:24 | dado inferido | 720 - S. Silvestre I | dataMorte | 335 | 31 de dezembro de 335
+2026-11-16 18:46:24 | dado inferido | 721 - S. Libório | dataMorte | 397 | 23 de julho de 397
+2026-11-16 18:46:24 | dado inferido | 6 - S. Bento | dataMorte | 547 | 21 de março de 547
+2026-11-16 18:46:24 | dado inferido | 85 - Sta. Escolástica | dataMorte | 543 | 10 de fevereiro de 543
+2026-11-16 18:46:24 | dado inferido | 66 - S. Bernardo | dataMorte | 1153 | 20 de agosto de 1153
+2026-11-16 18:46:24 | escolha entre duas festas | 8 - S. Francisco | diaFesta | 4 de outubro (Dia 4) | 17 de setembro [empate/mais completo]
+2026-11-16 18:46:24 | dado inferido | 8 - S. Francisco | dataMorte | 1226 | 17 de setembro de 1226
+2026-11-16 18:46:24 | dado inferido | 11 - Sta. Clara | dataMorte | 1253 | 12 de agosto de 1253
+2026-11-16 18:46:24 | dado inferido | 9 - S. Domingos | dataMorte | 1221 | 4 de agosto de 1221
+2026-11-16 18:46:24 | dado inferido | 10 - S. Tomás de Aquino | dataMorte | 1274 | 7 de março de 1274
+2026-11-16 18:46:24 | dado inferido | 65 - Sto. Antônio | dataMorte | 1231 | 13 de junho de 1231
+2026-11-16 18:46:24 | dado inferido | 67 - Sta. Rita | dataMorte | 1457 | 22 de maio de 1457
+2026-11-16 18:46:24 | dado inferido | 200 - S. Leão II | dataMorte | 683 | 3 de julho de 683
+2026-11-16 18:46:24 | dado inferido | 202 - Cirilo e Metódio | dataMorte | 885 | 7 de julho de 885
+2026-11-16 18:46:24 | dado inferido | 203 - Sta Isabel da Hungria | dataMorte | 1231 | 19 de novembro de 1231
+2026-11-16 18:46:24 | dado inferido | 803 - Sta Isabel de Portugal | dataMorte | 1336 | 8 de julho de 1336
+2026-11-16 18:46:24 | dado inferido | 206 - S. João Gualberto | dataMorte | 1073 | 12 de julho de 1073
+2026-11-16 18:46:24 | dado inferido | 208 - S. Boaventura | dataMorte | 1274 | 14 de julho de 1274
+2026-11-16 18:46:24 | dado inferido | 209 - Sto. Henrique | dataMorte | 1024 | 15 de julho de 1024
+2026-11-16 18:46:24 | dado inferido | 224 - S. Bonifácio | dataMorte | 754 | 5 de junho de 754
+2026-11-16 18:46:24 | dado inferido | 225 - S. Norberto | dataMorte | 1134 | 6 de junho de 1134
+2026-11-16 18:46:24 | dado inferido | 227 - Sta. Margarida | dataMorte | 1093 | 10 de junho de 1093
+2026-11-16 18:46:24 | dado inferido | 232 - Sta. Juliana | dataMorte | 1258 | 19 de junho de 1258
+2026-11-16 18:46:24 | dado inferido | 234 - S. Silvério | dataMorte | 537 | 20 de junho de 537
+2026-11-16 18:46:24 | dado inferido | 238 - S. Guilherme | dataMorte | 1142 | 25 de junho de 1142
+2026-11-16 18:46:24 | dado inferido | 403 - S. Mauro | dataMorte | 584 | 15 de janeiro de 584
+2026-11-16 18:46:24 | dado inferido | 407 - S. Canuto | dataMorte | 1086 | 19 de janeiro de 1086
+2026-11-16 18:46:24 | dado inferido | 410 - S. Raimundo de Penaforte | dataMorte | 1275 | 23 de janeiro de 1275
+2026-11-16 18:46:24 | dado inferido | 415 - S. Pedro Nolasco | dataMorte | 1256 | 28 de janeiro de 1256
+2026-11-16 18:46:24 | dado inferido | 417 - Sto. André Corsini | dataMorte | 1374 | 4 de fevereiro de 1374
+2026-11-16 18:46:24 | dado inferido | 420 - S. Romualdo | dataMorte | 1027 | 7 de fevereiro de 1027
+2026-11-16 18:46:24 | dado inferido | 421 - S. João da Mata | dataMorte | 1213 | 8 de fevereiro de 1213
+2026-11-16 18:46:24 | dado inferido | 425 - 7 Fundadores Servitas | dataMorte | 1310 | 12 de fevereiro de 1310
+2026-11-16 18:46:24 | dado inferido | 428 - S. Pedro Damião | dataMorte | 1072 | 23 de fevereiro de 1072
+2026-11-16 18:46:24 | dado inferido | 430 - S. Casimiro | dataMorte | 1484 | 4 de março de 1484
+2026-11-16 18:46:24 | dado inferido | 434 - Sta. Francisca Romana | dataMorte | 1440 | 9 de março de 1440
+2026-11-16 18:46:24 | dado inferido | 436 - S. Gregório Magno | dataMorte | 604 | 12 de março de 604
+2026-11-16 18:46:24 | dado inferido | 442 - S. João Damasceno | dataMorte | 749 | 27 de março de 749
+2026-11-16 18:46:24 | dado inferido | 443 - Sto. Isidoro | dataMorte | 636 | 4 de abril de 636
+2026-11-16 18:46:24 | dado inferido | 444 - S. Vicente Férrer | dataMorte | 1419 | 5 de abril de 1419
+2026-11-16 18:46:24 | dado inferido | 446 - S. Hermenegildo | dataMorte | 585 | 13 de abril de 585
+2026-11-16 18:46:24 | dado inferido | 450 - Sto. Anselmo | dataMorte | 1109 | 21 de abril de 1109
+2026-11-16 18:46:24 | dado inferido | 458 - S. Pedro de Verona | dataMorte | 1252 | 29 de abril de 1252
+2026-11-16 18:46:24 | dado inferido | 459 - Sta. Catarina de Sena | dataMorte | 1380 | 30 de abril de 1380
+2026-11-16 18:46:24 | dado inferido | 602 - Sto. Estanislau | dataMorte | 1079 | 7 de maio de 1079
+2026-11-16 18:46:24 | dado inferido | 605 - Sto. Antonino | dataMorte | 1459 | 10 de maio de 1459
+2026-11-16 18:46:24 | dado inferido | 611 - S. Ubaldo | dataMorte | 1160 | 16 de maio de 1160
+2026-11-16 18:46:24 | dado inferido | 614 - S. Pedro Celestino | dataMorte | 1296 | 19 de maio de 1296
+2026-11-16 18:46:24 | dado inferido | 616 - S. Bernardino de Sena | dataMorte | 1444 | 20 de maio de 1444
+2026-11-16 18:46:24 | dado inferido | 617 - S. Gregório VII | dataMorte | 1085 | 25 de maio de 1085
+2026-11-16 18:46:24 | dado inferido | 621 - S. Beda, o Venerável | dataMorte | 735 | 27 de maio de 735
+2026-11-16 18:46:24 | dado inferido | 622 - S. João I | dataMorte | 526 | 27 de maio de 526
+2026-11-16 18:46:24 | dado inferido | 623 - Sto. Agostinho de Cantuária | dataMorte | 604 | 28 de maio de 604
+2026-11-16 18:46:24 | dado inferido | 626 - Sta. Joana d'Arc | dataMorte | 1431 | 30 de maio de 1431
+2026-11-16 18:46:24 | dado inferido | 627 - S. Fernando III | dataMorte | 1252 | 30 de maio de 1252
+2026-11-16 18:46:24 | dado inferido | 640 - S. Jacinto | dataMorte | 1257 | 17 de agosto de 1257
+2026-11-16 18:46:24 | dado inferido | 645 - S. Filipe Benício | dataMorte | 1285 | 23 de agosto de 1285
+2026-11-16 18:46:24 | dado inferido | 646 - S. Luís IX | dataMorte | 1270 | 25 de agosto de 1270
+2026-11-16 18:46:24 | dado inferido | 650 - S. Raimundo Nonato | dataMorte | 1240 | 31 de agosto de 1240
+2026-11-16 18:46:24 | dado inferido | 651 - Sto. Egídio | dataMorte | 710 | 1 de setembro de 710
+2026-11-16 18:46:24 | dado inferido | 653 - Sto. Estêvão (Rei) | dataMorte | 1038 | 2 de setembro de 1038
+2026-11-16 18:46:24 | dado inferido | 654 - S. Lourenço Justiniano | dataMorte | 1456 | 5 de setembro de 1456
+2026-11-16 18:46:24 | dado inferido | 656 - S. Nicolau de Tolentino | dataMorte | 1305 | 10 de setembro de 1305
+2026-11-16 18:46:24 | dado inferido | 667 - S. Venceslau | dataMorte | 935 | 28 de setembro de 935
+2026-11-16 18:46:24 | dado inferido | 669 - S. Remígio | dataMorte | 533 | 1 de outubro de 533
+2026-11-16 18:46:24 | dado inferido | 670 - Plácido e Companheiros | dataMorte | 541 | 5 de outubro de 541
+2026-11-16 18:46:24 | dado inferido | 671 - S. Bruno | dataMorte | 1101 | 6 de outubro de 1101
+2026-11-16 18:46:24 | dado inferido | 672 - Sta. Brígida | dataMorte | 1373 | 8 de outubro de 1373
+2026-11-16 18:46:24 | dado inferido | 676 - S. Eduardo | dataMorte | 1066 | 13 de outubro de 1066
+2026-11-16 18:46:24 | dado inferido | 678 - Sta. Edwiges | dataMorte | 1243 | 16 de outubro de 1243
+2026-11-16 18:46:24 | dado inferido | 682 - S. João Câncio | dataMorte | 1473 | 20 de outubro de 1473
+2026-11-16 18:46:24 | dado inferido | 689 - S. Leonardo de Limousin | dataMorte | 559 | 6 de novembro de 559
+2026-11-16 18:46:24 | dado inferido | 694 - S. Martinho I | dataMorte | 655 | 12 de novembro de 655
+2026-11-16 18:46:24 | dado inferido | 695 - S. Diogo | dataMorte | 1463 | 13 de novembro de 1463
+2026-11-16 18:46:24 | dado inferido | 697 - Sto. Alberto Magno | dataMorte | 1280 | 15 de novembro de 1280
+2026-11-16 18:46:24 | dado inferido | 698 - Sta. Gertrudes | dataMorte | 1302 | 16 de novembro de 1302
+2026-11-16 18:46:24 | dado inferido | 700 - S. Félix de Valois | dataMorte | 1212 | 20 de novembro de 1212
+2026-11-16 18:46:24 | dado inferido | 706 - S. Silvestre (Abade) | dataMorte | 1267 | 26 de novembro de 1267
+2026-11-16 18:46:24 | dado inferido | 711 - S. Sabas | dataMorte | 532 | 5 de dezembro de 532
+2026-11-16 18:46:24 | dado inferido | 719 - S. Tomás Becket | dataMorte | 1170 | 29 de dezembro de 1170
+2026-11-16 18:46:24 | dado inferido | 724 - Sta. Inês de Montepulciano | dataMorte | 1317 | 20 de abril de 1317
+2026-11-16 18:46:24 | dado inferido | 14 - Sto. Inácio de Loyola | dataMorte | 1556 | 31 de julho de 1556
+2026-11-16 18:46:24 | dado inferido | 15 - S. Francisco Xavier | dataMorte | 1552 | 3 de dezembro de 1552
+2026-11-16 18:46:24 | dado inferido | 12 - Sta. Teresa d'Ávila | dataMorte | 1582 | 15 de outubro de 1582
+2026-11-16 18:46:24 | dado inferido | 13 - S. João da Cruz | dataMorte | 1591 | 24 de novembro de 1591
+2026-11-16 18:46:24 | dado inferido | 75 - S. Francisco de Sales | dataMorte | 1622 | 29 de janeiro de 1622
+2026-11-16 18:46:24 | dado inferido | 201 - Sto. Antônio Zaccaria | dataMorte | 1539 | 5 de julho de 1539
+2026-11-16 18:46:24 | dado inferido | 211 - S. Camilo de Léllis | dataMorte | 1614 | 18 de julho de 1614
+2026-11-16 18:46:24 | dado inferido | 212 - S. Vicente de Paulo | dataMorte | 1660 | 19 de julho de 1660
+2026-11-16 18:46:24 | dado inferido | 213 - S. Jerônimo Emiliani | dataMorte | 1537 | 20 de julho de 1537
+2026-11-16 18:46:24 | dado inferido | 235 - S. Luís Gonzaga | dataMorte | 1591 | 21 de junho de 1591
+2026-11-16 18:46:24 | dado inferido | 433 - S. João de Deus | dataMorte | 1550 | 8 de março de 1550
+2026-11-16 18:46:24 | dado inferido | 452 - S. Fidélis de Sigmaringa | dataMorte | 1622 | 24 de abril de 1622
+2026-11-16 18:46:24 | dado inferido | 455 - S. Pedro Canísio | dataMorte | 1597 | 27 de abril de 1597
+2026-11-16 18:46:24 | dado inferido | 456 - S. Paulo da Cruz | dataMorte | 1775 | 28 de abril de 1775
+2026-11-16 18:46:24 | dado inferido | 601 - S. Pio V | dataMorte | 1572 | 5 de maio de 1572
+2026-11-16 18:46:24 | dado inferido | 608 - S. Roberto Belarmino | dataMorte | 1621 | 13 de maio de 1621
+2026-11-16 18:46:24 | dado inferido | 610 - S. João Batista de La Salle | dataMorte | 1719 | 15 de maio de 1719
+2026-11-16 18:46:24 | dado inferido | 612 - S. Pascoal Bailão | dataMorte | 1592 | 17 de maio de 1592
+2026-11-16 18:46:24 | dado inferido | 619 - S. Felipe Néri | dataMorte | 1595 | 26 de maio de 1595
+2026-11-16 18:46:24 | dado inferido | 624 - Sta. Maria Madalena de Pazzi | dataMorte | 1607 | 29 de maio de 1607
+2026-11-16 18:46:24 | dado inferido | 629 - Sto. Afonso M. de Ligório | dataMorte | 1787 | 2 de agosto de 1787
+2026-11-16 18:46:24 | dado inferido | 633 - S. Caetano | dataMorte | 1547 | 7 de agosto de 1547
+2026-11-16 18:46:24 | dado inferido | 642 - S. João Eudes | dataMorte | 1680 | 19 de agosto de 1680
+2026-11-16 18:46:24 | dado inferido | 643 - Sta. Joana Francisca de Chantal | dataMorte | 1641 | 21 de agosto de 1641
+2026-11-16 18:46:24 | dado inferido | 648 - S. José de Calasanz | dataMorte | 1648 | 27 de agosto de 1648
+2026-11-16 18:46:24 | dado inferido | 649 - Sta. Rosa de Lima | dataMorte | 1617 | 30 de agosto de 1617
+2026-11-16 18:46:24 | dado inferido | 659 - S. José de Cupertino | dataMorte | 1663 | 18 de setembro de 1663
+2026-11-16 18:46:24 | dado inferido | 662 - S. Tomás de Vilanova | dataMorte | 1555 | 22 de setembro de 1555
+2026-11-16 18:46:24 | dado inferido | 673 - S. João Leonardo | dataMorte | 1609 | 9 de outubro de 1609
+2026-11-16 18:46:24 | dado inferido | 675 - S. Francisco de Borja | dataMorte | 1572 | 10 de outubro de 1572
+2026-11-16 18:46:24 | dado inferido | 679 - Sta. Margarida Maria Alacoque | dataMorte | 1690 | 17 de outubro de 1690
+2026-11-16 18:46:24 | dado inferido | 681 - S. Pedro de Alcântara | dataMorte | 1562 | 19 de outubro de 1562
+2026-11-16 18:46:24 | dado inferido | 688 - S. Carlos Borromeu | dataMorte | 1584 | 4 de novembro de 1584
+2026-11-16 18:46:24 | dado inferido | 692 - Sto. André Avelino | dataMorte | 1608 | 10 de novembro de 1608
+2026-11-16 18:46:24 | dado inferido | 696 - S. Josafá | dataMorte | 1623 | 14 de novembro de 1623
+2026-11-16 18:46:24 | dado inferido | 722 - S. Martinho de Porres | dataMorte | 1639 | 3 de novembro de 1639
+2026-11-16 18:46:24 | dado inferido | 723 - S. João Macias | dataMorte | 1645 | 18 de setembro de 1645
+2026-11-16 18:46:24 | dado inferido | 16 - S. João M. Vianney | dataMorte | 1859 | 9 de agosto de 1859
+2026-11-16 18:46:24 | dado inferido | 61 - S. João Bosco | dataMorte | 1888 | 31 de janeiro de 1888
+2026-11-16 18:46:24 | dado inferido | 17 - Sta. Teresinha | dataMorte | 1897 | 3 de outubro de 1897
+2026-11-16 18:46:24 | dado inferido | 19 - S. Pio X | dataMorte | 1914 | 3 de setembro de 1914
+2026-11-16 18:46:24 | dado inferido | 429 - S. Gabriel da V. Dolorosa | dataMorte | 1862 | 27 de fevereiro de 1862
