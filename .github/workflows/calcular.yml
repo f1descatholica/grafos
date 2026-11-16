@@ -7,6 +7,7 @@ on:
     paths:
       - '*/dados-grafo.js'
       - 'calcular-posicoes.js'
+      - '*/santos-avulsos.json'
   workflow_dispatch: {}
 
 # Permissão para o robô conseguir salvar os resultados de volta no repositório
@@ -34,5 +35,6 @@ jobs:
           git config user.email "actions@github.com"
           git add */dados-com-posicoes.json 2>/dev/null || echo "Nenhum dados-com-posicoes.json encontrado ainda"
           git add */dados-mapa.json 2>/dev/null || echo "Nenhum dados-mapa.json encontrado ainda"
+          git add */santos-substituidos.txt 2>/dev/null || echo "Nenhum santos-substituidos.txt encontrado ainda"
           git commit -m "Atualiza posições e mapas dos grafos" || echo "Nada novo para salvar"
           git push
