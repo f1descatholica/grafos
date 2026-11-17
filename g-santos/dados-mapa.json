@@ -3483,6 +3483,45 @@
       "cidadeId": "503",
       "idGrafo": null,
       "temGrafo": false
+    },
+    {
+      "id": "x_004",
+      "nome": "S. Roque González",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "17 de novembro",
+      "cidade": "Assunção",
+      "pais": "Paraguai",
+      "iso": "PY",
+      "dataMorte": "15 de novembro de 1628",
+      "cidadeId": "cid_assuncao_PY",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_005",
+      "nome": "S. Afonso Rodríguez Olmedo",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "17 de novembro",
+      "cidade": "Zamora",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "15 de novembro de 1628",
+      "cidadeId": "cid_zamora_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_006",
+      "nome": "S. João de Castilho",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "17 de novembro",
+      "cidade": "Belmonte",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "17 de novembro de 1628",
+      "cidadeId": "cid_belmonte_ES",
+      "idGrafo": null,
+      "temGrafo": false
     }
   ],
   "cidades": [
@@ -4145,6 +4184,36 @@
       "lng": 11.9214,
       "qtd": 1,
       "qtdGrafo": 1
+    },
+    {
+      "id": "cid_assuncao_PY",
+      "nome": "Assunção",
+      "pais": "Paraguai",
+      "iso": "PY",
+      "lat": -25.2637,
+      "lng": -57.5759,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_zamora_ES",
+      "nome": "Zamora",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 41.5038,
+      "lng": -5.7446,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_belmonte_ES",
+      "nome": "Belmonte",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 39.5593,
+      "lng": -2.7093,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ],
   "paises": [
@@ -4241,7 +4310,7 @@
       "nome": "Espanha",
       "lat": 40.4637,
       "lng": -3.7492,
-      "qtd": 25,
+      "qtd": 27,
       "qtdGrafo": 22
     },
     {
@@ -4347,6 +4416,14 @@
       "lng": 31.1656,
       "qtd": 1,
       "qtdGrafo": 1
+    },
+    {
+      "iso": "PY",
+      "nome": "Paraguai",
+      "lat": -23.4425,
+      "lng": -58.4438,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ]
 }

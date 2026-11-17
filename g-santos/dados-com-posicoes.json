@@ -8944,86 +8944,6 @@
       "texto": "Dia 31"
     },
     {
-      "from": "56",
-      "to": "1054",
-      "texto": "é"
-    },
-    {
-      "from": "50",
-      "to": "1054",
-      "texto": "é"
-    },
-    {
-      "from": "98",
-      "to": "1054",
-      "texto": "Dia 19"
-    },
-    {
-      "from": "1054",
-      "to": "26",
-      "texto": "nasceu em"
-    },
-    {
-      "from": "56",
-      "to": "1055",
-      "texto": "é"
-    },
-    {
-      "from": "53",
-      "to": "1055",
-      "texto": "é"
-    },
-    {
-      "from": "97",
-      "to": "1055",
-      "texto": "Dia 7"
-    },
-    {
-      "from": "1055",
-      "to": "26",
-      "texto": "nasceu em"
-    },
-    {
-      "from": "50",
-      "to": "1056",
-      "texto": "é"
-    },
-    {
-      "from": "97",
-      "to": "1056",
-      "texto": "Dia 7"
-    },
-    {
-      "from": "50",
-      "to": "1057",
-      "texto": "é"
-    },
-    {
-      "from": "97",
-      "to": "1057",
-      "texto": "Dia 7"
-    },
-    {
-      "from": "50",
-      "to": "1058",
-      "texto": "é"
-    },
-    {
-      "from": "97",
-      "to": "1058",
-      "texto": "Dia 7"
-    },
-    {
-      "from": "50",
-      "to": "1059",
-      "texto": "é"
-    },
-    {
-      "from": "97",
-      "to": "1059",
-      "texto": "Dia 7"
-    },
-    {
       "from": "6",
       "to": "22",
       "texto": "fundou"
@@ -11620,6 +11540,98 @@
       "from": "722",
       "to": "723",
       "texto": "amigo de"
+    },
+    {
+      "from": "56",
+      "to": "1054",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1054",
+      "texto": "é"
+    },
+    {
+      "from": "98",
+      "to": "1054",
+      "texto": "Dia 19"
+    },
+    {
+      "from": "1054",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "56",
+      "to": "1055",
+      "texto": "é"
+    },
+    {
+      "from": "53",
+      "to": "1055",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1055",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "1055",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "50",
+      "to": "1056",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1056",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "1056",
+      "to": "1057",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "50",
+      "to": "1057",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1057",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "50",
+      "to": "1058",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1058",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "1058",
+      "to": "1059",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "50",
+      "to": "1059",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1059",
+      "texto": "Dia 7"
     }
   ],
   "regras": {
