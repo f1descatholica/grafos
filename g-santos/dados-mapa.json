@@ -2,7 +2,7 @@
   "santos": [
     {
       "id": "4",
-      "nome": "S. José",
+      "nome": "José",
       "atributoLiturgico": "Confessor",
       "diaFesta": "19 de março",
       "cidade": "Nazaré",
@@ -15,7 +15,7 @@
     },
     {
       "id": "71",
-      "nome": "S. João Batista",
+      "nome": "João Batista",
       "atributoLiturgico": "Mártir e Profeta",
       "diaFesta": "24 de junho",
       "cidade": "",
@@ -28,7 +28,7 @@
     },
     {
       "id": "2",
-      "nome": "S. Pedro",
+      "nome": "Pedro",
       "atributoLiturgico": "Papa e Mártir e Apóstolo",
       "diaFesta": "29 de junho",
       "cidade": "Betsaida",
@@ -41,7 +41,7 @@
     },
     {
       "id": "3",
-      "nome": "S. Paulo",
+      "nome": "Paulo",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "29 de junho",
       "cidade": "Tarso",
@@ -54,7 +54,7 @@
     },
     {
       "id": "55",
-      "nome": "S. João",
+      "nome": "João",
       "atributoLiturgico": "Bispo e Confessor e Evangelista e Apóstolo",
       "diaFesta": "27 de dezembro",
       "cidade": "Betsaida",
@@ -67,7 +67,7 @@
     },
     {
       "id": "86",
-      "nome": "S. Matias",
+      "nome": "Matias",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "24 de fevereiro",
       "cidade": "",
@@ -80,7 +80,7 @@
     },
     {
       "id": "110",
-      "nome": "S. André",
+      "nome": "André",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "30 de novembro",
       "cidade": "Betsaida",
@@ -93,7 +93,7 @@
     },
     {
       "id": "111",
-      "nome": "S. Tiago Maior",
+      "nome": "Tiago Maior",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "25 de julho",
       "cidade": "Betsaida",
@@ -106,7 +106,7 @@
     },
     {
       "id": "112",
-      "nome": "S. Filipe",
+      "nome": "Filipe",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "11 de maio",
       "cidade": "Betsaida",
@@ -119,7 +119,7 @@
     },
     {
       "id": "113",
-      "nome": "S. Bartolomeu",
+      "nome": "Bartolomeu",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "24 de agosto",
       "cidade": "",
@@ -132,7 +132,7 @@
     },
     {
       "id": "114",
-      "nome": "S. Tomé",
+      "nome": "Tomé",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "21 de dezembro",
       "cidade": "",
@@ -145,7 +145,7 @@
     },
     {
       "id": "115",
-      "nome": "S. Mateus",
+      "nome": "Mateus",
       "atributoLiturgico": "Mártir e Evangelista e Apóstolo",
       "diaFesta": "21 de setembro",
       "cidade": "",
@@ -158,7 +158,7 @@
     },
     {
       "id": "116",
-      "nome": "S. Tiago Menor",
+      "nome": "Tiago Menor",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "11 de maio",
       "cidade": "",
@@ -171,7 +171,7 @@
     },
     {
       "id": "117",
-      "nome": "S. Tadeu",
+      "nome": "Tadeu",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "28 de outubro",
       "cidade": "",
@@ -184,7 +184,7 @@
     },
     {
       "id": "118",
-      "nome": "S. Simão",
+      "nome": "Simão",
       "atributoLiturgico": "Mártir e Apóstolo",
       "diaFesta": "28 de outubro",
       "cidade": "",
@@ -197,7 +197,7 @@
     },
     {
       "id": "228",
-      "nome": "S. Barnabé",
+      "nome": "Barnabé",
       "atributoLiturgico": "Mártir",
       "diaFesta": "11 de junho",
       "cidade": "",
@@ -210,7 +210,7 @@
     },
     {
       "id": "215",
-      "nome": "S. Maria Madalena",
+      "nome": "Maria Madalena",
       "atributoLiturgico": "Penitente",
       "diaFesta": "22 de julho",
       "cidade": "",
@@ -223,7 +223,7 @@
     },
     {
       "id": "218",
-      "nome": "S. Ana",
+      "nome": "Ana",
       "atributoLiturgico": "Viúva",
       "diaFesta": "26 de julho",
       "cidade": "",
@@ -236,7 +236,7 @@
     },
     {
       "id": "221",
-      "nome": "S. Marta",
+      "nome": "Marta",
       "atributoLiturgico": "Virgem",
       "diaFesta": "29 de julho",
       "cidade": "Betânia",
@@ -249,7 +249,7 @@
     },
     {
       "id": "412",
-      "nome": "S. Timóteo",
+      "nome": "Timóteo",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "24 de janeiro",
       "cidade": "",
@@ -262,7 +262,7 @@
     },
     {
       "id": "418",
-      "nome": "S. Tito",
+      "nome": "Tito",
       "atributoLiturgico": "Bispo",
       "diaFesta": "6 de fevereiro",
       "cidade": "",
@@ -275,7 +275,7 @@
     },
     {
       "id": "453",
-      "nome": "S. Marcos Evangelista",
+      "nome": "Marcos Evangelista",
       "atributoLiturgico": "Mártir e Evangelista",
       "diaFesta": "25 de abril",
       "cidade": "",
@@ -288,7 +288,7 @@
     },
     {
       "id": "630",
-      "nome": "S. Estêvão, Protomártir",
+      "nome": "Estêvão, Protomártir",
       "atributoLiturgico": "Mártir",
       "diaFesta": "26 de dezembro",
       "cidade": "Jerusalém",
@@ -301,7 +301,7 @@
     },
     {
       "id": "639",
-      "nome": "S. Joaquim",
+      "nome": "Joaquim",
       "atributoLiturgico": "Confessor",
       "diaFesta": "16 de agosto",
       "cidade": "Nazaré",
@@ -314,7 +314,7 @@
     },
     {
       "id": "680",
-      "nome": "S. Lucas Evangelista",
+      "nome": "Lucas Evangelista",
       "atributoLiturgico": "Evangelista",
       "diaFesta": "18 de outubro",
       "cidade": "Antioquia",
@@ -340,7 +340,7 @@
     },
     {
       "id": "73",
-      "nome": "S. Inês",
+      "nome": "Inês",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "21 de janeiro",
       "cidade": "Roma",
@@ -353,7 +353,7 @@
     },
     {
       "id": "72",
-      "nome": "S. Sebastião",
+      "nome": "Sebastião",
       "atributoLiturgico": "Mártir",
       "diaFesta": "20 de janeiro",
       "cidade": "",
@@ -366,7 +366,7 @@
     },
     {
       "id": "7",
-      "nome": "S. Jorge",
+      "nome": "Jorge",
       "atributoLiturgico": "Mártir",
       "diaFesta": "23 de abril",
       "cidade": "",
@@ -379,7 +379,7 @@
     },
     {
       "id": "76",
-      "nome": "S. Paulo Eremita",
+      "nome": "Paulo Eremita",
       "atributoLiturgico": "Confessor",
       "diaFesta": "15 de janeiro",
       "cidade": "",
@@ -392,7 +392,7 @@
     },
     {
       "id": "74",
-      "nome": "S. Antão",
+      "nome": "Antão",
       "atributoLiturgico": "Abade",
       "diaFesta": "17 de janeiro",
       "cidade": "",
@@ -405,7 +405,7 @@
     },
     {
       "id": "64",
-      "nome": "S. Mônica",
+      "nome": "Mônica",
       "atributoLiturgico": "Viúva",
       "diaFesta": "4 de maio",
       "cidade": "Tagaste",
@@ -418,7 +418,7 @@
     },
     {
       "id": "5",
-      "nome": "S. Agostinho",
+      "nome": "Agostinho",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "28 de agosto",
       "cidade": "Tagaste",
@@ -431,7 +431,7 @@
     },
     {
       "id": "81",
-      "nome": "S. Inácio de Antioquia",
+      "nome": "Inácio de Antioquia",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "1 de fevereiro",
       "cidade": "",
@@ -444,7 +444,7 @@
     },
     {
       "id": "82",
-      "nome": "S. Brás",
+      "nome": "Brás",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "3 de fevereiro",
       "cidade": "Sebaste",
@@ -457,7 +457,7 @@
     },
     {
       "id": "83",
-      "nome": "S. Águeda",
+      "nome": "Águeda",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "5 de fevereiro",
       "cidade": "Catânia",
@@ -470,7 +470,7 @@
     },
     {
       "id": "84",
-      "nome": "S. Valentim",
+      "nome": "Valentim",
       "atributoLiturgico": "Mártir",
       "diaFesta": "14 de fevereiro",
       "cidade": "",
@@ -496,7 +496,7 @@
     },
     {
       "id": "205",
-      "nome": "S. Pio I",
+      "nome": "Pio I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "11 de julho",
       "cidade": "",
@@ -509,7 +509,7 @@
     },
     {
       "id": "207",
-      "nome": "S. Anacleto",
+      "nome": "Anacleto",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "13 de julho",
       "cidade": "",
@@ -522,7 +522,7 @@
     },
     {
       "id": "210",
-      "nome": "S. Aleixo",
+      "nome": "Aleixo",
       "atributoLiturgico": "Confessor",
       "diaFesta": "17 de julho",
       "cidade": "Roma",
@@ -535,7 +535,7 @@
     },
     {
       "id": "214",
-      "nome": "S. Práxedes",
+      "nome": "Práxedes",
       "atributoLiturgico": "Virgem",
       "diaFesta": "21 de julho",
       "cidade": "Roma",
@@ -548,7 +548,7 @@
     },
     {
       "id": "216",
-      "nome": "S. Apolinário",
+      "nome": "Apolinário",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "23 de julho",
       "cidade": "Antioquia",
@@ -561,7 +561,7 @@
     },
     {
       "id": "217",
-      "nome": "S. Cristina",
+      "nome": "Cristina",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "24 de julho",
       "cidade": "Bolsena",
@@ -574,7 +574,7 @@
     },
     {
       "id": "219",
-      "nome": "S. Pantaleão",
+      "nome": "Pantaleão",
       "atributoLiturgico": "Mártir",
       "diaFesta": "27 de julho",
       "cidade": "Nicomédia",
@@ -639,7 +639,7 @@
     },
     {
       "id": "229",
-      "nome": "S. Basílio Magno",
+      "nome": "Basílio Magno",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "14 de junho",
       "cidade": "",
@@ -665,7 +665,7 @@
     },
     {
       "id": "231",
-      "nome": "S. Efrém",
+      "nome": "Efrém",
       "atributoLiturgico": "Doutor",
       "diaFesta": "18 de junho",
       "cidade": "",
@@ -691,7 +691,7 @@
     },
     {
       "id": "236",
-      "nome": "S. Paulino de Nola",
+      "nome": "Paulino de Nola",
       "atributoLiturgico": "Bispo",
       "diaFesta": "22 de junho",
       "cidade": "",
@@ -717,7 +717,7 @@
     },
     {
       "id": "239",
-      "nome": "S. Irineu",
+      "nome": "Irineu",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "28 de junho",
       "cidade": "Esmirna",
@@ -730,7 +730,7 @@
     },
     {
       "id": "400",
-      "nome": "S. Higino",
+      "nome": "Higino",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "11 de janeiro",
       "cidade": "",
@@ -743,7 +743,7 @@
     },
     {
       "id": "401",
-      "nome": "S. Hilário de Poitiers",
+      "nome": "Hilário de Poitiers",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "14 de janeiro",
       "cidade": "Poitiers",
@@ -756,7 +756,7 @@
     },
     {
       "id": "402",
-      "nome": "S. Félix de Nola",
+      "nome": "Félix de Nola",
       "atributoLiturgico": "Mártir",
       "diaFesta": "14 de janeiro",
       "cidade": "Nola",
@@ -769,7 +769,7 @@
     },
     {
       "id": "404",
-      "nome": "S. Marcelo I",
+      "nome": "Marcelo I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "16 de janeiro",
       "cidade": "",
@@ -782,7 +782,7 @@
     },
     {
       "id": "405",
-      "nome": "S. Prisca",
+      "nome": "Prisca",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "18 de janeiro",
       "cidade": "Roma",
@@ -808,7 +808,7 @@
     },
     {
       "id": "408",
-      "nome": "S. Fabiano",
+      "nome": "Fabiano",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "20 de janeiro",
       "cidade": "",
@@ -834,7 +834,7 @@
     },
     {
       "id": "411",
-      "nome": "S. Emerenciana",
+      "nome": "Emerenciana",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "23 de janeiro",
       "cidade": "Roma",
@@ -847,7 +847,7 @@
     },
     {
       "id": "413",
-      "nome": "S. Policarpo",
+      "nome": "Policarpo",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "26 de janeiro",
       "cidade": "Esmirna",
@@ -860,7 +860,7 @@
     },
     {
       "id": "414",
-      "nome": "S. João Crisóstomo",
+      "nome": "João Crisóstomo",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "27 de janeiro",
       "cidade": "Antioquia",
@@ -873,7 +873,7 @@
     },
     {
       "id": "416",
-      "nome": "S. Martinha",
+      "nome": "Martinha",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "30 de janeiro",
       "cidade": "Roma",
@@ -886,7 +886,7 @@
     },
     {
       "id": "419",
-      "nome": "S. Dorotéia",
+      "nome": "Dorotéia",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "6 de fevereiro",
       "cidade": "",
@@ -899,7 +899,7 @@
     },
     {
       "id": "422",
-      "nome": "S. Cirilo de Alexandria",
+      "nome": "Cirilo de Alexandria",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "9 de fevereiro",
       "cidade": "Alexandria",
@@ -912,7 +912,7 @@
     },
     {
       "id": "423",
-      "nome": "S. Apolônia",
+      "nome": "Apolônia",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "9 de fevereiro",
       "cidade": "Alexandria",
@@ -938,7 +938,7 @@
     },
     {
       "id": "427",
-      "nome": "S. Simeão",
+      "nome": "Simeão",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "18 de fevereiro",
       "cidade": "",
@@ -951,7 +951,7 @@
     },
     {
       "id": "431",
-      "nome": "S. Lúcio I",
+      "nome": "Lúcio I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "4 de março",
       "cidade": "Roma",
@@ -990,7 +990,7 @@
     },
     {
       "id": "437",
-      "nome": "S. Patrício",
+      "nome": "Patrício",
       "atributoLiturgico": "Bispo",
       "diaFesta": "17 de março",
       "cidade": "",
@@ -1003,7 +1003,7 @@
     },
     {
       "id": "438",
-      "nome": "S. Cirilo de Jerusalém",
+      "nome": "Cirilo de Jerusalém",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "18 de março",
       "cidade": "Jerusalém",
@@ -1016,7 +1016,7 @@
     },
     {
       "id": "445",
-      "nome": "S. Leão Magno",
+      "nome": "Leão Magno",
       "atributoLiturgico": "Papa e Doutor",
       "diaFesta": "11 de abril",
       "cidade": "",
@@ -1029,7 +1029,7 @@
     },
     {
       "id": "447",
-      "nome": "S. Justino",
+      "nome": "Justino",
       "atributoLiturgico": "Mártir",
       "diaFesta": "14 de abril",
       "cidade": "",
@@ -1055,7 +1055,7 @@
     },
     {
       "id": "449",
-      "nome": "S. Aniceto",
+      "nome": "Aniceto",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "17 de abril",
       "cidade": "",
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "457",
-      "nome": "S. Vital",
+      "nome": "Vital",
       "atributoLiturgico": "Mártir",
       "diaFesta": "28 de abril",
       "cidade": "Milão",
@@ -1107,7 +1107,7 @@
     },
     {
       "id": "600",
-      "nome": "S. Atanásio",
+      "nome": "Atanásio",
       "atributoLiturgico": "Bispo e Doutor e Confessor",
       "diaFesta": "2 de maio",
       "cidade": "Alexandria",
@@ -1120,7 +1120,7 @@
     },
     {
       "id": "604",
-      "nome": "S. Gregório Nazianzeno",
+      "nome": "Gregório Nazianzeno",
       "atributoLiturgico": "Bispo e Doutor e Confessor",
       "diaFesta": "9 de maio",
       "cidade": "",
@@ -1159,7 +1159,7 @@
     },
     {
       "id": "613",
-      "nome": "S. Venâncio",
+      "nome": "Venâncio",
       "atributoLiturgico": "Mártir",
       "diaFesta": "18 de maio",
       "cidade": "",
@@ -1172,7 +1172,7 @@
     },
     {
       "id": "615",
-      "nome": "S. Pudenciana",
+      "nome": "Pudenciana",
       "atributoLiturgico": "Virgem",
       "diaFesta": "19 de maio",
       "cidade": "Roma",
@@ -1185,7 +1185,7 @@
     },
     {
       "id": "618",
-      "nome": "S. Urbano I",
+      "nome": "Urbano I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "25 de maio",
       "cidade": "Roma",
@@ -1198,7 +1198,7 @@
     },
     {
       "id": "620",
-      "nome": "S. Eleutério",
+      "nome": "Eleutério",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "26 de maio",
       "cidade": "",
@@ -1211,7 +1211,7 @@
     },
     {
       "id": "625",
-      "nome": "S. Félix I",
+      "nome": "Félix I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "30 de maio",
       "cidade": "Roma",
@@ -1224,7 +1224,7 @@
     },
     {
       "id": "628",
-      "nome": "S. Petronila",
+      "nome": "Petronila",
       "atributoLiturgico": "Virgem",
       "diaFesta": "31 de maio",
       "cidade": "Roma",
@@ -1250,7 +1250,7 @@
     },
     {
       "id": "635",
-      "nome": "S. Lourenço",
+      "nome": "Lourenço",
       "atributoLiturgico": "Mártir",
       "diaFesta": "10 de agosto",
       "cidade": "",
@@ -1289,7 +1289,7 @@
     },
     {
       "id": "641",
-      "nome": "S. Agapito",
+      "nome": "Agapito",
       "atributoLiturgico": "Mártir",
       "diaFesta": "18 de agosto",
       "cidade": "",
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "647",
-      "nome": "S. Zeferino",
+      "nome": "Zeferino",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "26 de agosto",
       "cidade": "Roma",
@@ -1328,7 +1328,7 @@
     },
     {
       "id": "655",
-      "nome": "S. Gorgônio",
+      "nome": "Gorgônio",
       "atributoLiturgico": "Mártir",
       "diaFesta": "9 de setembro",
       "cidade": "Nicomédia",
@@ -1367,7 +1367,7 @@
     },
     {
       "id": "660",
-      "nome": "S. Januário e Comp.",
+      "nome": "Januário e Comp.",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "19 de setembro",
       "cidade": "Nápoles",
@@ -1393,7 +1393,7 @@
     },
     {
       "id": "663",
-      "nome": "S. Maurício e Comp.",
+      "nome": "Maurício e Comp.",
       "atributoLiturgico": "Mártir",
       "diaFesta": "22 de setembro",
       "cidade": "",
@@ -1406,7 +1406,7 @@
     },
     {
       "id": "664",
-      "nome": "S. Lino",
+      "nome": "Lino",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "23 de setembro",
       "cidade": "",
@@ -1445,7 +1445,7 @@
     },
     {
       "id": "668",
-      "nome": "S. Jerônimo",
+      "nome": "Jerônimo",
       "atributoLiturgico": "Doutor e Confessor",
       "diaFesta": "30 de setembro",
       "cidade": "Estridão",
@@ -1471,7 +1471,7 @@
     },
     {
       "id": "677",
-      "nome": "S. Calisto I",
+      "nome": "Calisto I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "14 de outubro",
       "cidade": "Roma",
@@ -1484,7 +1484,7 @@
     },
     {
       "id": "683",
-      "nome": "S. Hilarião",
+      "nome": "Hilarião",
       "atributoLiturgico": "Abade e Confessor",
       "diaFesta": "21 de outubro",
       "cidade": "",
@@ -1497,7 +1497,7 @@
     },
     {
       "id": "684",
-      "nome": "S. Úrsula e Comp.",
+      "nome": "Úrsula e Comp.",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "21 de outubro",
       "cidade": "",
@@ -1510,7 +1510,7 @@
     },
     {
       "id": "686",
-      "nome": "Santos Crisanto e Daria",
+      "nome": "Crisanto e Daria",
       "atributoLiturgico": "Mártir",
       "diaFesta": "25 de outubro",
       "cidade": "",
@@ -1523,7 +1523,7 @@
     },
     {
       "id": "687",
-      "nome": "S. Evaristo",
+      "nome": "Evaristo",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "26 de outubro",
       "cidade": "",
@@ -1549,7 +1549,7 @@
     },
     {
       "id": "691",
-      "nome": "S. Teodoro",
+      "nome": "Teodoro",
       "atributoLiturgico": "Mártir",
       "diaFesta": "9 de novembro",
       "cidade": "",
@@ -1562,7 +1562,7 @@
     },
     {
       "id": "693",
-      "nome": "S. Martinho de Tours",
+      "nome": "Martinho de Tours",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "11 de novembro",
       "cidade": "",
@@ -1575,7 +1575,7 @@
     },
     {
       "id": "699",
-      "nome": "S. Gregório Taumaturgo",
+      "nome": "Gregório Taumaturgo",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "17 de novembro",
       "cidade": "",
@@ -1588,7 +1588,7 @@
     },
     {
       "id": "701",
-      "nome": "S. Cecília",
+      "nome": "Cecília",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "22 de novembro",
       "cidade": "Roma",
@@ -1601,7 +1601,7 @@
     },
     {
       "id": "702",
-      "nome": "S. Clemente I",
+      "nome": "Clemente I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "23 de novembro",
       "cidade": "Roma",
@@ -1614,7 +1614,7 @@
     },
     {
       "id": "703",
-      "nome": "S. Felicidade",
+      "nome": "Felicidade",
       "atributoLiturgico": "Mártir",
       "diaFesta": "23 de novembro",
       "cidade": "Roma",
@@ -1627,7 +1627,7 @@
     },
     {
       "id": "704",
-      "nome": "S. Crisógono",
+      "nome": "Crisógono",
       "atributoLiturgico": "Mártir",
       "diaFesta": "24 de novembro",
       "cidade": "",
@@ -1640,7 +1640,7 @@
     },
     {
       "id": "705",
-      "nome": "S. Catarina de Alexandria",
+      "nome": "Catarina de Alexandria",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "25 de novembro",
       "cidade": "Alexandria",
@@ -1653,7 +1653,7 @@
     },
     {
       "id": "707",
-      "nome": "S. Pedro de Alexandria",
+      "nome": "Pedro de Alexandria",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "26 de novembro",
       "cidade": "Alexandria",
@@ -1666,7 +1666,7 @@
     },
     {
       "id": "708",
-      "nome": "S. Saturnino",
+      "nome": "Saturnino",
       "atributoLiturgico": "Mártir",
       "diaFesta": "29 de novembro",
       "cidade": "",
@@ -1679,7 +1679,7 @@
     },
     {
       "id": "709",
-      "nome": "S. Bibiana",
+      "nome": "Bibiana",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "2 de dezembro",
       "cidade": "Roma",
@@ -1692,7 +1692,7 @@
     },
     {
       "id": "710",
-      "nome": "S. Pedro Crisólogo",
+      "nome": "Pedro Crisólogo",
       "atributoLiturgico": "Bispo e Doutor e Confessor",
       "diaFesta": "4 de dezembro",
       "cidade": "",
@@ -1705,7 +1705,7 @@
     },
     {
       "id": "712",
-      "nome": "S. Nicolau",
+      "nome": "Nicolau",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "6 de dezembro",
       "cidade": "",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "713",
-      "nome": "S. Ambrósio",
+      "nome": "Ambrósio",
       "atributoLiturgico": "Bispo e Doutor e Confessor",
       "diaFesta": "7 de dezembro",
       "cidade": "",
@@ -1731,7 +1731,7 @@
     },
     {
       "id": "714",
-      "nome": "S. Melquíades",
+      "nome": "Melquíades",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "10 de dezembro",
       "cidade": "",
@@ -1744,7 +1744,7 @@
     },
     {
       "id": "715",
-      "nome": "S. Dâmaso I",
+      "nome": "Dâmaso I",
       "atributoLiturgico": "Papa e Confessor",
       "diaFesta": "11 de dezembro",
       "cidade": "",
@@ -1757,7 +1757,7 @@
     },
     {
       "id": "716",
-      "nome": "S. Luzia",
+      "nome": "Luzia",
       "atributoLiturgico": "Virgem e Mártir",
       "diaFesta": "13 de dezembro",
       "cidade": "",
@@ -1770,7 +1770,7 @@
     },
     {
       "id": "717",
-      "nome": "S. Eusébio de Vercelli",
+      "nome": "Eusébio de Vercelli",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "16 de dezembro",
       "cidade": "",
@@ -1783,7 +1783,7 @@
     },
     {
       "id": "720",
-      "nome": "S. Silvestre I",
+      "nome": "Silvestre I",
       "atributoLiturgico": "Papa e Confessor",
       "diaFesta": "31 de dezembro",
       "cidade": "Roma",
@@ -1796,7 +1796,7 @@
     },
     {
       "id": "721",
-      "nome": "S. Libório",
+      "nome": "Libório",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "23 de julho",
       "cidade": "",
@@ -1809,7 +1809,7 @@
     },
     {
       "id": "1054",
-      "nome": "S. Ponciano",
+      "nome": "Ponciano",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "19 de novembro",
       "cidade": "Roma",
@@ -1822,7 +1822,7 @@
     },
     {
       "id": "1055",
-      "nome": "S. Marcos Papa",
+      "nome": "Marcos Papa",
       "atributoLiturgico": "Papa e Confessor",
       "diaFesta": "7 de outubro",
       "cidade": "Roma",
@@ -1835,7 +1835,7 @@
     },
     {
       "id": "1056",
-      "nome": "S. Sérgio",
+      "nome": "Sérgio",
       "atributoLiturgico": "Mártir",
       "diaFesta": "7 de outubro",
       "cidade": "",
@@ -1848,7 +1848,7 @@
     },
     {
       "id": "1057",
-      "nome": "S. Baco",
+      "nome": "Baco",
       "atributoLiturgico": "Mártir",
       "diaFesta": "7 de outubro",
       "cidade": "",
@@ -1861,7 +1861,7 @@
     },
     {
       "id": "1058",
-      "nome": "S. Marcelo",
+      "nome": "Marcelo",
       "atributoLiturgico": "Mártir",
       "diaFesta": "7 de outubro",
       "cidade": "",
@@ -1874,7 +1874,7 @@
     },
     {
       "id": "1059",
-      "nome": "S. Apuleio",
+      "nome": "Apuleio",
       "atributoLiturgico": "Mártir",
       "diaFesta": "7 de outubro",
       "cidade": "",
@@ -1887,7 +1887,7 @@
     },
     {
       "id": "6",
-      "nome": "S. Bento",
+      "nome": "Bento",
       "atributoLiturgico": "Abade",
       "diaFesta": "21 de março",
       "cidade": "Nórcia",
@@ -1900,7 +1900,7 @@
     },
     {
       "id": "85",
-      "nome": "S. Escolástica",
+      "nome": "Escolástica",
       "atributoLiturgico": "Virgem",
       "diaFesta": "10 de fevereiro",
       "cidade": "Nórcia",
@@ -1913,7 +1913,7 @@
     },
     {
       "id": "66",
-      "nome": "S. Bernardo",
+      "nome": "Bernardo",
       "atributoLiturgico": "Abade e Doutor",
       "diaFesta": "20 de agosto",
       "cidade": "Fontaine-lès-Dijon",
@@ -1926,7 +1926,7 @@
     },
     {
       "id": "8",
-      "nome": "S. Francisco",
+      "nome": "Francisco",
       "atributoLiturgico": "Confessor",
       "diaFesta": "4 de outubro",
       "cidade": "Assis",
@@ -1939,7 +1939,7 @@
     },
     {
       "id": "11",
-      "nome": "S. Clara",
+      "nome": "Clara",
       "atributoLiturgico": "Virgem",
       "diaFesta": "12 de agosto",
       "cidade": "Assis",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "9",
-      "nome": "S. Domingos",
+      "nome": "Domingos",
       "atributoLiturgico": "Confessor",
       "diaFesta": "4 de agosto",
       "cidade": "Caleruega",
@@ -1965,7 +1965,7 @@
     },
     {
       "id": "10",
-      "nome": "S. Tomás de Aquino",
+      "nome": "Tomás de Aquino",
       "atributoLiturgico": "Doutor",
       "diaFesta": "7 de março",
       "cidade": "Roccasecca",
@@ -1978,7 +1978,7 @@
     },
     {
       "id": "65",
-      "nome": "S. Antônio",
+      "nome": "Antônio",
       "atributoLiturgico": "Doutor",
       "diaFesta": "13 de junho",
       "cidade": "Lisboa",
@@ -1991,7 +1991,7 @@
     },
     {
       "id": "67",
-      "nome": "S. Rita",
+      "nome": "Rita",
       "atributoLiturgico": "Viúva",
       "diaFesta": "22 de maio",
       "cidade": "Cássia",
@@ -2004,7 +2004,7 @@
     },
     {
       "id": "200",
-      "nome": "S. Leão II",
+      "nome": "Leão II",
       "atributoLiturgico": "Papa",
       "diaFesta": "3 de julho",
       "cidade": "",
@@ -2030,7 +2030,7 @@
     },
     {
       "id": "203",
-      "nome": "Sta Isabel da Hungria",
+      "nome": "Isabel da Hungria",
       "atributoLiturgico": "Viúva",
       "diaFesta": "19 de novembro",
       "cidade": "",
@@ -2043,7 +2043,7 @@
     },
     {
       "id": "803",
-      "nome": "Sta Isabel de Portugal",
+      "nome": "Isabel de Portugal",
       "atributoLiturgico": "Viúva",
       "diaFesta": "8 de julho",
       "cidade": "Saragoça",
@@ -2056,7 +2056,7 @@
     },
     {
       "id": "206",
-      "nome": "S. João Gualberto",
+      "nome": "João Gualberto",
       "atributoLiturgico": "Abade",
       "diaFesta": "12 de julho",
       "cidade": "Florença",
@@ -2069,7 +2069,7 @@
     },
     {
       "id": "208",
-      "nome": "S. Boaventura",
+      "nome": "Boaventura",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "14 de julho",
       "cidade": "",
@@ -2082,7 +2082,7 @@
     },
     {
       "id": "209",
-      "nome": "S. Henrique",
+      "nome": "Henrique",
       "atributoLiturgico": "Confessor",
       "diaFesta": "15 de julho",
       "cidade": "",
@@ -2095,7 +2095,7 @@
     },
     {
       "id": "224",
-      "nome": "S. Bonifácio",
+      "nome": "Bonifácio",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "5 de junho",
       "cidade": "",
@@ -2108,7 +2108,7 @@
     },
     {
       "id": "225",
-      "nome": "S. Norberto",
+      "nome": "Norberto",
       "atributoLiturgico": "Bispo",
       "diaFesta": "6 de junho",
       "cidade": "",
@@ -2121,7 +2121,7 @@
     },
     {
       "id": "227",
-      "nome": "S. Margarida",
+      "nome": "Margarida",
       "atributoLiturgico": "Viúva",
       "diaFesta": "10 de junho",
       "cidade": "",
@@ -2134,7 +2134,7 @@
     },
     {
       "id": "232",
-      "nome": "S. Juliana",
+      "nome": "Juliana",
       "atributoLiturgico": "Virgem",
       "diaFesta": "19 de junho",
       "cidade": "Florença",
@@ -2147,7 +2147,7 @@
     },
     {
       "id": "234",
-      "nome": "S. Silvério",
+      "nome": "Silvério",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "20 de junho",
       "cidade": "",
@@ -2160,7 +2160,7 @@
     },
     {
       "id": "238",
-      "nome": "S. Guilherme",
+      "nome": "Guilherme",
       "atributoLiturgico": "Abade",
       "diaFesta": "25 de junho",
       "cidade": "",
@@ -2173,7 +2173,7 @@
     },
     {
       "id": "403",
-      "nome": "S. Mauro",
+      "nome": "Mauro",
       "atributoLiturgico": "Abade",
       "diaFesta": "15 de janeiro",
       "cidade": "Roma",
@@ -2186,7 +2186,7 @@
     },
     {
       "id": "407",
-      "nome": "S. Canuto",
+      "nome": "Canuto",
       "atributoLiturgico": "Mártir",
       "diaFesta": "19 de janeiro",
       "cidade": "",
@@ -2199,7 +2199,7 @@
     },
     {
       "id": "410",
-      "nome": "S. Raimundo de Penaforte",
+      "nome": "Raimundo de Penaforte",
       "atributoLiturgico": "Confessor",
       "diaFesta": "23 de janeiro",
       "cidade": "Barcelona",
@@ -2212,7 +2212,7 @@
     },
     {
       "id": "415",
-      "nome": "S. Pedro Nolasco",
+      "nome": "Pedro Nolasco",
       "atributoLiturgico": "Confessor",
       "diaFesta": "28 de janeiro",
       "cidade": "",
@@ -2225,7 +2225,7 @@
     },
     {
       "id": "417",
-      "nome": "S. André Corsini",
+      "nome": "André Corsini",
       "atributoLiturgico": "Bispo",
       "diaFesta": "4 de fevereiro",
       "cidade": "Florença",
@@ -2238,7 +2238,7 @@
     },
     {
       "id": "420",
-      "nome": "S. Romualdo",
+      "nome": "Romualdo",
       "atributoLiturgico": "Abade",
       "diaFesta": "7 de fevereiro",
       "cidade": "Ravena",
@@ -2251,7 +2251,7 @@
     },
     {
       "id": "421",
-      "nome": "S. João da Mata",
+      "nome": "João da Mata",
       "atributoLiturgico": "Confessor",
       "diaFesta": "8 de fevereiro",
       "cidade": "",
@@ -2277,7 +2277,7 @@
     },
     {
       "id": "428",
-      "nome": "S. Pedro Damião",
+      "nome": "Pedro Damião",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "23 de fevereiro",
       "cidade": "Ravena",
@@ -2290,7 +2290,7 @@
     },
     {
       "id": "430",
-      "nome": "S. Casimiro",
+      "nome": "Casimiro",
       "atributoLiturgico": "Confessor",
       "diaFesta": "4 de março",
       "cidade": "Cracóvia",
@@ -2303,7 +2303,7 @@
     },
     {
       "id": "434",
-      "nome": "S. Francisca Romana",
+      "nome": "Francisca Romana",
       "atributoLiturgico": "Viúva",
       "diaFesta": "9 de março",
       "cidade": "Roma",
@@ -2316,7 +2316,7 @@
     },
     {
       "id": "436",
-      "nome": "S. Gregório Magno",
+      "nome": "Gregório Magno",
       "atributoLiturgico": "Papa e Doutor",
       "diaFesta": "12 de março",
       "cidade": "Roma",
@@ -2329,7 +2329,7 @@
     },
     {
       "id": "442",
-      "nome": "S. João Damasceno",
+      "nome": "João Damasceno",
       "atributoLiturgico": "Doutor",
       "diaFesta": "27 de março",
       "cidade": "Damasco",
@@ -2342,7 +2342,7 @@
     },
     {
       "id": "443",
-      "nome": "S. Isidoro",
+      "nome": "Isidoro",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "4 de abril",
       "cidade": "",
@@ -2355,7 +2355,7 @@
     },
     {
       "id": "444",
-      "nome": "S. Vicente Férrer",
+      "nome": "Vicente Férrer",
       "atributoLiturgico": "Confessor",
       "diaFesta": "5 de abril",
       "cidade": "Valência",
@@ -2368,7 +2368,7 @@
     },
     {
       "id": "446",
-      "nome": "S. Hermenegildo",
+      "nome": "Hermenegildo",
       "atributoLiturgico": "Mártir",
       "diaFesta": "13 de abril",
       "cidade": "",
@@ -2381,7 +2381,7 @@
     },
     {
       "id": "450",
-      "nome": "S. Anselmo",
+      "nome": "Anselmo",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "21 de abril",
       "cidade": "",
@@ -2394,7 +2394,7 @@
     },
     {
       "id": "458",
-      "nome": "S. Pedro de Verona",
+      "nome": "Pedro de Verona",
       "atributoLiturgico": "Mártir",
       "diaFesta": "29 de abril",
       "cidade": "",
@@ -2407,7 +2407,7 @@
     },
     {
       "id": "459",
-      "nome": "S. Catarina de Sena",
+      "nome": "Catarina de Sena",
       "atributoLiturgico": "Virgem e Doutor",
       "diaFesta": "30 de abril",
       "cidade": "Siena",
@@ -2420,7 +2420,7 @@
     },
     {
       "id": "602",
-      "nome": "S. Estanislau",
+      "nome": "Estanislau",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "7 de maio",
       "cidade": "Cracóvia",
@@ -2433,7 +2433,7 @@
     },
     {
       "id": "605",
-      "nome": "S. Antonino",
+      "nome": "Antonino",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "10 de maio",
       "cidade": "Florença",
@@ -2446,7 +2446,7 @@
     },
     {
       "id": "611",
-      "nome": "S. Ubaldo",
+      "nome": "Ubaldo",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "16 de maio",
       "cidade": "",
@@ -2459,7 +2459,7 @@
     },
     {
       "id": "614",
-      "nome": "S. Pedro Celestino",
+      "nome": "Pedro Celestino",
       "atributoLiturgico": "Papa e Confessor",
       "diaFesta": "19 de maio",
       "cidade": "",
@@ -2472,7 +2472,7 @@
     },
     {
       "id": "616",
-      "nome": "S. Bernardino de Sena",
+      "nome": "Bernardino de Sena",
       "atributoLiturgico": "Confessor",
       "diaFesta": "20 de maio",
       "cidade": "",
@@ -2485,7 +2485,7 @@
     },
     {
       "id": "617",
-      "nome": "S. Gregório VII",
+      "nome": "Gregório VII",
       "atributoLiturgico": "Papa e Confessor",
       "diaFesta": "25 de maio",
       "cidade": "",
@@ -2498,7 +2498,7 @@
     },
     {
       "id": "621",
-      "nome": "S. Beda, o Venerável",
+      "nome": "Beda, o Venerável",
       "atributoLiturgico": "Doutor e Confessor",
       "diaFesta": "27 de maio",
       "cidade": "",
@@ -2511,7 +2511,7 @@
     },
     {
       "id": "622",
-      "nome": "S. João I",
+      "nome": "João I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "27 de maio",
       "cidade": "",
@@ -2524,7 +2524,7 @@
     },
     {
       "id": "623",
-      "nome": "S. Agostinho de Cantuária",
+      "nome": "Agostinho de Cantuária",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "28 de maio",
       "cidade": "Roma",
@@ -2537,7 +2537,7 @@
     },
     {
       "id": "626",
-      "nome": "S. Joana d'Arc",
+      "nome": "Joana d'Arc",
       "atributoLiturgico": "Virgem",
       "diaFesta": "30 de maio",
       "cidade": "",
@@ -2550,7 +2550,7 @@
     },
     {
       "id": "627",
-      "nome": "S. Fernando III",
+      "nome": "Fernando III",
       "atributoLiturgico": "Confessor",
       "diaFesta": "30 de maio",
       "cidade": "",
@@ -2563,7 +2563,7 @@
     },
     {
       "id": "640",
-      "nome": "S. Jacinto",
+      "nome": "Jacinto",
       "atributoLiturgico": "Confessor",
       "diaFesta": "17 de agosto",
       "cidade": "",
@@ -2576,7 +2576,7 @@
     },
     {
       "id": "645",
-      "nome": "S. Filipe Benício",
+      "nome": "Filipe Benício",
       "atributoLiturgico": "Confessor",
       "diaFesta": "23 de agosto",
       "cidade": "Florença",
@@ -2589,7 +2589,7 @@
     },
     {
       "id": "646",
-      "nome": "S. Luís IX",
+      "nome": "Luís IX",
       "atributoLiturgico": "Confessor",
       "diaFesta": "25 de agosto",
       "cidade": "",
@@ -2602,7 +2602,7 @@
     },
     {
       "id": "650",
-      "nome": "S. Raimundo Nonato",
+      "nome": "Raimundo Nonato",
       "atributoLiturgico": "Confessor",
       "diaFesta": "31 de agosto",
       "cidade": "",
@@ -2615,7 +2615,7 @@
     },
     {
       "id": "651",
-      "nome": "S. Egídio",
+      "nome": "Egídio",
       "atributoLiturgico": "Abade e Confessor",
       "diaFesta": "1 de setembro",
       "cidade": "",
@@ -2628,7 +2628,7 @@
     },
     {
       "id": "653",
-      "nome": "S. Estêvão (Rei)",
+      "nome": "Estêvão (Rei)",
       "atributoLiturgico": "Confessor",
       "diaFesta": "2 de setembro",
       "cidade": "",
@@ -2641,7 +2641,7 @@
     },
     {
       "id": "654",
-      "nome": "S. Lourenço Justiniano",
+      "nome": "Lourenço Justiniano",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "5 de setembro",
       "cidade": "Veneza",
@@ -2654,7 +2654,7 @@
     },
     {
       "id": "656",
-      "nome": "S. Nicolau de Tolentino",
+      "nome": "Nicolau de Tolentino",
       "atributoLiturgico": "Confessor",
       "diaFesta": "10 de setembro",
       "cidade": "",
@@ -2667,7 +2667,7 @@
     },
     {
       "id": "667",
-      "nome": "S. Venceslau",
+      "nome": "Venceslau",
       "atributoLiturgico": "Mártir",
       "diaFesta": "28 de setembro",
       "cidade": "",
@@ -2680,7 +2680,7 @@
     },
     {
       "id": "669",
-      "nome": "S. Remígio",
+      "nome": "Remígio",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "1 de outubro",
       "cidade": "",
@@ -2706,7 +2706,7 @@
     },
     {
       "id": "671",
-      "nome": "S. Bruno",
+      "nome": "Bruno",
       "atributoLiturgico": "Confessor",
       "diaFesta": "6 de outubro",
       "cidade": "",
@@ -2719,7 +2719,7 @@
     },
     {
       "id": "672",
-      "nome": "S. Brígida",
+      "nome": "Brígida",
       "atributoLiturgico": "Viúva",
       "diaFesta": "8 de outubro",
       "cidade": "",
@@ -2732,7 +2732,7 @@
     },
     {
       "id": "676",
-      "nome": "S. Eduardo",
+      "nome": "Eduardo",
       "atributoLiturgico": "Confessor",
       "diaFesta": "13 de outubro",
       "cidade": "",
@@ -2745,7 +2745,7 @@
     },
     {
       "id": "678",
-      "nome": "S. Edwiges",
+      "nome": "Edwiges",
       "atributoLiturgico": "Viúva",
       "diaFesta": "16 de outubro",
       "cidade": "",
@@ -2758,7 +2758,7 @@
     },
     {
       "id": "682",
-      "nome": "S. João Câncio",
+      "nome": "João Câncio",
       "atributoLiturgico": "Confessor",
       "diaFesta": "20 de outubro",
       "cidade": "",
@@ -2771,7 +2771,7 @@
     },
     {
       "id": "689",
-      "nome": "S. Leonardo de Limousin",
+      "nome": "Leonardo de Limousin",
       "atributoLiturgico": "Confessor",
       "diaFesta": "6 de novembro",
       "cidade": "",
@@ -2784,7 +2784,7 @@
     },
     {
       "id": "694",
-      "nome": "S. Martinho I",
+      "nome": "Martinho I",
       "atributoLiturgico": "Papa e Mártir",
       "diaFesta": "12 de novembro",
       "cidade": "",
@@ -2797,7 +2797,7 @@
     },
     {
       "id": "695",
-      "nome": "S. Diogo",
+      "nome": "Diogo",
       "atributoLiturgico": "Confessor",
       "diaFesta": "13 de novembro",
       "cidade": "",
@@ -2810,7 +2810,7 @@
     },
     {
       "id": "697",
-      "nome": "S. Alberto Magno",
+      "nome": "Alberto Magno",
       "atributoLiturgico": "Bispo e Doutor e Confessor",
       "diaFesta": "15 de novembro",
       "cidade": "",
@@ -2823,7 +2823,7 @@
     },
     {
       "id": "698",
-      "nome": "S. Gertrudes",
+      "nome": "Gertrudes",
       "atributoLiturgico": "Virgem",
       "diaFesta": "16 de novembro",
       "cidade": "",
@@ -2836,7 +2836,7 @@
     },
     {
       "id": "700",
-      "nome": "S. Félix de Valois",
+      "nome": "Félix de Valois",
       "atributoLiturgico": "Confessor",
       "diaFesta": "20 de novembro",
       "cidade": "",
@@ -2849,7 +2849,7 @@
     },
     {
       "id": "706",
-      "nome": "S. Silvestre (Abade)",
+      "nome": "Silvestre (Abade)",
       "atributoLiturgico": "Abade e Confessor",
       "diaFesta": "26 de novembro",
       "cidade": "",
@@ -2862,7 +2862,7 @@
     },
     {
       "id": "711",
-      "nome": "S. Sabas",
+      "nome": "Sabas",
       "atributoLiturgico": "Abade e Confessor",
       "diaFesta": "5 de dezembro",
       "cidade": "",
@@ -2875,7 +2875,7 @@
     },
     {
       "id": "719",
-      "nome": "S. Tomás Becket",
+      "nome": "Tomás Becket",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "29 de dezembro",
       "cidade": "",
@@ -2888,7 +2888,7 @@
     },
     {
       "id": "724",
-      "nome": "S. Inês de Montepulciano",
+      "nome": "Inês de Montepulciano",
       "atributoLiturgico": "Virgem",
       "diaFesta": "20 de abril",
       "cidade": "Montepulciano",
@@ -2901,7 +2901,7 @@
     },
     {
       "id": "14",
-      "nome": "S. Inácio de Loyola",
+      "nome": "Inácio de Loyola",
       "atributoLiturgico": "Confessor",
       "diaFesta": "31 de julho",
       "cidade": "Loyola",
@@ -2914,7 +2914,7 @@
     },
     {
       "id": "15",
-      "nome": "S. Francisco Xavier",
+      "nome": "Francisco Xavier",
       "atributoLiturgico": "Confessor",
       "diaFesta": "3 de dezembro",
       "cidade": "Javier",
@@ -2927,7 +2927,7 @@
     },
     {
       "id": "12",
-      "nome": "S. Teresa d'Ávila",
+      "nome": "Teresa d'Ávila",
       "atributoLiturgico": "Virgem",
       "diaFesta": "15 de outubro",
       "cidade": "Ávila",
@@ -2940,7 +2940,7 @@
     },
     {
       "id": "13",
-      "nome": "S. João da Cruz",
+      "nome": "João da Cruz",
       "atributoLiturgico": "Doutor",
       "diaFesta": "24 de novembro",
       "cidade": "Fontiveros",
@@ -2953,7 +2953,7 @@
     },
     {
       "id": "75",
-      "nome": "S. Francisco de Sales",
+      "nome": "Francisco de Sales",
       "atributoLiturgico": "Bispo e Doutor",
       "diaFesta": "29 de janeiro",
       "cidade": "Thorens-Glières",
@@ -2966,7 +2966,7 @@
     },
     {
       "id": "201",
-      "nome": "S. Antônio Zaccaria",
+      "nome": "Antônio Zaccaria",
       "atributoLiturgico": "Confessor",
       "diaFesta": "5 de julho",
       "cidade": "Cremona",
@@ -2979,7 +2979,7 @@
     },
     {
       "id": "211",
-      "nome": "S. Camilo de Léllis",
+      "nome": "Camilo de Léllis",
       "atributoLiturgico": "Confessor",
       "diaFesta": "18 de julho",
       "cidade": "Bucchianico",
@@ -2992,7 +2992,7 @@
     },
     {
       "id": "212",
-      "nome": "S. Vicente de Paulo",
+      "nome": "Vicente de Paulo",
       "atributoLiturgico": "Confessor",
       "diaFesta": "19 de julho",
       "cidade": "Pouy",
@@ -3005,7 +3005,7 @@
     },
     {
       "id": "213",
-      "nome": "S. Jerônimo Emiliani",
+      "nome": "Jerônimo Emiliani",
       "atributoLiturgico": "Confessor",
       "diaFesta": "20 de julho",
       "cidade": "Veneza",
@@ -3018,7 +3018,7 @@
     },
     {
       "id": "235",
-      "nome": "S. Luís Gonzaga",
+      "nome": "Luís Gonzaga",
       "atributoLiturgico": "Confessor",
       "diaFesta": "21 de junho",
       "cidade": "Castiglione delle Stiviere",
@@ -3031,7 +3031,7 @@
     },
     {
       "id": "433",
-      "nome": "S. João de Deus",
+      "nome": "João de Deus",
       "atributoLiturgico": "Confessor",
       "diaFesta": "8 de março",
       "cidade": "Montemor-o-Novo",
@@ -3044,7 +3044,7 @@
     },
     {
       "id": "452",
-      "nome": "S. Fidélis de Sigmaringa",
+      "nome": "Fidélis de Sigmaringa",
       "atributoLiturgico": "Mártir",
       "diaFesta": "24 de abril",
       "cidade": "Sigmaringen",
@@ -3057,7 +3057,7 @@
     },
     {
       "id": "455",
-      "nome": "S. Pedro Canísio",
+      "nome": "Pedro Canísio",
       "atributoLiturgico": "Doutor",
       "diaFesta": "27 de abril",
       "cidade": "Nijmegen",
@@ -3070,7 +3070,7 @@
     },
     {
       "id": "456",
-      "nome": "S. Paulo da Cruz",
+      "nome": "Paulo da Cruz",
       "atributoLiturgico": "Confessor",
       "diaFesta": "28 de abril",
       "cidade": "Ovada",
@@ -3083,7 +3083,7 @@
     },
     {
       "id": "601",
-      "nome": "S. Pio V",
+      "nome": "Pio V",
       "atributoLiturgico": "Papa e Confessor",
       "diaFesta": "5 de maio",
       "cidade": "Bosco Marengo",
@@ -3096,7 +3096,7 @@
     },
     {
       "id": "608",
-      "nome": "S. Roberto Belarmino",
+      "nome": "Roberto Belarmino",
       "atributoLiturgico": "Bispo e Doutor e Confessor",
       "diaFesta": "13 de maio",
       "cidade": "Montepulciano",
@@ -3109,7 +3109,7 @@
     },
     {
       "id": "610",
-      "nome": "S. João Batista de La Salle",
+      "nome": "João Batista de La Salle",
       "atributoLiturgico": "Confessor",
       "diaFesta": "15 de maio",
       "cidade": "Reims",
@@ -3122,7 +3122,7 @@
     },
     {
       "id": "612",
-      "nome": "S. Pascoal Bailão",
+      "nome": "Pascoal Bailão",
       "atributoLiturgico": "Confessor",
       "diaFesta": "17 de maio",
       "cidade": "Torrehermosa",
@@ -3135,7 +3135,7 @@
     },
     {
       "id": "619",
-      "nome": "S. Felipe Néri",
+      "nome": "Felipe Néri",
       "atributoLiturgico": "Confessor",
       "diaFesta": "26 de maio",
       "cidade": "Florença",
@@ -3148,7 +3148,7 @@
     },
     {
       "id": "624",
-      "nome": "S. Maria Madalena de Pazzi",
+      "nome": "Maria Madalena de Pazzi",
       "atributoLiturgico": "Virgem",
       "diaFesta": "29 de maio",
       "cidade": "Florença",
@@ -3161,7 +3161,7 @@
     },
     {
       "id": "629",
-      "nome": "S. Afonso M. de Ligório",
+      "nome": "Afonso M. de Ligório",
       "atributoLiturgico": "Bispo e Doutor e Confessor",
       "diaFesta": "2 de agosto",
       "cidade": "Marianella",
@@ -3174,7 +3174,7 @@
     },
     {
       "id": "633",
-      "nome": "S. Caetano",
+      "nome": "Caetano",
       "atributoLiturgico": "Confessor",
       "diaFesta": "7 de agosto",
       "cidade": "Vicenza",
@@ -3187,7 +3187,7 @@
     },
     {
       "id": "642",
-      "nome": "S. João Eudes",
+      "nome": "João Eudes",
       "atributoLiturgico": "Confessor",
       "diaFesta": "19 de agosto",
       "cidade": "Ri",
@@ -3200,7 +3200,7 @@
     },
     {
       "id": "643",
-      "nome": "S. Joana Francisca de Chantal",
+      "nome": "Joana Francisca de Chantal",
       "atributoLiturgico": "Viúva",
       "diaFesta": "21 de agosto",
       "cidade": "Dijon",
@@ -3213,7 +3213,7 @@
     },
     {
       "id": "648",
-      "nome": "S. José de Calasanz",
+      "nome": "José de Calasanz",
       "atributoLiturgico": "Confessor",
       "diaFesta": "27 de agosto",
       "cidade": "Peralta de la Sal",
@@ -3226,7 +3226,7 @@
     },
     {
       "id": "649",
-      "nome": "S. Rosa de Lima",
+      "nome": "Rosa de Lima",
       "atributoLiturgico": "Virgem",
       "diaFesta": "30 de agosto",
       "cidade": "Lima",
@@ -3239,7 +3239,7 @@
     },
     {
       "id": "659",
-      "nome": "S. José de Cupertino",
+      "nome": "José de Cupertino",
       "atributoLiturgico": "Confessor",
       "diaFesta": "18 de setembro",
       "cidade": "Cupertino",
@@ -3252,7 +3252,7 @@
     },
     {
       "id": "662",
-      "nome": "S. Tomás de Vilanova",
+      "nome": "Tomás de Vilanova",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "22 de setembro",
       "cidade": "",
@@ -3265,7 +3265,7 @@
     },
     {
       "id": "673",
-      "nome": "S. João Leonardo",
+      "nome": "João Leonardo",
       "atributoLiturgico": "Confessor",
       "diaFesta": "9 de outubro",
       "cidade": "",
@@ -3278,7 +3278,7 @@
     },
     {
       "id": "675",
-      "nome": "S. Francisco de Borja",
+      "nome": "Francisco de Borja",
       "atributoLiturgico": "Confessor",
       "diaFesta": "10 de outubro",
       "cidade": "",
@@ -3291,7 +3291,7 @@
     },
     {
       "id": "679",
-      "nome": "S. Margarida Maria Alacoque",
+      "nome": "Margarida Maria Alacoque",
       "atributoLiturgico": "Virgem",
       "diaFesta": "17 de outubro",
       "cidade": "",
@@ -3304,7 +3304,7 @@
     },
     {
       "id": "681",
-      "nome": "S. Pedro de Alcântara",
+      "nome": "Pedro de Alcântara",
       "atributoLiturgico": "Confessor",
       "diaFesta": "19 de outubro",
       "cidade": "",
@@ -3317,7 +3317,7 @@
     },
     {
       "id": "688",
-      "nome": "S. Carlos Borromeu",
+      "nome": "Carlos Borromeu",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "4 de novembro",
       "cidade": "",
@@ -3330,7 +3330,7 @@
     },
     {
       "id": "692",
-      "nome": "S. André Avelino",
+      "nome": "André Avelino",
       "atributoLiturgico": "Confessor",
       "diaFesta": "10 de novembro",
       "cidade": "",
@@ -3343,7 +3343,7 @@
     },
     {
       "id": "696",
-      "nome": "S. Josafá",
+      "nome": "Josafá",
       "atributoLiturgico": "Bispo e Mártir",
       "diaFesta": "14 de novembro",
       "cidade": "",
@@ -3356,7 +3356,7 @@
     },
     {
       "id": "722",
-      "nome": "S. Martinho de Porres",
+      "nome": "Martinho de Porres",
       "atributoLiturgico": "Confessor",
       "diaFesta": "3 de novembro",
       "cidade": "Lima",
@@ -3369,7 +3369,7 @@
     },
     {
       "id": "723",
-      "nome": "S. João Macias",
+      "nome": "João Macias",
       "atributoLiturgico": "Confessor",
       "diaFesta": "18 de setembro",
       "cidade": "",
@@ -3382,7 +3382,7 @@
     },
     {
       "id": "16",
-      "nome": "S. João M. Vianney",
+      "nome": "João M. Vianney",
       "atributoLiturgico": "Confessor",
       "diaFesta": "9 de agosto",
       "cidade": "Dardilly",
@@ -3395,7 +3395,7 @@
     },
     {
       "id": "61",
-      "nome": "S. João Bosco",
+      "nome": "João Bosco",
       "atributoLiturgico": "Confessor",
       "diaFesta": "31 de janeiro",
       "cidade": "Castelnuovo Don Bosco",
@@ -3408,7 +3408,7 @@
     },
     {
       "id": "17",
-      "nome": "S. Teresinha",
+      "nome": "Teresinha",
       "atributoLiturgico": "Virgem",
       "diaFesta": "3 de outubro",
       "cidade": "Alençon",
@@ -3421,7 +3421,7 @@
     },
     {
       "id": "19",
-      "nome": "S. Pio X",
+      "nome": "Pio X",
       "atributoLiturgico": "Papa",
       "diaFesta": "3 de setembro",
       "cidade": "Riese Pio X",
@@ -3434,7 +3434,7 @@
     },
     {
       "id": "429",
-      "nome": "S. Gabriel da V. Dolorosa",
+      "nome": "Gabriel da V. Dolorosa",
       "atributoLiturgico": "Confessor",
       "diaFesta": "27 de fevereiro",
       "cidade": "",
@@ -3447,7 +3447,7 @@
     },
     {
       "id": "x_001",
-      "nome": "São José Pignatelli",
+      "nome": "José Pignatelli",
       "atributoLiturgico": "Presbítero e Confessor",
       "diaFesta": "14 de novembro",
       "cidade": "Saragoça",
@@ -3460,7 +3460,7 @@
     },
     {
       "id": "x_002",
-      "nome": "São Valério de Saragoça",
+      "nome": "Valério de Saragoça",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "29 de janeiro",
       "cidade": "Saragoça",
@@ -3473,7 +3473,7 @@
     },
     {
       "id": "x_003",
-      "nome": "São Bráulio de Saragoça",
+      "nome": "Bráulio de Saragoça",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "26 de março",
       "cidade": "Saragoça",
@@ -3486,7 +3486,7 @@
     },
     {
       "id": "x_004",
-      "nome": "S. Roque González",
+      "nome": "Roque González",
       "atributoLiturgico": "Presbítero e Mártir",
       "diaFesta": "17 de novembro",
       "cidade": "Assunção",
@@ -3499,7 +3499,7 @@
     },
     {
       "id": "x_005",
-      "nome": "S. Afonso Rodríguez Olmedo",
+      "nome": "Afonso Rodríguez Olmedo",
       "atributoLiturgico": "Presbítero e Mártir",
       "diaFesta": "17 de novembro",
       "cidade": "Zamora",
@@ -3512,7 +3512,7 @@
     },
     {
       "id": "x_006",
-      "nome": "S. João de Castilho",
+      "nome": "João de Castilho",
       "atributoLiturgico": "Presbítero e Mártir",
       "diaFesta": "17 de novembro",
       "cidade": "Belmonte",
