@@ -325,7 +325,7 @@ var todosNos = [
     { id: '621', level: 4, label: 'S. Beda, o Venerável', grupo: 'pessoa', ano: 735, paisNasc: 'GB', dataMorte: '25 de maio de 735' },
     { id: '622', level: 4, label: 'S. João I', grupo: 'pessoa', ano: 526, paisNasc: 'IT', dataMorte: '18 de maio de 526' },
     { id: '623', level: 4, label: 'S. Agostinho de Cantuária', grupo: 'pessoa', ano: 604, localNasc: '26', dataMorte: '26 de maio de 604' },
-    { id: '626', level: 4, label: 'S. Joana d'Arc', grupo: 'pessoa', ano: 1431, paisNasc: 'FR', dataMorte: '30 de maio de 1431' },
+    { id: '626', level: 4, label: 'S. Joana d\'Arc', grupo: 'pessoa', ano: 1431, paisNasc: 'FR', dataMorte: '30 de maio de 1431' },
     { id: '627', level: 4, label: 'S. Fernando III', grupo: 'pessoa', ano: 1252, paisNasc: 'ES', dataMorte: '30 de maio de 1252' },
     { id: '640', level: 4, label: 'S. Jacinto', grupo: 'pessoa', ano: 1257, paisNasc: 'PL', dataMorte: '15 de agosto de 1257' },
     { id: '645', level: 4, label: 'S. Filipe Benício', grupo: 'pessoa', ano: 1285, localNasc: '317', dataMorte: '22 de agosto de 1285' },
@@ -359,7 +359,7 @@ var todosNos = [
     // ==========================================
     { id: '14',  level: 5, label: 'S. Inácio de Loyola', grupo: 'pessoa', ano: 1556, localNasc: '820', dataMorte: '31 de julho de 1556' },
     { id: '15',  level: 5, label: 'S. Francisco Xavier', grupo: 'pessoa', ano: 1552, localNasc: '821', dataMorte: '3 de dezembro de 1552' },
-    { id: '12',  level: 5, label: 'S. Teresa d'Ávila', grupo: 'pessoa', ano: 1582, localNasc: '149', dataMorte: '4 de outubro de 1582' },
+    { id: '12',  level: 5, label: 'S. Teresa d\'Ávila', grupo: 'pessoa', ano: 1582, localNasc: '149', dataMorte: '4 de outubro de 1582' },
     { id: '13',  level: 5, label: 'S. João da Cruz', grupo: 'pessoa', ano: 1591, localNasc: '822', dataMorte: '14 de dezembro de 1591' },
     { id: '75',  level: 5, label: 'S. Francisco de Sales', grupo: 'pessoa', ano: 1622, localNasc: '823', dataMorte: '28 de dezembro de 1622' },
     { id: '201', level: 5, label: 'S. Antônio Zaccaria', grupo: 'pessoa', ano: 1539, localNasc: '829', dataMorte: '5 de julho de 1539' },
