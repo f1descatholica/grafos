@@ -71,7 +71,8 @@ var regrasDoGrafo = {
       DK: { nome: 'Dinamarca', lat: 56.2639, lng: 9.5018 },
       NL: { nome: 'Países Baixos', lat: 52.1326, lng: 5.2913 },
       SE: { nome: 'Suécia', lat: 60.1282, lng: 18.6435 },
-      UA: { nome: 'Ucrânia', lat: 48.3794, lng: 31.1656 }
+      UA: { nome: 'Ucrânia', lat: 48.3794, lng: 31.1656 },
+	  PY: { nome: 'Paraguai', lat: -23.4425, lng: -58.4438 }
     }
   }
 };
@@ -1340,41 +1341,6 @@ var todosSetas = [
     { from: '99', to: '718', texto: 'Dia 28' },
     { from: '99', to: '719', texto: 'Dia 29' },
     { from: '99', to: '720', texto: 'Dia 31' },
-	
-	
-	//santos avulsos com todos atributos
-	
-	
-	// S. Ponciano (1054)
-{ from: '56', to: '1054', texto: 'é' },
-{ from: '50', to: '1054', texto: 'é' },
-{ from: '98', to: '1054', texto: 'Dia 19' },
-{ from: '1054', to: '26', texto: 'nasceu em' },
-
-// S. Marcos Papa (1055)
-{ from: '56', to: '1055', texto: 'é' },
-{ from: '53', to: '1055', texto: 'é' },
-{ from: '97', to: '1055', texto: 'Dia 7' },
-{ from: '1055', to: '26', texto: 'nasceu em' },
-
-// S. Sérgio (1056)
-{ from: '50', to: '1056', texto: 'é' },
-{ from: '97', to: '1056', texto: 'Dia 7' },
-
-// S. Baco (1057)
-{ from: '50', to: '1057', texto: 'é' },
-{ from: '97', to: '1057', texto: 'Dia 7' },
-
-// S. Marcelo (1058)
-{ from: '50', to: '1058', texto: 'é' },
-{ from: '97', to: '1058', texto: 'Dia 7' },
-
-// S. Apuleio (1059)
-{ from: '50', to: '1059', texto: 'é' },
-{ from: '97', to: '1059', texto: 'Dia 7' },
-
-
-
 
     // ORDENS E OBRAS
     { from: '6', to: '22', texto: 'fundou' },
@@ -1922,7 +1888,50 @@ var todosSetas = [
     { from: '75', to: '61', texto: 'inspirou o método pastoral', dashes: true },
     { from: '61', to: '16', texto: 'amigo de' },
     { from: '649', to: '722', texto: 'amigo de' },
-    { from: '722', to: '723', texto: 'amigo de' }
+    { from: '722', to: '723', texto: 'amigo de' },
+	
+	
+	
+	
+		
+	
+	//santos avulsos com todos atributos
+	
+// S. Ponciano (1054)
+{ from: '56', to: '1054', texto: 'é' },
+{ from: '50', to: '1054', texto: 'é' },
+{ from: '98', to: '1054', texto: 'Dia 19' },
+{ from: '1054', to: '26', texto: 'nasceu em' },
+
+// S. Marcos Papa (1055)
+{ from: '56', to: '1055', texto: 'é' },
+{ from: '53', to: '1055', texto: 'é' },
+{ from: '97', to: '1055', texto: 'Dia 7' },
+{ from: '1055', to: '26', texto: 'nasceu em' },
+
+// S. Sérgio (1056)
+{ from: '50', to: '1056', texto: 'é' },
+{ from: '97', to: '1056', texto: 'Dia 7' },
+{ from: '1056', to: '1057', texto: 'companheiros', dashes: true },
+
+// S. Baco (1057)
+{ from: '50', to: '1057', texto: 'é' },
+{ from: '97', to: '1057', texto: 'Dia 7' },
+
+// S. Marcelo (1058)
+{ from: '50', to: '1058', texto: 'é' },
+{ from: '97', to: '1058', texto: 'Dia 7' },
+{ from: '1058', to: '1059', texto: 'companheiros', dashes: true },
+
+// S. Apuleio (1059)
+{ from: '50', to: '1059', texto: 'é' },
+{ from: '97', to: '1059', texto: 'Dia 7' }
+
+
+
+
+
+
 
 ];
 
