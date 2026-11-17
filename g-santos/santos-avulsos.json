@@ -2,7 +2,7 @@
   "santos": [
     {
       "id": "x_001",
-      "nome": "São José Pignatelli",
+      "nome": "José Pignatelli",
       "atributo_liturgico": "Presbítero e Confessor",
       "dia_festa_liturgica": "14 de novembro",
       "cidade_nascimento": "Saragoça",
@@ -14,7 +14,7 @@
     },
     {
       "id": "x_002",
-      "nome": "São Valério de Saragoça",
+      "nome": "Valério de Saragoça",
       "atributo_liturgico": "Bispo e Confessor",
       "dia_festa_liturgica": "29 de janeiro",
       "cidade_nascimento": "Saragoça",
@@ -26,7 +26,7 @@
     },
     {
       "id": "x_003",
-      "nome": "São Bráulio de Saragoça",
+      "nome": "Bráulio de Saragoça",
       "atributo_liturgico": "Bispo e Confessor",
       "dia_festa_liturgica": "26 de março",
       "cidade_nascimento": "Saragoça",
@@ -38,7 +38,7 @@
     },
   {
     "id": "x_004",
-    "nome": "S. Roque González",
+    "nome": "Roque González",
     "atributo_liturgico": "Presbítero e Mártir",
     "dia_festa_liturgica": "17 de novembro",
     "cidade_nascimento": "Assunção",
@@ -50,7 +50,7 @@
   },
   {
     "id": "x_005",
-    "nome": "S. Afonso Rodríguez Olmedo",
+    "nome": "Afonso Rodríguez Olmedo",
     "atributo_liturgico": "Presbítero e Mártir",
     "dia_festa_liturgica": "17 de novembro",
     "cidade_nascimento": "Zamora",
@@ -62,7 +62,7 @@
   },
   {
     "id": "x_006",
-    "nome": "S. João de Castilho",
+    "nome": "João de Castilho",
     "atributo_liturgico": "Presbítero e Mártir",
     "dia_festa_liturgica": "17 de novembro",
     "cidade_nascimento": "Belmonte",
