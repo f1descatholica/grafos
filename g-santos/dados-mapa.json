@@ -3522,6 +3522,136 @@
       "cidadeId": "cid_belmonte_ES",
       "idGrafo": null,
       "temGrafo": false
+    },
+    {
+      "id": "x_007",
+      "nome": "Alfeu",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "17 de novembro",
+      "cidade": "Eleuterópolis",
+      "pais": "Israel",
+      "iso": "IL",
+      "dataMorte": "17 de novembro de 303",
+      "cidadeId": "cid_eleuteropolis_IL",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_008",
+      "nome": "Zaqueu",
+      "atributoLiturgico": "Diácono e Mártir",
+      "diaFesta": "17 de novembro",
+      "cidade": "Gadara",
+      "pais": "Jordânia",
+      "iso": "JO",
+      "dataMorte": "17 de novembro de 303",
+      "cidadeId": "cid_gadara_JO",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_009",
+      "nome": "Acisclo",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "17 de novembro",
+      "cidade": "Córdova",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "cerca de 304",
+      "cidadeId": "cid_cordova_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_010",
+      "nome": "Vitória",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "17 de novembro",
+      "cidade": "Córdova",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "cerca de 304",
+      "cidadeId": "cid_cordova_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_011",
+      "nome": "Dionísio de Alexandria",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "17 de novembro",
+      "cidade": "Alexandria",
+      "pais": "Egito",
+      "iso": "EG",
+      "dataMorte": "22 de março de 265",
+      "cidadeId": "510",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_012",
+      "nome": "Aniano de Orléans",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "17 de novembro",
+      "cidade": "Vienne",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "cerca de 453",
+      "cidadeId": "cid_vienne_FR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_013",
+      "nome": "Hugo de Lincoln",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "17 de novembro",
+      "cidade": "Avalon",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "16 de novembro de 1200",
+      "cidadeId": "cid_avalon_FR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_014",
+      "nome": "Hilda de Whitby",
+      "atributoLiturgico": "Abadessa",
+      "diaFesta": "17 de novembro",
+      "cidade": "",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "dataMorte": "17 de novembro de 680",
+      "cidadeId": null,
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_015",
+      "nome": "Gregório de Tours",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "17 de novembro",
+      "cidade": "Clermont-Ferrand",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "17 de novembro de 594",
+      "cidadeId": "cid_clermont_ferrand_FR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_016",
+      "nome": "Eugênio de Florença",
+      "atributoLiturgico": "Diácono e Confessor",
+      "diaFesta": "17 de novembro",
+      "cidade": "Florença",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "cerca de 422",
+      "cidadeId": "317",
+      "idGrafo": null,
+      "temGrafo": false
     }
   ],
   "cidades": [
@@ -3712,7 +3842,7 @@
       "iso": "EG",
       "lat": 31.2001,
       "lng": 29.9187,
-      "qtd": 5,
+      "qtd": 6,
       "qtdGrafo": 5
     },
     {
@@ -3832,7 +3962,7 @@
       "iso": "IT",
       "lat": 43.7696,
       "lng": 11.2558,
-      "qtd": 8,
+      "qtd": 9,
       "qtdGrafo": 8
     },
     {
@@ -4214,6 +4344,66 @@
       "lng": -2.7093,
       "qtd": 1,
       "qtdGrafo": 0
+    },
+    {
+      "id": "cid_eleuteropolis_IL",
+      "nome": "Eleuterópolis",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 31.6128,
+      "lng": 34.8978,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_gadara_JO",
+      "nome": "Gadara",
+      "pais": "Jordânia",
+      "iso": "JO",
+      "lat": 32.6542,
+      "lng": 35.6841,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_cordova_ES",
+      "nome": "Córdova",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 37.8882,
+      "lng": -4.7794,
+      "qtd": 2,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_vienne_FR",
+      "nome": "Vienne",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 45.525,
+      "lng": 4.8744,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_avalon_FR",
+      "nome": "Avalon",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 45.4244,
+      "lng": 6.0175,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_clermont_ferrand_FR",
+      "nome": "Clermont-Ferrand",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 45.7772,
+      "lng": 3.087,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ],
   "paises": [
@@ -4222,7 +4412,7 @@
       "nome": "Israel",
       "lat": 31.0461,
       "lng": 34.8516,
-      "qtd": 21,
+      "qtd": 22,
       "qtdGrafo": 21
     },
     {
@@ -4262,7 +4452,7 @@
       "nome": "Itália",
       "lat": 41.8719,
       "lng": 12.5674,
-      "qtd": 116,
+      "qtd": 117,
       "qtdGrafo": 116
     },
     {
@@ -4270,7 +4460,7 @@
       "nome": "França",
       "lat": 46.2276,
       "lng": 2.2137,
-      "qtd": 20,
+      "qtd": 23,
       "qtdGrafo": 20
     },
     {
@@ -4278,7 +4468,7 @@
       "nome": "Egito",
       "lat": 26.8206,
       "lng": 30.8025,
-      "qtd": 9,
+      "qtd": 10,
       "qtdGrafo": 9
     },
     {
@@ -4310,7 +4500,7 @@
       "nome": "Espanha",
       "lat": 40.4637,
       "lng": -3.7492,
-      "qtd": 27,
+      "qtd": 29,
       "qtdGrafo": 22
     },
     {
@@ -4326,7 +4516,7 @@
       "nome": "Reino Unido",
       "lat": 55.3781,
       "lng": -3.436,
-      "qtd": 6,
+      "qtd": 7,
       "qtdGrafo": 6
     },
     {
