@@ -35,6 +35,42 @@
       "lat": 41.6488,
       "lng": -0.8891,
       "data_morte": "651"
-  }
+    },
+  {
+    "id": "x_004",
+    "nome": "S. Roque González",
+    "atributo_liturgico": "Presbítero e Mártir",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Assunção",
+    "pais_nascimento": "Paraguai",
+    "iso": "PY",
+    "lat": -25.2637,
+    "lng": -57.5759,
+    "data_morte": "15 de novembro de 1628"
+  },
+  {
+    "id": "x_005",
+    "nome": "S. Afonso Rodríguez Olmedo",
+    "atributo_liturgico": "Presbítero e Mártir",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Zamora",
+    "pais_nascimento": "Espanha",
+    "iso": "ES",
+    "lat": 41.5038,
+    "lng": -5.7446,
+    "data_morte": "15 de novembro de 1628"
+  },
+  {
+    "id": "x_006",
+    "nome": "S. João de Castilho",
+    "atributo_liturgico": "Presbítero e Mártir",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Belmonte",
+    "pais_nascimento": "Espanha",
+    "iso": "ES",
+    "lat": 39.5593,
+    "lng": -2.7093,
+    "data_morte": "17 de novembro de 1628"
+    }
   ]
 }
