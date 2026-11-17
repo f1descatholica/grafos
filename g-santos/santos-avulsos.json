@@ -71,6 +71,123 @@
     "lat": 39.5593,
     "lng": -2.7093,
     "data_morte": "17 de novembro de 1628"
-    }
+    },
+  {
+    "id": "x_007",
+    "nome": "Alfeu",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Eleuterópolis",
+    "pais_nascimento": "Israel",
+    "iso": "IL",
+    "lat": 31.6128,
+    "lng": 34.8978,
+    "data_morte": "17 de novembro de 303"
+  },
+  {
+    "id": "x_008",
+    "nome": "Zaqueu",
+    "atributo_liturgico": "Diácono e Mártir",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Gadara",
+    "pais_nascimento": "Jordânia",
+    "iso": "JO",
+    "lat": 32.6542,
+    "lng": 35.6841,
+    "data_morte": "17 de novembro de 303"
+  },
+  {
+    "id": "x_009",
+    "nome": "Acisclo",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Córdova",
+    "pais_nascimento": "Espanha",
+    "iso": "ES",
+    "lat": 37.8882,
+    "lng": -4.7794,
+    "data_morte": "cerca de 304"
+  },
+  {
+    "id": "x_010",
+    "nome": "Vitória",
+    "atributo_liturgico": "Virgem e Mártir",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Córdova",
+    "pais_nascimento": "Espanha",
+    "iso": "ES",
+    "lat": 37.8882,
+    "lng": -4.7794,
+    "data_morte": "cerca de 304"
+  },
+  {
+    "id": "x_011",
+    "nome": "Dionísio de Alexandria",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Alexandria",
+    "pais_nascimento": "Egito",
+    "iso": "EG",
+    "lat": 31.2001,
+    "lng": 29.9187,
+    "data_morte": "22 de março de 265"
+  },
+  {
+    "id": "x_012",
+    "nome": "Aniano de Orléans",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Vienne",
+    "pais_nascimento": "França",
+    "iso": "FR",
+    "lat": 45.525,
+    "lng": 4.8744,
+    "data_morte": "cerca de 453"
+  },
+  {
+    "id": "x_013",
+    "nome": "Hugo de Lincoln",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Avalon",
+    "pais_nascimento": "França",
+    "iso": "FR",
+    "lat": 45.4244,
+    "lng": 6.0175,
+    "data_morte": "16 de novembro de 1200"
+  },
+  {
+    "id": "x_014",
+    "nome": "Hilda de Whitby",
+    "atributo_liturgico": "Abadessa",
+    "dia_festa_liturgica": "17 de novembro",
+    "pais_nascimento": "Reino Unido",
+    "iso": "GB",
+    "data_morte": "17 de novembro de 680"
+  },
+  {
+    "id": "x_015",
+    "nome": "Gregório de Tours",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Clermont-Ferrand",
+    "pais_nascimento": "França",
+    "iso": "FR",
+    "lat": 45.7772,
+    "lng": 3.087,
+    "data_morte": "17 de novembro de 594"
+  },
+  {
+    "id": "x_016",
+    "nome": "Eugênio de Florença",
+    "atributo_liturgico": "Diácono e Confessor",
+    "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "Florença",
+    "pais_nascimento": "Itália",
+    "iso": "IT",
+    "lat": 43.7696,
+    "lng": 11.2558,
+    "data_morte": "cerca de 422"
+  }
   ]
 }
