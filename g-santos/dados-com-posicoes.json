@@ -6,8 +6,8 @@
       "categoria": "ideia",
       "label": "MÁRTIR",
       "grupo": "ideia",
-      "x": 578,
-      "y": 112.5
+      "x": 372,
+      "y": 37.5
     },
     {
       "id": "51",
@@ -15,8 +15,8 @@
       "categoria": "ideia",
       "label": "DOUTOR",
       "grupo": "ideia",
-      "x": 344,
-      "y": 37.5
+      "x": -826,
+      "y": 112.5
     },
     {
       "id": "52",
@@ -33,8 +33,8 @@
       "categoria": "ideia",
       "label": "CONFESSOR",
       "grupo": "ideia",
-      "x": -131,
-      "y": 37.5
+      "x": 117,
+      "y": 112.5
     },
     {
       "id": "56",
@@ -42,7 +42,7 @@
       "categoria": "ideia",
       "label": "PAPA",
       "grupo": "ideia",
-      "x": -620,
+      "x": 854,
       "y": 37.5
     },
     {
@@ -51,7 +51,7 @@
       "categoria": "ideia",
       "label": "BISPO",
       "grupo": "ideia",
-      "x": 1067,
+      "x": -379,
       "y": 112.5
     },
     {
@@ -60,8 +60,8 @@
       "categoria": "ideia",
       "label": "ABADE",
       "grupo": "ideia",
-      "x": -833,
-      "y": 112.5
+      "x": -599,
+      "y": 37.5
     },
     {
       "id": "60",
@@ -69,7 +69,7 @@
       "categoria": "ideia",
       "label": "VIÚVA",
       "grupo": "ideia",
-      "x": 117,
+      "x": 1591,
       "y": 112.5
     },
     {
@@ -78,8 +78,8 @@
       "categoria": "ideia",
       "label": "FESTA",
       "grupo": "ideia",
-      "x": 1591,
-      "y": 112.5
+      "x": 1371,
+      "y": 37.5
     },
     {
       "id": "849",
@@ -87,8 +87,8 @@
       "categoria": "ideia",
       "label": "APÓSTOLO",
       "grupo": "ideia",
-      "x": 826,
-      "y": 37.5
+      "x": 620,
+      "y": 112.5
     },
     {
       "id": "848",
@@ -96,8 +96,8 @@
       "categoria": "ideia",
       "label": "PROFETA",
       "grupo": "ideia",
-      "x": -393,
-      "y": 112.5
+      "x": -145,
+      "y": 37.5
     },
     {
       "id": "1005",
@@ -114,8 +114,8 @@
       "categoria": "ideia",
       "label": "EVANGELISTA",
       "grupo": "ideia",
-      "x": 1329,
-      "y": 37.5
+      "x": 1109,
+      "y": 112.5
     },
     {
       "id": "1053",
@@ -133,8 +133,8 @@
       "label": "JANEIRO",
       "grupo": "documento",
       "mesNumero": 1,
-      "x": 791,
-      "y": 262.5
+      "x": -1315,
+      "y": 187.5
     },
     {
       "id": "80",
@@ -143,8 +143,8 @@
       "label": "FEVEREIRO",
       "grupo": "documento",
       "mesNumero": 2,
-      "x": 529,
-      "y": 187.5
+      "x": -159,
+      "y": 262.5
     },
     {
       "id": "90",
@@ -153,7 +153,7 @@
       "label": "MARÇO",
       "grupo": "documento",
       "mesNumero": 3,
-      "x": -847,
+      "x": -861,
       "y": 187.5
     },
     {
@@ -163,8 +163,8 @@
       "label": "ABRIL",
       "grupo": "documento",
       "mesNumero": 4,
-      "x": -1329,
-      "y": 187.5
+      "x": 337,
+      "y": 262.5
     },
     {
       "id": "92",
@@ -173,8 +173,8 @@
       "label": "MAIO",
       "grupo": "documento",
       "mesNumero": 5,
-      "x": -414,
-      "y": 187.5
+      "x": 812,
+      "y": 262.5
     },
     {
       "id": "93",
@@ -183,7 +183,7 @@
       "label": "JUNHO",
       "grupo": "documento",
       "mesNumero": 6,
-      "x": -201,
+      "x": -1081,
       "y": 262.5
     },
     {
@@ -193,7 +193,7 @@
       "label": "JULHO",
       "grupo": "documento",
       "mesNumero": 7,
-      "x": -627,
+      "x": -641,
       "y": 262.5
     },
     {
@@ -203,8 +203,8 @@
       "label": "AGOSTO",
       "grupo": "documento",
       "mesNumero": 8,
-      "x": 274,
-      "y": 262.5
+      "x": -414,
+      "y": 187.5
     },
     {
       "id": "96",
@@ -213,8 +213,8 @@
       "label": "SETEMBRO",
       "grupo": "documento",
       "mesNumero": 9,
-      "x": 1046,
-      "y": 187.5
+      "x": 1308,
+      "y": 262.5
     },
     {
       "id": "97",
@@ -223,7 +223,7 @@
       "label": "OUTUBRO",
       "grupo": "documento",
       "mesNumero": 10,
-      "x": 33,
+      "x": 103,
       "y": 187.5
     },
     {
@@ -233,8 +233,8 @@
       "label": "NOVEMBRO",
       "grupo": "documento",
       "mesNumero": 11,
-      "x": 1308,
-      "y": 262.5
+      "x": 1046,
+      "y": 187.5
     },
     {
       "id": "99",
@@ -243,8 +243,8 @@
       "label": "DEZEMBRO",
       "grupo": "documento",
       "mesNumero": 12,
-      "x": -1088,
-      "y": 262.5
+      "x": 578,
+      "y": 187.5
     },
     {
       "id": "4",
@@ -320,7 +320,7 @@
       "ano": 60,
       "localNasc": "814",
       "dataMorte": "cerca de 60",
-      "x": 2861,
+      "x": 2833,
       "y": 412.5
     },
     {
@@ -331,7 +331,7 @@
       "ano": 44,
       "localNasc": "814",
       "dataMorte": "cerca de 44",
-      "x": 1781,
+      "x": 1753,
       "y": 337.5
     },
     {
@@ -386,7 +386,7 @@
       "ano": 62,
       "paisNasc": "IL",
       "dataMorte": "cerca de 62",
-      "x": -1997,
+      "x": -1969,
       "y": 562.5
     },
     {
@@ -419,40 +419,40 @@
       "ano": 61,
       "paisNasc": "CY",
       "dataMorte": "cerca de 61",
-      "x": -2315,
+      "x": -2287,
       "y": 487.5
     },
     {
       "id": "215",
       "level": 2,
-      "label": "Sta. Maria Madalena",
+      "label": "S. Maria Madalena",
       "grupo": "pessoa",
       "ano": 63,
       "paisNasc": "IL",
       "dataMorte": "cerca de 63",
-      "x": -1616,
+      "x": -1602,
       "y": 487.5
     },
     {
       "id": "218",
       "level": 2,
-      "label": "Sta. Ana",
+      "label": "S. Ana",
       "grupo": "pessoa",
       "ano": 10,
       "paisNasc": "IL",
       "dataMorte": "cerca de 10",
-      "x": -865,
+      "x": -851,
       "y": 412.5
     },
     {
       "id": "221",
       "level": 2,
-      "label": "Sta. Marta",
+      "label": "S. Marta",
       "grupo": "pessoa",
       "ano": 80,
       "localNasc": "309",
       "dataMorte": "cerca de 80",
-      "x": 1637,
+      "x": 1623,
       "y": 562.5
     },
     {
@@ -474,7 +474,7 @@
       "ano": 96,
       "paisNasc": "GR",
       "dataMorte": "cerca de 96",
-      "x": 2336,
+      "x": 2308,
       "y": 562.5
     },
     {
@@ -494,7 +494,7 @@
       "grupo": "pessoa",
       "ano": 1,
       "ignorarMapa": true,
-      "x": -2791,
+      "x": -2763,
       "y": 337.5
     },
     {
@@ -504,7 +504,7 @@
       "grupo": "pessoa",
       "ano": 1,
       "ignorarMapa": true,
-      "x": -2368,
+      "x": -2340,
       "y": 412.5
     },
     {
@@ -535,18 +535,18 @@
       "grupo": "pessoa",
       "ano": 1,
       "ignorarMapa": true,
-      "x": -1952,
+      "x": -1924,
       "y": 337.5
     },
     {
       "id": "630",
       "level": 2,
-      "label": "Sto. Estêvão, Protomártir",
+      "label": "S. Estêvão, Protomártir",
       "grupo": "pessoa",
       "ano": 36,
       "localNasc": "133",
       "dataMorte": "cerca de 36",
-      "x": 1358,
+      "x": 1344,
       "y": 412.5
     },
     {
@@ -576,7 +576,7 @@
       "grupo": "pessoa",
       "ano": 48,
       "ignorarMapa": true,
-      "x": 2148,
+      "x": 2120,
       "y": 412.5
     },
     {
@@ -597,7 +597,7 @@
       "grupo": "pessoa",
       "ano": 48,
       "ignorarMapa": true,
-      "x": 2536,
+      "x": 2508,
       "y": 337.5
     },
     {
@@ -608,7 +608,7 @@
       "ano": 84,
       "localNasc": "138",
       "dataMorte": "cerca de 84",
-      "x": 1997,
+      "x": 1969,
       "y": 487.5
     },
     {
@@ -618,7 +618,7 @@
       "grupo": "pessoa",
       "ano": 1,
       "ignorarMapa": true,
-      "x": -1564,
+      "x": -1536,
       "y": 412.5
     },
     {
@@ -629,19 +629,19 @@
       "ano": 4,
       "localNasc": "815",
       "dataMorte": "cerca de 4 a.C.",
-      "x": -1183,
+      "x": -1155,
       "y": 337.5
     },
     {
       "id": "73",
       "level": 3,
-      "label": "Sta. Inês",
+      "label": "S. Inês",
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "26",
       "dataMorte": "cerca de 304",
-      "x": 2438,
-      "y": 1237.5
+      "x": -1704,
+      "y": 1462.5
     },
     {
       "id": "72",
@@ -651,8 +651,8 @@
       "ano": 288,
       "paisNasc": "FR",
       "dataMorte": "cerca de 288",
-      "x": -659,
-      "y": 1237.5
+      "x": 505,
+      "y": 1312.5
     },
     {
       "id": "7",
@@ -662,8 +662,8 @@
       "ano": 303,
       "paisNasc": "TR",
       "dataMorte": "cerca de 303",
-      "x": 739,
-      "y": 1237.5
+      "x": 1903,
+      "y": 1312.5
     },
     {
       "id": "76",
@@ -673,7 +673,7 @@
       "ano": 341,
       "paisNasc": "EG",
       "dataMorte": "cerca de 341",
-      "x": -1246,
+      "x": 984,
       "y": 1537.5
     },
     {
@@ -684,18 +684,18 @@
       "ano": 356,
       "paisNasc": "EG",
       "dataMorte": "17 de janeiro de 356",
-      "x": -638,
+      "x": 1592,
       "y": 1537.5
     },
     {
       "id": "64",
       "level": 3,
-      "label": "Sta. Mônica",
+      "label": "S. Mônica",
       "grupo": "pessoa",
       "ano": 387,
       "localNasc": "811",
       "dataMorte": "cerca de 387",
-      "x": -1620,
+      "x": 575,
       "y": 1762.5
     },
     {
@@ -706,8 +706,8 @@
       "ano": 430,
       "localNasc": "811",
       "dataMorte": "28 de agosto de 430",
-      "x": 1211,
-      "y": 1762.5
+      "x": -804,
+      "y": 1912.5
     },
     {
       "id": "81",
@@ -717,7 +717,7 @@
       "ano": 107,
       "paisNasc": "SY",
       "dataMorte": "cerca de 107",
-      "x": 568,
+      "x": 1120,
       "y": 862.5
     },
     {
@@ -728,19 +728,19 @@
       "ano": 316,
       "localNasc": "139",
       "dataMorte": "cerca de 316",
-      "x": -2291,
-      "y": 1612.5
+      "x": -407,
+      "y": 1537.5
     },
     {
       "id": "83",
       "level": 3,
-      "label": "Sta. Águeda",
+      "label": "S. Águeda",
       "grupo": "pessoa",
       "ano": 251,
       "localNasc": "140",
       "dataMorte": "cerca de 251",
-      "x": -1194,
-      "y": 1162.5
+      "x": -121,
+      "y": 1087.5
     },
     {
       "id": "84",
@@ -750,8 +750,8 @@
       "ano": 269,
       "paisNasc": "IT",
       "dataMorte": "cerca de 269",
-      "x": 2228,
-      "y": 1087.5
+      "x": -2634,
+      "y": 1312.5
     },
     {
       "id": "204",
@@ -761,8 +761,8 @@
       "ano": 257,
       "paisNasc": "IT",
       "dataMorte": "cerca de 257",
-      "x": -121,
-      "y": 1087.5
+      "x": 938,
+      "y": 1162.5
     },
     {
       "id": "205",
@@ -772,8 +772,8 @@
       "ano": 154,
       "paisNasc": "IT",
       "dataMorte": "cerca de 154",
-      "x": 2256,
-      "y": 787.5
+      "x": -2546,
+      "y": 937.5
     },
     {
       "id": "207",
@@ -783,52 +783,52 @@
       "ano": 92,
       "paisNasc": "IT",
       "dataMorte": "cerca de 92",
-      "x": -977,
+      "x": -1005,
       "y": 862.5
     },
     {
       "id": "210",
       "level": 3,
-      "label": "Sto. Aleixo",
+      "label": "S. Aleixo",
       "grupo": "pessoa",
       "ano": 412,
       "localNasc": "26",
       "dataMorte": "cerca de 412",
-      "x": 596,
+      "x": 2735,
       "y": 1762.5
     },
     {
       "id": "214",
       "level": 3,
-      "label": "Sta. Práxedes",
+      "label": "S. Práxedes",
       "grupo": "pessoa",
       "ano": 165,
       "localNasc": "26",
       "dataMorte": "cerca de 165",
-      "x": -1592,
+      "x": -907,
       "y": 1012.5
     },
     {
       "id": "216",
       "level": 3,
-      "label": "Sto. Apolinário",
+      "label": "S. Apolinário",
       "grupo": "pessoa",
       "ano": 79,
       "localNasc": "138",
       "dataMorte": "cerca de 79",
-      "x": -1655,
+      "x": -1641,
       "y": 862.5
     },
     {
       "id": "217",
       "level": 3,
-      "label": "Sta. Cristina",
+      "label": "S. Cristina",
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "307",
       "dataMorte": "cerca de 304",
-      "x": -1536,
-      "y": 1462.5
+      "x": 222,
+      "y": 1387.5
     },
     {
       "id": "219",
@@ -838,8 +838,8 @@
       "ano": 305,
       "localNasc": "308",
       "dataMorte": "cerca de 305",
-      "x": 463,
-      "y": 1462.5
+      "x": 2179,
+      "y": 1387.5
     },
     {
       "id": "220",
@@ -849,7 +849,7 @@
       "ano": 68,
       "localNasc": "300",
       "dataMorte": "cerca de 68",
-      "x": -2263,
+      "x": -2235,
       "y": 862.5
     },
     {
@@ -860,8 +860,8 @@
       "ano": 250,
       "paisNasc": "IR",
       "dataMorte": "cerca de 250",
-      "x": -1837,
-      "y": 1162.5
+      "x": -750,
+      "y": 1087.5
     },
     {
       "id": "223",
@@ -871,8 +871,8 @@
       "ano": 304,
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
-      "x": -1952,
-      "y": 1387.5
+      "x": -180,
+      "y": 1462.5
     },
     {
       "id": "226",
@@ -882,8 +882,8 @@
       "ano": 297,
       "paisNasc": "IT",
       "dataMorte": "cerca de 297",
-      "x": 414,
-      "y": 1312.5
+      "x": 1578,
+      "y": 1237.5
     },
     {
       "id": "229",
@@ -893,8 +893,8 @@
       "ano": 379,
       "paisNasc": "TR",
       "dataMorte": "1 de janeiro de 379",
-      "x": 2560,
-      "y": 1612.5
+      "x": -900,
+      "y": 1762.5
     },
     {
       "id": "230",
@@ -904,19 +904,19 @@
       "ano": 303,
       "paisNasc": "IT",
       "dataMorte": "cerca de 303",
-      "x": 1127,
-      "y": 1312.5
+      "x": 2291,
+      "y": 1237.5
     },
     {
       "id": "231",
       "level": 3,
-      "label": "Sto. Efrém",
+      "label": "S. Efrém",
       "grupo": "pessoa",
       "ano": 373,
       "paisNasc": "TR",
       "dataMorte": "9 de junho de 373",
-      "x": 2228,
-      "y": 1537.5
+      "x": -1218,
+      "y": 1687.5
     },
     {
       "id": "233",
@@ -926,7 +926,7 @@
       "ano": 165,
       "localNasc": "300",
       "dataMorte": "cerca de 165",
-      "x": -1966,
+      "x": -1267,
       "y": 937.5
     },
     {
@@ -937,8 +937,8 @@
       "ano": 431,
       "paisNasc": "FR",
       "dataMorte": "22 de junho de 431",
-      "x": 1571,
-      "y": 1687.5
+      "x": -444,
+      "y": 1837.5
     },
     {
       "id": "237",
@@ -948,18 +948,18 @@
       "ano": 362,
       "localNasc": "26",
       "dataMorte": "cerca de 362",
-      "x": 54,
+      "x": 2284,
       "y": 1537.5
     },
     {
       "id": "239",
       "level": 3,
-      "label": "Sto. Irineu",
+      "label": "S. Irineu",
       "grupo": "pessoa",
       "ano": 202,
       "localNasc": "505",
       "dataMorte": "cerca de 202",
-      "x": -306,
+      "x": 323,
       "y": 1012.5
     },
     {
@@ -970,7 +970,7 @@
       "ano": 142,
       "paisNasc": "GR",
       "dataMorte": "cerca de 142",
-      "x": 1987,
+      "x": 2539,
       "y": 862.5
     },
     {
@@ -981,8 +981,8 @@
       "ano": 367,
       "localNasc": "500",
       "dataMorte": "cerca de 367",
-      "x": 760,
-      "y": 1537.5
+      "x": -2644,
+      "y": 1687.5
     },
     {
       "id": "402",
@@ -992,8 +992,8 @@
       "ano": 256,
       "localNasc": "318",
       "dataMorte": "cerca de 256",
-      "x": -565,
-      "y": 1162.5
+      "x": 494,
+      "y": 1087.5
     },
     {
       "id": "404",
@@ -1003,19 +1003,19 @@
       "ano": 309,
       "paisNasc": "IT",
       "dataMorte": "cerca de 309",
-      "x": 2015,
-      "y": 1462.5
+      "x": -1784,
+      "y": 1537.5
     },
     {
       "id": "405",
       "level": 3,
-      "label": "Sta. Prisca",
+      "label": "S. Prisca",
       "grupo": "pessoa",
       "ano": 269,
       "localNasc": "26",
       "dataMorte": "cerca de 269",
-      "x": 1924,
-      "y": 1162.5
+      "x": -2924,
+      "y": 1237.5
     },
     {
       "id": "406",
@@ -1025,8 +1025,8 @@
       "ano": 270,
       "paisNasc": "IR",
       "dataMorte": "cerca de 270",
-      "x": 2658,
-      "y": 1162.5
+      "x": -2204,
+      "y": 1237.5
     },
     {
       "id": "408",
@@ -1036,8 +1036,8 @@
       "ano": 250,
       "paisNasc": "IT",
       "dataMorte": "20 de janeiro de 250",
-      "x": -2459,
-      "y": 1162.5
+      "x": -1372,
+      "y": 1087.5
     },
     {
       "id": "409",
@@ -1047,19 +1047,19 @@
       "ano": 304,
       "localNasc": "503",
       "dataMorte": "cerca de 304",
-      "x": 2784,
-      "y": 1312.5
+      "x": -1372,
+      "y": 1387.5
     },
     {
       "id": "411",
       "level": 3,
-      "label": "Sta. Emerenciana",
+      "label": "S. Emerenciana",
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "26",
       "dataMorte": "cerca de 304",
-      "x": -2777,
-      "y": 1387.5
+      "x": -991,
+      "y": 1462.5
     },
     {
       "id": "413",
@@ -1069,8 +1069,8 @@
       "ano": 155,
       "localNasc": "505",
       "dataMorte": "cerca de 155",
-      "x": 2546,
-      "y": 862.5
+      "x": -2256,
+      "y": 1012.5
     },
     {
       "id": "414",
@@ -1080,30 +1080,30 @@
       "ano": 407,
       "localNasc": "138",
       "dataMorte": "14 de setembro de 407",
-      "x": 243,
+      "x": 2396,
       "y": 1687.5
     },
     {
       "id": "416",
       "level": 3,
-      "label": "Sta. Martinha",
+      "label": "S. Martinha",
       "grupo": "pessoa",
       "ano": 228,
       "localNasc": "26",
       "dataMorte": "cerca de 228",
-      "x": 1078,
+      "x": 1679,
       "y": 1012.5
     },
     {
       "id": "419",
       "level": 3,
-      "label": "Sta. Dorotéia",
+      "label": "S. Dorotéia",
       "grupo": "pessoa",
       "ano": 311,
       "paisNasc": "TR",
       "dataMorte": "cerca de 311",
-      "x": 2340,
-      "y": 1387.5
+      "x": -1473,
+      "y": 1612.5
     },
     {
       "id": "422",
@@ -1113,19 +1113,19 @@
       "ano": 444,
       "localNasc": "510",
       "dataMorte": "27 de junho de 444",
-      "x": 2008,
-      "y": 1762.5
+      "x": -7,
+      "y": 1912.5
     },
     {
       "id": "423",
       "level": 3,
-      "label": "Sta. Apolônia",
+      "label": "S. Apolônia",
       "grupo": "pessoa",
       "ano": 249,
       "localNasc": "510",
       "dataMorte": "cerca de 249",
-      "x": -2770,
-      "y": 1087.5
+      "x": -1669,
+      "y": 1162.5
     },
     {
       "id": "426",
@@ -1135,7 +1135,7 @@
       "ano": 120,
       "localNasc": "512",
       "dataMorte": "cerca de 120",
-      "x": 1655,
+      "x": 2207,
       "y": 787.5
     },
     {
@@ -1146,7 +1146,7 @@
       "ano": 107,
       "paisNasc": "IL",
       "dataMorte": "cerca de 107",
-      "x": 935,
+      "x": 1487,
       "y": 787.5
     },
     {
@@ -1157,8 +1157,8 @@
       "ano": 254,
       "localNasc": "26",
       "dataMorte": "5 de março de 254",
-      "x": -897,
-      "y": 1087.5
+      "x": 162,
+      "y": 1162.5
     },
     {
       "id": "432",
@@ -1168,7 +1168,7 @@
       "ano": 203,
       "localNasc": "516",
       "dataMorte": "7 de março de 203",
-      "x": 68,
+      "x": 683,
       "y": 937.5
     },
     {
@@ -1179,8 +1179,8 @@
       "ano": 320,
       "localNasc": "139",
       "dataMorte": "cerca de 320",
-      "x": -1973,
-      "y": 1537.5
+      "x": -89,
+      "y": 1612.5
     },
     {
       "id": "437",
@@ -1190,8 +1190,8 @@
       "ano": 461,
       "paisNasc": "GB",
       "dataMorte": "cerca de 461",
-      "x": 2798,
-      "y": 1762.5
+      "x": 783,
+      "y": 1912.5
     },
     {
       "id": "438",
@@ -1201,7 +1201,7 @@
       "ano": 386,
       "localNasc": "133",
       "dataMorte": "18 de março de 386",
-      "x": -2001,
+      "x": 208,
       "y": 1687.5
     },
     {
@@ -1212,7 +1212,7 @@
       "ano": 461,
       "paisNasc": "IT",
       "dataMorte": "10 de novembro de 461",
-      "x": 0,
+      "x": 1101,
       "y": 1837.5
     },
     {
@@ -1223,7 +1223,7 @@
       "ano": 165,
       "paisNasc": "PS",
       "dataMorte": "cerca de 165",
-      "x": -2319,
+      "x": -1620,
       "y": 1012.5
     },
     {
@@ -1234,7 +1234,7 @@
       "ano": 229,
       "localNasc": "26",
       "dataMorte": "cerca de 229",
-      "x": 1515,
+      "x": 2102,
       "y": 937.5
     },
     {
@@ -1245,7 +1245,7 @@
       "ano": 168,
       "paisNasc": "SY",
       "dataMorte": "cerca de 168",
-      "x": -921,
+      "x": -278,
       "y": 1012.5
     },
     {
@@ -1256,8 +1256,8 @@
       "ano": 296,
       "paisNasc": "IT",
       "dataMorte": "cerca de 296",
-      "x": 54,
-      "y": 1237.5
+      "x": 1218,
+      "y": 1312.5
     },
     {
       "id": "454",
@@ -1267,8 +1267,8 @@
       "ano": 304,
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
-      "x": -2396,
-      "y": 1462.5
+      "x": -624,
+      "y": 1387.5
     },
     {
       "id": "457",
@@ -1278,19 +1278,19 @@
       "ano": 62,
       "localNasc": "300",
       "dataMorte": "cerca de 62",
-      "x": -2574,
+      "x": -2546,
       "y": 787.5
     },
     {
       "id": "600",
       "level": 3,
-      "label": "Sto. Atanásio",
+      "label": "S. Atanásio",
       "grupo": "pessoa",
       "ano": 373,
       "localNasc": "510",
       "dataMorte": "2 de maio de 373",
-      "x": 1917,
-      "y": 1612.5
+      "x": -1501,
+      "y": 1762.5
     },
     {
       "id": "604",
@@ -1300,7 +1300,7 @@
       "ano": 390,
       "paisNasc": "TR",
       "dataMorte": "25 de janeiro de 390",
-      "x": -1239,
+      "x": 942,
       "y": 1687.5
     },
     {
@@ -1311,7 +1311,7 @@
       "ano": 362,
       "localNasc": "26",
       "dataMorte": "cerca de 362",
-      "x": -306,
+      "x": 1924,
       "y": 1612.5
     },
     {
@@ -1322,7 +1322,7 @@
       "ano": 100,
       "localNasc": "26",
       "dataMorte": "cerca de 100",
-      "x": -229,
+      "x": -257,
       "y": 862.5
     },
     {
@@ -1333,18 +1333,18 @@
       "ano": 250,
       "paisNasc": "IT",
       "dataMorte": "cerca de 250",
-      "x": -2162,
-      "y": 1087.5
+      "x": -1075,
+      "y": 1162.5
     },
     {
       "id": "615",
       "level": 3,
-      "label": "Sta. Pudenciana",
+      "label": "S. Pudenciana",
       "grupo": "pessoa",
       "ano": 160,
       "localNasc": "26",
       "dataMorte": "cerca de 160",
-      "x": -2644,
+      "x": -1931,
       "y": 937.5
     },
     {
@@ -1355,7 +1355,7 @@
       "ano": 230,
       "localNasc": "26",
       "dataMorte": "cerca de 230",
-      "x": 1938,
+      "x": 2525,
       "y": 1012.5
     },
     {
@@ -1366,7 +1366,7 @@
       "ano": 189,
       "paisNasc": "GR",
       "dataMorte": "cerca de 189",
-      "x": -617,
+      "x": 26,
       "y": 937.5
     },
     {
@@ -1377,18 +1377,18 @@
       "ano": 274,
       "localNasc": "26",
       "dataMorte": "30 de dezembro de 274",
-      "x": -2389,
-      "y": 1312.5
+      "x": -1323,
+      "y": 1237.5
     },
     {
       "id": "628",
       "level": 3,
-      "label": "Sta. Petronila",
+      "label": "S. Petronila",
       "grupo": "pessoa",
       "ano": 90,
       "localNasc": "26",
       "dataMorte": "cerca de 90",
-      "x": -1302,
+      "x": -1316,
       "y": 787.5
     },
     {
@@ -1399,8 +1399,8 @@
       "ano": 303,
       "localNasc": "26",
       "dataMorte": "cerca de 303",
-      "x": 1641,
-      "y": 1237.5
+      "x": 2805,
+      "y": 1312.5
     },
     {
       "id": "635",
@@ -1410,8 +1410,8 @@
       "ano": 258,
       "paisNasc": "ES",
       "dataMorte": "10 de agosto de 258",
-      "x": 648,
-      "y": 1087.5
+      "x": 1707,
+      "y": 1162.5
     },
     {
       "id": "636",
@@ -1421,8 +1421,8 @@
       "ano": 295,
       "localNasc": "26",
       "dataMorte": "cerca de 295",
-      "x": -306,
-      "y": 1312.5
+      "x": 858,
+      "y": 1237.5
     },
     {
       "id": "637",
@@ -1432,8 +1432,8 @@
       "ano": 235,
       "localNasc": "26",
       "dataMorte": "cerca de 235",
-      "x": 2616,
-      "y": 1012.5
+      "x": -2333,
+      "y": 1162.5
     },
     {
       "id": "641",
@@ -1443,8 +1443,8 @@
       "ano": 274,
       "paisNasc": "IT",
       "dataMorte": "cerca de 274",
-      "x": -2099,
-      "y": 1237.5
+      "x": -1033,
+      "y": 1312.5
     },
     {
       "id": "647",
@@ -1454,7 +1454,7 @@
       "ano": 217,
       "localNasc": "26",
       "dataMorte": "cerca de 217",
-      "x": 442,
+      "x": 1057,
       "y": 1012.5
     },
     {
@@ -1465,8 +1465,8 @@
       "ano": 303,
       "paisNasc": "IT",
       "dataMorte": "cerca de 303",
-      "x": 2099,
-      "y": 1312.5
+      "x": -2553,
+      "y": 1387.5
     },
     {
       "id": "655",
@@ -1476,8 +1476,8 @@
       "ano": 304,
       "localNasc": "308",
       "dataMorte": "cerca de 304",
-      "x": -1218,
-      "y": 1387.5
+      "x": 526,
+      "y": 1462.5
     },
     {
       "id": "657",
@@ -1487,8 +1487,8 @@
       "ano": 257,
       "paisNasc": "IT",
       "dataMorte": "cerca de 257",
-      "x": 316,
-      "y": 1162.5
+      "x": 1375,
+      "y": 1087.5
     },
     {
       "id": "658",
@@ -1498,8 +1498,8 @@
       "ano": 258,
       "paisNasc": "IT",
       "dataMorte": "cerca de 258",
-      "x": 1008,
-      "y": 1162.5
+      "x": 2067,
+      "y": 1087.5
     },
     {
       "id": "660",
@@ -1509,8 +1509,8 @@
       "ano": 305,
       "localNasc": "145",
       "dataMorte": "cerca de 305",
-      "x": 830,
-      "y": 1387.5
+      "x": 2546,
+      "y": 1462.5
     },
     {
       "id": "661",
@@ -1520,7 +1520,7 @@
       "ano": 118,
       "localNasc": "26",
       "dataMorte": "cerca de 118",
-      "x": 1267,
+      "x": 1819,
       "y": 862.5
     },
     {
@@ -1531,8 +1531,8 @@
       "ano": 287,
       "paisNasc": "EG",
       "dataMorte": "cerca de 287",
-      "x": -1372,
-      "y": 1237.5
+      "x": -208,
+      "y": 1312.5
     },
     {
       "id": "664",
@@ -1542,7 +1542,7 @@
       "ano": 76,
       "paisNasc": "IT",
       "dataMorte": "cerca de 76",
-      "x": -1959,
+      "x": -1931,
       "y": 787.5
     },
     {
@@ -1553,8 +1553,8 @@
       "ano": 304,
       "localNasc": "138",
       "dataMorte": "cerca de 304",
-      "x": -865,
-      "y": 1462.5
+      "x": 879,
+      "y": 1387.5
     },
     {
       "id": "666",
@@ -1564,8 +1564,8 @@
       "ano": 287,
       "paisNasc": "SY",
       "dataMorte": "cerca de 287",
-      "x": -991,
-      "y": 1312.5
+      "x": 173,
+      "y": 1237.5
     },
     {
       "id": "668",
@@ -1575,8 +1575,8 @@
       "ano": 420,
       "localNasc": "812",
       "dataMorte": "30 de setembro de 420",
-      "x": 900,
-      "y": 1687.5
+      "x": -1115,
+      "y": 1837.5
     },
     {
       "id": "674",
@@ -1586,8 +1586,8 @@
       "ano": 258,
       "paisNasc": "IT",
       "dataMorte": "cerca de 258",
-      "x": 1494,
-      "y": 1087.5
+      "x": 2553,
+      "y": 1162.5
     },
     {
       "id": "677",
@@ -1597,7 +1597,7 @@
       "ano": 222,
       "localNasc": "26",
       "dataMorte": "cerca de 222",
-      "x": 753,
+      "x": 1368,
       "y": 937.5
     },
     {
@@ -1608,30 +1608,30 @@
       "ano": 371,
       "paisNasc": "PS",
       "dataMorte": "cerca de 371",
-      "x": 1141,
-      "y": 1612.5
+      "x": -2263,
+      "y": 1762.5
     },
     {
       "id": "684",
       "level": 3,
-      "label": "Sta. Úrsula e Comp.",
+      "label": "S. Úrsula e Comp.",
       "grupo": "pessoa",
       "ano": 383,
       "paisNasc": "GB",
       "dataMorte": "cerca de 383",
-      "x": -2742,
+      "x": -519,
       "y": 1687.5
     },
     {
       "id": "686",
       "level": 3,
-      "label": "Crisanto e Daria",
+      "label": "Santos Crisanto e Daria",
       "grupo": "pessoa",
       "ano": 283,
       "paisNasc": "EG",
       "dataMorte": "cerca de 283",
-      "x": -1767,
-      "y": 1312.5
+      "x": -652,
+      "y": 1237.5
     },
     {
       "id": "687",
@@ -1641,7 +1641,7 @@
       "ano": 105,
       "paisNasc": "PS",
       "dataMorte": "cerca de 105",
-      "x": 187,
+      "x": 739,
       "y": 787.5
     },
     {
@@ -1652,8 +1652,8 @@
       "ano": 304,
       "localNasc": "26",
       "dataMorte": "cerca de 304",
-      "x": -484,
-      "y": 1387.5
+      "x": 1260,
+      "y": 1462.5
     },
     {
       "id": "691",
@@ -1663,8 +1663,8 @@
       "ano": 306,
       "paisNasc": "TR",
       "dataMorte": "cerca de 306",
-      "x": 1711,
-      "y": 1387.5
+      "x": -2088,
+      "y": 1612.5
     },
     {
       "id": "693",
@@ -1674,7 +1674,7 @@
       "ano": 397,
       "paisNasc": "HU",
       "dataMorte": "8 de novembro de 397",
-      "x": -505,
+      "x": 1676,
       "y": 1687.5
     },
     {
@@ -1685,19 +1685,19 @@
       "ano": 270,
       "paisNasc": "TR",
       "dataMorte": "cerca de 270",
-      "x": -2763,
-      "y": 1237.5
+      "x": -1697,
+      "y": 1312.5
     },
     {
       "id": "701",
       "level": 3,
-      "label": "Sta. Cecília",
+      "label": "S. Cecília",
       "grupo": "pessoa",
       "ano": 230,
       "localNasc": "26",
       "dataMorte": "cerca de 230",
-      "x": 2249,
-      "y": 937.5
+      "x": -2686,
+      "y": 1087.5
     },
     {
       "id": "702",
@@ -1707,18 +1707,18 @@
       "ano": 99,
       "localNasc": "26",
       "dataMorte": "cerca de 99",
-      "x": -659,
+      "x": -687,
       "y": 787.5
     },
     {
       "id": "703",
       "level": 3,
-      "label": "Sta. Felicidade",
+      "label": "S. Felicidade",
       "grupo": "pessoa",
       "ano": 165,
       "localNasc": "26",
       "dataMorte": "cerca de 165",
-      "x": -1246,
+      "x": -589,
       "y": 937.5
     },
     {
@@ -1729,19 +1729,19 @@
       "ano": 304,
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
-      "x": -145,
-      "y": 1462.5
+      "x": 1599,
+      "y": 1387.5
     },
     {
       "id": "705",
       "level": 3,
-      "label": "Sta. Catarina de Alexandria",
+      "label": "S. Catarina de Alexandria",
       "grupo": "pessoa",
       "ano": 305,
       "localNasc": "510",
       "dataMorte": "cerca de 305",
-      "x": 1302,
-      "y": 1462.5
+      "x": -2483,
+      "y": 1537.5
     },
     {
       "id": "707",
@@ -1751,8 +1751,8 @@
       "ano": 311,
       "localNasc": "510",
       "dataMorte": "25 de novembro de 311",
-      "x": 2735,
-      "y": 1462.5
+      "x": -1092,
+      "y": 1537.5
     },
     {
       "id": "708",
@@ -1762,18 +1762,18 @@
       "ano": 250,
       "paisNasc": "GR",
       "dataMorte": "cerca de 250",
-      "x": -1505,
-      "y": 1087.5
+      "x": -418,
+      "y": 1162.5
     },
     {
       "id": "709",
       "level": 3,
-      "label": "Sta. Bibiana",
+      "label": "S. Bibiana",
       "grupo": "pessoa",
       "ano": 363,
       "localNasc": "26",
       "dataMorte": "cerca de 363",
-      "x": 372,
+      "x": 2588,
       "y": 1612.5
     },
     {
@@ -1784,8 +1784,8 @@
       "ano": 450,
       "paisNasc": "IT",
       "dataMorte": "cerca de 450",
-      "x": 2445,
-      "y": 1687.5
+      "x": 430,
+      "y": 1837.5
     },
     {
       "id": "712",
@@ -1795,18 +1795,18 @@
       "ano": 343,
       "paisNasc": "TR",
       "dataMorte": "cerca de 343",
-      "x": -914,
+      "x": 1316,
       "y": 1612.5
     },
     {
       "id": "713",
       "level": 3,
-      "label": "Sto. Ambrósio",
+      "label": "S. Ambrósio",
       "grupo": "pessoa",
       "ano": 397,
       "paisNasc": "DE",
       "dataMorte": "4 de abril de 397",
-      "x": -124,
+      "x": 2043,
       "y": 1762.5
     },
     {
@@ -1817,8 +1817,8 @@
       "ano": 314,
       "paisNasc": "TN",
       "dataMorte": "10 de janeiro de 314",
-      "x": -2581,
-      "y": 1537.5
+      "x": -697,
+      "y": 1612.5
     },
     {
       "id": "715",
@@ -1828,19 +1828,19 @@
       "ano": 384,
       "paisNasc": "ES",
       "dataMorte": "11 de dezembro de 384",
-      "x": -2382,
+      "x": -173,
       "y": 1762.5
     },
     {
       "id": "716",
       "level": 3,
-      "label": "Sta. Luzia",
+      "label": "S. Luzia",
       "grupo": "pessoa",
       "ano": 304,
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
-      "x": 159,
-      "y": 1387.5
+      "x": 1889,
+      "y": 1462.5
     },
     {
       "id": "717",
@@ -1850,8 +1850,8 @@
       "ano": 371,
       "paisNasc": "IT",
       "dataMorte": "1 de agosto de 371",
-      "x": 1522,
-      "y": 1537.5
+      "x": -1882,
+      "y": 1687.5
     },
     {
       "id": "720",
@@ -1861,8 +1861,8 @@
       "ano": 335,
       "localNasc": "26",
       "dataMorte": "31 de dezembro de 335",
-      "x": -1606,
-      "y": 1612.5
+      "x": 278,
+      "y": 1537.5
     },
     {
       "id": "721",
@@ -1872,8 +1872,74 @@
       "ano": 397,
       "paisNasc": "FR",
       "dataMorte": "cerca de 397",
-      "x": -865,
+      "x": 1316,
       "y": 1762.5
+    },
+    {
+      "id": "1054",
+      "level": 3,
+      "label": "S. Ponciano",
+      "grupo": "pessoa",
+      "ano": 235,
+      "localNasc": "26",
+      "dataMorte": "cerca de 235",
+      "x": -1973,
+      "y": 1087.5
+    },
+    {
+      "id": "1055",
+      "level": 3,
+      "label": "S. Marcos Papa",
+      "grupo": "pessoa",
+      "ano": 336,
+      "localNasc": "26",
+      "dataMorte": "7 de outubro de 336",
+      "x": 624,
+      "y": 1612.5
+    },
+    {
+      "id": "1056",
+      "level": 3,
+      "label": "S. Sérgio",
+      "grupo": "pessoa",
+      "ano": 303,
+      "paisNasc": "SY",
+      "dataMorte": "cerca de 303",
+      "x": -2214,
+      "y": 1462.5
+    },
+    {
+      "id": "1057",
+      "level": 3,
+      "label": "S. Baco",
+      "grupo": "pessoa",
+      "ano": 303,
+      "paisNasc": "SY",
+      "dataMorte": "cerca de 303",
+      "x": -1952,
+      "y": 1387.5
+    },
+    {
+      "id": "1058",
+      "level": 3,
+      "label": "S. Marcelo",
+      "grupo": "pessoa",
+      "ano": 100,
+      "paisNasc": "IT",
+      "dataMorte": "cerca de 100",
+      "x": 152,
+      "y": 787.5
+    },
+    {
+      "id": "1059",
+      "level": 3,
+      "label": "S. Apuleio",
+      "grupo": "pessoa",
+      "ano": 100,
+      "paisNasc": "IT",
+      "dataMorte": "cerca de 100",
+      "x": 442,
+      "y": 862.5
     },
     {
       "id": "6",
@@ -1883,18 +1949,18 @@
       "ano": 547,
       "localNasc": "816",
       "dataMorte": "21 de março de 547",
-      "x": -645,
+      "x": -617,
       "y": 1987.5
     },
     {
       "id": "85",
       "level": 4,
-      "label": "Sta. Escolástica",
+      "label": "S. Escolástica",
       "grupo": "pessoa",
       "ano": 543,
       "localNasc": "816",
       "dataMorte": "cerca de 543",
-      "x": -963,
+      "x": -921,
       "y": 2062.5
     },
     {
@@ -1905,7 +1971,7 @@
       "ano": 1153,
       "localNasc": "817",
       "dataMorte": "20 de agosto de 1153",
-      "x": -1662,
+      "x": -1648,
       "y": 2362.5
     },
     {
@@ -1916,18 +1982,18 @@
       "ano": 1226,
       "localNasc": "143",
       "dataMorte": "3 de outubro de 1226",
-      "x": 351,
+      "x": 365,
       "y": 2362.5
     },
     {
       "id": "11",
       "level": 4,
-      "label": "Sta. Clara",
+      "label": "S. Clara",
       "grupo": "pessoa",
       "ano": 1253,
       "localNasc": "143",
       "dataMorte": "11 de agosto de 1253",
-      "x": -2945,
+      "x": -2889,
       "y": 2437.5
     },
     {
@@ -1938,7 +2004,7 @@
       "ano": 1221,
       "localNasc": "818",
       "dataMorte": "6 de agosto de 1221",
-      "x": 40,
+      "x": 54,
       "y": 2287.5
     },
     {
@@ -1949,13 +2015,13 @@
       "ano": 1274,
       "localNasc": "819",
       "dataMorte": "7 de março de 1274",
-      "x": -897,
+      "x": -883,
       "y": 2437.5
     },
     {
       "id": "65",
       "level": 4,
-      "label": "Sto. Antônio",
+      "label": "S. Antônio",
       "grupo": "pessoa",
       "ano": 1231,
       "localNasc": "810",
@@ -1966,12 +2032,12 @@
     {
       "id": "67",
       "level": 4,
-      "label": "Sta. Rita",
+      "label": "S. Rita",
       "grupo": "pessoa",
       "ano": 1457,
       "localNasc": "147",
       "dataMorte": "22 de maio de 1457",
-      "x": 1243,
+      "x": 1187,
       "y": 2662.5
     },
     {
@@ -1982,7 +2048,7 @@
       "ano": 683,
       "paisNasc": "IT",
       "dataMorte": "28 de junho de 683",
-      "x": 2291,
+      "x": 2263,
       "y": 1987.5
     },
     {
@@ -1993,7 +2059,7 @@
       "ano": 885,
       "paisNasc": "GR",
       "dataMorte": "14 de fevereiro de 869 / 6 de abril de 885",
-      "x": -1431,
+      "x": -1375,
       "y": 2212.5
     },
     {
@@ -2004,7 +2070,7 @@
       "ano": 1231,
       "paisNasc": "HU",
       "dataMorte": "17 de novembro de 1231",
-      "x": 1050,
+      "x": 1036,
       "y": 2362.5
     },
     {
@@ -2015,7 +2081,7 @@
       "ano": 1336,
       "localNasc": "503",
       "dataMorte": "4 de julho de 1336",
-      "x": -2396,
+      "x": -2298,
       "y": 2587.5
     },
     {
@@ -2037,18 +2103,18 @@
       "ano": 1274,
       "paisNasc": "IT",
       "dataMorte": "15 de julho de 1274",
-      "x": -530,
+      "x": -516,
       "y": 2512.5
     },
     {
       "id": "209",
       "level": 4,
-      "label": "Sto. Henrique",
+      "label": "S. Henrique",
       "grupo": "pessoa",
       "ano": 1024,
       "paisNasc": "DE",
       "dataMorte": "13 de julho de 1024",
-      "x": -760,
+      "x": -718,
       "y": 2212.5
     },
     {
@@ -2059,7 +2125,7 @@
       "ano": 754,
       "paisNasc": "GB",
       "dataMorte": "5 de junho de 754",
-      "x": -1777,
+      "x": -1721,
       "y": 2137.5
     },
     {
@@ -2070,29 +2136,29 @@
       "ano": 1134,
       "paisNasc": "DE",
       "dataMorte": "6 de junho de 1134",
-      "x": -2284,
+      "x": -2270,
       "y": 2362.5
     },
     {
       "id": "227",
       "level": 4,
-      "label": "Sta. Margarida",
+      "label": "S. Margarida",
       "grupo": "pessoa",
       "ano": 1093,
       "paisNasc": "HU",
       "dataMorte": "16 de novembro de 1093",
-      "x": 2319,
+      "x": 2277,
       "y": 2137.5
     },
     {
       "id": "232",
       "level": 4,
-      "label": "Sta. Juliana",
+      "label": "S. Juliana",
       "grupo": "pessoa",
       "ano": 1258,
       "localNasc": "317",
       "dataMorte": "cerca de 1258",
-      "x": -1977,
+      "x": -1949,
       "y": 2512.5
     },
     {
@@ -2103,7 +2169,7 @@
       "ano": 537,
       "paisNasc": "IT",
       "dataMorte": "2 de dezembro de 537",
-      "x": -1760,
+      "x": -1704,
       "y": 2062.5
     },
     {
@@ -2114,7 +2180,7 @@
       "ano": 1142,
       "paisNasc": "IT",
       "dataMorte": "25 de junho de 1142",
-      "x": -1973,
+      "x": -1959,
       "y": 2287.5
     },
     {
@@ -2125,7 +2191,7 @@
       "ano": 584,
       "localNasc": "26",
       "dataMorte": "cerca de 584",
-      "x": 89,
+      "x": 117,
       "y": 1987.5
     },
     {
@@ -2136,7 +2202,7 @@
       "ano": 1086,
       "paisNasc": "DK",
       "dataMorte": "10 de julho de 1086",
-      "x": 2008,
+      "x": 1980,
       "y": 2212.5
     },
     {
@@ -2147,7 +2213,7 @@
       "ano": 1275,
       "localNasc": "504",
       "dataMorte": "6 de janeiro de 1275",
-      "x": -121,
+      "x": -107,
       "y": 2437.5
     },
     {
@@ -2158,18 +2224,18 @@
       "ano": 1256,
       "paisNasc": "FR",
       "dataMorte": "cerca de 1256",
-      "x": -2613,
+      "x": -2571,
       "y": 2512.5
     },
     {
       "id": "417",
       "level": 4,
-      "label": "Sto. André Corsini",
+      "label": "S. André Corsini",
       "grupo": "pessoa",
       "ano": 1374,
       "localNasc": "317",
       "dataMorte": "6 de janeiro de 1374",
-      "x": -1648,
+      "x": -1592,
       "y": 2587.5
     },
     {
@@ -2180,7 +2246,7 @@
       "ano": 1027,
       "localNasc": "310",
       "dataMorte": "19 de junho de 1027",
-      "x": -442,
+      "x": -414,
       "y": 2137.5
     },
     {
@@ -2191,7 +2257,7 @@
       "ano": 1213,
       "paisNasc": "FR",
       "dataMorte": "17 de dezembro de 1213",
-      "x": -292,
+      "x": -278,
       "y": 2362.5
     },
     {
@@ -2202,7 +2268,7 @@
       "ano": 1310,
       "localNasc": "317",
       "dataMorte": "cerca de 1310",
-      "x": 2354,
+      "x": 2312,
       "y": 2437.5
     },
     {
@@ -2224,18 +2290,18 @@
       "ano": 1484,
       "localNasc": "515",
       "dataMorte": "4 de março de 1484",
-      "x": 2473,
+      "x": 2375,
       "y": 2662.5
     },
     {
       "id": "434",
       "level": 4,
-      "label": "Sta. Francisca Romana",
+      "label": "S. Francisca Romana",
       "grupo": "pessoa",
       "ano": 1440,
       "localNasc": "26",
       "dataMorte": "9 de março de 1440",
-      "x": -19,
+      "x": -47,
       "y": 2587.5
     },
     {
@@ -2246,7 +2312,7 @@
       "ano": 604,
       "localNasc": "26",
       "dataMorte": "12 de março de 604",
-      "x": 774,
+      "x": 802,
       "y": 1987.5
     },
     {
@@ -2257,18 +2323,18 @@
       "ano": 749,
       "localNasc": "519",
       "dataMorte": "4 de dezembro de 749",
-      "x": -2130,
+      "x": -2074,
       "y": 2212.5
     },
     {
       "id": "443",
       "level": 4,
-      "label": "Sto. Isidoro",
+      "label": "S. Isidoro",
       "grupo": "pessoa",
       "ano": 636,
       "paisNasc": "ES",
       "dataMorte": "4 de abril de 636",
-      "x": 1655,
+      "x": 1641,
       "y": 1987.5
     },
     {
@@ -2279,7 +2345,7 @@
       "ano": 1419,
       "localNasc": "521",
       "dataMorte": "5 de abril de 1419",
-      "x": -809,
+      "x": -795,
       "y": 2587.5
     },
     {
@@ -2290,18 +2356,18 @@
       "ano": 585,
       "paisNasc": "ES",
       "dataMorte": "13 de abril de 585",
-      "x": 400,
+      "x": 428,
       "y": 2062.5
     },
     {
       "id": "450",
       "level": 4,
-      "label": "Sto. Anselmo",
+      "label": "S. Anselmo",
       "grupo": "pessoa",
       "ano": 1109,
       "paisNasc": "IT",
       "dataMorte": "21 de abril de 1109",
-      "x": -2595,
+      "x": -2567,
       "y": 2287.5
     },
     {
@@ -2312,40 +2378,40 @@
       "ano": 1252,
       "paisNasc": "IT",
       "dataMorte": "6 de abril de 1252",
-      "x": 2193,
+      "x": 2151,
       "y": 2287.5
     },
     {
       "id": "459",
       "level": 4,
-      "label": "Sta. Catarina de Sena",
+      "label": "S. Catarina de Sena",
       "grupo": "pessoa",
       "ano": 1380,
       "localNasc": "527",
       "dataMorte": "29 de abril de 1380",
-      "x": -1225,
+      "x": -1197,
       "y": 2662.5
     },
     {
       "id": "602",
       "level": 4,
-      "label": "Sto. Estanislau",
+      "label": "S. Estanislau",
       "grupo": "pessoa",
       "ano": 1079,
       "localNasc": "515",
       "dataMorte": "11 de abril de 1079",
-      "x": 1330,
+      "x": 1316,
       "y": 2212.5
     },
     {
       "id": "605",
       "level": 4,
-      "label": "Sto. Antonino",
+      "label": "S. Antonino",
       "grupo": "pessoa",
       "ano": 1459,
       "localNasc": "317",
       "dataMorte": "2 de maio de 1459",
-      "x": 1547,
+      "x": 1463,
       "y": 2587.5
     },
     {
@@ -2356,7 +2422,7 @@
       "ano": 1160,
       "paisNasc": "IT",
       "dataMorte": "16 de maio de 1160",
-      "x": -1372,
+      "x": -1358,
       "y": 2287.5
     },
     {
@@ -2367,7 +2433,7 @@
       "ano": 1296,
       "paisNasc": "IT",
       "dataMorte": "19 de maio de 1296",
-      "x": 1113,
+      "x": 1099,
       "y": 2512.5
     },
     {
@@ -2378,7 +2444,7 @@
       "ano": 1444,
       "paisNasc": "IT",
       "dataMorte": "20 de maio de 1444",
-      "x": 425,
+      "x": 383,
       "y": 2662.5
     },
     {
@@ -2389,7 +2455,7 @@
       "ano": 1085,
       "paisNasc": "IT",
       "dataMorte": "25 de maio de 1085",
-      "x": 1690,
+      "x": 1662,
       "y": 2137.5
     },
     {
@@ -2400,7 +2466,7 @@
       "ano": 735,
       "paisNasc": "GB",
       "dataMorte": "25 de maio de 735",
-      "x": -2539,
+      "x": -2483,
       "y": 2137.5
     },
     {
@@ -2411,24 +2477,24 @@
       "ano": 526,
       "paisNasc": "IT",
       "dataMorte": "18 de maio de 526",
-      "x": -2602,
+      "x": -2546,
       "y": 1987.5
     },
     {
       "id": "623",
       "level": 4,
-      "label": "Sto. Agostinho de Cantuária",
+      "label": "S. Agostinho de Cantuária",
       "grupo": "pessoa",
       "ano": 604,
       "localNasc": "26",
       "dataMorte": "26 de maio de 604",
-      "x": 1232,
+      "x": 1246,
       "y": 2062.5
     },
     {
       "id": "626",
       "level": 4,
-      "label": "Sta. Joana d'Arc",
+      "label": "S. Joana d'Arc",
       "grupo": "pessoa",
       "ano": 1431,
       "paisNasc": "FR",
@@ -2444,7 +2510,7 @@
       "ano": 1252,
       "paisNasc": "ES",
       "dataMorte": "30 de maio de 1252",
-      "x": 2574,
+      "x": 2532,
       "y": 2362.5
     },
     {
@@ -2455,7 +2521,7 @@
       "ano": 1257,
       "paisNasc": "PL",
       "dataMorte": "15 de agosto de 1257",
-      "x": -2281,
+      "x": -2239,
       "y": 2437.5
     },
     {
@@ -2466,7 +2532,7 @@
       "ano": 1285,
       "localNasc": "317",
       "dataMorte": "22 de agosto de 1285",
-      "x": 718,
+      "x": 704,
       "y": 2437.5
     },
     {
@@ -2477,7 +2543,7 @@
       "ano": 1270,
       "paisNasc": "FR",
       "dataMorte": "25 de agosto de 1270",
-      "x": -1243,
+      "x": -1229,
       "y": 2512.5
     },
     {
@@ -2488,29 +2554,29 @@
       "ano": 1240,
       "paisNasc": "ES",
       "dataMorte": "31 de agosto de 1240",
-      "x": 1473,
+      "x": 1459,
       "y": 2287.5
     },
     {
       "id": "651",
       "level": 4,
-      "label": "Sto. Egídio",
+      "label": "S. Egídio",
       "grupo": "pessoa",
       "ano": 710,
       "paisNasc": "GR",
       "dataMorte": "cerca de 710",
-      "x": 2588,
+      "x": 2546,
       "y": 2062.5
     },
     {
       "id": "653",
       "level": 4,
-      "label": "Sto. Estêvão (Rei)",
+      "label": "S. Estêvão (Rei)",
       "grupo": "pessoa",
       "ano": 1038,
       "paisNasc": "HU",
       "dataMorte": "15 de agosto de 1038",
-      "x": -89,
+      "x": -75,
       "y": 2212.5
     },
     {
@@ -2521,7 +2587,7 @@
       "ano": 1456,
       "localNasc": "525",
       "dataMorte": "8 de janeiro de 1456",
-      "x": 876,
+      "x": 834,
       "y": 2587.5
     },
     {
@@ -2532,7 +2598,7 @@
       "ano": 1305,
       "paisNasc": "IT",
       "dataMorte": "10 de setembro de 1305",
-      "x": 1896,
+      "x": 1854,
       "y": 2512.5
     },
     {
@@ -2543,7 +2609,7 @@
       "ano": 935,
       "paisNasc": "CZ",
       "dataMorte": "28 de setembro de 935",
-      "x": -1085,
+      "x": -1029,
       "y": 2137.5
     },
     {
@@ -2554,7 +2620,7 @@
       "ano": 533,
       "paisNasc": "FR",
       "dataMorte": "13 de janeiro de 533",
-      "x": -2057,
+      "x": -2001,
       "y": 1987.5
     },
     {
@@ -2565,7 +2631,7 @@
       "ano": 541,
       "localNasc": "26",
       "dataMorte": "cerca de 541",
-      "x": -1379,
+      "x": -1323,
       "y": 1987.5
     },
     {
@@ -2576,18 +2642,18 @@
       "ano": 1101,
       "paisNasc": "DE",
       "dataMorte": "6 de outubro de 1101",
-      "x": 2623,
+      "x": 2567,
       "y": 2212.5
     },
     {
       "id": "672",
       "level": 4,
-      "label": "Sta. Brígida",
+      "label": "S. Brígida",
       "grupo": "pessoa",
       "ano": 1373,
       "paisNasc": "SE",
       "dataMorte": "23 de julho de 1373",
-      "x": -2008,
+      "x": -1924,
       "y": 2662.5
     },
     {
@@ -2604,12 +2670,12 @@
     {
       "id": "678",
       "level": 4,
-      "label": "Sta. Edwiges",
+      "label": "S. Edwiges",
       "grupo": "pessoa",
       "ano": 1243,
       "paisNasc": "DE",
       "dataMorte": "15 de outubro de 1243",
-      "x": 1833,
+      "x": 1805,
       "y": 2362.5
     },
     {
@@ -2620,7 +2686,7 @@
       "ano": 1473,
       "paisNasc": "PL",
       "dataMorte": "24 de dezembro de 1473",
-      "x": 2148,
+      "x": 2050,
       "y": 2587.5
     },
     {
@@ -2631,7 +2697,7 @@
       "ano": 559,
       "paisNasc": "FR",
       "dataMorte": "cerca de 559",
-      "x": -278,
+      "x": -250,
       "y": 2062.5
     },
     {
@@ -2642,7 +2708,7 @@
       "ano": 655,
       "paisNasc": "IT",
       "dataMorte": "16 de setembro de 655",
-      "x": 1980,
+      "x": 1952,
       "y": 2062.5
     },
     {
@@ -2653,13 +2719,13 @@
       "ano": 1463,
       "paisNasc": "ES",
       "dataMorte": "12 de novembro de 1463",
-      "x": 1844,
+      "x": 1746,
       "y": 2662.5
     },
     {
       "id": "697",
       "level": 4,
-      "label": "Sto. Alberto Magno",
+      "label": "S. Alberto Magno",
       "grupo": "pessoa",
       "ano": 1280,
       "paisNasc": "DE",
@@ -2670,12 +2736,12 @@
     {
       "id": "698",
       "level": 4,
-      "label": "Sta. Gertrudes",
+      "label": "S. Gertrudes",
       "grupo": "pessoa",
       "ano": 1302,
       "paisNasc": "DE",
       "dataMorte": "17 de novembro de 1302",
-      "x": 1487,
+      "x": 1459,
       "y": 2437.5
     },
     {
@@ -2686,7 +2752,7 @@
       "ano": 1212,
       "paisNasc": "FR",
       "dataMorte": "4 de novembro de 1212",
-      "x": -673,
+      "x": -659,
       "y": 2287.5
     },
     {
@@ -2697,7 +2763,7 @@
       "ano": 1267,
       "paisNasc": "IT",
       "dataMorte": "26 de novembro de 1267",
-      "x": -1603,
+      "x": -1589,
       "y": 2437.5
     },
     {
@@ -2708,7 +2774,7 @@
       "ano": 532,
       "paisNasc": "TR",
       "dataMorte": "5 de dezembro de 532",
-      "x": -2333,
+      "x": -2277,
       "y": 2062.5
     },
     {
@@ -2719,24 +2785,24 @@
       "ano": 1170,
       "paisNasc": "GB",
       "dataMorte": "29 de dezembro de 1170",
-      "x": -1054,
+      "x": -1040,
       "y": 2362.5
     },
     {
       "id": "724",
       "level": 4,
-      "label": "Sta. Inês de Montepulciano",
+      "label": "S. Inês de Montepulciano",
       "grupo": "pessoa",
       "ano": 1317,
       "localNasc": "837",
       "dataMorte": "20 de abril de 1317",
-      "x": 2833,
+      "x": 2777,
       "y": 2512.5
     },
     {
       "id": "14",
       "level": 5,
-      "label": "Sto. Inácio de Loyola",
+      "label": "S. Inácio de Loyola",
       "grupo": "pessoa",
       "ano": 1556,
       "localNasc": "820",
@@ -2752,18 +2818,18 @@
       "ano": 1552,
       "localNasc": "821",
       "dataMorte": "3 de dezembro de 1552",
-      "x": -1386,
+      "x": -1372,
       "y": 2737.5
     },
     {
       "id": "12",
       "level": 5,
-      "label": "Sta. Teresa d'Ávila",
+      "label": "S. Teresa d'Ávila",
       "grupo": "pessoa",
       "ano": 1582,
       "localNasc": "149",
       "dataMorte": "4 de outubro de 1582",
-      "x": 1054,
+      "x": 1026,
       "y": 2737.5
     },
     {
@@ -2774,7 +2840,7 @@
       "ano": 1591,
       "localNasc": "822",
       "dataMorte": "14 de dezembro de 1591",
-      "x": 2204,
+      "x": 2162,
       "y": 2812.5
     },
     {
@@ -2785,18 +2851,18 @@
       "ano": 1622,
       "localNasc": "823",
       "dataMorte": "28 de dezembro de 1622",
-      "x": -236,
+      "x": -264,
       "y": 2962.5
     },
     {
       "id": "201",
       "level": 5,
-      "label": "Sto. Antônio Zaccaria",
+      "label": "S. Antônio Zaccaria",
       "grupo": "pessoa",
       "ano": 1539,
       "localNasc": "829",
       "dataMorte": "5 de julho de 1539",
-      "x": -2466,
+      "x": -2438,
       "y": 2812.5
     },
     {
@@ -2818,7 +2884,7 @@
       "ano": 1660,
       "localNasc": "831",
       "dataMorte": "27 de setembro de 1660",
-      "x": 2746,
+      "x": 2690,
       "y": 2887.5
     },
     {
@@ -2829,7 +2895,7 @@
       "ano": 1537,
       "localNasc": "525",
       "dataMorte": "8 de fevereiro de 1537",
-      "x": -2903,
+      "x": -2861,
       "y": 2737.5
     },
     {
@@ -2840,7 +2906,7 @@
       "ano": 1591,
       "localNasc": "832",
       "dataMorte": "21 de junho de 1591",
-      "x": 1844,
+      "x": 1802,
       "y": 2737.5
     },
     {
@@ -2851,7 +2917,7 @@
       "ano": 1550,
       "localNasc": "828",
       "dataMorte": "8 de março de 1550",
-      "x": -1774,
+      "x": -1760,
       "y": 2812.5
     },
     {
@@ -2862,7 +2928,7 @@
       "ano": 1622,
       "localNasc": "833",
       "dataMorte": "24 de abril de 1622",
-      "x": 229,
+      "x": 201,
       "y": 2887.5
     },
     {
@@ -2873,7 +2939,7 @@
       "ano": 1597,
       "localNasc": "834",
       "dataMorte": "21 de dezembro de 1597",
-      "x": -3197,
+      "x": -3141,
       "y": 2887.5
     },
     {
@@ -2895,7 +2961,7 @@
       "ano": 1572,
       "localNasc": "836",
       "dataMorte": "1 de maio de 1572",
-      "x": 271,
+      "x": 257,
       "y": 2737.5
     },
     {
@@ -2906,7 +2972,7 @@
       "ano": 1621,
       "localNasc": "837",
       "dataMorte": "17 de setembro de 1621",
-      "x": -673,
+      "x": -701,
       "y": 2887.5
     },
     {
@@ -2928,7 +2994,7 @@
       "ano": 1592,
       "localNasc": "839",
       "dataMorte": "17 de maio de 1592",
-      "x": 2578,
+      "x": 2536,
       "y": 2737.5
     },
     {
@@ -2939,29 +3005,29 @@
       "ano": 1595,
       "localNasc": "317",
       "dataMorte": "26 de maio de 1595",
-      "x": 2945,
+      "x": 2903,
       "y": 2812.5
     },
     {
       "id": "624",
       "level": 5,
-      "label": "Sta. Maria Madalena de Pazzi",
+      "label": "S. Maria Madalena de Pazzi",
       "grupo": "pessoa",
       "ano": 1607,
       "localNasc": "317",
       "dataMorte": "25 de maio de 1607",
-      "x": -2739,
+      "x": -2697,
       "y": 2962.5
     },
     {
       "id": "629",
       "level": 5,
-      "label": "Sto. Afonso M. de Ligório",
+      "label": "S. Afonso M. de Ligório",
       "grupo": "pessoa",
       "ano": 1787,
       "localNasc": "840",
       "dataMorte": "1 de agosto de 1787",
-      "x": 895,
+      "x": 881,
       "y": 3037.5
     },
     {
@@ -2972,7 +3038,7 @@
       "ano": 1547,
       "localNasc": "841",
       "dataMorte": "7 de agosto de 1547",
-      "x": -2099,
+      "x": -2085,
       "y": 2737.5
     },
     {
@@ -2983,18 +3049,18 @@
       "ano": 1680,
       "localNasc": "842",
       "dataMorte": "19 de agosto de 1680",
-      "x": -979,
+      "x": -951,
       "y": 3037.5
     },
     {
       "id": "643",
       "level": 5,
-      "label": "Sta. Joana Francisca de Chantal",
+      "label": "S. Joana Francisca de Chantal",
       "grupo": "pessoa",
       "ano": 1641,
       "localNasc": "843",
       "dataMorte": "13 de dezembro de 1641",
-      "x": 1484,
+      "x": 1442,
       "y": 2962.5
     },
     {
@@ -3005,18 +3071,18 @@
       "ano": 1648,
       "localNasc": "844",
       "dataMorte": "25 de agosto de 1648",
-      "x": 2330,
+      "x": 2274,
       "y": 2962.5
     },
     {
       "id": "649",
       "level": 5,
-      "label": "Sta. Rosa de Lima",
+      "label": "S. Rosa de Lima",
       "grupo": "pessoa",
       "ano": 1617,
       "localNasc": "806",
       "dataMorte": "24 de agosto de 1617",
-      "x": -1082,
+      "x": -1096,
       "y": 2962.5
     },
     {
@@ -3027,7 +3093,7 @@
       "ano": 1663,
       "localNasc": "845",
       "dataMorte": "18 de setembro de 1663",
-      "x": 3169,
+      "x": 3113,
       "y": 2962.5
     },
     {
@@ -3038,7 +3104,7 @@
       "ano": 1555,
       "paisNasc": "ES",
       "dataMorte": "8 de setembro de 1555",
-      "x": -963,
+      "x": -949,
       "y": 2812.5
     },
     {
@@ -3060,18 +3126,18 @@
       "ano": 1572,
       "paisNasc": "ES",
       "dataMorte": "30 de setembro de 1572",
-      "x": 624,
+      "x": 610,
       "y": 2812.5
     },
     {
       "id": "679",
       "level": 5,
-      "label": "Sta. Margarida Maria Alacoque",
+      "label": "S. Margarida Maria Alacoque",
       "grupo": "pessoa",
       "ano": 1690,
       "paisNasc": "FR",
       "dataMorte": "17 de outubro de 1690",
-      "x": -535,
+      "x": -521,
       "y": 3112.5
     },
     {
@@ -3082,7 +3148,7 @@
       "ano": 1562,
       "paisNasc": "ES",
       "dataMorte": "18 de outubro de 1562",
-      "x": -82,
+      "x": -96,
       "y": 2812.5
     },
     {
@@ -3093,18 +3159,18 @@
       "ano": 1584,
       "paisNasc": "IT",
       "dataMorte": "3 de novembro de 1584",
-      "x": 1463,
+      "x": 1421,
       "y": 2812.5
     },
     {
       "id": "692",
       "level": 5,
-      "label": "Sto. André Avelino",
+      "label": "S. André Avelino",
       "grupo": "pessoa",
       "ano": 1608,
       "paisNasc": "IT",
       "dataMorte": "10 de novembro de 1608",
-      "x": -2267,
+      "x": -2253,
       "y": 2887.5
     },
     {
@@ -3115,7 +3181,7 @@
       "ano": 1623,
       "paisNasc": "UA",
       "dataMorte": "12 de novembro de 1623",
-      "x": 610,
+      "x": 582,
       "y": 2962.5
     },
     {
@@ -3126,7 +3192,7 @@
       "ano": 1639,
       "localNasc": "806",
       "dataMorte": "3 de novembro de 1639",
-      "x": 970,
+      "x": 942,
       "y": 2887.5
     },
     {
@@ -3137,7 +3203,7 @@
       "ano": 1645,
       "paisNasc": "ES",
       "dataMorte": "16 de setembro de 1645",
-      "x": 1949,
+      "x": 1893,
       "y": 2887.5
     },
     {
@@ -3148,7 +3214,7 @@
       "ano": 1859,
       "localNasc": "824",
       "dataMorte": "4 de agosto de 1859",
-      "x": -991,
+      "x": -977,
       "y": 3187.5
     },
     {
@@ -3159,13 +3225,13 @@
       "ano": 1888,
       "localNasc": "825",
       "dataMorte": "31 de janeiro de 1888",
-      "x": -124,
+      "x": -110,
       "y": 3187.5
     },
     {
       "id": "17",
       "level": 6,
-      "label": "Sta. Teresinha",
+      "label": "S. Teresinha",
       "grupo": "pessoa",
       "ano": 1897,
       "localNasc": "826",
@@ -3181,7 +3247,7 @@
       "ano": 1914,
       "localNasc": "827",
       "dataMorte": "20 de agosto de 1914",
-      "x": 519,
+      "x": 505,
       "y": 3187.5
     },
     {
@@ -3192,7 +3258,7 @@
       "ano": 1862,
       "paisNasc": "IT",
       "dataMorte": "27 de fevereiro de 1862",
-      "x": -540,
+      "x": -526,
       "y": 3262.5
     },
     {
@@ -3202,7 +3268,7 @@
       "grupo": "pessoa",
       "ano": 1917,
       "ignorarMapa": true,
-      "x": 921,
+      "x": 907,
       "y": 3262.5
     },
     {
@@ -3220,8 +3286,8 @@
       "categoria": "fundadora",
       "label": "Ordem Franciscana",
       "grupo": "instituicao",
-      "x": 844,
-      "y": 3337.5
+      "x": 1232,
+      "y": 3412.5
     },
     {
       "id": "24",
@@ -3229,8 +3295,8 @@
       "categoria": "fundadora",
       "label": "Ordem Dominicana",
       "grupo": "instituicao",
-      "x": 1225,
-      "y": 3412.5
+      "x": 1613,
+      "y": 3337.5
     },
     {
       "id": "25",
@@ -3274,7 +3340,7 @@
       "categoria": "fundadora",
       "label": "Ordem Agostiniana",
       "grupo": "instituicao",
-      "x": 1606,
+      "x": 844,
       "y": 3337.5
     },
     {
@@ -3373,8 +3439,8 @@
       "categoria": "fundadora",
       "label": "Camilianos",
       "grupo": "instituicao",
-      "x": -1393,
-      "y": 3487.5
+      "x": -907,
+      "y": 3562.5
     },
     {
       "id": "862",
@@ -3382,8 +3448,8 @@
       "categoria": "fundadora",
       "label": "Hospitaleiros",
       "grupo": "instituicao",
-      "x": -2134,
-      "y": 3487.5
+      "x": -1648,
+      "y": 3562.5
     },
     {
       "id": "863",
@@ -3400,8 +3466,8 @@
       "categoria": "fundadora",
       "label": "Escolápios",
       "grupo": "instituicao",
-      "x": 1627,
-      "y": 3487.5
+      "x": 2057,
+      "y": 3562.5
     },
     {
       "id": "865",
@@ -3409,7 +3475,7 @@
       "categoria": "fundadora",
       "label": "Visitandinas",
       "grupo": "instituicao",
-      "x": 117,
+      "x": 1033,
       "y": 3487.5
     },
     {
@@ -3418,8 +3484,8 @@
       "categoria": "fundadora",
       "label": "Ordem Cartuxa",
       "grupo": "instituicao",
-      "x": 2368,
-      "y": 3487.5
+      "x": 2798,
+      "y": 3562.5
     },
     {
       "id": "867",
@@ -3436,7 +3502,7 @@
       "categoria": "fundadora",
       "label": "Suma Teológica",
       "grupo": "documento",
-      "x": -1075,
+      "x": -159,
       "y": 3562.5
     },
     {
@@ -3445,7 +3511,7 @@
       "categoria": "fundadora",
       "label": "Exercícios Espirituais",
       "grupo": "documento",
-      "x": -673,
+      "x": 243,
       "y": 3487.5
     },
     {
@@ -3454,8 +3520,8 @@
       "categoria": "fundadora",
       "label": "Mística Cristã",
       "grupo": "ideia",
-      "x": 1309,
-      "y": 3562.5
+      "x": 1739,
+      "y": 3487.5
     },
     {
       "id": "900",
@@ -3463,7 +3529,7 @@
       "categoria": "fundadora",
       "label": "Regra de São Bento",
       "grupo": "documento",
-      "x": -243,
+      "x": 673,
       "y": 3562.5
     },
     {
@@ -3472,7 +3538,7 @@
       "categoria": "fundadora",
       "label": "Regra de Santo Agostinho",
       "grupo": "documento",
-      "x": 893,
+      "x": -2057,
       "y": 3487.5
     },
     {
@@ -3481,8 +3547,8 @@
       "categoria": "fundadora",
       "label": "Regra de São Basílio",
       "grupo": "documento",
-      "x": 2749,
-      "y": 3562.5
+      "x": -547,
+      "y": 3487.5
     },
     {
       "id": "903",
@@ -3490,7 +3556,7 @@
       "categoria": "fundadora",
       "label": "Castelo Interior",
       "grupo": "documento",
-      "x": 463,
+      "x": 1379,
       "y": 3562.5
     },
     {
@@ -3499,8 +3565,8 @@
       "categoria": "fundadora",
       "label": "Noite Escura da Alma",
       "grupo": "documento",
-      "x": 1987,
-      "y": 3562.5
+      "x": 2417,
+      "y": 3487.5
     },
     {
       "id": "905",
@@ -3508,8 +3574,8 @@
       "categoria": "fundadora",
       "label": "História de uma Alma",
       "grupo": "documento",
-      "x": -1753,
-      "y": 3562.5
+      "x": -1267,
+      "y": 3487.5
     },
     {
       "id": "906",
@@ -3517,8 +3583,8 @@
       "categoria": "fundadora",
       "label": "Introdução à Vida Devota",
       "grupo": "documento",
-      "x": -631,
-      "y": 3637.5
+      "x": 309,
+      "y": 3712.5
     },
     {
       "id": "907",
@@ -3526,8 +3592,8 @@
       "categoria": "fundadora",
       "label": "O Diálogo",
       "grupo": "documento",
-      "x": -1428,
-      "y": 3637.5
+      "x": -488,
+      "y": 3712.5
     },
     {
       "id": "908",
@@ -3535,8 +3601,8 @@
       "categoria": "fundadora",
       "label": "As Glórias de Maria",
       "grupo": "documento",
-      "x": -1082,
-      "y": 3712.5
+      "x": -142,
+      "y": 3637.5
     },
     {
       "id": "909",
@@ -3544,7 +3610,7 @@
       "categoria": "fundadora",
       "label": "Cântico das Criaturas",
       "grupo": "documento",
-      "x": 792,
+      "x": 1330,
       "y": 3712.5
     },
     {
@@ -3553,8 +3619,8 @@
       "categoria": "fundadora",
       "label": "Confissões",
       "grupo": "documento",
-      "x": 1781,
-      "y": 3637.5
+      "x": -1145,
+      "y": 3712.5
     },
     {
       "id": "911",
@@ -3562,8 +3628,8 @@
       "categoria": "fundadora",
       "label": "A Cidade de Deus",
       "grupo": "documento",
-      "x": 2113,
-      "y": 3712.5
+      "x": -813,
+      "y": 3637.5
     },
     {
       "id": "912",
@@ -3571,7 +3637,7 @@
       "categoria": "fundadora",
       "label": "A Vulgata",
       "grupo": "documento",
-      "x": 1152,
+      "x": -2162,
       "y": 3637.5
     },
     {
@@ -3580,8 +3646,8 @@
       "categoria": "fundadora",
       "label": "Contra as Heresias",
       "grupo": "documento",
-      "x": -187,
-      "y": 3712.5
+      "x": 1753,
+      "y": 3637.5
     },
     {
       "id": "914",
@@ -3589,7 +3655,7 @@
       "categoria": "fundadora",
       "label": "Itinerário da Mente para Deus",
       "grupo": "documento",
-      "x": 292,
+      "x": 830,
       "y": 3637.5
     },
     {
@@ -3598,8 +3664,8 @@
       "categoria": "fundadora",
       "label": "Proslogion",
       "grupo": "documento",
-      "x": -2155,
-      "y": 3637.5
+      "x": -1879,
+      "y": 3712.5
     },
     {
       "id": "916",
@@ -3607,7 +3673,7 @@
       "categoria": "fundadora",
       "label": "Regra Pastoral",
       "grupo": "documento",
-      "x": 1463,
+      "x": 2127,
       "y": 3712.5
     },
     {
@@ -3616,8 +3682,8 @@
       "categoria": "fundadora",
       "label": "História Eclesiástica",
       "grupo": "documento",
-      "x": -1788,
-      "y": 3712.5
+      "x": -1512,
+      "y": 3637.5
     },
     {
       "id": "26",
@@ -3629,8 +3695,8 @@
       "iso": "IT",
       "lat": 41.9028,
       "lng": 12.4964,
-      "x": -638,
-      "y": 3937.5
+      "x": -942,
+      "y": 4012.5
     },
     {
       "id": "130",
@@ -3642,8 +3708,8 @@
       "iso": "IL",
       "lat": 32.7019,
       "lng": 35.3033,
-      "x": -701,
-      "y": 4237.5
+      "x": -327,
+      "y": 4312.5
     },
     {
       "id": "131",
@@ -3653,7 +3719,7 @@
       "grupo": "localizacao",
       "pais": "Jordânia",
       "iso": "JO",
-      "x": 519,
+      "x": 533,
       "y": 4312.5
     },
     {
@@ -3664,8 +3730,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": -2445,
-      "y": 4312.5
+      "x": -1337,
+      "y": 4237.5
     },
     {
       "id": "133",
@@ -3677,8 +3743,8 @@
       "iso": "IL",
       "lat": 31.7683,
       "lng": 35.2137,
-      "x": -271,
-      "y": 4012.5
+      "x": -2127,
+      "y": 3937.5
     },
     {
       "id": "134",
@@ -3688,8 +3754,8 @@
       "grupo": "localizacao",
       "pais": "Israel",
       "iso": "IL",
-      "x": 2403,
-      "y": 4237.5
+      "x": 2777,
+      "y": 4312.5
     },
     {
       "id": "135",
@@ -3699,8 +3765,8 @@
       "grupo": "localizacao",
       "pais": "Egito",
       "iso": "EG",
-      "x": -341,
-      "y": 4312.5
+      "x": 2431,
+      "y": 4237.5
     },
     {
       "id": "136",
@@ -3710,7 +3776,7 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -2459,
+      "x": 393,
       "y": 4012.5
     },
     {
@@ -3721,7 +3787,7 @@
       "grupo": "localizacao",
       "pais": "Argélia",
       "iso": "DZ",
-      "x": 2756,
+      "x": -2438,
       "y": 4312.5
     },
     {
@@ -3734,7 +3800,7 @@
       "iso": "TR",
       "lat": 36.2021,
       "lng": 36.1606,
-      "x": 1309,
+      "x": 2043,
       "y": 4312.5
     },
     {
@@ -3747,8 +3813,8 @@
       "iso": "TR",
       "lat": 39.7505,
       "lng": 37.015,
-      "x": -2826,
-      "y": 3937.5
+      "x": -1732,
+      "y": 4012.5
     },
     {
       "id": "140",
@@ -3760,7 +3826,7 @@
       "iso": "IT",
       "lat": 37.5079,
       "lng": 15.0873,
-      "x": 117,
+      "x": 1515,
       "y": 3937.5
     },
     {
@@ -3771,7 +3837,7 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 68,
+      "x": 82,
       "y": 4237.5
     },
     {
@@ -3782,7 +3848,7 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -1725,
+      "x": -1711,
       "y": 4312.5
     },
     {
@@ -3795,8 +3861,8 @@
       "iso": "IT",
       "lat": 43.0707,
       "lng": 12.6196,
-      "x": -1054,
-      "y": 4312.5
+      "x": -680,
+      "y": 4237.5
     },
     {
       "id": "144",
@@ -3806,8 +3872,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 491,
-      "y": 4012.5
+      "x": -589,
+      "y": 3937.5
     },
     {
       "id": "145",
@@ -3819,7 +3885,7 @@
       "iso": "IT",
       "lat": 40.8518,
       "lng": 14.2681,
-      "x": -1407,
+      "x": -2833,
       "y": 3937.5
     },
     {
@@ -3830,8 +3896,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 1099,
-      "y": 4012.5
+      "x": 739,
+      "y": 3937.5
     },
     {
       "id": "147",
@@ -3843,8 +3909,8 @@
       "iso": "IT",
       "lat": 42.7186,
       "lng": 13.0131,
-      "x": 2057,
-      "y": 4312.5
+      "x": 1655,
+      "y": 4237.5
     },
     {
       "id": "148",
@@ -3854,8 +3920,8 @@
       "grupo": "localizacao",
       "pais": "Índia",
       "iso": "IN",
-      "x": -1379,
-      "y": 4237.5
+      "x": -1005,
+      "y": 4312.5
     },
     {
       "id": "149",
@@ -3867,8 +3933,8 @@
       "iso": "ES",
       "lat": 40.6565,
       "lng": -4.6818,
-      "x": 1697,
-      "y": 4237.5
+      "x": 1295,
+      "y": 4312.5
     },
     {
       "id": "150",
@@ -3889,7 +3955,7 @@
       "grupo": "localizacao",
       "pais": "Suíça",
       "iso": "CH",
-      "x": 921,
+      "x": 935,
       "y": 4237.5
     },
     {
@@ -3911,7 +3977,7 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -2092,
+      "x": -2078,
       "y": 4237.5
     },
     {
@@ -3922,8 +3988,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -2050,
-      "y": 4387.5
+      "x": -2424,
+      "y": 4462.5
     },
     {
       "id": "155",
@@ -3944,8 +4010,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
-      "x": 1571,
-      "y": 3937.5
+      "x": 2001,
+      "y": 4012.5
     },
     {
       "id": "157",
@@ -3955,8 +4021,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": 2085,
-      "y": 4012.5
+      "x": -1323,
+      "y": 3937.5
     },
     {
       "id": "158",
@@ -3966,8 +4032,8 @@
       "grupo": "localizacao",
       "pais": "Armênia",
       "iso": "AM",
-      "x": 802,
-      "y": 3937.5
+      "x": -278,
+      "y": 4012.5
     },
     {
       "id": "159",
@@ -3977,7 +4043,7 @@
       "grupo": "localizacao",
       "pais": "Índia",
       "iso": "IN",
-      "x": 229,
+      "x": 991,
       "y": 4387.5
     },
     {
@@ -3988,8 +4054,8 @@
       "grupo": "localizacao",
       "pais": "Etiópia",
       "iso": "ET",
-      "x": 921,
-      "y": 4387.5
+      "x": 1295,
+      "y": 4462.5
     },
     {
       "id": "161",
@@ -3999,7 +4065,7 @@
       "grupo": "localizacao",
       "pais": "Irã",
       "iso": "IR",
-      "x": -1753,
+      "x": -2487,
       "y": 4012.5
     },
     {
@@ -4012,8 +4078,8 @@
       "iso": "IT",
       "lat": 45.4642,
       "lng": 9.19,
-      "x": -1288,
-      "y": 4387.5
+      "x": -138,
+      "y": 4462.5
     },
     {
       "id": "301",
@@ -4023,8 +4089,8 @@
       "grupo": "localizacao",
       "pais": "Chéquia",
       "iso": "CZ",
-      "x": -921,
-      "y": 4462.5
+      "x": -505,
+      "y": 4387.5
     },
     {
       "id": "302",
@@ -4034,8 +4100,8 @@
       "grupo": "localizacao",
       "pais": "Hungria",
       "iso": "HU",
-      "x": 1599,
-      "y": 4387.5
+      "x": 1973,
+      "y": 4462.5
     },
     {
       "id": "303",
@@ -4045,8 +4111,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 1260,
-      "y": 4462.5
+      "x": 1634,
+      "y": 4387.5
     },
     {
       "id": "304",
@@ -4056,8 +4122,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -561,
-      "y": 4387.5
+      "x": 645,
+      "y": 4462.5
     },
     {
       "id": "305",
@@ -4067,7 +4133,7 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": -1662,
+      "x": -900,
       "y": 4462.5
     },
     {
@@ -4091,7 +4157,7 @@
       "iso": "IT",
       "lat": 42.645,
       "lng": 11.9861,
-      "x": -2099,
+      "x": 33,
       "y": 3937.5
     },
     {
@@ -4104,7 +4170,7 @@
       "iso": "TR",
       "lat": 40.7654,
       "lng": 29.9406,
-      "x": -1012,
+      "x": 1120,
       "y": 4012.5
     },
     {
@@ -4117,8 +4183,8 @@
       "iso": "PS",
       "lat": 31.7708,
       "lng": 35.2608,
-      "x": 1931,
-      "y": 4462.5
+      "x": 2305,
+      "y": 4387.5
     },
     {
       "id": "310",
@@ -4141,7 +4207,7 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": -2424,
+      "x": -1662,
       "y": 4462.5
     },
     {
@@ -4152,8 +4218,8 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": -173,
-      "y": 4462.5
+      "x": 257,
+      "y": 4387.5
     },
     {
       "id": "313",
@@ -4163,8 +4229,8 @@
       "grupo": "localizacao",
       "pais": "Reino Unido",
       "iso": "GB",
-      "x": 2375,
-      "y": 4387.5
+      "x": 2749,
+      "y": 4462.5
     },
     {
       "id": "314",
@@ -4185,8 +4251,8 @@
       "grupo": "localizacao",
       "pais": "Israel",
       "iso": "IL",
-      "x": 603,
-      "y": 4462.5
+      "x": -2043,
+      "y": 4387.5
     },
     {
       "id": "316",
@@ -4196,8 +4262,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": 2798,
-      "y": 4462.5
+      "x": -1288,
+      "y": 4387.5
     },
     {
       "id": "317",
@@ -4209,7 +4275,7 @@
       "iso": "IT",
       "lat": 43.7696,
       "lng": 11.2558,
-      "x": -470,
+      "x": 956,
       "y": 4537.5
     },
     {
@@ -4222,7 +4288,7 @@
       "iso": "IT",
       "lat": 40.9256,
       "lng": 14.5283,
-      "x": 292,
+      "x": -624,
       "y": 4537.5
     },
     {
@@ -4233,7 +4299,7 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -2938,
+      "x": -2162,
       "y": 4537.5
     },
     {
@@ -4244,8 +4310,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": 276,
-      "y": 4162.5
+      "x": -70,
+      "y": 4087.5
     },
     {
       "id": "500",
@@ -4257,8 +4323,8 @@
       "iso": "FR",
       "lat": 46.5802,
       "lng": 0.3404,
-      "x": 652,
-      "y": 4612.5
+      "x": -2966,
+      "y": 4537.5
     },
     {
       "id": "501",
@@ -4268,7 +4334,7 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -75,
+      "x": 1351,
       "y": 4612.5
     },
     {
@@ -4279,8 +4345,8 @@
       "grupo": "localizacao",
       "pais": "Dinamarca",
       "iso": "DK",
-      "x": 1823,
-      "y": 4537.5
+      "x": 2239,
+      "y": 4612.5
     },
     {
       "id": "503",
@@ -4292,7 +4358,7 @@
       "iso": "ES",
       "lat": 41.6488,
       "lng": -0.8891,
-      "x": 2225,
+      "x": 561,
       "y": 4612.5
     },
     {
@@ -4305,8 +4371,8 @@
       "iso": "ES",
       "lat": 41.3879,
       "lng": 2.1699,
-      "x": -872,
-      "y": 4612.5
+      "x": 152,
+      "y": 4537.5
     },
     {
       "id": "505",
@@ -4318,8 +4384,8 @@
       "iso": "TR",
       "lat": 38.4237,
       "lng": 27.1428,
-      "x": 2620,
-      "y": 4537.5
+      "x": -2578,
+      "y": 4612.5
     },
     {
       "id": "506",
@@ -4329,8 +4395,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": -1725,
-      "y": 4612.5
+      "x": 1795,
+      "y": 4537.5
     },
     {
       "id": "507",
@@ -4340,7 +4406,7 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -2529,
+      "x": -1753,
       "y": 4612.5
     },
     {
@@ -4362,8 +4428,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -1281,
-      "y": 4537.5
+      "x": -257,
+      "y": 4612.5
     },
     {
       "id": "510",
@@ -4375,7 +4441,7 @@
       "iso": "EG",
       "lat": 31.2001,
       "lng": 29.9187,
-      "x": 1047,
+      "x": -1365,
       "y": 4537.5
     },
     {
@@ -4386,8 +4452,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -2155,
-      "y": 4537.5
+      "x": -977,
+      "y": 4612.5
     },
     {
       "id": "512",
@@ -4399,8 +4465,8 @@
       "iso": "IT",
       "lat": 45.5416,
       "lng": 10.2118,
-      "x": 1435,
-      "y": 4612.5
+      "x": 2627,
+      "y": 4537.5
     },
     {
       "id": "513",
@@ -4410,7 +4476,7 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 1068,
+      "x": 942,
       "y": 4687.5
     },
     {
@@ -4434,7 +4500,7 @@
       "iso": "PL",
       "lat": 50.0647,
       "lng": 19.945,
-      "x": 1921,
+      "x": 1795,
       "y": 4687.5
     },
     {
@@ -4447,8 +4513,8 @@
       "iso": "TN",
       "lat": 36.8531,
       "lng": 10.3231,
-      "x": 643,
-      "y": 4087.5
+      "x": 297,
+      "y": 4162.5
     },
     {
       "id": "517",
@@ -4469,7 +4535,7 @@
       "grupo": "localizacao",
       "pais": "Irlanda",
       "iso": "IE",
-      "x": 3022,
+      "x": -872,
       "y": 4762.5
     },
     {
@@ -4493,8 +4559,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
-      "x": 2704,
-      "y": 4687.5
+      "x": 2952,
+      "y": 4762.5
     },
     {
       "id": "521",
@@ -4506,7 +4572,7 @@
       "iso": "ES",
       "lat": 39.4699,
       "lng": -0.3763,
-      "x": 285,
+      "x": 159,
       "y": 4687.5
     },
     {
@@ -4517,7 +4583,7 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
-      "x": 1512,
+      "x": 1386,
       "y": 4762.5
     },
     {
@@ -4539,7 +4605,7 @@
       "grupo": "localizacao",
       "pais": "Suíça",
       "iso": "CH",
-      "x": 659,
+      "x": 533,
       "y": 4762.5
     },
     {
@@ -4552,7 +4618,7 @@
       "iso": "IT",
       "lat": 45.4408,
       "lng": 12.3155,
-      "x": -96,
+      "x": -222,
       "y": 4762.5
     },
     {
@@ -4576,8 +4642,8 @@
       "iso": "IT",
       "lat": 43.3188,
       "lng": 11.3308,
-      "x": -823,
-      "y": 4762.5
+      "x": -575,
+      "y": 4687.5
     },
     {
       "id": "800",
@@ -4587,7 +4653,7 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -70,
+      "x": 664,
       "y": 4087.5
     },
     {
@@ -4598,7 +4664,7 @@
       "grupo": "localizacao",
       "pais": "Portugal",
       "iso": "PT",
-      "x": 2316,
+      "x": 2190,
       "y": 4762.5
     },
     {
@@ -4609,7 +4675,7 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -463,
+      "x": 2571,
       "y": 4687.5
     },
     {
@@ -4644,8 +4710,8 @@
       "iso": "PE",
       "lat": -12.0464,
       "lng": -77.0428,
-      "x": 928,
-      "y": 4837.5
+      "x": 1330,
+      "y": 4912.5
     },
     {
       "id": "807",
@@ -4655,8 +4721,8 @@
       "grupo": "localizacao",
       "pais": "Portugal",
       "iso": "PT",
-      "x": 1281,
-      "y": 4912.5
+      "x": 1683,
+      "y": 4837.5
     },
     {
       "id": "810",
@@ -4668,8 +4734,8 @@
       "iso": "PT",
       "lat": 38.7223,
       "lng": -9.1393,
-      "x": 1676,
-      "y": 4837.5
+      "x": 2078,
+      "y": 4912.5
     },
     {
       "id": "811",
@@ -4681,7 +4747,7 @@
       "iso": "DZ",
       "lat": 36.2864,
       "lng": 7.9511,
-      "x": 2466,
+      "x": -2232,
       "y": 4837.5
     },
     {
@@ -4694,7 +4760,7 @@
       "iso": "HR",
       "lat": 45.3833,
       "lng": 13.8167,
-      "x": 2071,
+      "x": -2627,
       "y": 4912.5
     },
     {
@@ -4707,7 +4773,7 @@
       "iso": "TR",
       "lat": 36.9165,
       "lng": 34.8953,
-      "x": -1746,
+      "x": -956,
       "y": 4912.5
     },
     {
@@ -4720,8 +4786,8 @@
       "iso": "IL",
       "lat": 32.9089,
       "lng": 35.6322,
-      "x": 582,
-      "y": 4912.5
+      "x": 984,
+      "y": 4837.5
     },
     {
       "id": "815",
@@ -4733,7 +4799,7 @@
       "iso": "PS",
       "lat": 31.7054,
       "lng": 35.2024,
-      "x": -222,
+      "x": 2896,
       "y": 4912.5
     },
     {
@@ -4746,7 +4812,7 @@
       "iso": "IT",
       "lat": 42.7936,
       "lng": 13.0933,
-      "x": -1386,
+      "x": -596,
       "y": 4837.5
     },
     {
@@ -4759,7 +4825,7 @@
       "iso": "FR",
       "lat": 47.3444,
       "lng": 5.0222,
-      "x": -2564,
+      "x": -1774,
       "y": 4912.5
     },
     {
@@ -4772,8 +4838,8 @@
       "iso": "ES",
       "lat": 41.8258,
       "lng": -3.4878,
-      "x": 180,
-      "y": 4837.5
+      "x": 582,
+      "y": 4912.5
     },
     {
       "id": "819",
@@ -4785,7 +4851,7 @@
       "iso": "IT",
       "lat": 41.5539,
       "lng": 13.6669,
-      "x": -998,
+      "x": -208,
       "y": 4912.5
     },
     {
@@ -4798,7 +4864,7 @@
       "iso": "ES",
       "lat": 43.1744,
       "lng": -2.2825,
-      "x": -603,
+      "x": 187,
       "y": 4837.5
     },
     {
@@ -4811,7 +4877,7 @@
       "iso": "ES",
       "lat": 42.5925,
       "lng": -1.2158,
-      "x": -2113,
+      "x": -1323,
       "y": 4837.5
     },
     {
@@ -4824,8 +4890,8 @@
       "iso": "ES",
       "lat": 40.9839,
       "lng": -4.9619,
-      "x": 2875,
-      "y": 4912.5
+      "x": 2487,
+      "y": 4837.5
     },
     {
       "id": "823",
@@ -5132,7 +5198,7 @@
       "categoria": "santuario",
       "label": "Collégiale Sainte-Marthe - Tarascon (França)",
       "grupo": "santuario",
-      "x": 2037,
+      "x": 2023,
       "y": 5512.5
     },
     {
@@ -5141,7 +5207,7 @@
       "categoria": "santuario",
       "label": "Basílica de S. Pedro (Roma)",
       "grupo": "santuario",
-      "x": 194,
+      "x": 208,
       "y": 5437.5
     },
     {
@@ -5150,7 +5216,7 @@
       "categoria": "santuario",
       "label": "Catedral de Santiago de Compostela",
       "grupo": "santuario",
-      "x": 1369,
+      "x": 1355,
       "y": 5437.5
     },
     {
@@ -5159,14 +5225,14 @@
       "categoria": "santuario",
       "label": "Basílica de S. Francisco (Assis)",
       "grupo": "santuario",
-      "x": -1051,
+      "x": -1037,
       "y": 5437.5
     },
     {
       "id": "1023",
       "level": 9,
       "categoria": "santuario",
-      "label": "Basílica de Sto. Antônio (Pádua)",
+      "label": "Basílica de S. Antônio (Pádua)",
       "grupo": "santuario",
       "x": 757,
       "y": 5512.5
@@ -5177,7 +5243,7 @@
       "categoria": "santuario",
       "label": "Basílica de S. Paulo Extramuros (Roma)",
       "grupo": "santuario",
-      "x": -411,
+      "x": -397,
       "y": 5512.5
     },
     {
@@ -5186,7 +5252,7 @@
       "categoria": "santuario",
       "label": "Santuário de Ars (França)",
       "grupo": "santuario",
-      "x": -2142,
+      "x": -2128,
       "y": 5437.5
     },
     {
@@ -5195,7 +5261,7 @@
       "categoria": "santuario",
       "label": "Basílica de Lisieux (França)",
       "grupo": "santuario",
-      "x": -1621,
+      "x": -1607,
       "y": 5512.5
     },
     {
@@ -5240,8 +5306,8 @@
       "categoria": "reliquia",
       "label": "Sangue Liquefeito",
       "grupo": "reliquia",
-      "x": 603,
-      "y": 5737.5
+      "x": 949,
+      "y": 5812.5
     },
     {
       "id": "1011",
@@ -5249,8 +5315,8 @@
       "categoria": "reliquia",
       "label": "Coração Incorrupto",
       "grupo": "reliquia",
-      "x": 208,
-      "y": 5812.5
+      "x": -166,
+      "y": 5737.5
     },
     {
       "id": "1012",
@@ -5258,7 +5324,7 @@
       "categoria": "reliquia",
       "label": "Língua Intacta",
       "grupo": "reliquia",
-      "x": 970,
+      "x": 208,
       "y": 5812.5
     },
     {
@@ -5276,7 +5342,7 @@
       "categoria": "reliquia",
       "label": "Manto Partilhado",
       "grupo": "reliquia",
-      "x": -180,
+      "x": 568,
       "y": 5737.5
     },
     {
@@ -5294,8 +5360,8 @@
       "categoria": "simbolo",
       "label": "As Chaves do Reino",
       "grupo": "iconografia",
-      "x": -1564,
-      "y": 5962.5
+      "x": -554,
+      "y": 5887.5
     },
     {
       "id": "1031",
@@ -5303,8 +5369,8 @@
       "categoria": "simbolo",
       "label": "A Espada",
       "grupo": "iconografia",
-      "x": -1232,
-      "y": 5887.5
+      "x": -222,
+      "y": 5962.5
     },
     {
       "id": "1032",
@@ -5312,8 +5378,8 @@
       "categoria": "simbolo",
       "label": "O Lírio (Pureza)",
       "grupo": "iconografia",
-      "x": 1442,
-      "y": 5962.5
+      "x": 1690,
+      "y": 5887.5
     },
     {
       "id": "1033",
@@ -5321,8 +5387,8 @@
       "categoria": "simbolo",
       "label": "Chuva de Rosas",
       "grupo": "iconografia",
-      "x": -40,
-      "y": 5962.5
+      "x": -1414,
+      "y": 5887.5
     },
     {
       "id": "1034",
@@ -5330,8 +5396,8 @@
       "categoria": "simbolo",
       "label": "A Caveira (Memento Mori)",
       "grupo": "iconografia",
-      "x": -456,
-      "y": 5887.5
+      "x": -998,
+      "y": 5962.5
     },
     {
       "id": "1035",
@@ -5339,8 +5405,8 @@
       "categoria": "simbolo",
       "label": "Livro (Doutor/Evangelho)",
       "grupo": "iconografia",
-      "x": 1012,
-      "y": 5887.5
+      "x": 442,
+      "y": 5962.5
     },
     {
       "id": "1036",
@@ -5348,8 +5414,8 @@
       "categoria": "simbolo",
       "label": "O Dragão",
       "grupo": "iconografia",
-      "x": 1760,
-      "y": 5887.5
+      "x": 2008,
+      "y": 5962.5
     },
     {
       "id": "1037",
@@ -5357,7 +5423,7 @@
       "categoria": "simbolo",
       "label": "Flechas do Martírio",
       "grupo": "iconografia",
-      "x": -1973,
+      "x": 893,
       "y": 5887.5
     },
     {
@@ -5366,8 +5432,8 @@
       "categoria": "simbolo",
       "label": "A Grelha",
       "grupo": "iconografia",
-      "x": 2022,
-      "y": 5962.5
+      "x": 2270,
+      "y": 5887.5
     },
     {
       "id": "1039",
@@ -5375,7 +5441,7 @@
       "categoria": "simbolo",
       "label": "O Cordeiro",
       "grupo": "iconografia",
-      "x": 2298,
+      "x": 54,
       "y": 5887.5
     },
     {
@@ -5384,8 +5450,8 @@
       "categoria": "simbolo",
       "label": "Olhos numa bandeja",
       "grupo": "iconografia",
-      "x": 334,
-      "y": 5887.5
+      "x": 2602,
+      "y": 5962.5
     },
     {
       "id": "1041",
@@ -5393,7 +5459,7 @@
       "categoria": "simbolo",
       "label": "Seios numa bandeja",
       "grupo": "iconografia",
-      "x": -900,
+      "x": 1302,
       "y": 5962.5
     },
     {
@@ -5402,7 +5468,7 @@
       "categoria": "simbolo",
       "label": "Alicate e Dentes",
       "grupo": "iconografia",
-      "x": -2616,
+      "x": -2008,
       "y": 5887.5
     },
     {
@@ -5411,8 +5477,8 @@
       "categoria": "simbolo",
       "label": "A Roda Quebrada",
       "grupo": "iconografia",
-      "x": 2623,
-      "y": 5962.5
+      "x": -2623,
+      "y": 5887.5
     },
     {
       "id": "1044",
@@ -5420,7 +5486,7 @@
       "categoria": "simbolo",
       "label": "O Leão",
       "grupo": "iconografia",
-      "x": 652,
+      "x": -1704,
       "y": 5962.5
     },
     {
@@ -5429,7 +5495,7 @@
       "categoria": "simbolo",
       "label": "A Águia",
       "grupo": "iconografia",
-      "x": -2305,
+      "x": -2319,
       "y": 5962.5
     },
     {
@@ -5447,8 +5513,8 @@
       "categoria": "simbolo",
       "label": "O Pavão",
       "grupo": "iconografia",
-      "x": -1136,
-      "y": 6037.5
+      "x": -14,
+      "y": 6112.5
     },
     {
       "id": "1048",
@@ -5456,8 +5522,8 @@
       "categoria": "simbolo",
       "label": "Pedras sobre um livro",
       "grupo": "iconografia",
-      "x": -790,
-      "y": 6112.5
+      "x": 332,
+      "y": 6037.5
     },
     {
       "id": "1049",
@@ -5465,7 +5531,7 @@
       "categoria": "simbolo",
       "label": "Cão com Tocha na boca",
       "grupo": "iconografia",
-      "x": -28,
+      "x": -720,
       "y": 6112.5
     },
     {
@@ -5474,7 +5540,7 @@
       "categoria": "simbolo",
       "label": "O Santo Rosário",
       "grupo": "iconografia",
-      "x": 374,
+      "x": -318,
       "y": 6037.5
     },
     {
@@ -5492,7 +5558,7 @@
       "categoria": "simbolo",
       "label": "Sol no peito",
       "grupo": "iconografia",
-      "x": -409,
+      "x": -1101,
       "y": 6037.5
     }
   ],
@@ -8876,6 +8942,86 @@
       "from": "99",
       "to": "720",
       "texto": "Dia 31"
+    },
+    {
+      "from": "56",
+      "to": "1054",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1054",
+      "texto": "é"
+    },
+    {
+      "from": "98",
+      "to": "1054",
+      "texto": "Dia 19"
+    },
+    {
+      "from": "1054",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "56",
+      "to": "1055",
+      "texto": "é"
+    },
+    {
+      "from": "53",
+      "to": "1055",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1055",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "1055",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "50",
+      "to": "1056",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1056",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "50",
+      "to": "1057",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1057",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "50",
+      "to": "1058",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1058",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "50",
+      "to": "1059",
+      "texto": "é"
+    },
+    {
+      "from": "97",
+      "to": "1059",
+      "texto": "Dia 7"
     },
     {
       "from": "6",
