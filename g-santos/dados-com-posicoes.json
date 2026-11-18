@@ -11638,7 +11638,9 @@
     "dicionario": {
       "chaveOrdenacao": "ano",
       "agrupamento": "categoria",
-      "mesReferencia": "mesNumero"
+      "mesReferencia": "mesNumero",
+      "campoDetalhe": null,
+      "prefixoDetalhe": ""
     },
     "layout": {
       "nosPorFileira": 16,

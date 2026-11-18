@@ -1958,7 +1958,9 @@
     "dicionario": {
       "chaveOrdenacao": "ano",
       "agrupamento": "grupo",
-      "mesReferencia": "mesNumero"
+      "mesReferencia": "mesNumero",
+      "campoDetalhe": null,
+      "prefixoDetalhe": ""
     },
     "layout": {
       "nosPorFileira": 8,
