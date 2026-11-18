@@ -1,6 +1,6 @@
 
 // ============================================================
-// CALCULADOR DE POSIÇÕES — calcular-posicoes.js
+// calcular-posicoes.js
 // ============================================================
 //
 // ÁRVORE DE DECISÃO — CAMADAS DE GENERALIDADE (não remover nem mover):
@@ -905,14 +905,17 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
     if (a.idGrafo) return;
     var chaveAv = normalizarChaveNomeSanto(a.nome);
     var candidatosExatos = (chaveAv && grafoPorNomeNorm[chaveAv]) ? grafoPorNomeNorm[chaveAv] : [];
-    var alvoExato = candidatosExatos.find(function(g) { return !grafoIdsCasados.has(g.idGrafo); });
 
-    if (alvoExato) {
-      avulsoPorIdGrafo[alvoExato.idGrafo] = a;
-      grafoIdsCasados.add(alvoExato.idGrafo);
-      qtdAvulsosSubstituidos++;
-      return;
-    }
+    candidatosExatos.forEach(function(g) {
+      if (grafoIdsCasados.has(g.idGrafo)) return;
+      registrarOcorrencia(
+        'provável duplicata',
+        String(a.id) + ' - ' + String(a.nome || ''),
+        'nome',
+        g.idGrafo + ' - ' + g.nome,
+        String(a.id) + ' - ' + String(a.nome || '')
+      );
+    });
 
     santosGrafo.forEach(function(g) {
       if (grafoIdsCasados.has(g.idGrafo)) return;
@@ -1325,3 +1328,6 @@ module.exports = { calcularPosicoesDeUmGrafo: calcularPosicoesDeUmGrafo };
 if (require.main === module) {
   main();
 }
+
+
+// FIM calcular-posicoes.js
