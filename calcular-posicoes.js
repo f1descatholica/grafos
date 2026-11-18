@@ -51,7 +51,7 @@ const NUM_PASSADAS = 6;
 // Usado se dados-grafo.js não tiver a chave "regras" — mantém o
 // comportamento de antes, sem quebrar grafos ainda não migrados.
 const REGRAS_PADRAO = {
-  dicionario: { chaveOrdenacao: 'ano', agrupamento: 'categoria', mesReferencia: 'mesNumero' },
+  dicionario: { chaveOrdenacao: 'ano', agrupamento: 'categoria', mesReferencia: 'mesNumero', campoDetalhe: null, prefixoDetalhe: '' },
   layout: { nosPorFileira: 16, minimoAntesQuebraSeculo: 16, alturaPorFileira: 150, numLinhasInternas: 2, usaQuebraPorEpoca: true, quebrarSempreEntreCategorias: true },
   cores: {}
 };
