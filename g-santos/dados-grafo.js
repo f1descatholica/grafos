@@ -1,4 +1,3 @@
-
 // ============================================================
 // REGRAS GRAFO e MAPA "g-santos"
 // ============================================================
@@ -6,7 +5,9 @@ var regrasDoGrafo = {
   dicionario: {
     chaveOrdenacao: 'ano',
     agrupamento: 'categoria',
-    mesReferencia: 'mesNumero'
+    mesReferencia: 'mesNumero',
+    campoDetalhe: 'dataMorte',
+    prefixoDetalhe: '† '
   },
   layout: {
     alturaPorFileira: 150,
