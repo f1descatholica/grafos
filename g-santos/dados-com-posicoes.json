@@ -11639,8 +11639,8 @@
       "chaveOrdenacao": "ano",
       "agrupamento": "categoria",
       "mesReferencia": "mesNumero",
-      "campoDetalhe": null,
-      "prefixoDetalhe": ""
+      "campoDetalhe": "dataMorte",
+      "prefixoDetalhe": "† "
     },
     "layout": {
       "nosPorFileira": 16,
