@@ -1,0 +1,13 @@
+data/hora | tipo | santo | campo | valor_grafo | valor_ficou
+2026-11-18 13:06:07 | substituição de campo | 2 - Pedro | atributoLiturgico | Papa e Mártir e Apóstolo | Presbítero e Mártir
+2026-11-18 13:06:07 | substituição de campo | 2 - Pedro | diaFesta | 29 de junho | 16 de janeiro
+2026-11-18 13:06:07 | substituição de campo | 2 - Pedro | cidade | Betsaida | San Gemini
+2026-11-18 13:06:07 | substituição de campo | 2 - Pedro | pais | Israel | Itália
+2026-11-18 13:06:07 | substituição de campo | 2 - Pedro | iso | IL | IT
+2026-11-18 13:06:07 | substituição de campo | 2 - Pedro | dataMorte | cerca de 67 | 16 de janeiro de 1220
+2026-11-18 13:06:07 | substituição de campo | 66 - Bernardo | atributoLiturgico | Abade e Doutor | Presbítero e Mártir
+2026-11-18 13:06:07 | substituição de campo | 66 - Bernardo | diaFesta | 20 de agosto | 16 de janeiro
+2026-11-18 13:06:07 | substituição de campo | 66 - Bernardo | cidade | Fontaine-lès-Dijon | Narni
+2026-11-18 13:06:07 | substituição de campo | 66 - Bernardo | pais | França | Itália
+2026-11-18 13:06:07 | substituição de campo | 66 - Bernardo | iso | FR | IT
+2026-11-18 13:06:07 | substituição de campo | 66 - Bernardo | dataMorte | 20 de agosto de 1153 | 16 de janeiro de 1220

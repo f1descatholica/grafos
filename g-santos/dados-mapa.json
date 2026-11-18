@@ -29,13 +29,13 @@
     {
       "id": "2",
       "nome": "Pedro",
-      "atributoLiturgico": "Papa e Mártir e Apóstolo",
-      "diaFesta": "29 de junho",
-      "cidade": "Betsaida",
-      "pais": "Israel",
-      "iso": "IL",
-      "dataMorte": "cerca de 67",
-      "cidadeId": "814",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "16 de janeiro",
+      "cidade": "San Gemini",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "16 de janeiro de 1220",
+      "cidadeId": "cid_san_gemini_IT",
       "idGrafo": "2",
       "temGrafo": true
     },
@@ -1914,13 +1914,13 @@
     {
       "id": "66",
       "nome": "Bernardo",
-      "atributoLiturgico": "Abade e Doutor",
-      "diaFesta": "20 de agosto",
-      "cidade": "Fontaine-lès-Dijon",
-      "pais": "França",
-      "iso": "FR",
-      "dataMorte": "20 de agosto de 1153",
-      "cidadeId": "817",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "16 de janeiro",
+      "cidade": "Narni",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "16 de janeiro de 1220",
+      "cidadeId": "cid_narni_IT",
       "idGrafo": "66",
       "temGrafo": true
     },
@@ -3652,6 +3652,383 @@
       "cidadeId": "317",
       "idGrafo": null,
       "temGrafo": false
+    },
+    {
+      "id": "x_018",
+      "nome": "Otão",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "16 de janeiro",
+      "cidade": "Stroncone",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "16 de janeiro de 1220",
+      "cidadeId": "cid_stroncone_IT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_020",
+      "nome": "Acúrsio",
+      "atributoLiturgico": "Religioso e Mártir",
+      "diaFesta": "16 de janeiro",
+      "cidade": "Agello",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "16 de janeiro de 1220",
+      "cidadeId": "cid_agello_IT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_021",
+      "nome": "Adjuto",
+      "atributoLiturgico": "Religioso e Mártir",
+      "diaFesta": "16 de janeiro",
+      "cidade": "Narni",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "16 de janeiro de 1220",
+      "cidadeId": "cid_narni_IT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_022",
+      "nome": "João de Brito",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "4 de fevereiro",
+      "cidade": "Lisboa",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "4 de fevereiro de 1693",
+      "cidadeId": "810",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_023",
+      "nome": "Teotónio",
+      "atributoLiturgico": "Abade e Confessor",
+      "diaFesta": "18 de fevereiro",
+      "cidade": "Ganfei",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "18 de fevereiro de 1162",
+      "cidadeId": "cid_ganfei_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_024",
+      "nome": "Francisco Marto",
+      "atributoLiturgico": "Confessor",
+      "diaFesta": "20 de fevereiro",
+      "cidade": "Aljustrel",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "4 de abril de 1919",
+      "cidadeId": "cid_aljustrel_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_025",
+      "nome": "Jacinta Marto",
+      "atributoLiturgico": "Virgem",
+      "diaFesta": "20 de fevereiro",
+      "cidade": "Aljustrel",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "20 de fevereiro de 1920",
+      "cidadeId": "cid_aljustrel_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_026",
+      "nome": "Rosendo",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "1 de março",
+      "cidade": "Santo Tirso",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "1 de março de 977",
+      "cidadeId": "cid_santo_tirso_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_027",
+      "nome": "Vítor de Braga",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "12 de abril",
+      "cidade": "Braga",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "cerca de 303",
+      "cidadeId": "cid_braga_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_028",
+      "nome": "Engrácia de Braga",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "16 de abril",
+      "cidade": "Braga",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "cerca de 1050",
+      "cidadeId": "cid_braga_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_029",
+      "nome": "Frutuoso de Braga",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "16 de abril",
+      "cidade": "Ponferrada",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "16 de abril de 665",
+      "cidadeId": "cid_ponferrada_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_030",
+      "nome": "Manços de Évora",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "15 de maio",
+      "cidade": "Évora",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "cerca de 100",
+      "cidadeId": "cid_evora_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_031",
+      "nome": "Sisenando de Beja",
+      "atributoLiturgico": "Diácono e Mártir",
+      "diaFesta": "16 de julho",
+      "cidade": "Beja",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "16 de julho de 851",
+      "cidadeId": "cid_beja_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_032",
+      "nome": "Veríssimo",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "1 de outubro",
+      "cidade": "Lisboa",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "cerca de 304",
+      "cidadeId": "810",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_033",
+      "nome": "Máxima",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "1 de outubro",
+      "cidade": "Lisboa",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "cerca de 304",
+      "cidadeId": "810",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_034",
+      "nome": "Júlia",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "1 de outubro",
+      "cidade": "Lisboa",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "cerca de 304",
+      "cidadeId": "810",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_035",
+      "nome": "Ambrósio Francisco Ferro",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "3 de outubro",
+      "cidade": "Ponta Delgada",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "3 de outubro de 1645",
+      "cidadeId": "cid_ponta_delgada_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_036",
+      "nome": "José do Porto",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "3 de outubro",
+      "cidade": "Porto",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "3 de outubro de 1645",
+      "cidadeId": "cid_porto_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_037",
+      "nome": "Francisco de Bastos",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "3 de outubro",
+      "cidade": "Cabeceiras de Basto",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "3 de outubro de 1645",
+      "cidadeId": "cid_cabeceiras_de_basto_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_038",
+      "nome": "Diogo Pereira",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "3 de outubro",
+      "cidade": "",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "3 de outubro de 1645",
+      "cidadeId": null,
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_039",
+      "nome": "João Lostao Navarro",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "3 de outubro",
+      "cidade": "",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "3 de outubro de 1645",
+      "cidadeId": null,
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_040",
+      "nome": "Manuel Rodrigues de Moura",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "3 de outubro",
+      "cidade": "Funchal",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "3 de outubro de 1645",
+      "cidadeId": "cid_funchal_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_041",
+      "nome": "Nuno de Santa Maria",
+      "atributoLiturgico": "Religioso e Confessor",
+      "diaFesta": "6 de novembro",
+      "cidade": "Cernache do Bonjardim",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "1 de novembro de 1431",
+      "cidadeId": "cid_cernache_do_bonjardim_PT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_042",
+      "nome": "Beatriz da Silva",
+      "atributoLiturgico": "Virgem",
+      "diaFesta": "1 de setembro",
+      "cidade": "Ceuta",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "16 de agosto de 1492",
+      "cidadeId": "cid_ceuta_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_043",
+      "nome": "Gonçalo Garcia",
+      "atributoLiturgico": "Religioso e Mártir",
+      "diaFesta": "5 de fevereiro",
+      "cidade": "Baçaim",
+      "pais": "Índia",
+      "iso": "IN",
+      "dataMorte": "5 de fevereiro de 1597",
+      "cidadeId": "cid_bacaim_IN",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_044",
+      "nome": "José Vaz",
+      "atributoLiturgico": "Presbítero e Confessor",
+      "diaFesta": "16 de janeiro",
+      "cidade": "Benaulim",
+      "pais": "Índia",
+      "iso": "IN",
+      "dataMorte": "16 de janeiro de 1711",
+      "cidadeId": "cid_benaulim_IN",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_045",
+      "nome": "Martinho de Dume",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "20 de março",
+      "cidade": "",
+      "pais": "Hungria",
+      "iso": "HU",
+      "dataMorte": "20 de março de 579",
+      "cidadeId": null,
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_046",
+      "nome": "Geraldo de Braga",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "5 de dezembro",
+      "cidade": "Cahors",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "5 de dezembro de 1108",
+      "cidadeId": "cid_cahors_FR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_047",
+      "nome": "Pedro de Rates",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "26 de abril",
+      "cidade": "Rates",
+      "pais": "Portugal",
+      "iso": "PT",
+      "dataMorte": "cerca de 60",
+      "cidadeId": "cid_rates_PT",
+      "idGrafo": null,
+      "temGrafo": false
     }
   ],
   "cidades": [
@@ -3666,14 +4043,14 @@
       "qtdGrafo": 2
     },
     {
-      "id": "814",
-      "nome": "Betsaida",
-      "pais": "Israel",
-      "iso": "IL",
-      "lat": 32.9089,
-      "lng": 35.6322,
-      "qtd": 5,
-      "qtdGrafo": 5
+      "id": "cid_san_gemini_IT",
+      "nome": "San Gemini",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.6133,
+      "lng": 12.5467,
+      "qtd": 1,
+      "qtdGrafo": 1
     },
     {
       "id": "813",
@@ -3684,6 +4061,16 @@
       "lng": 34.8953,
       "qtd": 1,
       "qtdGrafo": 1
+    },
+    {
+      "id": "814",
+      "nome": "Betsaida",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 32.9089,
+      "lng": 35.6322,
+      "qtd": 4,
+      "qtdGrafo": 4
     },
     {
       "id": "309",
@@ -3896,13 +4283,13 @@
       "qtdGrafo": 2
     },
     {
-      "id": "817",
-      "nome": "Fontaine-lès-Dijon",
-      "pais": "França",
-      "iso": "FR",
-      "lat": 47.3444,
-      "lng": 5.0222,
-      "qtd": 1,
+      "id": "cid_narni_IT",
+      "nome": "Narni",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.5173,
+      "lng": 12.5165,
+      "qtd": 2,
       "qtdGrafo": 1
     },
     {
@@ -3942,7 +4329,7 @@
       "iso": "PT",
       "lat": 38.7223,
       "lng": -9.1393,
-      "qtd": 1,
+      "qtd": 5,
       "qtdGrafo": 1
     },
     {
@@ -4404,6 +4791,196 @@
       "lng": 3.087,
       "qtd": 1,
       "qtdGrafo": 0
+    },
+    {
+      "id": "cid_stroncone_IT",
+      "nome": "Stroncone",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.4975,
+      "lng": 12.6644,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_agello_IT",
+      "nome": "Agello",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.0847,
+      "lng": 12.2197,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_ganfei_PT",
+      "nome": "Ganfei",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 42.0406,
+      "lng": -8.6272,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_aljustrel_PT",
+      "nome": "Aljustrel",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 39.6175,
+      "lng": -8.6672,
+      "qtd": 2,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_santo_tirso_PT",
+      "nome": "Santo Tirso",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 41.3431,
+      "lng": -8.4738,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_braga_PT",
+      "nome": "Braga",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 41.5454,
+      "lng": -8.4265,
+      "qtd": 2,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_ponferrada_ES",
+      "nome": "Ponferrada",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 42.5466,
+      "lng": -6.5909,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_evora_PT",
+      "nome": "Évora",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 38.5714,
+      "lng": -7.9135,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_beja_PT",
+      "nome": "Beja",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 37.9942,
+      "lng": -7.8683,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_ponta_delgada_PT",
+      "nome": "Ponta Delgada",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 37.7412,
+      "lng": -25.6756,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_porto_PT",
+      "nome": "Porto",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 41.1579,
+      "lng": -8.6291,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_cabeceiras_de_basto_PT",
+      "nome": "Cabeceiras de Basto",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 41.5126,
+      "lng": -8.0076,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_funchal_PT",
+      "nome": "Funchal",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 32.65,
+      "lng": -16.9086,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_cernache_do_bonjardim_PT",
+      "nome": "Cernache do Bonjardim",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 39.8142,
+      "lng": -8.1889,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_ceuta_ES",
+      "nome": "Ceuta",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 35.8894,
+      "lng": -5.3198,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_bacaim_IN",
+      "nome": "Baçaim",
+      "pais": "Índia",
+      "iso": "IN",
+      "lat": 19.34,
+      "lng": 72.81,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_benaulim_IN",
+      "nome": "Benaulim",
+      "pais": "Índia",
+      "iso": "IN",
+      "lat": 15.2539,
+      "lng": 73.9317,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_cahors_FR",
+      "nome": "Cahors",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 44.4475,
+      "lng": 1.4428,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_rates_PT",
+      "nome": "Rates",
+      "pais": "Portugal",
+      "iso": "PT",
+      "lat": 41.4239,
+      "lng": -8.6728,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ],
   "paises": [
@@ -4412,8 +4989,16 @@
       "nome": "Israel",
       "lat": 31.0461,
       "lng": 34.8516,
-      "qtd": 22,
-      "qtdGrafo": 21
+      "qtd": 21,
+      "qtdGrafo": 20
+    },
+    {
+      "iso": "IT",
+      "nome": "Itália",
+      "lat": 41.8719,
+      "lng": 12.5674,
+      "qtd": 122,
+      "qtdGrafo": 118
     },
     {
       "iso": "TR",
@@ -4448,20 +5033,12 @@
       "qtdGrafo": 6
     },
     {
-      "iso": "IT",
-      "nome": "Itália",
-      "lat": 41.8719,
-      "lng": 12.5674,
-      "qtd": 117,
-      "qtdGrafo": 116
-    },
-    {
       "iso": "FR",
       "nome": "França",
       "lat": 46.2276,
       "lng": 2.2137,
       "qtd": 23,
-      "qtdGrafo": 20
+      "qtdGrafo": 19
     },
     {
       "iso": "EG",
@@ -4500,7 +5077,7 @@
       "nome": "Espanha",
       "lat": 40.4637,
       "lng": -3.7492,
-      "qtd": 29,
+      "qtd": 32,
       "qtdGrafo": 22
     },
     {
@@ -4532,7 +5109,7 @@
       "nome": "Hungria",
       "lat": 47.1625,
       "lng": 19.5033,
-      "qtd": 4,
+      "qtd": 5,
       "qtdGrafo": 4
     },
     {
@@ -4548,7 +5125,7 @@
       "nome": "Portugal",
       "lat": 39.3999,
       "lng": -8.2245,
-      "qtd": 2,
+      "qtd": 21,
       "qtdGrafo": 2
     },
     {
