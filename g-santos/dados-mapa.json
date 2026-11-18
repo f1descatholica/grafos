@@ -29,13 +29,13 @@
     {
       "id": "2",
       "nome": "Pedro",
-      "atributoLiturgico": "Presbítero e Mártir",
-      "diaFesta": "16 de janeiro",
-      "cidade": "San Gemini",
-      "pais": "Itália",
-      "iso": "IT",
-      "dataMorte": "16 de janeiro de 1220",
-      "cidadeId": "cid_san_gemini_IT",
+      "atributoLiturgico": "Papa e Mártir e Apóstolo",
+      "diaFesta": "29 de junho",
+      "cidade": "Betsaida",
+      "pais": "Israel",
+      "iso": "IL",
+      "dataMorte": "cerca de 67",
+      "cidadeId": "814",
       "idGrafo": "2",
       "temGrafo": true
     },
@@ -1914,13 +1914,13 @@
     {
       "id": "66",
       "nome": "Bernardo",
-      "atributoLiturgico": "Presbítero e Mártir",
-      "diaFesta": "16 de janeiro",
-      "cidade": "Narni",
-      "pais": "Itália",
-      "iso": "IT",
-      "dataMorte": "16 de janeiro de 1220",
-      "cidadeId": "cid_narni_IT",
+      "atributoLiturgico": "Abade e Doutor",
+      "diaFesta": "20 de agosto",
+      "cidade": "Fontaine-lès-Dijon",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "20 de agosto de 1153",
+      "cidadeId": "817",
       "idGrafo": "66",
       "temGrafo": true
     },
@@ -3654,6 +3654,19 @@
       "temGrafo": false
     },
     {
+      "id": "x_017",
+      "nome": "Bernardo de Narni",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "16 de janeiro",
+      "cidade": "Narni",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "16 de janeiro de 1220",
+      "cidadeId": "cid_narni_IT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
       "id": "x_018",
       "nome": "Otão",
       "atributoLiturgico": "Presbítero e Mártir",
@@ -3663,6 +3676,19 @@
       "iso": "IT",
       "dataMorte": "16 de janeiro de 1220",
       "cidadeId": "cid_stroncone_IT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_019",
+      "nome": "Pedro de San Gemini",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "16 de janeiro",
+      "cidade": "San Gemini",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "16 de janeiro de 1220",
+      "cidadeId": "cid_san_gemini_IT",
       "idGrafo": null,
       "temGrafo": false
     },
@@ -4043,14 +4069,14 @@
       "qtdGrafo": 2
     },
     {
-      "id": "cid_san_gemini_IT",
-      "nome": "San Gemini",
-      "pais": "Itália",
-      "iso": "IT",
-      "lat": 42.6133,
-      "lng": 12.5467,
-      "qtd": 1,
-      "qtdGrafo": 1
+      "id": "814",
+      "nome": "Betsaida",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 32.9089,
+      "lng": 35.6322,
+      "qtd": 5,
+      "qtdGrafo": 5
     },
     {
       "id": "813",
@@ -4061,16 +4087,6 @@
       "lng": 34.8953,
       "qtd": 1,
       "qtdGrafo": 1
-    },
-    {
-      "id": "814",
-      "nome": "Betsaida",
-      "pais": "Israel",
-      "iso": "IL",
-      "lat": 32.9089,
-      "lng": 35.6322,
-      "qtd": 4,
-      "qtdGrafo": 4
     },
     {
       "id": "309",
@@ -4283,13 +4299,13 @@
       "qtdGrafo": 2
     },
     {
-      "id": "cid_narni_IT",
-      "nome": "Narni",
-      "pais": "Itália",
-      "iso": "IT",
-      "lat": 42.5173,
-      "lng": 12.5165,
-      "qtd": 2,
+      "id": "817",
+      "nome": "Fontaine-lès-Dijon",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 47.3444,
+      "lng": 5.0222,
+      "qtd": 1,
       "qtdGrafo": 1
     },
     {
@@ -4793,12 +4809,32 @@
       "qtdGrafo": 0
     },
     {
+      "id": "cid_narni_IT",
+      "nome": "Narni",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.5173,
+      "lng": 12.5165,
+      "qtd": 2,
+      "qtdGrafo": 0
+    },
+    {
       "id": "cid_stroncone_IT",
       "nome": "Stroncone",
       "pais": "Itália",
       "iso": "IT",
       "lat": 42.4975,
       "lng": 12.6644,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_san_gemini_IT",
+      "nome": "San Gemini",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.6133,
+      "lng": 12.5467,
       "qtd": 1,
       "qtdGrafo": 0
     },
@@ -4989,16 +5025,8 @@
       "nome": "Israel",
       "lat": 31.0461,
       "lng": 34.8516,
-      "qtd": 21,
-      "qtdGrafo": 20
-    },
-    {
-      "iso": "IT",
-      "nome": "Itália",
-      "lat": 41.8719,
-      "lng": 12.5674,
-      "qtd": 122,
-      "qtdGrafo": 118
+      "qtd": 22,
+      "qtdGrafo": 21
     },
     {
       "iso": "TR",
@@ -5033,12 +5061,20 @@
       "qtdGrafo": 6
     },
     {
+      "iso": "IT",
+      "nome": "Itália",
+      "lat": 41.8719,
+      "lng": 12.5674,
+      "qtd": 122,
+      "qtdGrafo": 116
+    },
+    {
       "iso": "FR",
       "nome": "França",
       "lat": 46.2276,
       "lng": 2.2137,
-      "qtd": 23,
-      "qtdGrafo": 19
+      "qtd": 24,
+      "qtdGrafo": 20
     },
     {
       "iso": "EG",
