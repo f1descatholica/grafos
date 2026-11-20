@@ -5797,6 +5797,70 @@
       "lng": -58.4438,
       "qtd": 2,
       "qtdGrafo": 0
+    },
+    {
+      "iso": "JO",
+      "nome": "Jordânia",
+      "lat": 30.5852,
+      "lng": 36.2384,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "IN",
+      "nome": "Índia",
+      "lat": 20.5937,
+      "lng": 78.9629,
+      "qtd": 2,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "MX",
+      "nome": "México",
+      "lat": 23.6345,
+      "lng": -102.5528,
+      "qtd": 6,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "AR",
+      "nome": "Argentina",
+      "lat": -38.4161,
+      "lng": -63.6167,
+      "qtd": 3,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "EC",
+      "nome": "Equador",
+      "lat": -1.8312,
+      "lng": -78.1834,
+      "qtd": 3,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "CL",
+      "nome": "Chile",
+      "lat": -35.6751,
+      "lng": -71.543,
+      "qtd": 2,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "BR",
+      "nome": "Brasil",
+      "lat": -14.235,
+      "lng": -51.9253,
+      "qtd": 14,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "CO",
+      "nome": "Colômbia",
+      "lat": 4.5709,
+      "lng": -74.2973,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ]
 }
