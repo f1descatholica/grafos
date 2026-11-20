@@ -807,18 +807,18 @@
     "lng": -58.3816,
     "data_morte": "9 de outubro de 1934"
   },
-  {
-    "id": "x_072",
-    "nome": "Laura de Santa Catarina de Sena Montoya",
-    "atributo_liturgico": "Virgem",
-    "dia_festa_liturgica": "21 de outubro",
-    "cidade_nascimento": "Jericó",
-    "pais_nascimento": "Colômbia",
-    "iso": "CO",
-    "lat": 5.7925,
-    "lng": -75.7869,
-    "data_morte": "21 de outubro de 1949"
-  },
+{
+  "id": "x_072",
+  "nome": "Laura Montoya",
+  "atributo_liturgico": "Virgem",
+  "dia_festa_liturgica": "21 de outubro",
+  "cidade_nascimento": "Jericó",
+  "pais_nascimento": "Colômbia",
+  "iso": "CO",
+  "lat": 5.7925,
+  "lng": -75.7869,
+  "data_morte": "21 de outubro de 1949"
+},
   {
     "id": "x_073",
     "nome": "Rafael Guízar y Valencia",
