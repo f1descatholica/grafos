@@ -11674,7 +11674,171 @@
         }
       }
     },
-    "cores": {}
+    "cores": {},
+    "mapa": {
+      "arquivoAvulsos": "santos-avulsos.json",
+      "arquivoRelatorio": "santos-substituidos.txt",
+      "niveisSantos": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "idsExcluidos": [
+        "424",
+        "439",
+        "440",
+        "441",
+        "603",
+        "609",
+        "631",
+        "632",
+        "638",
+        "644",
+        "685"
+      ],
+      "campos": {
+        "localNasc": "localNasc",
+        "paisNasc": "paisNasc",
+        "pais": "pais",
+        "iso": "iso",
+        "lat": "lat",
+        "lng": "lng"
+      },
+      "paises": {
+        "IT": {
+          "nome": "Itália",
+          "lat": 41.8719,
+          "lng": 12.5674
+        },
+        "ES": {
+          "nome": "Espanha",
+          "lat": 40.4637,
+          "lng": -3.7492
+        },
+        "IL": {
+          "nome": "Israel",
+          "lat": 31.0461,
+          "lng": 34.8516
+        },
+        "TR": {
+          "nome": "Turquia",
+          "lat": 38.9637,
+          "lng": 35.2433
+        },
+        "FR": {
+          "nome": "França",
+          "lat": 46.2276,
+          "lng": 2.2137
+        },
+        "EG": {
+          "nome": "Egito",
+          "lat": 26.8206,
+          "lng": 30.8025
+        },
+        "DE": {
+          "nome": "Alemanha",
+          "lat": 51.1657,
+          "lng": 10.4515
+        },
+        "GR": {
+          "nome": "Grécia",
+          "lat": 39.0742,
+          "lng": 21.8243
+        },
+        "GB": {
+          "nome": "Reino Unido",
+          "lat": 55.3781,
+          "lng": -3.436
+        },
+        "PS": {
+          "nome": "Palestina",
+          "lat": 31.9522,
+          "lng": 35.2332
+        },
+        "HU": {
+          "nome": "Hungria",
+          "lat": 47.1625,
+          "lng": 19.5033
+        },
+        "PL": {
+          "nome": "Polônia",
+          "lat": 51.9194,
+          "lng": 19.1451
+        },
+        "SY": {
+          "nome": "Síria",
+          "lat": 34.8021,
+          "lng": 38.9968
+        },
+        "DZ": {
+          "nome": "Argélia",
+          "lat": 28.0339,
+          "lng": 1.6596
+        },
+        "IR": {
+          "nome": "Irã",
+          "lat": 32.4279,
+          "lng": 53.688
+        },
+        "PE": {
+          "nome": "Peru",
+          "lat": -9.19,
+          "lng": -75.0152
+        },
+        "PT": {
+          "nome": "Portugal",
+          "lat": 39.3999,
+          "lng": -8.2245
+        },
+        "TN": {
+          "nome": "Tunísia",
+          "lat": 33.8869,
+          "lng": 9.5375
+        },
+        "CZ": {
+          "nome": "Chéquia",
+          "lat": 49.8175,
+          "lng": 15.473
+        },
+        "CY": {
+          "nome": "Chipre",
+          "lat": 35.1264,
+          "lng": 33.4299
+        },
+        "HR": {
+          "nome": "Croácia",
+          "lat": 45.1,
+          "lng": 15.2
+        },
+        "DK": {
+          "nome": "Dinamarca",
+          "lat": 56.2639,
+          "lng": 9.5018
+        },
+        "NL": {
+          "nome": "Países Baixos",
+          "lat": 52.1326,
+          "lng": 5.2913
+        },
+        "SE": {
+          "nome": "Suécia",
+          "lat": 60.1282,
+          "lng": 18.6435
+        },
+        "UA": {
+          "nome": "Ucrânia",
+          "lat": 48.3794,
+          "lng": 31.1656
+        },
+        "PY": {
+          "nome": "Paraguai",
+          "lat": -23.4425,
+          "lng": -58.4438
+        }
+      }
+    }
   },
   "bandasEpoca": [
     {
