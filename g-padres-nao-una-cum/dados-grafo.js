@@ -46,7 +46,6 @@ var regrasDoGrafo = {
 
 
 
-
 // github dados grafo-padres-nao-una-cum
 
 var todosNos = [
@@ -55,6 +54,7 @@ var todosNos = [
 { id: 1, level: 1, categoria: 'bispo', label: 'Scipione Rebiba', grupo: 'bispo' },
 { id: 2, level: 1, categoria: 'bispo', label: 'Achille Liénart', grupo: 'bispo' },
 { id: 3, level: 1, categoria: 'bispo', label: 'Pierre Martin Ngô\nĐình Thục', grupo: 'bispo' },
+{ id: 91, level: 1, categoria: 'bispo', label: 'George Musey', grupo: 'bispo' },
 
 // NÍVEL 1: Bispos Fundacionais (unificado ao nível 1 em 2026-08-10, categoria/grupo próprios para gerar faixa colorida distinta)
 
@@ -71,10 +71,8 @@ var todosNos = [
 { id: 11, level: 3, categoria: 'bispo', label: 'Alfonso de Galarreta', grupo: 'bispo' },
 { id: 12, level: 3, categoria: 'bispo', label: 'Richard Williamson', grupo: 'bispo' },
 { id: 13, level: 3, categoria: 'bispo', label: 'Bernard Tissier\nde Mallerais', grupo: 'bispo' },
-{ id: 14, level: 3, categoria: 'bispo', label: 'Mark Pivarunas', grupo: 'bispo' },
+{ id: 14, level: 3, categoria: 'bispo', label: 'Mark Anthony Pivarunas', grupo: 'bispo', ano: 1991 },
 { id: 15, level: 3, categoria: 'bispo', label: 'Donald Sanborn', grupo: 'bispo' },
-
-
 
 // NÍVEL 4: 3ª Geração / Bispos Recentes
 
@@ -83,25 +81,17 @@ var todosNos = [
 { id: 18, level: 4, categoria: 'bispo', label: 'Dom Tomás de Aquino\nFerreira da Costa', grupo: 'bispo' },
 { id: 19, level: 4, categoria: 'bispo', label: 'Gerardo Zendejas', grupo: 'bispo' },
 { id: 20, level: 4, categoria: 'bispo', label: 'Daniel Dolan', grupo: 'bispo' },
-{ id: 21, level: 4, categoria: 'bispo', label: 'Juan José Squetino', grupo: 'bispo' },
-
-
-
+{ id: 21, level: 4, categoria: 'bispo', label: 'Juan José Squetino\nSchattenhofer', grupo: 'bispo' },
 
 // NÍVEL 5: Bispos SUPER recentes
 
 { id: 22, level: 5, categoria: 'bispo', label: 'Rodrigo da Silva', grupo: 'bispo', ano: 2021 }, // sagração episcopal 2021 (ordenação sacerdotal 2017)
-
 { id: 23, level: 5, categoria: 'bispo', label: 'Charles McGuire (2022)', grupo: 'bispo', ano: 2022 },
 { id: 24, level: 5, categoria: 'bispo', label: 'Fernando Altamira (2024)', grupo: 'bispo', ano: 2024 },
 { id: 25, level: 5, categoria: 'bispo', label: 'Pierre Roy', grupo: 'bispo', ano: 2024 },
 { id: 26, level: 5, categoria: 'bispo', label: 'Bede Nkamuke', grupo: 'bispo', ano: 2023 },
-{ id: 27, level: 5, categoria: 'bispo', label: 'Merardo Loya', grupo: 'bispo', ano: 2025 }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
-
-{ id: 28, level: 5, categoria: 'bispo', label: 'Michael Mary, F.S.R.', grupo: 'bispo', ano: 2026 }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
-
-
-
+{ id: 27, level: 5, categoria: 'bispo', label: 'Merardo Loya\n(Merardo Loya Loya)', grupo: 'bispo', ano: 2025 }, // reconsagração sub conditione 2025 (1ª sagração 2019, ver comentário nas arestas)
+{ id: 28, level: 5, categoria: 'bispo', label: 'Michael Mary, F.S.R.', grupo: 'bispo', ano: 2026 },
 
 // NÍVEL 6: Padres
 
@@ -129,11 +119,10 @@ var todosNos = [
 { id: 50, level: 6, categoria: 'padre', label: 'João Maria Vianney (2025)', grupo: 'padre', ano: 2025 },
 { id: 51, level: 6, categoria: 'padre', label: 'Pacífico Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026 },
 { id: 52, level: 6, categoria: 'padre', label: 'Dimas Maria\n(anunciada 2026)', grupo: 'padre', ano: 2026 },
-{ id: 88, level: 6, categoria: 'padre', label: 'Wagner Joseph', grupo: 'padre', ano: 2025 },
-
-
-
-
+{ id: 88, level: 6, categoria: 'padre', label: 'Wagner Alves de Almeida\n(Pe. Wagner Joseph)', grupo: 'padre', ano: 2025 },
+{ id: 95, level: 6, categoria: 'padre', label: 'P. Francisco', grupo: 'padre' },
+{ id: 96, level: 6, categoria: 'padre', label: 'P. Wilbert', grupo: 'padre' },
+{ id: 97, level: 6, categoria: 'padre', label: 'P. Leonel', grupo: 'padre' },
 
 // NÍVEL 7: Classificações Teológicas
 
@@ -143,8 +132,7 @@ var todosNos = [
 { id: 56, level: 7, categoria: 'classificacao', label: 'Sedeprivacionismo\n(Cassiciacum)', grupo: 'classificacao' },
 { id: 57, level: 7, categoria: 'classificacao', label: 'Independente /\nNão Una Cum Parcial', grupo: 'classificacao' },
 
-
-// NÍVEL 8: Instituições e Seminários Independentes
+// NÍVEL 8: Instituições e Seminários associações
 
 { id: 58, level: 8, categoria: 'instituicao', label: 'FSSPX', grupo: 'instituicao' },
 { id: 59, level: 8, categoria: 'instituicao', label: 'SAJM', grupo: 'instituicao' },
@@ -160,8 +148,10 @@ var todosNos = [
 { id: 69, level: 8, categoria: 'instituicao', label: 'Priorado\nSanta Teresinha', grupo: 'instituicao' },
 { id: 70, level: 8, categoria: 'instituicao', label: 'Capelania N. Sra do\nPerpétuo Socorro', grupo: 'instituicao' },
 { id: 71, level: 8, categoria: 'instituicao', label: 'Redentoristas Transalpinos (Escócia)', grupo: 'instituicao' },
-{ id: 89, level: 8, categoria: 'instituicao', label: 'Missão Pindamonhangaba (SP)', grupo: 'instituicao' },
-
+{ id: 89, level: 8, categoria: 'instituicao', label: 'Casa de Missão São José\n(Pindamonhangaba - SP)', grupo: 'instituicao' },
+{ id: 90, level: 8, categoria: 'instituicao', label: 'Sociedad San Bernardo de Claraval (México)', grupo: 'instituicao' },
+{ id: 92, level: 8, categoria: 'instituicao', label: 'CMRI\n(Congregation of Mary\nImmaculate Queen)', grupo: 'instituicao' },
+{ id: 93, level: 8, categoria: 'instituicao', label: 'Sociedad Sacerdotal\nTrento', grupo: 'instituicao' },
 
 // NÍVEL 9: Localizações
 
@@ -181,18 +171,12 @@ var todosNos = [
 { id: 84, level: 9, categoria: 'localizacao', label: 'Brasília (DF)', grupo: 'localizacao' },
 { id: 85, level: 9, categoria: 'localizacao', label: 'Goiás (GO)', grupo: 'localizacao' },
 { id: 86, level: 9, categoria: 'localizacao', label: 'Campo Grande (MS)', grupo: 'localizacao' },
-{ id: 87, level: 9, categoria: 'localizacao', label: 'Sul do Brasil', grupo: 'localizacao' }
+{ id: 87, level: 9, categoria: 'localizacao', label: 'Sul do Brasil', grupo: 'localizacao' },
+{ id: 94, level: 9, categoria: 'localizacao', label: 'Pindamonhangaba (SP)', grupo: 'localizacao' }
 ];
-
-// ultimo numero utilizado 89
-
-
-
-
 
 
 var todosSetas = [
-
 
     // -- SUCESSÃO APOSTÓLICA 
 	
@@ -204,9 +188,11 @@ var todosSetas = [
     { from: 3, to: 6, title: 'consagrou bispo', texto: 'consagrou bispo' },
     { from: 3, to: 7, title: 'consagrou bispo', texto: 'consagrou bispo' },
     { from: 7, to: 15, title: 'consagrou bispo', texto: 'consagrou bispo' },
-    { from: 6, to: 14, title: 'consagrou bispo', texto: 'consagrou bispo' },
+    { from: 6, to: 14, title: 'consagrou bispo 1991', texto: 'consagrou bispo 1991' },
+    { from: 91, to: 14, title: 'ordenou padre 1985', texto: 'ordenou padre 1985' },
     { from: 6, to: 21, title: 'originou (linha Thuc)', texto: 'originou (linha Thuc)' },
     { from: 14, to: 20, title: 'consagrou bispo', texto: 'consagrou bispo' },
+    { from: 14, to: 27, title: 'ordenou padre 1996', texto: 'ordenou padre 1996' },
 
     { from: 4, to: 10, title: 'consagrou bispo', texto: 'consagrou bispo' },
     { from: 4, to: 11, title: 'consagrou bispo', texto: 'consagrou bispo' },
@@ -258,19 +244,13 @@ var todosSetas = [
 // Pierre Roy, Rodrigo Da Silva e Fernando Altamira,
 
     { from: 22, to: 28, title: 'co-consagrou', texto: 'co-consagrou' },    
-	{ from: 24, to: 28, title: 'co-consagrou', texto: 'co-consagrou' },     
-	{ from: 25, to: 28, title: 'consagrou', texto: 'consagrou' },  
-	{ from: 28, to: 71, title: 'pertence a', texto: 'pertence a' },
+    { from: 24, to: 28, title: 'co-consagrou', texto: 'co-consagrou' },     
+    { from: 25, to: 28, title: 'consagrou', texto: 'consagrou' },  
+    { from: 28, to: 71, title: 'pertence a', texto: 'pertence a' },
 
     { from: 22, to: 50, title: 'ordenou padre', texto: 'ordenou padre' },
     { from: 22, to: 51, title: 'ordenou padre', texto: 'ordenou padre' },
     { from: 22, to: 52, title: 'ordenou padre', texto: 'ordenou padre' },
-
-
-
-
-
-
 
 // adota
     { from: 10, to: 53, title: 'adota', texto: 'adota' },
@@ -313,6 +293,10 @@ var todosSetas = [
     { from: 58, to: 53, title: 'adota', texto: 'adota' },
     { from: 60, to: 56, title: 'adota', texto: 'adota' },
     { from: 88, to: 55, title: 'adota', texto: 'adota' },
+    { from: 90, to: 55, title: 'adota', texto: 'adota' },
+    { from: 95, to: 55, title: 'adota', texto: 'adota' },
+    { from: 96, to: 55, title: 'adota', texto: 'adota' },
+    { from: 97, to: 55, title: 'adota', texto: 'adota' },
 
     // adotou
     { from: 6, to: 55, title: 'adotou', texto: 'adotou', dashes: true },
@@ -339,6 +323,7 @@ var todosSetas = [
     { from: 44, to: 81, title: 'atua em', texto: 'atua em' },
     { from: 46, to: 79, title: 'atua em', texto: 'atua em' },
     { from: 47, to: 87, title: 'atua em', texto: 'atua em' },
+    { from: 88, to: 94, title: 'atua em', texto: 'atua em' },
 
     // atuou em
     { from: 39, to: 65, title: 'atuou em', texto: 'atuou em', dashes: true },
@@ -353,6 +338,7 @@ var todosSetas = [
 
     // foi membro de
     { from: 22, to: 61, title: 'foi membro de', texto: 'foi membro de', dashes: true },
+    { from: 27, to: 93, title: 'foi membro de', texto: 'foi membro de', dashes: true },
 
     // fundamenta
     { from: 12, to: 54, title: 'fundamenta', texto: 'fundamenta' },
@@ -367,6 +353,7 @@ var todosSetas = [
     { from: 18, to: 63, title: 'lidera', texto: 'lidera' },
     { from: 22, to: 64, title: 'lidera', texto: 'lidera' },
     { from: 23, to: 62, title: 'lidera', texto: 'lidera' },
+    { from: 27, to: 90, title: 'lidera', texto: 'lidera' },
     { from: 88, to: 89, title: 'lidera', texto: 'lidera' },
 
     // liderou
@@ -385,7 +372,8 @@ var todosSetas = [
     { from: 64, to: 80, title: 'localizado em', texto: 'localizado em' },
     { from: 69, to: 80, title: 'localizado em', texto: 'localizado em' },
     { from: 70, to: 80, title: 'localizado em', texto: 'localizado em' },
-    { from: 89, to: 80, title: 'localizado em', texto: 'localizado em' },
+    { from: 89, to: 94, title: 'localizado em', texto: 'localizado em' },
+    { from: 90, to: 78, title: 'localizado em', texto: 'localizado em' },
 
     // mantém
     { from: 58, to: 69, title: 'mantém', texto: 'mantém' },
@@ -395,6 +383,7 @@ var todosSetas = [
     { from: 10, to: 58, title: 'pertence a', texto: 'pertence a' },
     { from: 11, to: 58, title: 'pertence a', texto: 'pertence a' },
     { from: 13, to: 58, title: 'pertence a', texto: 'pertence a' },
+    { from: 14, to: 92, title: 'pertence a', texto: 'pertence a' },
     { from: 30, to: 66, title: 'pertence a', texto: 'pertence a' },
     { from: 32, to: 64, title: 'pertence a', texto: 'pertence a' },
     { from: 32, to: 67, title: 'pertence a', texto: 'pertence a' },
@@ -412,6 +401,10 @@ var todosSetas = [
     { from: 50, to: 64, title: 'pertence a', texto: 'pertence a' },
     { from: 51, to: 64, title: 'pertence a', texto: 'pertence a' },
     { from: 52, to: 64, title: 'pertence a', texto: 'pertence a' },
+    { from: 88, to: 90, title: 'pertence a', texto: 'pertence a' },
+    { from: 95, to: 90, title: 'pertence a', texto: 'pertence a' },
+    { from: 96, to: 90, title: 'pertence a', texto: 'pertence a' },
+    { from: 97, to: 90, title: 'pertence a', texto: 'pertence a' },
 
     // rompeu com
     { from: 16, to: 54, title: 'rompeu com', texto: 'rompeu com', dashes: true },
@@ -428,13 +421,14 @@ var todosSetas = [
     { from: 54, to: 58, title: 'rompeu com', texto: 'rompeu com', dashes: true },
 
     // visitou
+    { from: 27, to: 94, title: 'visitou (set/2025)', texto: 'visitou (set/2025)', dashes: true },
     { from: 29, to: 79, title: 'visitou', texto: 'visitou', dashes: true },
     { from: 29, to: 80, title: 'visitou', texto: 'visitou', dashes: true },
     { from: 32, to: 85, title: 'visitou', texto: 'visitou', dashes: true },
     { from: 41, to: 80, title: 'visitou', texto: 'visitou', dashes: true },
     { from: 41, to: 81, title: 'visitou', texto: 'visitou', dashes: true },
     { from: 42, to: 79, title: 'visitou', texto: 'visitou', dashes: true },
-    { from: 42, to: 81, title: 'visitou', texto: 'visitou', dashes: true }	
-	
+    { from: 42, to: 81, title: 'visitou', texto: 'visitou', dashes: true }
+
 ];
 module.exports = { todosNos, todosSetas, regras: regrasDoGrafo };
