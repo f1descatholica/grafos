@@ -6,7 +6,7 @@
       "categoria": "bispo",
       "label": "Scipione Rebiba",
       "grupo": "bispo",
-      "x": -84,
+      "x": 603,
       "y": 112.5
     },
     {
@@ -15,7 +15,7 @@
       "categoria": "bispo",
       "label": "Achille Liénart",
       "grupo": "bispo",
-      "x": -444,
+      "x": -603,
       "y": 37.5
     },
     {
@@ -24,8 +24,17 @@
       "categoria": "bispo",
       "label": "Pierre Martin Ngô\nĐình Thục",
       "grupo": "bispo",
-      "x": 360,
+      "x": 159,
       "y": 37.5
+    },
+    {
+      "id": 91,
+      "level": 1,
+      "categoria": "bispo",
+      "label": "George Musey",
+      "grupo": "bispo",
+      "x": -264,
+      "y": 112.5
     },
     {
       "id": 4,
@@ -33,8 +42,8 @@
       "categoria": "bispo-fundacional",
       "label": "Marcel Lefebvre",
       "grupo": "bispo-fundacional",
-      "x": -547,
-      "y": 262.5
+      "x": -963,
+      "y": 187.5
     },
     {
       "id": 5,
@@ -42,8 +51,8 @@
       "categoria": "bispo-fundacional",
       "label": "Antônio de\nCastro Mayer",
       "grupo": "bispo-fundacional",
-      "x": -131,
-      "y": 187.5
+      "x": 215,
+      "y": 262.5
     },
     {
       "id": 6,
@@ -51,7 +60,7 @@
       "categoria": "bispo-fundacional",
       "label": "Moisés Carmona",
       "grupo": "bispo-fundacional",
-      "x": 624,
+      "x": -194,
       "y": 187.5
     },
     {
@@ -60,8 +69,8 @@
       "categoria": "bispo-fundacional",
       "label": "Robert McKenna",
       "grupo": "bispo-fundacional",
-      "x": 970,
-      "y": 262.5
+      "x": 624,
+      "y": 187.5
     },
     {
       "id": 8,
@@ -69,8 +78,8 @@
       "categoria": "bispo-fundacional",
       "label": "Aloísio Lorscheider",
       "grupo": "bispo-fundacional",
-      "x": -935,
-      "y": 187.5
+      "x": -575,
+      "y": 262.5
     },
     {
       "id": 9,
@@ -78,7 +87,7 @@
       "categoria": "bispo-fundacional",
       "label": "Orani Tempesta",
       "grupo": "bispo-fundacional",
-      "x": 278,
+      "x": 970,
       "y": 262.5
     },
     {
@@ -96,8 +105,8 @@
       "categoria": "bispo",
       "label": "Alfonso de Galarreta",
       "grupo": "bispo",
-      "x": -991,
-      "y": 337.5
+      "x": -589,
+      "y": 412.5
     },
     {
       "id": 12,
@@ -105,7 +114,7 @@
       "categoria": "bispo",
       "label": "Richard Williamson",
       "grupo": "bispo",
-      "x": -33,
+      "x": 715,
       "y": 337.5
     },
     {
@@ -114,16 +123,17 @@
       "categoria": "bispo",
       "label": "Bernard Tissier\nde Mallerais",
       "grupo": "bispo",
-      "x": -505,
-      "y": 412.5
+      "x": -103,
+      "y": 337.5
     },
     {
       "id": 14,
       "level": 3,
       "categoria": "bispo",
-      "label": "Mark Pivarunas",
+      "label": "Mark Anthony Pivarunas",
       "grupo": "bispo",
-      "x": 687,
+      "ano": 1991,
+      "x": -1033,
       "y": 337.5
     },
     {
@@ -132,7 +142,7 @@
       "categoria": "bispo",
       "label": "Donald Sanborn",
       "grupo": "bispo",
-      "x": 1033,
+      "x": 1089,
       "y": 412.5
     },
     {
@@ -142,7 +152,7 @@
       "label": "Ernesto Javier Cardozo",
       "grupo": "bispo",
       "ano": 1980,
-      "x": -1075,
+      "x": -1173,
       "y": 487.5
     },
     {
@@ -151,7 +161,7 @@
       "categoria": "bispo",
       "label": "Jean-Michel Faure",
       "grupo": "bispo",
-      "x": -278,
+      "x": -432,
       "y": 487.5
     },
     {
@@ -160,8 +170,8 @@
       "categoria": "bispo",
       "label": "Dom Tomás de Aquino\nFerreira da Costa",
       "grupo": "bispo",
-      "x": 568,
-      "y": 487.5
+      "x": 1068,
+      "y": 562.5
     },
     {
       "id": 19,
@@ -169,7 +179,7 @@
       "categoria": "bispo",
       "label": "Gerardo Zendejas",
       "grupo": "bispo",
-      "x": -659,
+      "x": -51,
       "y": 562.5
     },
     {
@@ -178,17 +188,17 @@
       "categoria": "bispo",
       "label": "Daniel Dolan",
       "grupo": "bispo",
-      "x": 75,
+      "x": -785,
       "y": 562.5
     },
     {
       "id": 21,
       "level": 4,
       "categoria": "bispo",
-      "label": "Juan José Squetino",
+      "label": "Juan José Squetino\nSchattenhofer",
       "grupo": "bispo",
-      "x": 1103,
-      "y": 562.5
+      "x": 435,
+      "y": 487.5
     },
     {
       "id": 22,
@@ -197,7 +207,7 @@
       "label": "Rodrigo da Silva",
       "grupo": "bispo",
       "ano": 2021,
-      "x": -1150,
+      "x": -1290,
       "y": 637.5
     },
     {
@@ -207,7 +217,7 @@
       "label": "Charles McGuire (2022)",
       "grupo": "bispo",
       "ano": 2022,
-      "x": -734,
+      "x": -874,
       "y": 712.5
     },
     {
@@ -217,7 +227,7 @@
       "label": "Fernando Altamira (2024)",
       "grupo": "bispo",
       "ano": 2024,
-      "x": 56,
+      "x": -84,
       "y": 712.5
     },
     {
@@ -227,7 +237,7 @@
       "label": "Pierre Roy",
       "grupo": "bispo",
       "ano": 2024,
-      "x": 444,
+      "x": 304,
       "y": 637.5
     },
     {
@@ -237,14 +247,14 @@
       "label": "Bede Nkamuke",
       "grupo": "bispo",
       "ano": 2023,
-      "x": -346,
+      "x": -486,
       "y": 637.5
     },
     {
       "id": 27,
       "level": 5,
       "categoria": "bispo",
-      "label": "Merardo Loya",
+      "label": "Merardo Loya\n(Merardo Loya Loya)",
       "grupo": "bispo",
       "ano": 2025,
       "x": 748,
@@ -257,7 +267,7 @@
       "label": "Michael Mary, F.S.R.",
       "grupo": "bispo",
       "ano": 2026,
-      "x": 1122,
+      "x": 1262,
       "y": 637.5
     },
     {
@@ -401,7 +411,7 @@
       "label": "Leandro Neves",
       "grupo": "padre",
       "ano": 2012,
-      "x": -1505,
+      "x": -1694,
       "y": 937.5
     },
     {
@@ -411,7 +421,7 @@
       "label": "Victor Rodrigues",
       "grupo": "padre",
       "ano": 2015,
-      "x": -1152,
+      "x": -1341,
       "y": 1012.5
     },
     {
@@ -421,7 +431,7 @@
       "label": "Carlos Zúñiga",
       "grupo": "padre",
       "ano": 2017,
-      "x": -799,
+      "x": -988,
       "y": 937.5
     },
     {
@@ -431,7 +441,7 @@
       "label": "Mateus Pereira",
       "grupo": "padre",
       "ano": 2018,
-      "x": -460,
+      "x": -649,
       "y": 1012.5
     },
     {
@@ -458,7 +468,7 @@
       "categoria": "padre",
       "label": "Lucas Prados",
       "grupo": "padre",
-      "x": 0,
+      "x": -442,
       "y": 1237.5
     },
     {
@@ -468,7 +478,7 @@
       "label": "João Maria Vianney (2025)",
       "grupo": "padre",
       "ano": 2025,
-      "x": -37,
+      "x": -226,
       "y": 937.5
     },
     {
@@ -478,7 +488,7 @@
       "label": "Pacífico Maria\n(anunciada 2026)",
       "grupo": "padre",
       "ano": 2026,
-      "x": 837,
+      "x": 1026,
       "y": 937.5
     },
     {
@@ -488,18 +498,45 @@
       "label": "Dimas Maria\n(anunciada 2026)",
       "grupo": "padre",
       "ano": 2026,
-      "x": 1400,
+      "x": 1589,
       "y": 1012.5
     },
     {
       "id": 88,
       "level": 6,
       "categoria": "padre",
-      "label": "Wagner Joseph",
+      "label": "Wagner Alves de Almeida\n(Pe. Wagner Joseph)",
       "grupo": "padre",
       "ano": 2025,
       "x": 379,
       "y": 1012.5
+    },
+    {
+      "id": 95,
+      "level": 6,
+      "categoria": "padre",
+      "label": "P. Francisco",
+      "grupo": "padre",
+      "x": -124,
+      "y": 1312.5
+    },
+    {
+      "id": 96,
+      "level": 6,
+      "categoria": "padre",
+      "label": "P. Wilbert",
+      "grupo": "padre",
+      "x": 180,
+      "y": 1237.5
+    },
+    {
+      "id": 97,
+      "level": 6,
+      "categoria": "padre",
+      "label": "P. Leonel",
+      "grupo": "padre",
+      "x": 463,
+      "y": 1312.5
     },
     {
       "id": 53,
@@ -516,8 +553,8 @@
       "categoria": "classificacao",
       "label": "Resistência\n(Una Cum)",
       "grupo": "classificacao",
-      "x": -612,
-      "y": 1462.5
+      "x": 14,
+      "y": 1387.5
     },
     {
       "id": 55,
@@ -543,8 +580,8 @@
       "categoria": "classificacao",
       "label": "Independente /\nNão Una Cum Parcial",
       "grupo": "classificacao",
-      "x": -77,
-      "y": 1387.5
+      "x": -521,
+      "y": 1462.5
     },
     {
       "id": 58,
@@ -552,7 +589,7 @@
       "categoria": "instituicao",
       "label": "FSSPX",
       "grupo": "instituicao",
-      "x": -1313,
+      "x": -1061,
       "y": 1612.5
     },
     {
@@ -561,8 +598,8 @@
       "categoria": "instituicao",
       "label": "SAJM",
       "grupo": "instituicao",
-      "x": -1526,
-      "y": 1537.5
+      "x": -334,
+      "y": 1612.5
     },
     {
       "id": 60,
@@ -579,8 +616,8 @@
       "categoria": "instituicao",
       "label": "Most Holy Trinity\nSeminary",
       "grupo": "instituicao",
-      "x": -488,
-      "y": 1612.5
+      "x": -694,
+      "y": 1537.5
     },
     {
       "id": 62,
@@ -588,7 +625,7 @@
       "categoria": "instituicao",
       "label": "St. Gertrude\nthe Great",
       "grupo": "instituicao",
-      "x": -974,
+      "x": -1400,
       "y": 1537.5
     },
     {
@@ -624,7 +661,7 @@
       "categoria": "instituicao",
       "label": "Mosteiro Santo Elias",
       "grupo": "instituicao",
-      "x": -570,
+      "x": -1016,
       "y": 1687.5
     },
     {
@@ -633,7 +670,7 @@
       "categoria": "instituicao",
       "label": "Capela São Vicente\nde Paulo",
       "grupo": "instituicao",
-      "x": 1007,
+      "x": 743,
       "y": 1762.5
     },
     {
@@ -642,7 +679,7 @@
       "categoria": "instituicao",
       "label": "Capelania Santa\nMaria Madalena",
       "grupo": "instituicao",
-      "x": 458,
+      "x": 194,
       "y": 1687.5
     },
     {
@@ -651,7 +688,7 @@
       "categoria": "instituicao",
       "label": "Priorado\nSanta Teresinha",
       "grupo": "instituicao",
-      "x": -1682,
+      "x": -2128,
       "y": 1687.5
     },
     {
@@ -660,7 +697,7 @@
       "categoria": "instituicao",
       "label": "Capelania N. Sra do\nPerpétuo Socorro",
       "grupo": "instituicao",
-      "x": -1112,
+      "x": -1558,
       "y": 1762.5
     },
     {
@@ -669,17 +706,44 @@
       "categoria": "instituicao",
       "label": "Redentoristas Transalpinos (Escócia)",
       "grupo": "instituicao",
-      "x": 1598,
-      "y": 1687.5
+      "x": 2044,
+      "y": 1762.5
     },
     {
       "id": 89,
       "level": 8,
       "categoria": "instituicao",
-      "label": "Missão Pindamonhangaba (SP)",
+      "label": "Casa de Missão São José\n(Pindamonhangaba - SP)",
       "grupo": "instituicao",
-      "x": -91,
+      "x": -446,
       "y": 1762.5
+    },
+    {
+      "id": 90,
+      "level": 8,
+      "categoria": "instituicao",
+      "label": "Sociedad San Bernardo de Claraval (México)",
+      "grupo": "instituicao",
+      "x": 1362,
+      "y": 1687.5
+    },
+    {
+      "id": 92,
+      "level": 8,
+      "categoria": "instituicao",
+      "label": "CMRI\n(Congregation of Mary\nImmaculate Queen)",
+      "grupo": "instituicao",
+      "x": -257,
+      "y": 1837.5
+    },
+    {
+      "id": 93,
+      "level": 8,
+      "categoria": "instituicao",
+      "label": "Sociedad Sacerdotal\nTrento",
+      "grupo": "instituicao",
+      "x": 355,
+      "y": 1912.5
     },
     {
       "id": 72,
@@ -687,8 +751,8 @@
       "categoria": "localizacao",
       "label": "Estados Unidos",
       "grupo": "localizacao",
-      "x": -519,
-      "y": 1837.5
+      "x": -1001,
+      "y": 1987.5
     },
     {
       "id": 73,
@@ -696,8 +760,8 @@
       "categoria": "localizacao",
       "label": "França",
       "grupo": "localizacao",
-      "x": -1057,
-      "y": 1837.5
+      "x": -463,
+      "y": 1987.5
     },
     {
       "id": 74,
@@ -706,7 +770,7 @@
       "label": "Itália",
       "grupo": "localizacao",
       "x": 1057,
-      "y": 1912.5
+      "y": 2062.5
     },
     {
       "id": 75,
@@ -715,7 +779,7 @@
       "label": "Argentina",
       "grupo": "localizacao",
       "x": -208,
-      "y": 1912.5
+      "y": 2062.5
     },
     {
       "id": 76,
@@ -724,7 +788,7 @@
       "label": "Canadá",
       "grupo": "localizacao",
       "x": 589,
-      "y": 1912.5
+      "y": 2062.5
     },
     {
       "id": 77,
@@ -732,8 +796,8 @@
       "categoria": "localizacao",
       "label": "Nigéria",
       "grupo": "localizacao",
-      "x": -816,
-      "y": 1912.5
+      "x": -704,
+      "y": 2062.5
     },
     {
       "id": 78,
@@ -742,7 +806,7 @@
       "label": "México",
       "grupo": "localizacao",
       "x": 823,
-      "y": 1837.5
+      "y": 1987.5
     },
     {
       "id": 79,
@@ -751,7 +815,7 @@
       "label": "B. Horizonte /\nContagem (MG)",
       "grupo": "localizacao",
       "x": 201,
-      "y": 1837.5
+      "y": 1987.5
     },
     {
       "id": 80,
@@ -760,7 +824,7 @@
       "label": "São Paulo (SP)",
       "grupo": "localizacao",
       "x": -1246,
-      "y": 1987.5
+      "y": 2137.5
     },
     {
       "id": 81,
@@ -769,7 +833,7 @@
       "label": "Rio de Janeiro (RJ)",
       "grupo": "localizacao",
       "x": -477,
-      "y": 1987.5
+      "y": 2137.5
     },
     {
       "id": 82,
@@ -778,7 +842,7 @@
       "label": "Nova Friburgo (RJ)",
       "grupo": "localizacao",
       "x": 1218,
-      "y": 2062.5
+      "y": 2212.5
     },
     {
       "id": 83,
@@ -787,7 +851,7 @@
       "label": "Curitiba (PR)",
       "grupo": "localizacao",
       "x": -103,
-      "y": 2062.5
+      "y": 2212.5
     },
     {
       "id": 84,
@@ -796,7 +860,7 @@
       "label": "Brasília (DF)",
       "grupo": "localizacao",
       "x": 851,
-      "y": 1987.5
+      "y": 2137.5
     },
     {
       "id": 85,
@@ -805,7 +869,7 @@
       "label": "Goiás (GO)",
       "grupo": "localizacao",
       "x": 208,
-      "y": 1987.5
+      "y": 2137.5
     },
     {
       "id": 86,
@@ -814,7 +878,7 @@
       "label": "Campo Grande (MS)",
       "grupo": "localizacao",
       "x": -879,
-      "y": 2062.5
+      "y": 2212.5
     },
     {
       "id": 87,
@@ -823,7 +887,16 @@
       "label": "Sul do Brasil",
       "grupo": "localizacao",
       "x": 519,
-      "y": 2062.5
+      "y": 2212.5
+    },
+    {
+      "id": 94,
+      "level": 9,
+      "categoria": "localizacao",
+      "label": "Pindamonhangaba (SP)",
+      "grupo": "localizacao",
+      "x": 0,
+      "y": 2287.5
     }
   ],
   "edges": [
@@ -872,8 +945,14 @@
     {
       "from": 6,
       "to": 14,
-      "title": "consagrou bispo",
-      "texto": "consagrou bispo"
+      "title": "consagrou bispo 1991",
+      "texto": "consagrou bispo 1991"
+    },
+    {
+      "from": 91,
+      "to": 14,
+      "title": "ordenou padre 1985",
+      "texto": "ordenou padre 1985"
     },
     {
       "from": 6,
@@ -886,6 +965,12 @@
       "to": 20,
       "title": "consagrou bispo",
       "texto": "consagrou bispo"
+    },
+    {
+      "from": 14,
+      "to": 27,
+      "title": "ordenou padre 1996",
+      "texto": "ordenou padre 1996"
     },
     {
       "from": 4,
@@ -1386,6 +1471,30 @@
       "texto": "adota"
     },
     {
+      "from": 90,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 95,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 96,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
+      "from": 97,
+      "to": 55,
+      "title": "adota",
+      "texto": "adota"
+    },
+    {
       "from": 6,
       "to": 55,
       "title": "adotou",
@@ -1510,6 +1619,12 @@
       "texto": "atua em"
     },
     {
+      "from": 88,
+      "to": 94,
+      "title": "atua em",
+      "texto": "atua em"
+    },
+    {
       "from": 39,
       "to": 65,
       "title": "atuou em",
@@ -1544,6 +1659,13 @@
     {
       "from": 22,
       "to": 61,
+      "title": "foi membro de",
+      "texto": "foi membro de",
+      "dashes": true
+    },
+    {
+      "from": 27,
+      "to": 93,
       "title": "foi membro de",
       "texto": "foi membro de",
       "dashes": true
@@ -1594,6 +1716,12 @@
     {
       "from": 23,
       "to": 62,
+      "title": "lidera",
+      "texto": "lidera"
+    },
+    {
+      "from": 27,
+      "to": 90,
       "title": "lidera",
       "texto": "lidera"
     },
@@ -1684,7 +1812,13 @@
     },
     {
       "from": 89,
-      "to": 80,
+      "to": 94,
+      "title": "localizado em",
+      "texto": "localizado em"
+    },
+    {
+      "from": 90,
+      "to": 78,
       "title": "localizado em",
       "texto": "localizado em"
     },
@@ -1715,6 +1849,12 @@
     {
       "from": 13,
       "to": 58,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 14,
+      "to": 92,
       "title": "pertence a",
       "texto": "pertence a"
     },
@@ -1821,6 +1961,30 @@
       "texto": "pertence a"
     },
     {
+      "from": 88,
+      "to": 90,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 95,
+      "to": 90,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 96,
+      "to": 90,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
+      "from": 97,
+      "to": 90,
+      "title": "pertence a",
+      "texto": "pertence a"
+    },
+    {
       "from": 16,
       "to": 54,
       "title": "rompeu com",
@@ -1902,6 +2066,13 @@
       "to": 58,
       "title": "rompeu com",
       "texto": "rompeu com",
+      "dashes": true
+    },
+    {
+      "from": 27,
+      "to": 94,
+      "title": "visitou (set/2025)",
+      "texto": "visitou (set/2025)",
       "dashes": true
     },
     {
@@ -2030,13 +2201,13 @@
     },
     {
       "yInicio": 1500,
-      "yFim": 1800,
+      "yFim": 1950,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 1800,
-      "yFim": 2100,
+      "yInicio": 1950,
+      "yFim": 2400,
       "label": null,
       "cor": null
     }
