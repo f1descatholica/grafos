@@ -1,4 +1,3 @@
-
 // ============================================================
 // calcular-posicoes.js
 // ============================================================
@@ -58,11 +57,15 @@ const REGRAS_PADRAO = {
 
 function mesclarComPadrao(regrasCarregadas) {
   regrasCarregadas = regrasCarregadas || {};
-  return {
+  var resultado = {
     dicionario: Object.assign({}, REGRAS_PADRAO.dicionario, regrasCarregadas.dicionario),
     layout: Object.assign({}, REGRAS_PADRAO.layout, regrasCarregadas.layout),
     cores: Object.assign({}, REGRAS_PADRAO.cores, regrasCarregadas.cores)
   };
+  if (regrasCarregadas.mapa) {
+    resultado.mapa = regrasCarregadas.mapa;
+  }
+  return resultado;
 }
 
 function extrairDiaDoTexto(texto) {
