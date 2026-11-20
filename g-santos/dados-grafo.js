@@ -1,5 +1,6 @@
+
 // ============================================================
-// REGRAS GRAFO e MAPA "g-santos"
+// REGRAS GRAFO e MAPA "g-santos" regras.mapa.paises
 // ============================================================
 var regrasDoGrafo = {
   dicionario: {
@@ -73,6 +74,15 @@ var regrasDoGrafo = {
       NL: { nome: 'Países Baixos', lat: 52.1326, lng: 5.2913 },
       SE: { nome: 'Suécia', lat: 60.1282, lng: 18.6435 },
       UA: { nome: 'Ucrânia', lat: 48.3794, lng: 31.1656 },
+	  PY: { nome: 'Paraguai', lat: -23.4425, lng: -58.4438 },
+	  JO: { nome: 'Jordânia', lat: 30.5852, lng: 36.2384 },
+	  IN: { nome: 'Índia', lat: 20.5937, lng: 78.9629 },
+	  MX: { nome: 'México', lat: 23.6345, lng: -102.5528 },
+	  AR: { nome: 'Argentina', lat: -38.4161, lng: -63.6167 },
+	  EC: { nome: 'Equador', lat: -1.8312, lng: -78.1834 },
+	  CL: { nome: 'Chile', lat: -35.6751, lng: -71.5430 },
+	  BR: { nome: 'Brasil', lat: -14.2350, lng: -51.9253 },
+	  CO: { nome: 'Colômbia', lat: 4.5709, lng: -74.2973 },
 	  PY: { nome: 'Paraguai', lat: -23.4425, lng: -58.4438 }
     }
   }
