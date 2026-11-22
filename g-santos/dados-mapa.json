@@ -1886,6 +1886,19 @@
       "temGrafo": true
     },
     {
+      "id": "1060",
+      "nome": "Vítor I",
+      "atributoLiturgico": "Papa e Mártir",
+      "diaFesta": "28 de julho",
+      "cidade": "Cartago",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "dataMorte": "cerca de 199",
+      "cidadeId": "516",
+      "idGrafo": "1060",
+      "temGrafo": true
+    },
+    {
       "id": "6",
       "nome": "Bento",
       "atributoLiturgico": "Abade",
@@ -4889,8 +4902,8 @@
       "iso": "TN",
       "lat": 36.8528,
       "lng": 10.3233,
-      "qtd": 6,
-      "qtdGrafo": 1
+      "qtd": 7,
+      "qtdGrafo": 2
     },
     {
       "id": "145",
@@ -6025,8 +6038,8 @@
       "nome": "Tunísia",
       "lat": 33.8869,
       "lng": 9.5375,
-      "qtd": 9,
-      "qtdGrafo": 2
+      "qtd": 10,
+      "qtdGrafo": 3
     },
     {
       "iso": "GB",
@@ -6194,6 +6207,30 @@
       "lat": 4.5709,
       "lng": -74.2973,
       "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "LB",
+      "nome": "Líbano",
+      "lat": 33.8547,
+      "lng": 35.8623,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "SD",
+      "nome": "Sudão",
+      "lat": 12.8628,
+      "lng": 30.2176,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "UG",
+      "nome": "Uganda",
+      "lat": 1.3733,
+      "lng": 32.2903,
+      "qtd": 2,
       "qtdGrafo": 0
     }
   ]

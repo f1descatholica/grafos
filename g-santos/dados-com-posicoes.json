@@ -133,8 +133,8 @@
       "label": "JANEIRO",
       "grupo": "documento",
       "mesNumero": 1,
-      "x": -1315,
-      "y": 187.5
+      "x": -599,
+      "y": 262.5
     },
     {
       "id": "80",
@@ -143,8 +143,8 @@
       "label": "FEVEREIRO",
       "grupo": "documento",
       "mesNumero": 2,
-      "x": -159,
-      "y": 262.5
+      "x": 557,
+      "y": 187.5
     },
     {
       "id": "90",
@@ -153,8 +153,8 @@
       "label": "MARÇO",
       "grupo": "documento",
       "mesNumero": 3,
-      "x": -861,
-      "y": 187.5
+      "x": -117,
+      "y": 262.5
     },
     {
       "id": "91",
@@ -163,7 +163,7 @@
       "label": "ABRIL",
       "grupo": "documento",
       "mesNumero": 4,
-      "x": 337,
+      "x": 805,
       "y": 262.5
     },
     {
@@ -173,7 +173,7 @@
       "label": "MAIO",
       "grupo": "documento",
       "mesNumero": 5,
-      "x": 812,
+      "x": 316,
       "y": 262.5
     },
     {
@@ -183,8 +183,8 @@
       "label": "JUNHO",
       "grupo": "documento",
       "mesNumero": 6,
-      "x": -1081,
-      "y": 262.5
+      "x": 103,
+      "y": 187.5
     },
     {
       "id": "94",
@@ -193,8 +193,8 @@
       "label": "JULHO",
       "grupo": "documento",
       "mesNumero": 7,
-      "x": -641,
-      "y": 262.5
+      "x": -1329,
+      "y": 187.5
     },
     {
       "id": "95",
@@ -203,8 +203,8 @@
       "label": "AGOSTO",
       "grupo": "documento",
       "mesNumero": 8,
-      "x": -414,
-      "y": 187.5
+      "x": -1102,
+      "y": 262.5
     },
     {
       "id": "96",
@@ -223,7 +223,7 @@
       "label": "OUTUBRO",
       "grupo": "documento",
       "mesNumero": 10,
-      "x": 103,
+      "x": -351,
       "y": 187.5
     },
     {
@@ -243,7 +243,7 @@
       "label": "DEZEMBRO",
       "grupo": "documento",
       "mesNumero": 12,
-      "x": 578,
+      "x": -854,
       "y": 187.5
     },
     {
@@ -671,8 +671,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/01/28-janeiro-s-ines-virgem-e-martir.html",
-      "x": -1599,
-      "y": 1462.5
+      "x": -1155,
+      "y": 1387.5
     },
     {
       "id": "72",
@@ -683,8 +683,8 @@
       "paisNasc": "FR",
       "dataMorte": "cerca de 288",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-20-jan-s-fabiano-e-s.html",
-      "x": 351,
-      "y": 1312.5
+      "x": 886,
+      "y": 1237.5
     },
     {
       "id": "7",
@@ -695,8 +695,8 @@
       "paisNasc": "TR",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/sao-jorge-martir.html",
-      "x": 1707,
-      "y": 1312.5
+      "x": 2242,
+      "y": 1237.5
     },
     {
       "id": "76",
@@ -707,8 +707,8 @@
       "paisNasc": "EG",
       "dataMorte": "cerca de 341",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-15-jan-sao-paulo.html",
-      "x": 858,
-      "y": 1537.5
+      "x": 1169,
+      "y": 1612.5
     },
     {
       "id": "74",
@@ -719,8 +719,8 @@
       "paisNasc": "EG",
       "dataMorte": "17 de janeiro de 356",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-17-jan-s-antao-abade.html",
-      "x": 1382,
-      "y": 1537.5
+      "x": 1693,
+      "y": 1612.5
     },
     {
       "id": "64",
@@ -731,8 +731,8 @@
       "localNasc": "811",
       "dataMorte": "cerca de 387",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/405-santa-monica-viuva-modelo-de-esposa.html",
-      "x": 512,
-      "y": 1762.5
+      "x": 753,
+      "y": 1687.5
     },
     {
       "id": "5",
@@ -743,8 +743,8 @@
       "localNasc": "811",
       "dataMorte": "28 de agosto de 430",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/28-ago-s-agostinho-bispo-confessor-e.html",
-      "x": -720,
-      "y": 1912.5
+      "x": -603,
+      "y": 1837.5
     },
     {
       "id": "81",
@@ -767,8 +767,8 @@
       "localNasc": "139",
       "dataMorte": "cerca de 316",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-03-fev.html",
-      "x": -407,
-      "y": 1537.5
+      "x": -96,
+      "y": 1612.5
     },
     {
       "id": "83",
@@ -779,8 +779,8 @@
       "localNasc": "140",
       "dataMorte": "cerca de 251",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-05-fev-santa-agueda.html",
-      "x": -184,
-      "y": 1087.5
+      "x": 225,
+      "y": 1162.5
     },
     {
       "id": "84",
@@ -791,8 +791,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 269",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-14-fev-feria.html",
-      "x": -2480,
-      "y": 1312.5
+      "x": -1945,
+      "y": 1237.5
     },
     {
       "id": "204",
@@ -802,8 +802,8 @@
       "ano": 257,
       "paisNasc": "IT",
       "dataMorte": "cerca de 257",
-      "x": 770,
-      "y": 1162.5
+      "x": 1179,
+      "y": 1087.5
     },
     {
       "id": "205",
@@ -814,7 +814,7 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 154",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/11-julho-feria.html",
-      "x": -2294,
+      "x": -2287,
       "y": 937.5
     },
     {
@@ -838,8 +838,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 412",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/17-julho-santo-aleixo-confessor.html",
-      "x": 2420,
-      "y": 1762.5
+      "x": -1120,
+      "y": 1837.5
     },
     {
       "id": "214",
@@ -850,7 +850,7 @@
       "localNasc": "26",
       "dataMorte": "cerca de 165",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/21-julho-s-praxedes-virgem.html",
-      "x": -823,
+      "x": -816,
       "y": 1012.5
     },
     {
@@ -874,8 +874,8 @@
       "localNasc": "307",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/24-julho-santa-cristina-virgem-e-martir.html",
-      "x": 243,
-      "y": 1387.5
+      "x": 687,
+      "y": 1462.5
     },
     {
       "id": "219",
@@ -886,8 +886,8 @@
       "localNasc": "308",
       "dataMorte": "cerca de 305",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/27-julho-s-pantaleao-martir.html",
-      "x": 2032,
-      "y": 1387.5
+      "x": 2476,
+      "y": 1462.5
     },
     {
       "id": "220",
@@ -909,8 +909,8 @@
       "ano": 250,
       "paisNasc": "IR",
       "dataMorte": "cerca de 250",
-      "x": -750,
-      "y": 1087.5
+      "x": -341,
+      "y": 1162.5
     },
     {
       "id": "223",
@@ -921,8 +921,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/2-junho-feria-ss-marcelino-pedro-e.html",
-      "x": -138,
-      "y": 1462.5
+      "x": 306,
+      "y": 1387.5
     },
     {
       "id": "226",
@@ -933,8 +933,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 297",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/09-junho-santos-primo-e-feliciano.html",
-      "x": 1403,
-      "y": 1237.5
+      "x": 1938,
+      "y": 1312.5
     },
     {
       "id": "229",
@@ -945,8 +945,8 @@
       "paisNasc": "TR",
       "dataMorte": "1 de janeiro de 379",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/14-junho-s-basilio-magno-bispo.html",
-      "x": -795,
-      "y": 1762.5
+      "x": -554,
+      "y": 1687.5
     },
     {
       "id": "230",
@@ -957,8 +957,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/15-jun-santos-vito-modesto-e-crescencia.html",
-      "x": 2074,
-      "y": 1237.5
+      "x": 2609,
+      "y": 1312.5
     },
     {
       "id": "231",
@@ -969,8 +969,8 @@
       "paisNasc": "TR",
       "dataMorte": "9 de junho de 373",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/18-junho-s-efrem-diacono-confessor-e.html",
-      "x": -1071,
-      "y": 1687.5
+      "x": -830,
+      "y": 1762.5
     },
     {
       "id": "233",
@@ -981,7 +981,7 @@
       "localNasc": "300",
       "dataMorte": "cerca de 165",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/19-junho-ss-gervasio-e-protasio.html",
-      "x": -1162,
+      "x": -1155,
       "y": 937.5
     },
     {
@@ -993,8 +993,8 @@
       "paisNasc": "FR",
       "dataMorte": "22 de junho de 431",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/22-junho-sao-paulino-de-nola-bispo-e.html",
-      "x": -402,
-      "y": 1837.5
+      "x": -285,
+      "y": 1912.5
     },
     {
       "id": "237",
@@ -1005,8 +1005,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 362",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/26-junho-ss-joao-e-paulo-martires.html",
-      "x": 2053,
-      "y": 1537.5
+      "x": 2364,
+      "y": 1612.5
     },
     {
       "id": "239",
@@ -1017,8 +1017,8 @@
       "localNasc": "505",
       "dataMorte": "cerca de 202",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/28-junho-s-irineu-bispo-e-martir.html",
-      "x": 239,
-      "y": 1012.5
+      "x": 494,
+      "y": 937.5
     },
     {
       "id": "400",
@@ -1039,8 +1039,8 @@
       "ano": 367,
       "localNasc": "500",
       "dataMorte": "cerca de 367",
-      "x": -2329,
-      "y": 1687.5
+      "x": -2088,
+      "y": 1762.5
     },
     {
       "id": "402",
@@ -1050,8 +1050,8 @@
       "ano": 256,
       "localNasc": "318",
       "dataMorte": "cerca de 256",
-      "x": 347,
-      "y": 1087.5
+      "x": 756,
+      "y": 1162.5
     },
     {
       "id": "404",
@@ -1062,8 +1062,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 309",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-16-jan-sao-marcelo-i.html",
-      "x": -1616,
-      "y": 1537.5
+      "x": -1305,
+      "y": 1612.5
     },
     {
       "id": "405",
@@ -1074,8 +1074,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 269",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/l-iturgia-diaria-18-jan-s-maria-no.html",
-      "x": -2728,
-      "y": 1237.5
+      "x": -2193,
+      "y": 1312.5
     },
     {
       "id": "406",
@@ -1085,8 +1085,8 @@
       "ano": 270,
       "paisNasc": "IR",
       "dataMorte": "cerca de 270",
-      "x": -2071,
-      "y": 1237.5
+      "x": -1536,
+      "y": 1312.5
     },
     {
       "id": "408",
@@ -1097,8 +1097,8 @@
       "paisNasc": "IT",
       "dataMorte": "20 de janeiro de 250",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-20-jan-s-fabiano-e-s.html",
-      "x": -1309,
-      "y": 1087.5
+      "x": -900,
+      "y": 1162.5
     },
     {
       "id": "409",
@@ -1108,8 +1108,8 @@
       "ano": 304,
       "localNasc": "503",
       "dataMorte": "cerca de 304",
-      "x": -1288,
-      "y": 1387.5
+      "x": -844,
+      "y": 1462.5
     },
     {
       "id": "411",
@@ -1119,8 +1119,8 @@
       "ano": 304,
       "localNasc": "26",
       "dataMorte": "cerca de 304",
-      "x": -928,
-      "y": 1462.5
+      "x": -484,
+      "y": 1387.5
     },
     {
       "id": "413",
@@ -1131,7 +1131,7 @@
       "localNasc": "505",
       "dataMorte": "cerca de 155",
       "urlPost": "https://f1descatholica.blogspot.com/2026/01/26-jan-s-policarpo-bispo-e-martir.html",
-      "x": -2046,
+      "x": -2039,
       "y": 1012.5
     },
     {
@@ -1143,8 +1143,8 @@
       "localNasc": "138",
       "dataMorte": "14 de setembro de 407",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-27-jan-sao-joao.html",
-      "x": 2123,
-      "y": 1687.5
+      "x": 2364,
+      "y": 1762.5
     },
     {
       "id": "416",
@@ -1155,8 +1155,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 228",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-30-jan-santa-martinha.html",
-      "x": 1469,
-      "y": 1012.5
+      "x": 1724,
+      "y": 937.5
     },
     {
       "id": "419",
@@ -1167,8 +1167,8 @@
       "paisNasc": "TR",
       "dataMorte": "cerca de 311",
       "urlPost": "https://f1descatholica.blogspot.com/2026/02/6-fev-s-doroteia-virgem-e-martir.html",
-      "x": -1347,
-      "y": 1612.5
+      "x": -1036,
+      "y": 1537.5
     },
     {
       "id": "422",
@@ -1179,8 +1179,8 @@
       "localNasc": "510",
       "dataMorte": "27 de junho de 444",
       "urlPost": "https://f1descatholica.blogspot.com/2026/02/9-fev-s-cirilo-de-alexandria.html",
-      "x": -7,
-      "y": 1912.5
+      "x": 110,
+      "y": 1837.5
     },
     {
       "id": "423",
@@ -1191,8 +1191,8 @@
       "localNasc": "510",
       "dataMorte": "cerca de 249",
       "urlPost": "https://f1descatholica.blogspot.com/2026/02/9-fev-s-apolonia.html",
-      "x": -1564,
-      "y": 1162.5
+      "x": -1155,
+      "y": 1087.5
     },
     {
       "id": "426",
@@ -1226,8 +1226,8 @@
       "ano": 254,
       "localNasc": "26",
       "dataMorte": "5 de março de 254",
-      "x": 57,
-      "y": 1162.5
+      "x": 466,
+      "y": 1087.5
     },
     {
       "id": "432",
@@ -1238,8 +1238,8 @@
       "localNasc": "516",
       "dataMorte": "7 de março de 203",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/6-marco-s-perpetua-e-s-felicidade.html",
-      "x": 578,
-      "y": 937.5
+      "x": 833,
+      "y": 1012.5
     },
     {
       "id": "435",
@@ -1250,8 +1250,8 @@
       "localNasc": "139",
       "dataMorte": "cerca de 320",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/liturgia-diaria-10-mar-segunda-feira-da.html",
-      "x": -110,
-      "y": 1612.5
+      "x": 201,
+      "y": 1537.5
     },
     {
       "id": "437",
@@ -1262,8 +1262,8 @@
       "paisNasc": "GB",
       "dataMorte": "cerca de 461",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/17-marco-s-patricio-bispo-e-confessor-o.html",
-      "x": 699,
-      "y": 1912.5
+      "x": 816,
+      "y": 1837.5
     },
     {
       "id": "438",
@@ -1274,8 +1274,8 @@
       "localNasc": "133",
       "dataMorte": "18 de março de 386",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/18-mar-s-cirilo-de-jerusalem.html",
-      "x": 187,
-      "y": 1687.5
+      "x": 428,
+      "y": 1762.5
     },
     {
       "id": "445",
@@ -1286,8 +1286,8 @@
       "paisNasc": "IT",
       "dataMorte": "10 de novembro de 461",
       "urlPost": "https://f1descatholica.blogspot.com/2025/11/11abr-s-leao-i-magno-papa-confessor-e.html",
-      "x": 975,
-      "y": 1837.5
+      "x": 1092,
+      "y": 1912.5
     },
     {
       "id": "447",
@@ -1298,7 +1298,7 @@
       "paisNasc": "PS",
       "dataMorte": "cerca de 165",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/14-abril-s-justino-martir.html",
-      "x": -1494,
+      "x": -1487,
       "y": 1012.5
     },
     {
@@ -1310,8 +1310,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 229",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/14-abril-ss-tiburcio-valeriano-e-maximo.html",
-      "x": 1871,
-      "y": 937.5
+      "x": 2126,
+      "y": 1012.5
     },
     {
       "id": "449",
@@ -1322,7 +1322,7 @@
       "paisNasc": "SY",
       "dataMorte": "cerca de 168",
       "urlPost": "https://f1descatholica.blogspot.com/2025/04/17-abril-s-aniceto-papa-e-martir.html",
-      "x": -278,
+      "x": -271,
       "y": 1012.5
     },
     {
@@ -1334,8 +1334,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 296",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/22-abril-ss-sotero-e-caio-papas-e.html",
-      "x": 1043,
-      "y": 1312.5
+      "x": 1578,
+      "y": 1237.5
     },
     {
       "id": "454",
@@ -1346,8 +1346,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/26-abril-ss-cleto-e-marcelino-papas-e.html",
-      "x": -582,
-      "y": 1387.5
+      "x": -138,
+      "y": 1462.5
     },
     {
       "id": "457",
@@ -1370,8 +1370,8 @@
       "localNasc": "510",
       "dataMorte": "2 de maio de 373",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/02-maio-s-atanasio-bispo-confessor-e.html",
-      "x": -1312,
-      "y": 1762.5
+      "x": -1071,
+      "y": 1687.5
     },
     {
       "id": "604",
@@ -1382,8 +1382,8 @@
       "paisNasc": "TR",
       "dataMorte": "25 de janeiro de 390",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/09-maio-sao-gregorio-nazianzeno-bispo.html",
-      "x": 837,
-      "y": 1687.5
+      "x": 1078,
+      "y": 1762.5
     },
     {
       "id": "606",
@@ -1394,8 +1394,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 362",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/10-maio-s-gordiano-e-s-epimaco-martires.html",
-      "x": 1693,
-      "y": 1612.5
+      "x": 2004,
+      "y": 1537.5
     },
     {
       "id": "607",
@@ -1418,8 +1418,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 250",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/18-maio-s-venancio-martir.html",
-      "x": -1054,
-      "y": 1162.5
+      "x": -645,
+      "y": 1087.5
     },
     {
       "id": "615",
@@ -1430,7 +1430,7 @@
       "localNasc": "26",
       "dataMorte": "cerca de 160",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/19-de-maio-santa-pudenciana-virgem-o.html",
-      "x": -1763,
+      "x": -1756,
       "y": 937.5
     },
     {
@@ -1441,8 +1441,8 @@
       "ano": 230,
       "localNasc": "26",
       "dataMorte": "cerca de 230",
-      "x": 2273,
-      "y": 1012.5
+      "x": -2343,
+      "y": 1087.5
     },
     {
       "id": "620",
@@ -1453,7 +1453,7 @@
       "paisNasc": "GR",
       "dataMorte": "cerca de 189",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/09-out-s-dionisio-bispo-s-rustico-e-s.html",
-      "x": -16,
+      "x": -9,
       "y": 937.5
     },
     {
@@ -1465,8 +1465,8 @@
       "localNasc": "26",
       "dataMorte": "30 de dezembro de 274",
       "urlPost": "https://f1descatholica.blogspot.com/2026/07/29-julho-santos-felix-ii-simplicio.html",
-      "x": -1253,
-      "y": 1237.5
+      "x": -718,
+      "y": 1312.5
     },
     {
       "id": "628",
@@ -1487,8 +1487,8 @@
       "ano": 303,
       "localNasc": "26",
       "dataMorte": "cerca de 303",
-      "x": 2588,
-      "y": 1312.5
+      "x": -2357,
+      "y": 1387.5
     },
     {
       "id": "635",
@@ -1499,8 +1499,8 @@
       "paisNasc": "ES",
       "dataMorte": "10 de agosto de 258",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/05-ago-s-lourenco-justiniani-bispo-e.html",
-      "x": 1518,
-      "y": 1162.5
+      "x": 1927,
+      "y": 1087.5
     },
     {
       "id": "636",
@@ -1511,8 +1511,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 295",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/11-ago-ss-tiburcio-e-susana-martires.html",
-      "x": 683,
-      "y": 1237.5
+      "x": 1218,
+      "y": 1312.5
     },
     {
       "id": "637",
@@ -1523,8 +1523,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 235",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/13-ago-ss-hipolito-e-cassiano-martires.html",
-      "x": -2165,
-      "y": 1162.5
+      "x": -1756,
+      "y": 1087.5
     },
     {
       "id": "641",
@@ -1535,8 +1535,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 274",
       "urlPost": "https://f1descatholica.blogspot.com/2026/08/18-agosto-santo-agapito-martir.html",
-      "x": -1005,
-      "y": 1312.5
+      "x": -470,
+      "y": 1237.5
     },
     {
       "id": "647",
@@ -1547,8 +1547,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 217",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/26-ago-sao-zeferino-papa-e-martir.html",
-      "x": 931,
-      "y": 1012.5
+      "x": 1186,
+      "y": 937.5
     },
     {
       "id": "652",
@@ -1559,8 +1559,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/08/1-setembro-os-doze-santos-irmaos.html",
-      "x": -2343,
-      "y": 1387.5
+      "x": -1899,
+      "y": 1462.5
     },
     {
       "id": "655",
@@ -1571,8 +1571,8 @@
       "localNasc": "308",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/09/9-setembro-sao-gorgonio-martir.html",
-      "x": 505,
-      "y": 1462.5
+      "x": 949,
+      "y": 1387.5
     },
     {
       "id": "657",
@@ -1583,8 +1583,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 257",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/11-set-ss-proto-e-jacinto-martires.html",
-      "x": 1207,
-      "y": 1087.5
+      "x": 1616,
+      "y": 1162.5
     },
     {
       "id": "658",
@@ -1595,8 +1595,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 258",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/16-set-s-cornelio-papa-e-s-cipriano.html",
-      "x": 1857,
-      "y": 1087.5
+      "x": 2266,
+      "y": 1162.5
     },
     {
       "id": "660",
@@ -1607,8 +1607,8 @@
       "localNasc": "145",
       "dataMorte": "cerca de 305",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/19-set-s-januario-bispo-e-seus.html",
-      "x": 2357,
-      "y": 1462.5
+      "x": -2336,
+      "y": 1537.5
     },
     {
       "id": "661",
@@ -1631,8 +1631,8 @@
       "paisNasc": "EG",
       "dataMorte": "cerca de 287",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/22-set-s-mauricio-e-companheiros.html",
-      "x": -320,
-      "y": 1312.5
+      "x": 215,
+      "y": 1237.5
     },
     {
       "id": "664",
@@ -1655,8 +1655,8 @@
       "localNasc": "138",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/09/santos-cipriano-e-justina-martires.html",
-      "x": 837,
-      "y": 1387.5
+      "x": 1281,
+      "y": 1462.5
     },
     {
       "id": "666",
@@ -1667,8 +1667,8 @@
       "paisNasc": "SY",
       "dataMorte": "cerca de 287",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/27-set-ss-cosme-e-damiao-martires.html",
-      "x": 40,
-      "y": 1237.5
+      "x": 575,
+      "y": 1312.5
     },
     {
       "id": "668",
@@ -1679,8 +1679,8 @@
       "localNasc": "812",
       "dataMorte": "30 de setembro de 420",
       "urlPost": "https://f1descatholica.blogspot.com/2026/07/20-julho-s-jeronimo-emiliani-confessor.html",
-      "x": -989,
-      "y": 1837.5
+      "x": -872,
+      "y": 1912.5
     },
     {
       "id": "674",
@@ -1691,8 +1691,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 258",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/09-out-s-dionisio-bispo-s-rustico-e-s.html",
-      "x": 2343,
-      "y": 1162.5
+      "x": -2588,
+      "y": 1237.5
     },
     {
       "id": "677",
@@ -1703,8 +1703,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 222",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/14-out-s-calisto-i-papa-e-martir.html",
-      "x": 1200,
-      "y": 937.5
+      "x": 1455,
+      "y": 1012.5
     },
     {
       "id": "683",
@@ -1715,8 +1715,8 @@
       "paisNasc": "PS",
       "dataMorte": "cerca de 371",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/21-out-s-hilario-abade.html",
-      "x": -1990,
-      "y": 1762.5
+      "x": -1749,
+      "y": 1687.5
     },
     {
       "id": "684",
@@ -1727,8 +1727,8 @@
       "paisNasc": "GB",
       "dataMorte": "cerca de 383",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santas-ursula-e-companheiras.html",
-      "x": -456,
-      "y": 1687.5
+      "x": -215,
+      "y": 1762.5
     },
     {
       "id": "686",
@@ -1739,8 +1739,8 @@
       "paisNasc": "EG",
       "dataMorte": "cerca de 283",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/25-out-s-crisanto-e-s-daria-martires.html",
-      "x": -694,
-      "y": 1237.5
+      "x": -159,
+      "y": 1312.5
     },
     {
       "id": "687",
@@ -1763,8 +1763,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/08-nov-ss-quatro-coroados-martires.html",
-      "x": 1218,
-      "y": 1462.5
+      "x": 1662,
+      "y": 1387.5
     },
     {
       "id": "691",
@@ -1775,8 +1775,8 @@
       "paisNasc": "TR",
       "dataMorte": "cerca de 306",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/sao-teodoro-martir-9-de-novembro.html",
-      "x": -1878,
-      "y": 1612.5
+      "x": -1567,
+      "y": 1537.5
     },
     {
       "id": "693",
@@ -1787,8 +1787,8 @@
       "paisNasc": "HU",
       "dataMorte": "8 de novembro de 397",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/11-nov-s-martinho-de-tours-bispo-e.html",
-      "x": 1487,
-      "y": 1687.5
+      "x": 1728,
+      "y": 1762.5
     },
     {
       "id": "699",
@@ -1799,8 +1799,8 @@
       "paisNasc": "TR",
       "dataMorte": "cerca de 270",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/17-nov-s-gregorio-taumaturgo-bispo-e.html",
-      "x": -1585,
-      "y": 1312.5
+      "x": -1050,
+      "y": 1237.5
     },
     {
       "id": "701",
@@ -1811,8 +1811,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 230",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/22-nov-s-cecilia-virgem-e-martir.html",
-      "x": -2497,
-      "y": 1087.5
+      "x": -2088,
+      "y": 1162.5
     },
     {
       "id": "702",
@@ -1834,7 +1834,7 @@
       "localNasc": "26",
       "dataMorte": "cerca de 165",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/6-marco-s-perpetua-e-s-felicidade.html",
-      "x": -547,
+      "x": -540,
       "y": 937.5
     },
     {
@@ -1845,8 +1845,8 @@
       "ano": 304,
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
-      "x": 1536,
-      "y": 1387.5
+      "x": 1980,
+      "y": 1462.5
     },
     {
       "id": "705",
@@ -1857,8 +1857,8 @@
       "localNasc": "510",
       "dataMorte": "cerca de 305",
       "urlPost": "https://f1descatholica.blogspot.com/2025/11/25-nov-s-catarina-virgem-e-martir.html",
-      "x": -2231,
-      "y": 1537.5
+      "x": -1920,
+      "y": 1612.5
     },
     {
       "id": "707",
@@ -1868,8 +1868,8 @@
       "ano": 311,
       "localNasc": "510",
       "dataMorte": "25 de novembro de 311",
-      "x": -1008,
-      "y": 1537.5
+      "x": -697,
+      "y": 1612.5
     },
     {
       "id": "708",
@@ -1879,8 +1879,8 @@
       "ano": 250,
       "paisNasc": "GR",
       "dataMorte": "cerca de 250",
-      "x": -439,
-      "y": 1162.5
+      "x": -30,
+      "y": 1087.5
     },
     {
       "id": "709",
@@ -1891,8 +1891,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 363",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-02-dez-s-bibiana-virgem.html",
-      "x": 2336,
-      "y": 1612.5
+      "x": -2420,
+      "y": 1687.5
     },
     {
       "id": "710",
@@ -1903,8 +1903,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 450",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-04-dez-s-pedro.html",
-      "x": 388,
-      "y": 1837.5
+      "x": 505,
+      "y": 1912.5
     },
     {
       "id": "712",
@@ -1915,8 +1915,8 @@
       "paisNasc": "TR",
       "dataMorte": "cerca de 343",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/10-de-setembro-sao-nicolau-de-tolentino.html",
-      "x": 1148,
-      "y": 1612.5
+      "x": 1459,
+      "y": 1537.5
     },
     {
       "id": "713",
@@ -1927,8 +1927,8 @@
       "paisNasc": "DE",
       "dataMorte": "4 de abril de 397",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-07-dez-s-ambrosio-bispo.html",
-      "x": 1812,
-      "y": 1762.5
+      "x": 2053,
+      "y": 1687.5
     },
     {
       "id": "714",
@@ -1939,8 +1939,8 @@
       "paisNasc": "TN",
       "dataMorte": "10 de janeiro de 314",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-10-dez-s-melquiades.html",
-      "x": -655,
-      "y": 1612.5
+      "x": -344,
+      "y": 1537.5
     },
     {
       "id": "715",
@@ -1951,8 +1951,8 @@
       "paisNasc": "ES",
       "dataMorte": "11 de dezembro de 384",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-11-dez-s-damaso-i-papa.html",
-      "x": -152,
-      "y": 1762.5
+      "x": 89,
+      "y": 1687.5
     },
     {
       "id": "716",
@@ -1963,8 +1963,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-13-dezembro-santa-luzia.html",
-      "x": 1784,
-      "y": 1462.5
+      "x": 2228,
+      "y": 1387.5
     },
     {
       "id": "717",
@@ -1974,8 +1974,8 @@
       "ano": 371,
       "paisNasc": "IT",
       "dataMorte": "1 de agosto de 371",
-      "x": -1651,
-      "y": 1687.5
+      "x": -1410,
+      "y": 1762.5
     },
     {
       "id": "720",
@@ -1986,8 +1986,8 @@
       "localNasc": "26",
       "dataMorte": "31 de dezembro de 335",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-31-dez-vii-dia-da.html",
-      "x": 236,
-      "y": 1537.5
+      "x": 547,
+      "y": 1612.5
     },
     {
       "id": "721",
@@ -1998,8 +1998,8 @@
       "paisNasc": "FR",
       "dataMorte": "cerca de 397",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/23-julho-sao-liborio-bispo-e-confessor.html",
-      "x": 1169,
-      "y": 1762.5
+      "x": 1410,
+      "y": 1687.5
     },
     {
       "id": "1054",
@@ -2010,8 +2010,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 235",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/s-pontiano-papa-et-martyre-19-nov.html",
-      "x": -1826,
-      "y": 1087.5
+      "x": -1417,
+      "y": 1162.5
     },
     {
       "id": "1055",
@@ -2022,8 +2022,8 @@
       "localNasc": "26",
       "dataMorte": "7 de outubro de 336",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/7-out-sao-marcos-i-papa-e-confessor.html",
-      "x": 540,
-      "y": 1612.5
+      "x": 851,
+      "y": 1537.5
     },
     {
       "id": "1056",
@@ -2034,8 +2034,8 @@
       "paisNasc": "SY",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
-      "x": -2025,
-      "y": 1462.5
+      "x": -1581,
+      "y": 1387.5
     },
     {
       "id": "1057",
@@ -2046,8 +2046,8 @@
       "paisNasc": "SY",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
-      "x": -1805,
-      "y": 1387.5
+      "x": -1361,
+      "y": 1462.5
     },
     {
       "id": "1058",
@@ -2072,6 +2072,18 @@
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
       "x": 379,
       "y": 862.5
+    },
+    {
+      "id": "1060",
+      "level": 3,
+      "label": "Vítor I",
+      "grupo": "pessoa",
+      "ano": 199,
+      "localNasc": "516",
+      "dataMorte": "cerca de 199",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/07/28-julho-ss-nazario-e-celso-martires-s.html",
+      "x": 253,
+      "y": 1012.5
     },
     {
       "id": "6",
@@ -3735,8 +3747,8 @@
       "categoria": "fundadora",
       "label": "Suma Teológica",
       "grupo": "documento",
-      "x": -159,
-      "y": 3562.5
+      "x": -589,
+      "y": 3487.5
     },
     {
       "id": "34",
@@ -3744,8 +3756,8 @@
       "categoria": "fundadora",
       "label": "Exercícios Espirituais",
       "grupo": "documento",
-      "x": 243,
-      "y": 3487.5
+      "x": -187,
+      "y": 3562.5
     },
     {
       "id": "38",
@@ -3762,8 +3774,8 @@
       "categoria": "fundadora",
       "label": "Regra de São Bento",
       "grupo": "documento",
-      "x": 673,
-      "y": 3562.5
+      "x": 243,
+      "y": 3487.5
     },
     {
       "id": "901",
@@ -3780,8 +3792,8 @@
       "categoria": "fundadora",
       "label": "Regra de São Basílio",
       "grupo": "documento",
-      "x": -547,
-      "y": 3487.5
+      "x": 659,
+      "y": 3562.5
     },
     {
       "id": "903",
@@ -3870,7 +3882,7 @@
       "categoria": "fundadora",
       "label": "A Vulgata",
       "grupo": "documento",
-      "x": -2162,
+      "x": -1428,
       "y": 3637.5
     },
     {
@@ -3897,8 +3909,8 @@
       "categoria": "fundadora",
       "label": "Proslogion",
       "grupo": "documento",
-      "x": -1879,
-      "y": 3712.5
+      "x": -2155,
+      "y": 3637.5
     },
     {
       "id": "916",
@@ -3915,8 +3927,8 @@
       "categoria": "fundadora",
       "label": "História Eclesiástica",
       "grupo": "documento",
-      "x": -1512,
-      "y": 3637.5
+      "x": -1788,
+      "y": 3712.5
     },
     {
       "id": "26",
@@ -3928,8 +3940,8 @@
       "iso": "IT",
       "lat": 41.9028,
       "lng": 12.4964,
-      "x": -942,
-      "y": 4012.5
+      "x": -1330,
+      "y": 3937.5
     },
     {
       "id": "130",
@@ -3963,8 +3975,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": -1337,
-      "y": 4237.5
+      "x": -1033,
+      "y": 4312.5
     },
     {
       "id": "133",
@@ -4046,7 +4058,7 @@
       "iso": "TR",
       "lat": 39.7505,
       "lng": 37.015,
-      "x": -1732,
+      "x": -970,
       "y": 4012.5
     },
     {
@@ -4059,8 +4071,8 @@
       "iso": "IT",
       "lat": 37.5079,
       "lng": 15.0873,
-      "x": 1515,
-      "y": 3937.5
+      "x": 2113,
+      "y": 4012.5
     },
     {
       "id": "141",
@@ -4153,8 +4165,8 @@
       "grupo": "localizacao",
       "pais": "Índia",
       "iso": "IN",
-      "x": -1005,
-      "y": 4312.5
+      "x": -1365,
+      "y": 4237.5
     },
     {
       "id": "149",
@@ -4166,8 +4178,8 @@
       "iso": "ES",
       "lat": 40.6565,
       "lng": -4.6818,
-      "x": 1295,
-      "y": 4312.5
+      "x": 935,
+      "y": 4237.5
     },
     {
       "id": "150",
@@ -4188,8 +4200,8 @@
       "grupo": "localizacao",
       "pais": "Suíça",
       "iso": "CH",
-      "x": 935,
-      "y": 4237.5
+      "x": 1295,
+      "y": 4312.5
     },
     {
       "id": "152",
@@ -4243,7 +4255,7 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
-      "x": 2001,
+      "x": 1211,
       "y": 4012.5
     },
     {
@@ -4254,8 +4266,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": -1323,
-      "y": 3937.5
+      "x": -1711,
+      "y": 4012.5
     },
     {
       "id": "158",
@@ -4311,8 +4323,8 @@
       "iso": "IT",
       "lat": 45.4642,
       "lng": 9.19,
-      "x": -138,
-      "y": 4462.5
+      "x": 306,
+      "y": 4387.5
     },
     {
       "id": "301",
@@ -4366,8 +4378,8 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": -900,
-      "y": 4462.5
+      "x": -1274,
+      "y": 4387.5
     },
     {
       "id": "306",
@@ -4403,8 +4415,8 @@
       "iso": "TR",
       "lat": 40.7654,
       "lng": 29.9406,
-      "x": 1120,
-      "y": 4012.5
+      "x": 1718,
+      "y": 3937.5
     },
     {
       "id": "309",
@@ -4440,8 +4452,8 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": -1662,
-      "y": 4462.5
+      "x": -2050,
+      "y": 4387.5
     },
     {
       "id": "312",
@@ -4451,8 +4463,8 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": 257,
-      "y": 4387.5
+      "x": -89,
+      "y": 4462.5
     },
     {
       "id": "313",
@@ -4484,8 +4496,8 @@
       "grupo": "localizacao",
       "pais": "Israel",
       "iso": "IL",
-      "x": -2043,
-      "y": 4387.5
+      "x": -1669,
+      "y": 4462.5
     },
     {
       "id": "316",
@@ -4495,8 +4507,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": -1288,
-      "y": 4387.5
+      "x": -886,
+      "y": 4462.5
     },
     {
       "id": "317",
@@ -4508,8 +4520,8 @@
       "iso": "IT",
       "lat": 43.7696,
       "lng": 11.2558,
-      "x": 956,
-      "y": 4537.5
+      "x": 554,
+      "y": 4612.5
     },
     {
       "id": "318",
@@ -4521,8 +4533,8 @@
       "iso": "IT",
       "lat": 40.9256,
       "lng": 14.5283,
-      "x": -624,
-      "y": 4537.5
+      "x": -222,
+      "y": 4612.5
     },
     {
       "id": "319",
@@ -4567,8 +4579,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": 1351,
-      "y": 4612.5
+      "x": 949,
+      "y": 4537.5
     },
     {
       "id": "502",
@@ -4578,8 +4590,8 @@
       "grupo": "localizacao",
       "pais": "Dinamarca",
       "iso": "DK",
-      "x": 2239,
-      "y": 4612.5
+      "x": 1753,
+      "y": 4537.5
     },
     {
       "id": "503",
@@ -4591,7 +4603,7 @@
       "iso": "ES",
       "lat": 41.6488,
       "lng": -0.8891,
-      "x": 561,
+      "x": 1351,
       "y": 4612.5
     },
     {
@@ -4628,8 +4640,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": 1795,
-      "y": 4537.5
+      "x": 2197,
+      "y": 4612.5
     },
     {
       "id": "507",
@@ -4661,8 +4673,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -257,
-      "y": 4612.5
+      "x": -589,
+      "y": 4537.5
     },
     {
       "id": "510",
@@ -4674,8 +4686,8 @@
       "iso": "EG",
       "lat": 31.2001,
       "lng": 29.9187,
-      "x": -1365,
-      "y": 4537.5
+      "x": -991,
+      "y": 4612.5
     },
     {
       "id": "511",
@@ -4685,8 +4697,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -977,
-      "y": 4612.5
+      "x": -1379,
+      "y": 4537.5
     },
     {
       "id": "512",
@@ -4768,8 +4780,8 @@
       "grupo": "localizacao",
       "pais": "Irlanda",
       "iso": "IE",
-      "x": -872,
-      "y": 4762.5
+      "x": -526,
+      "y": 4687.5
     },
     {
       "id": "519",
@@ -4875,8 +4887,8 @@
       "iso": "IT",
       "lat": 43.3188,
       "lng": 11.3308,
-      "x": -575,
-      "y": 4687.5
+      "x": -823,
+      "y": 4762.5
     },
     {
       "id": "800",
@@ -5539,8 +5551,8 @@
       "categoria": "reliquia",
       "label": "Sangue Liquefeito",
       "grupo": "reliquia",
-      "x": 949,
-      "y": 5812.5
+      "x": -173,
+      "y": 5737.5
     },
     {
       "id": "1011",
@@ -5548,8 +5560,8 @@
       "categoria": "reliquia",
       "label": "Coração Incorrupto",
       "grupo": "reliquia",
-      "x": -166,
-      "y": 5737.5
+      "x": 222,
+      "y": 5812.5
     },
     {
       "id": "1012",
@@ -5557,8 +5569,8 @@
       "categoria": "reliquia",
       "label": "Língua Intacta",
       "grupo": "reliquia",
-      "x": 208,
-      "y": 5812.5
+      "x": 596,
+      "y": 5737.5
     },
     {
       "id": "1013",
@@ -5575,8 +5587,8 @@
       "categoria": "reliquia",
       "label": "Manto Partilhado",
       "grupo": "reliquia",
-      "x": 568,
-      "y": 5737.5
+      "x": 956,
+      "y": 5812.5
     },
     {
       "id": "1015",
@@ -5593,8 +5605,8 @@
       "categoria": "simbolo",
       "label": "As Chaves do Reino",
       "grupo": "iconografia",
-      "x": -554,
-      "y": 5887.5
+      "x": -1760,
+      "y": 5962.5
     },
     {
       "id": "1031",
@@ -5620,7 +5632,7 @@
       "categoria": "simbolo",
       "label": "Chuva de Rosas",
       "grupo": "iconografia",
-      "x": -1414,
+      "x": -1386,
       "y": 5887.5
     },
     {
@@ -5629,7 +5641,7 @@
       "categoria": "simbolo",
       "label": "A Caveira (Memento Mori)",
       "grupo": "iconografia",
-      "x": -998,
+      "x": -970,
       "y": 5962.5
     },
     {
@@ -5701,7 +5713,7 @@
       "categoria": "simbolo",
       "label": "Alicate e Dentes",
       "grupo": "iconografia",
-      "x": -2008,
+      "x": -540,
       "y": 5887.5
     },
     {
@@ -5719,8 +5731,8 @@
       "categoria": "simbolo",
       "label": "O Leão",
       "grupo": "iconografia",
-      "x": -1704,
-      "y": 5962.5
+      "x": -2078,
+      "y": 5887.5
     },
     {
       "id": "1045",
@@ -11865,6 +11877,32 @@
       "from": "97",
       "to": "1059",
       "texto": "Dia 7"
+    },
+    {
+      "from": "56",
+      "to": "1060",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1060",
+      "texto": "é"
+    },
+    {
+      "from": "94",
+      "to": "1060",
+      "texto": "Dia 28"
+    },
+    {
+      "from": "1060",
+      "to": "516",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1060",
+      "to": "220",
+      "texto": "companheiros",
+      "dashes": true
     }
   ],
   "regras": {
@@ -12110,6 +12148,21 @@
           "nome": "Colômbia",
           "lat": 4.5709,
           "lng": -74.2973
+        },
+        "LB": {
+          "nome": "Líbano",
+          "lat": 33.8547,
+          "lng": 35.8623
+        },
+        "SD": {
+          "nome": "Sudão",
+          "lat": 12.8628,
+          "lng": 30.2176
+        },
+        "UG": {
+          "nome": "Uganda",
+          "lat": 1.3733,
+          "lng": 32.2903
         }
       }
     }
