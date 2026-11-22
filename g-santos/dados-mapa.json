@@ -4445,6 +4445,240 @@
       "cidadeId": "cid_nobol_EC",
       "idGrafo": null,
       "temGrafo": false
+    },
+    {
+      "id": "x_078",
+      "nome": "Fulgêncio de Ruspe",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "1 de janeiro",
+      "cidade": "Telepte",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "dataMorte": "1 de janeiro de 533",
+      "cidadeId": "cid_telepte_TN",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_079",
+      "nome": "João Esmoler",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "23 de janeiro",
+      "cidade": "Amatunte",
+      "pais": "Chipre",
+      "iso": "CY",
+      "dataMorte": "11 de novembro de 619",
+      "cidadeId": "cid_amatunte_CY",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_080",
+      "nome": "Gelásio I",
+      "atributoLiturgico": "Papa e Confessor",
+      "diaFesta": "21 de novembro",
+      "cidade": "",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "dataMorte": "19 de novembro de 496",
+      "cidadeId": null,
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_081",
+      "nome": "Maximiliano de Tebessa",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "12 de março",
+      "cidade": "Tebessa",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "dataMorte": "12 de março de 295",
+      "cidadeId": "cid_tebessa_DZ",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_082",
+      "nome": "Zeno de Verona",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "12 de abril",
+      "cidade": "Cherchell",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "dataMorte": "12 de abril de 371",
+      "cidadeId": "cid_cherchell_DZ",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_083",
+      "nome": "Terêncio de Cartago",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "10 de abril",
+      "cidade": "Cartago",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "dataMorte": "10 de abril de 250",
+      "cidadeId": "516",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_084",
+      "nome": "Africano de Cartago",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "10 de abril",
+      "cidade": "Cartago",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "dataMorte": "10 de abril de 250",
+      "cidadeId": "516",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_085",
+      "nome": "Máximo de Cartago",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "10 de abril",
+      "cidade": "Cartago",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "dataMorte": "10 de abril de 250",
+      "cidadeId": "516",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_086",
+      "nome": "Aurélio de Cartago",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "20 de julho",
+      "cidade": "Cartago",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "dataMorte": "cerca de 430",
+      "cidadeId": "516",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_087",
+      "nome": "Rutílio da África",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "2 de agosto",
+      "cidade": "",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "dataMorte": "cerca de 211",
+      "cidadeId": null,
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_088",
+      "nome": "Frumêncio",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "27 de outubro",
+      "cidade": "Tiro",
+      "pais": "Líbano",
+      "iso": "LB",
+      "dataMorte": "cerca de 383",
+      "cidadeId": "cid_tiro_LB",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_089",
+      "nome": "Josefina Bakhita",
+      "atributoLiturgico": "Virgem",
+      "diaFesta": "8 de fevereiro",
+      "cidade": "Olgossa",
+      "pais": "Sudão",
+      "iso": "SD",
+      "dataMorte": "8 de fevereiro de 1947",
+      "cidadeId": "cid_olgossa_SD",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_090",
+      "nome": "Carlos Lwanga",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "3 de junho",
+      "cidade": "Bulimu",
+      "pais": "Uganda",
+      "iso": "UG",
+      "dataMorte": "3 de junho de 1886",
+      "cidadeId": "cid_bulimu_UG",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_091",
+      "nome": "Matias Mulumba",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "3 de junho",
+      "cidade": "Bunya",
+      "pais": "Uganda",
+      "iso": "UG",
+      "dataMorte": "30 de maio de 1886",
+      "cidadeId": "cid_bunya_UG",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_092",
+      "nome": "Moisés, o Negro",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "28 de agosto",
+      "cidade": "",
+      "pais": "Egito",
+      "iso": "EG",
+      "dataMorte": "cerca de 405",
+      "cidadeId": null,
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_093",
+      "nome": "Optato de Milevo",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "4 de junho",
+      "cidade": "Mila",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "dataMorte": "cerca de 387",
+      "cidadeId": "cid_mila_DZ",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_094",
+      "nome": "Possídio de Calama",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "16 de maio",
+      "cidade": "Guelma",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "dataMorte": "cerca de 437",
+      "cidadeId": "cid_guelma_DZ",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_095",
+      "nome": "Júlia de Cartago",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "22 de maio",
+      "cidade": "Cartago",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "dataMorte": "cerca de 440",
+      "cidadeId": "516",
+      "idGrafo": null,
+      "temGrafo": false
     }
   ],
   "cidades": [
@@ -4653,9 +4887,9 @@
       "nome": "Cartago",
       "pais": "Tunísia",
       "iso": "TN",
-      "lat": 36.8531,
-      "lng": 10.3231,
-      "qtd": 1,
+      "lat": 36.8528,
+      "lng": 10.3233,
+      "qtd": 6,
       "qtdGrafo": 1
     },
     {
@@ -5587,6 +5821,106 @@
       "lng": -79.9767,
       "qtd": 1,
       "qtdGrafo": 0
+    },
+    {
+      "id": "cid_telepte_TN",
+      "nome": "Telepte",
+      "pais": "Tunísia",
+      "iso": "TN",
+      "lat": 34.9317,
+      "lng": 8.5917,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_amatunte_CY",
+      "nome": "Amatunte",
+      "pais": "Chipre",
+      "iso": "CY",
+      "lat": 34.7125,
+      "lng": 33.1419,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_tebessa_DZ",
+      "nome": "Tebessa",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "lat": 35.4042,
+      "lng": 8.1242,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_cherchell_DZ",
+      "nome": "Cherchell",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "lat": 36.6085,
+      "lng": 2.1931,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_tiro_LB",
+      "nome": "Tiro",
+      "pais": "Líbano",
+      "iso": "LB",
+      "lat": 33.2705,
+      "lng": 35.2038,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_olgossa_SD",
+      "nome": "Olgossa",
+      "pais": "Sudão",
+      "iso": "SD",
+      "lat": 12.05,
+      "lng": 24.3,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_bulimu_UG",
+      "nome": "Bulimu",
+      "pais": "Uganda",
+      "iso": "UG",
+      "lat": 0.5,
+      "lng": 32.5,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_bunya_UG",
+      "nome": "Bunya",
+      "pais": "Uganda",
+      "iso": "UG",
+      "lat": 0.55,
+      "lng": 33.5,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_mila_DZ",
+      "nome": "Mila",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "lat": 36.4503,
+      "lng": 6.2644,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_guelma_DZ",
+      "nome": "Guelma",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "lat": 36.4622,
+      "lng": 7.4261,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ],
   "paises": [
@@ -5611,7 +5945,7 @@
       "nome": "Chipre",
       "lat": 35.1264,
       "lng": 33.4299,
-      "qtd": 1,
+      "qtd": 2,
       "qtdGrafo": 1
     },
     {
@@ -5651,7 +5985,7 @@
       "nome": "Egito",
       "lat": 26.8206,
       "lng": 30.8025,
-      "qtd": 10,
+      "qtd": 11,
       "qtdGrafo": 9
     },
     {
@@ -5659,7 +5993,7 @@
       "nome": "Argélia",
       "lat": 28.0339,
       "lng": 1.6596,
-      "qtd": 2,
+      "qtd": 7,
       "qtdGrafo": 2
     },
     {
@@ -5691,7 +6025,7 @@
       "nome": "Tunísia",
       "lat": 33.8869,
       "lng": 9.5375,
-      "qtd": 2,
+      "qtd": 9,
       "qtdGrafo": 2
     },
     {

@@ -1,1 +1,2 @@
-
+data/hora | tipo | santo | campo | valor_grafo | valor_ficou
+2026-11-22 22:03:03 | coordenada divergente do grafo | Cartago (TN) | lat/lng | 36.8531,10.3231 | 36.8528,10.3233
