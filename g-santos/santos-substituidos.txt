@@ -1,2 +1,1 @@
-data/hora | tipo | santo | campo | valor_grafo | valor_ficou
-2026-11-20 21:19:36 | provável duplicata | x_072 - Laura de Santa Catarina de Sena Montoya | nome | 459 - Catarina de Sena | x_072 - Laura de Santa Catarina de Sena Montoya
+
