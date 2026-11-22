@@ -1,5 +1,6 @@
+
 // ============================================================
-// dados-grafo.js REGRAS GRAFO e MAPA "g-santos" regras.mapa.paises
+// dados-grafo.js REGRAS GRAFO e MAPA "g-santos" mapa.paises
 // ============================================================
 var regrasDoGrafo = {
   dicionario: {
@@ -83,7 +84,10 @@ var regrasDoGrafo = {
 	  CL: { nome: 'Chile', lat: -35.6751, lng: -71.5430 },
 	  BR: { nome: 'Brasil', lat: -14.2350, lng: -51.9253 },
 	  CO: { nome: 'Colômbia', lat: 4.5709, lng: -74.2973 },
-	  PY: { nome: 'Paraguai', lat: -23.4425, lng: -58.4438 }
+	  PY: { nome: 'Paraguai', lat: -23.4425, lng: -58.4438 },
+	  LB: { nome: 'Líbano', lat: 33.8547, lng: 35.8623 },
+	  SD: { nome: 'Sudão', lat: 12.8628, lng: 30.2176 },
+	  UG: { nome: 'Uganda', lat: 1.3733, lng: 32.2903 }
     }
   }
 };
@@ -283,6 +287,10 @@ var todosNos = [
 { id: '1057', level: 3, label: 'Baco', grupo: 'pessoa', ano: 303, paisNasc: 'SY', dataMorte: 'cerca de 303' },
 { id: '1058', level: 3, label: 'Marcelo', grupo: 'pessoa', ano: 100, paisNasc: 'IT', dataMorte: 'cerca de 100' },
 { id: '1059', level: 3, label: 'Apuleio', grupo: 'pessoa', ano: 100, paisNasc: 'IT', dataMorte: 'cerca de 100' },
+
+{ id: '1060', level: 3, label: 'Vítor I', grupo: 'pessoa', ano: 199, localNasc: '516', dataMorte: 'cerca de 199' },
+
+
 
     // ==========================================
     // NÍVEL 4: IDADE MÉDIA (Séc. VI ao XV)
@@ -1936,9 +1944,14 @@ var todosSetas = [
 
 // Apuleio (1059)
 { from: '50', to: '1059', texto: 'é' },
-{ from: '97', to: '1059', texto: 'Dia 7' }
+{ from: '97', to: '1059', texto: 'Dia 7' },
 
-
+// Vítor I
+{ from: '56', to: '1060', texto: 'é' },
+{ from: '50', to: '1060', texto: 'é' },
+{ from: '94', to: '1060', texto: 'Dia 28' },
+{ from: '1060', to: '516', texto: 'nasceu em' },
+{ from: '1060', to: '220', texto: 'companheiros', dashes: true }
 
 
 
