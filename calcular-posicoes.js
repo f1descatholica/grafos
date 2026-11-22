@@ -1,3 +1,4 @@
+
 // ============================================================
 // calcular-posicoes.js
 // ============================================================
@@ -1265,7 +1266,40 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
   };
 }
 
-function main() {
+async function vincularPostsAosSantos(todosNos, regrasCarregadas) {
+  try {
+    var resp = await fetch('https://raw.githubusercontent.com/f1descatholica/grafo-blog/main/dados-grafo-conhecimento.json', { cache: 'no-store' });
+    if (!resp.ok) return;
+    var dadosBlog = await resp.json();
+    var posts = (dadosBlog.nodes || []).filter(function(n) { return n.tipoNo === 'post' && n.url; });
+    if (posts.length === 0) return;
+
+    var niveisSet = new Set((regrasCarregadas && regrasCarregadas.mapa && regrasCarregadas.mapa.niveisSantos) || [2, 3, 4, 5, 6]);
+
+    posts.forEach(function(p) {
+      var tokPost = normalizarTokensNomeSanto(p.label);
+      if (tokPost.length === 0) return;
+      var strPost = tokPost.join(' ');
+
+      todosNos.forEach(function(santo) {
+        if (!niveisSet.has(santo.level) || santo.urlPost) return;
+        var tokSanto = normalizarTokensNomeSanto(santo.label);
+        if (tokSanto.length === 0) return;
+        var strSanto = tokSanto.join(' ');
+
+        if (tokSanto.length === 1) {
+          if (tokPost.indexOf(tokSanto[0]) !== -1) santo.urlPost = p.url;
+        } else if (strPost.indexOf(strSanto) !== -1 || tokSanto.every(function(t) { return tokPost.indexOf(t) !== -1; })) {
+          santo.urlPost = p.url;
+        }
+      });
+    });
+  } catch (e) {
+    console.warn('  [AVISO POSTS] Não foi possível ler posts do blog: ' + e.message);
+  }
+}
+
+async function main() {
   var nomesDosGrafos = encontrarPastasDeGrafo();
 
   if (nomesDosGrafos.length === 0) {
@@ -1294,6 +1328,7 @@ function main() {
         console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "regras" em dados-grafo.js. Usando padrão.');
       }
 
+      await vincularPostsAosSantos(dados.todosNos, regrasCarregadas);
       var resultadoCalculo = calcularPosicoesDeUmGrafo(dados.todosNos, dados.todosSetas, regrasCarregadas);
       // "regras" vai junto no JSON de saída — a página passa a buscar
       // só esse arquivo, sem precisar de uma 2ª requisição separada
