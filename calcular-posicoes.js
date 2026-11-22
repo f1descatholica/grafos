@@ -1309,7 +1309,8 @@ async function main() {
 
   var sucesso = 0, falhas = 0;
 
-  nomesDosGrafos.forEach(function(nomeGrafo) {
+  for (var i = 0; i < nomesDosGrafos.length; i++) {
+    var nomeGrafo = nomesDosGrafos[i];
     var pastaAtual = path.join(PASTA_GRAFOS, nomeGrafo);
     var arquivoEntrada = path.join(pastaAtual, 'dados-grafo.js');
     var arquivoSaida = path.join(pastaAtual, 'dados-com-posicoes.json');
@@ -1354,7 +1355,7 @@ async function main() {
       console.error('ERRO ao processar "' + nomeGrafo + '": ' + erro.message);
       falhas++;
     }
-  });
+  }
 
   console.log('----------------------------------------');
   console.log('Grafos processados com sucesso: ' + sucesso);
