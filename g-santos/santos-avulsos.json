@@ -878,7 +878,214 @@
     "lat": -1.9114,
     "lng": -79.9767,
     "data_morte": "8 de dezembro de 1869"
+  },
+  {
+    "id": "x_078",
+    "nome": "Fulgêncio de Ruspe",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "1 de janeiro",
+    "cidade_nascimento": "Telepte",
+    "pais_nascimento": "Tunísia",
+    "iso": "TN",
+    "lat": 34.9317,
+    "lng": 8.5917,
+    "data_morte": "1 de janeiro de 533"
+  },
+  {
+    "id": "x_079",
+    "nome": "João Esmoler",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "23 de janeiro",
+    "cidade_nascimento": "Amatunte",
+    "pais_nascimento": "Chipre",
+    "iso": "CY",
+    "lat": 34.7125,
+    "lng": 33.1419,
+    "data_morte": "11 de novembro de 619"
+  },
+  {
+    "id": "x_080",
+    "nome": "Gelásio I",
+    "atributo_liturgico": "Papa e Confessor",
+    "dia_festa_liturgica": "21 de novembro",
+    "pais_nascimento": "Argélia",
+    "iso": "DZ",
+    "data_morte": "19 de novembro de 496"
+  },
+  {
+    "id": "x_081",
+    "nome": "Maximiliano de Tebessa",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "12 de março",
+    "cidade_nascimento": "Tebessa",
+    "pais_nascimento": "Argélia",
+    "iso": "DZ",
+    "lat": 35.4042,
+    "lng": 8.1242,
+    "data_morte": "12 de março de 295"
+  },
+  {
+    "id": "x_082",
+    "nome": "Zeno de Verona",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "12 de abril",
+    "cidade_nascimento": "Cherchell",
+    "pais_nascimento": "Argélia",
+    "iso": "DZ",
+    "lat": 36.6085,
+    "lng": 2.1931,
+    "data_morte": "12 de abril de 371"
+  },
+  {
+    "id": "x_083",
+    "nome": "Terêncio de Cartago",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "10 de abril",
+    "cidade_nascimento": "Cartago",
+    "pais_nascimento": "Tunísia",
+    "iso": "TN",
+    "lat": 36.8528,
+    "lng": 10.3233,
+    "data_morte": "10 de abril de 250"
+  },
+  {
+    "id": "x_084",
+    "nome": "Africano de Cartago",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "10 de abril",
+    "cidade_nascimento": "Cartago",
+    "pais_nascimento": "Tunísia",
+    "iso": "TN",
+    "lat": 36.8528,
+    "lng": 10.3233,
+    "data_morte": "10 de abril de 250"
+  },
+  {
+    "id": "x_085",
+    "nome": "Máximo de Cartago",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "10 de abril",
+    "cidade_nascimento": "Cartago",
+    "pais_nascimento": "Tunísia",
+    "iso": "TN",
+    "lat": 36.8528,
+    "lng": 10.3233,
+    "data_morte": "10 de abril de 250"
+  },
+  {
+    "id": "x_086",
+    "nome": "Aurélio de Cartago",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "20 de julho",
+    "cidade_nascimento": "Cartago",
+    "pais_nascimento": "Tunísia",
+    "iso": "TN",
+    "lat": 36.8528,
+    "lng": 10.3233,
+    "data_morte": "cerca de 430"
+  },
+  {
+    "id": "x_087",
+    "nome": "Rutílio da África",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "2 de agosto",
+    "pais_nascimento": "Tunísia",
+    "iso": "TN",
+    "data_morte": "cerca de 211"
+  },
+  {
+    "id": "x_088",
+    "nome": "Frumêncio",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "27 de outubro",
+    "cidade_nascimento": "Tiro",
+    "pais_nascimento": "Líbano",
+    "iso": "LB",
+    "lat": 33.2705,
+    "lng": 35.2038,
+    "data_morte": "cerca de 383"
+  },
+  {
+    "id": "x_089",
+    "nome": "Josefina Bakhita",
+    "atributo_liturgico": "Virgem",
+    "dia_festa_liturgica": "8 de fevereiro",
+    "cidade_nascimento": "Olgossa",
+    "pais_nascimento": "Sudão",
+    "iso": "SD",
+    "lat": 12.05,
+    "lng": 24.3,
+    "data_morte": "8 de fevereiro de 1947"
+  },
+  {
+    "id": "x_090",
+    "nome": "Carlos Lwanga",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "3 de junho",
+    "cidade_nascimento": "Bulimu",
+    "pais_nascimento": "Uganda",
+    "iso": "UG",
+    "lat": 0.5,
+    "lng": 32.5,
+    "data_morte": "3 de junho de 1886"
+  },
+  {
+    "id": "x_091",
+    "nome": "Matias Mulumba",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "3 de junho",
+    "cidade_nascimento": "Bunya",
+    "pais_nascimento": "Uganda",
+    "iso": "UG",
+    "lat": 0.55,
+    "lng": 33.5,
+    "data_morte": "30 de maio de 1886"
+  },
+  {
+    "id": "x_092",
+    "nome": "Moisés, o Negro",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "28 de agosto",
+    "pais_nascimento": "Egito",
+    "iso": "EG",
+    "data_morte": "cerca de 405"
+  },
+  {
+    "id": "x_093",
+    "nome": "Optato de Milevo",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "4 de junho",
+    "cidade_nascimento": "Mila",
+    "pais_nascimento": "Argélia",
+    "iso": "DZ",
+    "lat": 36.4503,
+    "lng": 6.2644,
+    "data_morte": "cerca de 387"
+  },
+  {
+    "id": "x_094",
+    "nome": "Possídio de Calama",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "16 de maio",
+    "cidade_nascimento": "Guelma",
+    "pais_nascimento": "Argélia",
+    "iso": "DZ",
+    "lat": 36.4622,
+    "lng": 7.4261,
+    "data_morte": "cerca de 437"
+  },
+  {
+    "id": "x_095",
+    "nome": "Júlia de Cartago",
+    "atributo_liturgico": "Virgem e Mártir",
+    "dia_festa_liturgica": "22 de maio",
+    "cidade_nascimento": "Cartago",
+    "pais_nascimento": "Tunísia",
+    "iso": "TN",
+    "lat": 36.8528,
+    "lng": 10.3233,
+    "data_morte": "cerca de 440"
   }
-  
+
   ]
 }
