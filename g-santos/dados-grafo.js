@@ -1,6 +1,5 @@
-
 // ============================================================
-// REGRAS GRAFO e MAPA "g-santos" regras.mapa.paises
+// dados-grafo.js REGRAS GRAFO e MAPA "g-santos" regras.mapa.paises
 // ============================================================
 var regrasDoGrafo = {
   dicionario: {
@@ -36,6 +35,7 @@ var regrasDoGrafo = {
   },
   cores: {},
   mapa: {
+    urlMapa: '/p/mapa-mundi-dos-santos.html',
     arquivoAvulsos: 'santos-avulsos.json',
     arquivoRelatorio: 'santos-substituidos.txt',
     niveisSantos: [2, 3, 4, 5, 6],
