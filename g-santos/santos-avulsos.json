@@ -1085,7 +1085,116 @@
     "lat": 36.8528,
     "lng": 10.3233,
     "data_morte": "cerca de 440"
+  },
+  {
+    "id": "x_096",
+    "nome": "Columbano",
+    "atributo_liturgico": "Abade e Confessor",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Navan",
+    "pais_nascimento": "Irlanda",
+    "iso": "IE",
+    "lat": 53.6534,
+    "lng": -6.6844,
+    "data_morte": "23 de novembro de 615"
+  },
+  {
+    "id": "x_097",
+    "nome": "Mustíola de Chiusi",
+    "atributo_liturgico": "Virgem e Mártir",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Chiusi",
+    "pais_nascimento": "Itália",
+    "iso": "IT",
+    "lat": 43.0163,
+    "lng": 11.9472,
+    "data_morte": "cerca de 275"
+  },
+  {
+    "id": "x_098",
+    "nome": "Sisínio de Cízico",
+    "atributo_liturgico": "Bispo e Mártir",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Cízico",
+    "pais_nascimento": "Turquia",
+    "iso": "TR",
+    "lat": 40.3833,
+    "lng": 27.8833,
+    "data_morte": "cerca de 325"
+  },
+  {
+    "id": "x_099",
+    "nome": "Lucrécia de Mérida",
+    "atributo_liturgico": "Virgem e Mártir",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Mérida",
+    "pais_nascimento": "Espanha",
+    "iso": "ES",
+    "lat": 38.9161,
+    "lng": -6.3437,
+    "data_morte": "cerca de 304"
+  },
+  {
+    "id": "x_100",
+    "nome": "Anfilóquio de Icônio",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Cesareia da Capadócia",
+    "pais_nascimento": "Turquia",
+    "iso": "TR",
+    "lat": 38.7312,
+    "lng": 35.4787,
+    "data_morte": "cerca de 395"
+  },
+  {
+    "id": "x_101",
+    "nome": "Severino de Paris",
+    "atributo_liturgico": "Confessor",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Paris",
+    "pais_nascimento": "França",
+    "iso": "FR",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "data_morte": "cerca de 540"
+  },
+  {
+    "id": "x_102",
+    "nome": "Gregório de Agrigento",
+    "atributo_liturgico": "Bispo e Confessor",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Agrigento",
+    "pais_nascimento": "Itália",
+    "iso": "IT",
+    "lat": 37.311,
+    "lng": 13.5765,
+    "data_morte": "cerca de 603"
+  },
+  {
+    "id": "x_103",
+    "nome": "Trudão",
+    "atributo_liturgico": "Presbítero e Confessor",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Sint-Truiden",
+    "pais_nascimento": "Bélgica",
+    "iso": "BE",
+    "lat": 50.8167,
+    "lng": 5.1833,
+    "data_morte": "cerca de 690"
+  },
+  {
+    "id": "x_104",
+    "nome": "Cecília Yu So-sa",
+    "atributo_liturgico": "Mártir",
+    "dia_festa_liturgica": "23 de novembro",
+    "cidade_nascimento": "Seul",
+    "pais_nascimento": "Coreia do Sul",
+    "iso": "KR",
+    "lat": 37.5665,
+    "lng": 126.978,
+    "data_morte": "23 de novembro de 1839"
   }
+
 
   ]
 }
