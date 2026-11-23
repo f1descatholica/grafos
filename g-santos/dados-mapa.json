@@ -6439,6 +6439,30 @@
       "lng": 32.2903,
       "qtd": 2,
       "qtdGrafo": 0
+    },
+    {
+      "iso": "IE",
+      "nome": "Irlanda",
+      "lat": 53.4129,
+      "lng": -8.2439,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "BE",
+      "nome": "Bélgica",
+      "lat": 50.5039,
+      "lng": 4.4699,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "iso": "KR",
+      "nome": "Coreia do Sul",
+      "lat": 35.9078,
+      "lng": 127.7669,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ]
 }
