@@ -4692,6 +4692,123 @@
       "cidadeId": "516",
       "idGrafo": null,
       "temGrafo": false
+    },
+    {
+      "id": "x_096",
+      "nome": "Columbano",
+      "atributoLiturgico": "Abade e Confessor",
+      "diaFesta": "23 de novembro",
+      "cidade": "Navan",
+      "pais": "Irlanda",
+      "iso": "IE",
+      "dataMorte": "23 de novembro de 615",
+      "cidadeId": "cid_navan_IE",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_097",
+      "nome": "Mustíola de Chiusi",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "23 de novembro",
+      "cidade": "Chiusi",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "cerca de 275",
+      "cidadeId": "cid_chiusi_IT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_098",
+      "nome": "Sisínio de Cízico",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "23 de novembro",
+      "cidade": "Cízico",
+      "pais": "Turquia",
+      "iso": "TR",
+      "dataMorte": "cerca de 325",
+      "cidadeId": "cid_cizico_TR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_099",
+      "nome": "Lucrécia de Mérida",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "23 de novembro",
+      "cidade": "Mérida",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "cerca de 304",
+      "cidadeId": "cid_merida_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_100",
+      "nome": "Anfilóquio de Icônio",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "23 de novembro",
+      "cidade": "Cesareia da Capadócia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "dataMorte": "cerca de 395",
+      "cidadeId": "cid_cesareia_da_capadocia_TR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_101",
+      "nome": "Severino de Paris",
+      "atributoLiturgico": "Confessor",
+      "diaFesta": "23 de novembro",
+      "cidade": "Paris",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "cerca de 540",
+      "cidadeId": "320",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_102",
+      "nome": "Gregório de Agrigento",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "23 de novembro",
+      "cidade": "Agrigento",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "cerca de 603",
+      "cidadeId": "cid_agrigento_IT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_103",
+      "nome": "Trudão",
+      "atributoLiturgico": "Presbítero e Confessor",
+      "diaFesta": "23 de novembro",
+      "cidade": "Sint-Truiden",
+      "pais": "Bélgica",
+      "iso": "BE",
+      "dataMorte": "cerca de 690",
+      "cidadeId": "cid_sint_truiden_BE",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_104",
+      "nome": "Cecília Yu So-sa",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "23 de novembro",
+      "cidade": "Seul",
+      "pais": "Coreia do Sul",
+      "iso": "KR",
+      "dataMorte": "23 de novembro de 1839",
+      "cidadeId": "cid_seul_KR",
+      "idGrafo": null,
+      "temGrafo": false
     }
   ],
   "cidades": [
@@ -5934,6 +6051,96 @@
       "lng": 7.4261,
       "qtd": 1,
       "qtdGrafo": 0
+    },
+    {
+      "id": "cid_navan_IE",
+      "nome": "Navan",
+      "pais": "Irlanda",
+      "iso": "IE",
+      "lat": 53.6534,
+      "lng": -6.6844,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_chiusi_IT",
+      "nome": "Chiusi",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.0163,
+      "lng": 11.9472,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_cizico_TR",
+      "nome": "Cízico",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 40.3833,
+      "lng": 27.8833,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_merida_ES",
+      "nome": "Mérida",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 38.9161,
+      "lng": -6.3437,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_cesareia_da_capadocia_TR",
+      "nome": "Cesareia da Capadócia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 38.7312,
+      "lng": 35.4787,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "320",
+      "nome": "Paris",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_agrigento_IT",
+      "nome": "Agrigento",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 37.311,
+      "lng": 13.5765,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_sint_truiden_BE",
+      "nome": "Sint-Truiden",
+      "pais": "Bélgica",
+      "iso": "BE",
+      "lat": 50.8167,
+      "lng": 5.1833,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_seul_KR",
+      "nome": "Seul",
+      "pais": "Coreia do Sul",
+      "iso": "KR",
+      "lat": 37.5665,
+      "lng": 126.978,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ],
   "paises": [
@@ -5950,7 +6157,7 @@
       "nome": "Turquia",
       "lat": 38.9637,
       "lng": 35.2433,
-      "qtd": 21,
+      "qtd": 23,
       "qtdGrafo": 21
     },
     {
@@ -5982,7 +6189,7 @@
       "nome": "Itália",
       "lat": 41.8719,
       "lng": 12.5674,
-      "qtd": 122,
+      "qtd": 124,
       "qtdGrafo": 116
     },
     {
@@ -5990,7 +6197,7 @@
       "nome": "França",
       "lat": 46.2276,
       "lng": 2.2137,
-      "qtd": 24,
+      "qtd": 25,
       "qtdGrafo": 20
     },
     {
@@ -6030,7 +6237,7 @@
       "nome": "Espanha",
       "lat": 40.4637,
       "lng": -3.7492,
-      "qtd": 32,
+      "qtd": 33,
       "qtdGrafo": 22
     },
     {
