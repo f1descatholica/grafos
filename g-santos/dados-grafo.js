@@ -87,6 +87,9 @@ var regrasDoGrafo = {
 	  PY: { nome: 'Paraguai', lat: -23.4425, lng: -58.4438 },
 	  LB: { nome: 'Líbano', lat: 33.8547, lng: 35.8623 },
 	  SD: { nome: 'Sudão', lat: 12.8628, lng: 30.2176 },
+	  IE: { nome: 'Irlanda', lat: 53.4129, lng: -8.2439 },
+      BE: { nome: 'Bélgica', lat: 50.5039, lng: 4.4699 },
+	  KR: { nome: 'Coreia do Sul', lat: 35.9078, lng: 127.7669 },
 	  UG: { nome: 'Uganda', lat: 1.3733, lng: 32.2903 }
     }
   }
