@@ -3632,11 +3632,11 @@
       "nome": "Hilda de Whitby",
       "atributoLiturgico": "Abadessa",
       "diaFesta": "17 de novembro",
-      "cidade": "",
+      "cidade": "York",
       "pais": "Reino Unido",
       "iso": "GB",
       "dataMorte": "17 de novembro de 680",
-      "cidadeId": null,
+      "cidadeId": "cid_york_GB",
       "idGrafo": null,
       "temGrafo": false
     },
@@ -3957,11 +3957,11 @@
       "nome": "João Lostao Navarro",
       "atributoLiturgico": "Mártir",
       "diaFesta": "3 de outubro",
-      "cidade": "",
+      "cidade": "Pamplona",
       "pais": "Espanha",
       "iso": "ES",
       "dataMorte": "3 de outubro de 1645",
-      "cidadeId": null,
+      "cidadeId": "cid_pamplona_ES",
       "idGrafo": null,
       "temGrafo": false
     },
@@ -4035,11 +4035,11 @@
       "nome": "Martinho de Dume",
       "atributoLiturgico": "Bispo e Confessor",
       "diaFesta": "20 de março",
-      "cidade": "",
+      "cidade": "Szombathely",
       "pais": "Hungria",
       "iso": "HU",
       "dataMorte": "20 de março de 579",
-      "cidadeId": null,
+      "cidadeId": "cid_szombathely_HU",
       "idGrafo": null,
       "temGrafo": false
     },
@@ -4490,11 +4490,11 @@
       "nome": "Gelásio I",
       "atributoLiturgico": "Papa e Confessor",
       "diaFesta": "21 de novembro",
-      "cidade": "",
-      "pais": "Argélia",
-      "iso": "DZ",
+      "cidade": "Cartago",
+      "pais": "Tunísia",
+      "iso": "TN",
       "dataMorte": "19 de novembro de 496",
-      "cidadeId": null,
+      "cidadeId": "516",
       "idGrafo": null,
       "temGrafo": false
     },
@@ -4581,11 +4581,11 @@
       "nome": "Rutílio da África",
       "atributoLiturgico": "Mártir",
       "diaFesta": "2 de agosto",
-      "cidade": "",
+      "cidade": "Cartago",
       "pais": "Tunísia",
       "iso": "TN",
       "dataMorte": "cerca de 211",
-      "cidadeId": null,
+      "cidadeId": "516",
       "idGrafo": null,
       "temGrafo": false
     },
@@ -5253,7 +5253,7 @@
       "iso": "TN",
       "lat": 36.8528,
       "lng": 10.3233,
-      "qtd": 7,
+      "qtd": 9,
       "qtdGrafo": 2
     },
     {
@@ -5787,6 +5787,16 @@
       "qtdGrafo": 0
     },
     {
+      "id": "cid_york_GB",
+      "nome": "York",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "lat": 53.9599,
+      "lng": -1.0873,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
       "id": "cid_clermont_ferrand_FR",
       "nome": "Clermont-Ferrand",
       "pais": "França",
@@ -5937,6 +5947,16 @@
       "qtdGrafo": 0
     },
     {
+      "id": "cid_pamplona_ES",
+      "nome": "Pamplona",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 42.8125,
+      "lng": -1.6458,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
       "id": "cid_funchal_PT",
       "nome": "Funchal",
       "pais": "Portugal",
@@ -5983,6 +6003,16 @@
       "iso": "IN",
       "lat": 15.2539,
       "lng": 73.9317,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_szombathely_HU",
+      "nome": "Szombathely",
+      "pais": "Hungria",
+      "iso": "HU",
+      "lat": 47.2307,
+      "lng": 16.6218,
       "qtd": 1,
       "qtdGrafo": 0
     },
@@ -6567,7 +6597,7 @@
       "nome": "Argélia",
       "lat": 28.0339,
       "lng": 1.6596,
-      "qtd": 7,
+      "qtd": 6,
       "qtdGrafo": 2
     },
     {
@@ -6599,7 +6629,7 @@
       "nome": "Tunísia",
       "lat": 33.8869,
       "lng": 9.5375,
-      "qtd": 10,
+      "qtd": 11,
       "qtdGrafo": 3
     },
     {
