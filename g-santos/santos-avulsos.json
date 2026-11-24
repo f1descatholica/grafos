@@ -156,13 +156,16 @@
     "lng": 6.0175,
     "data_morte": "16 de novembro de 1200"
   },
-  {
+{
     "id": "x_014",
     "nome": "Hilda de Whitby",
     "atributo_liturgico": "Abadessa",
     "dia_festa_liturgica": "17 de novembro",
+    "cidade_nascimento": "York",
     "pais_nascimento": "Reino Unido",
     "iso": "GB",
+    "lat": 53.9599,
+    "lng": -1.0873,
     "data_morte": "17 de novembro de 680"
   },
   {
@@ -455,8 +458,11 @@
     "nome": "João Lostao Navarro",
     "atributo_liturgico": "Mártir",
     "dia_festa_liturgica": "3 de outubro",
+    "cidade_nascimento": "Pamplona",
     "pais_nascimento": "Espanha",
     "iso": "ES",
+    "lat": 42.8125,
+    "lng": -1.6458,
     "data_morte": "3 de outubro de 1645"
   },
   {
@@ -524,8 +530,11 @@
     "nome": "Martinho de Dume",
     "atributo_liturgico": "Bispo e Confessor",
     "dia_festa_liturgica": "20 de março",
+    "cidade_nascimento": "Szombathely",
     "pais_nascimento": "Hungria",
     "iso": "HU",
+    "lat": 47.2307,
+    "lng": 16.6218,
     "data_morte": "20 de março de 579"
   },
   {
@@ -908,8 +917,11 @@
     "nome": "Gelásio I",
     "atributo_liturgico": "Papa e Confessor",
     "dia_festa_liturgica": "21 de novembro",
-    "pais_nascimento": "Argélia",
-    "iso": "DZ",
+    "cidade_nascimento": "Cartago",
+    "pais_nascimento": "Tunísia",
+    "iso": "TN",
+    "lat": 36.8528,
+    "lng": 10.3233,
     "data_morte": "19 de novembro de 496"
   },
   {
@@ -989,8 +1001,11 @@
     "nome": "Rutílio da África",
     "atributo_liturgico": "Mártir",
     "dia_festa_liturgica": "2 de agosto",
+    "cidade_nascimento": "Cartago",
     "pais_nascimento": "Tunísia",
     "iso": "TN",
+    "lat": 36.8528,
+    "lng": 10.3233,
     "data_morte": "cerca de 211"
   },
   {
