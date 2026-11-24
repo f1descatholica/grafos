@@ -4809,6 +4809,240 @@
       "cidadeId": "cid_seul_KR",
       "idGrafo": null,
       "temGrafo": false
+    },
+    {
+      "id": "x_105",
+      "nome": "José de Anchieta",
+      "atributoLiturgico": "Presbítero e Confessor",
+      "diaFesta": "9 de junho",
+      "cidade": "San Cristóbal de La Laguna",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "9 de junho de 1597",
+      "cidadeId": "cid_san_cristobal_de_la_laguna_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_106",
+      "nome": "Diomedes de Niceia",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "9 de junho",
+      "cidade": "Niceia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "dataMorte": "século IV",
+      "cidadeId": "cid_niceia_TR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_107",
+      "nome": "Vicente de Vernemet",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "9 de junho",
+      "cidade": "Agen",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "cerca de 303",
+      "cidadeId": "cid_agen_FR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_108",
+      "nome": "Maximiano de Siracusa",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "9 de junho",
+      "cidade": "Siracusa",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "9 de junho de 594",
+      "cidadeId": "cid_siracusa_IT",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_109",
+      "nome": "Colomba de Iona",
+      "atributoLiturgico": "Abade e Confessor",
+      "diaFesta": "9 de junho",
+      "cidade": "Gartan",
+      "pais": "Irlanda",
+      "iso": "IE",
+      "dataMorte": "9 de junho de 597",
+      "cidadeId": "cid_gartan_IE",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_110",
+      "nome": "Ricardo de Andria",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "9 de junho",
+      "cidade": "",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "dataMorte": "9 de junho de 1196",
+      "cidadeId": null,
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_111",
+      "nome": "André Dung-Lac",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "24 de novembro",
+      "cidade": "Bac Ninh",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "dataMorte": "21 de dezembro de 1839",
+      "cidadeId": "cid_bac_ninh_VN",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_112",
+      "nome": "Pedro Dumoulin-Borie",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "24 de novembro",
+      "cidade": "Beynat",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "24 de novembro de 1838",
+      "cidadeId": "cid_beynat_FR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_113",
+      "nome": "Pedro Vo Dang Khoa",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "24 de novembro",
+      "cidade": "Thuan Nghia",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "dataMorte": "24 de novembro de 1838",
+      "cidadeId": "cid_thuan_nghia_VN",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_114",
+      "nome": "Vicente Nguyen The Diem",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "24 de novembro",
+      "cidade": "An Do",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "dataMorte": "24 de novembro de 1838",
+      "cidadeId": "cid_an_do_VN",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_115",
+      "nome": "Firmina de Amélia",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "24 de novembro",
+      "cidade": "Roma",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "cerca de 304",
+      "cidadeId": "26",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_116",
+      "nome": "Protásio de Milão",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "24 de novembro",
+      "cidade": "Milão",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "cerca de 356",
+      "cidadeId": "300",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_117",
+      "nome": "Romão de Blaye",
+      "atributoLiturgico": "Presbítero e Confessor",
+      "diaFesta": "24 de novembro",
+      "cidade": "Blaye",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "cerca de 380",
+      "cidadeId": "cid_blaye_FR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_118",
+      "nome": "Colmano de Cloyne",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "24 de novembro",
+      "cidade": "Cork",
+      "pais": "Irlanda",
+      "iso": "IE",
+      "dataMorte": "24 de novembro de 604",
+      "cidadeId": "cid_cork_IE",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_119",
+      "nome": "Porciano de Clermont",
+      "atributoLiturgico": "Abade e Confessor",
+      "diaFesta": "24 de novembro",
+      "cidade": "Clermont-Ferrand",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "cerca de 532",
+      "cidadeId": "cid_clermont_ferrand_FR",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_120",
+      "nome": "Flora de Córdova",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "24 de novembro",
+      "cidade": "Córdova",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "24 de novembro de 851",
+      "cidadeId": "cid_cordova_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_121",
+      "nome": "Maria de Córdova",
+      "atributoLiturgico": "Virgem e Mártir",
+      "diaFesta": "24 de novembro",
+      "cidade": "Córdova",
+      "pais": "Espanha",
+      "iso": "ES",
+      "dataMorte": "24 de novembro de 851",
+      "cidadeId": "cid_cordova_ES",
+      "idGrafo": null,
+      "temGrafo": false
+    },
+    {
+      "id": "x_122",
+      "nome": "Alberto de Lovaina",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "24 de novembro",
+      "cidade": "Lovaina",
+      "pais": "Bélgica",
+      "iso": "BE",
+      "dataMorte": "24 de novembro de 1192",
+      "cidadeId": "cid_lovaina_BE",
+      "idGrafo": null,
+      "temGrafo": false
     }
   ],
   "cidades": [
@@ -4889,7 +5123,7 @@
       "iso": "IT",
       "lat": 41.9028,
       "lng": 12.4964,
-      "qtd": 34,
+      "qtd": 35,
       "qtdGrafo": 34
     },
     {
@@ -4949,7 +5183,7 @@
       "iso": "IT",
       "lat": 45.4642,
       "lng": 9.19,
-      "qtd": 3,
+      "qtd": 4,
       "qtdGrafo": 3
     },
     {
@@ -5529,7 +5763,7 @@
       "iso": "ES",
       "lat": 37.8882,
       "lng": -4.7794,
-      "qtd": 2,
+      "qtd": 4,
       "qtdGrafo": 0
     },
     {
@@ -5559,7 +5793,7 @@
       "iso": "FR",
       "lat": 45.7772,
       "lng": 3.087,
-      "qtd": 1,
+      "qtd": 2,
       "qtdGrafo": 0
     },
     {
@@ -6141,6 +6375,126 @@
       "lng": 126.978,
       "qtd": 1,
       "qtdGrafo": 0
+    },
+    {
+      "id": "cid_san_cristobal_de_la_laguna_ES",
+      "nome": "San Cristóbal de La Laguna",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 28.4872,
+      "lng": -16.3159,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_niceia_TR",
+      "nome": "Niceia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 40.4286,
+      "lng": 29.7214,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_agen_FR",
+      "nome": "Agen",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 44.2031,
+      "lng": 0.6164,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_siracusa_IT",
+      "nome": "Siracusa",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 37.0755,
+      "lng": 15.2866,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_gartan_IE",
+      "nome": "Gartan",
+      "pais": "Irlanda",
+      "iso": "IE",
+      "lat": 54.9833,
+      "lng": -7.8833,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_bac_ninh_VN",
+      "nome": "Bac Ninh",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "lat": 21.1861,
+      "lng": 106.0763,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_beynat_FR",
+      "nome": "Beynat",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 45.1239,
+      "lng": 1.7247,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_thuan_nghia_VN",
+      "nome": "Thuan Nghia",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "lat": 18.6734,
+      "lng": 105.6813,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_an_do_VN",
+      "nome": "An Do",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "lat": 16.75,
+      "lng": 107.2,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_blaye_FR",
+      "nome": "Blaye",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 45.1281,
+      "lng": -0.6631,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_cork_IE",
+      "nome": "Cork",
+      "pais": "Irlanda",
+      "iso": "IE",
+      "lat": 51.8985,
+      "lng": -8.4756,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_lovaina_BE",
+      "nome": "Lovaina",
+      "pais": "Bélgica",
+      "iso": "BE",
+      "lat": 50.8798,
+      "lng": 4.7005,
+      "qtd": 1,
+      "qtdGrafo": 0
     }
   ],
   "paises": [
@@ -6157,7 +6511,7 @@
       "nome": "Turquia",
       "lat": 38.9637,
       "lng": 35.2433,
-      "qtd": 23,
+      "qtd": 24,
       "qtdGrafo": 21
     },
     {
@@ -6189,7 +6543,7 @@
       "nome": "Itália",
       "lat": 41.8719,
       "lng": 12.5674,
-      "qtd": 124,
+      "qtd": 127,
       "qtdGrafo": 116
     },
     {
@@ -6197,7 +6551,7 @@
       "nome": "França",
       "lat": 46.2276,
       "lng": 2.2137,
-      "qtd": 25,
+      "qtd": 29,
       "qtdGrafo": 20
     },
     {
@@ -6237,7 +6591,7 @@
       "nome": "Espanha",
       "lat": 40.4637,
       "lng": -3.7492,
-      "qtd": 33,
+      "qtd": 36,
       "qtdGrafo": 22
     },
     {
@@ -6253,7 +6607,7 @@
       "nome": "Reino Unido",
       "lat": 55.3781,
       "lng": -3.436,
-      "qtd": 7,
+      "qtd": 8,
       "qtdGrafo": 6
     },
     {
@@ -6445,7 +6799,7 @@
       "nome": "Irlanda",
       "lat": 53.4129,
       "lng": -8.2439,
-      "qtd": 1,
+      "qtd": 3,
       "qtdGrafo": 0
     },
     {
@@ -6453,7 +6807,7 @@
       "nome": "Bélgica",
       "lat": 50.5039,
       "lng": 4.4699,
-      "qtd": 1,
+      "qtd": 2,
       "qtdGrafo": 0
     },
     {
