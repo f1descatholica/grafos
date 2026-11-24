@@ -6,7 +6,7 @@
       "categoria": "ideia",
       "label": "MÁRTIR",
       "grupo": "ideia",
-      "x": 372,
+      "x": -124,
       "y": 37.5
     },
     {
@@ -15,8 +15,8 @@
       "categoria": "ideia",
       "label": "DOUTOR",
       "grupo": "ideia",
-      "x": -826,
-      "y": 112.5
+      "x": -606,
+      "y": 37.5
     },
     {
       "id": "52",
@@ -24,8 +24,8 @@
       "categoria": "ideia",
       "label": "VIRGEM",
       "grupo": "ideia",
-      "x": -1060,
-      "y": 37.5
+      "x": -840,
+      "y": 112.5
     },
     {
       "id": "53",
@@ -33,7 +33,7 @@
       "categoria": "ideia",
       "label": "CONFESSOR",
       "grupo": "ideia",
-      "x": 117,
+      "x": 131,
       "y": 112.5
     },
     {
@@ -42,8 +42,8 @@
       "categoria": "ideia",
       "label": "PAPA",
       "grupo": "ideia",
-      "x": 854,
-      "y": 37.5
+      "x": 1598,
+      "y": 112.5
     },
     {
       "id": "57",
@@ -51,8 +51,8 @@
       "categoria": "ideia",
       "label": "BISPO",
       "grupo": "ideia",
-      "x": -379,
-      "y": 112.5
+      "x": 379,
+      "y": 37.5
     },
     {
       "id": "59",
@@ -60,7 +60,7 @@
       "categoria": "ideia",
       "label": "ABADE",
       "grupo": "ideia",
-      "x": -599,
+      "x": -1067,
       "y": 37.5
     },
     {
@@ -69,8 +69,8 @@
       "categoria": "ideia",
       "label": "VIÚVA",
       "grupo": "ideia",
-      "x": 1591,
-      "y": 112.5
+      "x": 1385,
+      "y": 37.5
     },
     {
       "id": "58",
@@ -78,8 +78,8 @@
       "categoria": "ideia",
       "label": "FESTA",
       "grupo": "ideia",
-      "x": 1371,
-      "y": 37.5
+      "x": 1165,
+      "y": 112.5
     },
     {
       "id": "849",
@@ -96,8 +96,8 @@
       "categoria": "ideia",
       "label": "PROFETA",
       "grupo": "ideia",
-      "x": -145,
-      "y": 37.5
+      "x": -365,
+      "y": 112.5
     },
     {
       "id": "1005",
@@ -114,8 +114,8 @@
       "categoria": "ideia",
       "label": "EVANGELISTA",
       "grupo": "ideia",
-      "x": 1109,
-      "y": 112.5
+      "x": 903,
+      "y": 37.5
     },
     {
       "id": "1053",
@@ -133,7 +133,7 @@
       "label": "JANEIRO",
       "grupo": "documento",
       "mesNumero": 1,
-      "x": -599,
+      "x": -1095,
       "y": 262.5
     },
     {
@@ -143,7 +143,7 @@
       "label": "FEVEREIRO",
       "grupo": "documento",
       "mesNumero": 2,
-      "x": 557,
+      "x": 89,
       "y": 187.5
     },
     {
@@ -153,8 +153,8 @@
       "label": "MARÇO",
       "grupo": "documento",
       "mesNumero": 3,
-      "x": -117,
-      "y": 262.5
+      "x": -421,
+      "y": 187.5
     },
     {
       "id": "91",
@@ -163,8 +163,8 @@
       "label": "ABRIL",
       "grupo": "documento",
       "mesNumero": 4,
-      "x": 805,
-      "y": 262.5
+      "x": -861,
+      "y": 187.5
     },
     {
       "id": "92",
@@ -173,7 +173,7 @@
       "label": "MAIO",
       "grupo": "documento",
       "mesNumero": 5,
-      "x": 316,
+      "x": 812,
       "y": 262.5
     },
     {
@@ -183,7 +183,7 @@
       "label": "JUNHO",
       "grupo": "documento",
       "mesNumero": 6,
-      "x": 103,
+      "x": -1329,
       "y": 187.5
     },
     {
@@ -193,8 +193,8 @@
       "label": "JULHO",
       "grupo": "documento",
       "mesNumero": 7,
-      "x": -1329,
-      "y": 187.5
+      "x": -641,
+      "y": 262.5
     },
     {
       "id": "95",
@@ -203,8 +203,8 @@
       "label": "AGOSTO",
       "grupo": "documento",
       "mesNumero": 8,
-      "x": -1102,
-      "y": 262.5
+      "x": 592,
+      "y": 187.5
     },
     {
       "id": "96",
@@ -213,8 +213,8 @@
       "label": "SETEMBRO",
       "grupo": "documento",
       "mesNumero": 9,
-      "x": 1308,
-      "y": 262.5
+      "x": 1046,
+      "y": 187.5
     },
     {
       "id": "97",
@@ -223,8 +223,8 @@
       "label": "OUTUBRO",
       "grupo": "documento",
       "mesNumero": 10,
-      "x": -351,
-      "y": 187.5
+      "x": 351,
+      "y": 262.5
     },
     {
       "id": "98",
@@ -233,8 +233,8 @@
       "label": "NOVEMBRO",
       "grupo": "documento",
       "mesNumero": 11,
-      "x": 1046,
-      "y": 187.5
+      "x": 1308,
+      "y": 262.5
     },
     {
       "id": "99",
@@ -243,8 +243,8 @@
       "label": "DEZEMBRO",
       "grupo": "documento",
       "mesNumero": 12,
-      "x": -854,
-      "y": 187.5
+      "x": -180,
+      "y": 262.5
     },
     {
       "id": "4",
@@ -264,7 +264,7 @@
       "label": "João Batista",
       "grupo": "pessoa",
       "ano": 29,
-      "paisNasc": "IL",
+      "localNasc": "1061",
       "dataMorte": "cerca de 29",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/29-ago-degola-de-s-joao-batista.html",
       "x": -285,
@@ -360,7 +360,7 @@
       "label": "Bartolomeu",
       "grupo": "pessoa",
       "ano": 71,
-      "paisNasc": "IL",
+      "localNasc": "1062",
       "dataMorte": "cerca de 71",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/24-ago-s-bartolomeu-apostolo.html",
       "x": 229,
@@ -443,7 +443,7 @@
       "label": "Maria Madalena",
       "grupo": "pessoa",
       "ano": 63,
-      "paisNasc": "IL",
+      "localNasc": "1063",
       "dataMorte": "cerca de 63",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/s-maria-madalena-penitente.html",
       "x": -1371,
@@ -455,7 +455,7 @@
       "label": "Ana",
       "grupo": "pessoa",
       "ano": 10,
-      "paisNasc": "IL",
+      "localNasc": "815",
       "dataMorte": "cerca de 10",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/26-julho-s-ana-mae-de-nossa-senhora.html",
       "x": -788,
@@ -479,7 +479,7 @@
       "label": "Timóteo",
       "grupo": "pessoa",
       "ano": 97,
-      "paisNasc": "TR",
+      "localNasc": "1064",
       "dataMorte": "cerca de 97",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/22-agosto-ss-timoteo-hipolito-e.html",
       "x": -498,
@@ -671,8 +671,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/01/28-janeiro-s-ines-virgem-e-martir.html",
-      "x": -1155,
-      "y": 1387.5
+      "x": -2312,
+      "y": 1762.5
     },
     {
       "id": "72",
@@ -680,11 +680,11 @@
       "label": "Sebastião",
       "grupo": "pessoa",
       "ano": 288,
-      "paisNasc": "FR",
+      "localNasc": "1065",
       "dataMorte": "cerca de 288",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-20-jan-s-fabiano-e-s.html",
-      "x": 886,
-      "y": 1237.5
+      "x": -1993,
+      "y": 1537.5
     },
     {
       "id": "7",
@@ -695,8 +695,8 @@
       "paisNasc": "TR",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/sao-jorge-martir.html",
-      "x": 2242,
-      "y": 1237.5
+      "x": -337,
+      "y": 1537.5
     },
     {
       "id": "76",
@@ -707,8 +707,8 @@
       "paisNasc": "EG",
       "dataMorte": "cerca de 341",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-15-jan-sao-paulo.html",
-      "x": 1169,
-      "y": 1612.5
+      "x": 1536,
+      "y": 1837.5
     },
     {
       "id": "74",
@@ -716,11 +716,11 @@
       "label": "Antão",
       "grupo": "pessoa",
       "ano": 356,
-      "paisNasc": "EG",
+      "localNasc": "1066",
       "dataMorte": "17 de janeiro de 356",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-17-jan-s-antao-abade.html",
-      "x": 1693,
-      "y": 1612.5
+      "x": 2060,
+      "y": 1837.5
     },
     {
       "id": "64",
@@ -731,8 +731,8 @@
       "localNasc": "811",
       "dataMorte": "cerca de 387",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/405-santa-monica-viuva-modelo-de-esposa.html",
-      "x": 753,
-      "y": 1687.5
+      "x": 1515,
+      "y": 1987.5
     },
     {
       "id": "5",
@@ -743,8 +743,8 @@
       "localNasc": "811",
       "dataMorte": "28 de agosto de 430",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/28-ago-s-agostinho-bispo-confessor-e.html",
-      "x": -603,
-      "y": 1837.5
+      "x": -292,
+      "y": 2137.5
     },
     {
       "id": "81",
@@ -755,8 +755,8 @@
       "paisNasc": "SY",
       "dataMorte": "cerca de 107",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-01-fev-santo-inacio.html",
-      "x": 973,
-      "y": 862.5
+      "x": 1689,
+      "y": 787.5
     },
     {
       "id": "82",
@@ -767,8 +767,8 @@
       "localNasc": "139",
       "dataMorte": "cerca de 316",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-03-fev.html",
-      "x": -96,
-      "y": 1612.5
+      "x": 271,
+      "y": 1837.5
     },
     {
       "id": "83",
@@ -779,8 +779,8 @@
       "localNasc": "140",
       "dataMorte": "cerca de 251",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-05-fev-santa-agueda.html",
-      "x": 225,
-      "y": 1162.5
+      "x": -872,
+      "y": 1312.5
     },
     {
       "id": "84",
@@ -791,19 +791,43 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 269",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-14-fev-feria.html",
-      "x": -1945,
-      "y": 1237.5
+      "x": -1186,
+      "y": 1462.5
     },
     {
       "id": "204",
       "level": 3,
-      "label": "7 Irmãos, Rufina e Secunda",
+      "label": "7 Irmãos",
+      "grupo": "pessoa",
+      "ano": 165,
+      "localNasc": "26",
+      "dataMorte": "cerca de 165",
+      "x": 683,
+      "y": 937.5
+    },
+    {
+      "id": "1143",
+      "level": 3,
+      "label": "Rufina",
       "grupo": "pessoa",
       "ano": 257,
-      "paisNasc": "IT",
+      "localNasc": "26",
       "dataMorte": "cerca de 257",
-      "x": 1179,
-      "y": 1087.5
+      "urlPost": "https://f1descatholica.blogspot.com/2025/07/10-julho-ss-sete-irmaos-martires-e-ss.html",
+      "x": 204,
+      "y": 1312.5
+    },
+    {
+      "id": "1144",
+      "level": 3,
+      "label": "Secunda",
+      "grupo": "pessoa",
+      "ano": 257,
+      "localNasc": "26",
+      "dataMorte": "cerca de 257",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/07/10-julho-ss-sete-irmaos-martires-e-ss.html",
+      "x": 445,
+      "y": 1237.5
     },
     {
       "id": "205",
@@ -811,23 +835,22 @@
       "label": "Pio I",
       "grupo": "pessoa",
       "ano": 154,
-      "paisNasc": "IT",
+      "localNasc": "1067",
       "dataMorte": "cerca de 154",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/11-julho-feria.html",
-      "x": -2287,
+      "x": -896,
       "y": 937.5
     },
     {
       "id": "207",
       "level": 3,
-      "label": "Anacleto",
+      "label": "Anacleto (Cleto)",
       "grupo": "pessoa",
       "ano": 92,
       "paisNasc": "IT",
       "dataMorte": "cerca de 92",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/07/s-anacleto-papa-e-martir-jo-21-si.html",
-      "x": -942,
-      "y": 862.5
+      "x": -484,
+      "y": 787.5
     },
     {
       "id": "210",
@@ -838,8 +861,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 412",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/17-julho-santo-aleixo-confessor.html",
-      "x": -1120,
-      "y": 1837.5
+      "x": -809,
+      "y": 2137.5
     },
     {
       "id": "214",
@@ -850,7 +873,7 @@
       "localNasc": "26",
       "dataMorte": "cerca de 165",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/21-julho-s-praxedes-virgem.html",
-      "x": -816,
+      "x": 945,
       "y": 1012.5
     },
     {
@@ -862,8 +885,8 @@
       "localNasc": "138",
       "dataMorte": "cerca de 79",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/s-apolinario-bispo-e-martir.html",
-      "x": -1494,
-      "y": 862.5
+      "x": -1092,
+      "y": 787.5
     },
     {
       "id": "217",
@@ -874,8 +897,8 @@
       "localNasc": "307",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/24-julho-santa-cristina-virgem-e-martir.html",
-      "x": 687,
-      "y": 1462.5
+      "x": 110,
+      "y": 1687.5
     },
     {
       "id": "219",
@@ -886,55 +909,112 @@
       "localNasc": "308",
       "dataMorte": "cerca de 305",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/27-julho-s-pantaleao-martir.html",
-      "x": 2476,
-      "y": 1462.5
+      "x": -2294,
+      "y": 1837.5
     },
     {
       "id": "220",
       "level": 3,
-      "label": "Nazário e Celso",
+      "label": "Nazário",
       "grupo": "pessoa",
       "ano": 68,
-      "localNasc": "300",
+      "localNasc": "26",
       "dataMorte": "cerca de 68",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/28-julho-ss-nazario-e-celso-martires-s.html",
-      "x": -2025,
+      "x": -1567,
+      "y": 787.5
+    },
+    {
+      "id": "1161",
+      "level": 3,
+      "label": "Celso",
+      "grupo": "pessoa",
+      "ano": 68,
+      "localNasc": "1138",
+      "dataMorte": "cerca de 68",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/07/28-julho-ss-nazario-e-celso-martires-s.html",
+      "x": -1801,
       "y": 862.5
     },
     {
       "id": "222",
       "level": 3,
-      "label": "Abdon e Sennen",
+      "label": "Abdon",
       "grupo": "pessoa",
       "ano": 250,
       "paisNasc": "IR",
       "dataMorte": "cerca de 250",
-      "x": -341,
-      "y": 1162.5
+      "x": -1609,
+      "y": 1237.5
+    },
+    {
+      "id": "1145",
+      "level": 3,
+      "label": "Sennen",
+      "grupo": "pessoa",
+      "ano": 250,
+      "paisNasc": "IR",
+      "dataMorte": "cerca de 250",
+      "x": -1382,
+      "y": 1312.5
     },
     {
       "id": "223",
       "level": 3,
-      "label": "Marcelino, Pedro e Erasmo",
+      "label": "Marcelino (Presbítero)",
       "grupo": "pessoa",
       "ano": 304,
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
+      "x": -610,
+      "y": 1687.5
+    },
+    {
+      "id": "1146",
+      "level": 3,
+      "label": "Pedro Exorcista",
+      "grupo": "pessoa",
+      "ano": 304,
+      "paisNasc": "IT",
+      "dataMorte": "cerca de 304",
+      "x": -201,
+      "y": 1762.5
+    },
+    {
+      "id": "1147",
+      "level": 3,
+      "label": "Erasmo",
+      "grupo": "pessoa",
+      "ano": 303,
+      "paisNasc": "SY",
+      "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/2-junho-feria-ss-marcelino-pedro-e.html",
-      "x": 306,
-      "y": 1387.5
+      "x": -110,
+      "y": 1612.5
     },
     {
       "id": "226",
       "level": 3,
-      "label": "Primo e Feliciano",
+      "label": "Primo",
       "grupo": "pessoa",
       "ano": 297,
-      "paisNasc": "IT",
+      "localNasc": "26",
       "dataMorte": "cerca de 297",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/09-junho-santos-primo-e-feliciano.html",
-      "x": 1938,
-      "y": 1312.5
+      "x": -833,
+      "y": 1537.5
+    },
+    {
+      "id": "1148",
+      "level": 3,
+      "label": "Feliciano",
+      "grupo": "pessoa",
+      "ano": 297,
+      "localNasc": "26",
+      "dataMorte": "cerca de 297",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/06/09-junho-santos-primo-e-feliciano.html",
+      "x": -585,
+      "y": 1612.5
     },
     {
       "id": "229",
@@ -942,23 +1022,47 @@
       "label": "Basílio Magno",
       "grupo": "pessoa",
       "ano": 379,
-      "paisNasc": "TR",
+      "localNasc": "1068",
       "dataMorte": "1 de janeiro de 379",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/14-junho-s-basilio-magno-bispo.html",
-      "x": -554,
-      "y": 1687.5
+      "x": 208,
+      "y": 1987.5
     },
     {
       "id": "230",
       "level": 3,
-      "label": "Vito, Modesto e Crescência",
+      "label": "Vito",
       "grupo": "pessoa",
       "ano": 303,
       "paisNasc": "IT",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/15-jun-santos-vito-modesto-e-crescencia.html",
-      "x": 2609,
-      "y": 1312.5
+      "x": 648,
+      "y": 1537.5
+    },
+    {
+      "id": "1149",
+      "level": 3,
+      "label": "Modesto",
+      "grupo": "pessoa",
+      "ano": 303,
+      "paisNasc": "IT",
+      "dataMorte": "cerca de 303",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/06/15-jun-santos-vito-modesto-e-crescencia.html",
+      "x": 131,
+      "y": 1537.5
+    },
+    {
+      "id": "1150",
+      "level": 3,
+      "label": "Crescência",
+      "grupo": "pessoa",
+      "ano": 303,
+      "paisNasc": "IT",
+      "dataMorte": "cerca de 303",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/06/15-jun-santos-vito-modesto-e-crescencia.html",
+      "x": 400,
+      "y": 1612.5
     },
     {
       "id": "231",
@@ -966,22 +1070,34 @@
       "label": "Efrém",
       "grupo": "pessoa",
       "ano": 373,
-      "paisNasc": "TR",
+      "localNasc": "1069",
       "dataMorte": "9 de junho de 373",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/18-junho-s-efrem-diacono-confessor-e.html",
-      "x": -830,
-      "y": 1762.5
+      "x": -68,
+      "y": 2062.5
     },
     {
       "id": "233",
       "level": 3,
-      "label": "Gervásio e Protásio",
+      "label": "Gervásio",
       "grupo": "pessoa",
       "ano": 165,
       "localNasc": "300",
       "dataMorte": "cerca de 165",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/19-junho-ss-gervasio-e-protasio.html",
-      "x": -1155,
+      "x": 421,
+      "y": 1012.5
+    },
+    {
+      "id": "1162",
+      "level": 3,
+      "label": "Protásio",
+      "grupo": "pessoa",
+      "ano": 165,
+      "localNasc": "300",
+      "dataMorte": "cerca de 165",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/06/19-junho-ss-gervasio-e-protasio.html",
+      "x": 159,
       "y": 937.5
     },
     {
@@ -990,23 +1106,33 @@
       "label": "Paulino de Nola",
       "grupo": "pessoa",
       "ano": 431,
-      "paisNasc": "FR",
+      "localNasc": "1070",
       "dataMorte": "22 de junho de 431",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/22-junho-sao-paulino-de-nola-bispo-e.html",
-      "x": -285,
-      "y": 1912.5
+      "x": 26,
+      "y": 2212.5
     },
     {
       "id": "237",
       "level": 3,
-      "label": "João e Paulo",
+      "label": "João (Mártir de Roma)",
       "grupo": "pessoa",
       "ano": 362,
       "localNasc": "26",
       "dataMorte": "cerca de 362",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/06/26-junho-ss-joao-e-paulo-martires.html",
-      "x": 2364,
-      "y": 1612.5
+      "x": -2462,
+      "y": 1987.5
+    },
+    {
+      "id": "1163",
+      "level": 3,
+      "label": "Paulo (Mártir de Roma)",
+      "grupo": "pessoa",
+      "ano": 362,
+      "localNasc": "26",
+      "dataMorte": "cerca de 362",
+      "x": -2011,
+      "y": 2062.5
     },
     {
       "id": "239",
@@ -1017,8 +1143,8 @@
       "localNasc": "505",
       "dataMorte": "cerca de 202",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/28-junho-s-irineu-bispo-e-martir.html",
-      "x": 494,
-      "y": 937.5
+      "x": -1787,
+      "y": 1162.5
     },
     {
       "id": "400",
@@ -1026,10 +1152,10 @@
       "label": "Higino",
       "grupo": "pessoa",
       "ano": 142,
-      "paisNasc": "GR",
+      "localNasc": "1071",
       "dataMorte": "cerca de 142",
-      "x": 2308,
-      "y": 862.5
+      "x": -1123,
+      "y": 1012.5
     },
     {
       "id": "401",
@@ -1039,8 +1165,8 @@
       "ano": 367,
       "localNasc": "500",
       "dataMorte": "cerca de 367",
-      "x": -2088,
-      "y": 1762.5
+      "x": -1326,
+      "y": 2062.5
     },
     {
       "id": "402",
@@ -1050,8 +1176,8 @@
       "ano": 256,
       "localNasc": "318",
       "dataMorte": "cerca de 256",
-      "x": 756,
-      "y": 1162.5
+      "x": -79,
+      "y": 1237.5
     },
     {
       "id": "404",
@@ -1059,11 +1185,11 @@
       "label": "Marcelo I",
       "grupo": "pessoa",
       "ano": 309,
-      "paisNasc": "IT",
+      "localNasc": "26",
       "dataMorte": "cerca de 309",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-16-jan-sao-marcelo-i.html",
-      "x": -1305,
-      "y": 1612.5
+      "x": -938,
+      "y": 1837.5
     },
     {
       "id": "405",
@@ -1074,19 +1200,55 @@
       "localNasc": "26",
       "dataMorte": "cerca de 269",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/l-iturgia-diaria-18-jan-s-maria-no.html",
-      "x": -2193,
-      "y": 1312.5
+      "x": -1434,
+      "y": 1387.5
     },
     {
       "id": "406",
       "level": 3,
-      "label": "Mário, Marta, Audifax e Abaco",
+      "label": "Mário",
       "grupo": "pessoa",
       "ano": 270,
       "paisNasc": "IR",
       "dataMorte": "cerca de 270",
-      "x": -1536,
-      "y": 1312.5
+      "urlPost": "https://f1descatholica.blogspot.com/2026/01/19-jan-ss-mario-marta-audifaz-e-abaco.html",
+      "x": -945,
+      "y": 1387.5
+    },
+    {
+      "id": "1151",
+      "level": 3,
+      "label": "Marta (Mártir)",
+      "grupo": "pessoa",
+      "ano": 270,
+      "paisNasc": "IR",
+      "dataMorte": "cerca de 270",
+      "x": -662,
+      "y": 1462.5
+    },
+    {
+      "id": "1152",
+      "level": 3,
+      "label": "Audifax",
+      "grupo": "pessoa",
+      "ano": 270,
+      "paisNasc": "IR",
+      "dataMorte": "cerca de 270",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/01/jan-19-ss-marius-martha-audifax-and.html",
+      "x": -365,
+      "y": 1387.5
+    },
+    {
+      "id": "1153",
+      "level": 3,
+      "label": "Abaco",
+      "grupo": "pessoa",
+      "ano": 270,
+      "paisNasc": "IR",
+      "dataMorte": "cerca de 270",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/01/19-jan-ss-mario-marta-audifaz-e-abaco.html",
+      "x": -131,
+      "y": 1462.5
     },
     {
       "id": "408",
@@ -1094,22 +1256,22 @@
       "label": "Fabiano",
       "grupo": "pessoa",
       "ano": 250,
-      "paisNasc": "IT",
+      "localNasc": "26",
       "dataMorte": "20 de janeiro de 250",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-20-jan-s-fabiano-e-s.html",
-      "x": -900,
+      "x": 2028,
       "y": 1162.5
     },
     {
       "id": "409",
       "level": 3,
-      "label": "Vicente e Anastácio",
+      "label": "Vicente de Saragoça",
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "503",
-      "dataMorte": "cerca de 304",
-      "x": -844,
-      "y": 1462.5
+      "dataMorte": "22 de janeiro de 304",
+      "x": -2001,
+      "y": 1687.5
     },
     {
       "id": "411",
@@ -1119,8 +1281,8 @@
       "ano": 304,
       "localNasc": "26",
       "dataMorte": "cerca de 304",
-      "x": -484,
-      "y": 1387.5
+      "x": -1641,
+      "y": 1762.5
     },
     {
       "id": "413",
@@ -1131,7 +1293,7 @@
       "localNasc": "505",
       "dataMorte": "cerca de 155",
       "urlPost": "https://f1descatholica.blogspot.com/2026/01/26-jan-s-policarpo-bispo-e-martir.html",
-      "x": -2039,
+      "x": -648,
       "y": 1012.5
     },
     {
@@ -1143,8 +1305,8 @@
       "localNasc": "138",
       "dataMorte": "14 de setembro de 407",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-27-jan-sao-joao.html",
-      "x": 2364,
-      "y": 1762.5
+      "x": -1106,
+      "y": 2212.5
     },
     {
       "id": "416",
@@ -1155,8 +1317,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 228",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-30-jan-santa-martinha.html",
-      "x": 1724,
-      "y": 937.5
+      "x": -295,
+      "y": 1087.5
     },
     {
       "id": "419",
@@ -1164,11 +1326,11 @@
       "label": "Dorotéia",
       "grupo": "pessoa",
       "ano": 311,
-      "paisNasc": "TR",
+      "localNasc": "1068",
       "dataMorte": "cerca de 311",
       "urlPost": "https://f1descatholica.blogspot.com/2026/02/6-fev-s-doroteia-virgem-e-martir.html",
-      "x": -1036,
-      "y": 1537.5
+      "x": -669,
+      "y": 1912.5
     },
     {
       "id": "422",
@@ -1179,8 +1341,8 @@
       "localNasc": "510",
       "dataMorte": "27 de junho de 444",
       "urlPost": "https://f1descatholica.blogspot.com/2026/02/9-fev-s-cirilo-de-alexandria.html",
-      "x": 110,
-      "y": 1837.5
+      "x": 421,
+      "y": 2137.5
     },
     {
       "id": "423",
@@ -1191,20 +1353,32 @@
       "localNasc": "510",
       "dataMorte": "cerca de 249",
       "urlPost": "https://f1descatholica.blogspot.com/2026/02/9-fev-s-apolonia.html",
-      "x": -1155,
+      "x": 1773,
       "y": 1087.5
     },
     {
       "id": "426",
       "level": 3,
-      "label": "Faustino e Jovita",
+      "label": "Faustino",
+      "grupo": "pessoa",
+      "ano": 120,
+      "localNasc": "512",
+      "dataMorte": "cerca de 120",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/07/29-julho-santos-felix-ii-simplicio.html",
+      "x": -1371,
+      "y": 937.5
+    },
+    {
+      "id": "1165",
+      "level": 3,
+      "label": "Jovita",
       "grupo": "pessoa",
       "ano": 120,
       "localNasc": "512",
       "dataMorte": "cerca de 120",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-15-fev-s-faustino-e.html",
-      "x": 1997,
-      "y": 787.5
+      "x": -1619,
+      "y": 1012.5
     },
     {
       "id": "427",
@@ -1215,8 +1389,8 @@
       "paisNasc": "IL",
       "dataMorte": "cerca de 107",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-18-fev-feria.html",
-      "x": 1298,
-      "y": 787.5
+      "x": 2014,
+      "y": 862.5
     },
     {
       "id": "431",
@@ -1226,20 +1400,31 @@
       "ano": 254,
       "localNasc": "26",
       "dataMorte": "5 de março de 254",
-      "x": 466,
-      "y": 1087.5
+      "x": -369,
+      "y": 1312.5
     },
     {
       "id": "432",
       "level": 3,
-      "label": "Perpétua e Felicidade",
+      "label": "Perpétua",
       "grupo": "pessoa",
       "ano": 203,
       "localNasc": "516",
       "dataMorte": "7 de março de 203",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/02/6-marco-s-perpetua-e-s-felicidade.html",
-      "x": 833,
-      "y": 1012.5
+      "urlPost": "https://f1descatholica.blogspot.com/2026/03/6-mar-sts-perpetua-and-felicity-martyrs.html",
+      "x": -1539,
+      "y": 1087.5
+    },
+    {
+      "id": "1166",
+      "level": 3,
+      "label": "Felicidade de Cartago",
+      "grupo": "pessoa",
+      "ano": 203,
+      "localNasc": "516",
+      "dataMorte": "7 de março de 203",
+      "x": -1186,
+      "y": 1162.5
     },
     {
       "id": "435",
@@ -1250,8 +1435,8 @@
       "localNasc": "139",
       "dataMorte": "cerca de 320",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/liturgia-diaria-10-mar-segunda-feira-da.html",
-      "x": 201,
-      "y": 1537.5
+      "x": 568,
+      "y": 1912.5
     },
     {
       "id": "437",
@@ -1262,8 +1447,8 @@
       "paisNasc": "GB",
       "dataMorte": "cerca de 461",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/17-marco-s-patricio-bispo-e-confessor-o.html",
-      "x": 816,
-      "y": 1837.5
+      "x": 1127,
+      "y": 2137.5
     },
     {
       "id": "438",
@@ -1274,8 +1459,8 @@
       "localNasc": "133",
       "dataMorte": "18 de março de 386",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/18-mar-s-cirilo-de-jerusalem.html",
-      "x": 428,
-      "y": 1762.5
+      "x": 1190,
+      "y": 2062.5
     },
     {
       "id": "445",
@@ -1286,8 +1471,8 @@
       "paisNasc": "IT",
       "dataMorte": "10 de novembro de 461",
       "urlPost": "https://f1descatholica.blogspot.com/2025/11/11abr-s-leao-i-magno-papa-confessor-e.html",
-      "x": 1092,
-      "y": 1912.5
+      "x": 1403,
+      "y": 2212.5
     },
     {
       "id": "447",
@@ -1295,23 +1480,47 @@
       "label": "Justino",
       "grupo": "pessoa",
       "ano": 165,
-      "paisNasc": "PS",
+      "localNasc": "1072",
       "dataMorte": "cerca de 165",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/14-abril-s-justino-martir.html",
-      "x": -1487,
+      "x": -96,
       "y": 1012.5
     },
     {
       "id": "448",
       "level": 3,
-      "label": "Tibúrcio, Valeriano e Máximo",
+      "label": "Tibúrcio",
+      "grupo": "pessoa",
+      "ano": 229,
+      "localNasc": "26",
+      "dataMorte": "cerca de 229",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/08/11-ago-ss-tiburcio-e-susana-martires.html",
+      "x": 477,
+      "y": 1162.5
+    },
+    {
+      "id": "1167",
+      "level": 3,
+      "label": "Valeriano",
       "grupo": "pessoa",
       "ano": 229,
       "localNasc": "26",
       "dataMorte": "cerca de 229",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/14-abril-ss-tiburcio-valeriano-e-maximo.html",
-      "x": 2126,
-      "y": 1012.5
+      "x": -26,
+      "y": 1162.5
+    },
+    {
+      "id": "1168",
+      "level": 3,
+      "label": "Máximo",
+      "grupo": "pessoa",
+      "ano": 229,
+      "localNasc": "26",
+      "dataMorte": "cerca de 229",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/04/14-abril-ss-tiburcio-valeriano-e-maximo.html",
+      "x": 229,
+      "y": 1087.5
     },
     {
       "id": "449",
@@ -1319,35 +1528,47 @@
       "label": "Aniceto",
       "grupo": "pessoa",
       "ano": 168,
-      "paisNasc": "SY",
+      "localNasc": "1073",
       "dataMorte": "cerca de 168",
       "urlPost": "https://f1descatholica.blogspot.com/2025/04/17-abril-s-aniceto-papa-e-martir.html",
-      "x": -271,
+      "x": 1490,
       "y": 1012.5
     },
     {
       "id": "451",
       "level": 3,
-      "label": "Sotero e Caio",
+      "label": "Sotero",
+      "grupo": "pessoa",
+      "ano": 175,
+      "localNasc": "1074",
+      "dataMorte": "cerca de 175",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/04/22-abril-ss-sotero-e-caio-papas-e.html",
+      "x": 1731,
+      "y": 937.5
+    },
+    {
+      "id": "1154",
+      "level": 3,
+      "label": "Caio",
       "grupo": "pessoa",
       "ano": 296,
-      "paisNasc": "IT",
-      "dataMorte": "cerca de 296",
+      "paisNasc": "HR",
+      "dataMorte": "22 de abril de 296",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/22-abril-ss-sotero-e-caio-papas-e.html",
-      "x": 1578,
-      "y": 1237.5
+      "x": -1046,
+      "y": 1612.5
     },
     {
       "id": "454",
       "level": 3,
-      "label": "Cleto e Marcelino",
+      "label": "Marcelino (Papa)",
       "grupo": "pessoa",
       "ano": 304,
-      "paisNasc": "IT",
+      "localNasc": "26",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/26-abril-ss-cleto-e-marcelino-papas-e.html",
-      "x": -138,
-      "y": 1462.5
+      "x": -1302,
+      "y": 1687.5
     },
     {
       "id": "457",
@@ -1358,7 +1579,7 @@
       "localNasc": "300",
       "dataMorte": "cerca de 62",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/4-nov-santos-vital-e-agricola-martires.html",
-      "x": -2315,
+      "x": -2021,
       "y": 787.5
     },
     {
@@ -1370,8 +1591,8 @@
       "localNasc": "510",
       "dataMorte": "2 de maio de 373",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/02-maio-s-atanasio-bispo-confessor-e.html",
-      "x": -1071,
-      "y": 1687.5
+      "x": -309,
+      "y": 1987.5
     },
     {
       "id": "604",
@@ -1379,35 +1600,83 @@
       "label": "Gregório Nazianzeno",
       "grupo": "pessoa",
       "ano": 390,
-      "paisNasc": "TR",
+      "localNasc": "1075",
       "dataMorte": "25 de janeiro de 390",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/09-maio-sao-gregorio-nazianzeno-bispo.html",
-      "x": 1078,
-      "y": 1762.5
+      "x": 1840,
+      "y": 2062.5
     },
     {
       "id": "606",
       "level": 3,
-      "label": "Gordiano e Epímaco",
+      "label": "Gordiano",
       "grupo": "pessoa",
       "ano": 362,
       "localNasc": "26",
       "dataMorte": "cerca de 362",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/10-maio-s-gordiano-e-s-epimaco-martires.html",
-      "x": 2004,
-      "y": 1537.5
+      "x": 2301,
+      "y": 1912.5
+    },
+    {
+      "id": "1169",
+      "level": 3,
+      "label": "Epímaco",
+      "grupo": "pessoa",
+      "ano": 250,
+      "paisNasc": "EG",
+      "dataMorte": "cerca de 250",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/05/10-maio-s-gordiano-e-s-epimaco-martires.html",
+      "x": -2105,
+      "y": 1237.5
     },
     {
       "id": "607",
       "level": 3,
-      "label": "Nereu, Aquileu, Domitila...",
+      "label": "Nereu",
       "grupo": "pessoa",
       "ano": 100,
       "localNasc": "26",
       "dataMorte": "cerca de 100",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/12-maio-ss-nereu-aquileu-domitila-e.html",
-      "x": -257,
+      "x": 613,
+      "y": 787.5
+    },
+    {
+      "id": "1170",
+      "level": 3,
+      "label": "Aquileu",
+      "grupo": "pessoa",
+      "ano": 100,
+      "localNasc": "26",
+      "dataMorte": "cerca de 100",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/05/12-maio-ss-nereu-aquileu-domitila-e.html",
+      "x": 379,
       "y": 862.5
+    },
+    {
+      "id": "1171",
+      "level": 3,
+      "label": "Domitila",
+      "grupo": "pessoa",
+      "ano": 100,
+      "localNasc": "26",
+      "dataMorte": "cerca de 100",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/05/12-maio-ss-nereu-aquileu-domitila-e.html",
+      "x": 124,
+      "y": 787.5
+    },
+    {
+      "id": "1172",
+      "level": 3,
+      "label": "Pancrácio",
+      "grupo": "pessoa",
+      "ano": 304,
+      "localNasc": "1140",
+      "dataMorte": "12 de maio de 304",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/05/12-maio-ss-nereu-aquileu-domitila-e.html",
+      "x": -977,
+      "y": 1762.5
     },
     {
       "id": "613",
@@ -1415,11 +1684,11 @@
       "label": "Venâncio",
       "grupo": "pessoa",
       "ano": 250,
-      "paisNasc": "IT",
+      "localNasc": "1076",
       "dataMorte": "cerca de 250",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/18-maio-s-venancio-martir.html",
-      "x": -645,
-      "y": 1087.5
+      "x": -1850,
+      "y": 1312.5
     },
     {
       "id": "615",
@@ -1430,7 +1699,7 @@
       "localNasc": "26",
       "dataMorte": "cerca de 160",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/19-de-maio-santa-pudenciana-virgem-o.html",
-      "x": -1756,
+      "x": -365,
       "y": 937.5
     },
     {
@@ -1441,7 +1710,7 @@
       "ano": 230,
       "localNasc": "26",
       "dataMorte": "cerca de 230",
-      "x": -2343,
+      "x": 739,
       "y": 1087.5
     },
     {
@@ -1450,11 +1719,11 @@
       "label": "Eleutério",
       "grupo": "pessoa",
       "ano": 189,
-      "paisNasc": "GR",
+      "localNasc": "1077",
       "dataMorte": "cerca de 189",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/09-out-s-dionisio-bispo-s-rustico-e-s.html",
-      "x": -9,
-      "y": 937.5
+      "x": 1986,
+      "y": 1012.5
     },
     {
       "id": "625",
@@ -1465,8 +1734,8 @@
       "localNasc": "26",
       "dataMorte": "30 de dezembro de 274",
       "urlPost": "https://f1descatholica.blogspot.com/2026/07/29-julho-santos-felix-ii-simplicio.html",
-      "x": -718,
-      "y": 1312.5
+      "x": 519,
+      "y": 1462.5
     },
     {
       "id": "628",
@@ -1476,19 +1745,42 @@
       "ano": 90,
       "localNasc": "26",
       "dataMorte": "cerca de 90",
-      "x": -1211,
-      "y": 787.5
+      "x": -809,
+      "y": 862.5
     },
     {
       "id": "634",
       "level": 3,
-      "label": "Ciríaco, Largo e Esmaragdo",
+      "label": "Ciríaco",
       "grupo": "pessoa",
       "ano": 303,
       "localNasc": "26",
       "dataMorte": "cerca de 303",
-      "x": -2357,
-      "y": 1387.5
+      "urlPost": "https://f1descatholica.blogspot.com/2025/08/08-ago-ss-ciriaco-largo-e-esmaragdo.html",
+      "x": 1371,
+      "y": 1612.5
+    },
+    {
+      "id": "1173",
+      "level": 3,
+      "label": "Largo",
+      "grupo": "pessoa",
+      "ano": 303,
+      "localNasc": "26",
+      "dataMorte": "cerca de 303",
+      "x": 861,
+      "y": 1612.5
+    },
+    {
+      "id": "1174",
+      "level": 3,
+      "label": "Esmaragdo",
+      "grupo": "pessoa",
+      "ano": 303,
+      "localNasc": "26",
+      "dataMorte": "cerca de 303",
+      "x": 1109,
+      "y": 1537.5
     },
     {
       "id": "635",
@@ -1496,35 +1788,57 @@
       "label": "Lourenço",
       "grupo": "pessoa",
       "ano": 258,
-      "paisNasc": "ES",
+      "localNasc": "1078",
       "dataMorte": "10 de agosto de 258",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/05-ago-s-lourenco-justiniani-bispo-e.html",
-      "x": 1927,
-      "y": 1087.5
+      "x": 1294,
+      "y": 1312.5
     },
     {
       "id": "636",
       "level": 3,
-      "label": "Tibúrcio e Susana",
+      "label": "Tibúrcio (Via Labicana)",
+      "grupo": "pessoa",
+      "ano": 288,
+      "localNasc": "26",
+      "dataMorte": "cerca de 288",
+      "x": -1619,
+      "y": 1612.5
+    },
+    {
+      "id": "1175",
+      "level": 3,
+      "label": "Susana",
       "grupo": "pessoa",
       "ano": 295,
       "localNasc": "26",
       "dataMorte": "cerca de 295",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/11-ago-ss-tiburcio-e-susana-martires.html",
-      "x": 1218,
-      "y": 1312.5
+      "x": -1266,
+      "y": 1537.5
     },
     {
       "id": "637",
       "level": 3,
-      "label": "Hipólito e Cassiano",
+      "label": "Hipólito",
       "grupo": "pessoa",
       "ano": 235,
       "localNasc": "26",
       "dataMorte": "cerca de 235",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/08/13-ago-ss-hipolito-e-cassiano-martires.html",
-      "x": -1756,
+      "urlPost": "https://f1descatholica.blogspot.com/2025/08/22-agosto-ss-timoteo-hipolito-e.html",
+      "x": 1249,
       "y": 1087.5
+    },
+    {
+      "id": "1176",
+      "level": 3,
+      "label": "Cassiano de Ímola",
+      "grupo": "pessoa",
+      "ano": 304,
+      "localNasc": "1084",
+      "dataMorte": "cerca de 304",
+      "x": 435,
+      "y": 1762.5
     },
     {
       "id": "641",
@@ -1532,11 +1846,11 @@
       "label": "Agapito",
       "grupo": "pessoa",
       "ano": 274,
-      "paisNasc": "IT",
+      "localNasc": "1079",
       "dataMorte": "cerca de 274",
       "urlPost": "https://f1descatholica.blogspot.com/2026/08/18-agosto-santo-agapito-martir.html",
-      "x": -470,
-      "y": 1237.5
+      "x": 767,
+      "y": 1387.5
     },
     {
       "id": "647",
@@ -1547,8 +1861,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 217",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/26-ago-sao-zeferino-papa-e-martir.html",
-      "x": 1186,
-      "y": 937.5
+      "x": -833,
+      "y": 1087.5
     },
     {
       "id": "652",
@@ -1559,8 +1873,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/08/1-setembro-os-doze-santos-irmaos.html",
-      "x": -1899,
-      "y": 1462.5
+      "x": 1696,
+      "y": 1537.5
     },
     {
       "id": "655",
@@ -1571,32 +1885,55 @@
       "localNasc": "308",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/09/9-setembro-sao-gorgonio-martir.html",
-      "x": 949,
-      "y": 1387.5
+      "x": 760,
+      "y": 1687.5
     },
     {
       "id": "657",
       "level": 3,
-      "label": "Proto e Jacinto",
+      "label": "Proto",
       "grupo": "pessoa",
       "ano": 257,
-      "paisNasc": "IT",
+      "localNasc": "26",
       "dataMorte": "cerca de 257",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/11-set-ss-proto-e-jacinto-martires.html",
-      "x": 1616,
-      "y": 1162.5
+      "x": 679,
+      "y": 1312.5
+    },
+    {
+      "id": "1155",
+      "level": 3,
+      "label": "Jacinto (Mártir)",
+      "grupo": "pessoa",
+      "ano": 257,
+      "localNasc": "26",
+      "dataMorte": "cerca de 257",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/09/11-set-ss-proto-e-jacinto-martires.html",
+      "x": 976,
+      "y": 1237.5
     },
     {
       "id": "658",
       "level": 3,
-      "label": "Cornélio e Cipriano",
+      "label": "Cornélio",
+      "grupo": "pessoa",
+      "ano": 253,
+      "localNasc": "26",
+      "dataMorte": "junho de 253",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/09/16-set-s-cornelio-papa-e-s-cipriano.html",
+      "x": -624,
+      "y": 1237.5
+    },
+    {
+      "id": "1156",
+      "level": 3,
+      "label": "Cipriano de Cartago",
       "grupo": "pessoa",
       "ano": 258,
-      "paisNasc": "IT",
-      "dataMorte": "cerca de 258",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/09/16-set-s-cornelio-papa-e-s-cipriano.html",
-      "x": 2266,
-      "y": 1162.5
+      "localNasc": "516",
+      "dataMorte": "14 de setembro de 258",
+      "x": 1633,
+      "y": 1237.5
     },
     {
       "id": "660",
@@ -1607,8 +1944,8 @@
       "localNasc": "145",
       "dataMorte": "cerca de 305",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/19-set-s-januario-bispo-e-seus.html",
-      "x": -2336,
-      "y": 1537.5
+      "x": -1969,
+      "y": 1912.5
     },
     {
       "id": "661",
@@ -1619,8 +1956,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 118",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/20-set-s-eustaquio-e-companheiros.html",
-      "x": 1609,
-      "y": 862.5
+      "x": -1930,
+      "y": 937.5
     },
     {
       "id": "663",
@@ -1628,11 +1965,11 @@
       "label": "Maurício e Comp.",
       "grupo": "pessoa",
       "ano": 287,
-      "paisNasc": "EG",
+      "localNasc": "1080",
       "dataMorte": "cerca de 287",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/22-set-s-mauricio-e-companheiros.html",
-      "x": 215,
-      "y": 1237.5
+      "x": 1560,
+      "y": 1462.5
     },
     {
       "id": "664",
@@ -1643,32 +1980,54 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 76",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/23-set-s-lino-papa-e-martir.html",
-      "x": -1742,
-      "y": 787.5
+      "x": -1340,
+      "y": 862.5
     },
     {
       "id": "665",
       "level": 3,
-      "label": "Cipriano e Justina",
+      "label": "Cipriano de Antioquia",
       "grupo": "pessoa",
       "ano": 304,
       "localNasc": "138",
       "dataMorte": "cerca de 304",
-      "urlPost": "https://f1descatholica.blogspot.com/2026/09/santos-cipriano-e-justina-martires.html",
-      "x": 1281,
-      "y": 1462.5
+      "x": 1543,
+      "y": 1687.5
+    },
+    {
+      "id": "1177",
+      "level": 3,
+      "label": "Justina de Antioquia",
+      "grupo": "pessoa",
+      "ano": 304,
+      "localNasc": "138",
+      "dataMorte": "cerca de 304",
+      "x": 1106,
+      "y": 1762.5
     },
     {
       "id": "666",
       "level": 3,
-      "label": "Cosme e Damião",
+      "label": "Cosme",
       "grupo": "pessoa",
       "ano": 287,
       "paisNasc": "SY",
       "dataMorte": "cerca de 287",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/27-set-ss-cosme-e-damiao-martires.html",
-      "x": 575,
-      "y": 1312.5
+      "x": 1857,
+      "y": 1387.5
+    },
+    {
+      "id": "1157",
+      "level": 3,
+      "label": "Damião",
+      "grupo": "pessoa",
+      "ano": 287,
+      "paisNasc": "SY",
+      "dataMorte": "cerca de 287",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/02/23-fev-s-pedro-damiao-bispo-e-doutor.html",
+      "x": 2084,
+      "y": 1462.5
     },
     {
       "id": "668",
@@ -1679,20 +2038,42 @@
       "localNasc": "812",
       "dataMorte": "30 de setembro de 420",
       "urlPost": "https://f1descatholica.blogspot.com/2026/07/20-julho-s-jeronimo-emiliani-confessor.html",
-      "x": -872,
-      "y": 1912.5
+      "x": -561,
+      "y": 2212.5
     },
     {
       "id": "674",
       "level": 3,
-      "label": "Dionísio, Rústico e Eleutério",
+      "label": "Dionísio de Paris",
       "grupo": "pessoa",
       "ano": 258,
       "paisNasc": "IT",
       "dataMorte": "cerca de 258",
+      "x": 2035,
+      "y": 1312.5
+    },
+    {
+      "id": "1158",
+      "level": 3,
+      "label": "Rústico",
+      "grupo": "pessoa",
+      "ano": 258,
+      "paisNasc": "FR",
+      "dataMorte": "cerca de 258",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/09-out-s-dionisio-bispo-s-rustico-e-s.html",
-      "x": -2588,
-      "y": 1237.5
+      "x": -2077,
+      "y": 1387.5
+    },
+    {
+      "id": "1159",
+      "level": 3,
+      "label": "Eleutério de Paris",
+      "grupo": "pessoa",
+      "ano": 258,
+      "paisNasc": "FR",
+      "dataMorte": "cerca de 258",
+      "x": -1752,
+      "y": 1462.5
     },
     {
       "id": "677",
@@ -1703,8 +2084,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 222",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/14-out-s-calisto-i-papa-e-martir.html",
-      "x": 1455,
-      "y": 1012.5
+      "x": -564,
+      "y": 1162.5
     },
     {
       "id": "683",
@@ -1712,11 +2093,11 @@
       "label": "Hilarião",
       "grupo": "pessoa",
       "ano": 371,
-      "paisNasc": "PS",
+      "localNasc": "1081",
       "dataMorte": "cerca de 371",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/21-out-s-hilario-abade.html",
-      "x": -1749,
-      "y": 1687.5
+      "x": -987,
+      "y": 1987.5
     },
     {
       "id": "684",
@@ -1727,20 +2108,32 @@
       "paisNasc": "GB",
       "dataMorte": "cerca de 383",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santas-ursula-e-companheiras.html",
-      "x": -215,
-      "y": 1762.5
+      "x": 547,
+      "y": 2062.5
     },
     {
       "id": "686",
       "level": 3,
-      "label": "Crisanto e Daria",
+      "label": "Crisanto",
       "grupo": "pessoa",
       "ano": 283,
       "paisNasc": "EG",
       "dataMorte": "cerca de 283",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/25-out-s-crisanto-e-s-daria-martires.html",
-      "x": -159,
-      "y": 1312.5
+      "x": 1022,
+      "y": 1462.5
+    },
+    {
+      "id": "1160",
+      "level": 3,
+      "label": "Daria",
+      "grupo": "pessoa",
+      "ano": 283,
+      "paisNasc": "GR",
+      "dataMorte": "cerca de 283",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/10/25-out-s-crisanto-e-s-daria-martires.html",
+      "x": 1263,
+      "y": 1387.5
     },
     {
       "id": "687",
@@ -1748,11 +2141,11 @@
       "label": "Evaristo",
       "grupo": "pessoa",
       "ano": 105,
-      "paisNasc": "PS",
+      "localNasc": "815",
       "dataMorte": "cerca de 105",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/evaristo-papa-e-martir-26-out.html",
-      "x": 634,
-      "y": 787.5
+      "x": 1350,
+      "y": 862.5
     },
     {
       "id": "690",
@@ -1763,8 +2156,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/08-nov-ss-quatro-coroados-martires.html",
-      "x": 1662,
-      "y": 1387.5
+      "x": 1945,
+      "y": 1762.5
     },
     {
       "id": "691",
@@ -1775,8 +2168,8 @@
       "paisNasc": "TR",
       "dataMorte": "cerca de 306",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/sao-teodoro-martir-9-de-novembro.html",
-      "x": -1567,
-      "y": 1537.5
+      "x": -1200,
+      "y": 1912.5
     },
     {
       "id": "693",
@@ -1784,11 +2177,11 @@
       "label": "Martinho de Tours",
       "grupo": "pessoa",
       "ano": 397,
-      "paisNasc": "HU",
+      "localNasc": "1082",
       "dataMorte": "8 de novembro de 397",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/11-nov-s-martinho-de-tours-bispo-e.html",
-      "x": 1728,
-      "y": 1762.5
+      "x": 2490,
+      "y": 2062.5
     },
     {
       "id": "699",
@@ -1796,11 +2189,11 @@
       "label": "Gregório Taumaturgo",
       "grupo": "pessoa",
       "ano": 270,
-      "paisNasc": "TR",
+      "localNasc": "1083",
       "dataMorte": "cerca de 270",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/17-nov-s-gregorio-taumaturgo-bispo-e.html",
-      "x": -1050,
-      "y": 1237.5
+      "x": 187,
+      "y": 1387.5
     },
     {
       "id": "701",
@@ -1811,7 +2204,7 @@
       "localNasc": "26",
       "dataMorte": "cerca de 230",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/22-nov-s-cecilia-virgem-e-martir.html",
-      "x": -2088,
+      "x": 994,
       "y": 1162.5
     },
     {
@@ -1823,8 +2216,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 99",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/s-clementis-i-papae-et-mart-23-nov.html",
-      "x": -666,
-      "y": 787.5
+      "x": -152,
+      "y": 862.5
     },
     {
       "id": "703",
@@ -1835,7 +2228,7 @@
       "localNasc": "26",
       "dataMorte": "cerca de 165",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/santa-felicidade-martir-23-nov.html",
-      "x": -540,
+      "x": 1221,
       "y": 937.5
     },
     {
@@ -1847,8 +2240,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/chrysogono-mart-24-nov.html",
-      "x": 1980,
-      "y": 1462.5
+      "x": 2263,
+      "y": 1687.5
     },
     {
       "id": "705",
@@ -1859,8 +2252,8 @@
       "localNasc": "510",
       "dataMorte": "cerca de 305",
       "urlPost": "https://f1descatholica.blogspot.com/2025/11/25-nov-s-catarina-virgem-e-martir.html",
-      "x": -1920,
-      "y": 1612.5
+      "x": -1553,
+      "y": 1837.5
     },
     {
       "id": "707",
@@ -1870,8 +2263,8 @@
       "ano": 311,
       "localNasc": "510",
       "dataMorte": "25 de novembro de 311",
-      "x": -697,
-      "y": 1612.5
+      "x": -330,
+      "y": 1837.5
     },
     {
       "id": "708",
@@ -1881,8 +2274,8 @@
       "ano": 250,
       "paisNasc": "GR",
       "dataMorte": "cerca de 250",
-      "x": -30,
-      "y": 1087.5
+      "x": -1127,
+      "y": 1237.5
     },
     {
       "id": "709",
@@ -1893,8 +2286,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 363",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-02-dez-s-bibiana-virgem.html",
-      "x": -2420,
-      "y": 1687.5
+      "x": -1658,
+      "y": 1987.5
     },
     {
       "id": "710",
@@ -1902,11 +2295,11 @@
       "label": "Pedro Crisólogo",
       "grupo": "pessoa",
       "ano": 450,
-      "paisNasc": "IT",
+      "localNasc": "1084",
       "dataMorte": "cerca de 450",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-04-dez-s-pedro.html",
-      "x": 505,
-      "y": 1912.5
+      "x": 816,
+      "y": 2212.5
     },
     {
       "id": "712",
@@ -1914,11 +2307,11 @@
       "label": "Nicolau",
       "grupo": "pessoa",
       "ano": 343,
-      "paisNasc": "TR",
+      "localNasc": "1085",
       "dataMorte": "cerca de 343",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/10-de-setembro-sao-nicolau-de-tolentino.html",
-      "x": 1459,
-      "y": 1537.5
+      "x": 1826,
+      "y": 1912.5
     },
     {
       "id": "713",
@@ -1926,11 +2319,11 @@
       "label": "Ambrósio",
       "grupo": "pessoa",
       "ano": 397,
-      "paisNasc": "DE",
+      "localNasc": "1086",
       "dataMorte": "4 de abril de 397",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-07-dez-s-ambrosio-bispo.html",
-      "x": 2053,
-      "y": 1687.5
+      "x": -1417,
+      "y": 2137.5
     },
     {
       "id": "714",
@@ -1941,8 +2334,8 @@
       "paisNasc": "TN",
       "dataMorte": "10 de janeiro de 314",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-10-dez-s-melquiades.html",
-      "x": -344,
-      "y": 1537.5
+      "x": 23,
+      "y": 1912.5
     },
     {
       "id": "715",
@@ -1953,8 +2346,8 @@
       "paisNasc": "ES",
       "dataMorte": "11 de dezembro de 384",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-11-dez-s-damaso-i-papa.html",
-      "x": 89,
-      "y": 1687.5
+      "x": 851,
+      "y": 1987.5
     },
     {
       "id": "716",
@@ -1962,11 +2355,11 @@
       "label": "Luzia",
       "grupo": "pessoa",
       "ano": 304,
-      "paisNasc": "IT",
+      "localNasc": "1087",
       "dataMorte": "cerca de 304",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-13-dezembro-santa-luzia.html",
-      "x": 2228,
-      "y": 1387.5
+      "x": 2511,
+      "y": 1762.5
     },
     {
       "id": "717",
@@ -1974,10 +2367,10 @@
       "label": "Eusébio de Vercelli",
       "grupo": "pessoa",
       "ano": 371,
-      "paisNasc": "IT",
+      "localNasc": "1088",
       "dataMorte": "1 de agosto de 371",
-      "x": -1410,
-      "y": 1762.5
+      "x": -648,
+      "y": 2062.5
     },
     {
       "id": "720",
@@ -1988,8 +2381,8 @@
       "localNasc": "26",
       "dataMorte": "31 de dezembro de 335",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-31-dez-vii-dia-da.html",
-      "x": 547,
-      "y": 1612.5
+      "x": 914,
+      "y": 1837.5
     },
     {
       "id": "721",
@@ -2000,8 +2393,8 @@
       "paisNasc": "FR",
       "dataMorte": "cerca de 397",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/23-julho-sao-liborio-bispo-e-confessor.html",
-      "x": 1410,
-      "y": 1687.5
+      "x": 2172,
+      "y": 1987.5
     },
     {
       "id": "1054",
@@ -2012,7 +2405,7 @@
       "localNasc": "26",
       "dataMorte": "cerca de 235",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/s-pontiano-papa-et-martyre-19-nov.html",
-      "x": -1417,
+      "x": 1511,
       "y": 1162.5
     },
     {
@@ -2024,8 +2417,8 @@
       "localNasc": "26",
       "dataMorte": "7 de outubro de 336",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/7-out-sao-marcos-i-papa-e-confessor.html",
-      "x": 851,
-      "y": 1537.5
+      "x": 1218,
+      "y": 1912.5
     },
     {
       "id": "1056",
@@ -2036,8 +2429,8 @@
       "paisNasc": "SY",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
-      "x": -1581,
-      "y": 1387.5
+      "x": 2014,
+      "y": 1612.5
     },
     {
       "id": "1057",
@@ -2048,8 +2441,8 @@
       "paisNasc": "SY",
       "dataMorte": "cerca de 303",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
-      "x": -1361,
-      "y": 1462.5
+      "x": -2518,
+      "y": 1687.5
     },
     {
       "id": "1058",
@@ -2060,8 +2453,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 100",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
-      "x": 131,
-      "y": 787.5
+      "x": 847,
+      "y": 862.5
     },
     {
       "id": "1059",
@@ -2072,8 +2465,8 @@
       "paisNasc": "IT",
       "dataMorte": "cerca de 100",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
-      "x": 379,
-      "y": 862.5
+      "x": 1095,
+      "y": 787.5
     },
     {
       "id": "1060",
@@ -2084,8 +2477,8 @@
       "localNasc": "516",
       "dataMorte": "cerca de 199",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/28-julho-ss-nazario-e-celso-martires-s.html",
-      "x": 253,
-      "y": 1012.5
+      "x": -2028,
+      "y": 1087.5
     },
     {
       "id": "6",
@@ -2096,8 +2489,8 @@
       "localNasc": "816",
       "dataMorte": "21 de março de 547",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/21-mar-s-bento-de-nursia-abade.html",
-      "x": -533,
-      "y": 1987.5
+      "x": -624,
+      "y": 2287.5
     },
     {
       "id": "85",
@@ -2108,8 +2501,8 @@
       "localNasc": "816",
       "dataMorte": "cerca de 543",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-10-fev-s-escolastica.html",
-      "x": -795,
-      "y": 2062.5
+      "x": -886,
+      "y": 2362.5
     },
     {
       "id": "66",
@@ -2120,8 +2513,8 @@
       "localNasc": "817",
       "dataMorte": "20 de agosto de 1153",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/20-ago-s-bernardo-confessor-e-doutor.html",
-      "x": -1452,
-      "y": 2362.5
+      "x": -865,
+      "y": 2662.5
     },
     {
       "id": "8",
@@ -2132,8 +2525,8 @@
       "localNasc": "143",
       "dataMorte": "3 de outubro de 1226",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/10-out-s-francisco-de-borgia-confessor.html",
-      "x": 309,
-      "y": 2362.5
+      "x": 896,
+      "y": 2662.5
     },
     {
       "id": "11",
@@ -2144,8 +2537,8 @@
       "localNasc": "143",
       "dataMorte": "11 de agosto de 1253",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/12-ago-s-clara-virgem.html",
-      "x": -2595,
-      "y": 2437.5
+      "x": -1812,
+      "y": 2737.5
     },
     {
       "id": "9",
@@ -2156,8 +2549,8 @@
       "localNasc": "818",
       "dataMorte": "6 de agosto de 1221",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/04-ago-s-domingos-confessor.html",
-      "x": 40,
-      "y": 2287.5
+      "x": 627,
+      "y": 2587.5
     },
     {
       "id": "10",
@@ -2168,8 +2561,8 @@
       "localNasc": "819",
       "dataMorte": "7 de março de 1274",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/7-marco-s-tomas-de-aquino-confessor-e.html",
-      "x": -841,
-      "y": 2437.5
+      "x": -58,
+      "y": 2737.5
     },
     {
       "id": "65",
@@ -2180,8 +2573,8 @@
       "localNasc": "810",
       "dataMorte": "13 de junho de 1231",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/05-julho-s-antonio-maria-zaccaria.html",
-      "x": 571,
-      "y": 2287.5
+      "x": 1158,
+      "y": 2587.5
     },
     {
       "id": "67",
@@ -2191,8 +2584,8 @@
       "ano": 1457,
       "localNasc": "147",
       "dataMorte": "22 de maio de 1457",
-      "x": 1075,
-      "y": 2662.5
+      "x": 1519,
+      "y": 2962.5
     },
     {
       "id": "200",
@@ -2203,20 +2596,43 @@
       "paisNasc": "IT",
       "dataMorte": "28 de junho de 683",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/03-julho-s-leao-ii-papa-e-confessor.html",
-      "x": 2011,
-      "y": 1987.5
+      "x": 2336,
+      "y": 2362.5
     },
     {
       "id": "202",
       "level": 4,
-      "label": "Cirilo e Metódio",
+      "label": "Cirilo",
+      "grupo": "pessoa",
+      "ano": 869,
+      "localNasc": "1089",
+      "dataMorte": "14 de fevereiro de 869",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/07/ss-cirilo-e-medodio-bispos-e-confessores.html",
+      "x": -945,
+      "y": 2437.5
+    },
+    {
+      "id": "1142",
+      "level": 4,
+      "label": "Metódio",
       "grupo": "pessoa",
       "ano": 885,
-      "paisNasc": "GR",
-      "dataMorte": "14 de fevereiro de 869 / 6 de abril de 885",
+      "localNasc": "1089",
+      "dataMorte": "6 de abril de 885",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/ss-cirilo-e-medodio-bispos-e-confessores.html",
-      "x": -1186,
-      "y": 2212.5
+      "x": -704,
+      "y": 2512.5
+    },
+    {
+      "id": "1164",
+      "level": 4,
+      "label": "Anastácio da Pérsia",
+      "grupo": "pessoa",
+      "ano": 628,
+      "localNasc": "1139",
+      "dataMorte": "22 de janeiro de 628",
+      "x": 1466,
+      "y": 2287.5
     },
     {
       "id": "203",
@@ -2224,11 +2640,11 @@
       "label": "Isabel da Hungria",
       "grupo": "pessoa",
       "ano": 1231,
-      "paisNasc": "HU",
+      "localNasc": "1090",
       "dataMorte": "17 de novembro de 1231",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/19-nov-s-isabel-da-hungria-viuva.html",
-      "x": 889,
-      "y": 2362.5
+      "x": 1476,
+      "y": 2662.5
     },
     {
       "id": "803",
@@ -2239,8 +2655,8 @@
       "localNasc": "503",
       "dataMorte": "4 de julho de 1336",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/08-julho-s-isabel-rainha-de-portugal.html",
-      "x": -2025,
-      "y": 2587.5
+      "x": -1581,
+      "y": 2887.5
     },
     {
       "id": "206",
@@ -2251,8 +2667,8 @@
       "localNasc": "317",
       "dataMorte": "12 de julho de 1073",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/12-julho-s-joao-gualberto-abade.html",
-      "x": 872,
-      "y": 2137.5
+      "x": 1291,
+      "y": 2437.5
     },
     {
       "id": "208",
@@ -2260,11 +2676,11 @@
       "label": "Boaventura",
       "grupo": "pessoa",
       "ano": 1274,
-      "paisNasc": "IT",
+      "localNasc": "1091",
       "dataMorte": "15 de julho de 1274",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/s-boaventura-bispo-confessor-e-doutor.html",
-      "x": -516,
-      "y": 2512.5
+      "x": 267,
+      "y": 2812.5
     },
     {
       "id": "209",
@@ -2272,11 +2688,11 @@
       "label": "Henrique",
       "grupo": "pessoa",
       "ano": 1024,
-      "paisNasc": "DE",
+      "localNasc": "1092",
       "dataMorte": "13 de julho de 1024",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/15-julho-santo-henrique-imperador-e.html",
-      "x": -592,
-      "y": 2212.5
+      "x": -173,
+      "y": 2512.5
     },
     {
       "id": "224",
@@ -2284,11 +2700,11 @@
       "label": "Bonifácio",
       "grupo": "pessoa",
       "ano": 754,
-      "paisNasc": "GB",
+      "localNasc": "1093",
       "dataMorte": "5 de junho de 754",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/05-junho-s-bonifacio-bispo-e-martir.html",
-      "x": -1511,
-      "y": 2137.5
+      "x": -1200,
+      "y": 2512.5
     },
     {
       "id": "225",
@@ -2296,11 +2712,11 @@
       "label": "Norberto",
       "grupo": "pessoa",
       "ano": 1134,
-      "paisNasc": "DE",
+      "localNasc": "1094",
       "dataMorte": "6 de junho de 1134",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/06-junho-s-norberto-bispo-e-confessor.html",
-      "x": -1990,
-      "y": 2362.5
+      "x": -1403,
+      "y": 2662.5
     },
     {
       "id": "227",
@@ -2308,11 +2724,11 @@
       "label": "Margarida",
       "grupo": "pessoa",
       "ano": 1093,
-      "paisNasc": "HU",
+      "localNasc": "1095",
       "dataMorte": "16 de novembro de 1093",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/17-out-s-margarida-maria-alacoque-virgem.html",
-      "x": 2025,
-      "y": 2137.5
+      "x": -2140,
+      "y": 2587.5
     },
     {
       "id": "232",
@@ -2323,8 +2739,8 @@
       "localNasc": "317",
       "dataMorte": "cerca de 1258",
       "urlPost": "https://f1descatholica.blogspot.com/2026/06/19-junho-s-juliana-falconieri-virgem.html",
-      "x": -1781,
-      "y": 2512.5
+      "x": -998,
+      "y": 2812.5
     },
     {
       "id": "234",
@@ -2332,11 +2748,11 @@
       "label": "Silvério",
       "grupo": "pessoa",
       "ano": 537,
-      "paisNasc": "IT",
+      "localNasc": "1096",
       "dataMorte": "2 de dezembro de 537",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/20-junho-na-oitava-de-corpus-christi.html",
-      "x": -1536,
-      "y": 2062.5
+      "x": -1627,
+      "y": 2362.5
     },
     {
       "id": "238",
@@ -2344,11 +2760,11 @@
       "label": "Guilherme",
       "grupo": "pessoa",
       "ano": 1142,
-      "paisNasc": "IT",
+      "localNasc": "1097",
       "dataMorte": "25 de junho de 1142",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/25-junho-s-guilherme-abade.html",
-      "x": -1721,
-      "y": 2287.5
+      "x": -1134,
+      "y": 2587.5
     },
     {
       "id": "403",
@@ -2358,8 +2774,8 @@
       "ano": 584,
       "localNasc": "26",
       "dataMorte": "cerca de 584",
-      "x": 117,
-      "y": 1987.5
+      "x": 26,
+      "y": 2287.5
     },
     {
       "id": "407",
@@ -2369,8 +2785,8 @@
       "ano": 1086,
       "paisNasc": "DK",
       "dataMorte": "10 de julho de 1086",
-      "x": 1770,
-      "y": 2212.5
+      "x": 2189,
+      "y": 2512.5
     },
     {
       "id": "410",
@@ -2381,8 +2797,8 @@
       "localNasc": "504",
       "dataMorte": "6 de janeiro de 1275",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-23-jan-s-raimundo-de.html",
-      "x": -149,
-      "y": 2437.5
+      "x": 634,
+      "y": 2737.5
     },
     {
       "id": "415",
@@ -2390,11 +2806,11 @@
       "label": "Pedro Nolasco",
       "grupo": "pessoa",
       "ano": 1256,
-      "paisNasc": "FR",
+      "localNasc": "1098",
       "dataMorte": "cerca de 1256",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-28-jan-s-pedro-nolasco.html",
-      "x": -2319,
-      "y": 2512.5
+      "x": -1536,
+      "y": 2812.5
     },
     {
       "id": "417",
@@ -2405,8 +2821,8 @@
       "localNasc": "317",
       "dataMorte": "6 de janeiro de 1374",
       "urlPost": "https://f1descatholica.blogspot.com/2026/02/04-fev-s-andre-corsini-bispo-e-confessor.html",
-      "x": -1410,
-      "y": 2587.5
+      "x": -966,
+      "y": 2887.5
     },
     {
       "id": "420",
@@ -2417,8 +2833,8 @@
       "localNasc": "310",
       "dataMorte": "19 de junho de 1027",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-07-fev-s-romualdo.html",
-      "x": -330,
-      "y": 2137.5
+      "x": 89,
+      "y": 2437.5
     },
     {
       "id": "421",
@@ -2426,11 +2842,11 @@
       "label": "João da Mata",
       "grupo": "pessoa",
       "ano": 1213,
-      "paisNasc": "FR",
+      "localNasc": "1099",
       "dataMorte": "17 de dezembro de 1213",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/liturgia-diaria-08-fev-s-joao-da-mata.html",
-      "x": -250,
-      "y": 2362.5
+      "x": 337,
+      "y": 2662.5
     },
     {
       "id": "425",
@@ -2440,8 +2856,8 @@
       "ano": 1310,
       "localNasc": "317",
       "dataMorte": "cerca de 1310",
-      "x": 2039,
-      "y": 2437.5
+      "x": -2448,
+      "y": 2887.5
     },
     {
       "id": "428",
@@ -2452,8 +2868,8 @@
       "localNasc": "310",
       "dataMorte": "21 de fevereiro de 1072",
       "urlPost": "https://f1descatholica.blogspot.com/2026/02/23-fev-s-pedro-damiao-bispo-e-doutor.html",
-      "x": 540,
-      "y": 2212.5
+      "x": 959,
+      "y": 2512.5
     },
     {
       "id": "430",
@@ -2464,8 +2880,8 @@
       "localNasc": "515",
       "dataMorte": "4 de março de 1484",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/liturgia-diaria-04-mar-s-casimiro.html",
-      "x": 2095,
-      "y": 2662.5
+      "x": 2539,
+      "y": 2962.5
     },
     {
       "id": "434",
@@ -2476,8 +2892,8 @@
       "localNasc": "26",
       "dataMorte": "9 de março de 1440",
       "urlPost": "https://f1descatholica.blogspot.com/2026/03/8-mar-francisca-romana-widow.html",
-      "x": -33,
-      "y": 2587.5
+      "x": 411,
+      "y": 2887.5
     },
     {
       "id": "436",
@@ -2488,8 +2904,8 @@
       "localNasc": "26",
       "dataMorte": "12 de março de 604",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/12-marco-s-gregorio-magno.html",
-      "x": 718,
-      "y": 1987.5
+      "x": 627,
+      "y": 2287.5
     },
     {
       "id": "442",
@@ -2500,8 +2916,8 @@
       "localNasc": "519",
       "dataMorte": "4 de dezembro de 749",
       "urlPost": "https://f1descatholica.blogspot.com/2025/03/27-mar-s-joao-damasceno-confessor-e.html",
-      "x": -1822,
-      "y": 2212.5
+      "x": -1511,
+      "y": 2437.5
     },
     {
       "id": "443",
@@ -2509,11 +2925,11 @@
       "label": "Isidoro",
       "grupo": "pessoa",
       "ano": 636,
-      "paisNasc": "ES",
+      "localNasc": "1100",
       "dataMorte": "4 de abril de 636",
       "urlPost": "https://f1descatholica.blogspot.com/2025/04/4-abril-s-isidoro-confessor-e-doutor.html",
-      "x": 1473,
-      "y": 1987.5
+      "x": 1798,
+      "y": 2362.5
     },
     {
       "id": "444",
@@ -2524,8 +2940,8 @@
       "localNasc": "521",
       "dataMorte": "5 de abril de 1419",
       "urlPost": "https://f1descatholica.blogspot.com/2025/04/5-abril-s-vicente-ferrer-confessor.html",
-      "x": -697,
-      "y": 2587.5
+      "x": -253,
+      "y": 2887.5
     },
     {
       "id": "446",
@@ -2533,11 +2949,11 @@
       "label": "Hermenegildo",
       "grupo": "pessoa",
       "ano": 585,
-      "paisNasc": "ES",
+      "localNasc": "1101",
       "dataMorte": "13 de abril de 585",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/13-abril-s-hermenegildo-martir.html",
-      "x": 386,
-      "y": 2062.5
+      "x": 295,
+      "y": 2362.5
     },
     {
       "id": "450",
@@ -2545,11 +2961,11 @@
       "label": "Anselmo",
       "grupo": "pessoa",
       "ano": 1109,
-      "paisNasc": "IT",
+      "localNasc": "1102",
       "dataMorte": "21 de abril de 1109",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/21-abril-s-anselmo-bispo-confessor-e.html",
-      "x": -2245,
-      "y": 2287.5
+      "x": -1658,
+      "y": 2587.5
     },
     {
       "id": "458",
@@ -2557,11 +2973,11 @@
       "label": "Pedro de Verona",
       "grupo": "pessoa",
       "ano": 1252,
-      "paisNasc": "IT",
+      "localNasc": "1103",
       "dataMorte": "6 de abril de 1252",
       "urlPost": "https://f1descatholica.blogspot.com/2025/04/29-abril-sao-pedro-de-verona-martir.html",
-      "x": 1871,
-      "y": 2287.5
+      "x": -2420,
+      "y": 2737.5
     },
     {
       "id": "459",
@@ -2572,8 +2988,8 @@
       "localNasc": "527",
       "dataMorte": "29 de abril de 1380",
       "urlPost": "https://f1descatholica.blogspot.com/2026/08/santa-catarina-de-sena-e-crise-da.html",
-      "x": -1057,
-      "y": 2662.5
+      "x": -613,
+      "y": 2962.5
     },
     {
       "id": "602",
@@ -2584,8 +3000,8 @@
       "localNasc": "515",
       "dataMorte": "11 de abril de 1079",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/6-maio-s-estanislau-bispo-e-martir.html",
-      "x": 1190,
-      "y": 2212.5
+      "x": 1609,
+      "y": 2512.5
     },
     {
       "id": "605",
@@ -2596,8 +3012,8 @@
       "localNasc": "317",
       "dataMorte": "2 de maio de 1459",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/10-maio-santo-antonino-bispo-e-confessor.html",
-      "x": 1309,
-      "y": 2587.5
+      "x": 1753,
+      "y": 2887.5
     },
     {
       "id": "611",
@@ -2605,11 +3021,11 @@
       "label": "Ubaldo",
       "grupo": "pessoa",
       "ano": 1160,
-      "paisNasc": "IT",
+      "localNasc": "1104",
       "dataMorte": "16 de maio de 1160",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/16-maio-santo-ubaldo-bispo-e-confessor.html",
-      "x": -1204,
-      "y": 2287.5
+      "x": -617,
+      "y": 2587.5
     },
     {
       "id": "614",
@@ -2617,11 +3033,11 @@
       "label": "Pedro Celestino",
       "grupo": "pessoa",
       "ano": 1296,
-      "paisNasc": "IT",
+      "localNasc": "1105",
       "dataMorte": "19 de maio de 1296",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/19-maio-s-pedro-celestino-papa-e.html",
-      "x": 931,
-      "y": 2512.5
+      "x": 1714,
+      "y": 2812.5
     },
     {
       "id": "616",
@@ -2629,11 +3045,11 @@
       "label": "Bernardino de Sena",
       "grupo": "pessoa",
       "ano": 1444,
-      "paisNasc": "IT",
+      "localNasc": "1106",
       "dataMorte": "20 de maio de 1444",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/20-maio-s-bernardino-de-sena-confessor.html",
-      "x": 355,
-      "y": 2662.5
+      "x": 799,
+      "y": 2962.5
     },
     {
       "id": "617",
@@ -2641,11 +3057,11 @@
       "label": "Gregório VII",
       "grupo": "pessoa",
       "ano": 1085,
-      "paisNasc": "IT",
+      "localNasc": "1107",
       "dataMorte": "25 de maio de 1085",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/a-supremacia-de-cristo-rei-versus.html",
-      "x": 1494,
-      "y": 2137.5
+      "x": 1913,
+      "y": 2437.5
     },
     {
       "id": "621",
@@ -2653,11 +3069,11 @@
       "label": "Beda, o Venerável",
       "grupo": "pessoa",
       "ano": 735,
-      "paisNasc": "GB",
+      "localNasc": "1108",
       "dataMorte": "25 de maio de 735",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/27-maio-s-beda-o-veneravel-confessor-e_27.html",
-      "x": -2189,
-      "y": 2137.5
+      "x": -1878,
+      "y": 2512.5
     },
     {
       "id": "622",
@@ -2668,8 +3084,8 @@
       "paisNasc": "IT",
       "dataMorte": "18 de maio de 526",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/27-maio-sao-joao-i-papa-e-martir-o-bom.html",
-      "x": -2252,
-      "y": 1987.5
+      "x": -2343,
+      "y": 2287.5
     },
     {
       "id": "623",
@@ -2680,8 +3096,8 @@
       "localNasc": "26",
       "dataMorte": "26 de maio de 604",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/28-maio-sao-agostinho-de-cantuaria.html",
-      "x": 1120,
-      "y": 2062.5
+      "x": 1029,
+      "y": 2362.5
     },
     {
       "id": "626",
@@ -2689,11 +3105,11 @@
       "label": "Joana d'Arc",
       "grupo": "pessoa",
       "ano": 1431,
-      "paisNasc": "FR",
+      "localNasc": "1109",
       "dataMorte": "30 de maio de 1431",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/30-maio-feria.html",
-      "x": -372,
-      "y": 2662.5
+      "x": 72,
+      "y": 2962.5
     },
     {
       "id": "627",
@@ -2701,10 +3117,10 @@
       "label": "Fernando III",
       "grupo": "pessoa",
       "ano": 1252,
-      "paisNasc": "ES",
+      "localNasc": "1110",
       "dataMorte": "30 de maio de 1252",
-      "x": 2210,
-      "y": 2362.5
+      "x": -2081,
+      "y": 2812.5
     },
     {
       "id": "640",
@@ -2712,11 +3128,11 @@
       "label": "Jacinto",
       "grupo": "pessoa",
       "ano": 1257,
-      "paisNasc": "PL",
+      "localNasc": "1111",
       "dataMorte": "15 de agosto de 1257",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/11-set-ss-proto-e-jacinto-martires.html",
-      "x": -2029,
-      "y": 2437.5
+      "x": -1246,
+      "y": 2737.5
     },
     {
       "id": "645",
@@ -2727,8 +3143,8 @@
       "localNasc": "317",
       "dataMorte": "22 de agosto de 1285",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/23-ago-s-filipe-benicio-confessor.html",
-      "x": 578,
-      "y": 2437.5
+      "x": 1361,
+      "y": 2737.5
     },
     {
       "id": "646",
@@ -2736,11 +3152,11 @@
       "label": "Luís IX",
       "grupo": "pessoa",
       "ano": 1270,
-      "paisNasc": "FR",
+      "localNasc": "1112",
       "dataMorte": "25 de agosto de 1270",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/25-ago-s-luis-rei-confessor.html",
-      "x": -1145,
-      "y": 2512.5
+      "x": -362,
+      "y": 2812.5
     },
     {
       "id": "650",
@@ -2748,11 +3164,11 @@
       "label": "Raimundo Nonato",
       "grupo": "pessoa",
       "ano": 1240,
-      "paisNasc": "ES",
+      "localNasc": "1113",
       "dataMorte": "31 de agosto de 1240",
       "urlPost": "https://f1descatholica.blogspot.com/2026/08/3108-s-raimundo-nonato-confessor.html",
-      "x": 1263,
-      "y": 2287.5
+      "x": 1850,
+      "y": 2587.5
     },
     {
       "id": "651",
@@ -2760,11 +3176,11 @@
       "label": "Egídio",
       "grupo": "pessoa",
       "ano": 710,
-      "paisNasc": "GR",
+      "localNasc": "1071",
       "dataMorte": "cerca de 710",
       "urlPost": "https://f1descatholica.blogspot.com/2026/09/01-setembro-santo-egidio-abade-santa.html",
-      "x": 2252,
-      "y": 2062.5
+      "x": -2189,
+      "y": 2437.5
     },
     {
       "id": "653",
@@ -2772,11 +3188,11 @@
       "label": "Estêvão (Rei)",
       "grupo": "pessoa",
       "ano": 1038,
-      "paisNasc": "HU",
+      "localNasc": "1114",
       "dataMorte": "15 de agosto de 1038",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/02-set-s-estevao-rei-confessor.html",
-      "x": -33,
-      "y": 2212.5
+      "x": 386,
+      "y": 2512.5
     },
     {
       "id": "654",
@@ -2786,8 +3202,8 @@
       "ano": 1456,
       "localNasc": "525",
       "dataMorte": "8 de janeiro de 1456",
-      "x": 764,
-      "y": 2587.5
+      "x": 1208,
+      "y": 2887.5
     },
     {
       "id": "656",
@@ -2795,11 +3211,11 @@
       "label": "Nicolau de Tolentino",
       "grupo": "pessoa",
       "ano": 1305,
-      "paisNasc": "IT",
+      "localNasc": "1115",
       "dataMorte": "10 de setembro de 1305",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/10-de-setembro-sao-nicolau-de-tolentino.html",
-      "x": 1602,
-      "y": 2512.5
+      "x": 2385,
+      "y": 2812.5
     },
     {
       "id": "667",
@@ -2807,11 +3223,11 @@
       "label": "Venceslau",
       "grupo": "pessoa",
       "ano": 935,
-      "paisNasc": "CZ",
+      "localNasc": "1116",
       "dataMorte": "28 de setembro de 935",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/28-set-s-venceslau-duque-e-martir.html",
-      "x": -861,
-      "y": 2137.5
+      "x": -442,
+      "y": 2437.5
     },
     {
       "id": "669",
@@ -2819,11 +3235,11 @@
       "label": "Remígio",
       "grupo": "pessoa",
       "ano": 533,
-      "paisNasc": "FR",
+      "localNasc": "1117",
       "dataMorte": "13 de janeiro de 533",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/01-out-s-remigio-bispo-e-confessor.html",
-      "x": -1791,
-      "y": 1987.5
+      "x": -1882,
+      "y": 2287.5
     },
     {
       "id": "670",
@@ -2834,8 +3250,8 @@
       "localNasc": "26",
       "dataMorte": "cerca de 541",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/ss-placido-e-companheiros-martires-5-out.html",
-      "x": -1176,
-      "y": 1987.5
+      "x": -1267,
+      "y": 2287.5
     },
     {
       "id": "671",
@@ -2843,11 +3259,11 @@
       "label": "Bruno",
       "grupo": "pessoa",
       "ano": 1101,
-      "paisNasc": "DE",
+      "localNasc": "1118",
       "dataMorte": "6 de outubro de 1101",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/06-out-s-bruno-confessor.html",
-      "x": 2273,
-      "y": 2212.5
+      "x": -1892,
+      "y": 2662.5
     },
     {
       "id": "672",
@@ -2855,11 +3271,11 @@
       "label": "Brígida",
       "grupo": "pessoa",
       "ano": 1373,
-      "paisNasc": "SE",
+      "localNasc": "1119",
       "dataMorte": "23 de julho de 1373",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/08-out-s-brigida-viuva.html",
-      "x": -1700,
-      "y": 2662.5
+      "x": -1256,
+      "y": 2962.5
     },
     {
       "id": "676",
@@ -2867,11 +3283,11 @@
       "label": "Eduardo",
       "grupo": "pessoa",
       "ano": 1066,
-      "paisNasc": "GB",
+      "localNasc": "1120",
       "dataMorte": "5 de janeiro de 1066",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/13-out-s-eduardo-rei-e-confessor.html",
-      "x": 257,
-      "y": 2137.5
+      "x": 676,
+      "y": 2437.5
     },
     {
       "id": "678",
@@ -2879,10 +3295,10 @@
       "label": "Edwiges",
       "grupo": "pessoa",
       "ano": 1243,
-      "paisNasc": "DE",
+      "localNasc": "1121",
       "dataMorte": "15 de outubro de 1243",
-      "x": 1567,
-      "y": 2362.5
+      "x": 2154,
+      "y": 2662.5
     },
     {
       "id": "682",
@@ -2890,11 +3306,11 @@
       "label": "João Câncio",
       "grupo": "pessoa",
       "ano": 1473,
-      "paisNasc": "PL",
+      "localNasc": "1122",
       "dataMorte": "24 de dezembro de 1473",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/20-out-s-joao-cancio-confessor.html",
-      "x": 1812,
-      "y": 2587.5
+      "x": 2256,
+      "y": 2887.5
     },
     {
       "id": "689",
@@ -2905,8 +3321,8 @@
       "paisNasc": "FR",
       "dataMorte": "cerca de 559",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/06-nov-s-leonardo-de-limousin-confessor.html",
-      "x": -208,
-      "y": 2062.5
+      "x": -299,
+      "y": 2362.5
     },
     {
       "id": "694",
@@ -2914,11 +3330,11 @@
       "label": "Martinho I",
       "grupo": "pessoa",
       "ano": 655,
-      "paisNasc": "IT",
+      "localNasc": "1123",
       "dataMorte": "16 de setembro de 655",
       "urlPost": "https://f1descatholica.blogspot.com/2025/11/12-nov-s-martinho-i-papa-e-martir.html",
-      "x": 1742,
-      "y": 2062.5
+      "x": 2067,
+      "y": 2287.5
     },
     {
       "id": "695",
@@ -2926,11 +3342,11 @@
       "label": "Diogo",
       "grupo": "pessoa",
       "ano": 1463,
-      "paisNasc": "ES",
+      "localNasc": "1124",
       "dataMorte": "12 de novembro de 1463",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/13-nov-s-diogo-confessor.html",
-      "x": 1550,
-      "y": 2662.5
+      "x": 1994,
+      "y": 2962.5
     },
     {
       "id": "697",
@@ -2938,11 +3354,11 @@
       "label": "Alberto Magno",
       "grupo": "pessoa",
       "ano": 1280,
-      "paisNasc": "DE",
+      "localNasc": "1125",
       "dataMorte": "15 de novembro de 1280",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/15-nov-s-alberto-magno-bispo-confessor.html",
-      "x": 239,
-      "y": 2512.5
+      "x": 1022,
+      "y": 2812.5
     },
     {
       "id": "698",
@@ -2953,8 +3369,8 @@
       "paisNasc": "DE",
       "dataMorte": "17 de novembro de 1302",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/16-nov-s-gertrudes-virgem.html",
-      "x": 1249,
-      "y": 2437.5
+      "x": 2032,
+      "y": 2737.5
     },
     {
       "id": "700",
@@ -2965,8 +3381,8 @@
       "paisNasc": "FR",
       "dataMorte": "4 de novembro de 1212",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/20-nov-s-felix-de-valois-confessor.html",
-      "x": -589,
-      "y": 2287.5
+      "x": -2,
+      "y": 2587.5
     },
     {
       "id": "706",
@@ -2974,11 +3390,11 @@
       "label": "Silvestre (Abade)",
       "grupo": "pessoa",
       "ano": 1267,
-      "paisNasc": "IT",
+      "localNasc": "1126",
       "dataMorte": "26 de novembro de 1267",
       "urlPost": "https://f1descatholica.blogspot.com/2025/11/26-nov-s-silvestre-abade.html",
-      "x": -1463,
-      "y": 2437.5
+      "x": -680,
+      "y": 2737.5
     },
     {
       "id": "711",
@@ -2986,11 +3402,11 @@
       "label": "Sabas",
       "grupo": "pessoa",
       "ano": 532,
-      "paisNasc": "TR",
+      "localNasc": "1127",
       "dataMorte": "5 de dezembro de 532",
       "urlPost": "https://f1descatholica.blogspot.com/2025/12/05-dez-s-sabas-abade.html",
-      "x": -2025,
-      "y": 2062.5
+      "x": -2116,
+      "y": 2362.5
     },
     {
       "id": "719",
@@ -2998,11 +3414,11 @@
       "label": "Tomás Becket",
       "grupo": "pessoa",
       "ano": 1170,
-      "paisNasc": "GB",
+      "localNasc": "1128",
       "dataMorte": "29 de dezembro de 1170",
       "urlPost": "https://f1descatholica.blogspot.com/2025/12/29-dez-s-tomas-becket-bispo-e-martir.html",
-      "x": -928,
-      "y": 2362.5
+      "x": -341,
+      "y": 2662.5
     },
     {
       "id": "724",
@@ -3012,8 +3428,8 @@
       "ano": 1317,
       "localNasc": "837",
       "dataMorte": "20 de abril de 1317",
-      "x": 2483,
-      "y": 2512.5
+      "x": -2004,
+      "y": 2962.5
     },
     {
       "id": "14",
@@ -3024,7 +3440,7 @@
       "localNasc": "820",
       "dataMorte": "31 de julho de 1556",
       "x": -463,
-      "y": 2737.5
+      "y": 3037.5
     },
     {
       "id": "15",
@@ -3036,7 +3452,7 @@
       "dataMorte": "3 de dezembro de 1552",
       "urlPost": "https://f1descatholica.blogspot.com/2024/12/liturgia-diaria-03-dez-s-francisco.html",
       "x": -1225,
-      "y": 2737.5
+      "y": 3037.5
     },
     {
       "id": "12",
@@ -3047,7 +3463,7 @@
       "localNasc": "149",
       "dataMorte": "4 de outubro de 1582",
       "x": 921,
-      "y": 2737.5
+      "y": 3037.5
     },
     {
       "id": "13",
@@ -3059,7 +3475,7 @@
       "dataMorte": "14 de dezembro de 1591",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/24-nov-s-joao-da-cruz-confessor-e.html",
       "x": 1931,
-      "y": 2812.5
+      "y": 3112.5
     },
     {
       "id": "75",
@@ -3071,7 +3487,7 @@
       "dataMorte": "28 de dezembro de 1622",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-29-jan-sao-francisco-de.html",
       "x": -243,
-      "y": 2962.5
+      "y": 3262.5
     },
     {
       "id": "201",
@@ -3083,7 +3499,7 @@
       "dataMorte": "5 de julho de 1539",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/05-julho-s-antonio-maria-zaccaria.html",
       "x": -2165,
-      "y": 2812.5
+      "y": 3112.5
     },
     {
       "id": "211",
@@ -3095,7 +3511,7 @@
       "dataMorte": "14 de julho de 1614",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/18-julho-s-camilo-de-lellis-confessor.html",
       "x": -1337,
-      "y": 2887.5
+      "y": 3187.5
     },
     {
       "id": "212",
@@ -3107,7 +3523,7 @@
       "dataMorte": "27 de setembro de 1660",
       "urlPost": "https://f1descatholica.blogspot.com/2025/07/19-julho-s-vicente-de-paulo-confessor.html",
       "x": 2417,
-      "y": 2887.5
+      "y": 3187.5
     },
     {
       "id": "213",
@@ -3119,7 +3535,7 @@
       "dataMorte": "8 de fevereiro de 1537",
       "urlPost": "https://f1descatholica.blogspot.com/2026/07/20-julho-s-jeronimo-emiliani-confessor.html",
       "x": -2546,
-      "y": 2737.5
+      "y": 3037.5
     },
     {
       "id": "235",
@@ -3131,7 +3547,7 @@
       "dataMorte": "21 de junho de 1591",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/21-junho-s-luis-gonzaga-confessor.html",
       "x": 1613,
-      "y": 2737.5
+      "y": 3037.5
     },
     {
       "id": "433",
@@ -3143,7 +3559,7 @@
       "dataMorte": "8 de março de 1550",
       "urlPost": "https://f1descatholica.blogspot.com/2025/02/8-marco-s-joao-de-deus-confessor.html",
       "x": -1571,
-      "y": 2812.5
+      "y": 3112.5
     },
     {
       "id": "452",
@@ -3154,7 +3570,7 @@
       "localNasc": "833",
       "dataMorte": "24 de abril de 1622",
       "x": 180,
-      "y": 2887.5
+      "y": 3187.5
     },
     {
       "id": "455",
@@ -3166,7 +3582,7 @@
       "dataMorte": "21 de dezembro de 1597",
       "urlPost": "https://f1descatholica.blogspot.com/2026/04/27-abril-s-pedro-canisio-confessor-e.html",
       "x": -2826,
-      "y": 2887.5
+      "y": 3187.5
     },
     {
       "id": "456",
@@ -3178,7 +3594,7 @@
       "dataMorte": "18 de outubro de 1775",
       "urlPost": "https://f1descatholica.blogspot.com/2025/06/28-junho-vigilia-dos-ss-pedro-e-paulo.html",
       "x": 416,
-      "y": 3112.5
+      "y": 3412.5
     },
     {
       "id": "601",
@@ -3190,7 +3606,7 @@
       "dataMorte": "1 de maio de 1572",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/05-maio-s-pio-v-papa-e-confessor.html",
       "x": 236,
-      "y": 2737.5
+      "y": 3037.5
     },
     {
       "id": "608",
@@ -3202,7 +3618,7 @@
       "dataMorte": "17 de setembro de 1621",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/13-maio-sao-roberto-belarmino-bispo.html",
       "x": -638,
-      "y": 2887.5
+      "y": 3187.5
     },
     {
       "id": "610",
@@ -3214,7 +3630,7 @@
       "dataMorte": "7 de abril de 1719",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/15-maio-s-joao-batista-de-la-salle.html",
       "x": 7,
-      "y": 3037.5
+      "y": 3337.5
     },
     {
       "id": "612",
@@ -3226,7 +3642,7 @@
       "dataMorte": "17 de maio de 1592",
       "urlPost": "https://f1descatholica.blogspot.com/2025/05/17-maio-s-pascoal-bailao-confessor.html",
       "x": 2263,
-      "y": 2737.5
+      "y": 3037.5
     },
     {
       "id": "619",
@@ -3237,7 +3653,7 @@
       "localNasc": "317",
       "dataMorte": "26 de maio de 1595",
       "x": 2588,
-      "y": 2812.5
+      "y": 3112.5
     },
     {
       "id": "624",
@@ -3249,7 +3665,7 @@
       "dataMorte": "25 de maio de 1607",
       "urlPost": "https://f1descatholica.blogspot.com/2026/05/29-maio-santa-maria-madalena-de-pazzi.html",
       "x": -2424,
-      "y": 2962.5
+      "y": 3262.5
     },
     {
       "id": "629",
@@ -3260,7 +3676,7 @@
       "localNasc": "840",
       "dataMorte": "1 de agosto de 1787",
       "x": 797,
-      "y": 3037.5
+      "y": 3337.5
     },
     {
       "id": "633",
@@ -3272,7 +3688,7 @@
       "dataMorte": "7 de agosto de 1547",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/07-ago-s-caetano-confessor.html",
       "x": -1854,
-      "y": 2737.5
+      "y": 3037.5
     },
     {
       "id": "642",
@@ -3284,7 +3700,7 @@
       "dataMorte": "19 de agosto de 1680",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/19-ago-s-joao-eudes-confessor.html",
       "x": -867,
-      "y": 3037.5
+      "y": 3337.5
     },
     {
       "id": "643",
@@ -3296,7 +3712,7 @@
       "dataMorte": "13 de dezembro de 1641",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/21-ago-s-joana-francisca-fremiot-de.html",
       "x": 1295,
-      "y": 2962.5
+      "y": 3262.5
     },
     {
       "id": "648",
@@ -3308,7 +3724,7 @@
       "dataMorte": "25 de agosto de 1648",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/27-ago-s-jose-de-calasanz-confessor.html",
       "x": 2043,
-      "y": 2962.5
+      "y": 3262.5
     },
     {
       "id": "649",
@@ -3320,7 +3736,7 @@
       "dataMorte": "24 de agosto de 1617",
       "urlPost": "https://f1descatholica.blogspot.com/2025/08/30-de-ago-santa-rosa-de-lima-virgem.html",
       "x": -991,
-      "y": 2962.5
+      "y": 3262.5
     },
     {
       "id": "659",
@@ -3332,7 +3748,7 @@
       "dataMorte": "18 de setembro de 1663",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/18-set-s-jose-de-cupertino-confessor.html",
       "x": 2798,
-      "y": 2962.5
+      "y": 3262.5
     },
     {
       "id": "662",
@@ -3340,11 +3756,11 @@
       "label": "Tomás de Vilanova",
       "grupo": "pessoa",
       "ano": 1555,
-      "paisNasc": "ES",
+      "localNasc": "1129",
       "dataMorte": "8 de setembro de 1555",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/22-set-s-tomas-de-vilanova-bispo-e.html",
       "x": -844,
-      "y": 2812.5
+      "y": 3112.5
     },
     {
       "id": "673",
@@ -3352,11 +3768,11 @@
       "label": "João Leonardo",
       "grupo": "pessoa",
       "ano": 1609,
-      "paisNasc": "IT",
+      "localNasc": "1130",
       "dataMorte": "9 de outubro de 1609",
       "urlPost": "https://f1descatholica.blogspot.com/2024/09/carta-padre-leonardo-holtz-arcebispo.html",
       "x": -1690,
-      "y": 2962.5
+      "y": 3262.5
     },
     {
       "id": "675",
@@ -3364,10 +3780,10 @@
       "label": "Francisco de Borja",
       "grupo": "pessoa",
       "ano": 1572,
-      "paisNasc": "ES",
+      "localNasc": "1131",
       "dataMorte": "30 de setembro de 1572",
       "x": 547,
-      "y": 2812.5
+      "y": 3112.5
     },
     {
       "id": "679",
@@ -3375,11 +3791,11 @@
       "label": "Margarida Maria Alacoque",
       "grupo": "pessoa",
       "ano": 1690,
-      "paisNasc": "FR",
+      "localNasc": "1132",
       "dataMorte": "17 de outubro de 1690",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/17-out-s-margarida-maria-alacoque-virgem.html",
       "x": -479,
-      "y": 3112.5
+      "y": 3412.5
     },
     {
       "id": "681",
@@ -3387,11 +3803,11 @@
       "label": "Pedro de Alcântara",
       "grupo": "pessoa",
       "ano": 1562,
-      "paisNasc": "ES",
+      "localNasc": "1133",
       "dataMorte": "18 de outubro de 1562",
       "urlPost": "https://f1descatholica.blogspot.com/2026/10/19-out-s-pedro-de-alcantara-confessor.html",
       "x": -75,
-      "y": 2812.5
+      "y": 3112.5
     },
     {
       "id": "688",
@@ -3399,11 +3815,11 @@
       "label": "Carlos Borromeu",
       "grupo": "pessoa",
       "ano": 1584,
-      "paisNasc": "IT",
+      "localNasc": "1134",
       "dataMorte": "3 de novembro de 1584",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/04-nov-s-carlos-borromeu-bispo-e.html",
       "x": 1274,
-      "y": 2812.5
+      "y": 3112.5
     },
     {
       "id": "692",
@@ -3411,11 +3827,11 @@
       "label": "André Avelino",
       "grupo": "pessoa",
       "ano": 1608,
-      "paisNasc": "IT",
+      "localNasc": "1135",
       "dataMorte": "10 de novembro de 1608",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/10-nov-s-andre-avelino-confessor.html",
       "x": -2022,
-      "y": 2887.5
+      "y": 3187.5
     },
     {
       "id": "696",
@@ -3423,11 +3839,11 @@
       "label": "Josafá",
       "grupo": "pessoa",
       "ano": 1623,
-      "paisNasc": "UA",
+      "localNasc": "1136",
       "dataMorte": "12 de novembro de 1623",
       "urlPost": "https://f1descatholica.blogspot.com/2026/11/14-nov-s-josafa-bispo-e-martir.html",
       "x": 519,
-      "y": 2962.5
+      "y": 3262.5
     },
     {
       "id": "722",
@@ -3438,7 +3854,7 @@
       "localNasc": "806",
       "dataMorte": "3 de novembro de 1639",
       "x": 837,
-      "y": 2887.5
+      "y": 3187.5
     },
     {
       "id": "723",
@@ -3446,10 +3862,10 @@
       "label": "João Macias",
       "grupo": "pessoa",
       "ano": 1645,
-      "paisNasc": "ES",
+      "localNasc": "1137",
       "dataMorte": "16 de setembro de 1645",
       "x": 1704,
-      "y": 2887.5
+      "y": 3187.5
     },
     {
       "id": "16",
@@ -3460,7 +3876,7 @@
       "localNasc": "824",
       "dataMorte": "4 de agosto de 1859",
       "x": -893,
-      "y": 3187.5
+      "y": 3487.5
     },
     {
       "id": "61",
@@ -3472,7 +3888,7 @@
       "dataMorte": "31 de janeiro de 1888",
       "urlPost": "https://f1descatholica.blogspot.com/2025/01/liturgia-diaria-31-jan-s-joao-bosco.html",
       "x": -110,
-      "y": 3187.5
+      "y": 3487.5
     },
     {
       "id": "17",
@@ -3483,7 +3899,7 @@
       "localNasc": "826",
       "dataMorte": "30 de setembro de 1897",
       "x": 173,
-      "y": 3262.5
+      "y": 3562.5
     },
     {
       "id": "19",
@@ -3495,7 +3911,7 @@
       "dataMorte": "20 de agosto de 1914",
       "urlPost": "https://f1descatholica.blogspot.com/2025/09/03-set-s-pio-x-papa-e-confessor.html",
       "x": 421,
-      "y": 3187.5
+      "y": 3487.5
     },
     {
       "id": "429",
@@ -3503,10 +3919,10 @@
       "label": "Gabriel da V. Dolorosa",
       "grupo": "pessoa",
       "ano": 1862,
-      "paisNasc": "IT",
+      "localNasc": "143",
       "dataMorte": "27 de fevereiro de 1862",
       "x": -484,
-      "y": 3262.5
+      "y": 3562.5
     },
     {
       "id": "609",
@@ -3516,7 +3932,7 @@
       "ano": 1917,
       "ignorarMapa": true,
       "x": 802,
-      "y": 3262.5
+      "y": 3562.5
     },
     {
       "id": "22",
@@ -3524,8 +3940,8 @@
       "categoria": "fundadora",
       "label": "Ordem Beneditina",
       "grupo": "instituicao",
-      "x": -687,
-      "y": 3337.5
+      "x": 47,
+      "y": 3637.5
     },
     {
       "id": "23",
@@ -3533,8 +3949,8 @@
       "categoria": "fundadora",
       "label": "Ordem Franciscana",
       "grupo": "instituicao",
-      "x": 1232,
-      "y": 3412.5
+      "x": 1938,
+      "y": 3712.5
     },
     {
       "id": "24",
@@ -3542,8 +3958,8 @@
       "categoria": "fundadora",
       "label": "Ordem Dominicana",
       "grupo": "instituicao",
-      "x": 1613,
-      "y": 3337.5
+      "x": 421,
+      "y": 3712.5
     },
     {
       "id": "25",
@@ -3551,8 +3967,8 @@
       "categoria": "fundadora",
       "label": "Companhia de Jesus",
       "grupo": "instituicao",
-      "x": -299,
-      "y": 3412.5
+      "x": -341,
+      "y": 3712.5
     },
     {
       "id": "62",
@@ -3561,7 +3977,7 @@
       "label": "Família Salesiana",
       "grupo": "instituicao",
       "x": -2630,
-      "y": 3337.5
+      "y": 3637.5
     },
     {
       "id": "63",
@@ -3570,7 +3986,7 @@
       "label": "Ordem Cisterciense",
       "grupo": "instituicao",
       "x": -187,
-      "y": 3787.5
+      "y": 4087.5
     },
     {
       "id": "41",
@@ -3579,7 +3995,7 @@
       "label": "Carmelo Descalço",
       "grupo": "instituicao",
       "x": 201,
-      "y": 3862.5
+      "y": 4162.5
     },
     {
       "id": "850",
@@ -3587,8 +4003,8 @@
       "categoria": "fundadora",
       "label": "Ordem Agostiniana",
       "grupo": "instituicao",
-      "x": 844,
-      "y": 3337.5
+      "x": 1550,
+      "y": 3637.5
     },
     {
       "id": "851",
@@ -3596,8 +4012,8 @@
       "categoria": "fundadora",
       "label": "Ordem do Carmo",
       "grupo": "instituicao",
-      "x": -2263,
-      "y": 3412.5
+      "x": -1379,
+      "y": 3637.5
     },
     {
       "id": "852",
@@ -3605,8 +4021,8 @@
       "categoria": "fundadora",
       "label": "Ordem Servita",
       "grupo": "instituicao",
-      "x": 1966,
-      "y": 3412.5
+      "x": -708,
+      "y": 3637.5
     },
     {
       "id": "853",
@@ -3614,8 +4030,8 @@
       "categoria": "fundadora",
       "label": "Ordem Trinitária",
       "grupo": "instituicao",
-      "x": 89,
-      "y": 3337.5
+      "x": 795,
+      "y": 3637.5
     },
     {
       "id": "854",
@@ -3623,8 +4039,8 @@
       "categoria": "fundadora",
       "label": "Ordem Mercedária",
       "grupo": "instituicao",
-      "x": 463,
-      "y": 3412.5
+      "x": 1169,
+      "y": 3712.5
     },
     {
       "id": "855",
@@ -3633,7 +4049,7 @@
       "label": "Família Vicentina",
       "grupo": "instituicao",
       "x": 2326,
-      "y": 3337.5
+      "y": 3637.5
     },
     {
       "id": "856",
@@ -3642,7 +4058,7 @@
       "label": "Redentoristas",
       "grupo": "instituicao",
       "x": -1040,
-      "y": 3412.5
+      "y": 3712.5
     },
     {
       "id": "857",
@@ -3650,8 +4066,8 @@
       "categoria": "fundadora",
       "label": "Passionistas",
       "grupo": "instituicao",
-      "x": -1931,
-      "y": 3337.5
+      "x": -2277,
+      "y": 3712.5
     },
     {
       "id": "858",
@@ -3660,7 +4076,7 @@
       "label": "Oratorianos",
       "grupo": "instituicao",
       "x": 2672,
-      "y": 3412.5
+      "y": 3712.5
     },
     {
       "id": "859",
@@ -3668,8 +4084,8 @@
       "categoria": "fundadora",
       "label": "Lassalistas",
       "grupo": "instituicao",
-      "x": -1620,
-      "y": 3412.5
+      "x": -1966,
+      "y": 3637.5
     },
     {
       "id": "860",
@@ -3677,8 +4093,8 @@
       "categoria": "fundadora",
       "label": "Teatinos",
       "grupo": "instituicao",
-      "x": -1337,
-      "y": 3337.5
+      "x": -1683,
+      "y": 3712.5
     },
     {
       "id": "861",
@@ -3686,8 +4102,8 @@
       "categoria": "fundadora",
       "label": "Camilianos",
       "grupo": "instituicao",
-      "x": -907,
-      "y": 3562.5
+      "x": -1061,
+      "y": 3862.5
     },
     {
       "id": "862",
@@ -3695,8 +4111,8 @@
       "categoria": "fundadora",
       "label": "Hospitaleiros",
       "grupo": "instituicao",
-      "x": -1648,
-      "y": 3562.5
+      "x": -2176,
+      "y": 3787.5
     },
     {
       "id": "863",
@@ -3705,7 +4121,7 @@
       "label": "Barnabitas",
       "grupo": "instituicao",
       "x": -2819,
-      "y": 3487.5
+      "y": 3787.5
     },
     {
       "id": "864",
@@ -3713,8 +4129,8 @@
       "categoria": "fundadora",
       "label": "Escolápios",
       "grupo": "instituicao",
-      "x": 2057,
-      "y": 3562.5
+      "x": 2389,
+      "y": 3787.5
     },
     {
       "id": "865",
@@ -3722,8 +4138,8 @@
       "categoria": "fundadora",
       "label": "Visitandinas",
       "grupo": "instituicao",
-      "x": 1033,
-      "y": 3487.5
+      "x": 589,
+      "y": 3862.5
     },
     {
       "id": "866",
@@ -3731,8 +4147,8 @@
       "categoria": "fundadora",
       "label": "Ordem Cartuxa",
       "grupo": "instituicao",
-      "x": 2798,
-      "y": 3562.5
+      "x": -2508,
+      "y": 3862.5
     },
     {
       "id": "867",
@@ -3740,8 +4156,8 @@
       "categoria": "fundadora",
       "label": "Premonstratenses",
       "grupo": "instituicao",
-      "x": -2487,
-      "y": 3562.5
+      "x": -1823,
+      "y": 3862.5
     },
     {
       "id": "32",
@@ -3749,8 +4165,8 @@
       "categoria": "fundadora",
       "label": "Suma Teológica",
       "grupo": "documento",
-      "x": -589,
-      "y": 3487.5
+      "x": 921,
+      "y": 3787.5
     },
     {
       "id": "34",
@@ -3758,8 +4174,8 @@
       "categoria": "fundadora",
       "label": "Exercícios Espirituais",
       "grupo": "documento",
-      "x": -187,
-      "y": 3562.5
+      "x": -201,
+      "y": 3862.5
     },
     {
       "id": "38",
@@ -3767,8 +4183,8 @@
       "categoria": "fundadora",
       "label": "Mística Cristã",
       "grupo": "ideia",
-      "x": 1739,
-      "y": 3487.5
+      "x": 2071,
+      "y": 3862.5
     },
     {
       "id": "900",
@@ -3776,8 +4192,8 @@
       "categoria": "fundadora",
       "label": "Regra de São Bento",
       "grupo": "documento",
-      "x": 243,
-      "y": 3487.5
+      "x": 229,
+      "y": 3787.5
     },
     {
       "id": "901",
@@ -3785,8 +4201,8 @@
       "categoria": "fundadora",
       "label": "Regra de Santo Agostinho",
       "grupo": "documento",
-      "x": -2057,
-      "y": 3487.5
+      "x": -673,
+      "y": 3787.5
     },
     {
       "id": "902",
@@ -3794,8 +4210,8 @@
       "categoria": "fundadora",
       "label": "Regra de São Basílio",
       "grupo": "documento",
-      "x": 659,
-      "y": 3562.5
+      "x": 1309,
+      "y": 3862.5
     },
     {
       "id": "903",
@@ -3803,8 +4219,8 @@
       "categoria": "fundadora",
       "label": "Castelo Interior",
       "grupo": "documento",
-      "x": 1379,
-      "y": 3562.5
+      "x": 1711,
+      "y": 3787.5
     },
     {
       "id": "904",
@@ -3812,8 +4228,8 @@
       "categoria": "fundadora",
       "label": "Noite Escura da Alma",
       "grupo": "documento",
-      "x": 2417,
-      "y": 3487.5
+      "x": 2749,
+      "y": 3862.5
     },
     {
       "id": "905",
@@ -3821,8 +4237,8 @@
       "categoria": "fundadora",
       "label": "História de uma Alma",
       "grupo": "documento",
-      "x": -1267,
-      "y": 3487.5
+      "x": -1421,
+      "y": 3787.5
     },
     {
       "id": "906",
@@ -3830,8 +4246,8 @@
       "categoria": "fundadora",
       "label": "Introdução à Vida Devota",
       "grupo": "documento",
-      "x": 309,
-      "y": 3712.5
+      "x": 711,
+      "y": 3937.5
     },
     {
       "id": "907",
@@ -3839,8 +4255,8 @@
       "categoria": "fundadora",
       "label": "O Diálogo",
       "grupo": "documento",
-      "x": -488,
-      "y": 3712.5
+      "x": 330,
+      "y": 4012.5
     },
     {
       "id": "908",
@@ -3848,8 +4264,8 @@
       "categoria": "fundadora",
       "label": "As Glórias de Maria",
       "grupo": "documento",
-      "x": -142,
-      "y": 3637.5
+      "x": -680,
+      "y": 3937.5
     },
     {
       "id": "909",
@@ -3857,8 +4273,8 @@
       "categoria": "fundadora",
       "label": "Cântico das Criaturas",
       "grupo": "documento",
-      "x": 1330,
-      "y": 3712.5
+      "x": 2078,
+      "y": 4012.5
     },
     {
       "id": "910",
@@ -3866,8 +4282,8 @@
       "categoria": "fundadora",
       "label": "Confissões",
       "grupo": "documento",
-      "x": -1145,
-      "y": 3712.5
+      "x": -327,
+      "y": 4012.5
     },
     {
       "id": "911",
@@ -3875,8 +4291,8 @@
       "categoria": "fundadora",
       "label": "A Cidade de Deus",
       "grupo": "documento",
-      "x": -813,
-      "y": 3637.5
+      "x": 5,
+      "y": 3937.5
     },
     {
       "id": "912",
@@ -3884,8 +4300,8 @@
       "categoria": "fundadora",
       "label": "A Vulgata",
       "grupo": "documento",
-      "x": -1428,
-      "y": 3637.5
+      "x": -1026,
+      "y": 4012.5
     },
     {
       "id": "913",
@@ -3893,8 +4309,8 @@
       "categoria": "fundadora",
       "label": "Contra as Heresias",
       "grupo": "documento",
-      "x": 1753,
-      "y": 3637.5
+      "x": -2099,
+      "y": 3937.5
     },
     {
       "id": "914",
@@ -3902,8 +4318,8 @@
       "categoria": "fundadora",
       "label": "Itinerário da Mente para Deus",
       "grupo": "documento",
-      "x": 830,
-      "y": 3637.5
+      "x": 1232,
+      "y": 4012.5
     },
     {
       "id": "915",
@@ -3911,8 +4327,8 @@
       "categoria": "fundadora",
       "label": "Proslogion",
       "grupo": "documento",
-      "x": -2155,
-      "y": 3637.5
+      "x": -1309,
+      "y": 3937.5
     },
     {
       "id": "916",
@@ -3920,8 +4336,8 @@
       "categoria": "fundadora",
       "label": "Regra Pastoral",
       "grupo": "documento",
-      "x": 2127,
-      "y": 3712.5
+      "x": 1683,
+      "y": 3937.5
     },
     {
       "id": "917",
@@ -3929,8 +4345,8 @@
       "categoria": "fundadora",
       "label": "História Eclesiástica",
       "grupo": "documento",
-      "x": -1788,
-      "y": 3712.5
+      "x": -1676,
+      "y": 4012.5
     },
     {
       "id": "26",
@@ -3942,8 +4358,8 @@
       "iso": "IT",
       "lat": 41.9028,
       "lng": 12.4964,
-      "x": -1330,
-      "y": 3937.5
+      "x": -1344,
+      "y": 4237.5
     },
     {
       "id": "130",
@@ -3955,8 +4371,8 @@
       "iso": "IL",
       "lat": 32.7019,
       "lng": 35.3033,
-      "x": -327,
-      "y": 4312.5
+      "x": -603,
+      "y": 4537.5
     },
     {
       "id": "131",
@@ -3966,8 +4382,8 @@
       "grupo": "localizacao",
       "pais": "Jordânia",
       "iso": "JO",
-      "x": 533,
-      "y": 4312.5
+      "x": 865,
+      "y": 4537.5
     },
     {
       "id": "132",
@@ -3977,8 +4393,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": -1033,
-      "y": 4312.5
+      "x": -2445,
+      "y": 4612.5
     },
     {
       "id": "133",
@@ -3990,8 +4406,8 @@
       "iso": "IL",
       "lat": 31.7683,
       "lng": 35.2137,
-      "x": -2127,
-      "y": 3937.5
+      "x": -2029,
+      "y": 4237.5
     },
     {
       "id": "134",
@@ -4001,8 +4417,8 @@
       "grupo": "localizacao",
       "pais": "Israel",
       "iso": "IL",
-      "x": 2777,
-      "y": 4312.5
+      "x": 477,
+      "y": 4612.5
     },
     {
       "id": "135",
@@ -4012,8 +4428,8 @@
       "grupo": "localizacao",
       "pais": "Egito",
       "iso": "EG",
-      "x": 2431,
-      "y": 4237.5
+      "x": 2763,
+      "y": 4612.5
     },
     {
       "id": "136",
@@ -4023,8 +4439,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 393,
-      "y": 4012.5
+      "x": 1183,
+      "y": 4312.5
     },
     {
       "id": "137",
@@ -4034,8 +4450,8 @@
       "grupo": "localizacao",
       "pais": "Argélia",
       "iso": "DZ",
-      "x": -2438,
-      "y": 4312.5
+      "x": -1732,
+      "y": 4612.5
     },
     {
       "id": "138",
@@ -4047,8 +4463,8 @@
       "iso": "TR",
       "lat": 36.2021,
       "lng": 36.1606,
-      "x": 2043,
-      "y": 4312.5
+      "x": 2375,
+      "y": 4537.5
     },
     {
       "id": "139",
@@ -4060,8 +4476,8 @@
       "iso": "TR",
       "lat": 39.7505,
       "lng": 37.015,
-      "x": -970,
-      "y": 4012.5
+      "x": 68,
+      "y": 4237.5
     },
     {
       "id": "140",
@@ -4073,8 +4489,8 @@
       "iso": "IT",
       "lat": 37.5079,
       "lng": 15.0873,
-      "x": 2113,
-      "y": 4012.5
+      "x": 449,
+      "y": 4312.5
     },
     {
       "id": "141",
@@ -4084,8 +4500,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 82,
-      "y": 4237.5
+      "x": -1012,
+      "y": 4612.5
     },
     {
       "id": "142",
@@ -4095,8 +4511,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -1711,
-      "y": 4312.5
+      "x": 117,
+      "y": 4537.5
     },
     {
       "id": "143",
@@ -4108,8 +4524,8 @@
       "iso": "IT",
       "lat": 43.0707,
       "lng": 12.6196,
-      "x": -680,
-      "y": 4237.5
+      "x": -250,
+      "y": 4612.5
     },
     {
       "id": "144",
@@ -4119,8 +4535,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -589,
-      "y": 3937.5
+      "x": 823,
+      "y": 4237.5
     },
     {
       "id": "145",
@@ -4132,8 +4548,8 @@
       "iso": "IT",
       "lat": 40.8518,
       "lng": 14.2681,
-      "x": -2833,
-      "y": 3937.5
+      "x": -2417,
+      "y": 4312.5
     },
     {
       "id": "146",
@@ -4143,8 +4559,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 739,
-      "y": 3937.5
+      "x": 1529,
+      "y": 4237.5
     },
     {
       "id": "147",
@@ -4156,8 +4572,8 @@
       "iso": "IT",
       "lat": 42.7186,
       "lng": 13.0131,
-      "x": 1655,
-      "y": 4237.5
+      "x": 1987,
+      "y": 4612.5
     },
     {
       "id": "148",
@@ -4167,8 +4583,8 @@
       "grupo": "localizacao",
       "pais": "Índia",
       "iso": "IN",
-      "x": -1365,
-      "y": 4237.5
+      "x": -1393,
+      "y": 4537.5
     },
     {
       "id": "149",
@@ -4180,8 +4596,8 @@
       "iso": "ES",
       "lat": 40.6565,
       "lng": -4.6818,
-      "x": 935,
-      "y": 4237.5
+      "x": 1267,
+      "y": 4612.5
     },
     {
       "id": "150",
@@ -4192,7 +4608,7 @@
       "pais": "Espanha",
       "iso": "ES",
       "x": 2480,
-      "y": 3937.5
+      "y": 4237.5
     },
     {
       "id": "151",
@@ -4202,8 +4618,8 @@
       "grupo": "localizacao",
       "pais": "Suíça",
       "iso": "CH",
-      "x": 1295,
-      "y": 4312.5
+      "x": 1627,
+      "y": 4537.5
     },
     {
       "id": "152",
@@ -4214,7 +4630,7 @@
       "pais": "França",
       "iso": "FR",
       "x": -2784,
-      "y": 4237.5
+      "y": 4537.5
     },
     {
       "id": "153",
@@ -4224,8 +4640,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -2078,
-      "y": 4237.5
+      "x": -2092,
+      "y": 4537.5
     },
     {
       "id": "154",
@@ -4235,8 +4651,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -2424,
-      "y": 4462.5
+      "x": -1952,
+      "y": 4687.5
     },
     {
       "id": "155",
@@ -4247,7 +4663,7 @@
       "pais": "Grécia",
       "iso": "GR",
       "x": 2840,
-      "y": 4012.5
+      "y": 4312.5
     },
     {
       "id": "156",
@@ -4257,8 +4673,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
-      "x": 1211,
-      "y": 4012.5
+      "x": 2001,
+      "y": 4312.5
     },
     {
       "id": "157",
@@ -4268,8 +4684,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": -1711,
-      "y": 4012.5
+      "x": -963,
+      "y": 4312.5
     },
     {
       "id": "158",
@@ -4279,8 +4695,8 @@
       "grupo": "localizacao",
       "pais": "Armênia",
       "iso": "AM",
-      "x": -278,
-      "y": 4012.5
+      "x": -624,
+      "y": 4237.5
     },
     {
       "id": "159",
@@ -4290,8 +4706,8 @@
       "grupo": "localizacao",
       "pais": "Índia",
       "iso": "IN",
-      "x": 991,
-      "y": 4387.5
+      "x": 631,
+      "y": 4762.5
     },
     {
       "id": "160",
@@ -4301,8 +4717,8 @@
       "grupo": "localizacao",
       "pais": "Etiópia",
       "iso": "ET",
-      "x": 1295,
-      "y": 4462.5
+      "x": 1379,
+      "y": 4762.5
     },
     {
       "id": "161",
@@ -4312,8 +4728,8 @@
       "grupo": "localizacao",
       "pais": "Irã",
       "iso": "IR",
-      "x": -2487,
-      "y": 4012.5
+      "x": -1669,
+      "y": 4312.5
     },
     {
       "id": "300",
@@ -4325,8 +4741,8 @@
       "iso": "IT",
       "lat": 45.4642,
       "lng": 9.19,
-      "x": 306,
-      "y": 4387.5
+      "x": -1592,
+      "y": 4762.5
     },
     {
       "id": "301",
@@ -4336,8 +4752,8 @@
       "grupo": "localizacao",
       "pais": "Chéquia",
       "iso": "CZ",
-      "x": -505,
-      "y": 4387.5
+      "x": 257,
+      "y": 4687.5
     },
     {
       "id": "302",
@@ -4347,8 +4763,8 @@
       "grupo": "localizacao",
       "pais": "Hungria",
       "iso": "HU",
-      "x": 1973,
-      "y": 4462.5
+      "x": 1627,
+      "y": 4687.5
     },
     {
       "id": "303",
@@ -4358,8 +4774,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 1634,
-      "y": 4387.5
+      "x": 1966,
+      "y": 4762.5
     },
     {
       "id": "304",
@@ -4369,8 +4785,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": 645,
-      "y": 4462.5
+      "x": -1253,
+      "y": 4687.5
     },
     {
       "id": "305",
@@ -4380,8 +4796,8 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": -1274,
-      "y": 4387.5
+      "x": -512,
+      "y": 4687.5
     },
     {
       "id": "306",
@@ -4392,7 +4808,7 @@
       "pais": "Itália",
       "iso": "IT",
       "x": -2798,
-      "y": 4387.5
+      "y": 4687.5
     },
     {
       "id": "307",
@@ -4404,8 +4820,8 @@
       "iso": "IT",
       "lat": 42.645,
       "lng": 11.9861,
-      "x": 33,
-      "y": 3937.5
+      "x": -313,
+      "y": 4312.5
     },
     {
       "id": "308",
@@ -4417,8 +4833,8 @@
       "iso": "TR",
       "lat": 40.7654,
       "lng": 29.9406,
-      "x": 1718,
-      "y": 3937.5
+      "x": -2812,
+      "y": 4237.5
     },
     {
       "id": "309",
@@ -4430,8 +4846,8 @@
       "iso": "PS",
       "lat": 31.7708,
       "lng": 35.2608,
-      "x": 2305,
-      "y": 4387.5
+      "x": 2389,
+      "y": 4687.5
     },
     {
       "id": "310",
@@ -4444,7 +4860,7 @@
       "lat": 44.4184,
       "lng": 12.2035,
       "x": -423,
-      "y": 4162.5
+      "y": 4462.5
     },
     {
       "id": "311",
@@ -4454,8 +4870,8 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": -2050,
-      "y": 4387.5
+      "x": -900,
+      "y": 4762.5
     },
     {
       "id": "312",
@@ -4465,8 +4881,8 @@
       "grupo": "localizacao",
       "pais": "Alemanha",
       "iso": "DE",
-      "x": -89,
-      "y": 4462.5
+      "x": 1033,
+      "y": 4687.5
     },
     {
       "id": "313",
@@ -4476,8 +4892,8 @@
       "grupo": "localizacao",
       "pais": "Reino Unido",
       "iso": "GB",
-      "x": 2749,
-      "y": 4462.5
+      "x": -2375,
+      "y": 4762.5
     },
     {
       "id": "314",
@@ -4488,7 +4904,7 @@
       "pais": "Chipre",
       "iso": "CY",
       "x": -720,
-      "y": 4087.5
+      "y": 4387.5
     },
     {
       "id": "315",
@@ -4498,8 +4914,8 @@
       "grupo": "localizacao",
       "pais": "Israel",
       "iso": "IL",
-      "x": -1669,
-      "y": 4462.5
+      "x": 2791,
+      "y": 4762.5
     },
     {
       "id": "316",
@@ -4509,8 +4925,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": -886,
-      "y": 4462.5
+      "x": -124,
+      "y": 4762.5
     },
     {
       "id": "317",
@@ -4522,8 +4938,8 @@
       "iso": "IT",
       "lat": 43.7696,
       "lng": 11.2558,
-      "x": 554,
-      "y": 4612.5
+      "x": -222,
+      "y": 4912.5
     },
     {
       "id": "318",
@@ -4535,8 +4951,8 @@
       "iso": "IT",
       "lat": 40.9256,
       "lng": 14.5283,
-      "x": -222,
-      "y": 4612.5
+      "x": 138,
+      "y": 4837.5
     },
     {
       "id": "319",
@@ -4546,8 +4962,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -2162,
-      "y": 4537.5
+      "x": -1802,
+      "y": 4912.5
     },
     {
       "id": "320",
@@ -4558,7 +4974,7 @@
       "pais": "França",
       "iso": "FR",
       "x": -70,
-      "y": 4087.5
+      "y": 4387.5
     },
     {
       "id": "500",
@@ -4570,8 +4986,8 @@
       "iso": "FR",
       "lat": 46.5802,
       "lng": 0.3404,
-      "x": -2966,
-      "y": 4537.5
+      "x": -2592,
+      "y": 4912.5
     },
     {
       "id": "501",
@@ -4581,8 +4997,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": 949,
-      "y": 4537.5
+      "x": 1393,
+      "y": 4912.5
     },
     {
       "id": "502",
@@ -4592,8 +5008,8 @@
       "grupo": "localizacao",
       "pais": "Dinamarca",
       "iso": "DK",
-      "x": 1753,
-      "y": 4537.5
+      "x": 2613,
+      "y": 4837.5
     },
     {
       "id": "503",
@@ -4605,8 +5021,8 @@
       "iso": "ES",
       "lat": 41.6488,
       "lng": -0.8891,
-      "x": 1351,
-      "y": 4612.5
+      "x": 991,
+      "y": 4837.5
     },
     {
       "id": "504",
@@ -4618,8 +5034,8 @@
       "iso": "ES",
       "lat": 41.3879,
       "lng": 2.1699,
-      "x": 152,
-      "y": 4537.5
+      "x": 2204,
+      "y": 4912.5
     },
     {
       "id": "505",
@@ -4631,8 +5047,8 @@
       "iso": "TR",
       "lat": 38.4237,
       "lng": 27.1428,
-      "x": -2578,
-      "y": 4612.5
+      "x": -1012,
+      "y": 4912.5
     },
     {
       "id": "506",
@@ -4642,8 +5058,8 @@
       "grupo": "localizacao",
       "pais": "Turquia",
       "iso": "TR",
-      "x": 2197,
-      "y": 4612.5
+      "x": 547,
+      "y": 4912.5
     },
     {
       "id": "507",
@@ -4653,8 +5069,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -1753,
-      "y": 4612.5
+      "x": -1393,
+      "y": 4837.5
     },
     {
       "id": "508",
@@ -4665,7 +5081,7 @@
       "pais": "Grécia",
       "iso": "GR",
       "x": 2987,
-      "y": 4612.5
+      "y": 4912.5
     },
     {
       "id": "509",
@@ -4675,8 +5091,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": -589,
-      "y": 4537.5
+      "x": 1795,
+      "y": 4837.5
     },
     {
       "id": "510",
@@ -4688,8 +5104,8 @@
       "iso": "EG",
       "lat": 31.2001,
       "lng": 29.9187,
-      "x": -991,
-      "y": 4612.5
+      "x": -617,
+      "y": 4837.5
     },
     {
       "id": "511",
@@ -4699,8 +5115,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": -1379,
-      "y": 4537.5
+      "x": -2211,
+      "y": 4837.5
     },
     {
       "id": "512",
@@ -4712,8 +5128,8 @@
       "iso": "IT",
       "lat": 45.5416,
       "lng": 10.2118,
-      "x": 2627,
-      "y": 4537.5
+      "x": -2973,
+      "y": 4837.5
     },
     {
       "id": "513",
@@ -4723,8 +5139,8 @@
       "grupo": "localizacao",
       "pais": "Itália",
       "iso": "IT",
-      "x": 942,
-      "y": 4687.5
+      "x": 2134,
+      "y": 5062.5
     },
     {
       "id": "514",
@@ -4735,7 +5151,7 @@
       "pais": "Itália",
       "iso": "IT",
       "x": -2494,
-      "y": 4762.5
+      "y": 5062.5
     },
     {
       "id": "515",
@@ -4747,8 +5163,8 @@
       "iso": "PL",
       "lat": 50.0647,
       "lng": 19.945,
-      "x": 1795,
-      "y": 4687.5
+      "x": 2571,
+      "y": 4987.5
     },
     {
       "id": "516",
@@ -4761,7 +5177,7 @@
       "lat": 36.8531,
       "lng": 10.3231,
       "x": 297,
-      "y": 4162.5
+      "y": 4462.5
     },
     {
       "id": "517",
@@ -4772,7 +5188,7 @@
       "pais": "Espanha",
       "iso": "ES",
       "x": -1662,
-      "y": 4762.5
+      "y": 5062.5
     },
     {
       "id": "518",
@@ -4782,8 +5198,8 @@
       "grupo": "localizacao",
       "pais": "Irlanda",
       "iso": "IE",
-      "x": -526,
-      "y": 4687.5
+      "x": 264,
+      "y": 4987.5
     },
     {
       "id": "519",
@@ -4796,7 +5212,7 @@
       "lat": 33.5138,
       "lng": 36.2765,
       "x": -2036,
-      "y": 4687.5
+      "y": 4987.5
     },
     {
       "id": "520",
@@ -4806,8 +5222,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
-      "x": 2952,
-      "y": 4762.5
+      "x": -872,
+      "y": 5062.5
     },
     {
       "id": "521",
@@ -4819,8 +5235,8 @@
       "iso": "ES",
       "lat": 39.4699,
       "lng": -0.3763,
-      "x": 159,
-      "y": 4687.5
+      "x": -1267,
+      "y": 4987.5
     },
     {
       "id": "522",
@@ -4830,8 +5246,8 @@
       "grupo": "localizacao",
       "pais": "Espanha",
       "iso": "ES",
-      "x": 1386,
-      "y": 4762.5
+      "x": 1302,
+      "y": 5062.5
     },
     {
       "id": "523",
@@ -4841,8 +5257,8 @@
       "grupo": "localizacao",
       "pais": "Reino Unido",
       "iso": "GB",
-      "x": -1232,
-      "y": 4687.5
+      "x": -96,
+      "y": 5062.5
     },
     {
       "id": "524",
@@ -4852,8 +5268,8 @@
       "grupo": "localizacao",
       "pais": "Suíça",
       "iso": "CH",
-      "x": 533,
-      "y": 4762.5
+      "x": 561,
+      "y": 5062.5
     },
     {
       "id": "525",
@@ -4865,8 +5281,8 @@
       "iso": "IT",
       "lat": 45.4408,
       "lng": 12.3155,
-      "x": -222,
-      "y": 4762.5
+      "x": 914,
+      "y": 4987.5
     },
     {
       "id": "526",
@@ -4877,7 +5293,7 @@
       "pais": "Suíça",
       "iso": "CH",
       "x": -2959,
-      "y": 4687.5
+      "y": 4987.5
     },
     {
       "id": "527",
@@ -4889,8 +5305,8 @@
       "iso": "IT",
       "lat": 43.3188,
       "lng": 11.3308,
-      "x": -823,
-      "y": 4762.5
+      "x": -505,
+      "y": 4987.5
     },
     {
       "id": "800",
@@ -4901,7 +5317,7 @@
       "pais": "França",
       "iso": "FR",
       "x": 664,
-      "y": 4087.5
+      "y": 4387.5
     },
     {
       "id": "801",
@@ -4911,8 +5327,8 @@
       "grupo": "localizacao",
       "pais": "Portugal",
       "iso": "PT",
-      "x": 2190,
-      "y": 4762.5
+      "x": 1704,
+      "y": 4987.5
     },
     {
       "id": "802",
@@ -4922,8 +5338,8 @@
       "grupo": "localizacao",
       "pais": "França",
       "iso": "FR",
-      "x": 2571,
-      "y": 4687.5
+      "x": 2959,
+      "y": 5062.5
     },
     {
       "id": "804",
@@ -4934,7 +5350,7 @@
       "pais": "Portugal",
       "iso": "PT",
       "x": -2959,
-      "y": 4837.5
+      "y": 5137.5
     },
     {
       "id": "805",
@@ -4945,7 +5361,7 @@
       "pais": "Alemanha",
       "iso": "DE",
       "x": 0,
-      "y": 5287.5
+      "y": 6337.5
     },
     {
       "id": "806",
@@ -4957,8 +5373,8 @@
       "iso": "PE",
       "lat": -12.0464,
       "lng": -77.0428,
-      "x": 1330,
-      "y": 4912.5
+      "x": 1302,
+      "y": 5212.5
     },
     {
       "id": "807",
@@ -4968,8 +5384,8 @@
       "grupo": "localizacao",
       "pais": "Portugal",
       "iso": "PT",
-      "x": 1683,
-      "y": 4837.5
+      "x": 2071,
+      "y": 5212.5
     },
     {
       "id": "810",
@@ -4981,8 +5397,8 @@
       "iso": "PT",
       "lat": 38.7223,
       "lng": -9.1393,
-      "x": 2078,
-      "y": 4912.5
+      "x": 2466,
+      "y": 5137.5
     },
     {
       "id": "811",
@@ -4995,7 +5411,7 @@
       "lat": 36.2864,
       "lng": 7.9511,
       "x": -2232,
-      "y": 4837.5
+      "y": 5137.5
     },
     {
       "id": "812",
@@ -5008,7 +5424,7 @@
       "lat": 45.3833,
       "lng": 13.8167,
       "x": -2627,
-      "y": 4912.5
+      "y": 5212.5
     },
     {
       "id": "813",
@@ -5020,8 +5436,8 @@
       "iso": "TR",
       "lat": 36.9165,
       "lng": 34.8953,
-      "x": -956,
-      "y": 4912.5
+      "x": -1484,
+      "y": 5137.5
     },
     {
       "id": "814",
@@ -5033,8 +5449,8 @@
       "iso": "IL",
       "lat": 32.9089,
       "lng": 35.6322,
-      "x": 984,
-      "y": 4837.5
+      "x": 568,
+      "y": 5212.5
     },
     {
       "id": "815",
@@ -5046,8 +5462,8 @@
       "iso": "PS",
       "lat": 31.7054,
       "lng": 35.2024,
-      "x": 2896,
-      "y": 4912.5
+      "x": 956,
+      "y": 5137.5
     },
     {
       "id": "816",
@@ -5060,7 +5476,7 @@
       "lat": 42.7936,
       "lng": 13.0933,
       "x": -596,
-      "y": 4837.5
+      "y": 5137.5
     },
     {
       "id": "817",
@@ -5072,8 +5488,8 @@
       "iso": "FR",
       "lat": 47.3444,
       "lng": 5.0222,
-      "x": -1774,
-      "y": 4912.5
+      "x": -1040,
+      "y": 5212.5
     },
     {
       "id": "818",
@@ -5085,8 +5501,8 @@
       "iso": "ES",
       "lat": 41.8258,
       "lng": -3.4878,
-      "x": 582,
-      "y": 4912.5
+      "x": 1662,
+      "y": 5137.5
     },
     {
       "id": "819",
@@ -5098,8 +5514,8 @@
       "iso": "IT",
       "lat": 41.5539,
       "lng": 13.6669,
-      "x": -208,
-      "y": 4912.5
+      "x": 166,
+      "y": 5137.5
     },
     {
       "id": "820",
@@ -5111,8 +5527,8 @@
       "iso": "ES",
       "lat": 43.1744,
       "lng": -2.2825,
-      "x": 187,
-      "y": 4837.5
+      "x": -229,
+      "y": 5212.5
     },
     {
       "id": "821",
@@ -5124,8 +5540,8 @@
       "iso": "ES",
       "lat": 42.5925,
       "lng": -1.2158,
-      "x": -1323,
-      "y": 4837.5
+      "x": -1851,
+      "y": 5212.5
     },
     {
       "id": "822",
@@ -5137,8 +5553,8 @@
       "iso": "ES",
       "lat": 40.9839,
       "lng": -4.9619,
-      "x": 2487,
-      "y": 4837.5
+      "x": 2875,
+      "y": 5212.5
     },
     {
       "id": "823",
@@ -5150,8 +5566,8 @@
       "iso": "FR",
       "lat": 45.9975,
       "lng": 6.2472,
-      "x": 956,
-      "y": 4987.5
+      "x": 1414,
+      "y": 5362.5
     },
     {
       "id": "824",
@@ -5164,7 +5580,7 @@
       "lat": 45.8058,
       "lng": 4.7508,
       "x": -3351,
-      "y": 4987.5
+      "y": 5287.5
     },
     {
       "id": "825",
@@ -5176,8 +5592,8 @@
       "iso": "IT",
       "lat": 45.0411,
       "lng": 7.9644,
-      "x": -2012,
-      "y": 5062.5
+      "x": -1554,
+      "y": 5287.5
     },
     {
       "id": "826",
@@ -5189,8 +5605,8 @@
       "iso": "FR",
       "lat": 48.4329,
       "lng": 0.0913,
-      "x": -1194,
-      "y": 5062.5
+      "x": -736,
+      "y": 5287.5
     },
     {
       "id": "827",
@@ -5202,8 +5618,8 @@
       "iso": "IT",
       "lat": 45.7289,
       "lng": 11.9214,
-      "x": 68,
-      "y": 4987.5
+      "x": 526,
+      "y": 5362.5
     },
     {
       "id": "828",
@@ -5215,8 +5631,8 @@
       "iso": "PT",
       "lat": 38.6444,
       "lng": -8.2178,
-      "x": -750,
-      "y": 4987.5
+      "x": -292,
+      "y": 5362.5
     },
     {
       "id": "829",
@@ -5229,7 +5645,7 @@
       "lat": 45.1336,
       "lng": 10.0247,
       "x": -2484,
-      "y": 4987.5
+      "y": 5287.5
     },
     {
       "id": "830",
@@ -5241,8 +5657,8 @@
       "iso": "IT",
       "lat": 42.3131,
       "lng": 14.1808,
-      "x": 498,
-      "y": 5062.5
+      "x": 956,
+      "y": 5287.5
     },
     {
       "id": "831",
@@ -5254,8 +5670,8 @@
       "iso": "FR",
       "lat": 43.7469,
       "lng": -0.9997,
-      "x": 2921,
-      "y": 4987.5
+      "x": 3379,
+      "y": 5362.5
     },
     {
       "id": "832",
@@ -5267,8 +5683,8 @@
       "iso": "IT",
       "lat": 45.3939,
       "lng": 10.4958,
-      "x": 2435,
-      "y": 5062.5
+      "x": 2893,
+      "y": 5287.5
     },
     {
       "id": "833",
@@ -5280,8 +5696,8 @@
       "iso": "DE",
       "lat": 48.0869,
       "lng": 9.2175,
-      "x": 1428,
-      "y": 5062.5
+      "x": 1886,
+      "y": 5287.5
     },
     {
       "id": "834",
@@ -5294,7 +5710,7 @@
       "lat": 51.8426,
       "lng": 5.8528,
       "x": -2914,
-      "y": 5062.5
+      "y": 5362.5
     },
     {
       "id": "835",
@@ -5306,8 +5722,8 @@
       "iso": "IT",
       "lat": 44.6381,
       "lng": 8.6456,
-      "x": -320,
-      "y": 5062.5
+      "x": 138,
+      "y": 5287.5
     },
     {
       "id": "836",
@@ -5319,8 +5735,8 @@
       "iso": "IT",
       "lat": 44.8256,
       "lng": 8.6781,
-      "x": 1886,
-      "y": 4987.5
+      "x": 2344,
+      "y": 5362.5
     },
     {
       "id": "837",
@@ -5332,8 +5748,8 @@
       "iso": "IT",
       "lat": 43.0928,
       "lng": 11.7878,
-      "x": 3316,
-      "y": 5062.5
+      "x": -2068,
+      "y": 5362.5
     },
     {
       "id": "838",
@@ -5345,8 +5761,8 @@
       "iso": "FR",
       "lat": 49.2583,
       "lng": 4.0317,
-      "x": -1554,
-      "y": 4987.5
+      "x": -1096,
+      "y": 5362.5
     },
     {
       "id": "839",
@@ -5358,8 +5774,8 @@
       "iso": "ES",
       "lat": 41.2389,
       "lng": -2.0628,
-      "x": 783,
-      "y": 5212.5
+      "x": 2316,
+      "y": 5512.5
     },
     {
       "id": "840",
@@ -5371,8 +5787,8 @@
       "iso": "IT",
       "lat": 40.8872,
       "lng": 14.2344,
-      "x": -528,
-      "y": 5137.5
+      "x": -1257,
+      "y": 5512.5
     },
     {
       "id": "841",
@@ -5384,8 +5800,8 @@
       "iso": "IT",
       "lat": 45.5455,
       "lng": 11.5353,
-      "x": -923,
-      "y": 5212.5
+      "x": -2026,
+      "y": 5512.5
     },
     {
       "id": "842",
@@ -5397,8 +5813,8 @@
       "iso": "FR",
       "lat": 48.7906,
       "lng": -0.1381,
-      "x": -1262,
-      "y": 5137.5
+      "x": -3113,
+      "y": 5437.5
     },
     {
       "id": "843",
@@ -5410,8 +5826,8 @@
       "iso": "FR",
       "lat": 47.322,
       "lng": 5.0415,
-      "x": -147,
-      "y": 5212.5
+      "x": 1386,
+      "y": 5512.5
     },
     {
       "id": "844",
@@ -5423,8 +5839,8 @@
       "iso": "ES",
       "lat": 41.9939,
       "lng": 0.3922,
-      "x": 290,
-      "y": 5137.5
+      "x": 1823,
+      "y": 5437.5
     },
     {
       "id": "845",
@@ -5436,8 +5852,1061 @@
       "iso": "IT",
       "lat": 40.2747,
       "lng": 18.0469,
-      "x": 1213,
-      "y": 5137.5
+      "x": 3064,
+      "y": 5512.5
+    },
+    {
+      "id": "1061",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Ein Kerem (Israel)",
+      "grupo": "localizacao",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 31.7676,
+      "lng": 35.1628,
+      "x": 124,
+      "y": 5437.5
+    },
+    {
+      "id": "1062",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Caná da Galileia (Israel)",
+      "grupo": "localizacao",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 32.7469,
+      "lng": 35.3392,
+      "x": 963,
+      "y": 5437.5
+    },
+    {
+      "id": "1063",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Magdala (Israel)",
+      "grupo": "localizacao",
+      "pais": "Israel",
+      "iso": "IL",
+      "lat": 32.8286,
+      "lng": 35.5172,
+      "x": -1652,
+      "y": 5437.5
+    },
+    {
+      "id": "1064",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Listra (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 37.575,
+      "lng": 32.3569,
+      "x": -2774,
+      "y": 5512.5
+    },
+    {
+      "id": "1065",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Narbona (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 43.1836,
+      "lng": 3.0042,
+      "x": -2400,
+      "y": 5437.5
+    },
+    {
+      "id": "1066",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Coma (Egito)",
+      "grupo": "localizacao",
+      "pais": "Egito",
+      "iso": "EG",
+      "lat": 29.1833,
+      "lng": 31.1167,
+      "x": 2704,
+      "y": 5437.5
+    },
+    {
+      "id": "1067",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Aquileia (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.7697,
+      "lng": 13.3708,
+      "x": -855,
+      "y": 5437.5
+    },
+    {
+      "id": "1068",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cesareia da Capadócia (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 38.7312,
+      "lng": 35.4787,
+      "x": -369,
+      "y": 5512.5
+    },
+    {
+      "id": "1069",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Nísibis (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 37.0753,
+      "lng": 41.2181,
+      "x": 519,
+      "y": 5512.5
+    },
+    {
+      "id": "1070",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Bordéus (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 44.8378,
+      "lng": -0.5792,
+      "x": -1788,
+      "y": 5662.5
+    },
+    {
+      "id": "1071",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Atenas (Grécia)",
+      "grupo": "localizacao",
+      "pais": "Grécia",
+      "iso": "GR",
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "x": -2557,
+      "y": 5662.5
+    },
+    {
+      "id": "1072",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Flávia Neápolis (Palestina)",
+      "grupo": "localizacao",
+      "pais": "Palestina",
+      "iso": "PS",
+      "lat": 32.2211,
+      "lng": 35.2544,
+      "x": -1337,
+      "y": 5587.5
+    },
+    {
+      "id": "1073",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Emesa (Síria)",
+      "grupo": "localizacao",
+      "pais": "Síria",
+      "iso": "SY",
+      "lat": 34.7324,
+      "lng": 36.7137,
+      "x": 299,
+      "y": 5587.5
+    },
+    {
+      "id": "1074",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Fondi (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 41.3583,
+      "lng": 13.4283,
+      "x": 2106,
+      "y": 5662.5
+    },
+    {
+      "id": "1075",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Arianzo (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 38.2833,
+      "lng": 34.3333,
+      "x": 659,
+      "y": 5662.5
+    },
+    {
+      "id": "1076",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Camerino (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.1361,
+      "lng": 13.0683,
+      "x": -2931,
+      "y": 5587.5
+    },
+    {
+      "id": "1077",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Nicópolis (Grécia)",
+      "grupo": "localizacao",
+      "pais": "Grécia",
+      "iso": "GR",
+      "lat": 39.0094,
+      "lng": 20.7336,
+      "x": 2480,
+      "y": 5587.5
+    },
+    {
+      "id": "1078",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Huesca (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 42.1401,
+      "lng": -0.4089,
+      "x": 1040,
+      "y": 5587.5
+    },
+    {
+      "id": "1079",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Palestrina (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 41.8392,
+      "lng": 12.8919,
+      "x": -75,
+      "y": 5662.5
+    },
+    {
+      "id": "1080",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Tebas (Egito)",
+      "grupo": "localizacao",
+      "pais": "Egito",
+      "iso": "EG",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "x": 1393,
+      "y": 5662.5
+    },
+    {
+      "id": "1081",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Tabata (Palestina)",
+      "grupo": "localizacao",
+      "pais": "Palestina",
+      "iso": "PS",
+      "lat": 31.4333,
+      "lng": 34.4167,
+      "x": -2176,
+      "y": 5587.5
+    },
+    {
+      "id": "1082",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Szombathely (Hungria)",
+      "grupo": "localizacao",
+      "pais": "Hungria",
+      "iso": "HU",
+      "lat": 47.2307,
+      "lng": 16.6218,
+      "x": 2903,
+      "y": 5662.5
+    },
+    {
+      "id": "1083",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Neocesareia (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 40.5917,
+      "lng": 36.9517,
+      "x": -851,
+      "y": 5662.5
+    },
+    {
+      "id": "1084",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Ímola (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 44.3536,
+      "lng": 11.7142,
+      "x": -456,
+      "y": 5587.5
+    },
+    {
+      "id": "1085",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Pátara (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 36.2608,
+      "lng": 29.3144,
+      "x": 1746,
+      "y": 5587.5
+    },
+    {
+      "id": "1086",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Tréveris (Alemanha)",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "lat": 49.7596,
+      "lng": 6.6439,
+      "x": -3260,
+      "y": 5737.5
+    },
+    {
+      "id": "1087",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Siracusa (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 37.0755,
+      "lng": 15.2866,
+      "x": 3274,
+      "y": 5812.5
+    },
+    {
+      "id": "1088",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cagliari (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 39.2238,
+      "lng": 9.1217,
+      "x": 208,
+      "y": 5737.5
+    },
+    {
+      "id": "1089",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Tessalônica (Grécia)",
+      "grupo": "localizacao",
+      "pais": "Grécia",
+      "iso": "GR",
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "x": -589,
+      "y": 5737.5
+    },
+    {
+      "id": "1090",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Sárospatak (Hungria)",
+      "grupo": "localizacao",
+      "pais": "Hungria",
+      "iso": "HU",
+      "lat": 48.3189,
+      "lng": 21.5653,
+      "x": 2449,
+      "y": 5812.5
+    },
+    {
+      "id": "1091",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Bagnoregio (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.6297,
+      "lng": 12.0897,
+      "x": 1054,
+      "y": 5737.5
+    },
+    {
+      "id": "1092",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Bad Abbach (Alemanha)",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "lat": 48.9367,
+      "lng": 12.0439,
+      "x": 624,
+      "y": 5812.5
+    },
+    {
+      "id": "1093",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Crediton (Reino Unido)",
+      "grupo": "localizacao",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "lat": 50.7906,
+      "lng": -3.6558,
+      "x": -2365,
+      "y": 5737.5
+    },
+    {
+      "id": "1094",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Xanten (Alemanha)",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "lat": 51.6622,
+      "lng": 6.4539,
+      "x": -1942,
+      "y": 5812.5
+    },
+    {
+      "id": "1095",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Mecseknádasd (Hungria)",
+      "grupo": "localizacao",
+      "pais": "Hungria",
+      "iso": "HU",
+      "lat": 46.2244,
+      "lng": 18.4631,
+      "x": -2823,
+      "y": 5812.5
+    },
+    {
+      "id": "1096",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Frosinone (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 41.6401,
+      "lng": 13.3511,
+      "x": -1547,
+      "y": 5737.5
+    },
+    {
+      "id": "1097",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Vercelli (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.3253,
+      "lng": 8.4231,
+      "x": -180,
+      "y": 5812.5
+    },
+    {
+      "id": "1098",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Mas-Saintes-Puelles (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 43.3133,
+      "lng": 1.8764,
+      "x": -1075,
+      "y": 5812.5
+    },
+    {
+      "id": "1099",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Faucon-de-Barcelonnette (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 44.3936,
+      "lng": 6.6783,
+      "x": 1561,
+      "y": 5812.5
+    },
+    {
+      "id": "1100",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cartagena (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 37.6057,
+      "lng": -0.9913,
+      "x": 2872,
+      "y": 5737.5
+    },
+    {
+      "id": "1101",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Toledo (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 39.8628,
+      "lng": -4.0273,
+      "x": 2047,
+      "y": 5737.5
+    },
+    {
+      "id": "1102",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Aosta (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.7372,
+      "lng": 7.3172,
+      "x": -2054,
+      "y": 5962.5
+    },
+    {
+      "id": "1103",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Verona (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.4384,
+      "lng": 10.9916,
+      "x": -3351,
+      "y": 5887.5
+    },
+    {
+      "id": "1104",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Gubbio (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.3519,
+      "lng": 12.5772,
+      "x": -715,
+      "y": 5887.5
+    },
+    {
+      "id": "1105",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Sant'Angelo Limosano (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 41.6931,
+      "lng": 14.6022,
+      "x": 1921,
+      "y": 5887.5
+    },
+    {
+      "id": "1106",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Massa Marittima (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.05,
+      "lng": 10.8886,
+      "x": 984,
+      "y": 5887.5
+    },
+    {
+      "id": "1107",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Sovana (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.6581,
+      "lng": 11.6442,
+      "x": 2379,
+      "y": 5962.5
+    },
+    {
+      "id": "1108",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Jarrow (Reino Unido)",
+      "grupo": "localizacao",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "lat": 54.9806,
+      "lng": -1.4906,
+      "x": -2956,
+      "y": 5962.5
+    },
+    {
+      "id": "1109",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Domrémy-la-Pucelle (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 48.4425,
+      "lng": 5.675,
+      "x": 117,
+      "y": 5887.5
+    },
+    {
+      "id": "1110",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Peleas de Arriba (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 41.3214,
+      "lng": -5.6611,
+      "x": -2484,
+      "y": 5887.5
+    },
+    {
+      "id": "1111",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Kamień Śląski (Polônia)",
+      "grupo": "localizacao",
+      "pais": "Polônia",
+      "iso": "PL",
+      "lat": 50.5317,
+      "lng": 18.0819,
+      "x": -1131,
+      "y": 5962.5
+    },
+    {
+      "id": "1112",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Poissy (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 48.9289,
+      "lng": 2.0444,
+      "x": 561,
+      "y": 5962.5
+    },
+    {
+      "id": "1113",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Portell (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 41.7411,
+      "lng": 1.3842,
+      "x": 2753,
+      "y": 5887.5
+    },
+    {
+      "id": "1114",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Esztergom (Hungria)",
+      "grupo": "localizacao",
+      "pais": "Hungria",
+      "iso": "HU",
+      "lat": 47.7928,
+      "lng": 18.7414,
+      "x": 1435,
+      "y": 5962.5
+    },
+    {
+      "id": "1115",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Sant'Angelo in Pontano (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.0989,
+      "lng": 13.3958,
+      "x": 3239,
+      "y": 5962.5
+    },
+    {
+      "id": "1116",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Stochov (Chéquia)",
+      "grupo": "localizacao",
+      "pais": "Chéquia",
+      "iso": "CZ",
+      "lat": 50.1453,
+      "lng": 13.9631,
+      "x": -341,
+      "y": 5962.5
+    },
+    {
+      "id": "1117",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Cerny-en-Laonnois (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 49.4422,
+      "lng": 3.6664,
+      "x": -1624,
+      "y": 5887.5
+    },
+    {
+      "id": "1118",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Colônia (Alemanha)",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "lat": 50.9375,
+      "lng": 6.9603,
+      "x": -3001,
+      "y": 6037.5
+    },
+    {
+      "id": "1119",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Finsta (Suécia)",
+      "grupo": "localizacao",
+      "pais": "Suécia",
+      "iso": "SE",
+      "lat": 59.7356,
+      "lng": 18.435,
+      "x": -1858,
+      "y": 6112.5
+    },
+    {
+      "id": "1120",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Islip (Reino Unido)",
+      "grupo": "localizacao",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "lat": 51.8256,
+      "lng": -1.2367,
+      "x": 900,
+      "y": 6037.5
+    },
+    {
+      "id": "1121",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Andechs (Alemanha)",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "lat": 47.9756,
+      "lng": 11.1825,
+      "x": 3001,
+      "y": 6112.5
+    },
+    {
+      "id": "1122",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Kęty (Polônia)",
+      "grupo": "localizacao",
+      "pais": "Polônia",
+      "iso": "PL",
+      "lat": 49.8825,
+      "lng": 19.2225,
+      "x": 2295,
+      "y": 6112.5
+    },
+    {
+      "id": "1123",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Todi (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 42.7822,
+      "lng": 12.4069,
+      "x": 2634,
+      "y": 6037.5
+    },
+    {
+      "id": "1124",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "San Nicolás del Puerto (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 37.9936,
+      "lng": -5.6531,
+      "x": 1823,
+      "y": 6037.5
+    },
+    {
+      "id": "1125",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Lauingen (Alemanha)",
+      "grupo": "localizacao",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "lat": 48.5708,
+      "lng": 10.4314,
+      "x": 1316,
+      "y": 6112.5
+    },
+    {
+      "id": "1126",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Osimo (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.4864,
+      "lng": 13.4822,
+      "x": -715,
+      "y": 6037.5
+    },
+    {
+      "id": "1127",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Talas (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 38.6889,
+      "lng": 35.5536,
+      "x": -2620,
+      "y": 6112.5
+    },
+    {
+      "id": "1128",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Londres (Reino Unido)",
+      "grupo": "localizacao",
+      "pais": "Reino Unido",
+      "iso": "GB",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "x": -320,
+      "y": 6112.5
+    },
+    {
+      "id": "1129",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Fuenllana (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 38.7536,
+      "lng": -2.9597,
+      "x": -1096,
+      "y": 6112.5
+    },
+    {
+      "id": "1130",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Diecimo (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.9564,
+      "lng": 10.5256,
+      "x": -1491,
+      "y": 6037.5
+    },
+    {
+      "id": "1131",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Gandia (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 38.9675,
+      "lng": -0.1803,
+      "x": 505,
+      "y": 6112.5
+    },
+    {
+      "id": "1132",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Verosvres (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 46.4006,
+      "lng": 4.4433,
+      "x": -2239,
+      "y": 6037.5
+    },
+    {
+      "id": "1133",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Alcântara (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 39.7192,
+      "lng": -6.885,
+      "x": 110,
+      "y": 6037.5
+    },
+    {
+      "id": "1134",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Arona (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.7586,
+      "lng": 8.5597,
+      "x": 313,
+      "y": 6187.5
+    },
+    {
+      "id": "1135",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Castronuovo di Sant'Andrea (Itália)",
+      "grupo": "localizacao",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 40.1892,
+      "lng": 16.1856,
+      "x": -1316,
+      "y": 6187.5
+    },
+    {
+      "id": "1136",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Volodymyr (Ucrânia)",
+      "grupo": "localizacao",
+      "pais": "Ucrânia",
+      "iso": "UA",
+      "lat": 50.8481,
+      "lng": 24.3222,
+      "x": -68,
+      "y": 6262.5
+    },
+    {
+      "id": "1137",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Ribera del Fresno (Espanha)",
+      "grupo": "localizacao",
+      "pais": "Espanha",
+      "iso": "ES",
+      "lat": 38.5528,
+      "lng": -6.2408,
+      "x": 750,
+      "y": 6262.5
+    },
+    {
+      "id": "1138",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Nice (França)",
+      "grupo": "localizacao",
+      "pais": "França",
+      "iso": "FR",
+      "lat": 43.7102,
+      "lng": 7.262,
+      "x": -830,
+      "y": 6262.5
+    },
+    {
+      "id": "1139",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Ray (Irã)",
+      "grupo": "localizacao",
+      "pais": "Irã",
+      "iso": "IR",
+      "lat": 35.5956,
+      "lng": 51.4344,
+      "x": 1152,
+      "y": 6187.5
+    },
+    {
+      "id": "1140",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Sinnada (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 38.5317,
+      "lng": 30.5439,
+      "x": -470,
+      "y": 6187.5
+    },
+    {
+      "id": "1141",
+      "level": 8,
+      "categoria": "atuacao",
+      "label": "Mira (Turquia)",
+      "grupo": "localizacao",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 36.2597,
+      "lng": 29.9853,
+      "x": 1463,
+      "y": 6262.5
     },
     {
       "id": "1004",
@@ -5446,7 +6915,7 @@
       "label": "Collégiale Sainte-Marthe - Tarascon (França)",
       "grupo": "santuario",
       "x": 1939,
-      "y": 5512.5
+      "y": 6562.5
     },
     {
       "id": "1020",
@@ -5455,7 +6924,7 @@
       "label": "Basílica de Pedro (Roma)",
       "grupo": "santuario",
       "x": 187,
-      "y": 5437.5
+      "y": 6487.5
     },
     {
       "id": "1021",
@@ -5463,8 +6932,8 @@
       "categoria": "santuario",
       "label": "Catedral de Santiago de Compostela",
       "grupo": "santuario",
-      "x": 1271,
-      "y": 5437.5
+      "x": 743,
+      "y": 6562.5
     },
     {
       "id": "1022",
@@ -5472,8 +6941,8 @@
       "categoria": "santuario",
       "label": "Basílica de Francisco (Assis)",
       "grupo": "santuario",
-      "x": -974,
-      "y": 5437.5
+      "x": -334,
+      "y": 6562.5
     },
     {
       "id": "1023",
@@ -5481,8 +6950,8 @@
       "categoria": "santuario",
       "label": "Basílica de Antônio (Pádua)",
       "grupo": "santuario",
-      "x": 694,
-      "y": 5512.5
+      "x": 1320,
+      "y": 6487.5
     },
     {
       "id": "1024",
@@ -5490,8 +6959,8 @@
       "categoria": "santuario",
       "label": "Basílica de Paulo Extramuros (Roma)",
       "grupo": "santuario",
-      "x": -376,
-      "y": 5512.5
+      "x": -932,
+      "y": 6487.5
     },
     {
       "id": "1025",
@@ -5500,7 +6969,7 @@
       "label": "Santuário de Ars (França)",
       "grupo": "santuario",
       "x": -2044,
-      "y": 5437.5
+      "y": 6487.5
     },
     {
       "id": "1026",
@@ -5509,7 +6978,7 @@
       "label": "Basílica de Lisieux (França)",
       "grupo": "santuario",
       "x": -1523,
-      "y": 5512.5
+      "y": 6562.5
     },
     {
       "id": "1000",
@@ -5518,7 +6987,7 @@
       "label": "Corpo Incorrupto",
       "grupo": "fenomeno",
       "x": -470,
-      "y": 5587.5
+      "y": 6637.5
     },
     {
       "id": "1001",
@@ -5526,8 +6995,8 @@
       "categoria": "mistica",
       "label": "Estigmas (Chagas)",
       "grupo": "fenomeno",
-      "x": -89,
-      "y": 5662.5
+      "x": 187,
+      "y": 6637.5
     },
     {
       "id": "1002",
@@ -5535,8 +7004,8 @@
       "categoria": "mistica",
       "label": "Bilocação",
       "grupo": "fenomeno",
-      "x": 243,
-      "y": 5587.5
+      "x": -145,
+      "y": 6712.5
     },
     {
       "id": "1003",
@@ -5545,7 +7014,7 @@
       "label": "Levitação",
       "grupo": "fenomeno",
       "x": 519,
-      "y": 5662.5
+      "y": 6712.5
     },
     {
       "id": "1010",
@@ -5553,8 +7022,8 @@
       "categoria": "reliquia",
       "label": "Sangue Liquefeito",
       "grupo": "reliquia",
-      "x": -173,
-      "y": 5737.5
+      "x": -949,
+      "y": 6787.5
     },
     {
       "id": "1011",
@@ -5563,7 +7032,7 @@
       "label": "Coração Incorrupto",
       "grupo": "reliquia",
       "x": 222,
-      "y": 5812.5
+      "y": 6862.5
     },
     {
       "id": "1012",
@@ -5572,7 +7041,7 @@
       "label": "Língua Intacta",
       "grupo": "reliquia",
       "x": 596,
-      "y": 5737.5
+      "y": 6787.5
     },
     {
       "id": "1013",
@@ -5580,8 +7049,8 @@
       "categoria": "reliquia",
       "label": "Cabeça / Crânio",
       "grupo": "reliquia",
-      "x": -547,
-      "y": 5812.5
+      "x": -159,
+      "y": 6787.5
     },
     {
       "id": "1014",
@@ -5590,7 +7059,7 @@
       "label": "Manto Partilhado",
       "grupo": "reliquia",
       "x": 956,
-      "y": 5812.5
+      "y": 6862.5
     },
     {
       "id": "1015",
@@ -5598,8 +7067,8 @@
       "categoria": "reliquia",
       "label": "Correntes da Prisão",
       "grupo": "reliquia",
-      "x": -935,
-      "y": 5737.5
+      "x": -547,
+      "y": 6862.5
     },
     {
       "id": "1030",
@@ -5607,8 +7076,8 @@
       "categoria": "simbolo",
       "label": "As Chaves do Reino",
       "grupo": "iconografia",
-      "x": -1760,
-      "y": 5962.5
+      "x": -1994,
+      "y": 6937.5
     },
     {
       "id": "1031",
@@ -5616,8 +7085,8 @@
       "categoria": "simbolo",
       "label": "A Espada",
       "grupo": "iconografia",
-      "x": -222,
-      "y": 5962.5
+      "x": 774,
+      "y": 6937.5
     },
     {
       "id": "1032",
@@ -5625,8 +7094,8 @@
       "categoria": "simbolo",
       "label": "O Lírio (Pureza)",
       "grupo": "iconografia",
-      "x": 1690,
-      "y": 5887.5
+      "x": 1578,
+      "y": 6937.5
     },
     {
       "id": "1033",
@@ -5634,8 +7103,8 @@
       "categoria": "simbolo",
       "label": "Chuva de Rosas",
       "grupo": "iconografia",
-      "x": -1386,
-      "y": 5887.5
+      "x": -1330,
+      "y": 6937.5
     },
     {
       "id": "1034",
@@ -5643,8 +7112,8 @@
       "categoria": "simbolo",
       "label": "A Caveira (Memento Mori)",
       "grupo": "iconografia",
-      "x": -970,
-      "y": 5962.5
+      "x": -264,
+      "y": 7012.5
     },
     {
       "id": "1035",
@@ -5652,8 +7121,8 @@
       "categoria": "simbolo",
       "label": "Livro (Doutor/Evangelho)",
       "grupo": "iconografia",
-      "x": 442,
-      "y": 5962.5
+      "x": 1148,
+      "y": 7012.5
     },
     {
       "id": "1036",
@@ -5661,8 +7130,8 @@
       "categoria": "simbolo",
       "label": "O Dragão",
       "grupo": "iconografia",
-      "x": 2008,
-      "y": 5962.5
+      "x": 512,
+      "y": 7012.5
     },
     {
       "id": "1037",
@@ -5670,8 +7139,8 @@
       "categoria": "simbolo",
       "label": "Flechas do Martírio",
       "grupo": "iconografia",
-      "x": 893,
-      "y": 5887.5
+      "x": -949,
+      "y": 7012.5
     },
     {
       "id": "1038",
@@ -5679,8 +7148,8 @@
       "categoria": "simbolo",
       "label": "A Grelha",
       "grupo": "iconografia",
-      "x": 2270,
-      "y": 5887.5
+      "x": 1896,
+      "y": 7012.5
     },
     {
       "id": "1039",
@@ -5688,8 +7157,8 @@
       "categoria": "simbolo",
       "label": "O Cordeiro",
       "grupo": "iconografia",
-      "x": 54,
-      "y": 5887.5
+      "x": -1648,
+      "y": 7012.5
     },
     {
       "id": "1040",
@@ -5698,7 +7167,7 @@
       "label": "Olhos numa bandeja",
       "grupo": "iconografia",
       "x": 2602,
-      "y": 5962.5
+      "y": 7012.5
     },
     {
       "id": "1041",
@@ -5706,8 +7175,8 @@
       "categoria": "simbolo",
       "label": "Seios numa bandeja",
       "grupo": "iconografia",
-      "x": 1302,
-      "y": 5962.5
+      "x": 180,
+      "y": 6937.5
     },
     {
       "id": "1042",
@@ -5715,8 +7184,8 @@
       "categoria": "simbolo",
       "label": "Alicate e Dentes",
       "grupo": "iconografia",
-      "x": -540,
-      "y": 5887.5
+      "x": 2214,
+      "y": 6937.5
     },
     {
       "id": "1043",
@@ -5724,8 +7193,8 @@
       "categoria": "simbolo",
       "label": "A Roda Quebrada",
       "grupo": "iconografia",
-      "x": -2623,
-      "y": 5887.5
+      "x": -2375,
+      "y": 7012.5
     },
     {
       "id": "1044",
@@ -5733,8 +7202,8 @@
       "categoria": "simbolo",
       "label": "O Leão",
       "grupo": "iconografia",
-      "x": -2078,
-      "y": 5887.5
+      "x": -624,
+      "y": 6937.5
     },
     {
       "id": "1045",
@@ -5742,8 +7211,8 @@
       "categoria": "simbolo",
       "label": "A Águia",
       "grupo": "iconografia",
-      "x": -2319,
-      "y": 5962.5
+      "x": -2679,
+      "y": 6937.5
     },
     {
       "id": "1046",
@@ -5751,8 +7220,8 @@
       "categoria": "simbolo",
       "label": "O Touro",
       "grupo": "iconografia",
-      "x": 678,
-      "y": 6112.5
+      "x": 444,
+      "y": 7087.5
     },
     {
       "id": "1047",
@@ -5760,8 +7229,8 @@
       "categoria": "simbolo",
       "label": "O Pavão",
       "grupo": "iconografia",
-      "x": -14,
-      "y": 6112.5
+      "x": 692,
+      "y": 7162.5
     },
     {
       "id": "1048",
@@ -5769,8 +7238,8 @@
       "categoria": "simbolo",
       "label": "Pedras sobre um livro",
       "grupo": "iconografia",
-      "x": 332,
-      "y": 6037.5
+      "x": 1038,
+      "y": 7087.5
     },
     {
       "id": "1049",
@@ -5778,8 +7247,8 @@
       "categoria": "simbolo",
       "label": "Cão com Tocha na boca",
       "grupo": "iconografia",
-      "x": -720,
-      "y": 6112.5
+      "x": 98,
+      "y": 7162.5
     },
     {
       "id": "1050",
@@ -5787,8 +7256,8 @@
       "categoria": "simbolo",
       "label": "O Santo Rosário",
       "grupo": "iconografia",
-      "x": -318,
-      "y": 6037.5
+      "x": -304,
+      "y": 7087.5
     },
     {
       "id": "1051",
@@ -5796,8 +7265,8 @@
       "categoria": "simbolo",
       "label": "Faca cravada na cabeça",
       "grupo": "iconografia",
-      "x": 1031,
-      "y": 6037.5
+      "x": -1031,
+      "y": 7087.5
     },
     {
       "id": "1052",
@@ -5805,8 +7274,8 @@
       "categoria": "simbolo",
       "label": "Sol no peito",
       "grupo": "iconografia",
-      "x": -1101,
-      "y": 6037.5
+      "x": -643,
+      "y": 7162.5
     }
   ],
   "edges": [
@@ -5878,6 +7347,11 @@
     {
       "from": "56",
       "to": "451",
+      "texto": "é"
+    },
+    {
+      "from": "56",
+      "to": "1154",
       "texto": "é"
     },
     {
@@ -5988,6 +7462,21 @@
     {
       "from": "57",
       "to": "82",
+      "texto": "é"
+    },
+    {
+      "from": "57",
+      "to": "1142",
+      "texto": "é"
+    },
+    {
+      "from": "57",
+      "to": "1147",
+      "texto": "é"
+    },
+    {
+      "from": "57",
+      "to": "1156",
       "texto": "é"
     },
     {
@@ -6153,6 +7642,11 @@
     {
       "from": "57",
       "to": "669",
+      "texto": "é"
+    },
+    {
+      "from": "57",
+      "to": "674",
       "texto": "é"
     },
     {
@@ -6478,6 +7972,31 @@
     {
       "from": "52",
       "to": "724",
+      "texto": "é"
+    },
+    {
+      "from": "52",
+      "to": "1143",
+      "texto": "é"
+    },
+    {
+      "from": "52",
+      "to": "1144",
+      "texto": "é"
+    },
+    {
+      "from": "52",
+      "to": "1171",
+      "texto": "é"
+    },
+    {
+      "from": "52",
+      "to": "1175",
+      "texto": "é"
+    },
+    {
+      "from": "52",
+      "to": "1177",
       "texto": "é"
     },
     {
@@ -7206,6 +8725,181 @@
       "texto": "é"
     },
     {
+      "from": "50",
+      "to": "1143",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1144",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1145",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1146",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1147",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1148",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1149",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1150",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1151",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1152",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1153",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1154",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1155",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1156",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1157",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1158",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1159",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1160",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1161",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1162",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1163",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1164",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1165",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1166",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1167",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1168",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1169",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1170",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1171",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1172",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1173",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1174",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1175",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1176",
+      "texto": "é"
+    },
+    {
+      "from": "50",
+      "to": "1177",
+      "texto": "é"
+    },
+    {
       "from": "53",
       "to": "4",
       "texto": "é"
@@ -7253,6 +8947,11 @@
     {
       "from": "53",
       "to": "202",
+      "texto": "é"
+    },
+    {
+      "from": "53",
+      "to": "1142",
       "texto": "é"
     },
     {
@@ -7834,6 +9533,21 @@
     },
     {
       "from": "70",
+      "to": "1151",
+      "texto": "Dia 19"
+    },
+    {
+      "from": "70",
+      "to": "1152",
+      "texto": "Dia 19"
+    },
+    {
+      "from": "70",
+      "to": "1153",
+      "texto": "Dia 19"
+    },
+    {
+      "from": "70",
       "to": "407",
       "texto": "Dia 19"
     },
@@ -7855,6 +9569,11 @@
     {
       "from": "70",
       "to": "409",
+      "texto": "Dia 22"
+    },
+    {
+      "from": "70",
+      "to": "1164",
       "texto": "Dia 22"
     },
     {
@@ -7979,6 +9698,11 @@
     },
     {
       "from": "80",
+      "to": "1165",
+      "texto": "Dia 15"
+    },
+    {
+      "from": "80",
       "to": "427",
       "texto": "Dia 18"
     },
@@ -8016,6 +9740,11 @@
     {
       "from": "90",
       "to": "432",
+      "texto": "Dia 6"
+    },
+    {
+      "from": "90",
+      "to": "1166",
       "texto": "Dia 6"
     },
     {
@@ -8115,6 +9844,16 @@
     },
     {
       "from": "91",
+      "to": "1167",
+      "texto": "Dia 14"
+    },
+    {
+      "from": "91",
+      "to": "1168",
+      "texto": "Dia 14"
+    },
+    {
+      "from": "91",
       "to": "449",
       "texto": "Dia 17"
     },
@@ -8135,6 +9874,11 @@
     },
     {
       "from": "91",
+      "to": "1154",
+      "texto": "Dia 22"
+    },
+    {
+      "from": "91",
       "to": "7",
       "texto": "Dia 23"
     },
@@ -8147,6 +9891,11 @@
       "from": "91",
       "to": "453",
       "texto": "Dia 25"
+    },
+    {
+      "from": "91",
+      "to": "207",
+      "texto": "Dia 26"
     },
     {
       "from": "91",
@@ -8226,6 +9975,11 @@
     },
     {
       "from": "92",
+      "to": "1169",
+      "texto": "Dia 10"
+    },
+    {
+      "from": "92",
       "to": "112",
       "texto": "Dia 11"
     },
@@ -8237,6 +9991,21 @@
     {
       "from": "92",
       "to": "607",
+      "texto": "Dia 12"
+    },
+    {
+      "from": "92",
+      "to": "1170",
+      "texto": "Dia 12"
+    },
+    {
+      "from": "92",
+      "to": "1171",
+      "texto": "Dia 12"
+    },
+    {
+      "from": "92",
+      "to": "1172",
       "texto": "Dia 12"
     },
     {
@@ -8356,6 +10125,16 @@
     },
     {
       "from": "93",
+      "to": "1146",
+      "texto": "Dia 2"
+    },
+    {
+      "from": "93",
+      "to": "1147",
+      "texto": "Dia 2"
+    },
+    {
+      "from": "93",
       "to": "224",
       "texto": "Dia 5"
     },
@@ -8367,6 +10146,11 @@
     {
       "from": "93",
       "to": "226",
+      "texto": "Dia 9"
+    },
+    {
+      "from": "93",
+      "to": "1148",
       "texto": "Dia 9"
     },
     {
@@ -8396,6 +10180,16 @@
     },
     {
       "from": "93",
+      "to": "1149",
+      "texto": "Dia 15"
+    },
+    {
+      "from": "93",
+      "to": "1150",
+      "texto": "Dia 15"
+    },
+    {
+      "from": "93",
       "to": "231",
       "texto": "Dia 18"
     },
@@ -8407,6 +10201,11 @@
     {
       "from": "93",
       "to": "233",
+      "texto": "Dia 19"
+    },
+    {
+      "from": "93",
+      "to": "1162",
       "texto": "Dia 19"
     },
     {
@@ -8441,6 +10240,11 @@
     },
     {
       "from": "93",
+      "to": "1163",
+      "texto": "Dia 26"
+    },
+    {
+      "from": "93",
       "to": "239",
       "texto": "Dia 28"
     },
@@ -8471,12 +10275,27 @@
     },
     {
       "from": "94",
+      "to": "1142",
+      "texto": "Dia 7"
+    },
+    {
+      "from": "94",
       "to": "803",
       "texto": "Dia 8"
     },
     {
       "from": "94",
       "to": "204",
+      "texto": "Dia 10"
+    },
+    {
+      "from": "94",
+      "to": "1143",
+      "texto": "Dia 10"
+    },
+    {
+      "from": "94",
+      "to": "1144",
       "texto": "Dia 10"
     },
     {
@@ -8571,12 +10390,22 @@
     },
     {
       "from": "94",
+      "to": "1161",
+      "texto": "Dia 28"
+    },
+    {
+      "from": "94",
       "to": "221",
       "texto": "Dia 29"
     },
     {
       "from": "94",
       "to": "222",
+      "texto": "Dia 30"
+    },
+    {
+      "from": "94",
+      "to": "1145",
       "texto": "Dia 30"
     },
     {
@@ -8628,6 +10457,16 @@
     },
     {
       "from": "95",
+      "to": "1173",
+      "texto": "Dia 8"
+    },
+    {
+      "from": "95",
+      "to": "1174",
+      "texto": "Dia 8"
+    },
+    {
+      "from": "95",
       "to": "16",
       "texto": "Dia 9"
     },
@@ -8643,12 +10482,22 @@
     },
     {
       "from": "95",
+      "to": "1175",
+      "texto": "Dia 11"
+    },
+    {
+      "from": "95",
       "to": "11",
       "texto": "Dia 12"
     },
     {
       "from": "95",
       "to": "637",
+      "texto": "Dia 13"
+    },
+    {
+      "from": "95",
+      "to": "1176",
       "texto": "Dia 13"
     },
     {
@@ -8779,7 +10628,17 @@
     },
     {
       "from": "96",
+      "to": "1155",
+      "texto": "Dia 11"
+    },
+    {
+      "from": "96",
       "to": "658",
+      "texto": "Dia 16"
+    },
+    {
+      "from": "96",
+      "to": "1156",
       "texto": "Dia 16"
     },
     {
@@ -8835,7 +10694,17 @@
     },
     {
       "from": "96",
+      "to": "1177",
+      "texto": "Dia 26"
+    },
+    {
+      "from": "96",
       "to": "666",
+      "texto": "Dia 27"
+    },
+    {
+      "from": "96",
+      "to": "1157",
       "texto": "Dia 27"
     },
     {
@@ -8891,6 +10760,16 @@
     {
       "from": "97",
       "to": "674",
+      "texto": "Dia 9"
+    },
+    {
+      "from": "97",
+      "to": "1158",
+      "texto": "Dia 9"
+    },
+    {
+      "from": "97",
+      "to": "1159",
       "texto": "Dia 9"
     },
     {
@@ -8956,6 +10835,11 @@
     {
       "from": "97",
       "to": "686",
+      "texto": "Dia 25"
+    },
+    {
+      "from": "97",
+      "to": "1160",
       "texto": "Dia 25"
     },
     {
@@ -9806,6 +11690,16 @@
       "texto": "martirizados em"
     },
     {
+      "from": "1143",
+      "to": "26",
+      "texto": "martirizada em"
+    },
+    {
+      "from": "1144",
+      "to": "26",
+      "texto": "martirizada em"
+    },
+    {
       "from": "205",
       "to": "26",
       "texto": "sede em"
@@ -9843,32 +11737,72 @@
     {
       "from": "220",
       "to": "300",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1161",
+      "to": "300",
+      "texto": "martirizado em"
     },
     {
       "from": "222",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1145",
+      "to": "26",
+      "texto": "martirizado em"
     },
     {
       "from": "223",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1146",
+      "to": "26",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1147",
+      "to": "138",
+      "texto": "atuou em"
     },
     {
       "from": "226",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1148",
+      "to": "26",
+      "texto": "martirizado em"
     },
     {
       "from": "230",
       "to": "140",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1149",
+      "to": "140",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1150",
+      "to": "140",
+      "texto": "martirizada em"
     },
     {
       "from": "233",
       "to": "300",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1162",
+      "to": "300",
+      "texto": "martirizado em"
     },
     {
       "from": "234",
@@ -9878,7 +11812,12 @@
     {
       "from": "237",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1163",
+      "to": "26",
+      "texto": "martirizado em"
     },
     {
       "from": "6",
@@ -9933,7 +11872,12 @@
     {
       "from": "202",
       "to": "301",
-      "texto": "evangelizaram"
+      "texto": "evangelizou"
+    },
+    {
+      "from": "1142",
+      "to": "301",
+      "texto": "evangelizou"
     },
     {
       "from": "203",
@@ -9977,7 +11921,7 @@
     },
     {
       "from": "229",
-      "to": "315",
+      "to": "1068",
       "texto": "bispo de"
     },
     {
@@ -10103,7 +12047,22 @@
     {
       "from": "406",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1151",
+      "to": "26",
+      "texto": "martirizada em"
+    },
+    {
+      "from": "1152",
+      "to": "26",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1153",
+      "to": "26",
+      "texto": "martirizado em"
     },
     {
       "from": "407",
@@ -10117,8 +12076,18 @@
     },
     {
       "from": "409",
+      "to": "521",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "409",
       "to": "503",
-      "texto": "martirizados em"
+      "texto": "atuou em"
+    },
+    {
+      "from": "1164",
+      "to": "161",
+      "texto": "martirizado em"
     },
     {
       "from": "410",
@@ -10167,7 +12136,7 @@
     },
     {
       "from": "419",
-      "to": "315",
+      "to": "1068",
       "texto": "martirizada em"
     },
     {
@@ -10203,7 +12172,12 @@
     {
       "from": "426",
       "to": "512",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1165",
+      "to": "512",
+      "texto": "martirizado em"
     },
     {
       "from": "427",
@@ -10233,7 +12207,12 @@
     {
       "from": "432",
       "to": "516",
-      "texto": "martirizadas em"
+      "texto": "martirizada em"
+    },
+    {
+      "from": "1166",
+      "to": "516",
+      "texto": "martirizada em"
     },
     {
       "from": "433",
@@ -10308,7 +12287,17 @@
     {
       "from": "448",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1167",
+      "to": "26",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1168",
+      "to": "26",
+      "texto": "martirizado em"
     },
     {
       "from": "449",
@@ -10322,6 +12311,11 @@
     },
     {
       "from": "451",
+      "to": "26",
+      "texto": "sede em"
+    },
+    {
+      "from": "1154",
       "to": "26",
       "texto": "sede em"
     },
@@ -10403,12 +12397,32 @@
     {
       "from": "606",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1169",
+      "to": "510",
+      "texto": "martirizado em"
     },
     {
       "from": "607",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1170",
+      "to": "26",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1171",
+      "to": "26",
+      "texto": "martirizada em"
+    },
+    {
+      "from": "1172",
+      "to": "26",
+      "texto": "martirizado em"
     },
     {
       "from": "608",
@@ -10427,8 +12441,8 @@
     },
     {
       "from": "611",
-      "to": "26",
-      "texto": "viveu em"
+      "to": "1104",
+      "texto": "bispo de"
     },
     {
       "from": "612",
@@ -10477,7 +12491,7 @@
     },
     {
       "from": "621",
-      "to": "523",
+      "to": "1108",
       "texto": "viveu em"
     },
     {
@@ -10543,7 +12557,17 @@
     {
       "from": "634",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1173",
+      "to": "26",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1174",
+      "to": "26",
+      "texto": "martirizado em"
     },
     {
       "from": "635",
@@ -10553,12 +12577,22 @@
     {
       "from": "636",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1175",
+      "to": "26",
+      "texto": "martirizada em"
     },
     {
       "from": "637",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1176",
+      "to": "1084",
+      "texto": "martirizado em"
     },
     {
       "from": "638",
@@ -10637,7 +12671,7 @@
     },
     {
       "from": "653",
-      "to": "301",
+      "to": "302",
       "texto": "rei em"
     },
     {
@@ -10658,10 +12692,20 @@
     {
       "from": "657",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1155",
+      "to": "26",
+      "texto": "martirizado em"
     },
     {
       "from": "658",
+      "to": "26",
+      "texto": "sede em"
+    },
+    {
+      "from": "1156",
       "to": "516",
       "texto": "bispo/mártir em"
     },
@@ -10698,12 +12742,22 @@
     {
       "from": "665",
       "to": "138",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1177",
+      "to": "138",
+      "texto": "martirizada em"
     },
     {
       "from": "666",
       "to": "138",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1157",
+      "to": "138",
+      "texto": "martirizado em"
     },
     {
       "from": "667",
@@ -10743,7 +12797,17 @@
     {
       "from": "674",
       "to": "320",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1158",
+      "to": "320",
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1159",
+      "to": "320",
+      "texto": "martirizado em"
     },
     {
       "from": "675",
@@ -10803,7 +12867,12 @@
     {
       "from": "686",
       "to": "26",
-      "texto": "martirizados em"
+      "texto": "martirizado em"
+    },
+    {
+      "from": "1160",
+      "to": "26",
+      "texto": "martirizada em"
     },
     {
       "from": "687",
@@ -10867,7 +12936,7 @@
     },
     {
       "from": "699",
-      "to": "315",
+      "to": "1083",
       "texto": "bispo de"
     },
     {
@@ -10932,7 +13001,7 @@
     },
     {
       "from": "712",
-      "to": "132",
+      "to": "1141",
       "texto": "bispo de"
     },
     {
@@ -10957,8 +13026,8 @@
     },
     {
       "from": "717",
-      "to": "26",
-      "texto": "martirizado em"
+      "to": "1097",
+      "texto": "bispo de"
     },
     {
       "from": "718",
@@ -11218,6 +13287,566 @@
     {
       "from": "722",
       "to": "806",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "71",
+      "to": "1061",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "113",
+      "to": "1062",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "215",
+      "to": "1063",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "218",
+      "to": "815",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "412",
+      "to": "1064",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "72",
+      "to": "1065",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "74",
+      "to": "1066",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "204",
+      "to": "26",
+      "texto": "nasceram em"
+    },
+    {
+      "from": "1143",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1144",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "205",
+      "to": "1067",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "220",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1161",
+      "to": "1138",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "226",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1148",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "229",
+      "to": "1068",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "231",
+      "to": "1069",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1162",
+      "to": "300",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "236",
+      "to": "1070",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1163",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "400",
+      "to": "1071",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "404",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "408",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1164",
+      "to": "1139",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "419",
+      "to": "1068",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1165",
+      "to": "512",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1166",
+      "to": "516",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "447",
+      "to": "1072",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1167",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1168",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "449",
+      "to": "1073",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "451",
+      "to": "1074",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "454",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "604",
+      "to": "1075",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1170",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1171",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1172",
+      "to": "1140",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "613",
+      "to": "1076",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "620",
+      "to": "1077",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1173",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1174",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "635",
+      "to": "1078",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1175",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1176",
+      "to": "1084",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "641",
+      "to": "1079",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "657",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1155",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "658",
+      "to": "26",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1156",
+      "to": "516",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "663",
+      "to": "1080",
+      "texto": "nasceram em"
+    },
+    {
+      "from": "1177",
+      "to": "138",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "683",
+      "to": "1081",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "687",
+      "to": "815",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "693",
+      "to": "1082",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "699",
+      "to": "1083",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "710",
+      "to": "1084",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "712",
+      "to": "1085",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "713",
+      "to": "1086",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "716",
+      "to": "1087",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "717",
+      "to": "1088",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "202",
+      "to": "1089",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "1142",
+      "to": "1089",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "203",
+      "to": "1090",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "208",
+      "to": "1091",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "209",
+      "to": "1092",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "224",
+      "to": "1093",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "225",
+      "to": "1094",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "227",
+      "to": "1095",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "234",
+      "to": "1096",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "238",
+      "to": "1097",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "415",
+      "to": "1098",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "421",
+      "to": "1099",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "443",
+      "to": "1100",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "446",
+      "to": "1101",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "450",
+      "to": "1102",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "458",
+      "to": "1103",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "611",
+      "to": "1104",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "614",
+      "to": "1105",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "616",
+      "to": "1106",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "617",
+      "to": "1107",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "621",
+      "to": "1108",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "626",
+      "to": "1109",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "627",
+      "to": "1110",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "640",
+      "to": "1111",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "646",
+      "to": "1112",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "650",
+      "to": "1113",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "651",
+      "to": "1071",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "653",
+      "to": "1114",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "656",
+      "to": "1115",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "667",
+      "to": "1116",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "669",
+      "to": "1117",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "671",
+      "to": "1118",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "672",
+      "to": "1119",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "676",
+      "to": "1120",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "678",
+      "to": "1121",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "682",
+      "to": "1122",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "694",
+      "to": "1123",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "695",
+      "to": "1124",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "697",
+      "to": "1125",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "706",
+      "to": "1126",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "711",
+      "to": "1127",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "719",
+      "to": "1128",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "662",
+      "to": "1129",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "673",
+      "to": "1130",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "675",
+      "to": "1131",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "679",
+      "to": "1132",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "681",
+      "to": "1133",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "688",
+      "to": "1134",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "692",
+      "to": "1135",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "696",
+      "to": "1136",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "723",
+      "to": "1137",
+      "texto": "nasceu em"
+    },
+    {
+      "from": "429",
+      "to": "143",
       "texto": "nasceu em"
     },
     {
@@ -11657,6 +14286,12 @@
       "dashes": true
     },
     {
+      "from": "703",
+      "to": "204",
+      "texto": "mãe de",
+      "dashes": true
+    },
+    {
       "from": "713",
       "to": "5",
       "texto": "batizou"
@@ -11679,6 +14314,11 @@
     {
       "from": "721",
       "to": "693",
+      "texto": "amigo de"
+    },
+    {
+      "from": "658",
+      "to": "1156",
       "texto": "amigo de"
     },
     {
@@ -11787,6 +14427,168 @@
       "from": "722",
       "to": "723",
       "texto": "amigo de"
+    },
+    {
+      "from": "202",
+      "to": "1142",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "1143",
+      "to": "1144",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "220",
+      "to": "1161",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "222",
+      "to": "1145",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "223",
+      "to": "1146",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "226",
+      "to": "1148",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "230",
+      "to": "1149",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "230",
+      "to": "1150",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "233",
+      "to": "1162",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "237",
+      "to": "1163",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "406",
+      "to": "1151",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "406",
+      "to": "1152",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "406",
+      "to": "1153",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "426",
+      "to": "1165",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "432",
+      "to": "1166",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "448",
+      "to": "1167",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "448",
+      "to": "1168",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "607",
+      "to": "1170",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "607",
+      "to": "1171",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "634",
+      "to": "1173",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "634",
+      "to": "1174",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "657",
+      "to": "1155",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "665",
+      "to": "1177",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "666",
+      "to": "1157",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "674",
+      "to": "1158",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "674",
+      "to": "1159",
+      "texto": "companheiros",
+      "dashes": true
+    },
+    {
+      "from": "686",
+      "to": "1160",
+      "texto": "companheiros",
+      "dashes": true
     },
     {
       "from": "56",
@@ -12176,6 +14978,11 @@
           "lat": 35.9078,
           "lng": 127.7669
         },
+        "VN": {
+          "nome": "Vietnã",
+          "lat": 14.0583,
+          "lng": 108.2772
+        },
         "UG": {
           "nome": "Uganda",
           "lat": 1.3733,
@@ -12193,62 +15000,57 @@
     {
       "seculo": 2,
       "yInicio": 900,
-      "yFim": 1050
+      "yFim": 1200
     },
     {
       "seculo": 3,
-      "yInicio": 1050,
-      "yFim": 1350
+      "yInicio": 1200,
+      "yFim": 1650
     },
     {
       "seculo": 4,
-      "yInicio": 1350,
-      "yFim": 1800
-    },
-    {
-      "seculo": 5,
-      "yInicio": 1800,
-      "yFim": 1950
-    },
-    {
-      "seculo": 6,
-      "yInicio": 1950,
-      "yFim": 2100
-    },
-    {
-      "seculo": 8,
-      "yInicio": 2100,
+      "yInicio": 1650,
       "yFim": 2250
     },
     {
-      "seculo": 12,
+      "seculo": 6,
       "yInicio": 2250,
       "yFim": 2400
     },
     {
-      "seculo": 13,
+      "seculo": 8,
       "yInicio": 2400,
       "yFim": 2550
     },
     {
-      "seculo": 14,
+      "seculo": 11,
       "yInicio": 2550,
       "yFim": 2700
     },
     {
-      "seculo": 16,
+      "seculo": 13,
       "yInicio": 2700,
+      "yFim": 2850
+    },
+    {
+      "seculo": 14,
+      "yInicio": 2850,
       "yFim": 3000
     },
     {
-      "seculo": 17,
+      "seculo": 16,
       "yInicio": 3000,
-      "yFim": 3150
+      "yFim": 3300
+    },
+    {
+      "seculo": 17,
+      "yInicio": 3300,
+      "yFim": 3450
     },
     {
       "seculo": 19,
-      "yInicio": 3150,
-      "yFim": 3300
+      "yInicio": 3450,
+      "yFim": 3600
     }
   ],
   "bandasNiveis": [
@@ -12272,43 +15074,43 @@
     },
     {
       "yInicio": 750,
-      "yFim": 1950,
+      "yFim": 2250,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 1950,
-      "yFim": 2700,
+      "yInicio": 2250,
+      "yFim": 3000,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 2700,
-      "yFim": 3150,
+      "yInicio": 3000,
+      "yFim": 3450,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 3150,
-      "yFim": 3300,
+      "yInicio": 3450,
+      "yFim": 3600,
       "label": null,
       "cor": null
     },
     {
-      "yInicio": 3300,
-      "yFim": 3900,
+      "yInicio": 3600,
+      "yFim": 4200,
       "label": "Congregações e Obras",
       "cor": null
     },
     {
-      "yInicio": 3900,
-      "yFim": 5400,
+      "yInicio": 4200,
+      "yFim": 6450,
       "label": "Locais",
       "cor": null
     },
     {
-      "yInicio": 5400,
-      "yFim": 6150,
+      "yInicio": 6450,
+      "yFim": 7200,
       "label": "Fenômenos, Relíquias e Iconografia",
       "cor": null
     }
