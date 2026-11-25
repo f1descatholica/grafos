@@ -1,4 +1,5 @@
 
+
 // ============================================================
 // calcular-posicoes.js
 // ============================================================
@@ -1073,6 +1074,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
       dataMorte: morteFinal,
       idGrafo: g ? g.idGrafo : null,
       temGrafo: !!g,
+      urlPost: (g && g.urlPost) || null,
       _lat: latFinal,
       _lng: lngFinal,
       _temCoordAvulso: avTemCoord,
@@ -1228,7 +1230,8 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
       dataMorte: s.dataMorte,
       cidadeId: s.cidadeId || null,
       idGrafo: s.idGrafo,
-      temGrafo: s.temGrafo
+      temGrafo: s.temGrafo,
+      urlPost: s.urlPost || null
     };
   });
 
@@ -1370,3 +1373,4 @@ if (require.main === module) {
 
 
 // FIM calcular-posicoes.js
+
