@@ -47,7 +47,6 @@
       "label": "Pio XII",
       "ano": 1939,
       "grupo": "papa",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/07/enciclica-humani-generis-do-papa-pio.html",
       "x": 0,
       "y": 487.5
     },
@@ -58,7 +57,6 @@
       "label": "Humani Generis",
       "ano": 1950,
       "grupo": "documento",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/07/enciclica-humani-generis-do-papa-pio.html",
       "x": 346,
       "y": 637.5
     },
@@ -69,7 +67,6 @@
       "label": "Mediator Dei",
       "ano": 1947,
       "grupo": "documento",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/02/enciclica-mediator-dei-papa-pio-xii.html",
       "x": 14,
       "y": 712.5
     },
@@ -80,7 +77,6 @@
       "label": "Mystici Corporis",
       "ano": 1943,
       "grupo": "documento",
-      "urlPost": "https://f1descatholica.blogspot.com/2024/12/enciclica-mystici-corporis-do-papa-pio.html",
       "x": -332,
       "y": 637.5
     },
@@ -101,7 +97,6 @@
       "label": "João XXIII",
       "ano": 1958,
       "grupo": "papa",
-      "urlPost": "https://f1descatholica.blogspot.com/2024/08/heresias-na-pacem-in-terris.html",
       "x": 0,
       "y": 937.5
     },
@@ -112,7 +107,6 @@
       "label": "Concílio Vaticano II",
       "ano": 1962,
       "grupo": "evento",
-      "urlPost": "https://f1descatholica.blogspot.com/2026/06/o-sagrado-coracao-e-o-concilio-vaticano.html",
       "x": 0,
       "y": 1087.5
     },
@@ -203,7 +197,6 @@
       "categoria": "cardeal_conservador",
       "label": "Dom Marcel Lefebvre",
       "grupo": "cardeal_conservador",
-      "urlPost": "https://f1descatholica.blogspot.com/2024/12/dom-gerard-calvet-e-sua-comunidade.html",
       "x": 283,
       "y": 1462.5
     },
@@ -231,7 +224,6 @@
       "categoria": "perito",
       "label": "Karl Rahner",
       "grupo": "perito",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/10/a-critica-de-monsenhor-jaime-mercant.html",
       "x": -470,
       "y": 1612.5
     },
@@ -287,7 +279,6 @@
       "label": "Paulo VI",
       "ano": 1963,
       "grupo": "papa",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/07/paulo-vi-foi-capitao-da-revolucao.html",
       "x": 0,
       "y": 1687.5
     },
@@ -308,7 +299,6 @@
       "label": "Lumen Gentium",
       "ano": 1964,
       "grupo": "documento",
-      "urlPost": "https://f1descatholica.blogspot.com/2024/08/o-documento-que-abalou-igreja-e-ameacou.html",
       "x": -692,
       "y": 1912.5
     },
@@ -319,7 +309,6 @@
       "label": "Unitatis Redintegratio",
       "ano": 1964,
       "grupo": "documento",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/09/decreto-unitatis-redintegratio-unidade.html",
       "x": -297,
       "y": 1837.5
     },
@@ -340,7 +329,6 @@
       "label": "Gaudium et Spes",
       "ano": 1965,
       "grupo": "documento",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/06/o-culto-do-homem-gaudium-et-spes-como.html",
       "x": 112,
       "y": 1912.5
     },
@@ -351,7 +339,6 @@
       "label": "Dignitatis Humanae",
       "ano": 1965,
       "grupo": "documento",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/09/dignitatis-humanae-liberal-revolution.html",
       "x": 783,
       "y": 1912.5
     },
@@ -362,7 +349,6 @@
       "label": "Nostra Aetate",
       "ano": 1965,
       "grupo": "documento",
-      "urlPost": "https://f1descatholica.blogspot.com/2024/11/declaracao-nostra-aetate-de-paulo-vi.html",
       "x": 1150,
       "y": 1837.5
     },
@@ -373,7 +359,6 @@
       "label": "Reforma Litúrgica",
       "ano": 1969,
       "grupo": "pos_concilio",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/07/o-rosto-humano-da-revolucao-uma-analise.html",
       "x": -194,
       "y": 1987.5
     },
@@ -394,7 +379,6 @@
       "label": "Crise Pós-Conciliar",
       "ano": 1965,
       "grupo": "pos_concilio",
-      "urlPost": "https://f1descatholica.blogspot.com/2026/02/livro-lettere-abade-georges-de-nantes.html",
       "x": -229,
       "y": 2137.5
     },
@@ -405,7 +389,6 @@
       "label": "Teologia da Libertação",
       "ano": 1971,
       "grupo": "pos_concilio",
-      "urlPost": "https://f1descatholica.blogspot.com/2026/02/a-teologia-indigenista-o-tribalismo.html",
       "x": 208,
       "y": 2212.5
     },
@@ -426,7 +409,6 @@
       "label": "Fraternidade São Pio X",
       "ano": 1970,
       "grupo": "tradicionalismo",
-      "urlPost": "https://f1descatholica.blogspot.com/2026/07/a-fraternidade-sao-pio-x-e.html",
       "x": -402,
       "y": 2287.5
     },
@@ -447,7 +429,6 @@
       "label": "João Paulo II",
       "ano": 1978,
       "grupo": "papa",
-      "urlPost": "https://f1descatholica.blogspot.com/2026/02/nova-teologia-de-joao-paulo-ii-e-o.html",
       "x": 0,
       "y": 2437.5
     },
@@ -507,7 +488,6 @@
       "label": "Bento XVI",
       "ano": 2005,
       "grupo": "papa",
-      "urlPost": "https://f1descatholica.blogspot.com/2024/12/papa-bento-xvi-nunca-renunciou-e-o-papa.html",
       "x": 0,
       "y": 2887.5
     },
@@ -547,7 +527,6 @@
       "categoria": "tradicionalismo",
       "label": "Movimento Tradicionalista",
       "grupo": "tradicionalismo",
-      "urlPost": "https://f1descatholica.blogspot.com/2025/01/saint-gertrude-great-church-localizada.html",
       "x": 0,
       "y": 3487.5
     },
