@@ -2252,7 +2252,7 @@
       "cidadeId": "510",
       "idGrafo": "705",
       "temGrafo": true,
-      "urlPost": "https://f1descatholica.blogspot.com/2025/11/25-nov-s-catarina-virgem-e-martir.html"
+      "urlPost": "https://f1descatholica.blogspot.com/2026/11/25-nov-s-catarina-de-alexandria-virgem.html"
     },
     {
       "id": "707",
@@ -5935,6 +5935,258 @@
       "idGrafo": null,
       "temGrafo": false,
       "urlPost": null
+    },
+    {
+      "id": "x_123",
+      "nome": "Leonardo de Porto Maurício",
+      "atributoLiturgico": "Presbítero e Confessor",
+      "diaFesta": "26 de novembro",
+      "cidade": "Porto Maurício",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "26 de novembro de 1751",
+      "cidadeId": "cid_porto_mauricio_IT",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_124",
+      "nome": "Sirício",
+      "atributoLiturgico": "Papa e Confessor",
+      "diaFesta": "26 de novembro",
+      "cidade": "Roma",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "26 de novembro de 399",
+      "cidadeId": "26",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_125",
+      "nome": "Alípio Estilita",
+      "atributoLiturgico": "Diácono e Confessor",
+      "diaFesta": "26 de novembro",
+      "cidade": "Adrianópolis da Paflagônia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "dataMorte": "cerca de 614",
+      "cidadeId": "cid_adrianopolis_da_paflagonia_TR",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_126",
+      "nome": "Conrado de Constança",
+      "atributoLiturgico": "Bispo e Confessor",
+      "diaFesta": "26 de novembro",
+      "cidade": "Weingarten",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "dataMorte": "26 de novembro de 975",
+      "cidadeId": "cid_weingarten_DE",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_127",
+      "nome": "Nicão Metanoite",
+      "atributoLiturgico": "Monge e Confessor",
+      "diaFesta": "26 de novembro",
+      "cidade": "Fatsa",
+      "pais": "Turquia",
+      "iso": "TR",
+      "dataMorte": "26 de novembro de 998",
+      "cidadeId": "cid_fatsa_TR",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_128",
+      "nome": "Belino de Pádua",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "26 de novembro",
+      "cidade": "Pádua",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "26 de novembro de 1147",
+      "cidadeId": "146",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_129",
+      "nome": "Humilde de Bisignano",
+      "atributoLiturgico": "Religioso e Confessor",
+      "diaFesta": "26 de novembro",
+      "cidade": "Bisignano",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "26 de novembro de 1637",
+      "cidadeId": "cid_bisignano_IT",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_130",
+      "nome": "Tomás Dinh Viet Du",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "26 de novembro",
+      "cidade": "Phu Nhai",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "dataMorte": "26 de novembro de 1839",
+      "cidadeId": "cid_phu_nhai_VN",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_131",
+      "nome": "Domingos Nguyen Van Xuyen",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "26 de novembro",
+      "cidade": "Phu Sam",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "dataMorte": "26 de novembro de 1839",
+      "cidadeId": "cid_phu_sam_VN",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_132",
+      "nome": "Mercúrio de Cesareia",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Cesareia da Capadócia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "dataMorte": "cerca de 250",
+      "cidadeId": "1068",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_133",
+      "nome": "Moisés de Roma",
+      "atributoLiturgico": "Presbítero e Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Roma",
+      "pais": "Itália",
+      "iso": "IT",
+      "dataMorte": "25 de novembro de 251",
+      "cidadeId": "26",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_134",
+      "nome": "Hesíquio do Egito",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Alexandria",
+      "pais": "Egito",
+      "iso": "EG",
+      "dataMorte": "cerca de 311",
+      "cidadeId": "510",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_135",
+      "nome": "Pacómio do Egito",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Alexandria",
+      "pais": "Egito",
+      "iso": "EG",
+      "dataMorte": "cerca de 311",
+      "cidadeId": "510",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_136",
+      "nome": "Teodoro do Egito",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Alexandria",
+      "pais": "Egito",
+      "iso": "EG",
+      "dataMorte": "cerca de 311",
+      "cidadeId": "510",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_137",
+      "nome": "Márculo da Numídia",
+      "atributoLiturgico": "Bispo e Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Tebessa",
+      "pais": "Argélia",
+      "iso": "DZ",
+      "dataMorte": "29 de novembro de 347",
+      "cidadeId": "cid_tebessa_DZ",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_138",
+      "nome": "Maurino de Agen",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Agen",
+      "pais": "França",
+      "iso": "FR",
+      "dataMorte": "cerca de 520",
+      "cidadeId": "cid_agen_FR",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_139",
+      "nome": "Pedro Yi Ho-yong",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Icheon",
+      "pais": "Coreia do Sul",
+      "iso": "KR",
+      "dataMorte": "25 de novembro de 1838",
+      "cidadeId": "cid_icheon_KR",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
+    },
+    {
+      "id": "x_140",
+      "nome": "Águeda Yi So-sa",
+      "atributoLiturgico": "Mártir",
+      "diaFesta": "25 de novembro",
+      "cidade": "Icheon",
+      "pais": "Coreia do Sul",
+      "iso": "KR",
+      "dataMorte": "24 de maio de 1839",
+      "cidadeId": "cid_icheon_KR",
+      "idGrafo": null,
+      "temGrafo": false,
+      "urlPost": null
     }
   ],
   "cidades": [
@@ -6055,7 +6307,7 @@
       "iso": "IT",
       "lat": 41.9028,
       "lng": 12.4964,
-      "qtd": 55,
+      "qtd": 57,
       "qtdGrafo": 54
     },
     {
@@ -6155,7 +6407,7 @@
       "iso": "TR",
       "lat": 38.7312,
       "lng": 35.4787,
-      "qtd": 3,
+      "qtd": 4,
       "qtdGrafo": 2
     },
     {
@@ -6245,7 +6497,7 @@
       "iso": "EG",
       "lat": 31.2001,
       "lng": 29.9187,
-      "qtd": 6,
+      "qtd": 9,
       "qtdGrafo": 5
     },
     {
@@ -7925,7 +8177,7 @@
       "iso": "DZ",
       "lat": 35.4042,
       "lng": 8.1242,
-      "qtd": 1,
+      "qtd": 2,
       "qtdGrafo": 0
     },
     {
@@ -8105,7 +8357,7 @@
       "iso": "FR",
       "lat": 44.2031,
       "lng": 0.6164,
-      "qtd": 1,
+      "qtd": 2,
       "qtdGrafo": 0
     },
     {
@@ -8187,6 +8439,96 @@
       "lng": 4.7005,
       "qtd": 1,
       "qtdGrafo": 0
+    },
+    {
+      "id": "cid_porto_mauricio_IT",
+      "nome": "Porto Maurício",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 43.8781,
+      "lng": 8.0194,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_adrianopolis_da_paflagonia_TR",
+      "nome": "Adrianópolis da Paflagônia",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 40.9472,
+      "lng": 32.5317,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_weingarten_DE",
+      "nome": "Weingarten",
+      "pais": "Alemanha",
+      "iso": "DE",
+      "lat": 47.8089,
+      "lng": 9.6319,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_fatsa_TR",
+      "nome": "Fatsa",
+      "pais": "Turquia",
+      "iso": "TR",
+      "lat": 41.0264,
+      "lng": 37.5022,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "146",
+      "nome": "Pádua",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 45.4064,
+      "lng": 11.8768,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_bisignano_IT",
+      "nome": "Bisignano",
+      "pais": "Itália",
+      "iso": "IT",
+      "lat": 39.5103,
+      "lng": 16.2842,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_phu_nhai_VN",
+      "nome": "Phu Nhai",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "lat": 20.3333,
+      "lng": 106.3167,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_phu_sam_VN",
+      "nome": "Phu Sam",
+      "pais": "Vietnã",
+      "iso": "VN",
+      "lat": 20.45,
+      "lng": 106.3333,
+      "qtd": 1,
+      "qtdGrafo": 0
+    },
+    {
+      "id": "cid_icheon_KR",
+      "nome": "Icheon",
+      "pais": "Coreia do Sul",
+      "iso": "KR",
+      "lat": 37.28,
+      "lng": 127.4425,
+      "qtd": 2,
+      "qtdGrafo": 0
     }
   ],
   "paises": [
@@ -8203,7 +8545,7 @@
       "nome": "Turquia",
       "lat": 38.9637,
       "lng": 35.2433,
-      "qtd": 26,
+      "qtd": 29,
       "qtdGrafo": 23
     },
     {
@@ -8235,7 +8577,7 @@
       "nome": "Itália",
       "lat": 41.8719,
       "lng": 12.5674,
-      "qtd": 145,
+      "qtd": 150,
       "qtdGrafo": 134
     },
     {
@@ -8243,7 +8585,7 @@
       "nome": "França",
       "lat": 46.2276,
       "lng": 2.2137,
-      "qtd": 32,
+      "qtd": 33,
       "qtdGrafo": 23
     },
     {
@@ -8251,7 +8593,7 @@
       "nome": "Egito",
       "lat": 26.8206,
       "lng": 30.8025,
-      "qtd": 12,
+      "qtd": 15,
       "qtdGrafo": 10
     },
     {
@@ -8259,7 +8601,7 @@
       "nome": "Argélia",
       "lat": 28.0339,
       "lng": 1.6596,
-      "qtd": 6,
+      "qtd": 7,
       "qtdGrafo": 2
     },
     {
@@ -8323,7 +8665,7 @@
       "nome": "Alemanha",
       "lat": 51.1657,
       "lng": 10.4515,
-      "qtd": 8,
+      "qtd": 9,
       "qtdGrafo": 8
     },
     {
@@ -8507,7 +8849,7 @@
       "nome": "Coreia do Sul",
       "lat": 35.9078,
       "lng": 127.7669,
-      "qtd": 1,
+      "qtd": 3,
       "qtdGrafo": 0
     },
     {
@@ -8515,7 +8857,7 @@
       "nome": "Vietnã",
       "lat": 14.0583,
       "lng": 108.2772,
-      "qtd": 3,
+      "qtd": 5,
       "qtdGrafo": 0
     }
   ]
