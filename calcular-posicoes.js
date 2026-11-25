@@ -1,7 +1,6 @@
 
-
 // ============================================================
-// calcular-posicoes.js
+// calcular-posicoes.js github
 // ============================================================
 //
 // ÁRVORE DE DECISÃO — CAMADAS DE GENERALIDADE (não remover nem mover):
@@ -819,6 +818,7 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
       anoMortePositivo: anoMortePositivo,
       anoInvalidoTexto: anoInvalidoTexto,
       dataMorteGrafo: dataMorteGrafo,
+      urlPost: n.urlPost || null,
       cidade: cidadeGrafo,
       pais: paisGrafo,
       iso: isoGrafo,
@@ -1274,12 +1274,24 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas) {
     var resp = await fetch('https://raw.githubusercontent.com/f1descatholica/grafo-blog/main/dados-grafo-conhecimento.json', { cache: 'no-store' });
     if (!resp.ok) return;
     var dadosBlog = await resp.json();
-    var posts = (dadosBlog.nodes || []).filter(function(n) { return n.tipoNo === 'post' && n.url; });
+
+    // Filtra apenas posts estritamente litúrgicos pelas tags (prefixo 'l ' de mês ou 'p ' de perfil)
+    var posts = (dadosBlog.nodes || []).filter(function(n) {
+      if (n.tipoNo !== 'post' || !n.url) return false;
+      var marcadores = Array.isArray(n.labels) ? n.labels : [];
+      var ehLiturgico = marcadores.some(function(lb) {
+        var strLb = String(lb || '').trim().toLowerCase();
+        return strLb.indexOf('l ') === 0 || strLb.indexOf('p ') === 0;
+      });
+      return ehLiturgico;
+    });
+
     if (posts.length === 0) return;
 
     var niveisSet = new Set((regrasCarregadas && regrasCarregadas.mapa && regrasCarregadas.mapa.niveisSantos) || [2, 3, 4, 5, 6]);
 
     posts.forEach(function(p) {
+      var rotuloPostNorm = normalizarSemAcentoMaiuscula(p.label);
       var tokPost = normalizarTokensNomeSanto(p.label);
       if (tokPost.length === 0) return;
       var strPost = tokPost.join(' ');
@@ -1288,12 +1300,19 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas) {
         if (!niveisSet.has(santo.level) || santo.urlPost) return;
         var tokSanto = normalizarTokensNomeSanto(santo.label);
         if (tokSanto.length === 0) return;
-        var strSanto = tokSanto.join(' ');
 
+        // Se o santo tem 1 palavra (ex: "Pedro"), exige "SAO PEDRO" ou "S. PEDRO" no título
         if (tokSanto.length === 1) {
-          if (tokPost.indexOf(tokSanto[0]) !== -1) santo.urlPost = p.url;
-        } else if (strPost.indexOf(strSanto) !== -1 || tokSanto.every(function(t) { return tokPost.indexOf(t) !== -1; })) {
-          santo.urlPost = p.url;
+          var nomeSimples = tokSanto[0];
+          var padraoComSanto = new RegExp('\\b(S|SAO|SANTO|STA|SANTA)\\.?\\s+' + nomeSimples + '\\b', 'i');
+          if (padraoComSanto.test(rotuloPostNorm)) {
+            santo.urlPost = p.url;
+          }
+        } else {
+          var strSanto = tokSanto.join(' ');
+          if (strPost.indexOf(strSanto) !== -1 || tokSanto.every(function(t) { return tokPost.indexOf(t) !== -1; })) {
+            santo.urlPost = p.url;
+          }
         }
       });
     });
@@ -1370,7 +1389,3 @@ module.exports = { calcularPosicoesDeUmGrafo: calcularPosicoesDeUmGrafo };
 if (require.main === module) {
   main();
 }
-
-
-// FIM calcular-posicoes.js
-
