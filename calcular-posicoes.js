@@ -1269,50 +1269,80 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
   };
 }
 
-async function vincularPostsAosSantos(todosNos, regrasCarregadas) {
+async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
   try {
     var resp = await fetch('https://raw.githubusercontent.com/f1descatholica/grafo-blog/main/dados-grafo-conhecimento.json', { cache: 'no-store' });
     if (!resp.ok) return;
     var dadosBlog = await resp.json();
 
-    // Filtra apenas posts estritamente litúrgicos pelas tags (prefixo 'l ' de mês ou 'p ' de perfil)
+    // Filtra apenas posts estritamente litúrgicos pelas tags
     var posts = (dadosBlog.nodes || []).filter(function(n) {
       if (n.tipoNo !== 'post' || !n.url) return false;
       var marcadores = Array.isArray(n.labels) ? n.labels : [];
-      var ehLiturgico = marcadores.some(function(lb) {
-        var strLb = String(lb || '').trim().toLowerCase();
-        return strLb.indexOf('l ') === 0 || strLb.indexOf('p ') === 0;
+      return marcadores.some(function(lb) {
+        var s = String(lb || '').trim().toLowerCase();
+        return s.indexOf('l ') === 0 || s.indexOf('p ') === 0;
       });
-      return ehLiturgico;
     });
-
     if (posts.length === 0) return;
+
+    var titulosLiturgicosDescarte = {
+      VIRGEM: true, MARTIR: true, CONFESSOR: true, BISPO: true, PAPA: true,
+      ABADE: true, VIUVA: true, DOUTOR: true, APOSTOLO: true, PROFETA: true,
+      EVANGELISTA: true, PADROEIRA: true, PADROEIRO: true, IGREJA: true
+    };
+
+    function extrairPalavrasSignificativas(toks) {
+      return toks.filter(function(t) { return t !== 'SANTO' && !titulosLiturgicosDescarte[t] && t.length > 2; });
+    }
+
+    // Mapeia dia/mês de festa de cada santo do grafo via arestas
+    var nosPorId = {};
+    (todosNos || []).forEach(function(n) { nosPorId[n.id] = n; });
+    var dataFestaPorSantoId = {};
+    (todosSetas || []).forEach(function(s) {
+      var origem = nosPorId[s.from];
+      if (!origem || origem.mesNumero === undefined) return;
+      var dia = extrairDiaDoTexto(s.texto);
+      if (dia !== null) {
+        dataFestaPorSantoId[s.to] = { dia: dia, mes: parseInt(origem.mesNumero, 10) };
+      }
+    });
 
     var niveisSet = new Set((regrasCarregadas && regrasCarregadas.mapa && regrasCarregadas.mapa.niveisSantos) || [2, 3, 4, 5, 6]);
 
     posts.forEach(function(p) {
-      var rotuloPostNorm = normalizarSemAcentoMaiuscula(p.label);
-      var tokPost = normalizarTokensNomeSanto(p.label);
-      if (tokPost.length === 0) return;
-      var strPost = tokPost.join(' ');
+      var tituloBruto = String(p.label || '');
+      var dataPost = extrairDiaMesDeTexto(tituloBruto);
+
+      // Extrai parte do nome antes de ':' ou '-'
+      var trechoNome = tituloBruto.split(/[:–—-]/)[0];
+      var toksPost = extrairPalavrasSignificativas(normalizarTokensNomeSanto(trechoNome));
+      if (toksPost.length === 0) return;
 
       todosNos.forEach(function(santo) {
         if (!niveisSet.has(santo.level) || santo.urlPost) return;
-        var tokSanto = normalizarTokensNomeSanto(santo.label);
-        if (tokSanto.length === 0) return;
 
-        // Se o santo tem 1 palavra (ex: "Pedro"), exige "SAO PEDRO" ou "S. PEDRO" no título
-        if (tokSanto.length === 1) {
-          var nomeSimples = tokSanto[0];
-          var padraoComSanto = new RegExp('\\b(S|SAO|SANTO|STA|SANTA)\\.?\\s+' + nomeSimples + '\\b', 'i');
-          if (padraoComSanto.test(rotuloPostNorm)) {
-            santo.urlPost = p.url;
-          }
-        } else {
-          var strSanto = tokSanto.join(' ');
-          if (strPost.indexOf(strSanto) !== -1 || tokSanto.every(function(t) { return tokPost.indexOf(t) !== -1; })) {
-            santo.urlPost = p.url;
-          }
+        // Se ambos têm data litúrgica e não batem, descarta sumariamente
+        var festaSanto = dataFestaPorSantoId[santo.id];
+        if (dataPost && festaSanto) {
+          if (dataPost.dia !== festaSanto.dia || dataPost.mesNum !== festaSanto.mes) return;
+        }
+
+        var toksSanto = extrairPalavrasSignificativas(normalizarTokensNomeSanto(santo.label));
+        if (toksSanto.length === 0) return;
+
+        // Verifica semelhança de palavras entre santo e post
+        var comuns = 0;
+        toksSanto.forEach(function(t) { if (toksPost.indexOf(t) !== -1) comuns++; });
+
+        var todosDoSantoPresentes = (comuns === toksSanto.length);
+        if (!todosDoSantoPresentes) return;
+
+        // Taxa de similaridade: exige >= 75% para evitar que um nome curto case com composto
+        var taxaSimilaridade = comuns / Math.max(toksSanto.length, toksPost.length);
+        if (taxaSimilaridade >= 0.74 || (dataPost && festaSanto && comuns >= 1)) {
+          santo.urlPost = p.url;
         }
       });
     });
@@ -1351,7 +1381,7 @@ async function main() {
         console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "regras" em dados-grafo.js. Usando padrão.');
       }
 
-      await vincularPostsAosSantos(dados.todosNos, regrasCarregadas);
+      await vincularPostsAosSantos(dados.todosNos, regrasCarregadas, dados.todosSetas);
       var resultadoCalculo = calcularPosicoesDeUmGrafo(dados.todosNos, dados.todosSetas, regrasCarregadas);
       // "regras" vai junto no JSON de saída — a página passa a buscar
       // só esse arquivo, sem precisar de uma 2ª requisição separada
