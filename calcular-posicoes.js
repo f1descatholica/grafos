@@ -1,4 +1,3 @@
-
 // ============================================================
 // calcular-posicoes.js github
 // ============================================================
@@ -28,11 +27,6 @@
 //Nova regra genérica de layout: quebrarSempreEntreCategorias (default true). //Presente em REGRAS_PADRAO (build) e no fallback do motor. Pode ser desativada por //grafo, em regrasDoGrafo.layout, se algum grafo específico preferir o //comportamento antigo (categorias pequenas podem ficar juntas na mesma fileira).
 //Resolve a centrifugação: categoria "ideia" com 1 nó (ex: filtro mártir) agora //sempre quebra fileira antes de "documento" entrar, independente do tamanho.
 // ============================================================
-
-
-
-
-
 
 const fs = require('fs');
 const path = require('path');
@@ -138,8 +132,7 @@ function construirFileirasDoNivel(nosDoNivel, dataChavePorNo, regras) {
     gruposPorCategoria[chave].push(n);
   });
 
-
-var fileiras = [];
+  var fileiras = [];
   var fileiraAtual = [];
   var epocaAtual = null;
   ordemCategorias.forEach(function(chave) {
@@ -272,10 +265,6 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
     for (var j = listaLinhasVisuais.length - 1; j >= 0; j--) ordenarNivelPorBaricentro(listaLinhasVisuais[j]);
   }
 
-  // (bloco de código morto removido — cálculo duplicado sem uso.
-  // O cálculo real de zig-zag acontece logo abaixo, usando
-  // "infoLinhaVisual" pra achar o Y base corretamente.)
-
   // Mapeia cada linha visual -> nível + índice de fileira dentro do nível,
   // pra poder somar o Y base certo no passo do zig-zag.
   var infoLinhaVisual = {}; // idxLinha -> { lvl, indiceFileiraDentroDoNivel }
@@ -359,7 +348,6 @@ function calcularPosicoesDeUmGrafo(todosNos, todosSetas, regrasCarregadas) {
   //      categoria. Usado quando subgruposPorNivel não define o nível.
   // Ambos aditivos: nível sem nenhuma das duas chaves só recebe o
   // rótulo de texto (ou nada, se rotulosNiveis também não o definir).
-  
   var bandasNiveis = [];
   var rotulosNiveisCfg = regras.layout.rotulosNiveis || {};
   var coresNiveisCfg = regras.layout.coresNiveis || {};
@@ -603,37 +591,49 @@ var TITULOS_LITURGICOS_DESCARTE = {
   ABADE: true, VIUVA: true, DOUTOR: true, APOSTOLO: true, PROFETA: true,
   EVANGELISTA: true, PADROEIRA: true, PADROEIRO: true, IGREJA: true,
   COMEMORACAO: true, FESTA: true, SAO: true, SANTO: true, SANTA: true,
-  RAINHA: true, REI: true
+  RAINHA: true, REI: true, BEATO: true, BEATA: true, PRESBITERO: true,
+  DIACONO: true, MONGE: true, PADRE: true, FREI: true, IRMA: true,
+  MADRE: true, EREMITA: true, RELIGIOSO: true, RELIGIOSA: true,
+  NOSSA: true, SENHORA: true, ARCANJO: true
 };
 
 function extrairTokensIdentidadeSanto(texto) {
   return normalizarTokensNomeSanto(texto).filter(function(t) {
-    return t !== 'SANTO' && !TITULOS_LITURGICOS_DESCARTE[t] && t.length > 2;
+    var ehRomano = /^(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX)$/.test(t);
+    return t !== 'SANTO' && !TITULOS_LITURGICOS_DESCARTE[t] && (t.length > 2 || ehRomano || t === 'FE' || t === 'JO');
   });
 }
 
-var MAPA_MES_POR_ID_GRAFO = {
-  '70': 1, '80': 2, '90': 3, '91': 4, '92': 5, '93': 6,
-  '94': 7, '95': 8, '96': 9, '97': 10, '98': 11, '99': 12
-};
+function mapearDatasLiturgicasDoGrafo(todosNos, todosSetas, regrasCarregadas) {
+  var cfg = (regrasCarregadas && regrasCarregadas.mapa) || {};
+  var campoIgnorar = (cfg.campos && cfg.campos.ignorarMapa) || 'ignorarMapa';
+  var campoMes = (cfg.campos && cfg.campos.mesNumero) ||
+    (regrasCarregadas && regrasCarregadas.dicionario && regrasCarregadas.dicionario.mesReferencia) ||
+    'mesNumero';
+  var ignoradas = (cfg.festasIgnoradas || ['CATEDRA', 'CONVERSAO']).map(normalizarSemAcentoMaiuscula);
 
-function mapearDatasLiturgicasDoGrafo(todosNos, todosSetas) {
   var nosPorId = {};
   (todosNos || []).forEach(function(n) { nosPorId[String(n.id)] = n; });
   var datasPorId = {};
 
   (todosSetas || []).forEach(function(s) {
-    var mesNum = MAPA_MES_POR_ID_GRAFO[String(s.from)];
-    if (!mesNum) {
-      var orig = nosPorId[String(s.from)];
-      if (orig && orig.mesNumero !== undefined) mesNum = parseInt(orig.mesNumero, 10);
-    }
+    if (s[campoIgnorar] === true) return;
+    var orig = nosPorId[String(s.from)];
+    var mesVal = orig ? orig[campoMes] : undefined;
+    var mesNum = (mesVal !== undefined && mesVal !== null && !isNaN(Number(mesVal))) ? parseInt(mesVal, 10) : 0;
+    if (mesNum < 1 || mesNum > 12) return;
+
+    var textoNorm = normalizarSemAcentoMaiuscula(s.texto);
+    if (ignoradas.some(function(p) { return textoNorm.indexOf(p) !== -1; })) return;
+
     var dia = extrairDiaDoTexto(s.texto);
-    if (!mesNum || dia === null) return;
+    if (dia === null || dia < 1 || dia > 31) return;
 
     var idSanto = String(s.to);
-    if (!datasPorId[idSanto]) {
-      datasPorId[idSanto] = { dia: dia, mes: mesNum, chaveMD: mesNum + '-' + dia };
+    var chaveMD = mesNum + '-' + dia;
+    if (!datasPorId[idSanto]) datasPorId[idSanto] = [];
+    if (!datasPorId[idSanto].some(function(d) { return d.chaveMD === chaveMD; })) {
+      datasPorId[idSanto].push({ dia: dia, mes: mesNum, chaveMD: chaveMD });
     }
   });
   return datasPorId;
@@ -1310,13 +1310,13 @@ function gerarDadosDoMapa(todosNos, todosSetas, regrasCarregadas, nomeGrafo, pas
   };
 }
 
-async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
+async function carregarPostsDoBlog() {
   try {
     var resp = await fetch('https://raw.githubusercontent.com/f1descatholica/grafo-blog/main/dados-grafo-conhecimento.json', { cache: 'no-store' });
-    if (!resp.ok) return;
+    if (!resp.ok) return [];
     var dadosBlog = await resp.json();
 
-    var posts = (dadosBlog.nodes || []).filter(function(n) {
+    return (dadosBlog.nodes || []).filter(function(n) {
       if (n.tipoNo !== 'post' || !n.url) return false;
       var marcadores = Array.isArray(n.labels) ? n.labels : [];
       return marcadores.some(function(lb) {
@@ -1324,48 +1324,45 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
         return s.indexOf('l ') === 0 || s.indexOf('p ') === 0;
       });
     });
-    if (posts.length === 0) return;
-
-    var dataFestaPorSantoId = mapearDatasLiturgicasDoGrafo(todosNos, todosSetas);
-    var niveisSet = new Set((regrasCarregadas && regrasCarregadas.mapa && regrasCarregadas.mapa.niveisSantos) || [2, 3, 4, 5, 6]);
-
-    posts.forEach(function(p) {
-      var tituloBruto = String(p.label || '');
-      var dataPost = extrairDiaMesDeTexto(tituloBruto);
-
-      var trechoNome = tituloBruto.split(/[:–—-]/)[0];
-      var toksPost = extrairTokensIdentidadeSanto(trechoNome);
-      if (toksPost.length === 0) return;
-
-      todosNos.forEach(function(santo) {
-        if (!niveisSet.has(santo.level) || santo.urlPost) return;
-
-        var festaSanto = dataFestaPorSantoId[String(santo.id)];
-
-        // Rejeita na hora se as datas não coincidirem
-        if (dataPost && festaSanto) {
-          if (dataPost.dia !== festaSanto.dia || dataPost.mesNum !== festaSanto.mes) return;
-        }
-
-        var toksSanto = extrairTokensIdentidadeSanto(santo.label);
-        if (toksSanto.length === 0) return;
-
-        var comuns = 0;
-        toksSanto.forEach(function(t) { if (toksPost.indexOf(t) !== -1) comuns++; });
-        var todosPresentes = (comuns === toksSanto.length);
-        if (!todosPresentes) return;
-
-        if (dataPost && festaSanto && dataPost.dia === festaSanto.dia && dataPost.mesNum === festaSanto.mes) {
-          santo.urlPost = p.url;
-        } else {
-          var taxa = comuns / Math.max(toksSanto.length, toksPost.length);
-          if (taxa >= 0.74) santo.urlPost = p.url;
-        }
-      });
-    });
   } catch (e) {
     console.warn('  [AVISO POSTS] Não foi possível ler posts do blog: ' + e.message);
+    return [];
   }
+}
+
+function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas, posts) {
+  if (!posts || posts.length === 0) return;
+
+  var dataFestaPorSantoId = mapearDatasLiturgicasDoGrafo(todosNos, todosSetas, regrasCarregadas);
+  var niveisSet = new Set((regrasCarregadas && regrasCarregadas.mapa && regrasCarregadas.mapa.niveisSantos) || [2, 3, 4, 5, 6]);
+
+  posts.forEach(function(p) {
+    var tituloBruto = String(p.label || '');
+    var dataPost = extrairDiaMesDeTexto(tituloBruto);
+    if (!dataPost) return;
+
+    var semData = tituloBruto.replace(/\b\d{1,2}\s+de\s+[a-zA-ZÀ-ÿ]+/i, '').replace(/^[\s:–—,-]+|[\s:–—,-]+$/g, '');
+    var trechoNome = semData.split(/[:–—]|\s+-\s+/)[0];
+    var toksPost = extrairTokensIdentidadeSanto(trechoNome);
+    if (toksPost.length === 0) return;
+
+    todosNos.forEach(function(santo) {
+      if (!niveisSet.has(santo.level) || santo.urlPost) return;
+
+      var datasSanto = dataFestaPorSantoId[String(santo.id)];
+      if (!datasSanto || !datasSanto.some(function(d) { return d.dia === dataPost.dia && d.mes === dataPost.mesNum; })) return;
+
+      var toksSanto = extrairTokensIdentidadeSanto(santo.label);
+      if (toksSanto.length === 0) return;
+
+      var romPost = extrairRomanos(toksPost), romSanto = extrairRomanos(toksSanto);
+      if (romPost.length > 0 && romSanto.length > 0 && romPost.join(',') !== romSanto.join(',')) return;
+
+      var santoNoPost = toksSanto.every(function(t) { return toksPost.indexOf(t) !== -1; });
+      var postNoSanto = toksPost.every(function(t) { return toksSanto.indexOf(t) !== -1; });
+      if (santoNoPost || postNoSanto) santo.urlPost = p.url;
+    });
+  });
 }
 
 async function auditarSantosFaltantesNoGrafo(todosNos, todosSetas, regrasCarregadas, pastaAtual) {
@@ -1388,12 +1385,13 @@ async function auditarSantosFaltantesNoGrafo(todosNos, todosSetas, regrasCarrega
       return m + '-' + d;
     }
 
-    var datasGrafo = mapearDatasLiturgicasDoGrafo(todosNos, todosSetas);
+    var datasGrafo = mapearDatasLiturgicasDoGrafo(todosNos, todosSetas, regrasCarregadas);
     var santosPorChaveMD = {};
     Object.keys(datasGrafo).forEach(function(idSanto) {
-      var info = datasGrafo[idSanto];
-      if (!santosPorChaveMD[info.chaveMD]) santosPorChaveMD[info.chaveMD] = [];
-      santosPorChaveMD[info.chaveMD].push(idSanto);
+      datasGrafo[idSanto].forEach(function(info) {
+        if (!santosPorChaveMD[info.chaveMD]) santosPorChaveMD[info.chaveMD] = [];
+        santosPorChaveMD[info.chaveMD].push(idSanto);
+      });
     });
 
     var nosPorId = {};
@@ -1452,7 +1450,7 @@ async function main() {
     return;
   }
 
-  var sucesso = 0, falhas = 0;
+  var sucesso = 0, falhas = 0, postsDoBlog = null;
 
   for (var i = 0; i < nomesDosGrafos.length; i++) {
     var nomeGrafo = nomesDosGrafos[i];
@@ -1474,7 +1472,11 @@ async function main() {
         console.warn('AVISO: pasta "' + nomeGrafo + '" não tem "regras" em dados-grafo.js. Usando padrão.');
       }
 
-      await vincularPostsAosSantos(dados.todosNos, regrasCarregadas, dados.todosSetas);
+      if (regrasCarregadas && regrasCarregadas.mapa) {
+        if (postsDoBlog === null) postsDoBlog = await carregarPostsDoBlog();
+        vincularPostsAosSantos(dados.todosNos, regrasCarregadas, dados.todosSetas, postsDoBlog);
+      }
+
       var resultadoCalculo = calcularPosicoesDeUmGrafo(dados.todosNos, dados.todosSetas, regrasCarregadas);
       // "regras" vai junto no JSON de saída — a página passa a buscar
       // só esse arquivo, sem precisar de uma 2ª requisição separada
