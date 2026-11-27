@@ -1275,7 +1275,6 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
     if (!resp.ok) return;
     var dadosBlog = await resp.json();
 
-    // Filtra apenas posts estritamente litúrgicos pelas tags
     var posts = (dadosBlog.nodes || []).filter(function(n) {
       if (n.tipoNo !== 'post' || !n.url) return false;
       var marcadores = Array.isArray(n.labels) ? n.labels : [];
@@ -1289,23 +1288,34 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
     var titulosLiturgicosDescarte = {
       VIRGEM: true, MARTIR: true, CONFESSOR: true, BISPO: true, PAPA: true,
       ABADE: true, VIUVA: true, DOUTOR: true, APOSTOLO: true, PROFETA: true,
-      EVANGELISTA: true, PADROEIRA: true, PADROEIRO: true, IGREJA: true
+      EVANGELISTA: true, PADROEIRA: true, PADROEIRO: true, IGREJA: true, RAINHA: true, REI: true
     };
 
     function extrairPalavrasSignificativas(toks) {
       return toks.filter(function(t) { return t !== 'SANTO' && !titulosLiturgicosDescarte[t] && t.length > 2; });
     }
 
-    // Mapeia dia/mês de festa de cada santo do grafo via arestas
+    // Mapa oficial dos nós de mês em dados-grafo.js
+    var mapaMesId = {
+      '70': 1, '80': 2, '90': 3, '91': 4, '92': 5, '93': 6,
+      '94': 7, '95': 8, '96': 9, '97': 10, '98': 11, '99': 12
+    };
+
     var nosPorId = {};
-    (todosNos || []).forEach(function(n) { nosPorId[n.id] = n; });
+    (todosNos || []).forEach(function(n) { nosPorId[String(n.id)] = n; });
+
     var dataFestaPorSantoId = {};
     (todosSetas || []).forEach(function(s) {
-      var origem = nosPorId[s.from];
-      if (!origem || origem.mesNumero === undefined) return;
+      var mesNum = mapaMesId[String(s.from)];
+      if (!mesNum) {
+        var origem = nosPorId[String(s.from)];
+        if (origem && origem.mesNumero !== undefined) mesNum = parseInt(origem.mesNumero, 10);
+      }
+      if (!mesNum) return;
+
       var dia = extrairDiaDoTexto(s.texto);
       if (dia !== null) {
-        dataFestaPorSantoId[s.to] = { dia: dia, mes: parseInt(origem.mesNumero, 10) };
+        dataFestaPorSantoId[String(s.to)] = { dia: dia, mes: mesNum };
       }
     });
 
@@ -1315,7 +1325,6 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
       var tituloBruto = String(p.label || '');
       var dataPost = extrairDiaMesDeTexto(tituloBruto);
 
-      // Extrai parte do nome antes de ':' ou '-'
       var trechoNome = tituloBruto.split(/[:–—-]/)[0];
       var toksPost = extrairPalavrasSignificativas(normalizarTokensNomeSanto(trechoNome));
       if (toksPost.length === 0) return;
@@ -1323,8 +1332,9 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
       todosNos.forEach(function(santo) {
         if (!niveisSet.has(santo.level) || santo.urlPost) return;
 
-        // Se ambos têm data litúrgica e não batem, descarta sumariamente
-        var festaSanto = dataFestaPorSantoId[santo.id];
+        var festaSanto = dataFestaPorSantoId[String(santo.id)];
+
+        // Se ambos têm data e as datas NÃO batem, rejeição absoluta
         if (dataPost && festaSanto) {
           if (dataPost.dia !== festaSanto.dia || dataPost.mesNum !== festaSanto.mes) return;
         }
@@ -1332,17 +1342,18 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
         var toksSanto = extrairPalavrasSignificativas(normalizarTokensNomeSanto(santo.label));
         if (toksSanto.length === 0) return;
 
-        // Verifica semelhança de palavras entre santo e post
         var comuns = 0;
         toksSanto.forEach(function(t) { if (toksPost.indexOf(t) !== -1) comuns++; });
+        var todosPresentes = (comuns === toksSanto.length);
+        if (!todosPresentes) return;
 
-        var todosDoSantoPresentes = (comuns === toksSanto.length);
-        if (!todosDoSantoPresentes) return;
-
-        // Taxa de similaridade: exige >= 75% para evitar que um nome curto case com composto
-        var taxaSimilaridade = comuns / Math.max(toksSanto.length, toksPost.length);
-        if (taxaSimilaridade >= 0.74 || (dataPost && festaSanto && comuns >= 1)) {
+        // Se a data bateu 100% e o nome está presente, confirma o match!
+        if (dataPost && festaSanto && dataPost.dia === festaSanto.dia && dataPost.mesNum === festaSanto.mes) {
           santo.urlPost = p.url;
+        } else {
+          // Sem data: exige pelo menos 75% de igualdade para evitar homônimos
+          var taxa = comuns / Math.max(toksSanto.length, toksPost.length);
+          if (taxa >= 0.74) santo.urlPost = p.url;
         }
       });
     });
