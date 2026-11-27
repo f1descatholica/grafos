@@ -598,6 +598,47 @@ function normalizarChaveNomeSanto(nome) {
   return normalizarTokensNomeSanto(nome).join(' ');
 }
 
+var TITULOS_LITURGICOS_DESCARTE = {
+  VIRGEM: true, MARTIR: true, CONFESSOR: true, BISPO: true, PAPA: true,
+  ABADE: true, VIUVA: true, DOUTOR: true, APOSTOLO: true, PROFETA: true,
+  EVANGELISTA: true, PADROEIRA: true, PADROEIRO: true, IGREJA: true,
+  COMEMORACAO: true, FESTA: true, SAO: true, SANTO: true, SANTA: true,
+  RAINHA: true, REI: true
+};
+
+function extrairTokensIdentidadeSanto(texto) {
+  return normalizarTokensNomeSanto(texto).filter(function(t) {
+    return t !== 'SANTO' && !TITULOS_LITURGICOS_DESCARTE[t] && t.length > 2;
+  });
+}
+
+var MAPA_MES_POR_ID_GRAFO = {
+  '70': 1, '80': 2, '90': 3, '91': 4, '92': 5, '93': 6,
+  '94': 7, '95': 8, '96': 9, '97': 10, '98': 11, '99': 12
+};
+
+function mapearDatasLiturgicasDoGrafo(todosNos, todosSetas) {
+  var nosPorId = {};
+  (todosNos || []).forEach(function(n) { nosPorId[String(n.id)] = n; });
+  var datasPorId = {};
+
+  (todosSetas || []).forEach(function(s) {
+    var mesNum = MAPA_MES_POR_ID_GRAFO[String(s.from)];
+    if (!mesNum) {
+      var orig = nosPorId[String(s.from)];
+      if (orig && orig.mesNumero !== undefined) mesNum = parseInt(orig.mesNumero, 10);
+    }
+    var dia = extrairDiaDoTexto(s.texto);
+    if (!mesNum || dia === null) return;
+
+    var idSanto = String(s.to);
+    if (!datasPorId[idSanto]) {
+      datasPorId[idSanto] = { dia: dia, mes: mesNum, chaveMD: mesNum + '-' + dia };
+    }
+  });
+  return datasPorId;
+}
+
 function extrairRomanos(tokens) {
   var reRomano = /^(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX)$/;
   return tokens.filter(function(t) { return reRomano.test(t); });
@@ -1285,6 +1326,62 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
     });
     if (posts.length === 0) return;
 
+    var dataFestaPorSantoId = mapearDatasLiturgicasDoGrafo(todosNos, todosSetas);
+    var niveisSet = new Set((regrasCarregadas && regrasCarregadas.mapa && regrasCarregadas.mapa.niveisSantos) || [2, 3, 4, 5, 6]);
+
+    posts.forEach(function(p) {
+      var tituloBruto = String(p.label || '');
+      var dataPost = extrairDiaMesDeTexto(tituloBruto);
+
+      var trechoNome = tituloBruto.split(/[:–—-]/)[0];
+      var toksPost = extrairTokensIdentidadeSanto(trechoNome);
+      if (toksPost.length === 0) return;
+
+      todosNos.forEach(function(santo) {
+        if (!niveisSet.has(santo.level) || santo.urlPost) return;
+
+        var festaSanto = dataFestaPorSantoId[String(santo.id)];
+
+        // Rejeita na hora se as datas não coincidirem
+        if (dataPost && festaSanto) {
+          if (dataPost.dia !== festaSanto.dia || dataPost.mesNum !== festaSanto.mes) return;
+        }
+
+        var toksSanto = extrairTokensIdentidadeSanto(santo.label);
+        if (toksSanto.length === 0) return;
+
+        var comuns = 0;
+        toksSanto.forEach(function(t) { if (toksPost.indexOf(t) !== -1) comuns++; });
+        var todosPresentes = (comuns === toksSanto.length);
+        if (!todosPresentes) return;
+
+        if (dataPost && festaSanto && dataPost.dia === festaSanto.dia && dataPost.mesNum === festaSanto.mes) {
+          santo.urlPost = p.url;
+        } else {
+          var taxa = comuns / Math.max(toksSanto.length, toksPost.length);
+          if (taxa >= 0.74) santo.urlPost = p.url;
+        }
+      });
+    });
+  } catch (e) {
+    console.warn('  [AVISO POSTS] Não foi possível ler posts do blog: ' + e.message);
+  }
+}
+  try {
+    var resp = await fetch('https://raw.githubusercontent.com/f1descatholica/grafo-blog/main/dados-grafo-conhecimento.json', { cache: 'no-store' });
+    if (!resp.ok) return;
+    var dadosBlog = await resp.json();
+
+    var posts = (dadosBlog.nodes || []).filter(function(n) {
+      if (n.tipoNo !== 'post' || !n.url) return false;
+      var marcadores = Array.isArray(n.labels) ? n.labels : [];
+      return marcadores.some(function(lb) {
+        var s = String(lb || '').trim().toLowerCase();
+        return s.indexOf('l ') === 0 || s.indexOf('p ') === 0;
+      });
+    });
+    if (posts.length === 0) return;
+
     var titulosLiturgicosDescarte = {
       VIRGEM: true, MARTIR: true, CONFESSOR: true, BISPO: true, PAPA: true,
       ABADE: true, VIUVA: true, DOUTOR: true, APOSTOLO: true, PROFETA: true,
@@ -1373,17 +1470,21 @@ async function auditarSantosFaltantesNoGrafo(todosNos, todosSetas, regrasCarrega
     var indice = await resp.json();
     if (!Array.isArray(indice) || indice.length === 0) return;
 
-    var mapaMesId = { '70': 1, '80': 2, '90': 3, '91': 4, '92': 5, '93': 6, '94': 7, '95': 8, '96': 9, '97': 10, '98': 11, '99': 12 };
-    function pad2(n) { return n < 10 ? '0' + n : String(n); }
+    function normalizarChaveMD(textoData) {
+      if (!textoData) return null;
+      var partes = String(textoData).trim().split('-');
+      if (partes.length !== 2) return null;
+      var m = parseInt(partes[0], 10), d = parseInt(partes[1], 10);
+      if (isNaN(m) || isNaN(d)) return null;
+      return m + '-' + d;
+    }
 
-    var santosGrafoPorData = {};
-    (todosSetas || []).forEach(function(s) {
-      var mesNum = mapaMesId[String(s.from)];
-      var dia = extrairDiaDoTexto(s.texto);
-      if (!mesNum || dia === null) return;
-      var chaveData = pad2(mesNum) + '-' + pad2(dia);
-      if (!santosGrafoPorData[chaveData]) santosGrafoPorData[chaveData] = [];
-      santosGrafoPorData[chaveData].push(String(s.to));
+    var datasGrafo = mapearDatasLiturgicasDoGrafo(todosNos, todosSetas);
+    var santosPorChaveMD = {};
+    Object.keys(datasGrafo).forEach(function(idSanto) {
+      var info = datasGrafo[idSanto];
+      if (!santosPorChaveMD[info.chaveMD]) santosPorChaveMD[info.chaveMD] = [];
+      santosPorChaveMD[info.chaveMD].push(idSanto);
     });
 
     var nosPorId = {};
@@ -1391,22 +1492,119 @@ async function auditarSantosFaltantesNoGrafo(todosNos, todosSetas, regrasCarrega
 
     var faltantes = [];
     indice.forEach(function(item) {
-      var dataAlvo = String(item.data || '').trim();
+      var chaveIndice = normalizarChaveMD(item.data);
       var tituloIndice = String(item.t || '').trim();
-      if (!dataAlvo || !tituloIndice) return;
+      if (!chaveIndice || !tituloIndice) return;
 
-      var idsNaData = santosGrafoPorData[dataAlvo] || [];
-      var toksIndice = normalizarTokensNomeSanto(tituloIndice).filter(function(t) { return t !== 'SANTO' && t.length > 2; });
+      var idsNaData = santosPorChaveMD[chaveIndice] || [];
+      var toksIndice = extrairTokensIdentidadeSanto(tituloIndice);
+      if (toksIndice.length === 0) return;
 
       var encontrado = idsNaData.some(function(idSanto) {
         var noSanto = nosPorId[idSanto];
         if (!noSanto) return false;
-        var toksSanto = normalizarTokensNomeSanto(noSanto.label).filter(function(t) { return t !== 'SANTO' && t.length > 2; });
+        var toksSanto = extrairTokensIdentidadeSanto(noSanto.label);
         return toksSanto.some(function(t) { return toksIndice.indexOf(t) !== -1; });
       });
 
       if (!encontrado) {
-        faltantes.push('- ' + dataAlvo + ': ' + tituloIndice);
+        faltantes.push('- ' + item.data + ': ' + tituloIndice);
+      }
+    });
+
+    var caminhoRel = path.join(pastaAtual, 'santos-faltantes.txt');
+    var conteudo = '';
+    if (faltantes.length === 0) {
+      conteudo = 'Parabéns! 100% dos santos do calendário litúrgico (' + indice.length + ') estão presentes no grafo.\n';
+    } else {
+      conteudo = [
+        '============================================================',
+        'AUDITORIA: SANTOS DO CALENDÁRIO AUSENTES NO GRAFO',
+        '============================================================',
+        'Total no Calendário: ' + indice.length + ' | Faltantes no Grafo: ' + faltantes.length,
+        '------------------------------------------------------------',
+        faltantes.join('\n'),
+        '============================================================'
+      ].join('\n') + '\n';
+    }
+
+    fs.writeFileSync(caminhoRel, conteudo, 'utf8');
+    console.log('  [CHECKLIST GRAFO] Calendário: ' + indice.length + ' | Faltantes no Grafo: ' + faltantes.length + ' (salvo em santos-faltantes.txt)');
+  } catch (e) {
+    console.warn('  [AVISO AUDITORIA] Não foi possível verificar o índice do calendário: ' + e.message);
+  }
+}
+  var urlIndice = 'https://raw.githubusercontent.com/f1descatholica/calendario-liturgico/main/indice_calendario.json';
+  try {
+    var resp = await fetch(urlIndice, { cache: 'no-store' });
+    if (!resp.ok) {
+      resp = await fetch('https://raw.githubusercontent.com/f1descatholica/calendario-liturgico/master/indice_calendario.json', { cache: 'no-store' });
+    }
+    if (!resp.ok) return;
+    var indice = await resp.json();
+    if (!Array.isArray(indice) || indice.length === 0) return;
+
+    var mapaMesId = { '70': 1, '80': 2, '90': 3, '91': 4, '92': 5, '93': 6, '94': 7, '95': 8, '96': 9, '97': 10, '98': 11, '99': 12 };
+
+    function normalizarChaveMD(textoData) {
+      if (!textoData) return null;
+      var partes = String(textoData).trim().split('-');
+      if (partes.length !== 2) return null;
+      var m = parseInt(partes[0], 10);
+      var d = parseInt(partes[1], 10);
+      if (isNaN(m) || isNaN(d)) return null;
+      return m + '-' + d;
+    }
+
+    var nosPorId = {};
+    (todosNos || []).forEach(function(n) { nosPorId[String(n.id)] = n; });
+
+    // Mapeia todos os santos do grafo indexados pela chave normalizada (sem zeros)
+    var santosGrafoPorData = {};
+    (todosSetas || []).forEach(function(s) {
+      var mesNum = mapaMesId[String(s.from)];
+      if (!mesNum) {
+        var orig = nosPorId[String(s.from)];
+        if (orig && orig.mesNumero !== undefined) mesNum = parseInt(orig.mesNumero, 10);
+      }
+      var dia = extrairDiaDoTexto(s.texto);
+      if (!mesNum || dia === null) return;
+      var chaveData = mesNum + '-' + dia;
+      if (!santosGrafoPorData[chaveData]) santosGrafoPorData[chaveData] = [];
+      santosGrafoPorData[chaveData].push(String(s.to));
+    });
+
+    var titulosDescarte = {
+      VIRGEM: true, MARTIR: true, CONFESSOR: true, BISPO: true, PAPA: true,
+      ABADE: true, VIUVA: true, DOUTOR: true, APOSTOLO: true, PROFETA: true,
+      EVANGELISTA: true, IGREJA: true, COMEMORACAO: true, FESTA: true, SAO: true, SANTO: true, SANTA: true
+    };
+
+    function extrairNomesCentrais(texto) {
+      return normalizarTokensNomeSanto(texto).filter(function(t) {
+        return t !== 'SANTO' && !titulosDescarte[t] && t.length > 2;
+      });
+    }
+
+    var faltantes = [];
+    indice.forEach(function(item) {
+      var chaveIndice = normalizarChaveMD(item.data);
+      var tituloIndice = String(item.t || '').trim();
+      if (!chaveIndice || !tituloIndice) return;
+
+      var idsNaData = santosGrafoPorData[chaveIndice] || [];
+      var toksIndice = extrairNomesCentrais(tituloIndice);
+      if (toksIndice.length === 0) return;
+
+      var encontrado = idsNaData.some(function(idSanto) {
+        var noSanto = nosPorId[idSanto];
+        if (!noSanto) return false;
+        var toksSanto = extrairNomesCentrais(noSanto.label);
+        return toksSanto.some(function(t) { return toksIndice.indexOf(t) !== -1; });
+      });
+
+      if (!encontrado) {
+        faltantes.push('- ' + item.data + ': ' + tituloIndice);
       }
     });
 
