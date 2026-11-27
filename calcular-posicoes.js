@@ -1362,6 +1362,77 @@ async function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas) {
   }
 }
 
+async function auditarSantosFaltantesNoGrafo(todosNos, todosSetas, regrasCarregadas, pastaAtual) {
+  var urlIndice = 'https://raw.githubusercontent.com/f1descatholica/calendario-liturgico/main/indice_calendario.json';
+  try {
+    var resp = await fetch(urlIndice, { cache: 'no-store' });
+    if (!resp.ok) {
+      resp = await fetch('https://raw.githubusercontent.com/f1descatholica/calendario-liturgico/master/indice_calendario.json', { cache: 'no-store' });
+    }
+    if (!resp.ok) return;
+    var indice = await resp.json();
+    if (!Array.isArray(indice) || indice.length === 0) return;
+
+    var mapaMesId = { '70': 1, '80': 2, '90': 3, '91': 4, '92': 5, '93': 6, '94': 7, '95': 8, '96': 9, '97': 10, '98': 11, '99': 12 };
+    function pad2(n) { return n < 10 ? '0' + n : String(n); }
+
+    var santosGrafoPorData = {};
+    (todosSetas || []).forEach(function(s) {
+      var mesNum = mapaMesId[String(s.from)];
+      var dia = extrairDiaDoTexto(s.texto);
+      if (!mesNum || dia === null) return;
+      var chaveData = pad2(mesNum) + '-' + pad2(dia);
+      if (!santosGrafoPorData[chaveData]) santosGrafoPorData[chaveData] = [];
+      santosGrafoPorData[chaveData].push(String(s.to));
+    });
+
+    var nosPorId = {};
+    (todosNos || []).forEach(function(n) { nosPorId[String(n.id)] = n; });
+
+    var faltantes = [];
+    indice.forEach(function(item) {
+      var dataAlvo = String(item.data || '').trim();
+      var tituloIndice = String(item.t || '').trim();
+      if (!dataAlvo || !tituloIndice) return;
+
+      var idsNaData = santosGrafoPorData[dataAlvo] || [];
+      var toksIndice = normalizarTokensNomeSanto(tituloIndice).filter(function(t) { return t !== 'SANTO' && t.length > 2; });
+
+      var encontrado = idsNaData.some(function(idSanto) {
+        var noSanto = nosPorId[idSanto];
+        if (!noSanto) return false;
+        var toksSanto = normalizarTokensNomeSanto(noSanto.label).filter(function(t) { return t !== 'SANTO' && t.length > 2; });
+        return toksSanto.some(function(t) { return toksIndice.indexOf(t) !== -1; });
+      });
+
+      if (!encontrado) {
+        faltantes.push('- ' + dataAlvo + ': ' + tituloIndice);
+      }
+    });
+
+    var caminhoRel = path.join(pastaAtual, 'santos-faltantes.txt');
+    var conteudo = '';
+    if (faltantes.length === 0) {
+      conteudo = 'Parabéns! 100% dos santos do calendário litúrgico (' + indice.length + ') estão presentes no grafo.\n';
+    } else {
+      conteudo = [
+        '============================================================',
+        'AUDITORIA: SANTOS DO CALENDÁRIO AUSENTES NO GRAFO',
+        '============================================================',
+        'Total no Calendário: ' + indice.length + ' | Faltantes no Grafo: ' + faltantes.length,
+        '------------------------------------------------------------',
+        faltantes.join('\n'),
+        '============================================================'
+      ].join('\n') + '\n';
+    }
+
+    fs.writeFileSync(caminhoRel, conteudo, 'utf8');
+    console.log('  [CHECKLIST GRAFO] Calendário: ' + indice.length + ' | Faltantes no Grafo: ' + faltantes.length + ' (salvo em santos-faltantes.txt)');
+  } catch (e) {
+    console.warn('  [AVISO AUDITORIA] Não foi possível verificar o índice do calendário: ' + e.message);
+  }
+}
+
 async function main() {
   var nomesDosGrafos = encontrarPastasDeGrafo();
 
@@ -1411,6 +1482,7 @@ async function main() {
         var arquivoSaidaMapa = path.join(pastaAtual, 'dados-mapa.json');
         var dadosMapa = gerarDadosDoMapa(dados.todosNos, dados.todosSetas, regrasCarregadas, nomeGrafo, pastaAtual);
         fs.writeFileSync(arquivoSaidaMapa, JSON.stringify(dadosMapa, null, 2), 'utf8');
+        await auditarSantosFaltantesNoGrafo(dados.todosNos, dados.todosSetas, regrasCarregadas, pastaAtual);
       }
 
       sucesso++;
