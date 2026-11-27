@@ -1,0 +1,366 @@
+============================================================
+AUDITORIA: SANTOS DO CALENDÁRIO AUSENTES NO GRAFO
+============================================================
+Total no Calendário: 572 | Faltantes no Grafo: 360
+------------------------------------------------------------
+- 11-11: S. Menas, mártir
+- 11-10: Ss. Trifônio, Respício e Ninfa, mártires
+- 10-23: S. Antônio Maria Claret, bispo e confessor
+- 10-7: S. Marcos, papa e confessor
+- 10-7: Ss. Sérgio, Baco, Marcelo e Apuleio, mártires
+- 5-8: Nossa Senhora Medianeira de todas as Graças
+- 10-1: Nossa Senhora Medianeira de todas as Graças
+- 1-1: Circuncisão de Nosso Senhor e Oitava do Natal
+- 1-2: Oitava de S. Estêvão, protomártir
+- 1-3: Oitava de S. João, apóstolo e evang.
+- 1-4: Oitava dos Santos Inocentes, mártires
+- 1-5: Vigília da Epifania
+- 1-5: S. Telésforo, papa e mártir
+- 1-6: Epifania do Senhor (com Oitava)
+- 1-7: Na Oitava da Epifania
+- 1-8: Na Oitava da Epifania
+- 1-9: Na Oitava da Epifania
+- 1-10: Na Oitava da Epifania
+- 1-11: Na Oitava da Epifania
+- 1-11: S. Higino, papa e mártir
+- 1-12: Na Oitava da Epifania
+- 1-13: Oitava da Epifania
+- 1-14: S. Hilário de Poitiers, bispo e doutor
+- 1-14: S. Félix, presbítero e mártir
+- 1-15: S. Paulo Eremita, confessor
+- 1-15: S. Mauro, abade
+- 1-16: S. Marcelo I, papa e mártir
+- 1-17: S. Antão, abade
+- 1-18: Cátedra de S. Pedro em Roma
+- 1-18: S. Paulo Apóstolo
+- 1-18: S. Prisca, virgem e mártir
+- 1-19: Ss. Mário, Marta, Audífax e Abaco, mártires
+- 1-19: S. Canuto, rei e mártir
+- 1-20: S. Fabiano, papa, e S. Sebastião, mártires
+- 1-21: S. Inês, virgem e mártir
+- 1-22: Ss. Vicente e Anastácio, mártires
+- 1-23: S. Raimundo de Penaforte, confessor
+- 1-23: S. Emerenciana, virgem e mártir
+- 1-24: S. Timóteo, bispo e mártir
+- 1-25: Conversão de S. Paulo Apóstolo
+- 1-25: S. Pedro Apóstolo
+- 1-26: S. Policarpo, bispo e mártir
+- 1-27: S. João Crisóstomo, bispo, confessor e doutor
+- 1-28: S. Pedro Nolasco, confessor
+- 1-28: S. Inês, virgem e mártir (segunda vez)
+- 1-29: S. Francisco de Sales, bispo e doutor
+- 1-30: S. Martinha, virgem e mártir
+- 1-31: S. João Bosco, confessor
+- 2-1: S. Inácio de Antioquia, bispo e mártir
+- 2-2: Purificação da Santíssima Virgem Maria
+- 2-3: S. Brás, bispo e mártir
+- 2-4: S. André Corsini, bispo e confessor
+- 2-5: S. Águeda, virgem e mártir
+- 2-6: S. Tito, bispo e confessor
+- 2-6: S. Dorotéia, virgem e mártir
+- 2-7: S. Romualdo, abade
+- 2-8: S. João da Mata, confessor
+- 2-9: S. Cirilo de Alexandria, bispo, confessor e doutor
+- 2-9: S. Apolônia, virgem e mártir
+- 2-10: S. Escolástica, virgem
+- 2-11: Aparição de N. Sra. Imaculada de Lourdes
+- 2-12: Sete Ss. Fundadores dos Servitas, confessores
+- 2-14: S. Valentim, presbítero e mártir
+- 2-15: Ss. Faustino e Jovita, mártires
+- 2-18: S. Simeão, bispo e mártir
+- 2-22: Cátedra de S. Pedro em Antioquia
+- 2-22: S. Paulo Apóstolo
+- 2-23: S. Pedro Damião, bispo e doutor
+- 2-23: Vigília de S. Matias, apóstolo
+- 2-24: S. Matias, apóstolo
+- 2-27: S. Gabriel da Virgem Dolorosa, confessor
+- 3-4: S. Casimiro, confessor
+- 3-4: S. Lúcio I, papa e mártir
+- 3-6: Ss. Perpétua e Felicidade, mártires
+- 3-7: S. Tomás de Aquino, confessor e doutor
+- 3-8: S. João de Deus, confessor
+- 3-9: S. Francisca Romana, viúva
+- 3-10: Ss. Quarenta Mártires
+- 3-12: S. Gregório Magno, papa, confessor e doutor
+- 3-17: S. Patrício, bispo e confessor
+- 3-18: S. Cirilo de Jerusalém, bispo, confessor e doutor
+- 3-19: S. José, esposo da Santíssima Virgem
+- 3-21: S. Bento, abade
+- 3-24: S. Gabriel Arcanjo
+- 3-25: Anunciação da Virgem Santíssima
+- 3-27: S. João Damasceno, confessor e doutor
+- 3-28: S. João de Capistrano, confessor
+- 4-2: S. Francisco de Paula, confessor
+- 4-4: S. Isidoro, bispo, confessor e doutor
+- 4-5: S. Vicente Férrer, confessor
+- 4-11: S. Leão I (Magno), papa, confessor e doutor
+- 4-13: S. Hermenegildo, mártir
+- 4-14: S. Justino, mártir
+- 4-14: Ss. Tibúrcio, Valeriano e Máximo, mártires
+- 4-17: S. Aniceto, papa e mártir
+- 4-21: S. Anselmo, bispo, confessor e doutor
+- 4-22: Ss. Sotero e Caio, papas e mártires
+- 4-23: S. Jorge, mártir
+- 4-24: S. Fidélis de Sigmaringa, mártir
+- 4-25: São Marcos, evangelista
+- 4-25: Litanias Maiores (Rogações)
+- 4-26: Ss. Cleto e Marcelino, papas e mártires
+- 4-27: S. Pedro Canísio, confessor e doutor
+- 4-28: S. Paulo da Cruz, confessor
+- 4-28: S. Vital, mártir
+- 4-29: S. Pedro de Verona, mártir
+- 4-30: S. Catarina de Sena, virgem
+- 5-1: Ss. Filipe e Tiago Menor, apóstolos
+- 5-2: S. Atanásio, bispo, confessor e doutor
+- 5-3: Invenção da Santa Cruz
+- 5-4: S. Mônica, viúva
+- 5-5: S. Pio V, papa e confessor
+- 5-6: S. João ante a Porta Latina
+- 5-7: S. Estanislau, bispo e mártir
+- 5-8: Aparição de S. Miguel Arcanjo
+- 5-9: S. Gregório Nazianzeno, bispo, confessor e doutor
+- 5-10: S. Antonino, bispo e confessor
+- 5-10: Ss. Gordiano e Epímaco, mártires
+- 5-12: Ss. Nereu, Aquileu, Domitila e Pancrácio, mártires
+- 5-13: S. Roberto Belarmino, bispo, confessor e doutor
+- 5-13: Nossa Senhora do Rosário de Fátima
+- 5-14: S. Bonifácio, mártir
+- 5-15: S. João Batista de la Salle, confessor
+- 5-16: S. Ubaldo, bispo e confessor
+- 5-17: S. Pascoal Bailão, confessor
+- 5-18: S. Venâncio, mártir
+- 5-19: S. Pedro Celestino, papa e confessor
+- 5-19: S. Pudenciana, virgem
+- 5-20: S. Bernardino de Sena, confessor
+- 5-22: Santa Rita de Cássia, viúva
+- 5-25: S. Gregório VII, papa e confessor
+- 5-25: S. Urbano I, papa e mártir
+- 5-26: S. Felipe Néri, confessor
+- 5-26: S. Eleutério, papa e mártir
+- 5-27: S. Beda, o Venerável, confessor e doutor
+- 5-27: S. João I, papa e mártir
+- 5-28: S. Agostinho de Cantuária, bispo e confessor
+- 5-29: S. Maria Madalena de Pazzi, virgem
+- 5-30: S. Félix I, papa e mártir
+- 5-30: S. Joana d'Arc, virgem
+- 5-30: S. Fernando III, rei e confessor
+- 5-31: Nossa Senhora Rainha
+- 5-31: S. Petronila, virgem
+- 6-1: Santa Ângela Merici, virgem
+- 6-2: Ss. Marcelino, Pedro e Erasmo, mártires
+- 6-4: S. Francisco Caracciolo, confessor
+- 6-5: S. Bonifácio, bispo e mártir
+- 6-6: S. Norberto, bispo e confessor
+- 6-9: Ss. Primo e Feliciano, mártires
+- 6-10: S. Margarida, rainha e viúva
+- 6-11: S. Barnabé, apóstolo
+- 6-12: S. João de S. Facundo, confessor
+- 6-12: Ss. Basílides, Cirino, Nabor e Nazário, mártires
+- 6-13: S. Antônio de Pádua, confessor e doutor
+- 6-14: S. Basílio Magno, bispo, confessor e doutor
+- 6-15: Ss. Vito, Modesto e Crescência, mártires
+- 6-18: S. Efrém, diácono, confessor e doutor
+- 6-18: Ss. Marcos e Marceliano, mártires
+- 6-19: S. Juliana Falconieri, virgem
+- 6-19: Ss. Gervásio e Protásio, mártires
+- 6-20: S. Silvério, papa e mártir
+- 6-21: S. Luís Gonzaga, confessor
+- 6-22: S. Paulino, bispo e confessor
+- 6-23: Vigília da Natividade de S. João Batista
+- 6-24: Natividade de S. João Batista (com Oitava)
+- 6-25: S. Guilherme, abade
+- 6-25: Na Oitava de S. João Batista
+- 6-26: Ss. João e Paulo, mártires
+- 6-26: Na Oitava de S. João Batista
+- 6-27: Nossa Senhora do Perpétuo Socorro
+- 6-27: Na Oitava de S. João Batista
+- 6-28: S. Irineu, bispo e mártir
+- 6-28: Vigília dos Ss. Pedro e Paulo
+- 6-28: Na Oitava de S. João Batista
+- 6-29: Ss. Pedro e Paulo, Apóstolos (com Oitava)
+- 6-29: Na Oitava de S. João Batista
+- 6-30: Comemoração de S. Paulo Apóstolo
+- 6-30: S. Pedro Apóstolo
+- 6-30: Na Oitava de S. João Batista
+- 7-1: Festa do Preciosíssimo Sangue de N.S.J.C.
+- 7-1: Na oitava dos Ss. Pedro e Paulo, apóstolos
+- 7-1: Dia da Oitava de S. João Batista
+- 7-2: Visitação da Santíssima Virgem Maria
+- 7-2: Na oitava dos Ss. Pedro e Paulo, apóstolos
+- 7-2: Ss. Processo e Martiniano, mártires
+- 7-3: S. Leão II, papa e confessor
+- 7-3: Na oitava dos Ss. Pedro e Paulo, apóstolos
+- 7-4: Na oitava dos Ss. Pedro e Paulo, apóstolos
+- 7-5: S. Antônio Maria Zaccaria, confessor
+- 7-5: Na oitava dos Ss. Pedro e Paulo, apóstolos
+- 7-6: Oitava dos Ss. Pedro e Paulo, apóstolos
+- 7-7: Ss. Cirilo e Metódio, bispos e confessores
+- 7-8: S. Isabel, Rainha de Portugal, viúva
+- 7-9: Santa Maria Goretti, Virgem e Mártir
+- 7-9: Nossa Senhora, Rainha da Paz
+- 7-10: Sete Irmãos mártires, Ss. Rufina e Secunda
+- 7-11: S. Pio I, papa e mártir
+- 7-12: S. João Gualberto, abade
+- 7-12: Ss. Nabor e Félix, mártires
+- 7-13: S. Anacleto, papa e mártir
+- 7-14: S. Boaventura, bispo, confessor e doutor
+- 7-15: S. Henrique, imperador e confessor
+- 7-15: S. Inácio de Azevedo e Companheiros, mártires
+- 7-16: Nossa Senhora do Carmo
+- 7-17: S. Aleixo, confessor
+- 7-18: S. Camilo de Léllis, confessor
+- 7-18: S. Sinforosa e seus sete filhos, mártires
+- 7-19: S. Vicente de Paulo, confessor
+- 7-20: S. Jerônimo Emiliani, confessor
+- 7-20: S. Margarida, virgem e mártir
+- 7-21: S. Práxedes, virgem
+- 7-22: S. Maria Madalena, penitente
+- 7-23: S. Apolinário, bispo e mártir
+- 7-23: S. Libório, bispo e confessor
+- 7-24: Vigília de S. Tiago Maior, apóstolo
+- 7-24: S. Cristina, virgem e mártir
+- 7-25: S. Tiago Maior, apóstolo
+- 7-25: S. Cristóvão, mártir
+- 7-26: S. Ana, mãe da Santíssima Virgem Maria
+- 7-27: S. Pantaleão, mártir
+- 7-28: Ss. Nazário e Celso, Mm., S. Vítor I, Papa e M., e S. Inocêncio I, Papa e Conf.
+- 7-29: S. Marta, virgem
+- 7-29: Ss. Félix II, Simplício, Faustino e Beatriz, mártires
+- 7-30: Ss. Abdon e Sennen, mártires
+- 7-31: S. Inácio de Loyola, confessor
+- 8-1: S. Pedro Acorrentado
+- 8-1: S. Paulo Apóstolo
+- 8-1: Santos Macabeus, mártires
+- 8-2: S. Afonso Maria de Ligório, bispo, confessor e doutor
+- 8-2: S. Estêvão I, papa e mártir
+- 8-3: Invenção (encontro das relíquias) de S. Estêvão, protomártir
+- 8-4: S. Domingos, confessor
+- 8-5: Dedicação da Basílica de S. Maria Maior (Nossa Senhora das Neves)
+- 8-6: Transfiguração de Nosso Senhor Jesus Cristo
+- 8-6: Ss. Xisto II, papa, Felicíssimo e Agapito, mártires
+- 8-7: S. Caetano, confessor
+- 8-7: S. Donato, bispo e mártir
+- 8-8: Ss. Ciríaco, Largo e Esmaragdo, mártires
+- 8-9: S. João Maria Vianney, confessor
+- 8-9: Vigília de S. Lourenço
+- 8-9: S. Romão, mártir
+- 8-10: S. Lourenço, mártir (com Oitava Simples)
+- 8-11: Ss. Tibúrcio e Susana, mártires
+- 8-12: S. Clara, virgem
+- 8-13: Ss. Hipólito e Cassiano, mártires
+- 8-14: Vigília da Assunção da Santíssima Virgem Maria
+- 8-14: S. Eusébio, confessor
+- 8-15: Assunção da Bem-Aventurada Virgem Maria (com Oitava)
+- 8-16: S. Joaquim, pai da Santíssima Virgem Maria
+- 8-16: Na Oitava da Assunção de Nossa Senhora
+- 8-17: S. Jacinto, confessor
+- 8-17: Oitava de S. Lourenço
+- 8-17: Na Oitava da Assunção de Nossa Senhora
+- 8-18: Na Oitava da Assunção de Nossa Senhora
+- 8-18: S. Agapito, mártir
+- 8-19: S. João Eudes, confessor
+- 8-19: Na Oitava da Assunção de Nossa Senhora
+- 8-20: S. Bernardo, abade e doutor
+- 8-20: Na Oitava da Assunção de Nossa Senhora
+- 8-21: S. Joana Francisca de Chantal, viúva
+- 8-21: Na Oitava da Assunção de Nossa Senhora
+- 8-22: Imaculado Coração de Maria
+- 8-22: Oitava da Assunção de Nossa Senhora
+- 8-22: Ss. Timóteo, Hipólito e Sinforiano, mártires
+- 8-23: S. Filipe Benício, confessor
+- 8-23: Vigília de S. Bartolomeu, apóstolo
+- 8-24: S. Bartolomeu, apóstolo
+- 8-25: S. Luís IX, rei e confessor
+- 8-26: S. Zeferino, papa e mártir
+- 8-27: S. José de Calasanz, confessor
+- 8-28: S. Agostinho, bispo, confessor e doutor
+- 8-28: S. Hermes, mártir
+- 8-29: Decapitação de S. João Batista
+- 8-29: Santa Sabina, mártir
+- 8-30: S. Rosa de Lima, virgem
+- 8-30: Santos Félix e Adaucto, mártires
+- 8-31: S. Raimundo Nonato, confessor
+- 9-1: S. Egídio, abade
+- 9-1: Os Doze Santos Irmãos, Mártires
+- 9-2: S. Estêvão, rei e confessor
+- 9-3: S. Pio X, papa e confessor
+- 9-5: S. Lourenço Justiniano, bispo e confessor
+- 9-8: Natividade da B. V. Maria (com Oitava Simples)
+- 9-8: S. Adriano, mártir
+- 9-9: S. Pedro Claver, confessor
+- 9-9: S. Gorgônio, mártir
+- 9-10: S. Nicolau de Tolentino, confessor
+- 9-11: Ss. Proto e Jacinto, mártires
+- 9-12: Santíssimo Nome de Maria
+- 9-14: Exaltação da Santa Cruz
+- 9-15: As Sete Dores de Nossa Senhora
+- 9-15: Oitava da Natividade de Nossa Senhora
+- 9-16: Ss. Cornélio e Cipriano, mártires
+- 9-17: Impressão dos Estigmas de S. Francisco de Assis
+- 9-18: S. José de Cupertino, confessor
+- 9-19: S. Januário, bispo e companheiros, mártires
+- 9-20: Ss. Eustáquio e companheiros, mártires
+- 9-20: Vigília de S. Mateus, apóstolo e evang.
+- 9-21: S. Mateus, apóstolo e evangelista
+- 9-22: S. Tomás de Vilanova, bispo e confessor
+- 9-22: S. Maurício e companheiros, mártires
+- 9-23: S. Lino, papa e mártir
+- 9-24: Nossa Senhora das Mercês
+- 9-26: Ss. Cipriano e Justina, mártires
+- 9-27: Ss. Cosme e Damião, mártires
+- 9-28: S. Venceslau, duque e mártir
+- 9-29: Dedicação de S. Miguel Arcanjo
+- 9-30: S. Jerônimo, presbítero, confessor e doutor
+- 10-1: S. Remígio, bispo e confessor
+- 10-2: Santos Anjos da Guarda
+- 10-3: S. Teresa do Menino Jesus, virgem
+- 10-4: S. Francisco de Assis, confessor
+- 10-5: Ss. Plácido e companheiros, mártires
+- 10-6: S. Bruno, confessor
+- 10-7: Nossa Senhora do Rosário
+- 10-8: S. Brígida, viúva
+- 10-9: S. João Leonardo, confessor
+- 10-9: Ss. Dionísio, Rústico e Eleutério, mártires
+- 10-11: Maternidade da Santíssima Virgem Maria
+- 10-12: Nossa Senhora da Conceição Aparecida
+- 10-27: Vigília de Ss. Simão e Judas Tadeu, apóstolos
+- 10-31: Vigília de Todos os Santos
+- 11-1: Festa de Todos os Santos (com Oitava)
+- 11-2: Comemoração de Todos os Fiéis Defuntos
+- 11-3: Na Oitava de Todos os Santos
+- 11-4: S. Carlos Borromeu, bispo e confessor
+- 11-5: Na Oitava de Todos os Santos
+- 11-6: Na Oitava de Todos os Santos
+- 11-6: S. Leonardo de Limousin, confessor
+- 11-7: Na Oitava de Todos os Santos
+- 11-8: Ss. Quatro Coroados, mártires
+- 11-8: Oitava de Todos os Santos
+- 11-9: Dedicação da Basílica do SSmo. Salvador (Latrão)
+- 11-9: S. Teodoro, mártir
+- 11-21: Apresentação de Nossa Senhora
+- 11-29: Vigília de Santo André
+- 12-2: Santa Bibiana, virgem e mártir
+- 12-3: S. Francisco Xavier, confessor
+- 12-4: S. Pedro Crisólogo, bispo, confessor e doutor
+- 12-5: S. Sabas, abade
+- 12-6: S. Nicolau, bispo e confessor
+- 12-7: Santo Ambrósio, bispo, confessor e doutor
+- 12-7: Vigília da Imaculada Conceição
+- 12-8: Imaculada Conceição da B.A. Virgem Maria (com Oitava)
+- 12-9: Na Oitava da Imaculada Conceição
+- 12-10: Na Oitava da Imaculada Conceição
+- 12-12: Na Oitava da Imaculada Conceição
+- 12-12: Nossa Senhora de Guadalupe
+- 12-14: Na Oitava da Imaculada Conceição
+- 12-15: Oitava da Imaculada Conceição
+- 12-18: Expectação do Parto de Nossa Senhora
+- 12-20: Vigília de S. Tomé, apóstolo
+- 12-24: Vigília do Natal
+- 12-25: Natal de Nosso Senhor Jesus Cristo (com Oitava)
+- 12-26: Na Oitava do Natal
+- 12-27: Na Oitava do Natal
+- 12-28: Na Oitava do Natal
+- 12-29: Na Oitava do Natal
+- 12-30: Na Oitava do Natal
+- 12-31: Na Oitava do Natal
+============================================================
