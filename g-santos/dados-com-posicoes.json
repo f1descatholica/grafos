@@ -538,6 +538,7 @@
       "grupo": "pessoa",
       "ano": 1,
       "ignorarMapa": true,
+      "urlPost": "https://f1descatholica.blogspot.com/2026/09/29-set-dedicacao-de-s-miguel-arcanjo.html",
       "x": -1777,
       "y": 337.5
     },
@@ -1602,6 +1603,7 @@
       "ano": 160,
       "localNasc": "26",
       "dataMorte": "cerca de 160",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/05/19-de-maio-santa-pudenciana-virgem-o.html",
       "x": -365,
       "y": 937.5
     },
@@ -1811,6 +1813,7 @@
       "ano": 253,
       "localNasc": "26",
       "dataMorte": "junho de 253",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/09/16-set-s-cornelio-papa-e-s-cipriano.html",
       "x": -624,
       "y": 1237.5
     },
@@ -2398,6 +2401,7 @@
       "ano": 1226,
       "localNasc": "143",
       "dataMorte": "3 de outubro de 1226",
+      "urlPost": "https://f1descatholica.blogspot.com/2026/10/4-out-s-francisco-de-assis-confessor.html",
       "x": 896,
       "y": 2662.5
     },
@@ -2905,6 +2909,7 @@
       "ano": 735,
       "localNasc": "1108",
       "dataMorte": "25 de maio de 735",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/05/27-maio-s-beda-o-veneravel-confessor-e_27.html",
       "x": -1878,
       "y": 2512.5
     },
@@ -3062,7 +3067,6 @@
       "ano": 533,
       "localNasc": "1117",
       "dataMorte": "13 de janeiro de 533",
-      "urlPost": "https://f1descatholica.blogspot.com/2026/10/01-out-s-remigio-bispo-e-confessor.html",
       "x": -1882,
       "y": 2287.5
     },
@@ -3157,7 +3161,6 @@
       "ano": 655,
       "localNasc": "1123",
       "dataMorte": "16 de setembro de 655",
-      "urlPost": "https://f1descatholica.blogspot.com/2026/11/12-nov-s-martinho-i-papa-e-martir.html",
       "x": 2067,
       "y": 2287.5
     },
@@ -3549,6 +3552,7 @@
       "ano": 1663,
       "localNasc": "845",
       "dataMorte": "18 de setembro de 1663",
+      "urlPost": "https://f1descatholica.blogspot.com/2025/09/18-set-s-jose-de-cupertino-confessor.html",
       "x": 2798,
       "y": 3262.5
     },

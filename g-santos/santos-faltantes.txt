@@ -1,7 +1,7 @@
 ============================================================
 AUDITORIA: SANTOS DO CALENDÁRIO AUSENTES NO GRAFO
 ============================================================
-Total no Calendário: 572 | Faltantes no Grafo: 143
+Total no Calendário: 572 | Faltantes no Grafo: 141
 ------------------------------------------------------------
 - 11-11: S. Menas, mártir
 - 11-10: Ss. Trifônio, Respício e Ninfa, mártires
@@ -22,7 +22,9 @@ Total no Calendário: 572 | Faltantes no Grafo: 143
 - 1-11: Na Oitava da Epifania
 - 1-12: Na Oitava da Epifania
 - 1-13: Oitava da Epifania
+- 1-18: Cátedra de S. Pedro em Roma
 - 1-18: S. Paulo Apóstolo
+- 1-25: Conversão de S. Paulo Apóstolo
 - 1-25: S. Pedro Apóstolo
 - 1-28: S. Inês, virgem e mártir (segunda vez)
 - 2-2: Purificação da Santíssima Virgem Maria
@@ -34,8 +36,8 @@ Total no Calendário: 572 | Faltantes no Grafo: 143
 - 4-25: Litanias Maiores (Rogações)
 - 5-1: Ss. Filipe e Tiago Menor, apóstolos
 - 5-3: Invenção da Santa Cruz
+- 5-6: S. João ante a Porta Latina
 - 5-14: S. Bonifácio, mártir
-- 5-31: Nossa Senhora Rainha
 - 6-1: Santa Ângela Merici, virgem
 - 6-4: S. Francisco Caracciolo, confessor
 - 6-12: S. João de S. Facundo, confessor
@@ -47,7 +49,6 @@ Total no Calendário: 572 | Faltantes no Grafo: 143
 - 6-27: Na Oitava de S. João Batista
 - 6-28: Vigília dos Ss. Pedro e Paulo
 - 6-28: Na Oitava de S. João Batista
-- 6-29: Ss. Pedro e Paulo, Apóstolos (com Oitava)
 - 6-29: Na Oitava de S. João Batista
 - 6-30: Comemoração de S. Paulo Apóstolo
 - 6-30: S. Pedro Apóstolo
@@ -65,7 +66,6 @@ Total no Calendário: 572 | Faltantes no Grafo: 143
 - 7-9: Santa Maria Goretti, Virgem e Mártir
 - 7-9: Nossa Senhora, Rainha da Paz
 - 7-12: Ss. Nabor e Félix, mártires
-- 7-13: S. Anacleto, papa e mártir
 - 7-15: S. Inácio de Azevedo e Companheiros, mártires
 - 7-16: Nossa Senhora do Carmo
 - 7-18: S. Sinforosa e seus sete filhos, mártires
@@ -77,6 +77,7 @@ Total no Calendário: 572 | Faltantes no Grafo: 143
 - 8-1: S. Paulo Apóstolo
 - 8-1: Santos Macabeus, mártires
 - 8-2: S. Estêvão I, papa e mártir
+- 8-3: Invenção (encontro das relíquias) de S. Estêvão, protomártir
 - 8-6: Ss. Xisto II, papa, Felicíssimo e Agapito, mártires
 - 8-7: S. Donato, bispo e mártir
 - 8-9: Vigília de S. Lourenço
@@ -104,12 +105,11 @@ Total no Calendário: 572 | Faltantes no Grafo: 143
 - 9-14: Exaltação da Santa Cruz
 - 9-15: As Sete Dores de Nossa Senhora
 - 9-15: Oitava da Natividade de Nossa Senhora
+- 9-17: Impressão dos Estigmas de S. Francisco de Assis
 - 9-20: Vigília de S. Mateus, apóstolo e evang.
 - 9-24: Nossa Senhora das Mercês
-- 9-29: Dedicação de S. Miguel Arcanjo
 - 10-2: Santos Anjos da Guarda
 - 10-3: S. Teresa do Menino Jesus, virgem
-- 10-4: S. Francisco de Assis, confessor
 - 10-7: Nossa Senhora do Rosário
 - 10-11: Maternidade da Santíssima Virgem Maria
 - 10-12: Nossa Senhora da Conceição Aparecida
@@ -138,9 +138,7 @@ Total no Calendário: 572 | Faltantes no Grafo: 143
 - 12-20: Vigília de S. Tomé, apóstolo
 - 12-24: Vigília do Natal
 - 12-25: Natal de Nosso Senhor Jesus Cristo (com Oitava)
-- 12-26: Santo Estêvão, protomártir
 - 12-26: Na Oitava do Natal
-- 12-27: S. João, apóstolo e evangelista
 - 12-27: Na Oitava do Natal
 - 12-28: Na Oitava do Natal
 - 12-29: Na Oitava do Natal
