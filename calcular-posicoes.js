@@ -1,3 +1,4 @@
+
 // ============================================================
 // calcular-posicoes.js github
 // ============================================================
@@ -459,8 +460,9 @@ var NOMES_MESES_MAPA = [
 ];
 
 var MAPA_MES_POR_NOME = {
-  janeiro: 1, fevereiro: 2, marco: 3, abril: 4, maio: 5, junho: 6,
-  julho: 7, agosto: 8, setembro: 9, outubro: 10, novembro: 11, dezembro: 12
+  janeiro: 1, jan: 1, fevereiro: 2, fev: 2, marco: 3, mar: 3, abril: 4, abr: 4,
+  maio: 5, mai: 5, junho: 6, jun: 6, julho: 7, jul: 7, agosto: 8, ago: 8,
+  setembro: 9, set: 9, outubro: 10, out: 10, novembro: 11, nov: 11, dezembro: 12, dez: 12
 };
 
 function normalizarSemAcentoMaiuscula(texto) {
@@ -543,7 +545,7 @@ function gravarRelatorioAcumulativo(caminhoRelatorio, ocorrencias) {
 function extrairDiaMesDeTexto(texto) {
   var limpo = String(texto || '').trim();
   if (!limpo) return null;
-  var m = limpo.match(/\b(\d{1,2})\s+de\s+([a-zA-ZÀ-ÿ]+)/i);
+  var m = limpo.match(/\b(\d{1,2})\s+(?:de\s+)?([a-zA-ZÀ-ÿ]+)\.?/i);
   if (!m) return null;
   var dia = parseInt(m[1], 10);
   if (isNaN(dia) || dia < 1 || dia > 31) return null;
@@ -553,7 +555,8 @@ function extrairDiaMesDeTexto(texto) {
   return {
     dia: dia,
     mesNum: mesNum,
-    diaMesStr: dia + ' de ' + NOMES_MESES_MAPA[mesNum - 1]
+    diaMesStr: dia + ' de ' + NOMES_MESES_MAPA[mesNum - 1],
+    matchTexto: m[0]
   };
 }
 
@@ -1341,8 +1344,8 @@ function vincularPostsAosSantos(todosNos, regrasCarregadas, todosSetas, posts) {
     var dataPost = extrairDiaMesDeTexto(tituloBruto);
     if (!dataPost) return;
 
-    var semData = tituloBruto.replace(/\b\d{1,2}\s+de\s+[a-zA-ZÀ-ÿ]+/i, '').replace(/^[\s:–—,-]+|[\s:–—,-]+$/g, '');
-    var trechoNome = semData.split(/[:–—]|\s+-\s+/)[0];
+    var semData = tituloBruto.replace(dataPost.matchTexto, '').replace(/^[\s:–—✧✦•|,-]+|[\s:–—✧✦•|,-]+$/g, '');
+    var trechoNome = semData.split(/[:–—✧✦•|]|\s+-\s+/)[0];
     var toksPost = extrairTokensIdentidadeSanto(trechoNome);
     if (toksPost.length === 0) return;
 
